@@ -8,553 +8,381 @@ tags: [attitudes, persuasion, cognitive-dissonance, classical-conditioning, inst
 
 # 5 Attitudes: Evaluating and Responding to the Social World
 
-Attitudes are evaluations of virtually any aspect of the social world — people, objects, ideas, actions, or groups. They can be explicit or implicit, stable or variable, and are central to social psychology because they color virtually every aspect of experience and often (though not always) predict behavior. This chapter covers how attitudes form, when and why they guide behavior, how they are changed through persuasion, why they resist change, and how our own behavior can reshape attitudes through cognitive dissonance.
+Attitudes are evaluations of any aspect of the social world (people, objects, ideas, actions, groups). They can be explicit or implicit, stable or variable, and often (not always) predict behavior. This chapter covers how attitudes form, when they guide behavior, how persuasion changes them, why they resist change, and how behavior reshapes attitudes via cognitive dissonance.
 
 ---
 
-## Attitude Formation: How Attitudes Develop
+## Attitude Formation
 
-- **Attitude**: An evaluation of almost any aspect of the social world (Olson & Kendrick, 2008; Petty, Wheeler, & Tormala, 2003).
-- Attitudes can be favorable or unfavorable toward issues, ideas, objects, actions, specific persons, or entire social groups.
-- Some attitudes are stable and resistant to change; others are unstable and context-dependent (Schwarz & Bohner, 2001).
-- Attitudes vary in certainty: some are held with great certainty, others are unclear or uncertain (Tormala & Rucker, 2007).
-- Evaluative reactions to stimuli appear to be an **initial step** in making sense of the world — they occur almost immediately, even before full cognitive integration.
-- Evaluative versus non-evaluative brain responses produce **different brain wave activity** (Crites & Cacioppo, 1996).
+- **Attitude**: an evaluation of almost any aspect of the social world (Olson & Kendrick, 2008; Petty, Wheeler, & Tormala, 2003).
+- Some attitudes are stable and resistant; others are unstable and context-dependent (Schwarz & Bohner, 2001).
+- Attitudes vary in certainty (Tormala & Rucker, 2007).
+- Evaluative reactions are an **initial step** in making sense of the world; they occur almost immediately. Evaluative vs. non-evaluative responses produce **different brain wave activity** (Crites & Cacioppo, 1996).
 
 ### Explicit vs. Implicit Attitudes
 
-- **Explicit attitudes**: Consciously accessible attitudes that are controllable and easy to report.
-- **Implicit attitudes**: Unconscious associations between objects and evaluative responses; uncontrollable and potentially not consciously accessible.
-- Example: Many self-perceived "color-blind" Americans report positive explicit attitudes toward African Americans but display negative implicit attitudes (Fazio & Olson, 2003).
-- Implicit attitudes can predict some behaviors (e.g., juror decisions) better than explicit attitude measures (Greenwald, Poehlman, Uhlmann, & Banaji, 2009).
+- **Explicit attitudes**: consciously accessible, controllable, easy to report.
+- **Implicit attitudes**: unconscious object-evaluation associations; uncontrollable, often not accessible.
+- Example: many "color-blind" Americans report positive explicit but negative implicit attitudes toward African Americans (Fazio & Olson, 2003).
+- Implicit attitudes can predict some behaviors (e.g., juror decisions) better than explicit measures (Greenwald, Poehlman, Uhlmann, & Banaji, 2009).
 
 ### Implicit Association Test (IAT)
 
-- **IAT (Implicit Association Test)**: Developed by Greenwald, McGhee, & Schwarz (1998).
-- Measures how quickly people associate social objects (e.g., racial groups) with positive or negative descriptive words.
-- Faster response latency = stronger automatic association.
-- Example: Williams, Paluck, & Spencer-Rodgers (2010) used IAT and found male references (man, son, husband) were automatically associated with wealth-related terms (rich, cash, paycheck) faster than female references.
-- **Criticism of IAT**: May assess familiarity with cultural stereotypes rather than personal endorsement (Arkes & Tetlock, 2004).
-- IAT is susceptible to deliberate faking (Fiedler, Messner, & Bluemke, 2006); easier to fake with experience (Blair, 2002).
-- IAT scores remain controversial (Gawronski, LeBel, & Peters, 2007).
-- Website for self-testing: http://implicit.harvard.edu/implicit
+- **IAT** (Greenwald, McGhee, & Schwarz, 1998): measures how quickly people associate social objects with positive/negative words; faster latency = stronger automatic association.
+- Example: Williams, Paluck, & Spencer-Rodgers (2010): male references (man, son, husband) associated with wealth terms (rich, cash) faster than female references.
+- **Criticisms**: may assess familiarity with cultural stereotypes, not personal endorsement (Arkes & Tetlock, 2004); susceptible to faking (Fiedler et al., 2006); scores controversial (Gawronski et al., 2007).
 
 ### Social Learning
 
-- **Social learning**: The process through which we acquire new information, forms of behavior, or attitudes from other people.
-- Attitudes develop through three social learning mechanisms: **classical conditioning**, **instrumental conditioning**, and **observational learning**.
-- Attitudes toward novel issues (e.g., stem cell use) are shaped by long-term values like religious beliefs rather than scientific knowledge (Ho, Brossard, & Scheufele, 2008).
+- **Social learning**: acquiring information, behavior, or attitudes from others, via **classical conditioning**, **instrumental conditioning**, and **observational learning**.
+- Attitudes toward novel issues (e.g., stem cells) are shaped by long-term values like religion rather than scientific knowledge (Ho, Brossard, & Scheufele, 2008).
 
 ---
 
-## Classical Conditioning: Learning Based on Association
+## Classical Conditioning: Learning by Association
 
-- **Classical conditioning**: A basic form of learning in which one stimulus, initially neutral, acquires the capacity to evoke reactions through repeated pairing with another stimulus; one stimulus becomes a signal for the occurrence of the other.
-- **Unconditioned stimulus (UCS)**: A stimulus that evokes a positive or negative response without substantial learning (e.g., attractive women).
-- **Conditioned stimulus (CS)**: The formerly neutral stimulus that, through pairing with the UCS, comes to evoke a conditioned response (e.g., beer logo).
-- Advertisers use this principle extensively: pair product logo with stimuli already responded to positively by the target audience.
+- **Classical conditioning**: a neutral stimulus acquires the capacity to evoke reactions through repeated pairing with another stimulus.
+- **Unconditioned stimulus (UCS)**: evokes a response without learning (e.g., attractive women).
+- **Conditioned stimulus (CS)**: formerly neutral stimulus that comes to evoke a conditioned response (e.g., beer logo).
+- Advertisers pair a product logo with positively-regarded stimuli.
 
-### Two Pathways of Classical Conditioning for Attitudes (Sweldens, van Osselaer, & Janiszewski, 2010)
+### Two Pathways (Sweldens, van Osselaer, & Janiszewski, 2010)
 
 | Route | Description | Example |
 |---|---|---|
-| **Direct route** | Positive stimuli repeatedly paired with product; affect directly transfers from UCS to brand | Many different attractive women paired with a beer logo |
-| **Indirect route** | A specific liked celebrity is paired with product; memory link is formed; thinking of celebrity activates the brand | Tiger Woods paired with watch brand (Nike → Michael Jordan) |
+| **Direct route** | Positive stimuli repeatedly paired with product; affect transfers UCS → brand | Many attractive women paired with a beer logo |
+| **Indirect route** | A liked celebrity paired with product; memory link forms | Michael Jordan → Nike |
 
-- Indirect route: People need not be aware the memory link is forming, but must feel positively toward the UCS celebrity (Stahl, Unkelbach, & Corneille, 2009).
+- Indirect route: people need not be aware the link forms, but must feel positively toward the celebrity (Stahl, Unkelbach, & Corneille, 2009).
 
 ### Subliminal Conditioning
 
-- **Subliminal conditioning**: Classical conditioning of attitudes by exposure to stimuli that are **below individuals' threshold of conscious awareness**.
+- **Subliminal conditioning**: conditioning attitudes via stimuli **below the threshold of conscious awareness**.
 
-> **KEY STUDY**: Krosnick, Betz, Jussim, & Lynn (1992)
-> - Method: Students saw photos of a stranger doing routine activities; other photos inducing positive or negative feelings were flashed subliminally (too brief to consciously register).
-> - Finding: Participants exposed to subliminal positive photos (newlywed couple, laughing people) liked the stranger MORE than those exposed to subliminal negative photos (open-heart surgery, werewolf).
-> - Conclusion: Attitudes can be influenced by subliminal conditioning without awareness.
+> **KEY STUDY: Krosnick, Betz, Jussim, & Lynn (1992)**
+> - Photos of a stranger doing routine activities were shown; positive or negative photos were flashed subliminally.
+> - Subliminal positive photos (newlyweds, laughter) → liked the stranger MORE than subliminal negative photos (surgery, werewolf).
+> - Attitudes can be influenced subliminally, without awareness.
 
 ### Mere Exposure
 
-- **Mere exposure**: Having seen an object before (even too rapidly to consciously remember) can result in attitude formation (Bornstein & D'Agostino, 1992).
-- Evidence from Alzheimer's patients: Patients who cannot remember seeing stimuli still showed attitude formation from mere exposure (Winograd et al., 1999) — confirming the subliminal nature.
+- **Mere exposure**: prior exposure to an object (even too rapid to remember) can form an attitude (Bornstein & D'Agostino, 1992).
+- Alzheimer's patients who couldn't remember seeing stimuli still showed mere-exposure attitude formation (Winograd et al., 1999).
 
 ### Illusion of Truth Effect
 
-- **Illusion of truth effect** (Moons, Mackie, & Garcia-Marques, 2009): Mere **repetition** of information creates a sense of familiarity and results in more positive attitudes.
-- Works for both weak and strong arguments — as long as little detailed message processing occurs.
-- Can be overcome when people are motivated and able to extensively process the message.
+- **Illusion of truth effect** (Moons, Mackie, & Garcia-Marques, 2009): mere **repetition** creates familiarity and more positive attitudes; works for weak and strong arguments when little detailed processing occurs; overcome by motivated, careful processing.
 
-### Classical Conditioning and Discrimination
+### Conditioning and Discrimination
 
-> **KEY STUDY**: Falomir-Pichastor, Munoz-Rojas, Invernizzi, & Mugny (2004) — Switzerland
-> - Finding: When anti-discrimination norms are in place, prejudiced behavior is reduced ONLY when feelings of threat from the outgroup are LOW.
-> - When threat is HIGH, discrimination persists even when norms are anti-discriminatory.
-> - Implication: Attempts to change negative conditioned responses via norms require the absence of threat.
+> **KEY STUDY: Falomir-Pichastor et al. (2004), Switzerland**
+> - With anti-discrimination norms, prejudiced behavior is reduced ONLY when outgroup **threat is LOW**. With HIGH threat, discrimination persists despite norms.
 
 ---
 
 ## Instrumental Conditioning: Rewards for the "Right" Views
 
-- **Instrumental conditioning**: A basic form of learning in which responses that lead to positive outcomes (or allow avoidance of negative outcomes) are strengthened.
-- Attitudes followed by positive outcomes are strengthened; attitudes followed by negative outcomes are weakened.
-- Conditioning can be subtle: reward = psychological acceptance (smiles, approval, hugs for the "right" views).
-- Until teenage years (when peer influences grow strong), children express political, religious, and social views highly similar to those of parents and family (Oskamp & Schultz, 2005).
+- **Instrumental conditioning**: responses leading to positive outcomes (or avoiding negative ones) are strengthened.
+- Reward can be subtle psychological acceptance (smiles, approval).
+- Until the teen years, children's political/religious/social views closely match family's (Oskamp & Schultz, 2005).
 
-### Social Networks and Attitude Change
+### Social Networks
 
-- **Social networks**: Sets of individuals with whom we interact on a regular basis (Eaton, Majka, & Visser, 2008).
+- **Social networks**: sets of individuals we interact with regularly (Eaton, Majka, & Visser, 2008).
 
-> **KEY STUDY**: Levitan & Visser (2009) — University of Chicago
-> - Method: Assessed political attitudes of students at arrival; tracked networks formed over 2 months; measured attitude diversity in networks.
-> - Finding: Students who entered networks with MORE diverse attitudes showed GREATER attitude change over 2 months.
-> - Conclusion: New social networks can be influential, especially when they introduce strong, previously unencountered arguments (Levitan & Visser, 2008).
+> **KEY STUDY: Levitan & Visser (2009), University of Chicago**
+> - Tracked students' political attitudes and networks over 2 months. Those entering networks with MORE diverse attitudes showed GREATER attitude change, especially when networks introduced strong new arguments.
 
-### Audience-Dependent Attitude Expression
+### Audience-Dependent Expression
 
-> **KEY STUDY**: Noel, Wann, & Branscombe (1995)
-> - Method: Fraternity/sorority pledges were told their attitude responses would be either private or seen by powerful group members.
-> - Finding: Pledges **derogated** other fraternities/sororities when they believed current members would see their responses (to signal the in-group is most desirable); did NOT derogate when they believed responses were private.
-> - Conclusion: Both attitude formation and attitude expression depend on expected rewards from the audience.
+> **KEY STUDY: Noel, Wann, & Branscombe (1995)**
+> - Pledges **derogated** other fraternities/sororities when they believed current members would see their responses, but not when responses were private.
+> - Attitude formation and expression depend on expected rewards from the audience.
 
 ---
 
-## Observational Learning: Learning by Exposure to Others
+## Observational Learning
 
-- **Observational learning**: A basic form of learning in which individuals acquire new forms of behavior or attitudes as a result of observing others (Bandura, 1997).
-- Operates even when direct rewards for acquiring or expressing attitudes are absent.
-- Advertising is a major vehicle: we observe "people like us" or "people we want to be" responding to objects/issues.
+- **Observational learning**: acquiring behaviors/attitudes by observing others (Bandura, 1997), even without direct rewards. Advertising uses "people like us."
 
 ### Social Comparison
 
-- **Social comparison**: The process through which we compare ourselves to others to determine whether our view of social reality is correct (Festinger, 1954).
-- If others hold the same view, the view must be right.
-- **Reference groups**: Groups of people with whom we identify and whose opinions we value; people adjust attitudes toward these groups' views.
+- **Social comparison** (Festinger, 1954): comparing ourselves to others to check whether our view of reality is correct; if others agree, the view seems right.
+- **Reference groups**: groups we identify with and whose opinions we value.
 
-> **KEY STUDY**: Terry & Hogg (1996)
-> - Finding: Adoption of favorable attitudes toward wearing sunscreen depended on the extent to which respondents identified with the group advocating the change.
+> **KEY STUDY: Terry & Hogg (1996)**
+> - Favorable sunscreen attitudes depended on identification with the group advocating the change.
 
-- Attitudes toward novel outgroups can be formed from hearing **liked/similar** others express negative views — without any personal contact with outgroup members (Maio, Esses, & Bell, 1994; Terry, Hogg, & Duck, 1999).
-- Disagreement with someone seen as **similar** is uncomfortable; disagreement with someone seen as **dissimilar** is expected and not troubling (Turner, 1991).
+- Attitudes toward novel outgroups can form from hearing **liked/similar** others express negative views, without contact (Maio, Esses, & Bell, 1994).
+- Disagreement with a **similar** other is uncomfortable; with a **dissimilar** other, expected (Turner, 1991).
 
-### Identity and Persuasion Expectations
+> **KEY STUDY: Duck, Hogg, & Terry (1999)**
+> - For a safe-sex message, high-identifying students believed they'd be influenced; low-identifiers did not.
 
-> **KEY STUDY**: Duck, Hogg, & Terry (1999)
-> - Context: Safe sex/AIDS prevention message for university students.
-> - Finding: Students who identified highly with their university's student group believed they would be personally influenced by the message; those who were low-identified did not expect to be influenced.
-
-> **KEY STUDY**: Fleming & Petty (2000) — "Snickerdoodles" study
-> - Method: Men and women (high/low gender identification) told a new snack product was "men's favorite" or "women's favorite."
-> - Finding: Among those **highly identified** with their gender group, a more favorable attitude was formed when the message matched their own gender group.
-> - Among those **low in identification**, no differences in attitude based on which group liked the food.
-> - Conclusion: Attitude formation is strongly influenced by group identification and perception of what attitudes group members hold.
+> **KEY STUDY: Fleming & Petty (2000), "Snickerdoodles"**
+> - A snack labeled "men's favorite" or "women's favorite." Among those **highly identified** with their gender, attitudes were more favorable when the message matched their group; among **low identifiers**, no difference.
+> - Attitude formation depends on group identification.
 
 ---
 
 ## When and Why Do Attitudes Influence Behavior?
 
-### LaPiere's Classic Study (1934)
+> **KEY STUDY: LaPiere (1934), Attitudes vs. Behavior**
+> - Traveled 2 years with a young Chinese couple; stopped at 184 restaurants and 66 hotels/motels. Refused service only ONCE out of 250 stops. Yet later, 92% of restaurants and 91% of hotels said they would NOT serve Chinese customers.
+> - Large attitude-behavior gap; situational norms constrain discrimination.
 
-> **KEY STUDY**: LaPiere (1934) — Attitudes vs. Behavior
-> - Method: Spent 2 years traveling the U.S. with a young Chinese couple; stopped at 184 restaurants and 66 hotels/motels. Later, wrote to those businesses asking if they would serve Chinese visitors.
-> - Behavioral finding: Refused service only ONCE out of 250 stops.
-> - Survey finding: 92% of restaurants and 91% of hotels said NO to Chinese customers.
-> - Conclusion: Large gap between stated attitudes and actual behavior; situational norms constrain discriminatory behavior.
-
-- Even the most prejudiced people will not always act on their attitudes when there are strong situational pressures to the contrary.
-- Likewise, people who don't see themselves as prejudiced may discriminate under certain social conditions.
+- Even prejudiced people don't always act on attitudes under situational pressure; non-prejudiced people may discriminate under certain conditions.
 
 ---
 
-## Role of the Social Context in the Link Between Attitudes and Behavior
+## Role of Social Context
 
-- Social context directly affects the attitude-behavior connection.
-- Situational consequences (e.g., not wanting to hurt a friend's feelings about their tattoo) can override "true" attitude expression.
-- **Pluralistic ignorance**: When we collectively misunderstand what attitudes others hold and erroneously believe others have different attitudes than us.
+- Situational consequences (e.g., not hurting a friend's feelings) can override "true" attitude expression.
+- **Pluralistic ignorance**: collectively misunderstanding others' attitudes, wrongly believing others differ from us.
 
-> **KEY STUDY**: Miller & Morrison (2009) — Stanford University alcohol study
-> - Method: Stanford students had relatively negative private attitudes toward heavy alcohol use, but believed other students' attitudes were more positive (pluralistic ignorance). Students were randomly assigned to learn other students held more positive or negative attitudes than their own.
-> - Finding: Students expressed greater comfort discussing campus drinking and chose it as a discussion topic MORE when they thought other students were MORE pro-alcohol; LESS willing when they learned other students were more negative.
-> - Effect was strongest for students highly identified with the student group.
-> - Conclusion: People express attitudes in the direction of the perceived campus norm.
+> **KEY STUDY: Miller & Morrison (2009), Stanford alcohol study**
+> - Students had negative private attitudes toward heavy drinking but believed others were more positive (pluralistic ignorance). Told others were more pro- or anti-alcohol.
+> - They expressed more comfort discussing drinking when they thought others were MORE pro-alcohol; less when others were negative. Strongest for high-identifiers.
+> - People express attitudes toward the perceived norm.
 
-- Attitudes that are held with greater **certainty** are more strongly linked to behavior (Tormala & Petty, 2004).
-- When people are induced to think their attitudes are stable over time, they feel more certain and are more likely to act on them (Petrocelli, Clarkson, Tormala, & Hendrix, 2010).
-- Older people are often more certain of their attitudes than younger people; they place greater value on "standing firm" and show greater attitude-behavior consistency (Eaton, Visser, Krosnick, & Anand, 2009).
+- Higher-**certainty** attitudes predict behavior better (Tormala & Petty, 2004).
+- Believing attitudes are stable increases certainty and action (Petrocelli et al., 2010).
+- Older people are more certain, value "standing firm," and show greater attitude-behavior consistency (Eaton et al., 2009).
 
 ---
 
 ## Strength of Attitudes
 
-- **Attitude strength** encompasses:
-  1. **Extremity** (how strong the emotional reaction is)
-  2. **Certainty** (the sense that you know your attitude and it is correct)
-  3. **Personal experience** (the extent to which the attitude is based on direct experience with the object)
-- These three factors affect **attitude accessibility** (how easily the attitude comes to mind).
-- Attitude accessibility ultimately determines the extent to which attitudes drive behavior (Fazio, Ledbetter, & Towles-Schwen, 2000).
-- All three components are interrelated (Petty & Krosnick, 1995).
-- Attitudes based on moral convictions can give rise to intense emotion and strongly predict behavior (Mullen & Skitka, 2006).
+- **Attitude strength** = **extremity** + **certainty** + **personal experience**. These determine **attitude accessibility** (how easily it comes to mind), which determines attitude-behavior consistency (Fazio et al., 2000). All three are interrelated (Petty & Krosnick, 1995).
+- Moral-conviction attitudes give intense emotion and strongly predict behavior (Mullen & Skitka, 2006).
 
 ```
-Attitude Extremity
-       +
-Attitude Certainty      →   Attitude Strength   →   Attitude Accessibility   →   Attitude–Behavior Consistency
-       +
-Personal Experience
+Extremity + Certainty + Personal Experience → Attitude Strength → Accessibility → Attitude–Behavior Consistency
 ```
 
 ---
 
-## Attitude Extremity: Role of Vested Interests
+## Attitude Extremity: Vested Interests
 
-- **Attitude extremity**: The extent to which an individual feels strongly (in one direction or another) about an issue (Visser, Bizer, & Krosnick, 2006).
-- **Vested interest**: The extent to which the attitude is relevant to the individual's own concerns; whether the issue has important consequences for that person.
-- The greater the vested interest, the stronger the impact of attitude on behavior (Crano, 1995; Visser, Krosnick, & Simmons, 2003).
+- **Attitude extremity**: how strongly one feels about an issue (Visser, Bizer, & Krosnick, 2006).
+- **Vested interest**: how relevant the issue is to one's own concerns. Greater vested interest = stronger attitude-behavior link (Crano, 1995).
 
-> **KEY STUDY**: Sivacek & Crano (1982) — Drinking Age Study
-> - Method: Students asked if they would participate in a campaign against raising the legal drinking age from 18 to 21.
-> - High vested interest group (those under 21, who would be affected): >47% agreed to take part.
-> - Low vested interest group (already 21+, not affected): Only 12% agreed.
-> - Conclusion: Vested interest powerfully predicts attitude-behavior consistency.
+> **KEY STUDY: Sivacek & Crano (1982), Drinking Age**
+> - Campaign against raising the drinking age from 18 to 21. High vested interest (under 21): >47% participated; low vested interest (21+): only 12%.
 
-- Attitudes based on vested interest lead to more **counterarguing** of opposing positions, greater **resistance to change**, and increased **accessibility** as behavioral guides.
+- Vested-interest attitudes lead to more **counterarguing**, **resistance**, and **accessibility**.
 
-> **KEY STUDY**: Haugtvedt & Wegener (1994)
-> - Finding: Participants asked to consider a nuclear power plant in their OWN state developed MORE counterarguments than those considering a distant state.
+> **KEY STUDY: Haugtvedt & Wegener (1994)**
+> - Considering a nuclear plant in one's OWN state produced MORE counterarguments than a distant state.
 
-### Vested Interests vs. Abstract Values in Voting
+### Vested Interests vs. Abstract Values
 
-> **KEY STUDY**: Hunt, Kim, Borgida, & Chaiken (2010) — inspired by Frank (2004), "What's the Matter with Kansas?"
-> - Issue: When do people vote economic self-interest vs. value-based proposals?
-> - Method: White students given a proposal (raise tuition 10% to restore minority recruitment funds) framed as IMMEDIATE or DISTANT future.
-> - Immediate condition: Participants (especially financially strained ones) OPPOSED the proposal — acted on economic self-interest.
-> - Distant condition: Participants FAVORED the proposal to the extent they had egalitarian values.
-> - Conclusion: Vested material interests drive attitudes/behavior when policies are framed as having IMMEDIATE impact; abstract values dominate for DISTANT future policies.
+> **KEY STUDY: Hunt, Kim, Borgida, & Chaiken (2010)**
+> - Proposal (raise tuition 10% to restore minority recruitment funds) framed as IMMEDIATE or DISTANT.
+> - Immediate: participants (especially financially strained) OPPOSED it (self-interest). Distant: FAVORED it to the extent they held egalitarian values.
+> - Material self-interest drives attitudes for immediate-impact policies; abstract values dominate for distant ones.
 
 ---
 
-## Attitude Certainty: Importance of Clarity and Correctness
+## Attitude Certainty: Clarity and Correctness
 
-**Two components of attitude certainty** (Petrocelli, Tormala, & Rucker, 2007):
+Two components (Petrocelli, Tormala, & Rucker, 2007):
 
 | Component | Definition | What Increases It |
 |---|---|---|
-| **Attitude clarity** | Being clear about what one's attitude is; lack of ambivalence | Repeated expression of the attitude |
-| **Attitude correctness** | Feeling one's attitude is valid or the proper one to hold | Learning that others (consensus) share one's attitude |
+| **Attitude clarity** | Being clear about what one's attitude is; lack of ambivalence | Repeated expression |
+| **Attitude correctness** | Feeling one's attitude is valid/proper | Learning others share it (consensus) |
 
-> **KEY STUDY**: Petrocelli, Tormala, & Rucker (2007) — Identity Card Study
-> - Topic: Negative attitude toward required student ID cards.
-> - Consensus manipulation: High consensus (89% agree) vs. low consensus (11% agree).
-> - Finding: Attitude CLARITY was equivalent in both conditions; perceived CORRECTNESS was greater in high consensus condition.
-> - Repeated expression manipulation: Those who expressed their gun control attitude several times had greater CERTAINTY than those who expressed it once.
-> - Combined manipulation: Both low clarity AND low correctness conditions showed MORE attitude change to a persuasive message.
-> - Conclusion: Both clarity and correctness, when high, independently resist persuasion.
+> **KEY STUDY: Petrocelli, Tormala, & Rucker (2007), Identity Card Study**
+> - Consensus: high (89% agree) vs. low (11%). Clarity was equal; perceived **correctness** was greater under high consensus. Repeated expression of a gun control attitude increased **certainty**. Low clarity AND low correctness → MORE attitude change to a persuasive message.
 
-- High clarity is more predictive of behavior in **private** contexts.
-- High correctness is more predictive in **public** contexts (where correctness concerns are stronger).
-- Resisting an attack on an attitude can increase certainty by boosting both components.
-- Attitude that is high on BOTH clarity and correctness most reliably predicts behavior in public and private.
+- High clarity predicts behavior in **private** contexts; high correctness in **public** contexts. Resisting an attack can boost both. High on both reliably predicts behavior.
 
 ---
 
 ## Role of Personal Experience
 
-- Attitudes formed on the basis of **direct experience** with the attitude object exert stronger effects on behavior than attitudes formed indirectly (Tormala, Petty, & Brinol, 2002).
-- Direct experience attitudes are stronger and more likely to come to mind when the attitude object is present.
-- Direct-experience attitudes are elaborated on (supporting arguments generated), making them more resistant to change (Wegener, Petty, Smoak, & Fabrigar, 2004).
-- People who are more involved with an issue and whose values are linked to it are more likely to act on their attitudes (Blankenship & Wegener, 2008).
+- **Direct experience** attitudes exert stronger effects on behavior (Tormala, Petty, & Brinol, 2002): more accessible, more elaborated, more resistant to change (Wegener et al., 2004).
+- People involved with an issue, with linked values, are more likely to act (Blankenship & Wegener, 2008).
 
-> **KEY STUDY**: Blankenship & Wegener (2008) — Tashkentistan/EU Study
-> - Method: Students considered whether fictitious country Tashkentistan should join the EU in light of a value important to them (freedom) or unimportant (unity).
-> - Finding: More time spent thinking/elaborating when important values were involved; this led to stronger attitudes that guided behavior even under attack.
+> **KEY STUDY: Blankenship & Wegener (2008), Tashkentistan/EU**
+> - Students considered the fictitious country joining the EU via an important value (freedom) or unimportant one (unity). Important values → more elaboration → stronger attitudes that guided behavior even under attack.
 
-### Summary: Factors Affecting Attitude-Behavior Link
-
-1. **Situational constraints** may prevent overt attitude expression.
-2. **Attitude extremity** (vested interest), especially for immediate-impact policies.
-3. **Attitude clarity and correctness** (certainty) — certain attitudes more likely to predict behavior.
-4. **Personal experience / value relevance** — direct experience and value-linked attitudes are more accessible and predictive.
+### Summary: Factors in the Attitude-Behavior Link
+1. **Situational constraints** may block expression.
+2. **Extremity/vested interest** (especially immediate-impact policies).
+3. **Certainty** (clarity + correctness).
+4. **Personal experience / value relevance**.
 
 ---
 
-## EMOTIONS AND ATTITUDE FORMATION: When What the Ad Promises Matches How We Feel
+## EMOTIONS AND ATTITUDE FORMATION: Ad Promise Matching Mood
 
-> **KEY STUDY**: Kim, Park, & Schwarz (2010) — Japan Vacation Ad Study
-> - Background: People in good moods evaluate products more positively (Schwarz & Clore, 2007), but positive emotions vary in arousal: high arousal (excitement) vs. low arousal (peaceful).
-> - Method: Participants wrote about a life event inducing either excitement or peacefulness. Then evaluated one of two Japan vacation ads: "Full of Adventure" (high arousal promise) or "Full of Serenity" (low arousal promise). Half were given an awareness cue reminding them their mood might affect judgment.
-> - Without awareness cue: Adventurous vacation rated MORE favorably when participants felt excited; serene vacation rated MORE favorably when participants felt peaceful — **emotion-product arousal matching**.
-> - With awareness cue: Emotion no longer affected attitude formation (discrediting the emotion as information).
-> - Follow-up study: Same pattern for expectations that the trip would actually deliver the promised emotional experience.
-> - Theoretical basis: Schwarz & Clore (1983) — emotions serve as information when forming attitudes UNLESS attention is drawn to the irrelevant source of those emotions.
-> - Conclusion: Current emotional state acts as information in attitude formation when its incidental nature is not recognized; matching ad arousal level to current emotional arousal increases positive attitude toward the product.
+> **KEY STUDY: Kim, Park, & Schwarz (2010), Japan Vacation Ad**
+> - Participants wrote about an exciting or peaceful event, then evaluated a "Full of Adventure" (high arousal) or "Full of Serenity" (low arousal) Japan vacation ad. Half got an awareness cue about mood.
+> - Without cue: adventure ad rated higher by excited participants; serene ad higher by peaceful participants (**emotion-product arousal matching**). With cue: emotion no longer affected attitudes.
+> - Basis: Schwarz & Clore (1983), emotions serve as information unless attention is drawn to their irrelevant source.
+> - Matching ad arousal to current emotional arousal increases positive attitudes.
 
 ---
 
 ## How Do Attitudes Guide Behavior?
 
-Two main routes through which attitudes guide behavior:
-1. **Reasoned thought** (deliberate, planned processing)
-2. **Spontaneous behavioral reactions** (automatic, quick processing)
+Two routes: (1) **reasoned thought**, (2) **spontaneous behavioral reactions**.
+
+### Reasoned Thought
+
+- **Theory of Planned Behavior** (Ajzen, 1991): **attitude toward the behavior** + **subjective norms** (perceived social pressure) + **perceived behavioral control** (perceived ease/difficulty) → **behavioral intentions** → behavior. Best for **deliberate, planned** behavior.
+
+> **KEY STUDY: Morison, Cozzolino, & Orbell (2010), HPV Vaccine**
+> - Considering future consequences → more positive thoughts → more positive attitudes → greater anticipated regret → choosing to vaccinate. Carefully formed attitudes predict behavior in important domains.
+
+### Spontaneous Reactions
+
+- Without time/motivation, accessible attitudes guide behavior automatically.
+- **Attitude accessibility**: how easily an attitude comes to mind; depends on object-evaluation association strength (Fazio, 2000). High accessibility when attitudes are strong/certain, formed by direct experience, or frequently activated.
+- **MODE model** (Fazio, 1990): Motivation and Opportunity as DEterminants. High motivation + opportunity → reasoned thought; low → automatic, accessibility-based processing.
 
 ---
 
-## Attitudes Arrived at Through Reasoned Thought
+## The Fine Art of Persuasion
 
-- **Theory of Planned Behavior** (Ajzen, 1991): Attitudes toward a behavior, subjective norms, and perceived behavioral control jointly determine **behavioral intentions**, which predict actual behavior.
-  - **Attitude toward the behavior**: Evaluation of performing the specific behavior.
-  - **Subjective norms**: Perceived social pressure to perform or not perform the behavior.
-  - **Perceived behavioral control**: The perceived ease or difficulty of performing the behavior.
-- This model applies best when behavior is **deliberate and planned** (e.g., medical decisions, voting).
+- **Persuasion**: attempts to change attitudes through messages. Three components: **communicator**, **message**, **audience**.
 
-> **KEY STUDY**: Morison, Cozzolino, & Orbell (2010) — HPV Vaccine Study
-> - Method: Parents' tendencies to consider future consequences were assessed; they read balanced information about benefits/risks of HPV vaccine for daughters; thoughts were coded positive/negative; attitudes measured; anticipated regret measured; vaccination decision assessed.
-> - Model supported: Considering future consequences → more positive thoughts → more positive attitudes → greater anticipated regret → choosing to vaccinate.
-> - Conclusion: Attitudes formed from careful information consideration predict behavior in important domains like medical decision making.
+### Communicator (Source)
+- **Credibility** = **expertise** + **trustworthiness**; high credibility → more initial change.
+- **Sleeper effect**: over time, change from a low-credibility source can INCREASE as the source is forgotten but the message remembered.
+- **Attractiveness/likability**, **similarity**, and faster **speech speed** increase persuasion.
 
----
+### Message
+- **Message quality**: strong arguments persuade when audiences process carefully.
+- **One-sided** (only the communicator's side): better for favorable/uninformed audiences. **Two-sided** (presents and refutes the other side): better for opposed/informed audiences.
+- **Fear appeals**: persuasive IF paired with specific actionable recommendations.
+- **Framing**: **gain frames** emphasize benefits; **loss frames** emphasize costs of inaction (often better for health).
+- **Emotional appeals** matching mood (Kim, Park, & Schwarz, 2010); **repetition** (illusion of truth effect).
 
-## Attitudes and Spontaneous Behavioral Reactions
-
-- When there is no time or motivation for deliberate thought, **attitudes guide behavior automatically** — if the attitude is accessible.
-- **Attitude accessibility**: How easily and quickly an attitude comes to mind; determined by the strength of the association between the attitude object and one's evaluation of it (Fazio, 2000).
-- Attitudes with high accessibility exert automatic influence on behavior without deliberate reasoning.
-- High accessibility is more likely when:
-  - Attitudes are strong and certain.
-  - Attitudes were formed through direct experience.
-  - Attitudes have been frequently activated/expressed.
-- **MODE model** (Fazio, 1990): Motivation and Opportunity as DEterminants of attitude-behavior relationship.
-  - When motivation and opportunity for deliberate processing are HIGH: reasoned thought guides behavior.
-  - When motivation and opportunity are LOW: automatic (attitude-accessibility-based) processing guides behavior.
+### Audience
+- **Need for Cognition (NFC)** (Cacioppo & Petty, 1982): enjoyment of effortful thinking. High NFC → persuaded by strong arguments, resistant to weak ones; low NFC → influenced by peripheral cues.
+- **Mood**: good moods → less careful (peripheral) processing; neutral/bad → systematic.
+- **Involvement/relevance**: high involvement → careful processing.
 
 ---
 
-## The Fine Art of Persuasion: How Attitudes Are Changed
+## Cognitive Processes in Persuasion
 
-- **Persuasion**: Attempts to change attitudes through the use of various kinds of messages.
-- Three key components: the **communicator**, the **message**, and the **audience**.
-
----
-
-## Persuasion: Communicators, Messages, and Audiences
-
-### Communicator (Source) Characteristics
-
-- **Credibility**: Combination of **expertise** (knowledgeable about the topic) and **trustworthiness** (unbiased, honest).
-  - High-credibility sources produce more attitude change initially.
-  - **Sleeper effect**: Over time, attitude change from a low-credibility source can actually INCREASE as people forget the source but remember the message content.
-- **Attractiveness** and **likability**: Attractive, liked communicators are more persuasive (halo effect).
-- **Similarity**: Perceived similarity to audience increases persuasion.
-- **Speed of speech**: Faster speakers perceived as more credible and persuasive.
-
-### Message Characteristics
-
-- **Message quality**: Strong, well-reasoned arguments are more persuasive when the audience processes carefully.
-- **One-sided vs. two-sided messages**:
-  - One-sided: Presents only arguments favoring the communicator's position; more effective when audience is initially favorable or uninformed.
-  - Two-sided: Presents arguments on both sides (then refutes opposing); more effective when audience is initially opposed or well-informed.
-- **Fear appeals**: Messages that arouse fear can be persuasive IF accompanied by specific, actionable recommendations (high-efficacy messages).
-- **Message framing**:
-  - **Gain frames**: Emphasize benefits of performing an action.
-  - **Loss frames**: Emphasize costs of not performing an action; often more effective for health-related behaviors.
-- **Emotional appeals**: Messages that match the audience's current emotional state are more persuasive (Kim, Park, & Schwarz, 2010).
-- **Repetition**: Repeated messages increase familiarity and positive attitudes (illusion of truth effect).
-
-### Audience Characteristics
-
-- **Need for Cognition (NFC)** (Cacioppo & Petty, 1982): Individual difference in the extent to which people enjoy and engage in effortful cognitive activities.
-  - High NFC individuals: More persuaded by strong arguments; more resistant to weak arguments; process messages systematically.
-  - Low NFC individuals: More influenced by peripheral cues (attractiveness, credibility signals).
-- **Mood**: People in good moods process messages less carefully (use peripheral cues more); people in neutral or bad moods process more systematically.
-- **Involvement/personal relevance**: High-involvement audiences process arguments more carefully.
-
----
-
-## The Cognitive Processes Underlying Persuasion
-
-### Elaboration Likelihood Model (ELM)
-
-- Developed by **Petty & Cacioppo (1986)**.
-- Two routes to persuasion:
+### Elaboration Likelihood Model (ELM), Petty & Cacioppo (1986)
 
 | Feature | Central Route | Peripheral Route |
 |---|---|---|
-| Processing depth | High elaboration; careful scrutiny of arguments | Low elaboration; superficial processing |
-| Determinants | High motivation + high ability to process | Low motivation or low ability |
-| Persuasion basis | Quality/strength of arguments | Peripheral cues (source attractiveness, credibility, number of arguments, mood) |
-| Attitude change | More enduring, resistant to counter-persuasion, predictive of behavior | Less enduring, more susceptible to change, less predictive of behavior |
+| Processing | High elaboration; careful scrutiny | Low elaboration; superficial |
+| Determinants | High motivation + ability | Low motivation or ability |
+| Persuasion basis | Argument quality/strength | Peripheral cues (attractiveness, credibility, number of arguments, mood) |
+| Attitude change | Enduring, resistant, predicts behavior | Less enduring, changeable, weaker predictor |
 
-- **Elaboration**: The extent to which people think about and evaluate the content of a message.
-- **Peripheral cues**: Features of a message or situation that can lead to attitude change without careful argument processing.
+- **Elaboration**: extent of thinking about message content.
+- **Peripheral cues**: features causing change without careful argument processing.
 
-### Heuristic-Systematic Model (HSM)
+### Heuristic-Systematic Model (HSM), Chaiken (1987)
+- **Systematic processing**: careful analysis (≈ central route).
+- **Heuristic processing**: shortcuts (≈ peripheral): "experts are correct," "longer messages are better."
+- **Sufficiency principle**: people process only until confident.
 
-- Developed by **Chaiken (1987)**.
-- **Systematic processing**: Careful, effortful analysis of arguments (analogous to ELM's central route).
-- **Heuristic processing**: Use of mental shortcuts or rules of thumb (analogous to ELM's peripheral route).
-  - Examples: "Experts are correct," "Longer messages are better," "People I like are right."
-- **Sufficiency principle**: People process to the extent needed to feel confident in their attitude.
-
-### Key Factors Determining Processing Route
-
-1. **Motivation**: Personal relevance, need for cognition, accountability.
-2. **Ability**: Distraction, time pressure, message complexity, prior knowledge.
-3. **Message features**: Number of arguments, argument quality, repetition.
+### Factors Determining Route
+1. **Motivation** (relevance, NFC, accountability).
+2. **Ability** (distraction, time pressure, complexity, prior knowledge).
+3. **Message features** (number/quality of arguments, repetition).
 
 ---
 
-## SOCIAL LIFE IN A CONNECTED WORLD: Electronic Word-of-Mouth Marketing and Persuasion
+## SOCIAL LIFE IN A CONNECTED WORLD: Electronic Word-of-Mouth
 
-- **Electronic word-of-mouth (eWOM)**: Online consumer reviews, recommendations, and social media posts that function as persuasive messages.
-- Online reviews are persuasive partly through **social proof** (consensus cues: "thousands of positive reviews").
-- eWOM can operate via both central (argument quality in detailed reviews) and peripheral (star ratings, number of reviews) routes.
-- People are more influenced by reviews from people they perceive as similar to themselves.
-- **Parasocial relationships**: Feelings of connection to online figures or influencers can amplify their persuasive impact (operates like observational learning + likability).
-- **Astroturfing**: Fake grassroots online reviews designed to appear as genuine word-of-mouth; an ethical concern in eWOM.
-- The Internet allows rapid formation of attitude-sharing communities, reinforcing existing attitudes (connects to Festinger's social support and disconfirmation resistance).
+- **Electronic word-of-mouth (eWOM)**: online reviews, recommendations, posts as persuasive messages.
+- Persuasive via **social proof** (consensus cues), and via both central (detailed reviews) and peripheral (star ratings, count) routes.
+- More influence from similar-seeming reviewers; **parasocial relationships** with influencers amplify impact.
+- **Astroturfing**: fake grassroots reviews; an ethical concern.
 
 ---
 
-## Resisting Persuasion Attempts
+## Resisting Persuasion
+
+### Reactance: Protecting Freedom
+- **Psychological reactance** (Brehm, 1966): a motivational state when freedom is threatened; people reassert freedom, often becoming MORE attracted to the forbidden position (**boomerang effect**).
+- A **hard sell** triggers reactance. Stronger when the threatened freedom is important and expected.
+
+### Forewarning
+- **Forewarning**: prior knowledge of an incoming persuasive message; gives time to generate **counterarguments**, reducing influence (Petty & Cacioppo, 1977).
+- Types: forewarning of **persuasive intent** and of **message content** (the latter reduces persuasion even more). Most effective with time and motivation to prepare.
+
+### Selective Avoidance
+- **Selective avoidance**: directing attention away from challenging information.
+- **Selective exposure**: seeking attitude-consistent information.
+- Together they create an **echo chamber**, amplified by algorithmic filtering online.
+
+### Counterarguing and Inoculation
+- **Counterarguing**: mentally refuting a message; more likely among high-vested-interest individuals (Haugtvedt & Wegener, 1994).
+- **Attitude inoculation** (McGuire, 1964): exposure to a **weak** opposing argument plus refutation builds resistance to stronger attacks later (medical-inoculation analogy). More effective than supportive defense; raises certainty and correctness.
+
+### Individual Differences
+- **NFC** (Cacioppo & Petty, 1982): high NFC → more counterarguing, resistant to weak arguments.
+- **Self-monitoring**: high self-monitors persuaded by image appeals; low by argument quality.
+- **Dogmatism**: closed-mindedness → resistance regardless of quality.
+- **Right-Wing Authoritarianism (RWA)**: susceptible to in-group authority, resistant to out-group.
+- High **attitude certainty** (Petrocelli et al., 2007) and **attitude importance** (Boninger, Krosnick, & Berent, 1995) increase resistance.
+
+### Ego-Depletion Undermines Resistance
+- **Ego-depletion** (Baumeister et al., 1998): reduced self-regulatory resources from prior self-control. Depleted people have fewer resources to counterargue or process systematically, becoming MORE susceptible (pushed toward peripheral route).
 
 ---
 
-## Reactance: Protecting Our Personal Freedom
+## Cognitive Dissonance
 
-- **Psychological reactance** (Brehm, 1966): A motivational state that occurs when people believe their freedom to engage in some behavior has been threatened or eliminated; leads them to reassert their freedom, often by becoming more attracted to the forbidden behavior or position.
-- Reactance can actually INCREASE attraction to forbidden objects/positions (the "boomerang effect").
-- Example: Telling someone they CANNOT do something may make them want to do it more.
-- Implications: Forceful persuasion attempts that feel like they are restricting freedom may backfire.
-- **Hard sell**: Forceful, pressure-based persuasion; highly likely to trigger reactance.
-- Reactance is stronger when the threatened freedom is important and when people have strong expectations of having that freedom.
+- **Cognitive dissonance** (Festinger, 1957): an uncomfortable state from holding two or more inconsistent cognitions. It is **aversive** and motivates reduction.
+- Key insight: **behavior can cause attitude change**.
 
----
-
-## Forewarning: Prior Knowledge of Persuasive Intent
-
-- **Forewarning**: Prior knowledge that one is about to be exposed to a persuasive message.
-- Forewarning gives people time to generate **counterarguments** before the message arrives.
-- Result: Forewarned individuals are less influenced by persuasive messages than those who are not warned (Petty & Cacioppo, 1977).
-- Two types of forewarning effects:
-  1. **Forewarning of persuasive intent**: Simply knowing the message is meant to persuade increases resistance.
-  2. **Forewarning of message content**: Knowing the topic and position reduces persuasion even more.
-- Forewarning is most effective when people have enough time and motivation to prepare counterarguments.
-
----
-
-## Selective Avoidance of Persuasion Attempts
-
-- **Selective avoidance**: The tendency to direct attention away from information that challenges existing attitudes.
-- Complements **selective exposure**: The tendency to seek out information that is consistent with existing attitudes.
-- Together, these processes create an **echo chamber** effect, reinforcing existing attitudes.
-- People tune out television commercials for products they dislike; skip news articles from sources they disagree with.
-- In the Internet age, algorithmic filtering can amplify selective exposure without conscious effort.
-
----
-
-## Actively Defending Our Attitudes: Counterarguing Against the Competition
-
-- When exposed to opposing arguments, attitude holders can actively generate **counterarguments**.
-- **Counterarguing**: Mentally challenging or refuting the claims made in a persuasive message.
-- High-vested interest individuals are more likely to counterargue (Haugtvedt & Wegener, 1994).
-- **Attitude inoculation** (McGuire, 1964): Exposure to a **weak** version of an opposing argument (plus refutation) prepares people to resist a stronger attack later.
-  - Analogous to a medical inoculation: a small dose of the "virus" (weak argument) triggers development of "antibodies" (counterarguments).
-  - More effective than simply supporting existing attitudes ("supportive defense").
-- Inoculation increases **attitude certainty** and perceived **correctness**, strengthening resistance.
-
----
-
-## Individual Differences in Resistance to Persuasion
-
-- **Need for Cognition (NFC)** (Cacioppo & Petty, 1982): High NFC individuals more critically evaluate messages and generate more counterarguments; more resistant to weak arguments.
-- **Self-monitoring**: High self-monitors (attentive to social context) more persuaded by image-based appeals; low self-monitors more persuaded by argument quality.
-- **Dogmatism**: Rigid, closed-minded belief systems associated with resistance to attitude change regardless of argument quality.
-- **Right-Wing Authoritarianism (RWA)**: Higher RWA associated with greater susceptibility to in-group authority persuasion but resistance to out-group persuasion.
-- People with high **attitude certainty** (both clarity and correctness) resist persuasion more than those with low certainty (Petrocelli et al., 2007).
-- **Attitude importance**: The more personally important the attitude, the more resistant to change (Boninger, Krosnick, & Berent, 1995).
-
----
-
-## Ego-Depletion Can Undermine Resistance
-
-- **Ego-depletion** (Baumeister et al., 1998): A state of reduced self-regulatory resources resulting from prior acts of self-control.
-- When ego-depleted, people have less cognitive resources to:
-  - Generate counterarguments
-  - Maintain careful systematic processing
-  - Resist persuasive messages
-- Result: Ego-depleted individuals are MORE susceptible to persuasion.
-- Depletion reduces the quality of argument processing, pushing people toward peripheral route processing.
-- Implication: Persuaders can strategically induce depletion before delivering a message to increase compliance.
-
----
-
-## Cognitive Dissonance: What Is It and How Do We Manage It?
-
-- **Cognitive dissonance** (Festinger, 1957): An uncomfortable psychological state that arises when a person holds two or more cognitions (beliefs, attitudes, behaviors) that are inconsistent with each other.
-- Dissonance is **aversive/unpleasant** and motivates people to reduce it.
-- Key insight: **Behavior can cause attitude change** (not just the reverse).
-
-### Three Strategies for Reducing Dissonance
-
-1. **Change one of the inconsistent cognitions** (e.g., change your attitude to match your behavior).
-2. **Add new cognitions** that reduce the inconsistency (e.g., find reasons that justify the behavior).
+### Three Reduction Strategies
+1. **Change** one inconsistent cognition (e.g., change attitude to match behavior).
+2. **Add new cognitions** that reduce inconsistency.
 3. **Reduce the importance** of the inconsistent cognitions.
 
 ---
 
-## Dissonance and Attitude Change: The Effects of Induced Compliance
+## Dissonance and Induced Compliance
 
-- **Induced compliance paradigm**: A procedure in which individuals are induced to behave in ways inconsistent with their attitudes (counter-attitudinal behavior).
-- When people are induced to publicly act against their attitudes for a very small reward (insufficient justification), they experience dissonance and change their attitude to match their behavior.
+- **Induced compliance paradigm**: inducing counter-attitudinal behavior.
+- **Insufficient justification**: too little external justification (small reward) → person can't explain behavior externally → changes attitude internally.
+- **Sufficient justification**: large reward/threat → external attribution → no dissonance, no change.
 
-### Insufficient vs. Sufficient Justification
-
-- **Insufficient justification**: When there is too little external justification (e.g., small reward) for engaging in counter-attitudinal behavior, the person cannot explain the behavior externally → must change attitude internally.
-- **Sufficient justification**: When there is large external justification (large reward or strong threat), the person can attribute the behavior to the external cause → no dissonance, no attitude change.
-
-> **KEY STUDY**: Festinger & Carlsmith (1959) — Classic Dissonance Study
-> - Method: Participants performed a boring, tedious task (turning pegs). Were then asked to tell the next "participant" (actually a confederate) that the task was interesting and fun. One group paid $1; another group paid $20.
-> - Finding: Those paid $1 (insufficient justification) reported finding the task MORE enjoyable afterward; those paid $20 showed little attitude change.
-> - Conclusion: Insufficient reward creates dissonance → attitude changes to be consistent with behavior. $20 provides sufficient external justification → no dissonance.
+> **KEY STUDY: Festinger & Carlsmith (1959)**
+> - Participants did a boring peg-turning task, then told a confederate it was fun. Paid $1 or $20.
+> - Those paid **$1** (insufficient justification) later reported the task MORE enjoyable; those paid **$20** showed little change.
+> - Insufficient reward → dissonance → attitude change; $20 provides sufficient external justification.
 
 ---
 
-## Alternative Strategies for Resolving Dissonance
+## Alternative Dissonance-Reduction Strategies
 
-Beyond changing the attitude, people use several other dissonance-reduction strategies:
+1. **Trivialization**: reduce the perceived importance of inconsistent cognitions (Simon, Greenberg, & Brehm, 1995).
+2. **Self-affirmation**: affirm core values/positive attributes (Steele, 1988).
+3. **Adding consonant cognitions** (e.g., "smoking relaxes me").
+4. **Changing the importance** of one cognition.
+5. **Denial** of the inconsistency.
 
-1. **Trivialization**: Reducing the perceived importance of the inconsistent cognitions so they no longer seem as problematic (Simon, Greenberg, & Brehm, 1995).
-2. **Self-affirmation**: Reminding oneself of important values or positive self-attributes reduces the threat of dissonance without directly addressing the inconsistency (Steele, 1988).
-3. **Adding consonant cognitions**: Finding new beliefs/facts that support the behavior (e.g., "Smoking relaxes me and stress is also bad for health").
-4. **Changing the importance** of one of the cognitions (downplaying one horn of the dilemma).
-5. **Denial**: Refusing to acknowledge the inconsistency.
-
-### Conditions Under Which Dissonance is Strongest
-
-Dissonance is greatest when:
-- The counter-attitudinal behavior was **freely chosen** (no strong external coercion).
-- The behavior has **negative consequences** (especially for others).
-- The behavior is **irrevocable** (cannot be undone).
-- The person has **high self-standards** — inconsistency threatens self-concept.
-- There is **little external justification** (insufficient justification condition).
+### When Dissonance Is Strongest
+- Behavior **freely chosen**; has **negative consequences**; is **irrevocable**; person has **high self-standards**; **little external justification**.
 
 ---
 
-## When Dissonance Is a Tool for Beneficial Changes in Behavior
-
-- Dissonance can be deliberately induced to promote beneficial behavior changes.
+## Dissonance as a Tool for Beneficial Change
 
 ### Hypocrisy Paradigm
+- **Hypocrisy induction** (Aronson, Fried, & Stone, 1991): making people aware of the gap between their stated values and behavior creates dissonance that motivates change.
 
-- **Hypocrisy induction** (Aronson, Fried, & Stone, 1991): Making people aware of the inconsistency between their stated attitudes/values and their actual behavior, creating dissonance that motivates behavior change.
+> **KEY STUDY: Stone, Aronson, Crain, Winslow, & Fried (1994), Condom Use**
+> - Students made a pro-condom video; half were also reminded of their own past failures to use condoms (hypocrisy condition).
+> - Hypocrisy condition bought significantly MORE condoms afterward.
 
-> **KEY STUDY**: Stone, Aronson, Crain, Winslow, & Fried (1994) — Condom Use Study
-> - Method: College students asked to make a video encouraging safer sex practices (publicly stating pro-condom attitudes). Half were also reminded of their own past failures to use condoms (hypocrisy condition); half were not reminded.
-> - Finding: Hypocrisy condition students bought significantly MORE condoms afterward than controls.
-> - Conclusion: Inducing awareness of hypocrisy (attitude-behavior inconsistency) motivates behavior change to reduce dissonance.
-
-### Applications of Dissonance for Behavior Change
-
-- Health behavior: Exercise, diet, condom use (Stone et al., 1994).
-- Environmental behavior: Recycling, water conservation (Dickerson, Thibodeau, Aronson, & Miller, 1992).
-- Mechanism: Induce public commitment to an attitude → highlight past inconsistent behavior → dissonance motivates future behavior to match stated attitude.
+### Applications
+- Health (exercise, diet, condom use), environment (recycling, water conservation; Dickerson et al., 1992). Mechanism: public commitment → highlight past inconsistency → dissonance → behavior change.
 
 ---
 
@@ -562,58 +390,58 @@ Dissonance is greatest when:
 
 | Term | Definition |
 |---|---|
-| **Attitude** | Evaluation of various aspects of the social world (people, objects, ideas, groups) |
-| **Explicit attitude** | Consciously accessible attitude that is controllable and easy to report |
-| **Implicit attitude** | Unconscious association between an object and an evaluative response |
-| **IAT (Implicit Association Test)** | Measure of implicit attitudes based on response latency to pairings of social objects and evaluative words (Greenwald et al., 1998) |
-| **Social learning** | Process of acquiring information, behavior, or attitudes from other people |
-| **Classical conditioning** | Learning in which a neutral stimulus acquires the capacity to evoke reactions through repeated pairing with an unconditioned stimulus |
-| **Unconditioned stimulus (UCS)** | A stimulus that evokes a positive or negative response without substantial learning |
-| **Conditioned stimulus (CS)** | A formerly neutral stimulus that comes to evoke a conditioned response through pairing with UCS |
-| **Direct route (conditioning)** | Classical conditioning where positive stimuli are repeatedly paired with a product to directly transfer affect |
-| **Indirect route (conditioning)** | Classical conditioning through a specific celebrity endorser creating a memory link to the brand |
-| **Subliminal conditioning** | Classical conditioning of attitudes via stimuli below the threshold of conscious awareness |
-| **Mere exposure** | Attitude formation toward a previously seen stimulus (even without conscious memory of exposure) |
-| **Illusion of truth effect** | Mere repetition of information creates familiarity and more positive attitudes (Moons, Mackie, & Garcia-Marques, 2009) |
-| **Instrumental conditioning** | Learning in which responses leading to positive outcomes or avoiding negative outcomes are strengthened |
-| **Social networks** | Sets of individuals with whom we interact on a regular basis |
-| **Observational learning** | Learning in which individuals acquire new behaviors or attitudes by observing others (Bandura, 1997) |
-| **Social comparison** | Comparing oneself to others to determine whether one's view of social reality is correct (Festinger, 1954) |
-| **Reference groups** | Groups with whom we identify and whose opinions we value |
-| **Pluralistic ignorance** | Erroneous collective belief that others hold different attitudes than ourselves |
-| **Attitude strength** | Encompassing extremity, certainty, and personal experience; determines attitude accessibility and behavior prediction |
+| **Attitude** | Evaluation of aspects of the social world |
+| **Explicit attitude** | Consciously accessible, controllable, reportable attitude |
+| **Implicit attitude** | Unconscious object-evaluation association |
+| **IAT (Implicit Association Test)** | Implicit-attitude measure via response latency (Greenwald et al., 1998) |
+| **Social learning** | Acquiring information, behavior, or attitudes from others |
+| **Classical conditioning** | A neutral stimulus acquires reaction-evoking capacity via pairing with a UCS |
+| **Unconditioned stimulus (UCS)** | Stimulus evoking a response without substantial learning |
+| **Conditioned stimulus (CS)** | Formerly neutral stimulus that comes to evoke a response via UCS pairing |
+| **Direct route (conditioning)** | Repeated pairing of positive stimuli with a product to transfer affect |
+| **Indirect route (conditioning)** | A celebrity endorser creating a memory link to the brand |
+| **Subliminal conditioning** | Conditioning via stimuli below conscious awareness |
+| **Mere exposure** | Attitude formation toward a previously seen stimulus, even without conscious memory |
+| **Illusion of truth effect** | Repetition creates familiarity and more positive attitudes (Moons et al., 2009) |
+| **Instrumental conditioning** | Responses leading to positive outcomes are strengthened |
+| **Social networks** | Sets of individuals we interact with regularly |
+| **Observational learning** | Acquiring behaviors/attitudes by observing others (Bandura, 1997) |
+| **Social comparison** | Comparing to others to check whether one's view of reality is correct (Festinger, 1954) |
+| **Reference groups** | Groups we identify with and whose opinions we value |
+| **Pluralistic ignorance** | Erroneous collective belief that others hold different attitudes than us |
+| **Attitude strength** | Extremity + certainty + personal experience; determines accessibility and prediction |
 | **Attitude accessibility** | How easily and quickly an attitude comes to mind |
-| **Vested interest** | The extent to which an attitude object/issue has important consequences for the individual |
-| **Attitude certainty** | The sense that one knows one's attitude and that it is the correct position; includes clarity and correctness |
-| **Attitude clarity** | Being clear about what one's attitude is; lack of ambivalence |
-| **Attitude correctness** | Feeling that one's attitude is valid and the proper one to hold |
-| **Persuasion** | Attempts to change attitudes through various kinds of messages |
-| **Credibility** | Combination of expertise and trustworthiness of a communicator |
+| **Vested interest** | Extent to which an issue has important consequences for the individual |
+| **Attitude certainty** | Sense that one knows one's attitude and it is correct; clarity + correctness |
+| **Attitude clarity** | Being clear about one's attitude; lack of ambivalence |
+| **Attitude correctness** | Feeling one's attitude is valid and proper |
+| **Persuasion** | Attempts to change attitudes through messages |
+| **Credibility** | Combination of expertise and trustworthiness |
 | **Sleeper effect** | Delayed increase in persuasion from a low-credibility source as source memory fades |
-| **Elaboration Likelihood Model (ELM)** | Petty & Cacioppo's (1986) two-route model of persuasion: central (high elaboration) and peripheral (low elaboration) routes |
-| **Central route** | Persuasion via careful, effortful scrutiny of message arguments |
-| **Peripheral route** | Persuasion via superficial cues (source attractiveness, number of arguments, mood) without careful argument processing |
-| **Heuristic-Systematic Model (HSM)** | Chaiken's (1987) two-route model: systematic processing vs. heuristic processing (mental shortcuts) |
-| **Elaboration** | Extent to which people think about and evaluate message content |
-| **Peripheral cues** | Message or situational features that lead to attitude change without careful argument processing |
-| **Need for Cognition (NFC)** | Individual difference in enjoyment of and engagement in effortful cognitive activity (Cacioppo & Petty, 1982) |
-| **Psychological reactance** | Motivational state triggered by threatened freedom; leads to reassertion of freedom, often via boomerang effect (Brehm, 1966) |
-| **Forewarning** | Prior knowledge that one is about to receive a persuasive message; increases counterarguing and reduces persuasion |
-| **Selective avoidance** | Directing attention away from information that challenges existing attitudes |
-| **Selective exposure** | Seeking out information consistent with existing attitudes |
-| **Counterarguing** | Mentally challenging or refuting claims in a persuasive message |
-| **Attitude inoculation** | Exposure to a weak opposing argument (plus refutation) that prepares resistance to stronger attacks (McGuire, 1964) |
-| **Ego-depletion** | Reduced self-regulatory resources from prior self-control that undermines ability to resist persuasion (Baumeister et al., 1998) |
-| **Cognitive dissonance** | Uncomfortable state arising from holding two or more inconsistent cognitions (Festinger, 1957) |
-| **Induced compliance** | Procedure inducing counter-attitudinal behavior; creates dissonance when insufficient external justification is present |
-| **Insufficient justification** | Condition where small reward/threat forces internal justification via attitude change |
-| **Sufficient justification** | Condition where large reward/threat allows external attribution, reducing dissonance |
-| **Trivialization** | Reducing perceived importance of inconsistent cognitions to resolve dissonance |
-| **Self-affirmation** | Reminding oneself of core values/positive attributes to reduce dissonance threat (Steele, 1988) |
-| **Hypocrisy induction** | Deliberately inducing awareness of attitude-behavior inconsistency to motivate behavior change (Aronson et al., 1991) |
-| **Electronic word-of-mouth (eWOM)** | Online consumer reviews and social media posts functioning as persuasive messages |
-| **Theory of Planned Behavior** | Ajzen's model: attitude toward behavior + subjective norms + perceived behavioral control → behavioral intention → behavior |
-| **MODE model** | Fazio's model: Motivation and Opportunity as DEterminants of whether attitudes guide behavior via deliberate or automatic processing |
+| **Elaboration Likelihood Model (ELM)** | Petty & Cacioppo (1986): central vs. peripheral routes |
+| **Central route** | Persuasion via careful scrutiny of arguments |
+| **Peripheral route** | Persuasion via superficial cues |
+| **Heuristic-Systematic Model (HSM)** | Chaiken (1987): systematic vs. heuristic processing |
+| **Elaboration** | Extent of thinking about message content |
+| **Peripheral cues** | Features causing change without careful argument processing |
+| **Need for Cognition (NFC)** | Individual difference in enjoyment of effortful thinking (Cacioppo & Petty, 1982) |
+| **Psychological reactance** | State from threatened freedom; reassertion via boomerang effect (Brehm, 1966) |
+| **Forewarning** | Prior knowledge of a persuasive message; increases counterarguing |
+| **Selective avoidance** | Avoiding information that challenges attitudes |
+| **Selective exposure** | Seeking attitude-consistent information |
+| **Counterarguing** | Mentally refuting a persuasive message |
+| **Attitude inoculation** | Weak opposing argument + refutation builds resistance (McGuire, 1964) |
+| **Ego-depletion** | Reduced self-regulatory resources undermining resistance (Baumeister et al., 1998) |
+| **Cognitive dissonance** | Discomfort from holding inconsistent cognitions (Festinger, 1957) |
+| **Induced compliance** | Inducing counter-attitudinal behavior; creates dissonance under insufficient justification |
+| **Insufficient justification** | Small reward forces internal justification via attitude change |
+| **Sufficient justification** | Large reward allows external attribution, reducing dissonance |
+| **Trivialization** | Reducing importance of inconsistent cognitions |
+| **Self-affirmation** | Affirming core values to reduce dissonance threat (Steele, 1988) |
+| **Hypocrisy induction** | Inducing awareness of attitude-behavior inconsistency to motivate change (Aronson et al., 1991) |
+| **Electronic word-of-mouth (eWOM)** | Online reviews and posts functioning as persuasion |
+| **Theory of Planned Behavior** | Ajzen: attitude + subjective norms + perceived control → intention → behavior |
+| **MODE model** | Fazio: Motivation and Opportunity DEterminants of deliberate vs. automatic attitude-behavior link |
 
 ---
 
@@ -621,74 +449,60 @@ Dissonance is greatest when:
 
 | Person | Contribution |
 |---|---|
-| **Leon Festinger** | Cognitive dissonance theory (1957); social comparison theory (1954); co-author of "When Prophecy Fails" (1956) |
-| **Festinger & Carlsmith** | Classic $1 vs. $20 induced compliance study demonstrating insufficient justification effect (1959) |
-| **Richard LaPiere** | Classic 1934 study showing attitude-behavior gap using Chinese couple travel experiment |
-| **Richard Petty & John Cacioppo** | Elaboration Likelihood Model (ELM) of persuasion (1986); Need for Cognition scale (1982) |
-| **Shelly Chaiken** | Heuristic-Systematic Model (HSM) of persuasion (1987) |
-| **Russell Fazio** | Attitude accessibility research; MODE model of attitude-behavior relationship (1990, 2000) |
-| **Anthony Greenwald, McGhee, & Schwarz** | Implicit Association Test (IAT) development (1998) |
-| **Albert Bandura** | Observational learning theory (1997) |
-| **Jack Brehm** | Psychological reactance theory (1966) |
-| **William McGuire** | Attitude inoculation theory (1964) |
+| **Leon Festinger** | Cognitive dissonance (1957); social comparison (1954); "When Prophecy Fails" (1956) |
+| **Festinger & Carlsmith** | $1 vs. $20 induced compliance study; insufficient justification (1959) |
+| **Richard LaPiere** | 1934 attitude-behavior gap study (Chinese couple) |
+| **Petty & Cacioppo** | ELM (1986); Need for Cognition scale (1982) |
+| **Shelly Chaiken** | Heuristic-Systematic Model (1987) |
+| **Russell Fazio** | Attitude accessibility; MODE model (1990, 2000) |
+| **Greenwald, McGhee, & Schwarz** | IAT (1998) |
+| **Albert Bandura** | Observational learning (1997) |
+| **Jack Brehm** | Psychological reactance (1966) |
+| **William McGuire** | Attitude inoculation (1964) |
 | **Icek Ajzen** | Theory of Planned Behavior (1991) |
-| **Roy Baumeister** | Ego-depletion research (1998) |
-| **Claude Steele** | Self-affirmation theory (1988) |
-| **Elliot Aronson, Fried, & Stone** | Hypocrisy induction paradigm for beneficial behavior change (1991); Stone et al. (1994) condom use study |
-| **Petrocelli, Tormala, & Rucker** | Two-component model of attitude certainty (clarity vs. correctness) (2007) |
-| **Sivacek & Crano** | Vested interest and attitude-behavior consistency study — drinking age (1982) |
-| **Haugtvedt & Wegener** | Vested interest and counterarguing — nuclear power plant study (1994) |
-| **Kim, Park, & Schwarz** | Emotion-attitude formation matching study — Japan vacation ads (2010) |
-| **Levitan & Visser** | Social networks and political attitude change study — University of Chicago (2009) |
-| **Miller & Morrison** | Pluralistic ignorance and alcohol attitude expression at Stanford (2009) |
-| **Fleming & Petty** | Group identification and attitude formation — Snickerdoodles study (2000) |
-| **Noel, Wann, & Branscombe** | Audience-dependent attitude expression among fraternity/sorority pledges (1995) |
-| **Krosnick, Betz, Jussim, & Lynn** | Subliminal conditioning of attitudes toward a stranger (1992) |
+| **Roy Baumeister** | Ego-depletion (1998) |
+| **Claude Steele** | Self-affirmation (1988) |
+| **Aronson, Fried, & Stone** | Hypocrisy induction (1991); Stone et al. (1994) condom study |
+| **Petrocelli, Tormala, & Rucker** | Two-component attitude certainty (clarity vs. correctness) (2007) |
+| **Sivacek & Crano** | Vested interest, drinking age (1982) |
+| **Haugtvedt & Wegener** | Vested interest and counterarguing, nuclear plant (1994) |
+| **Kim, Park, & Schwarz** | Emotion-attitude matching, Japan vacation ads (2010) |
+| **Levitan & Visser** | Social networks and attitude change (2009) |
+| **Miller & Morrison** | Pluralistic ignorance, Stanford alcohol (2009) |
+| **Fleming & Petty** | Group identification, Snickerdoodles (2000) |
+| **Noel, Wann, & Branscombe** | Audience-dependent expression (1995) |
+| **Krosnick, Betz, Jussim, & Lynn** | Subliminal conditioning (1992) |
 | **Moons, Mackie, & Garcia-Marques** | Illusion of truth effect (2009) |
-| **Terry & Hogg** | Group identification and attitude adoption — sunscreen study (1996) |
-| **Schwarz & Clore** | Emotions as information in attitude formation (1983, 2007) |
-| **Williams, Paluck, & Spencer-Rodgers** | IAT evidence of male-wealth automatic association and gender pay gap (2010) |
-| **Morison, Cozzolino, & Orbell** | Future consequences, attitude formation, and HPV vaccine decision (2010) |
-| **Hunt, Kim, Borgida, & Chaiken** | Vested interests vs. abstract values in immediate vs. distant policy voting (2010) |
-| **Eaton, Visser, Krosnick, & Anand** | Age differences in attitude certainty and attitude-behavior consistency (2009) |
-| **Falomir-Pichastor, Munoz-Rojas, Invernizzi, & Mugny** | Anti-discrimination norms, threat, and prejudiced behavior — Switzerland (2004) |
-| **Greenwald, Poehlman, Uhlmann, & Banaji** | Meta-analytic review: implicit and explicit attitudes are distinct; implicit attitudes predict some behaviors better (2009) |
-| **Arkes & Tetlock** | Criticism of IAT: may measure cultural familiarity, not personal endorsement (2004) |
-| **Blankenship & Wegener** | Value-linked involvement and attitude strength — Tashkentistan study (2008) |
+| **Terry & Hogg** | Group identification, sunscreen (1996) |
+| **Schwarz & Clore** | Emotions as information (1983, 2007) |
+| **Williams, Paluck, & Spencer-Rodgers** | IAT male-wealth association (2010) |
+| **Morison, Cozzolino, & Orbell** | Future consequences, HPV vaccine decision (2010) |
+| **Hunt, Kim, Borgida, & Chaiken** | Vested interest vs. values, immediate vs. distant policy (2010) |
+| **Eaton, Visser, Krosnick, & Anand** | Age and attitude certainty (2009) |
+| **Falomir-Pichastor et al.** | Anti-discrimination norms, threat, Switzerland (2004) |
+| **Greenwald, Poehlman, Uhlmann, & Banaji** | Implicit vs. explicit attitudes distinct; implicit predicts some behaviors better (2009) |
+| **Arkes & Tetlock** | IAT may measure cultural familiarity, not endorsement (2004) |
+| **Blankenship & Wegener** | Value-linked involvement, Tashkentistan (2008) |
 
 ---
 
 ## Likely Exam Points
 
-1. **LaPiere (1934)**: Classic demonstration of the attitude-behavior gap — 92% of businesses said they would refuse service to Chinese customers despite having served the same couple in person; illustrates role of situational norms in overriding attitudes.
-
-2. **Festinger & Carlsmith (1959)**: The $1 vs. $20 study is the definitive example of the **insufficient justification** effect and the core mechanism of cognitive dissonance — small reward forces internal attitude change; large reward provides external justification.
-
-3. **IAT (Implicit Association Test)**: Created by Greenwald, McGhee, & Schwarz (1998); measures implicit attitudes via response latency; criticisms include measuring cultural familiarity rather than personal attitudes (Arkes & Tetlock, 2004) and susceptibility to faking.
-
-4. **Elaboration Likelihood Model (ELM)**: Petty & Cacioppo (1986) — Central route (high elaboration, argument quality, lasting change) vs. Peripheral route (low elaboration, cue-based, temporary change); high NFC individuals favor central route.
-
-5. **Two components of attitude certainty** (Petrocelli et al., 2007): **Clarity** (know what your attitude is; increased by repeated expression) and **Correctness** (feel attitude is valid; increased by high consensus). Both independently resist persuasion.
-
-6. **Vested interest**: The stronger the personal stake, the more extreme the attitude and the more likely it predicts behavior (Sivacek & Crano, 1982 — 47% high vested vs. 12% low vested participation).
-
-7. **Psychological reactance** (Brehm, 1966): Threatened freedom produces a motivational state leading to reassertion of freedom; hard-sell persuasion can produce a boomerang effect.
-
-8. **Attitude inoculation** (McGuire, 1964): Exposure to weak counterarguments with refutation strengthens resistance to later, stronger persuasion attempts — medical analogy.
-
-9. **Ego-depletion** (Baumeister et al., 1998): Prior self-control reduces cognitive resources available for counterarguing, making people MORE susceptible to persuasion.
-
-10. **Hypocrisy induction** (Aronson et al., 1991; Stone et al., 1994): Making people aware of their attitude-behavior inconsistency creates dissonance that motivates behavior change toward the stated attitude — applied to condom use, recycling, water conservation.
-
-11. **Classical conditioning routes**: Direct route = repeated pairing of many positive UCS with product; Indirect route = specific celebrity establishes memory link (Sweldens et al., 2010). Michael Jordan → Nike is the canonical example.
-
-12. **Illusion of truth effect** (Moons, Mackie, & Garcia-Marques, 2009): Repeated exposure to a message creates familiarity → more positive attitudes, even for weak arguments; explains advertising repetition effectiveness.
-
-13. **Pluralistic ignorance**: We mistakenly believe others hold different (often more extreme) attitudes than we do; Miller & Morrison (2009) Stanford alcohol study shows this can suppress authentic attitude expression.
-
-14. **Emotions as information in attitude formation** (Kim, Park, & Schwarz, 2010): Current emotional arousal (excited vs. peaceful) shapes attitudes toward products with matching arousal-level promises; effect eliminated when attention drawn to incidental mood source (Schwarz & Clore, 1983).
-
-15. **Observational learning + group identification** (Fleming & Petty, 2000 — Snickerdoodles): Attitudes formed by observing group preferences are stronger when people highly identify with that group; simply learning "your group likes this" increases attitude favorability among high-identifiers.
+1. **LaPiere (1934)**: attitude-behavior gap; 92% of businesses said they'd refuse Chinese customers despite serving them in person.
+2. **Festinger & Carlsmith (1959)**: $1 vs. $20; the **insufficient justification** effect (small reward → internal attitude change).
+3. **IAT**: Greenwald, McGhee, & Schwarz (1998); response latency; criticized as measuring cultural familiarity (Arkes & Tetlock, 2004) and fakeable.
+4. **ELM** (Petty & Cacioppo, 1986): central (high elaboration, lasting) vs. peripheral (cue-based, temporary); high NFC favors central.
+5. **Attitude certainty** (Petrocelli et al., 2007): **clarity** (repeated expression) and **correctness** (consensus); both resist persuasion.
+6. **Vested interest**: stronger stake → more extreme, more predictive (Sivacek & Crano, 1982: 47% vs. 12%).
+7. **Psychological reactance** (Brehm, 1966): threatened freedom → boomerang effect.
+8. **Attitude inoculation** (McGuire, 1964): weak counterargument + refutation builds resistance.
+9. **Ego-depletion** (Baumeister et al., 1998): prior self-control reduces counterarguing → MORE susceptible.
+10. **Hypocrisy induction** (Aronson et al., 1991; Stone et al., 1994): awareness of inconsistency → behavior change (condom use, recycling).
+11. **Conditioning routes**: direct (repeated pairing) vs. indirect (celebrity link); Michael Jordan → Nike (Sweldens et al., 2010).
+12. **Illusion of truth effect** (Moons et al., 2009): repetition → familiarity → positive attitudes, even for weak arguments.
+13. **Pluralistic ignorance**: Miller & Morrison (2009) Stanford alcohol study suppresses authentic expression.
+14. **Emotions as information** (Kim, Park, & Schwarz, 2010): mood-arousal matching shapes attitudes; eliminated by awareness cue (Schwarz & Clore, 1983).
+15. **Observational learning + identification** (Fleming & Petty, 2000): attitudes from group preferences stronger for high-identifiers.
 
 ---
 *Source: Social Psychology (Baron & Branscombe, 13th ed.), 5 Attitudes: Evaluating and Responding to the Social World (pp. 168-205). Part of [[INDEX]].*

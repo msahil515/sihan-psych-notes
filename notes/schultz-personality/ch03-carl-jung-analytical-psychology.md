@@ -8,7 +8,7 @@ tags: [jung, analytical-psychology, personality, unconscious, archetypes, MET-20
 
 # Ch 3: Carl Jung: Analytical Psychology
 
-Jung's **analytical psychology** is a comprehensive theory of personality distinct from Freudian psychoanalysis. It broadens libido to a generalized psychic energy, emphasizes both past and future as shapers of personality, introduces the **collective unconscious** and **archetypes** as inherited ancestral residues, and places the midlife transition (not childhood) at the center of personality development. The ultimate goal is **individuation**: integration of all conscious and unconscious facets into a unified self.
+Jung's **analytical psychology** broadens libido to a generalized psychic energy, emphasizes both past and future, introduces the **collective unconscious** and **archetypes** (inherited ancestral residues), and centers personality development on midlife (not childhood). The ultimate goal is **individuation**: integrating all conscious and unconscious facets into a unified self.
 
 ---
 
@@ -17,58 +17,50 @@ Jung's **analytical psychology** is a comprehensive theory of personality distin
 ### An Unhappy Childhood
 
 - Born **1875** in Switzerland; died **1961** (age 86).
-- Family included **nine clergymen** (eight uncles + father); religion and classics introduced early.
-- Father: kind but weak, moody, irritable; failed to be a strong authority figure.
-- Mother: emotionally unstable; could shift instantly from cheerful to incoherent mumbling. Jung perceived her as **two different people in one body**. Biographer Ellenberger: "the whole maternal side of the family appeared to be tainted with insanity."
-- Jung's wariness of women persisted for years; totally rejected Freud's Oedipus complex (found his mother unattractive).
-- To escape parental conflict, spent hours alone in the attic **carving a wooden doll** as his sole confidant.
-- A sister arrived when Carl was 9 but did not ease his isolation.
+- Family included **nine clergymen** (eight uncles + father); religion/classics introduced early.
+- Father: kind but weak, moody; a poor authority figure.
+- Mother: emotionally unstable, shifting instantly from cheerful to incoherent; Jung saw her as **two people in one body**. Ellenberger: the maternal side "appeared to be tainted with insanity."
+- Jung remained wary of women; rejected Freud's Oedipus complex (found his mother unattractive).
+- Spent hours alone **carving a wooden doll** as his confidant.
 
 ### Strange Dreams and Fantasies
 
-- Cut off from external reality, Jung turned inward to dreams, visions, and fantasies — a lifelong guiding orientation.
-- Age 3: dreamed he was in a **cavern**.
-- Later dream: digging beneath the earth's surface and **unearthing bones of prehistoric animals** — symbolized exploring the unconscious beneath behavior.
-- Autobiography titled **"Memories, Dreams, Reflections"** (1961).
-- Solitary childhood reflected in his theory's focus on **inner growth of the individual** rather than interpersonal relationships (contrast: Freud's theory centers on interpersonal relations).
+- Turned inward to dreams and fantasies — a lifelong orientation.
+- Age 3: dreamed of a **cavern**. Later: digging up **bones of prehistoric animals** — symbolizing the unconscious beneath behavior.
+- Autobiography: **"Memories, Dreams, Reflections"** (1961).
+- Solitary childhood shaped his theory's focus on **inner growth** rather than interpersonal relationships (contrast: Freud).
 
 ### The Study of Medicine
 
-- Disliked formal school; preferred self-directed reading on religion and philosophy.
-- Series of **fainting spells** kept him out of school for 6 months (he later recognized these as unconsciously arranged neurotic symptoms — felt angry and ashamed).
-- Studied medicine at the **University of Basel**; chose psychiatry (then held in low repute) to pursue interests in dreams, the supernatural, and the occult.
-- From **1900**, worked at a mental hospital in Zurich under **Eugen Bleuler** (the psychiatrist who coined the term **schizophrenia**).
-- Married the second-richest heiress in Switzerland; quit hospital job; lectured at University of Zurich; developed independent clinical practice.
+- **Fainting spells** kept him out of school 6 months (later recognized as unconsciously arranged neurotic symptoms).
+- Studied medicine at **University of Basel**; chose psychiatry to pursue dreams, the supernatural, occult.
+- From **1900**, worked at a Zurich mental hospital under **Eugen Bleuler** (coined **schizophrenia**).
+- Married a wealthy heiress; built an independent practice; lectured at University of Zurich.
 
 ### The Years with Freud
 
-- First met Freud in **1907**; initial conversation lasted **13 hours**.
-- Freud designated Jung as his **"eldest son," "successor," and "crown prince"** (Freud & Jung, 1974, p. 218).
-- Jung addressed Freud as a **father figure** — relationship contained elements resembling the **Oedipus complex**.
-- At 18, Jung experienced unwanted homosexual overtures from an older male confidant — possibly predisposed him to disappointment in Freud's possessiveness.
-- 1909: lectured with Freud at **Clark University** in the United States.
-- Freud groomed Jung for presidency of the **International Psychoanalytic Association** — wanted a non-Jew to counter the "Jewish science" label.
-- **Severed relationship: 1913**.
+- First met Freud in **1907**; first conversation lasted **13 hours**.
+- Freud named Jung his **"eldest son," "successor," "crown prince."** Jung treated Freud as a **father figure** (Oedipal elements).
+- 1909: lectured with Freud at **Clark University**. Freud groomed Jung to head the **International Psychoanalytic Association** (wanted a non-Jew to counter the "Jewish science" label).
+- **Severed: 1913.**
 
 ### Jung's Neurotic Episode
 
-- **1913** (age 38): severe neurotic episode lasting **3 years**; resigned lectureship at University of Zurich; considered suicide (kept a revolver by bedside — Noll, 1994); continued to treat patients.
-- Dreams/visions: ice covering earth, rivers of blood, destruction of civilization; personal terrors (traveling the land of the dead, eating a child's liver — Corbett, 2009).
-- **The Red Book**: ~200 pages of calligraphy and drawings recording these visions; bound in red leather; kept in a Swiss bank vault; published **2009** (~50 years after his death; became an international sensation — Harrison, 2009).
-- Overcame crisis by **confronting his unconscious** through dreams and fantasies — parallel to Freud's own neurotic episode at approximately the same age.
-- Concluded the most crucial stage of personality development is **middle age**, not childhood.
-- Nearly **two-thirds of his patients were middle-aged**, suffering similar difficulties.
+- **1913** (age 38): severe neurotic episode lasting **3 years**; resigned his lectureship; considered suicide; kept treating patients.
+- Visions: ice covering earth, rivers of blood, destruction of civilization.
+- **The Red Book**: ~200 pages of calligraphy/drawings of these visions; published **2009** (~50 years after his death).
+- Overcame it by **confronting his unconscious** (parallel to Freud's own neurotic episode at a similar age).
+- Concluded the crucial stage of development is **middle age**, not childhood; ~**two-thirds of his patients were middle-aged**.
 
 ### Jung's Sex Life
 
-- Despite minimizing sex in his theory, maintained an **anxiety-free, vigorous sex life** including extramarital affairs (one enduring, with wife's knowledge).
-- Key contrast: Freud, troubled by sex, built a sex-centric theory; Jung, freely satisfied, assigned sex a minimal motivational role.
+- Despite minimizing sex in theory, had an **anxiety-free, vigorous sex life** with affairs.
+- Contrast: Freud, troubled by sex, built a sex-centric theory; Jung, freely satisfied, gave sex a minimal role.
 
 ### Fame and Weird Behavior
 
-- Greeted kitchen utensils each morning; hid large sums of cash in books and buried in garden but forgot his own retrieval codes.
-- Cold, formal parenting style (daughters greeted with a handshake).
-- Work spread to English-speaking world through financial support of the **Rockefeller, McCormick, and Mellon families** (who sought analysis with Jung and funded translations of his books into English).
+- Eccentric: greeted kitchen utensils; hid cash and forgot retrieval codes; cold, formal parenting.
+- Work spread to English speakers via support of the **Rockefeller, McCormick, and Mellon families**.
 
 ---
 
@@ -76,192 +68,138 @@ Jung's **analytical psychology** is a comprehensive theory of personality distin
 
 ### Core Disagreement with Freud on Libido
 
-- **Libido** (Jung): a broad, **undifferentiated life energy** — not restricted to sex.
-- Two senses of libido in Jung:
-  1. A diffuse, general life energy.
-  2. A narrower **psychic energy** that fuels the work of the **psyche** (Jung's term for personality).
-- **High psychic value**: when a person invests great psychic energy in an idea/feeling, it strongly influences their life.
+- **Libido** (Jung): a broad, **undifferentiated life energy**, not restricted to sex. Two senses: (1) diffuse general life energy; (2) narrower **psychic energy** fueling the **psyche** (his term for personality).
+- **High psychic value**: investing great energy in an idea/feeling makes it strongly influential.
 
 ### Principles of Psychic Energy (Jung, 1928)
 
 | Principle | Definition |
 |---|---|
-| **Opposition** | Conflict between polarities is the **primary motivator** of behavior and generator of energy. Every wish/feeling has its opposite; sharper conflict = more energy. |
-| **Equivalence** | Energy spent on one condition is redistributed to another part of the psyche. New area must receive equal psychic value; excess flows into the unconscious. (Waking energy → dreams during sleep.) |
-| **Entropy** | Tendency toward **balance/equilibrium** within the personality. Energy flows from strongly-held to weakly-held areas until equalized. Perfect balance = never achieved (would eliminate opposition and thus all psychic energy). |
+| **Opposition** | Conflict between polarities is the **primary motivator** and energy generator; sharper conflict = more energy. |
+| **Equivalence** | Energy spent on one condition is redistributed to another part of the psyche at equal value; excess flows into the unconscious. |
+| **Entropy** | Tendency toward **balance/equilibrium**; energy flows from strong to weak areas. Perfect balance never achieved (it would eliminate opposition and thus all energy). |
 
 ---
 
 ## Aspects of Personality
 
 ### The Ego
-
-- **Ego**: the **center of consciousness**; responsible for perceiving, thinking, feeling, remembering.
-- Represents our awareness of ourselves; carries out everyday waking activities.
-- Acts **selectively** — admits only a portion of available stimuli into conscious awareness.
+- **Ego**: the **center of consciousness** — perceiving, thinking, feeling, remembering; our self-awareness and waking activity. Acts **selectively** (admits only some stimuli to awareness).
 
 ### The Attitudes: Extraversion and Introversion
-
-- **Extraversion**: orientation toward the external world and other people; open, sociable, socially assertive.
-- **Introversion**: orientation toward one's own thoughts and feelings; withdrawn, often shy, self-focused.
-- All people possess both attitudes; only **one becomes dominant** and directs behavior/consciousness.
-- The **non-dominant attitude** persists in the **personal unconscious** and can still influence behavior.
+- **Extraversion**: orientation toward the external world; open, sociable, assertive.
+- **Introversion**: orientation toward inner thoughts/feelings; withdrawn, shy.
+- All possess both; only **one is dominant** and directs consciousness. The non-dominant persists in the **personal unconscious** and still influences behavior.
 
 ### Psychological Functions
 
-Four functions describe different and opposing ways of perceiving external and inner reality (Jung, 1927):
+Four ways of perceiving reality (Jung, 1927):
 
-**Nonrational Functions** (accept experience without evaluating it):
-
-| Function | Description |
-|---|---|
-| **Sensing** | Reproduces experience through the senses, like a photograph copying an object. |
-| **Intuiting** | Perception not arising directly from external stimulus; based on hunches (e.g., sensing someone is in a darkened room without sensory evidence). |
-
-**Rational Functions** (involve judgments and evaluations):
+**Nonrational** (accept experience without evaluating):
 
 | Function | Description |
 |---|---|
-| **Thinking** | Conscious judgment of whether experience is **true or false**. |
-| **Feeling** | Evaluation in terms of **like/dislike, pleasant/unpleasant, stimulating/dull**. |
+| **Sensing** | Reproduces experience through the senses (like a photograph). |
+| **Intuiting** | Perception not from external stimulus; hunches. |
 
-Key rules:
-- All four functions are present in every person, but **only one is dominant**.
-- Non-dominant functions are submerged in the **personal unconscious**.
-- Only one pair (rational or nonrational) is dominant; within each pair, only one function is dominant.
+**Rational** (involve judgment):
+
+| Function | Description |
+|---|---|
+| **Thinking** | Conscious judgment of **true/false**. |
+| **Feeling** | Evaluation of **like/dislike, pleasant/unpleasant**. |
+
+- All four present; **only one dominant**; non-dominant ones submerge in the personal unconscious. Only one pair (rational or nonrational) dominates; within it, one function dominates.
 
 ### Psychological Types
 
-Jung proposed **8 psychological types** (2 attitudes × 4 functions):
+**8 types** (2 attitudes × 4 functions):
 
 | Type | Key Characteristics |
 |---|---|
-| **Extraverted Thinking** | Live by social rules; repress feelings; objective; dogmatic; rigid and cold; good scientists. |
-| **Extraverted Feeling** | Repress rational thought; highly emotional; conform to traditional values; sensitive to others' opinions; sociable, effervescent. **More common in women than men** (Jung's claim). |
-| **Extraverted Sensing** | Focus on pleasure, happiness, new experiences; adaptable; outgoing; not introspective; high capacity for enjoying life. |
-| **Extraverted Intuiting** | Keen at exploiting opportunities; creative; inspire others; changeable; decide by hunches (usually correct); suited to business and politics. |
-| **Introverted Thinking** | Focus on thoughts over feelings; poor practical judgment; intensely private; prefer abstraction; stubborn, aloof, arrogant, inconsiderate; poor communicators. |
-| **Introverted Feeling** | Repress rational thought; capable of deep emotion but avoid outward expression; mysterious, quiet, modest; little consideration for others; withdrawn, cold. |
-| **Introverted Sensing** | Passive, calm, detached; benevolent/amused toward human activities; aesthetically sensitive (art, music); repress intuition. |
-| **Introverted Intuiting** | Focus intensely on intuition with little contact with reality; visionaries/daydreamers; aloof; eccentric; difficulty with everyday life and future planning. |
+| **Extraverted Thinking** | Live by social rules; repress feelings; objective; dogmatic; rigid, cold; good scientists. |
+| **Extraverted Feeling** | Repress thought; emotional; conform to tradition; sociable. **More common in women** (Jung's claim). |
+| **Extraverted Sensing** | Seek pleasure, new experiences; adaptable; outgoing; not introspective. |
+| **Extraverted Intuiting** | Exploit opportunities; creative; changeable; decide by hunches; suited to business/politics. |
+| **Introverted Thinking** | Thoughts over feelings; poor practical judgment; private; stubborn, aloof, arrogant. |
+| **Introverted Feeling** | Repress thought; deep but unexpressed emotion; quiet, mysterious; withdrawn, cold. |
+| **Introverted Sensing** | Passive, calm, detached; aesthetically sensitive; repress intuition. |
+| **Introverted Intuiting** | Intense intuition, little contact with reality; visionaries/daydreamers; eccentric. |
 
 ### The Personal Unconscious
-
-- **Personal unconscious**: reservoir of material that was once conscious but **forgotten or suppressed** because it was trivial or disturbing.
-- Comparable to Freud's **preconscious** (not as inaccessible as Freud's unconscious proper).
-- Two-way traffic between ego and personal unconscious (likened to a **filing cabinet**).
+- **Personal unconscious**: material once conscious but **forgotten or suppressed**; comparable to Freud's **preconscious** (relatively accessible). Two-way traffic with the ego (a "filing cabinet").
 
 ### Complexes
-
-- **Complex**: a **core or pattern of emotions, memories, perceptions, and wishes** organized around a **common theme** (e.g., power, status, achievement).
-- Directs thoughts and behavior; determines how a person perceives the world.
-- Can be **conscious or unconscious**; unconscious complexes intrude on and interfere with consciousness without the person's awareness.
-- Can be **harmful** (obsessive power-seeking) or **useful** (achievement complex driving skill development).
-- Originate from personal experiences AND **ancestral experiences** in the collective unconscious.
-- Detected via **word-association test**: delayed responses, physiological reactions, stammering, slips of the tongue, unusual or absent responses.
+- **Complex**: a **pattern of emotions, memories, perceptions, and wishes** organized around a **common theme** (power, status, achievement).
+- Directs thoughts/behavior; can be **conscious or unconscious**; can be **harmful** (obsessive power-seeking) or **useful** (achievement complex).
+- Originate from personal AND **ancestral experiences** (collective unconscious).
+- Detected via **word-association test** (delays, physiological reactions, stammering, slips, unusual/absent responses).
 
 ### The Collective Unconscious
-
-- The **deepest and least accessible level** of the psyche; the most unusual and controversial aspect of Jung's system.
-- Contains **accumulated, inherited experiences** of all human and pre-human species — transmitted to each new generation.
-- We do **not** inherit experiences directly; we inherit **predispositions** (potential to behave/feel as past generations did).
-  - Example: we inherit the **potential** to fear snakes, not the fear itself.
-- Universal experiences that recur in every generation become part of personality: mother figure, birth, death, dark terrors, worship of power/godlike figure, fear of evil.
-- Jung (1953, p. 188): "The form of the world into which [a person] is born is already inborn in him, as a virtual image."
-- Evidence Jung used:
-  1. **Cross-cultural myths and symbols**: common themes appeared in geographically/temporally distant ancient cultures with no documented transmission.
-  2. **Patient dreams and fantasies**: patients independently recalled the same symbols found in ancient cultures.
+- The **deepest, least accessible level** of the psyche; the most controversial part of Jung's system.
+- Contains **accumulated, inherited experiences** of all human/pre-human species.
+- We inherit **predispositions** (potentials), not the experiences themselves — e.g., the **potential** to fear snakes, not the fear itself.
+- Universal recurring experiences become part of personality: mother, birth, death, power, fear of evil.
+- Jung (1953): "The form of the world into which [a person] is born is already inborn in him, as a virtual image."
+- Evidence: (1) **cross-cultural myths/symbols** with no documented transmission; (2) **patient dreams** independently recalling ancient symbols.
 
 ### Archetypes
-
-- **Archetypes** (also called **primordial images**): recurring universal themes/patterns in the collective unconscious; imprinted by repetition across generations; expressed in dreams and fantasies (Jung, 1947).
-- Many archetypes exist (as many as universal human experiences). Examples: hero, mother, child, God, death, power, wise old man.
+- **Archetypes** (**primordial images**): recurring universal themes in the collective unconscious, imprinted by generational repetition; expressed in dreams/fantasies (Jung, 1947). Examples: hero, mother, child, God, death, power, wise old man.
 - **Four major archetypes**: persona, anima/animus, shadow, self.
 
 #### Persona
-
-- **Persona archetype**: the **public face/mask** we present to others (named after the mask worn by Greek/Roman actors).
-- Necessary to play many roles in life (school, job, social contexts).
-- **Inflation of the persona**: when the ego identifies with the persona rather than the genuine self; results in arrested development of other personality aspects.
-  - Deceiving others = playing a role.
-  - Deceiving oneself = believing the role is one's true nature.
+- **Persona archetype**: the **public face/mask** (named after the actor's mask); needed to play many roles.
+- **Inflation of the persona**: ego identifies with the persona rather than the genuine self → arrested development. Deceiving others = playing a role; deceiving oneself = believing the role is one's true nature.
 
 #### Anima and Animus
-
-- Reflect Jung's recognition of **psychological bisexuality**.
-- Biological basis: each sex secretes hormones of the other sex.
+- Reflect **psychological bisexuality** (biological basis: each sex secretes the other's hormones).
 - **Anima archetype**: **feminine aspects** of the **male** psyche.
 - **Animus archetype**: **masculine aspects** of the **female** psyche.
-- Aid adjustment by helping each sex understand the other; guide behavior toward the opposite sex.
-- Both must be expressed: failure leads to **one-sidedness** of personality.
-- Accepting anima/animus = the **most difficult step** in individuation (greatest change to self-image); opens new creativity; final release from parental influences.
-- Yin-Yang symbol: dark right side = feminine (anima), light left side = masculine (animus); dot of opposite color in each portion = expression of the other archetype.
+- Help each sex understand the other; both must be expressed or personality becomes **one-sided**.
+- Accepting anima/animus = the **most difficult step** in individuation (greatest change to self-image); opens creativity; releases parental influence.
 
 #### Shadow
-
-- **Shadow archetype**: the **dark side** of personality; contains **basic, primitive animal instincts**; has the **deepest roots** of all archetypes.
-- Source of behaviors society considers evil and immoral.
-- Must be tamed for people to live in harmony; but paradox: the shadow is ALSO the source of **vitality, spontaneity, creativity, and emotion**.
-- Total suppression → psyche becomes **dull and lifeless**.
-- Ego's job: repress animal instincts enough to appear civilized while allowing sufficient expression for creativity and vigor.
-- If fully suppressed, shadow may **revolt** — gaining control during crisis or ego weakness.
+- **Shadow archetype**: the **dark side**; **primitive animal instincts**; the **deepest roots** of all archetypes; source of "evil" behavior.
+- Paradox: also the source of **vitality, spontaneity, creativity, emotion**. Total suppression → psyche becomes **dull and lifeless**; if fully suppressed, the shadow may **revolt** during crisis or ego weakness.
+- Ego must repress instincts enough to appear civilized while allowing expression for vigor.
 
 #### Self
-
-- **Self archetype**: represents **unity, integration, and harmony** of the total personality; the ultimate goal of life.
-- Center of personality shifts from the ego to an **equilibrium midpoint** between conscious and unconscious.
-- Full realization lies in the **future**; a motivating force **pulling from ahead** (unlike past pushing from behind).
-- Cannot begin to emerge until all other psychic systems have developed — occurs around **middle age**.
-- Requires self-knowledge; the **most difficult process** in life; demands persistence, perceptiveness, and wisdom.
+- **Self archetype**: **unity, integration, harmony** of the total personality; the ultimate goal of life.
+- Center shifts from ego to an **equilibrium midpoint** between conscious and unconscious.
+- Realization lies in the **future** (pulls from ahead); emerges only after other systems develop — around **middle age**. The **most difficult process** in life.
 
 ---
 
 ## The Development of the Personality
 
-Jung believed personality is shaped by the past, present, AND **future aspirations** — a direct critique of Freud's exclusively past-focused view. He posited **two general developmental periods** (Jung, 1930):
-
-### Developmental Stages (Table 3.2)
+Personality is shaped by past, present, AND **future aspirations** (a critique of Freud). **Two developmental periods** (Jung, 1930):
 
 | Stage | Key Features |
 |---|---|
-| **Childhood** | Ego begins when child distinguishes self from others ("I"); personality initially reflects parents' personalities. |
-| **Puberty to Young Adulthood** ("psychic birth") | Adolescents must adapt to growing demands of reality; focus on education, career, family; **consciousness dominant**; primary attitude = **extraversion**. |
-| **Middle Age** | Major transition; personality shifts from external to internal; focus on balancing unconscious with conscious; beginning of individuation. |
+| **Childhood** | Ego begins when child distinguishes self from others ("I"); personality reflects parents'. |
+| **Puberty to Young Adulthood** ("psychic birth") | Adapt to reality; focus on education, career, family; **consciousness dominant**; primary attitude = **extraversion**. |
+| **Middle Age** | Major transition; shift from external to internal; balance unconscious with conscious; individuation begins. |
 
 ### Childhood to Young Adulthood
-
-- Early childhood: ego develops primitively; children's personalities are largely reflections of their parents'.
-- Parents can enhance or impede development (may force own personality onto child; or expect opposite as vicarious compensation).
-- Ego forms substantively when children can distinguish themselves from others — when they can say **"I"** (consciousness forms).
-- **Puberty = psychic birth**: definite form and content emerge; childhood fantasies must end as adolescent confronts reality.
-- Young adulthood: preparatory activities (education, career, marriage, family); conscious dominant; primary attitude = **extraversion**.
+- Children's personalities largely reflect their parents'; parents can enhance or impede development.
+- Ego forms substantively when the child can say **"I"**.
+- **Puberty = psychic birth**: childhood fantasies must end as the adolescent confronts reality.
+- Young adulthood: education, career, marriage; conscious dominant; attitude = **extraversion**.
 
 ### Middle Age
-
-- Major personality changes between **ages 35–40**.
-- Established 40-year-olds often experience **despair, worthlessness, emptiness**, loss of adventure and meaning despite outward success.
-- Jung viewed these changes as **inevitable and universal** — a natural, beneficial transition, not pathology.
-- Why: preparatory activities are complete; energy has nowhere to go and must be **rechanneled**.
-- Required shift: external → internal; extraversion → introversion; consciousness → balance with unconscious; physical/material → spiritual, philosophical, intuitive.
-- Successful integration = beginning of **individuation** and positive psychological health.
+- Major changes between **ages 35–40**; successful 40-year-olds often feel **despair, worthlessness, emptiness**, loss of meaning.
+- Jung saw this as **inevitable and universal** — natural, not pathology: preparatory activities are done, so energy must be **rechanneled**.
+- Required shift: external → internal; extraversion → introversion; consciousness → balance with unconscious; material → spiritual. Successful integration = beginning of **individuation**.
 
 ### Individuation: How to Reach Fulfillment
+- **Individuation**: psychological health from **integrating all conscious and unconscious** facets; becoming a true individual. Innate and inevitable but can be helped/hindered; begins in **middle age**.
 
-- **Individuation**: condition of psychological health from **integrating all conscious and unconscious** facets of personality; becoming a true individual; fulfilling one's capacities; developing the self.
-- Innate and inevitable tendency but can be helped or hindered by environment.
-- Begins in **middle age**.
-
-**Five steps of individuation:**
-
-1. **Confront the Unconscious**: abandon first-half-of-life values; bring unconscious into awareness; listen to dreams, follow fantasies, exercise creative imagination; be guided by spontaneous flow of unconscious (not purely rational thinking); assimilate but do not be dominated by unconscious.
-
-2. **Dethrone the Persona**: recognize the public personality does not represent true self; accept the genuine self hidden beneath the persona.
-
-3. **Accept the Dark Side (Shadow)**: acknowledge primitive impulses (e.g., selfishness) — not submission, but acceptance of their existence; shadow's tendencies bring zest, spontaneity, vitality; awareness of both destructive and constructive aspects gives personality fuller dimension.
-
-4. **Accept Anima/Animus**: men express anima (tenderness); women express animus (assertiveness); considered the **most difficult step** (greatest change to self-image); opens creativity; final release from parental influences.
-
-5. **Transcendence**: innate tendency toward unity/wholeness; uniting all opposing aspects within the psyche. Environmental factors (unsatisfactory marriage, frustrating job) can inhibit this and prevent full realization of the self.
+**Five steps:**
+1. **Confront the Unconscious**: abandon first-half values; bring the unconscious into awareness via dreams/fantasies; assimilate but don't be dominated.
+2. **Dethrone the Persona**: recognize the public personality is not the true self.
+3. **Accept the Shadow**: acknowledge primitive impulses (not submit); they bring zest and vitality; awareness gives fuller dimension.
+4. **Accept Anima/Animus**: men express tenderness (anima); women express assertiveness (animus); the **most difficult step**.
+5. **Transcendence**: innate tendency uniting all opposing aspects; can be inhibited by an unsatisfactory marriage or frustrating job.
 
 ---
 
@@ -269,41 +207,26 @@ Jung believed personality is shaped by the past, present, AND **future aspiratio
 
 | Issue | Jung's Position |
 |---|---|
-| **Determinism vs. Free Will** | Not fully deterministic; room for free will and spontaneity (spontaneity from the shadow). Personality partly determined by childhood experiences and archetypes. |
-| **Nature vs. Nurture** | Mixed: drive toward individuation/transcendence is **innate**; can be aided or thwarted by learning and experience. |
-| **Past vs. Future** | Both matter. Childhood experiences influential but do not completely shape personality by age 5; **middle-age experiences and future aspirations** are more formative. |
-| **Uniqueness** | Unique only in the **first half of life**. After individuation, develop a **universal personality type** — uniqueness disappears; no single aspect is dominant. |
-| **Optimism vs. Pessimism** | More **optimistic** than Freud; growth continues throughout life; human species also continues to improve. |
-| **Warning** | "**Sickness of dissociation**": Western culture's overemphasis on materialism, reason, and empirical science endangers appreciation of the unconscious and archetypes. |
+| **Determinism vs. Free Will** | Not fully deterministic; room for free will/spontaneity (from the shadow); partly determined by childhood and archetypes. |
+| **Nature vs. Nurture** | Mixed: drive toward individuation is **innate**; aided/thwarted by experience. |
+| **Past vs. Future** | Both; **middle-age experiences and future aspirations** more formative than childhood. |
+| **Uniqueness** | Unique only in the **first half of life**; after individuation, a **universal personality type** emerges. |
+| **Optimism vs. Pessimism** | More **optimistic** than Freud; growth continues throughout life. |
+| **Warning** | "**Sickness of dissociation**": Western overemphasis on materialism/reason/science endangers the unconscious. |
 
 ---
 
 ## Assessment in Jung's Theory
 
-Jung's approach blended **objective/scientific** methods with mystical investigation (myths, alchemy, astrology, ancient symbols).
+Blended **objective/scientific** methods with mystical investigation (myths, alchemy, astrology, symbols).
 
 ### Jung's Assessments of His Patients
-
-- Patients did **not lie on a couch**.
-- Typically sat in **comfortable chairs facing each other**; sometimes Jung faced a window or took patients sailing.
-- Could be informal and gestural, or suddenly very close and pointed in interpretation.
-- Could be **rude**: "Oh no. I can't stand the sight of another one. Just go home and cure yourself today."
-- Accepted patients' fantasies at face value (e.g., told Marie-Louise von Franz that a patient "truly did live on the moon").
+- Patients did **not lie on a couch**; sat in **chairs facing each other** (or by a window, or sailing). Could be informal or pointed, sometimes rude. Accepted fantasies at face value (told von Franz a patient "truly did live on the moon").
 
 ### Word Association
-
-- **Word-association test**: projective technique; person responds to a stimulus word with the **first word that comes to mind**.
-- Now a standard clinical and laboratory tool in psychology.
-- Jung used a list of **100 words** designed to elicit emotions (early 1900s).
-- Measured: (1) **response time**; (2) **physiological reactions**.
-- Used to **detect complexes**: indicators include:
-  - Physiological responses
-  - Delays in responding
-  - Same response to different words
-  - Slips of the tongue / stammering
-  - Responding with more than one word
-  - Making up words
-  - Failure to respond
+- **Word-association test**: respond to a stimulus word with the **first word that comes to mind**; now a standard tool.
+- Jung used **100 words** (early 1900s); measured (1) **response time** and (2) **physiological reactions**.
+- **Complex indicators**: physiological responses, response delays, same response to different words, slips/stammering, multiple-word responses, made-up words, failure to respond.
 
 **Sample Responses (Normal vs. Neurotic — Table 3.3):**
 
@@ -317,88 +240,66 @@ Jung's approach blended **objective/scientific** methods with mystical investiga
 | Needle | To prick | To sew |
 | To swim | Healthy | Water |
 
-*(Source: Jung, C. G., 1909/1973. The association method. Collected Works, Vol. 2.)*
+*(Source: Jung, 1909/1973, The association method, Collected Works Vol. 2.)*
 
 ### Symptom Analysis
-
-- **Symptom analysis**: focuses on **symptoms reported by the patient**; based on free associations to those symptoms.
-- Similar to Freud's **cathartic method**.
-- Between patient's associations and analyst's interpretations, symptoms are often relieved or disappear.
+- **Symptom analysis**: focuses on patient-reported symptoms via free associations; similar to Freud's **cathartic method**; often relieves symptoms.
 
 ### Dream Analysis
 
-**Key differences from Freud:**
-
 | Feature | Freud | Jung |
 |---|---|---|
-| Dream content | Manifest + latent (disguised wish) | Did **not** distinguish manifest vs. latent |
-| Dream purpose | Disguised wish fulfillment | **Prospective** (prepare for future) + **Compensatory** (balance psychic opposites) |
-| Method | Free association — chains away from original element | **Amplification** — repeated associations to the **same original element** until theme detected |
-| Scope | Each dream interpreted separately | Works with a **series of dreams** over time to detect recurring themes |
+| Dream content | Manifest + latent | Did **not** distinguish manifest vs. latent |
+| Purpose | Disguised wish fulfillment | **Prospective** (prepare for future) + **Compensatory** (balance psychic opposites) |
+| Method | Free association (chains away) | **Amplification** (repeated associations to the **same** element) |
+| Scope | Each dream separately | A **series of dreams** over time |
 
-- **Prospective function**: dreams help prepare for anticipated experiences and events.
-- **Compensatory function**: dreams balance opposites in the psyche by compensating for overdevelopment of any one psychic structure.
-- **Amplification**: patient makes repeated associations to the same dream element (not a chain leading away from it) until a theme emerges.
+- **Prospective function**: dreams prepare for anticipated events.
+- **Compensatory function**: dreams balance overdeveloped psychic structures.
+- **Amplification**: repeated associations to the same element until a theme emerges.
 
 ### The Myers-Briggs Type Indicator (MBTI)
+- Developed by **Katharine Cook Briggs** and **Isabel Briggs Myers** in the **1920s** (published 1943/1976) to assess Jung's types.
+- **Most popular personality test ever devised**; taken by **2 million+ people per year** for hiring/promotion (Cunningham, 2012).
 
-- Developed by **Katharine Cook Briggs** and **Isabel Briggs Myers** in the **1920s** (published 1943/1976) to assess Jung's psychological types.
-- **Most popular and most frequently used personality test ever devised**.
-- Taken by **more than 2 million people per year** for hiring and promotion decisions (Cunningham, 2012).
-
-**Sample MBTI Items (Table 3.4):**
-
-1. When going somewhere for the day: (a) plan what to do and when, or (b) just go?
-2. Do you tend to have: (a) deep friendships with very few people, or (b) broad friendships with many?
-3. When given a special job: (a) organize carefully before starting, or (b) find out what's necessary as you go?
-4. When something new becomes fashionable: (a) one of the first to try it, or (b) not much interested?
-5. When truth would not be polite: (a) tell a polite lie, or (b) the impolite truth?
+**Sample MBTI Items (Table 3.4):** plan vs. just go; few deep vs. many broad friendships; organize first vs. find out as you go; first to try a trend vs. uninterested; polite lie vs. impolite truth.
 
 ---
 
 ## Research on Jung's Theory
 
 ### Research on Psychological Types
-
-- **Studies of College Students**: Introverts and extraverts differ in academic performance and cognitive style; introverts tend to perform better in low-stimulation environments; extraverts seek stimulation. EEG studies find physiological correlates of E/I differences.
-- **Studies of Cognitive Functioning**: Sensing/intuiting and thinking/feeling can be measured as distinct cognitive styles. Research supports the functional distinctions.
-- **Studies of Diverse Cultures**: Cross-cultural studies using MBTI and related instruments find E/I and T/F dimensions consistently across cultures, supporting partial universality of Jung's types.
+- Introverts/extraverts differ in academic performance and cognitive style; introverts do better in low-stimulation environments; EEG studies find physiological correlates.
+- Sensing/intuiting and thinking/feeling measurable as distinct cognitive styles.
+- Cross-cultural MBTI studies find E/I and T/F consistently, supporting partial universality.
 
 ### Research on Dreams
-
-- Research supports the **compensatory function**: REM-deprived subjects show compensatory rebound dreaming.
-- Cross-cultural recurring dream themes (being chased, falling, encountering a wise elder) support archetypal content in dreams.
+- Supports the **compensatory function** (REM-deprived subjects show rebound dreaming).
+- Cross-cultural recurring themes (chased, falling, wise elder) support archetypal content.
 
 ### Individuation
-
-- **Midlife Crisis in Women**: Studies (consistent with Levinson) find many middle-aged adults undergo significant re-evaluation of values, identity, and life direction — consistent with Jung's description of midlife transition.
-- **Making Life Changes**: People who make major midlife changes (career shifts, spiritual re-orientation) show patterns consistent with individuation.
-- **Personal Growth or Stagnation?**: Longitudinal studies indicate some individuals achieve increased integration and well-being in middle age while others stagnate — supporting Jung's view that individuation is not automatic.
+- Many middle-aged adults re-evaluate values/identity — consistent with the midlife transition.
+- Those making major midlife changes show individuation patterns.
+- Longitudinal studies: some achieve integration, others stagnate — individuation is not automatic.
 
 ---
 
 ## Reflections on Jung's Theory
 
 ### Contributions
-
-- Introduced **extraversion and introversion** — among the most studied dimensions in all of personality psychology; foundational to modern trait theories (e.g., the Big Five).
-- Introduced the **collective unconscious** and **archetypes** — influenced anthropology, religion, literature, art, and film studies.
-- The concept of the **self** anticipated humanistic theories (Maslow's self-actualization).
-- **Word-association test**: foundational contribution to clinical and experimental psychology.
-- Inspired the **MBTI**, the most widely used personality instrument in the world.
-- Recognized **middle age** as a distinct developmental period — prefigured life-span developmental psychology.
-- First systematic treatment of **psychological bisexuality** (anima/animus).
-- Introduced **individuation** as a model of psychological health and growth.
+- **Extraversion/introversion** — among the most studied dimensions; foundational to the Big Five.
+- **Collective unconscious** and **archetypes** — influenced anthropology, religion, literature, art, film.
+- The **self** anticipated humanistic theories (Maslow's self-actualization).
+- **Word-association test** — foundational to clinical/experimental psychology; inspired the **MBTI**.
+- Recognized **middle age** as a developmental period; first systematic treatment of **psychological bisexuality** (anima/animus); introduced **individuation**.
 
 ### Criticisms
-
-- **Difficult to test scientifically**: concepts like the collective unconscious and archetypes are not readily operationalized or falsifiable.
-- **Autobiographical bias**: built on his own dreams, neurotic episode, and selected patient data.
-- **Sampling bias**: nearly two-thirds of patients were middle-aged Europeans.
-- **Mystical and obscure**: borders on mysticism rather than science (alchemy, astrology, synchronicity).
-- **Gender assumptions**: characterization of anima (feminine = feeling, relatedness) and animus (masculine = thinking, assertiveness) reflected cultural stereotypes.
-- **MBTI criticisms**: poor test-retest reliability; creates artificial types from continuous distributions.
-- **Neglect of childhood**: went too far in the opposite direction from Freud.
+- **Hard to test/falsify** (collective unconscious, archetypes).
+- **Autobiographical and sampling bias** (own dreams; mostly middle-aged Europeans).
+- **Mystical/obscure** (alchemy, astrology, synchronicity).
+- **Gender stereotyping** in anima/animus.
+- **MBTI**: poor test-retest reliability; artificial types from continuous distributions.
+- **Neglect of childhood** (overcorrected from Freud).
 
 ---
 
@@ -407,39 +308,39 @@ Jung's approach blended **objective/scientific** methods with mystical investiga
 | Term | Definition |
 |---|---|
 | **Analytical psychology** | Jung's theory of personality; distinct from Freudian psychoanalysis. |
-| **Libido** | To Jung, a broad, undifferentiated life energy; not restricted to sexuality. |
+| **Libido** | To Jung, a broad, undifferentiated life energy; not restricted to sex. |
 | **Psyche** | Jung's term for the total personality. |
 | **Opposition principle** | Conflict between opposing tendencies generates psychic energy. |
-| **Equivalence principle** | Energy expended in one area is redistributed elsewhere in the psyche at equal value; excess flows into the unconscious. |
-| **Entropy principle** | Tendency toward balance/equilibrium in the personality; ideal is equal distribution of psychic energy across all structures. |
-| **Ego** | The conscious aspect of personality; center of consciousness. |
-| **Extraversion** | Psychic attitude characterized by orientation toward the external world and other people. |
-| **Introversion** | Psychic attitude characterized by orientation toward one's own thoughts and feelings. |
+| **Equivalence principle** | Energy spent in one area is redistributed elsewhere at equal value; excess flows into the unconscious. |
+| **Entropy principle** | Tendency toward balance/equilibrium; ideal is equal distribution of psychic energy. |
+| **Ego** | The conscious aspect; center of consciousness. |
+| **Extraversion** | Orientation toward the external world and others. |
+| **Introversion** | Orientation toward one's own thoughts and feelings. |
 | **Sensing** | Nonrational function; reproduces experience through the senses. |
-| **Intuiting** | Nonrational function; perception not arising directly from external stimulus (hunches). |
-| **Thinking** | Rational function; conscious judgment of true or false. |
-| **Feeling** | Rational function; evaluation in terms of like/dislike or pleasant/unpleasant. |
-| **Psychological types** | Eight personality types based on interactions of two attitudes (E/I) and four functions (T/F/S/N). |
-| **Personal unconscious** | Reservoir of material once conscious but forgotten or suppressed; similar to Freud's preconscious. |
-| **Complex** | A core pattern of emotions, memories, perceptions, and wishes in the personal unconscious organized around a common theme. |
-| **Collective unconscious** | The deepest level of the psyche; contains accumulated, inherited experiences of all human and pre-human species. |
-| **Archetypes** | Images of universal experiences contained in the collective unconscious; also called primordial images. |
-| **Primordial images** | Alternative term for archetypes; recurring universal themes imprinted through generational repetition. |
-| **Persona archetype** | The public face or role a person presents to others; a mask. |
-| **Inflation of the persona** | When the ego identifies with the persona rather than the genuine self. |
+| **Intuiting** | Nonrational function; perception via hunches. |
+| **Thinking** | Rational function; judgment of true/false. |
+| **Feeling** | Rational function; evaluation of like/dislike. |
+| **Psychological types** | Eight types from two attitudes (E/I) × four functions (T/F/S/N). |
+| **Personal unconscious** | Material once conscious but forgotten/suppressed; like Freud's preconscious. |
+| **Complex** | A pattern of emotions/memories/wishes in the personal unconscious organized around a theme. |
+| **Collective unconscious** | Deepest level; inherited experiences of all human/pre-human species. |
+| **Archetypes** | Universal images in the collective unconscious; primordial images. |
+| **Primordial images** | Alternative term for archetypes. |
+| **Persona archetype** | The public face/mask presented to others. |
+| **Inflation of the persona** | Ego identifies with the persona rather than the genuine self. |
 | **Anima archetype** | Feminine aspects of the male psyche. |
 | **Animus archetype** | Masculine aspects of the female psyche. |
-| **Shadow archetype** | The dark side of personality containing primitive animal instincts; also the source of vitality and creativity. |
-| **Self archetype** | Archetype representing unity, integration, and harmony of the total personality; the ultimate goal of life. |
-| **Psychic birth** | Jung's term for puberty, when the psyche assumes definite form and content. |
-| **Individuation** | Condition of psychological health from integration of all conscious and unconscious facets of personality; the ultimate developmental goal. |
-| **Transcendence** | Innate tendency toward unity or wholeness; uniting all opposing aspects within the psyche. |
-| **Word-association test** | Projective technique in which a person responds to a stimulus word with whatever word comes immediately to mind; used to detect complexes. |
-| **Symptom analysis** | Technique focusing on patient-reported symptoms and free associations to those symptoms; similar to Freudian catharsis. |
-| **Dream analysis** | Interpretation of dreams to uncover unconscious conflicts; Jung saw dreams as prospective and compensatory. |
-| **Amplification** | Jung's dream analysis method: patient makes repeated associations to the same original dream element until a theme is detected (vs. Freudian free association which chains away). |
-| **Myers-Briggs Type Indicator (MBTI)** | Most popular personality test ever devised; developed by Katharine Cook Briggs and Isabel Briggs Myers (1920s/1943) to assess Jung's psychological types. |
-| **Sickness of dissociation** | Jung's term for Western culture's danger of overemphasizing materialism, reason, and science at the expense of the unconscious. |
+| **Shadow archetype** | Dark side; primitive instincts; also source of vitality and creativity. |
+| **Self archetype** | Unity, integration, harmony of the total personality; ultimate goal. |
+| **Psychic birth** | Jung's term for puberty, when the psyche assumes definite form. |
+| **Individuation** | Psychological health from integrating all conscious/unconscious facets; ultimate goal. |
+| **Transcendence** | Innate tendency toward unity; uniting all opposing aspects of the psyche. |
+| **Word-association test** | Respond to a stimulus word with the first word that comes to mind; detects complexes. |
+| **Symptom analysis** | Free associations to patient-reported symptoms; similar to Freudian catharsis. |
+| **Dream analysis** | Interpreting dreams as prospective and compensatory. |
+| **Amplification** | Repeated associations to the same dream element until a theme emerges (vs. Freudian free association). |
+| **Myers-Briggs Type Indicator (MBTI)** | Most popular personality test ever; Briggs & Myers (1920s/1943); assesses Jung's types. |
+| **Sickness of dissociation** | Western overemphasis on materialism/reason/science at the expense of the unconscious. |
 
 ---
 
@@ -447,53 +348,46 @@ Jung's approach blended **objective/scientific** methods with mystical investiga
 
 | Person | Contribution |
 |---|---|
-| **Carl Gustav Jung** (1875–1961) | Founded analytical psychology; introduced collective unconscious, archetypes, extraversion/introversion, individuation, word-association test as clinical diagnostic tool. |
-| **Sigmund Freud** | Jung's mentor (1907–1913); designated Jung as "crown prince"; their break led Jung to develop his own theory. |
-| **Eugen Bleuler** | Director of Zurich mental hospital where Jung worked from 1900; coined the term **schizophrenia**. |
-| **Katharine Cook Briggs** | Co-developed the **Myers-Briggs Type Indicator** (with Isabel Briggs Myers; 1920s; published 1943). |
-| **Isabel Briggs Myers** | Co-developed the **Myers-Briggs Type Indicator** (with Katharine Cook Briggs; published 1943/1976). |
-| **Marie-Louise von Franz** (1915–1998) | Lifelong disciple of Jung; her first meeting with Jung involved a patient Jung said "truly did live on the moon." |
+| **Carl Gustav Jung** (1875–1961) | Founded analytical psychology; collective unconscious, archetypes, extraversion/introversion, individuation, word-association test. |
+| **Sigmund Freud** | Jung's mentor (1907–1913); named him "crown prince"; their break led Jung to his own theory. |
+| **Eugen Bleuler** | Director of the Zurich hospital where Jung worked from 1900; coined **schizophrenia**. |
+| **Katharine Cook Briggs** | Co-developed the **MBTI** (with Myers; 1920s; published 1943). |
+| **Isabel Briggs Myers** | Co-developed the **MBTI** (with Briggs; published 1943/1976). |
+| **Marie-Louise von Franz** (1915–1998) | Lifelong disciple of Jung. |
 
 ---
 
 ## Likely Exam Points
 
-1. **Analytical psychology** is Jung's theory — differing from Freud on three key issues: (a) libido is generalized life energy (not just sexual); (b) personality shaped by future aspirations as well as past events; (c) unconscious is even deeper and broader, including a **collective unconscious**.
+1. **Analytical psychology** differs from Freud: (a) libido = generalized life energy; (b) personality shaped by future as well as past; (c) deeper unconscious, including a **collective unconscious**.
 
-2. **Three principles of psychic energy** (Jung, 1928): **opposition** (conflict generates energy), **equivalence** (energy redistributed, conserved), **entropy** (tendency toward balance). All drawn from physics analogies.
+2. **Three principles of psychic energy** (Jung, 1928): **opposition** (conflict generates energy), **equivalence** (energy redistributed/conserved), **entropy** (tendency toward balance) — drawn from physics.
 
-3. **Four psychological functions**: sensing and intuiting = **nonrational** (accept experience); thinking and feeling = **rational** (evaluate experience). These combine with two attitudes (E/I) to produce **8 psychological types**.
+3. **Four functions**: sensing and intuiting = **nonrational**; thinking and feeling = **rational**. With two attitudes (E/I) → **8 types**.
 
-4. **Extraverted feeling type** is described by Jung as more common in **women than men** — a frequent MCQ target.
+4. **Extraverted feeling type** = more common in **women** (Jung's claim) — frequent MCQ.
 
-5. **Collective unconscious** is the deepest psychic level; contains **archetypes** (primordial images) from ancestral experience. We inherit **predispositions** (potential), not the experiences themselves.
+5. **Collective unconscious** = deepest level; contains **archetypes** (primordial images). We inherit **predispositions**, not experiences.
 
-6. **Four major archetypes**: **persona** (public mask), **anima** (feminine in male) / **animus** (masculine in female), **shadow** (primitive instincts + source of vitality), **self** (unity/wholeness/ultimate goal).
+6. **Four major archetypes**: **persona** (mask), **anima/animus** (feminine in male / masculine in female), **shadow** (instincts + vitality), **self** (unity/ultimate goal).
 
-7. **Shadow archetype**: most powerful archetype; source of evil AND vitality/creativity/spontaneity; total suppression leads to flat, lifeless psyche OR eventual revolt of the unconscious.
+7. **Shadow**: source of evil AND vitality; total suppression → flat psyche or eventual revolt.
 
-8. Accepting **anima/animus** is the **most difficult step** in individuation because it represents the greatest change to self-image.
+8. Accepting **anima/animus** = **most difficult step** in individuation.
 
-9. **Individuation** begins at **middle age** (major personality transition between ages **35–40**). Five steps: confront unconscious, dethrone persona, accept shadow, accept anima/animus, transcendence.
+9. **Individuation** begins at **middle age** (transition between **35–40**). Five steps: confront unconscious, dethrone persona, accept shadow, accept anima/animus, transcendence.
 
-10. **Psychic birth** = **puberty** (psyche assumes definite form); ego first forms substantively when a child can say **"I"** (distinguish self from others).
+10. **Psychic birth** = **puberty**; ego forms substantively when a child can say **"I"**.
 
-11. **MBTI**: developed by **Katharine Cook Briggs and Isabel Briggs Myers** in the **1920s** (published 1943/1976); based on Jung's types; **most popular personality test in the world**; over **2 million people per year** take it.
+11. **MBTI**: Briggs & Myers, **1920s** (published 1943/1976); based on Jung's types; **most popular test in the world**; **2 million+ per year**.
 
-12. **Word-association test**: Jung's list = **100 words**; measured **response time** AND **physiological reactions**; indicators of a complex include delays, stammering, slips of the tongue, physiological responses, unusual/absent responses.
+12. **Word-association test**: **100 words**; measured **response time** + **physiological reactions**; complex indicators = delays, stammering, slips, unusual/absent responses.
 
-13. Jung's **dream analysis** vs. Freud's: dreams are **prospective** (prepare for future) AND **compensatory** (balance psychic opposites); Jung used **amplification** (not free association); worked with a **series of dreams**; did **not** distinguish manifest vs. latent content.
+13. Jung vs. Freud on dreams: **prospective** + **compensatory**; uses **amplification**; works with a **series**; does **not** distinguish manifest vs. latent.
 
-14. **Eugen Bleuler** coined the term **schizophrenia** — he was Jung's supervisor at the Zurich mental hospital (from 1900).
+14. **Eugen Bleuler** coined **schizophrenia**; Jung's supervisor in Zurich (from 1900).
 
-15. Personal unconscious is similar to Freud's **preconscious** (material once conscious but forgotten/suppressed; relatively accessible). Complexes reside in the personal unconscious AND are rooted in the collective unconscious.
-```
-
----
-
-The note covers the full chapter at exam granularity. Save it as `Ch03-Carl-Jung-Analytical-Psychology.md` in the knowledge base.
-
-To mark the pending deliverable once this topic is confirmed received, update `/Users/sahil/.whatsapp-watcher/pending-deliverables.md` and change the checkbox from `- [ ]` to `- [x]`. Send the next topic whenever ready and I'll build it the same way.
+15. Personal unconscious ≈ Freud's **preconscious**; complexes reside there and are rooted in the collective unconscious.
 
 ---
 *Source: Theories of Personality (Schultz & Schultz, 11th ed.), Ch 3: Carl Jung: Analytical Psychology (pp. 100-126). Part of [[INDEX]].*

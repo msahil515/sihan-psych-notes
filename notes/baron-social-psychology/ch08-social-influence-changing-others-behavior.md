@@ -8,521 +8,295 @@ tags: [social-influence, conformity, compliance, obedience, Asch, Milgram, Sheri
 
 # 8 Social Influence: Changing Others' Behavior
 
-Social influence refers to efforts by one or more persons to change the behavior, attitudes, or feelings of one or more others. Chapter 8 covers the four primary forms: **conformity** (following social norms), **compliance** (responding to direct requests), **symbolic social influence** (influence from mental representations of others), and **obedience** (following direct orders). The chapter traces foundational experiments (Asch, Sherif, Zimbardo, Milgram) through to modern research on resistance, minority influence, and online influence tactics.
+Social influence is efforts by one or more persons to change the behavior, attitudes, or feelings of others. This chapter covers **conformity** (following norms), **compliance** (direct requests), **symbolic social influence** (mental representations of others), and **obedience** (direct orders), from foundational experiments (Asch, Sherif, Zimbardo, Milgram) to modern research on resistance, minority influence, and online tactics.
 
 ---
 
 ## Conformity: Group Influence in Action
 
-- **Social influence** (Cialdini, 2000, 2006): Efforts by one or more persons to change the behavior, attitudes, or feelings of one or more others.
-- Forms of social influence:
-  1. **Persuasion** — changing attitudes (Chapter 5)
-  2. **Compliance** — direct requests; targets can say yes, no, or maybe
-  3. **Conformity** — influence from rules/guidelines about appropriate behavior
-  4. **Obedience** — change via direct orders/commands
-  5. **Symbolic social influence** — influence from mental representations of others even when not present
-
-- **Conformity**: A type of social influence in which individuals change their attitudes or behavior to adhere to existing **social norms**.
-- **Social norms**: Rules indicating how individuals are expected to behave in specific situations. Can be:
-  - **Explicit/formal**: Written laws, traffic rules, game rules, signs in public places
-  - **Implicit/informal**: Unspoken rules (e.g., "Don't stare at strangers in public places")
-- Example of norm power: Most people leave a tip of approximately 15% regardless of service quality (Azar, 2007); restaurant tip prompts on bills (15%, 17%, 20%) increase tip amounts (Setter, Brownlee, & Sanders, 2011).
+- **Social influence** (Cialdini, 2000, 2006): efforts to change others' behavior, attitudes, or feelings.
+- Forms: **persuasion** (Ch. 5), **compliance** (requests), **conformity** (norms), **obedience** (commands), **symbolic social influence** (mental representations).
+- **Conformity**: changing attitudes/behavior to adhere to existing **social norms**.
+- **Social norms**: rules for how to behave in situations. **Explicit/formal** (laws, signs) or **implicit/informal** ("Don't stare at strangers").
+- Norm power: most people tip ~15% regardless of service (Azar, 2007); tip prompts (15/17/20%) increase amounts (Setter, Brownlee, & Sanders, 2011).
 
 ### Why Conformity Is Functional
-- Without conformity, social chaos would result (e.g., no queuing, no traffic rules).
-- **Facades of conformity** (Hewlin, 2009): Employees adopt the appearance of going along with organizational values even when they do not truly believe in them. Motivated by career advancement; more likely when they feel little input into decisions and plan to leave.
-- Conformity is also used as a **tactic of self-presentation** (Chapter 4).
+- Without it, social chaos (no queuing, no traffic rules).
+- **Facades of conformity** (Hewlin, 2009): appearing to go along with organizational values without believing them, motivated by career advancement.
+- Also a tactic of self-presentation.
 
 ---
 
 ## How Much Do We Conform? More Than We Think
 
-- People in individualistic cultures (e.g., USA) believe they are more independent than others ("lone wolves in a world of sheep").
-- In collectivist cultures (e.g., Japan), conformity carries no negative implications and is seen positively.
-- Classic experiment participants often denied being influenced even when they clearly were.
+- Individualistic cultures (USA) think they are independent ("lone wolves"); collectivist cultures (Japan) view conformity positively.
 
-### KEY STUDY: Pronin, Berger, & Molouki (2007) — Introspection Illusion
+> **KEY STUDY: Pronin, Berger, & Molouki (2007), Introspection Illusion**
+> - Participants voted on proposals after learning peer endorsements, then rated how much they vs. a stranger were influenced (the stranger conformed exactly as much).
+> - Participants rated the stranger as significantly MORE influenced; they saw themselves as influenced by content, not peer pressure.
+> - **Explanation:** we use internal information for ourselves but only overt actions for others (like the actor-observer difference).
 
-| Element | Detail |
-|---|---|
-| Researchers | Pronin, Berger, & Molouki |
-| Year | 2007 |
-| Concept | Introspection illusion |
-| Method | Participants read recommendations about student life, learned which were endorsed by peers, voted on proposals. Then rated extent to which they vs. a stranger were influenced. Stranger conformed precisely as much as participants (designed). |
-| Finding | Participants rated the stranger as significantly MORE influenced by conformity. Participants viewed themselves as more influenced by content of proposals, not peer pressure. |
-| Explanation | People focus on internal information (thoughts/feelings) when explaining own behavior, but observe only overt actions in others — analogous to the actor-observer difference (Chapter 3). |
-
-- **Introspection illusion**: Our belief that social influence plays a smaller role in shaping our own actions than in shaping the actions of others. Conformity often occurs **nonconsciously**, escaping self-notice.
+- **Introspection illusion**: believing social influence shapes our own actions less than others'. Conformity often occurs **nonconsciously**.
 
 ---
 
-## Asch's Research on Conformity: Social Pressure — the Irresistible Force?
+## Asch's Conformity Research
 
-### KEY STUDY: Solomon Asch (1951, 1955) — Line Judgment Conformity Experiment
+> **KEY STUDY: Solomon Asch (1951, 1955, 1956), Line Judgment**
+> - Participants judged which of 3 lines matched a standard. 6-8 confederates unanimously gave wrong answers on 12 of 18 critical trials; the real participant answered last.
+> - **Findings:** 76% conformed at least once; participants agreed with wrong answers 37% of the time; only 5% of alone controls erred. ~25% never yielded.
 
-| Element | Detail |
-|---|---|
-| Researcher | Solomon Asch |
-| Year | 1951, 1955, 1956 |
-| Method | Participants judged which of 3 comparison lines matched a standard line in length. 6-8 confederates present who unanimously gave wrong answers on 12 of 18 "critical trials." Real participant answered after confederates. |
-| DV | Whether participants conformed to the clearly wrong majority answer |
-| Key Findings | 76% of participants conformed at least once; participants agreed with wrong answers 37% of the time overall; only 5% of control participants (responding alone) made errors. |
-| Individual differences | ~25% never yielded to group pressure; some yielded nearly always. |
+### Variations
+1. **Unanimity broken by one dissenter:** conformity dropped sharply regardless of direction; greatest reduction when the dissenter was even more wrong than the majority. Unanimity per se drives conformity.
+2. **Written (private) responses:** conformity dropped sharply, distinguishing public conformity from private acceptance.
 
-### Variations Asch Tested
-
-1. **Unanimity broken by one dissenting confederate:**
-   - Conformity dropped sharply regardless of which direction the dissenter went.
-   - Greatest reduction occurred when the dissenter was even more wrong than the majority (not the correct answer) — showing it is unanimity per se that drives conformity.
-   - Conclusion: Breaking unanimity (in any direction) makes resistance much easier.
-
-2. **Written vs. oral responses:**
-   - When participants wrote answers privately, conformity dropped sharply.
-   - This distinguishes **public conformity** from **private acceptance**.
-
-### Conceptual Distinctions from Asch
-
-- **Public conformity**: Doing or saying what others around us say or do — outward agreement without internal change.
-- **Private acceptance**: Actually coming to feel or think as others do — genuine internal change.
-- People often follow social norms overtly without changing private views (Maas & Clark, 1984).
+### Conceptual Distinctions
+- **Public conformity**: outward agreement without internal change.
+- **Private acceptance**: genuine internal change.
+- People often follow norms overtly without changing private views (Maas & Clark, 1984).
 
 ---
 
-## Sherif's Research on the Autokinetic Phenomenon: How Norms Emerge
+## Sherif's Autokinetic Phenomenon: How Norms Emerge
 
-### KEY STUDY: Muzafer Sherif (1937) — Autokinetic Phenomenon
+> **KEY STUDY: Muzafer Sherif (1937), Autokinetic Phenomenon**
+> - In a dark room, a stationary light appears to move (no reference cues). Participants estimated movement alone, then in groups.
+> - **Findings:** group estimates converged on a shared norm; when later alone, individuals kept giving group-consistent estimates.
+> - Demonstrated norm emergence and **private acceptance**.
 
-| Element | Detail |
-|---|---|
-| Researcher | Muzafer Sherif |
-| Year | 1937 |
-| Phenomenon | Autokinetic phenomenon: In a completely dark room, a single, stationary light appears to move (due to absence of reference cues). |
-| Method | Participants placed in dark room, exposed to stationary light, asked how much it moved. Initially alone, then in groups. |
-| Key Findings | In groups, individuals' estimates converged on a shared group norm. When subsequently placed alone, they continued to give estimates consistent with the group norm. |
-| Interpretation | Demonstrated both norm emergence and private acceptance — people genuinely internalized the group standard. |
-
-- **Autokinetic phenomenon**: The apparent movement of a single, stationary source of light in a dark room; used to study norm emergence and social influence.
-- Sherif's study shows norms develop especially in **ambiguous situations** — people use others as guides when objective criteria are absent.
-- Key contrast with Asch: Sherif showed **private acceptance**; Asch often captured **public conformity** without private acceptance.
+- **Autokinetic phenomenon**: apparent movement of a stationary light in the dark.
+- Norms develop especially in **ambiguous situations**.
+- Contrast: Sherif showed **private acceptance**; Asch captured **public conformity**.
 
 ---
 
-## Factors Affecting Conformity: Variables That Determine the Extent to Which We "Go Along"
+## Factors Affecting Conformity
 
 ### 1. Cohesiveness
-
-- **Cohesiveness**: The extent to which we are attracted to a social group and want to belong to it (Turner, 1991).
-- Greater cohesiveness → greater conformity to group norms.
-- Reasoning: The more we value membership and fear exclusion, the more we conform.
-- Examples: Pledges in prestigious fraternities/sororities; people trying to win acceptance from a desired group.
-- Relevant research: Crandall (1988); Latané & L'Herrou (1996); Noel, Wann, & Branscombe (1995).
+- **Cohesiveness**: how attracted we are to a group and want to belong (Turner, 1991). Greater cohesiveness → greater conformity (Crandall, 1988; Noel, Wann, & Branscombe, 1995).
 
 ### 2. Group Size
+- Asch (1956): conformity rises with size but levels off at 3-4. Bond & Smith (1996): rises beyond 8 with no clear plateau. Larger group = more pressure.
 
-- Early research (Asch, 1956; Gerard, Wilhelmy, & Conolley, 1968): Conformity increases with group size but levels off at 3-4 members.
-- More recent research (Bond & Smith, 1996): Conformity tends to increase with group size up to 8 members and beyond — no clear plateau.
-- General principle: Larger group = greater pressure to conform.
-
-### 3. Descriptive vs. Injunctive Social Norms (Cialdini et al.)
-
-- **Descriptive norms** (Cialdini, Kallgren, & Reno, 1991): Simply describe what most people do in a given situation. Influence behavior by informing us about effective/adaptive behavior.
-- **Injunctive norms**: Specify what ought to be done — what is approved or disapproved behavior. Carry moral weight regardless of whether people obey them.
-- Example: There is a strong injunctive norm against cheating on exams; the fact that some cheat does not eliminate the moral expectation that they should not.
+### 3. Descriptive vs. Injunctive Norms (Cialdini et al.)
+- **Descriptive norms** (Cialdini, Kallgren, & Reno, 1991): what most people **do**.
+- **Injunctive norms**: what people **ought** to do; carry moral weight regardless of compliance (e.g., the norm against cheating persists even though some cheat).
 
 ### Normative Focus Theory (Cialdini, Reno, & Kallgren, 1990)
-
-- **Normative focus theory**: Norms will influence behavior only to the extent that they are **salient** (relevant, significant) to the people involved at the time of behavior.
-- People obey injunctive norms primarily when they think about them and see them as applicable to themselves.
-- Why people sometimes disobey strong injunctive norms: They don't see the norm as applying to them (e.g., drivers who text while driving believe they can handle multitasking).
-- Empirical support: Reno, Cialdini & Kallgren (1993); Kallgren, Reno & Cialdini (2000).
+- Norms influence behavior only when **salient** to people at the time. People disobey strong injunctive norms when they don't see them as applying (e.g., texting drivers). Support: Reno, Cialdini & Kallgren (1993).
 
 ---
 
-## Social Foundations of Conformity: Why We Often Choose to "Go Along"
+## Social Foundations of Conformity
 
-Two core motives drive conformity (Deutsch & Gerard, 1955; Insko, 1985):
+Two core motives (Deutsch & Gerard, 1955; Insko, 1985): the desire to be **liked/accepted** and the desire to be **right**.
 
-1. The desire to be **liked/accepted** by others
-2. The desire to be **right** — to have accurate understanding of the social world
-
-### Normative Social Influence
-
-- **Normative social influence**: Social influence based on the desire to be liked or accepted by other people.
-- From early experience, we learn that agreeing with and behaving like others earns praise, approval, and acceptance.
-- Involves altering behavior to meet others' expectations.
-- Result: We conform because doing so wins the approval we crave.
-
-### Informational Social Influence
-
-- **Informational social influence**: Social influence based on the desire to be correct (i.e., to possess accurate perceptions of the social world).
-- For subjective questions (political views, fashion), we lack objective measuring instruments, so we use others' opinions as guides.
-- Others' actions and opinions define **social reality** for us.
-- Especially powerful in situations of **high uncertainty**.
-- Empirical support: Baron et al. (1996) — informational social influence is stronger when people are more uncertain.
+- **Normative social influence**: conformity from the desire to be liked/accepted; we conform to win approval.
+- **Informational social influence**: conformity from the desire to be correct. For subjective questions we use others' opinions to define **social reality**; especially powerful under **high uncertainty** (Baron et al., 1996).
 
 ---
 
-## The Downside of Conformity: Why Good People Sometimes Do Evil Things
+## The Downside of Conformity
 
-### KEY STUDY: Zimbardo's Stanford Prison Study (1971)
+> **KEY STUDY: Zimbardo's Stanford Prison Study (1971)**
+> - Stanford basement; volunteers randomly assigned as guards (uniforms, sunglasses, clubs) or prisoners (gowns, ID numbers, stripped of possessions). Zimbardo was "warden."
+> - Planned 2 weeks; stopped after **6 days**.
+> - Prisoners became passive/depressed; guards became brutal and sadistic, dehumanizing prisoners.
+> - **Conclusion:** situations, not traits, largely determine behavior; "the line between good and evil is permeable." Applied to Abu Ghraib (2005).
 
-| Element | Detail |
-|---|---|
-| Researcher | Philip Zimbardo (served as "prison warden") |
-| Setting | Basement of Stanford University psychology building |
-| Method | Paid volunteers randomly assigned as guards or prisoners. Guards given uniforms, reflecting sunglasses, clubs, whistles. Prisoners given loose gowns, nylon caps, stripped of possessions, given ID numbers instead of names. Elaborate rules for prisoners. |
-| Duration | Planned 2 weeks; stopped after 6 days |
-| Findings — Prisoners | Initially rebellious, then increasingly passive and depressed. |
-| Findings — Guards | Grew increasingly brutal and sadistic; harassed prisoners, assigned senseless tasks, forced prisoners to mock each other; dehumanized prisoners as inferior and "less than human." |
-| Zimbardo's conclusion | Situations, not personal traits, largely determine behavior. The "line between good and evil is permeable." |
-| Related application | Zimbardo applied findings to Abu Ghraib prison abuses (2005) — soldiers dehumanized prisoners, were anonymous, and had group norms supporting cruelty. |
+> **KEY STUDY: BBC Prison Study (Reicher & Haslam, 2006)**
+> - Replicated the prison setup but with manipulations removing role legitimacy (promotion of a prisoner; later told no differences between groups).
+> - **Findings:** guards rejected their power; prisoners formed a cohesive collective identity, organized, and achieved equal power; the "prison" became democratic, then shifted to authoritarianism when democracy failed.
+> - **Conclusion:** accepting unequal roles depends on **identification** with them; low identification → resistance and social change (explains civil rights and women's movements).
 
-### BBC Prison Study (Reicher & Haslam, 2006)
-
-| Element | Detail |
-|---|---|
-| Researchers | Reicher & Haslam |
-| Year | 2006 |
-| Method | Replicated Zimbardo's prison setup with additional design elements: guards told they were chosen by psychological tests; one prisoner promoted to guard; later told no further promotions; later told no differences between guards and prisoners (removing role legitimacy). |
-| Key Findings | Guards rejected their power; prisoners formed cohesive collective identity, organized, and achieved equal power; "prison" adopted democratic structure. When democratic structure failed, both groups shifted toward rigid authoritarianism. |
-| Conclusion | Whether people accept roles imposing inequality depends on their identification with those roles. Low identification → resistance and pursuit of social change. Explains civil rights movement (1950s-60s) and women's movement (1970s-80s). |
-
-- Turner (2006): "The future is created in the social present" — social structures are not fixed; change is as common as stability.
+- Turner (2006): "The future is created in the social present"; change is as common as stability.
 
 ---
 
-## Why We Sometimes Choose Not to Go Along: The Effects of Power, Basic Motives, and the Desire for Uniqueness
+## Why We Sometimes Choose Not to Go Along
 
-### 1. Power as a Shield Against Conformity
+### 1. Power
+- Powerful people are less dependent on others, less responsive to threats, more driven by internal states (Keltner, Gruenfeld, & Anderson, 2003).
 
-- Keltner, Gruenfeld, & Anderson (2003): Powerful people are less dependent on others for social resources, less responsive to threats, less likely to take others' perspectives; their actions are more directly shaped by internal states.
+> **KEY STUDY: Galinsky et al. (2008), Power and Conformity**
+> - Participants primed with high-power, low-power, or no-power memories did a tedious task and were told 10 students rated it highly.
+> - High-power participants rated the task as less enjoyable (like a no-rating control); low-power participants were significantly influenced by the high ratings.
+> - Feeling powerful reduces conformity; power frees people from situational control.
 
-#### KEY STUDY: Galinsky, Magee, Gruenfeld, Whitson, & Liljenquist (2008)
+### 2. Sexual Motives
 
-| Element | Detail |
-|---|---|
-| Researchers | Galinsky et al. |
-| Year | 2008 |
-| Method | Participants primed to think about a time they had power over others (high power), or when others had power over them (low power), or no power condition. Performed tedious word task. Told 10 other students rated it very high. Asked to rate the task. |
-| Findings | High-power participants rated the task as less enjoyable and interesting — similar to a baseline control group that received no peer ratings. Low-power participants were significantly influenced by others' high ratings. |
-| Conclusion | Feeling powerful reduces conformity to others' opinions. Power frees people from situational control. |
+> **KEY STUDY: Griskevicius et al. (2006), Mate-Attraction and Conformity**
+> - Mate-attraction motive activated (imagine meeting someone you're attracted to), then conformity measured.
+> - Men showed LESS conformity (appearing assertive/independent); women showed MORE (appearing agreeable).
+> - Both conform to the gender stereotype made salient by the dating context; no overall sex difference, only direction.
 
-### 2. Sexual Motives and Nonconformity (Griskevicius et al., 2006)
+### 3. Desire for Uniqueness
+- **Need for uniqueness** (Snyder & Fromkin, 1980): when threatened, people resist conformity to restore distinctiveness.
 
-#### KEY STUDY: Griskevicius, Goldstein, Mortensen, Cialdini, & Kenrick (2006)
-
-| Element | Detail |
-|---|---|
-| Researchers | Griskevicius et al. |
-| Year | 2006 |
-| Reasoning | Standing up to group pressure signals assertiveness/independence in men (consistent with gender stereotypes of desirable male traits), making them more attractive to potential mates. Women who seem agreeable are more attractive to many men (consistent with female gender stereotypes). |
-| Method | Mate-attraction motive activated by asking participants to imagine meeting someone they were passionately attracted to. Then measured conformity. |
-| Findings — Men | When mate-attraction motive activated, men showed less conformity (to appear assertive/independent). |
-| Findings — Women | When mate-attraction motive activated, women showed more conformity (appearing agreeable is attractive to men). |
-| Conclusion | Both men and women conformed to gender stereotypes made salient by the dating situation. No overall sex difference in conformity per se; context determines direction. |
-
-### 3. Desire for Uniqueness and Nonconformity
-
-- **Need for uniqueness** (Snyder & Fromkin, 1980): A motive to be a distinct individual. When threatened, people actively resist conformity to restore their sense of uniqueness.
-
-#### KEY STUDY: Imhoff & Erb (2009)
-
-| Element | Detail |
-|---|---|
-| Researchers | Imhoff & Erb |
-| Year | 2009 |
-| Method | Participants received false feedback that they were "exactly average" on personality traits (uniqueness threat) or no feedback. Then exposed to majority opinion about a nearby lake's desirability as vacation spot. |
-| Findings | Participants who received "just average" feedback (uniqueness threat) were less likely to conform to the majority opinion. |
-| Conclusion | Threat to uniqueness motivates nonconformity as a means of restoring sense of distinctiveness. |
+> **KEY STUDY: Imhoff & Erb (2009)**
+> - Participants told they were "exactly average" (uniqueness threat) or no feedback, then exposed to majority opinion.
+> - The uniqueness-threat group was less likely to conform.
 
 ---
 
 ## EMOTIONS AND SOCIAL INFLUENCE: Emotional Contagion
 
-- **Social contagion** (also called **emotional contagion**): The process through which moods and emotions spread from one person to another; a basic form of social influence.
-- Initial mechanism (Hatfield, Cacioppo, & Rapson, 1994): We automatically and physically mimic the emotional expressions of others (if they smile, we smile; if they frown, we frown). This produces the same emotion in us.
-- Limitation: Does not explain **Schadenfreude** — taking pleasure in others' misfortune, or feeling opposite emotions (e.g., disappointment when opposing team celebrates).
-- **Schadenfreude**: German term for malicious pleasure in others' sorrow or disappointment.
-- Extended explanation: Parkinson & Simons (2009) — cognitive appraisal also involved. We interpret others' emotions as information about how we should feel (e.g., if others show anxiety, we infer the decision is very important).
-- Epstude & Mussweiler (2009): Similarity to the other person modulates emotional contagion.
-- Key point: Emotional contagion is not mere automatic mimicry; cognition mediates the process.
+- **Social/emotional contagion**: moods and emotions spreading from person to person; a basic form of influence.
+- Mechanism 1 (Hatfield, Cacioppo, & Rapson, 1994): we automatically mimic others' emotional expressions, producing the same emotion.
+- Limitation: doesn't explain **Schadenfreude** (malicious pleasure in others' misfortune) or feeling opposite emotions.
+- Mechanism 2 (Parkinson & Simons, 2009): cognitive appraisal also involved; we read others' emotions as information about how to feel. Similarity modulates contagion (Epstude & Mussweiler, 2009). Cognition mediates contagion, not just mimicry.
 
 ---
 
-## Do Women and Men Differ in the Tendency to Conform?
+## Do Women and Men Differ in Conformity?
 
-- Historical stereotype (e.g., Queen Victoria): Women are more conforming than men.
-- Social psychological research conclusions:
-  - No reliable overall gender difference in tendency to conform.
-  - When differences appear, they are context-dependent: Women may conform more in public settings with group pressure due to socialization emphasizing agreeableness; men may conform less to appear independent.
-  - Griskevicius et al. (2006) showed both sexes conform to gender role stereotypes — direction of conformity differs by situation, not overall level.
-  - Research on fashion conformity: Women may adopt new fashions faster, but this may reflect social norms about appearance rather than a general personality trait.
+- Old stereotype: women conform more. Research: **no reliable overall gender difference**.
+- Differences are context-dependent (socialization, public settings). Griskevicius et al. (2006): both sexes conform to gender role stereotypes; direction differs, not overall level.
 
 ---
 
-## Minority Influence: Does the Majority Always Rule?
+## Minority Influence
 
-- **Minority influence**: Social influence exerted by a minority on the majority. The minority can induce attitude/belief change in the majority under the right conditions.
-- Key theorist: **Serge Moscovici** — proposed that minorities can exert influence through a process different from majority influence.
+- **Minority influence**: influence of a minority on the majority. Key theorist: **Serge Moscovici**.
 
 ### Conditions for Effective Minority Influence
-
-1. **Consistency**: The minority must present its position consistently over time (diachronic consistency) and agree among themselves (synchronic consistency). Inconsistency signals uncertainty and reduces influence.
-2. **Confidence**: The minority must appear self-assured and committed.
-3. **Flexibility**: The minority must be willing to make reasonable concessions on minor points without abandoning the core position (avoids appearing rigid/dogmatic).
-4. **Investment/Dedication**: Willingness to suffer for their views signals genuine belief.
+1. **Consistency**: over time (diachronic) and among members (synchronic); inconsistency signals uncertainty.
+2. **Confidence**: appearing self-assured.
+3. **Flexibility**: reasonable concessions on minor points (avoids appearing rigid).
+4. **Investment/Dedication**: willingness to suffer for one's views.
 
 ### Moscovici's Conversion Theory
+- Majority influence → **public compliance** without private acceptance.
+- Minority influence → **conversion** (deep private change), because people must think hard about why a small, resolute group holds a deviant position.
+- **Dual-process model**: majority triggers social comparison (being accepted); minority triggers validation (whether they might be right).
 
-- Majority influence typically produces **public compliance** without private acceptance (direct, surface change).
-- Minority influence, when effective, tends to produce **conversion** — deeper, private attitude change — because people must genuinely think about why a small, resolute group holds a deviant position.
-- **Dual-process model**: Majority influence triggers a social comparison process (focus on being accepted); minority influence triggers a validation process (focus on whether the minority might be right).
-
-### Direct vs. Indirect (Sleeper) Effects of Minority Influence
-
-- Minority may not change the public attitude directly, but may produce latent change that appears later (the "sleeper effect" in minority influence).
-- Minorities can shift thinking on related but different issues (indirect influence) even when direct influence on the stated topic is minimal.
+### Direct vs. Indirect Effects
+- Minorities may produce latent change appearing later (sleeper effect) and shift thinking on related issues (indirect influence).
 
 ---
 
-## Compliance: To Ask — Sometimes — Is to Receive
+## Compliance
 
-- **Compliance**: A form of social influence involving direct requests from one person to another. The target can accept or refuse.
-- Unlike conformity (norm-driven) and obedience (command-driven), compliance relies on requests.
+- **Compliance**: direct requests; the target can accept or refuse. Unlike conformity (norm-driven) and obedience (command-driven).
 
----
-
-## Compliance: The Underlying Principles
-
-Cialdini (2006) identified six key principles underlying compliance:
+### Cialdini's Six Principles (2006)
 
 | Principle | Description |
 |---|---|
-| **Friendship/Liking** | We comply more readily with people we like |
-| **Commitment/Consistency** | Once committed, we feel pressure to behave consistently |
+| **Friendship/Liking** | We comply more with people we like |
+| **Commitment/Consistency** | Once committed, we feel pressure to be consistent |
 | **Reciprocity** | We feel obligated to return favors/concessions |
-| **Scarcity** | We value things more when they are rare or diminishing |
-| **Social proof (descriptive norms)** | We look to others' behavior to guide our own |
+| **Scarcity** | We value rare or diminishing things more |
+| **Social proof (descriptive norms)** | We look to others' behavior |
 | **Authority** | We defer to legitimate experts |
 
 ---
 
-## Tactics Based on Friendship or Liking: Ingratiation
+## Tactics Based on Liking: Ingratiation
 
-- **Ingratiation**: A technique in which we increase our attractiveness to others and thereby gain their compliance.
-- Methods of ingratiation:
-  1. **Flattery**: Offering compliments (must be sincere to be effective; insincere flattery may backfire).
-  2. **Agreement**: Agreeing with the target's views.
-  3. **Favor-doing**: Doing small favors for the target before making a request.
-  4. **Self-presentation**: Presenting oneself favorably (attractive dress, confident manner).
-- Risk of ingratiation: If the target perceives the attempt as strategic, it can reduce liking and compliance.
-- Works because: We comply more readily with people we like.
+- **Ingratiation**: increasing our attractiveness to gain compliance, via **flattery** (must be sincere), **agreement**, **favor-doing**, and favorable **self-presentation**.
+- Risk: if perceived as strategic, it reduces liking and compliance.
 
 ---
 
-## Tactics Based on Commitment or Consistency: The Foot-in-the-Door and the Lowball
+## Tactics Based on Commitment/Consistency
 
-### Foot-in-the-Door Technique
+### Foot-in-the-Door
+- **Foot-in-the-door**: start with a small request, then make the larger target request.
+- Mechanism: agreeing to the small request shifts self-perception ("I'm that kind of person"), aiding later compliance.
+- Freedman & Fraser (1966): a small "Drive Safely" sign → far higher agreement to a huge billboard.
 
-- **Foot-in-the-door technique**: Start with a small request the target will likely accept; then follow with the larger target request.
-- Mechanism: Once people agree to the small request, they see themselves as "the kind of person who does this sort of thing" (self-perception/commitment), making them more likely to comply with the larger request.
-- Classic demonstration: Freedman & Fraser (1966) — asked homeowners to display a small "Drive Safely" sign first; later asked them to display a huge, unsightly billboard. Those who agreed to the small sign were far more likely to comply with the large one.
-- Effective because: Commitment and consistency motives — people want to appear (and be) consistent with their prior behavior.
-
-### Lowball Technique
-
-- **Lowball technique**: First get compliance with a request, then raise the cost/size of the request after commitment has been made.
-- Mechanism: Once people have committed, they feel obligated to follow through even when the terms change.
-- Example: A car dealer gets a customer to agree to buy a car at a low price, then later reveals additional costs. Customer often proceeds with the purchase.
-- Works because: Psychological commitment to the decision, not just the original terms.
+### Lowball
+- **Lowball**: get compliance, then raise the cost after commitment.
+- Mechanism: commitment to the decision (not the original terms). Example: a car dealer reveals extra costs after agreement; the customer often proceeds.
 
 ---
 
-## Tactics Based on Reciprocity: The Door-in-the-Face and the "That's-Not-All" Approach
+## Tactics Based on Reciprocity
 
-### Door-in-the-Face Technique
+### Door-in-the-Face
+- **Door-in-the-face**: start with a large request likely refused, then make the smaller target request.
+- Mechanism: the move from large to small is seen as a concession, triggering reciprocal concession; also **perceptual contrast**.
+- Cialdini et al. (1975): refusing a 2-year volunteer program → much higher agreement to chaperone a one-day zoo trip.
 
-- **Door-in-the-face technique**: Start with a very large (extreme) request likely to be refused; then follow with the actual smaller target request.
-- Mechanism: The target perceives the move from large to small request as a concession and feels obligated (by reciprocity norms) to make a concession in return — by complying with the smaller request.
-- Works because: **Reciprocity norm** — we feel obligated to respond to concessions with concessions.
-- Also involves **perceptual contrast**: The smaller request seems even smaller/more reasonable after the large one.
-- Classic demonstration: Cialdini et al. (1975) — asked students to volunteer for a 2-year juvenile delinquency program (refused), then asked them to chaperone a one-day zoo trip. Compliance was much higher after the large refusal.
-
-### That's-Not-All Technique
-
-- **That's-not-all technique**: Begin with an initial offer, then add something extra (a sweetener) before the target responds.
-- Mechanism: The target perceives the addition as a concession/favor, triggering reciprocity (feeling obligated to return the favor by complying).
-- Example: Infomercials — "But wait, there's more!" — add a bonus before you decide.
-- Different from door-in-the-face: Here the initial offer is enhanced rather than a larger request being reduced.
-- Research: Burger (1986) demonstrated its effectiveness in sales contexts (baked goods + extra cookies).
+### That's-Not-All
+- **That's-not-all**: make an initial offer, then add a sweetener before the target responds.
+- Mechanism: the addition is seen as a concession/favor (reciprocity). Example: infomercial "But wait, there's more!" Burger (1986) demonstrated it in sales.
 
 ---
 
-## Tactics Based on Scarcity: Playing Hard to Get and the Fast-Approaching-Deadline Technique
+## Tactics Based on Scarcity
 
-### Playing Hard to Get
-
-- **Playing hard to get**: Making oneself (or a product/opportunity) appear scarce, rare, or difficult to obtain, to increase desirability.
-- Mechanism: Scarcity implies value (**scarcity principle** — Cialdini); limited availability triggers a sense of urgency.
-- Applications: Job candidates who appear highly sought-after; real estate agents mentioning other interested buyers; sales that are "limited time only."
-
-### Fast-Approaching-Deadline Technique
-
-- **Fast-approaching-deadline technique**: Imposing a time limit on an offer, creating urgency that pressures the target into compliance.
-- Mechanism: Time scarcity → psychological reactance and fear of missing out → rushed compliance.
-- Example: "This offer expires at midnight tonight!" in advertising.
-- Both tactics exploit the **scarcity heuristic**: Items that are harder to obtain are perceived as more valuable.
+- **Playing hard to get**: making oneself or a product appear scarce/rare to increase desirability (**scarcity principle**).
+- **Fast-approaching-deadline technique**: imposing a time limit creates urgency. Example: "This offer expires at midnight!" Both exploit the **scarcity heuristic**.
 
 ---
 
-## SOCIAL LIFE IN A CONNECTED WORLD: The Use of Social Influence Tactics by Scammers on the Web
+## SOCIAL LIFE IN A CONNECTED WORLD: Online Scammers
 
-- **Phishing**: Fraudulent emails designed to obtain personal/security information by pretending to be a trusted institution (e.g., a bank).
-- **Pharming**: Redirecting a user's web browser to a fake but convincing website without requiring the user to click a link; captures login information.
-- Internet scammers use all six Cialdini principles:
-  - **Authority** — impersonating banks, government agencies
-  - **Scarcity/urgency** — "Your account has been compromised — act now!"
-  - **Social proof** — "Millions have used this product"
-  - **Reciprocity** — offering something "free" before requesting information
-  - **Liking** — using friendly, personalized language
-  - **Commitment** — getting small agreements that escalate
-- Real case: Jain, Sundin, & Reno — malware scam (fake virus warnings + "cure" software costing $30-70); collected over $100 million from victims in 60 countries.
+- **Phishing**: fraudulent emails pretending to be a trusted institution to obtain personal information.
+- **Pharming**: redirecting a browser to a fake website to capture login info.
+- Scammers use all six Cialdini principles: authority (impersonating banks), scarcity/urgency, social proof, reciprocity, liking, commitment.
+- Case: Jain, Sundin, & Reno malware scam (fake virus warnings + "cure" software, $30-70); over $100 million from victims in 60 countries.
 
 ---
 
-## Symbolic Social Influence: How We Are Influenced by Others Even When They Are Not There
+## Symbolic Social Influence
 
-- **Symbolic social influence**: Social influence resulting from the mental representation of others or our relationships with them, rather than from their actual presence or overt actions (Fitzsimons & Bargh, 2003).
-- We carry mental representations of significant others that influence our thoughts, goals, and behavior even in their absence.
-- Examples:
-  - Thinking about a demanding professor motivates harder work on tasks, even when they are not present.
-  - Priming the concept of a loving parent increases affiliative goals.
-  - Imagining what a respected friend would think can change one's choices.
-- Mechanism: Goal activation — thinking about another person activates goals associated with that relationship.
-- Research: Fitzsimons & Bargh (2003) — priming thoughts of a friend activated helpfulness goals; priming a professor activated achievement goals.
-- Key implication: Social influence does not require physical presence. Our social networks influence us continuously through our own minds.
+- **Symbolic social influence**: influence from mental representations of others or our relationships, not their actual presence (Fitzsimons & Bargh, 2003).
+- Examples: thinking about a demanding professor motivates harder work; priming a loving parent increases affiliative goals.
+- Mechanism: **goal activation**; thinking about a person activates relationship-associated goals. Fitzsimons & Bargh (2003): priming a friend activated helpfulness goals; priming a professor activated achievement goals.
+- Influence does not require physical presence.
 
 ---
 
-## Obedience to Authority: Would You Harm an Innocent Stranger If Ordered to Do So?
+## Obedience to Authority
 
-- **Obedience**: A form of social influence in which one person simply orders one or more others to perform some action(s). Compliance occurs not because of persuasion or norms but because of direct commands from authority figures.
-- Questions: Under what conditions do people obey? When do they refuse? How far does obedience go?
+- **Obedience**: one person orders others to act; compliance from direct commands, not persuasion or norms.
 
----
+> **KEY STUDY: Stanley Milgram (1963, 1974), Obedience**
+> - Yale; males aged 20-50. The "teacher" administered shocks to a "learner" (confederate) for wrong answers, from 15V to 450V in 15V steps (labels up to "Danger: Severe Shock" and "XXX"). The learner gave scripted protests, then silence. The experimenter prodded: "Please continue," ... "You have no other choice, you must go on."
+> - **Findings:** ~**65%** continued to the maximum **450V**. Participants showed stress (sweating, trembling) yet continued.
+> - **Control:** when free to choose, average shock was very low (~50V).
 
-## Obedience in the Laboratory
-
-### KEY STUDY: Stanley Milgram's Obedience Experiments (1963, 1974)
-
-| Element | Detail |
-|---|---|
-| Researcher | Stanley Milgram |
-| Year | 1963 (first published); 1974 (full monograph — *Obedience to Authority*) |
-| Institution | Yale University |
-| Participants | Males aged 20-50, varied occupations, recruited by newspaper ad |
-| Method | Participant (the "teacher") was told to administer electric shocks to a "learner" (confederate) for each incorrect answer on a word-pair memory task. Shocks ranged from 15V to 450V in 15V increments. Shock generator had labels: Slight Shock, Moderate, Strong, Very Strong, Intense, Extreme Intensity, Danger: Severe Shock, XXX. The learner (confederate) was in another room and gave scripted responses (complaints, requests to stop, eventually silence). Experimenter gave scripted prods to continue: "Please continue," "The experiment requires that you continue," "It is absolutely essential that you continue," "You have no other choice, you must go on." |
-| Key Findings | ~65% (about 2/3) of participants continued to the maximum 450V level. Very few stopped at the points where the learner first protested. |
-| Participants' reactions | Showed clear signs of stress (sweating, trembling, stuttering, nervous laughter) yet continued. |
-| Control comparison | When participants could choose shock level themselves, average shock used was very low (~50V). |
-
-### Milgram's Variations and Their Effects on Obedience
+### Variations and Effects
 
 | Variation | Finding |
 |---|---|
-| **Learner in same room** (proximity) | Obedience dropped (from ~65% to 40%) |
-| **Teacher physically holds learner's hand to shock plate** | Obedience dropped further (~30%) |
-| **Experimenter absent (gives orders by phone)** | Obedience dropped sharply (~20%); many participants gave lower shocks than ordered and lied to experimenter |
-| **Study moved from Yale to rundown commercial building** | Obedience dropped somewhat (~47%) but still substantial |
-| **Two experimenters disagreed** | Obedience dropped to near zero |
-| **Peer models who refused to continue** | Obedience dropped sharply (~10%) |
-| **Peer models who continued to obey** | Higher obedience levels |
-| **Women as participants** | About the same obedience rates as men (65%) |
-| **Learner mentions heart condition** | Obedience still substantial |
+| **Learner in same room** (proximity) | Obedience dropped (~65% → 40%) |
+| **Teacher holds learner's hand to shock plate** | Dropped further (~30%) |
+| **Experimenter absent (orders by phone)** | Dropped sharply (~20%); many lied and gave lower shocks |
+| **Moved from Yale to rundown building** | Dropped (~47%) but still substantial |
+| **Two experimenters disagreed** | Dropped to near zero |
+| **Peer models who refused** | Dropped sharply (~10%) |
+| **Peer models who obeyed** | Higher obedience |
+| **Women participants** | About the same as men (65%) |
+| **Learner mentions heart condition** | Still substantial |
 
-### Key Findings Summary
-
-- Obedience was far higher than anyone predicted (Milgram asked psychiatrists, college students, and middle-class adults to predict; all predicted very low rates).
-- Situational factors (not personality pathology) accounted for high obedience.
-- Studies replicated cross-culturally with similar results (though some variation by country).
+- Obedience was far higher than predicted (psychiatrists, students, adults all predicted very low rates). Situational, not pathological. Replicated cross-culturally.
 
 ---
 
 ## Destructive Obedience: Why It Occurs
 
-Milgram and subsequent researchers identified several factors explaining why destructive obedience occurs:
-
-### 1. The Shifting of Moral Responsibility
-
-- **Agentic state** (Milgram): When obedient, people perceive themselves as agents of the authority's will rather than autonomous actors. They attribute responsibility to the authority, not themselves ("I was just following orders").
-- Contrast: **Autonomous state** — when people see themselves as acting freely and bear full responsibility.
-
-### 2. Gradual Escalation (Foot-in-the-Door Effect in Obedience)
-
-- Each small step of increased shock level seemed only marginally larger than the previous one. Participants became "trapped" by prior compliance — quitting now would imply all prior shocks were wrong.
-- Analogous to the foot-in-the-door technique: commitment escalates step by step.
-
-### 3. Legitimacy of Authority
-
-- Experimenter was a perceived authority figure (white lab coat, Yale University setting).
-- We learn from childhood to obey legitimate authorities (parents, teachers, police, doctors).
-- **Legitimate authority**: Authority figure who is perceived as having the right to issue commands.
-
-### 4. Lack of Social Support for Resistance
-
-- When others continue to obey, there is no model for resistance; the situation defines obedience as appropriate.
-- When peers modeled defiance, obedience rates dropped sharply (Milgram variation).
-
-### 5. Physical and Psychological Distance from the Victim
-
-- The further removed participants were from the learner's suffering, the easier it was to continue.
-- When learner was in same room, obedience dropped because distress cues became more salient, making it harder to deny harm.
-
-### 6. Pace of Events
-
-- Events moved quickly; there was little time for reflection or consulting one's values.
-- Rapid pace kept participants from stepping back and reconsidering.
-
-### 7. Normalization of the Situation
-
-- The situation was structured so that obedience appeared normal and expected.
-- Participants may have wondered "if this were truly wrong, wouldn't the authority stop it?"
+1. **Shifting moral responsibility:** **agentic state** (Milgram), seeing oneself as the authority's agent ("I was just following orders"); contrast with the **autonomous state**.
+2. **Gradual escalation:** each small step seemed marginally larger; prior compliance traps people (like foot-in-the-door).
+3. **Legitimacy of authority:** experimenter as authority (lab coat, Yale); we learn to obey **legitimate authority**.
+4. **Lack of social support for resistance:** no model for refusal; peer defiance sharply lowered obedience.
+5. **Distance from the victim:** more distance = easier to continue; same-room cues made harm undeniable.
+6. **Pace of events:** rapid pace prevented reflection.
+7. **Normalization:** the situation made obedience appear normal ("if it were wrong, the authority would stop it").
 
 ---
 
-## Destructive Obedience: Resisting Its Effects
+## Destructive Obedience: Resisting It
 
-Research and reasoning point to several strategies for resisting destructive obedience:
-
-### 1. Question the Authority's Legitimacy
-
-- Remind yourself that obedience is only appropriate when authority figures are indeed legitimate experts acting within their domain.
-- Ask: Does this person truly have the right to give these orders? Are the orders within their appropriate scope?
-
-### 2. Remember That You Are Personally Responsible
-
-- Actively refuse to adopt the agentic state. Even if ordered to do something, you are morally responsible for your actions.
-- Milgram found that some participants insisted they retained personal responsibility and refused to continue.
-
-### 3. Examine the Situation Carefully Before Obeying
-
-- Recognize the situational factors operating — legitimate authority, gradual escalation, lack of peers defying orders — as potential traps.
-- Step back and evaluate: "Would I do this on my own initiative?"
-
-### 4. Find an Ally
-
-- Social support for resistance dramatically reduces obedience (Milgram — peer rebellion condition).
-- One person's refusal can trigger others to refuse.
-
-### 5. Be Aware of the Escalation Trap
-
-- Recognize when you have been gradually maneuvered into a position where stopping seems inconsistent with what you have already done.
-- Sunk costs should not commit you to harmful future actions.
-
-### 6. Trust Your Moral Instincts
-
-- If something feels deeply wrong, that intuition is important data.
-- Zimbardo's work suggests that even good people can be pushed to do bad things; awareness is itself protective.
+1. **Question the authority's legitimacy** (right to give these orders? within their scope?).
+2. **Remember personal responsibility** (refuse the agentic state).
+3. **Examine the situation** before obeying (recognize the traps).
+4. **Find an ally** (social support sharply reduces obedience).
+5. **Be aware of the escalation trap** (sunk costs shouldn't commit you to harm).
+6. **Trust your moral instincts** (awareness is itself protective).
 
 ---
 
@@ -530,40 +304,40 @@ Research and reasoning point to several strategies for resisting destructive obe
 
 | Term | Definition |
 |---|---|
-| **Social influence** | Efforts by one or more persons to change the behavior, attitudes, or feelings of one or more others |
-| **Conformity** | A type of social influence in which individuals change attitudes or behavior to adhere to existing social norms |
-| **Compliance** | A form of social influence involving direct requests from one person to another |
-| **Symbolic social influence** | Social influence resulting from mental representations of others rather than their actual presence |
-| **Obedience** | A form of social influence in which one person orders one or more others to perform some action |
-| **Social norms** | Rules indicating how individuals are expected to behave in specific situations |
-| **Public conformity** | Overt agreement with others' actions without internal attitude change |
-| **Private acceptance** | Genuine internal attitude change resulting from social influence |
-| **Autokinetic phenomenon** | Apparent movement of a single stationary light in a dark room; used to study norm emergence |
-| **Introspection illusion** | The belief that social influence plays a smaller role in shaping one's own actions than the actions of others |
-| **Normative social influence** | Conformity driven by the desire to be liked and accepted by others |
-| **Informational social influence** | Conformity driven by the desire to be correct; using others' opinions as a guide to reality |
-| **Cohesiveness** | The extent to which one is attracted to a group and wants to belong to it |
-| **Descriptive norms** | Norms that describe what most people do in a given situation |
-| **Injunctive norms** | Norms that specify what ought to be done — approved and disapproved behavior |
-| **Normative focus theory** | Theory stating norms influence behavior only when they are salient/focal to the people involved |
-| **Facades of conformity** | Adopting the appearance of going along with group/organizational values without genuinely believing in them |
-| **Emotional contagion / Social contagion** | The process by which moods and emotions spread automatically from one person to another |
-| **Schadenfreude** | Malicious pleasure derived from others' misfortune |
-| **Agentic state** | Psychological state in which a person sees themselves as an agent of an authority's will, shifting moral responsibility to the authority |
-| **Autonomous state** | Psychological state in which a person sees themselves as acting freely and bears full moral responsibility |
-| **Minority influence** | Social influence exerted by a minority on the majority, typically producing deep private attitude change |
-| **Need for uniqueness** | The motive to be a distinct individual; when threatened, promotes nonconformity |
-| **Ingratiation** | Technique to increase attractiveness to another person to gain their compliance |
-| **Foot-in-the-door technique** | Start with a small request, then follow with a larger target request |
-| **Lowball technique** | Gain commitment to a request, then reveal higher costs after commitment is made |
-| **Door-in-the-face technique** | Start with a large (refused) request, then present the actual smaller target request |
-| **That's-not-all technique** | Make an initial offer then add a sweetener (bonus) before the target responds |
-| **Playing hard to get** | Making oneself or a product appear scarce to increase desirability |
-| **Fast-approaching-deadline technique** | Imposing a time limit to create urgency and pressure compliance |
-| **Phishing** | Fraudulent effort to obtain personal information via fake communications appearing to come from trusted sources |
-| **Pharming** | Redirecting a user's web browser to a fake website to capture login credentials |
-| **Scarcity principle** | Items perceived as rare or diminishing are valued more highly and sought more urgently |
-| **Legitimate authority** | An authority figure perceived as having the rightful power to issue commands in a given domain |
+| **Social influence** | Efforts to change others' behavior, attitudes, or feelings |
+| **Conformity** | Changing attitudes/behavior to adhere to social norms |
+| **Compliance** | Social influence via direct requests |
+| **Symbolic social influence** | Influence from mental representations of others, not their presence |
+| **Obedience** | Social influence via direct orders |
+| **Social norms** | Rules for how to behave in situations |
+| **Public conformity** | Overt agreement without internal change |
+| **Private acceptance** | Genuine internal attitude change |
+| **Autokinetic phenomenon** | Apparent movement of a stationary light in the dark; used to study norm emergence |
+| **Introspection illusion** | Believing influence shapes one's own actions less than others' |
+| **Normative social influence** | Conformity from the desire to be liked/accepted |
+| **Informational social influence** | Conformity from the desire to be correct |
+| **Cohesiveness** | Attraction to a group and desire to belong |
+| **Descriptive norms** | What most people do |
+| **Injunctive norms** | What people ought to do (approved/disapproved) |
+| **Normative focus theory** | Norms influence behavior only when salient |
+| **Facades of conformity** | Appearing to go along without genuinely believing |
+| **Emotional/social contagion** | Moods and emotions spreading between people |
+| **Schadenfreude** | Malicious pleasure in others' misfortune |
+| **Agentic state** | Seeing oneself as an agent of authority, shifting responsibility to the authority |
+| **Autonomous state** | Seeing oneself as acting freely, bearing full responsibility |
+| **Minority influence** | A minority influencing the majority, often producing deep private change |
+| **Need for uniqueness** | Motive to be distinct; when threatened, promotes nonconformity |
+| **Ingratiation** | Increasing attractiveness to gain compliance |
+| **Foot-in-the-door** | Small request first, then larger target request |
+| **Lowball** | Gain commitment, then raise the cost |
+| **Door-in-the-face** | Large refused request first, then smaller target request |
+| **That's-not-all** | Initial offer plus a sweetener before the target responds |
+| **Playing hard to get** | Making oneself/product appear scarce |
+| **Fast-approaching-deadline technique** | A time limit creating urgency |
+| **Phishing** | Fraudulent communications to obtain personal information |
+| **Pharming** | Redirecting a browser to a fake website to capture credentials |
+| **Scarcity principle** | Rare/diminishing items are valued more |
+| **Legitimate authority** | Authority perceived as having the rightful power to command |
 
 ---
 
@@ -571,67 +345,49 @@ Research and reasoning point to several strategies for resisting destructive obe
 
 | Person | Contribution |
 |---|---|
-| **Solomon Asch** (1951, 1955, 1956) | Classic line judgment conformity experiments demonstrating public conformity; showed 76% conformed at least once; studied effects of unanimity, group size, and public vs. private responding |
-| **Muzafer Sherif** (1937) | Autokinetic phenomenon studies demonstrating norm emergence and private acceptance of social influence in ambiguous situations |
-| **Philip Zimbardo** (1971) | Stanford Prison Study; demonstrated how situational roles and norms can turn ordinary people into abusive authorities; developed the concept of the agentic shift and situationism in evil |
-| **Stanley Milgram** (1963, 1974) | Obedience to Authority experiments; showed ~65% of participants administered apparent maximum shocks under authority pressure; developed agentic state theory |
-| **Robert Cialdini** (1984, 2000, 2006) | Identified six principles of influence (reciprocity, commitment/consistency, social proof, authority, liking, scarcity); studied normative focus theory |
-| **Serge Moscovici** | Minority influence and conversion theory; showed minorities can produce deep private attitude change through behavioral consistency; dual-process model of majority vs. minority influence |
-| **Deutsch & Gerard** (1955) | Distinguished normative social influence (desire to be liked) from informational social influence (desire to be accurate) |
-| **Pronin, Berger, & Molouki** (2007) | Demonstrated the introspection illusion — people believe they conform less than others even when objective conformity rates are identical |
-| **Galinsky, Magee, Gruenfeld, Whitson, & Liljenquist** (2008) | Showed that feeling powerful reduces conformity to others' opinions; power as a shield against situational pressures |
-| **Griskevicius, Goldstein, Mortensen, Cialdini, & Kenrick** (2006) | Showed that mate-attraction motives reduce conformity in men (signaling independence) but increase it in women (signaling agreeableness); conformity to gender stereotypes |
-| **Imhoff & Erb** (2009) | Demonstrated that threats to uniqueness (being labeled "exactly average") motivate nonconformity |
-| **Reicher & Haslam** (2006) | BBC Prison Study — replication of Zimbardo showing that role identification is key; low identification leads to resistance, not passive acceptance of roles |
-| **Hatfield, Cacioppo, & Rapson** (1994) | Initial research on emotional contagion via automatic mimicry of others' emotional expressions |
-| **Parkinson & Simons** (2009) | Extended emotional contagion model — cognitive appraisal mediates emotional spread, not just automatic mimicry |
-| **Freedman & Fraser** (1966) | Classic foot-in-the-door experiment (small sign → large billboard) |
-| **Burger** (1986) | Demonstrated the that's-not-all technique in sales contexts |
-| **Fitzsimons & Bargh** (2003) | Symbolic social influence — priming thoughts of significant others activates associated goals even in their absence |
-| **Hewlin** (2009) | Studied facades of conformity in organizational settings |
-| **Snyder & Fromkin** (1980) | Need for uniqueness theory |
-| **Keltner, Gruenfeld, & Anderson** (2003) | Proposed power reduces susceptibility to conformity pressures; powerful people less influenced by situational information |
-| **Azar** (2007) | Documented the ~15% tipping norm regardless of service quality |
-| **Turner** (1991, 2006) | Social identity theory of cohesiveness and conformity; social structures not fixed — challenge and change is possible |
-| **Bond & Smith** (1996) | Meta-analysis of conformity research; conformity increases with group size beyond 8 members |
+| **Solomon Asch** (1951, 1955, 1956) | Line judgment conformity; 76% conformed at least once; unanimity, group size, public vs. private |
+| **Muzafer Sherif** (1937) | Autokinetic phenomenon; norm emergence and private acceptance |
+| **Philip Zimbardo** (1971) | Stanford Prison Study; situationism in evil; agentic shift |
+| **Stanley Milgram** (1963, 1974) | Obedience experiments; ~65% to 450V; agentic state theory |
+| **Robert Cialdini** (1984, 2000, 2006) | Six principles of influence; normative focus theory |
+| **Serge Moscovici** | Minority influence; conversion theory; dual-process model |
+| **Deutsch & Gerard** (1955) | Normative vs. informational social influence |
+| **Pronin, Berger, & Molouki** (2007) | Introspection illusion |
+| **Galinsky et al.** (2008) | Power reduces conformity |
+| **Griskevicius et al.** (2006) | Mate-attraction motives shift conformity by gender stereotype |
+| **Imhoff & Erb** (2009) | Uniqueness threat motivates nonconformity |
+| **Reicher & Haslam** (2006) | BBC Prison Study; role identification key |
+| **Hatfield, Cacioppo, & Rapson** (1994) | Emotional contagion via mimicry |
+| **Parkinson & Simons** (2009) | Cognitive appraisal mediates contagion |
+| **Freedman & Fraser** (1966) | Foot-in-the-door experiment |
+| **Burger** (1986) | That's-not-all technique |
+| **Fitzsimons & Bargh** (2003) | Symbolic social influence via goal activation |
+| **Hewlin** (2009) | Facades of conformity |
+| **Snyder & Fromkin** (1980) | Need for uniqueness |
+| **Keltner, Gruenfeld, & Anderson** (2003) | Power reduces susceptibility to conformity |
+| **Azar** (2007) | ~15% tipping norm |
+| **Turner** (1991, 2006) | Cohesiveness/conformity; social structures not fixed |
+| **Bond & Smith** (1996) | Meta-analysis; conformity rises beyond 8 members |
 
 ---
 
 ## Likely Exam Points
 
-1. **Asch's findings (must-know numbers)**: 76% of participants conformed at least once; overall conformity rate of 37% on critical trials; only 5% error rate in control (alone) condition; 12 of 18 trials were critical trials; typically 6-8 confederates present.
-
-2. **Sherif vs. Asch distinction**: Sherif's autokinetic study demonstrated **private acceptance** (genuine internalized change); Asch's line study often showed **public conformity** without private acceptance. Sherif used an ambiguous stimulus; Asch used an unambiguous, objectively clear stimulus.
-
-3. **Two motives for conformity (Deutsch & Gerard, 1955)**: (1) Normative social influence — desire to be liked; (2) Informational social influence — desire to be accurate/correct. These correspond to two different psychological needs.
-
-4. **Normative focus theory (Cialdini)**: Norms only influence behavior when they are **salient** (focal) at the time of action. This explains why people disobey even strong injunctive norms — they don't see the norm as applying to them in that moment.
-
-5. **Descriptive vs. injunctive norms**: Descriptive norms describe what people DO; injunctive norms describe what people SHOULD DO (morally approved/disapproved). Both influence behavior but through different mechanisms.
-
-6. **Milgram's obedience rate**: Approximately **65% (two-thirds)** of participants delivered the maximum 450V shock. Key manipulations: proximity to victim, presence/absence of authority, unanimity of peer behavior. Distance from victim increases obedience.
-
-7. **Agentic state (Milgram)**: Explains why people obey destructive commands — they shift moral responsibility to the authority, becoming agents rather than autonomous actors. Contrast with autonomous state.
-
-8. **Stanford Prison Study (Zimbardo)**: Stopped after 6 days (planned 2 weeks); guards became sadistic; prisoners became passive/depressed. Zimbardo's conclusion: Situations, not personal traits, largely determine behavior. The line between good and evil is permeable.
-
-9. **BBC Prison Study (Reicher & Haslam, 2006)**: Opposite outcome — guards rejected power; prisoners formed collective identity and gained equal power. Key variable: **identification with role**. Low identification → resistance and social change.
-
-10. **Four compliance tactics and their mechanisms**:
-    - Foot-in-the-door → commitment/consistency
-    - Lowball → prior commitment traps into larger cost
-    - Door-in-the-face → reciprocity (returning concessions)
-    - That's-not-all → reciprocity (returning favor/sweetener added)
-
-11. **Minority influence (Moscovici)**: Minorities produce **conversion** (deep private change) through behavioral **consistency**. Majority influence produces surface compliance. Dual-process distinction: social comparison (majority) vs. validation process (minority).
-
-12. **Introspection illusion (Pronin et al., 2007)**: People believe they are less influenced by conformity pressure than others. Because conformity occurs nonconsciously, it escapes self-notice; people attribute own behavior to internal reasons (content) not peer pressure.
-
-13. **Power reduces conformity (Galinsky et al., 2008)**: Priming high-power memories reduces susceptibility to others' ratings; low-power priming increases conformity. Power frees people from situational pressures.
-
-14. **Emotional contagion mechanisms**: (1) Automatic mimicry (Hatfield et al., 1994) — we copy others' expressions and feel the same emotion; (2) Cognitive appraisal (Parkinson & Simons, 2009) — we interpret others' emotions as information about the situation. Schadenfreude (opposite emotion) demonstrates that mimicry alone is insufficient.
-
-15. **Need for uniqueness as a driver of nonconformity (Imhoff & Erb, 2009; Snyder & Fromkin, 1980)**: When told one is "exactly average" (uniqueness threat), people resist majority opinions to restore distinctiveness. Nonconformity can serve identity-protective functions.
+1. **Asch numbers**: 76% conformed at least once; 37% overall on critical trials; 5% control error; 12 of 18 critical trials; 6-8 confederates.
+2. **Sherif vs. Asch**: Sherif (autokinetic, ambiguous) → **private acceptance**; Asch (line, unambiguous) → **public conformity**.
+3. **Two motives (Deutsch & Gerard, 1955)**: normative (be liked) vs. informational (be correct).
+4. **Normative focus theory (Cialdini)**: norms influence only when **salient**.
+5. **Descriptive vs. injunctive norms**: what people DO vs. what they SHOULD DO.
+6. **Milgram obedience**: ~**65%** to 450V; obedience drops with victim proximity, absent authority, peer defiance; rises with distance from victim.
+7. **Agentic state**: shifting moral responsibility to authority; vs. autonomous state.
+8. **Stanford Prison Study (Zimbardo)**: stopped after **6 days**; situations determine behavior; line between good and evil is permeable.
+9. **BBC Prison Study (Reicher & Haslam, 2006)**: opposite outcome; **identification with role** is key; low identification → resistance.
+10. **Four compliance tactics**: foot-in-the-door (commitment/consistency); lowball (prior commitment); door-in-the-face (reciprocity/concession); that's-not-all (reciprocity/sweetener).
+11. **Minority influence (Moscovici)**: **conversion** (deep change) via **consistency**; social comparison (majority) vs. validation (minority).
+12. **Introspection illusion (Pronin et al., 2007)**: people think they conform less than others (conformity is nonconscious).
+13. **Power reduces conformity (Galinsky et al., 2008)**: high-power priming reduces susceptibility.
+14. **Emotional contagion**: mimicry (Hatfield et al., 1994) + cognitive appraisal (Parkinson & Simons, 2009); Schadenfreude shows mimicry alone is insufficient.
+15. **Need for uniqueness (Imhoff & Erb, 2009; Snyder & Fromkin, 1980)**: "exactly average" feedback → nonconformity to restore distinctiveness.
 
 ---
-*Source: Social Psychology (Baron & Branscombe, 13th ed.), 8 Social Influence: Changing Others’ Behavior (pp. 282-317). Part of [[INDEX]].*
+*Source: Social Psychology (Baron & Branscombe, 13th ed.), 8 Social Influence: Changing Others' Behavior (pp. 282-317). Part of [[INDEX]].*

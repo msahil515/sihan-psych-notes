@@ -8,562 +8,210 @@ tags: [biopsychology, brain-damage, neuroplasticity, MET-2026, clinical-psycholo
 
 # Chapter 10: Brain Damage and Neuroplasticity
 
-This chapter surveys the major causes of brain damage (tumors, strokes, closed-head injuries, infections, neurotoxins, genetic factors, and programmed cell death), the key neuropsychological diseases that result (epilepsy, Parkinson's, Huntington's, MS, Alzheimer's), animal models used to study them, and the four neuroplastic responses of the brain to damage: degeneration, regeneration, reorganization, and recovery of function.
+Surveys causes of brain damage (tumors, strokes, closed-head injuries, infections, neurotoxins, genetics, programmed cell death), key diseases (epilepsy, Parkinson's, Huntington's, MS, Alzheimer's), animal models, and four neuroplastic responses: degeneration, regeneration, reorganization, recovery.
 
 ---
 
 ## 10.1 Causes of Brain Damage
 
 ### Brain Tumors
-
-- A **tumor** (neoplasm) is a mass of cells that grows independently of the rest of the body.
-- Two fundamental categories based on growth pattern:
-
-#### Encapsulated Tumors
-- **Encapsulated tumors** grow within their own membrane.
-- Influence brain function only by pressure on surrounding tissue.
-- Almost always **benign**: surgically removable with little risk of further growth.
-- Easy to identify on CT scan.
-- Example: **meningiomas** (tumors growing on the meninges).
-
-#### Infiltrating Tumors
-- **Infiltrating tumors** grow diffusely through surrounding tissue.
-- Usually **malignant**: difficult to remove completely; remaining cancerous tissue continues to grow.
-
-#### Metastatic Tumors
-- About **10% of brain tumors** do not originate in the brain.
-- **Metastatic tumors**: cells carried to the brain by the bloodstream from another body part.
-- **Metastasis**: transmission of disease from one organ to another.
-- Many originate as **lung cancers**.
-- Recovery from cancer attacking two or more separate sites is currently slim.
-
-#### Acoustic Neuromas
-- **Acoustic neuromas**: encapsulated tumors growing on **cranial nerve VIII** (vestibulocochlear).
-- **Neuromas**: tumors that grow on nerves or tracts.
-
----
+- A **tumor (neoplasm)** is a mass of cells growing independently of the body.
+- **Encapsulated tumors**: grow within their own membrane; influence by pressure; almost always **benign**, removable (e.g., **meningiomas**, on the meninges).
+- **Infiltrating tumors**: grow diffusely; usually **malignant**, hard to remove fully.
+- **Metastatic tumors**: ~**10%** of brain tumors; cells carried by blood from elsewhere (often **lung cancers**); **metastasis** = disease spread between organs.
+- **Acoustic neuromas**: encapsulated tumors on **cranial nerve VIII**; **neuromas** = tumors on nerves/tracts.
 
 ### Cerebrovascular Disorders: Strokes
+- **Strokes**: sudden-onset cerebrovascular disorders causing brain damage. In the US: **third leading cause of death**, major cause of neurological dysfunction, **most common cause of adult disability**. Consequences: amnesia, **aphasia**, paralysis, coma.
+- **Infarct**: dead/dying tissue from a stroke. **Penumbra**: dysfunctional surrounding area; primary treatment target.
 
-- **Strokes**: sudden-onset cerebrovascular disorders causing brain damage.
-- In the United States:
-  - **Third leading cause of death**
-  - **Major cause of neurological dysfunction**
-  - **Most common cause of adult disability**
-- Common consequences: amnesia, **aphasia** (language difficulties), paralysis, coma.
-
-#### Key Anatomical Terms
-- **Infarct**: area of dead or dying tissue produced by a stroke.
-- **Penumbra**: dysfunctional area surrounding the infarct; may recover or die; primary treatment target.
-
-#### Two Major Types of Stroke
-
-##### 1. Cerebral Hemorrhage
-- **Cerebral hemorrhage**: bleeding in the brain from a ruptured blood vessel.
-- Common cause: bursting **aneurysm**.
-- **Aneurysm**: pathological balloon-like dilation in artery wall where elasticity is defective.
-  - Can be **congenital** or result from vascular poisons or infection.
-  - Individuals with aneurysms should avoid high blood pressure and strenuous activity.
-
-##### 2. Cerebral Ischemia
-- **Cerebral ischemia**: disruption of blood supply to an area of the brain.
+**Two types:**
+- **Cerebral hemorrhage**: bleeding from a ruptured vessel; common cause = bursting **aneurysm** (balloon-like dilation where wall elasticity is defective; congenital or from poisons/infection).
+- **Cerebral ischemia**: disrupted blood supply.
 
 | Cause | Definition |
 |---|---|
-| **Thrombosis** | A **thrombus** (plug) forms and blocks blood flow at the site of formation (blood clot, fat, oil, air, tumor cells, or combination) |
-| **Embolism** | An **embolus** (a traveling thrombus) is carried from a larger vessel to a smaller one where it lodges |
-| **Arteriosclerosis** | Vessel walls thicken and channels narrow (fat deposits); can lead to complete blockage |
+| **Thrombosis** | A **thrombus** (plug) blocks flow at its formation site |
+| **Embolism** | An **embolus** (traveling thrombus) lodges in a smaller vessel |
+| **Arteriosclerosis** | Vessel walls thicken/narrow (fat deposits) |
 
-#### Glutamate-Mediated Ischemic Damage (HIGH-YIELD)
+**Glutamate-mediated ischemic damage (HIGH-YIELD):** develops over **1-2 days**:
+1. Vessel blocked.
+2. Deprived neurons release **excessive glutamate**.
+3. Glutamate overactivates **NMDA (N-methyl-D-aspartate) receptors**.
+4. Massive **Na+ and Ca2+** influx.
+5. Triggers more glutamate release (spreading the cascade) and reactions that **kill the neurons**.
 
-- Brain damage from ischemia develops over **1-2 days** (not immediately).
-- Key mechanism: excessive release of **glutamate** (brain's most prevalent excitatory neurotransmitter).
-
-**Step-by-step cascade:**
-1. Blood vessel becomes blocked.
-2. Blood-deprived neurons release **excessive glutamate**.
-3. Glutamate overactivates **NMDA (N-methyl-D-aspartate) receptors** on postsynaptic membranes.
-4. Massive influx of **Na+ and Ca2+** ions into postsynaptic neurons.
-5. Excessive Na+/Ca2+ trigger:
-   - Further glutamate release from those neurons (spreading the toxic cascade to other neurons).
-   - Internal reactions that ultimately **kill the postsynaptic neurons**.
-
-**Three important properties of ischemia-induced damage:**
-1. Takes time to develop (no evidence immediately after a brief ischemic episode; substantial neuron loss detectable 1-2 days later).
-2. Does not occur equally throughout the brain; **hippocampal neurons** are particularly susceptible.
-3. Mechanisms vary by structure; **astrocytes** implicated in some areas.
-
-**Clinical implication:** Glutamate antagonists could prevent stroke damage; effective in animals but not yet proven in humans; must be initiated soon after stroke (Wahlgren & Ahmed, 2004).
-
----
+- **Three properties:** (1) takes time to develop; (2) uneven — **hippocampal neurons** especially susceptible; (3) varies by structure (**astrocytes** implicated).
+- **Clinical:** glutamate antagonists work in animals, unproven in humans, must start early (Wahlgren & Ahmed, 2004).
 
 ### Closed-Head Injuries
-
-- **Closed-head injuries**: brain injuries from blows that do not penetrate the skull.
-
-#### Contusions
-- **Contusions**: closed-head injuries involving cerebral circulatory damage.
-- Produce internal hemorrhaging resulting in a **hematoma**.
-- **Hematoma**: localized collection of clotted blood in an organ or tissue (a bruise).
-- Skull hardness (normally protective) paradoxically causes the brain to slam against the skull interior.
-- Blood can accumulate in the **subdural space** (between dura mater and arachnoid membrane).
-- **Contrecoup injuries**: contusions on the **side opposite** the struck side; brain strikes the far interior skull wall.
-
-#### Concussion
-- **Concussion**: disturbed consciousness from head blow with no structural damage evident.
-- Previously assumed temporary with no long-term effects.
-- Substantial evidence now shows cognitive, motor, and neurological effects can last **many years** (De Beaumont et al., 2009).
-
-#### Punch-Drunk Syndrome / Dementia Pugilistica
-- **Punch-drunk syndrome** (medical: **dementia pugilistica**): dementia and cerebral scarring from repeated concussions.
-- Case of **Jerry Quarry** (ex-heavyweight boxer): by age 50, required help with basic daily activities; slow/slurred speech; random thoughts; auditory hallucinations.
-
----
+- **Closed-head injuries**: from blows that don't penetrate the skull.
+- **Contusions**: cerebral circulatory damage → **hematoma** (clotted blood collection); blood can fill the **subdural space** (between dura and arachnoid). **Contrecoup injuries**: contusions on the side **opposite** the blow.
+- **Concussion**: disturbed consciousness with no evident structural damage; now known to have effects lasting **many years** (De Beaumont et al., 2009).
+- **Punch-drunk syndrome (dementia pugilistica)**: dementia and cerebral scarring from repeated concussions (e.g., boxer **Jerry Quarry**).
 
 ### Infections of the Brain
-
-- **Brain infection**: invasion of the brain by microorganisms.
-- **Encephalitis**: the resulting inflammation.
-
-#### Bacterial Infections
-- Bacteria often form **cerebral abscesses** (pockets of pus in the brain).
-- Major cause of **meningitis** (inflammation of the meninges): **fatal in 25% of adults** (Nau & Brück, 2002).
-- Antibiotics can eliminate infections but **cannot reverse** already-produced brain damage.
-- **Syphilis** bacteria: transmitted via genital sores; go dormant for years before attacking the body.
-  - **General paresis**: insanity and dementia from syphilitic brain infection.
-
-#### Viral Infections
-Two types:
-1. Viruses with **particular affinity for neural tissue** (e.g., **rabies**):
-   - Transmitted through bites; rage effects increase spread probability.
-   - Effects almost always **lethal**; does not attack brain for **at least a month** after contraction (time for vaccination).
-2. Viruses **without special neural affinity** (e.g., mumps, herpes): typically attack other tissues but can spread to brain.
-
----
+- **Brain infection** → **encephalitis** (inflammation).
+- **Bacterial**: form **cerebral abscesses** (pus pockets); cause **meningitis** (meningeal inflammation, **fatal in 25% of adults**; Nau & Brück, 2002); antibiotics can't reverse existing damage. **Syphilis** → **general paresis** (syphilitic insanity/dementia).
+- **Viral**: (1) neural-affinity viruses (e.g., **rabies**: bite-transmitted, lethal, ~1 month before attacking brain — time for vaccination); (2) non-neural-affinity viruses (mumps, herpes) that can spread to the brain.
 
 ### Neurotoxins
-
-- **Neurotoxins**: toxic chemicals damaging the nervous system; enter via GI tract, lungs, or skin.
-- **Heavy metals** (mercury, lead): accumulate in brain; produce **toxic psychosis** (chronic insanity from neurotoxin).
-  - Historical example: 18th-19th century English hat makers driven mad by mercury in felt preparation ("Mad Hatter").
-  - "Crackpot": originated from toxic psychosis in poor English people steeping tea in cracked lead-core pots.
-- **Tardive dyskinesia (TD)**: motor disorder from antipsychotic drugs (introduced 1950s).
-  - Primary symptoms: involuntary lip smacking/sucking, tongue thrusting/rolling, lateral jaw movements, cheek puffing.
-  - Developed after years of treatment; safer drugs have since been developed.
-- **Endogenous neurotoxins**: produced by the patient's own body (e.g., autoantibodies; excessive glutamate).
-
----
+- **Neurotoxins** enter via GI tract, lungs, or skin. **Heavy metals** (mercury, lead) cause **toxic psychosis** (e.g., "Mad Hatter" from mercury in felt).
+- **Tardive dyskinesia (TD)**: motor disorder from antipsychotics (involuntary lip smacking, tongue rolling, jaw movements, cheek puffing), after years of treatment.
+- **Endogenous neurotoxins**: produced by the body (autoantibodies; excess glutamate).
 
 ### Genetic Factors
-
-- Normal human cells: **23 pairs of chromosomes**.
-- Chromosomal accidents during cell division cause abnormal chromosomes or numbers, duplicated in every body cell.
-
-#### Recessive Gene Disorders
-- Most neuropsychological diseases of genetic origin caused by **abnormal recessive genes**.
-- Dominant genes disturbing neuropsychological function tend to be eliminated from the gene pool.
-- Carriers of one abnormal recessive gene do not develop the disorder; gene passes to future generations.
-
-#### Down Syndrome
-- **Down syndrome**: ~**0.15% of births**; caused by **trisomy 21** (extra chromosome 21 from maternal ovulation accident).
-- Features: flattened skull/nose, epicanthal folds, short fingers, intellectual impairment, medical complications.
-- Maternal age risk:
-  - Age 20: **1 in 1,667**
-  - Age 49: **1 in 11** (Egan, 2004)
-
-#### Treatment Directions
-- Splicing healthy genes to replace faulty ones.
-- DNA-binding proteins to block expression of faulty genes.
-- Protein products of faulty genes suggest early diagnosis and treatment methods.
-
----
+- Normal cells: **23 pairs of chromosomes**. Most genetic neuropsychological diseases involve **abnormal recessive genes** (dominant ones tend to be eliminated; carriers pass them on).
+- **Down syndrome**: ~**0.15% of births**; **trisomy 21** (extra chromosome 21 from a maternal ovulation accident). Features: flattened skull/nose, epicanthal folds, short fingers, intellectual impairment. Maternal age risk: age 20 = **1 in 1,667**; age 49 = **1 in 11** (Egan, 2004).
 
 ### Programmed Cell Death (Apoptosis)
-
-- **Apoptosis** (A-poe-TOE-sis): genetic programs for cellular self-destruction.
-- Critical role in **early development** (eliminates extra neurons) and in **brain damage**.
-- All six causes of brain damage can activate apoptotic programs.
+- **Apoptosis**: genetic programs for cellular self-destruction; key in development and damage. All six causes can activate it.
 
 | Feature | **Necrosis** | **Apoptosis** |
 |---|---|---|
-| Type | Passive cell death from injury | Active genetic self-destruction |
-| Speed | Fast: complete in **hours** | Slow: typically **1-2 days** |
-| Progression | Swelling from axons/dendrites to cell body, then fragmentation | Gradual cell body shrinkage; debris packaged in vesicles |
-| Inflammation | **Yes** (fragments cause inflammation damaging nearby cells) | **No** (no inflammation; minimal collateral damage) |
-| Adaptive value | Less adaptive | **More adaptive** |
+| Type | Passive (injury) | Active (programmed) |
+| Speed | Fast (hours) | Slow (1-2 days) |
+| Inflammation | **Yes** | **No** |
+| Adaptive value | Less | **More** |
 
-- Some dying cells show signs of **both necrosis and apoptosis** (Elibol et al., 2001).
+- Some cells show **both** (Elibol et al., 2001).
 
 ---
 
 ## 10.2 Neuropsychological Diseases
 
 ### Epilepsy
+- **Epilepsy**: spontaneously recurring seizures from chronic brain dysfunction; ~**1% of the population**. Not all seizures = epilepsy. Causes include brain damage + over **70 faulty genes** (Berkovic et al., 2006); often faults at **inhibitory (GABAergic) synapses**.
+- **Diagnosis**: heavily uses **EEG** — **high-amplitude spikes** during attacks and between them.
+- **Epileptic auras**: psychological changes before a convulsion (bad smell, thought, familiarity, hallucination); (1) localize the **epileptic focus**; (2) warn the patient.
 
-- **Epilepsy**: spontaneously recurring epileptic seizures generated by chronic brain dysfunction.
-- Affects approximately **1% of the population**.
-- Not all seizures = epilepsy (e.g., one-time seizure from toxin or high fever).
-- Causes include all forms of brain damage + over **70 different faulty genes** (Berkovic et al., 2006).
-- Often associated with faults at **inhibitory (GABAergic) synapses** causing synchronous neuronal bursting.
-
-#### Diagnosis
-- Relies heavily on **electroencephalography (EEG)**.
-- Epileptic seizures: **bursts of high-amplitude EEG spikes** during attacks.
-- Individual spikes also punctuate EEGs **between attacks**.
-
-#### Epileptic Auras
-- **Epileptic auras**: psychological changes preceding a convulsion.
-- Forms: bad smell, specific thought, vague familiarity, hallucination, chest tightness.
-- Importance: (1) localize the **epileptic focus**; (2) **warn patient** of impending convulsion.
-
-#### Classification of Seizures
-
-##### Partial Seizures (Do not involve entire brain)
-- Synchronous bursting begins at a focus; spreads partially but NOT to entire brain.
-- Not usually accompanied by total loss of consciousness.
+**Partial seizures** (not entire brain; no total loss of consciousness):
 
 | Type | Features |
 |---|---|
-| **Simple partial seizures** (Jacksonian) | Primarily sensory or motor symptoms; named after **Hughlings Jackson** (19th century); symptoms spread systematically through body as discharges spread through sensory/motor cortex |
-| **Complex partial seizures** (temporal lobe epilepsy) | Often restricted to temporal lobes; involves **automatisms** (compulsive, repetitive simple behaviors, e.g., doing/undoing a button); more complex near-normal behaviors; patient appears conscious but has **little/no recollection**; accounts for ~**half of all adult epilepsy** |
+| **Simple partial (Jacksonian)** | Sensory/motor symptoms; named after **Hughlings Jackson**; spread as discharges spread through cortex |
+| **Complex partial (temporal lobe)** | Often temporal lobes; **automatisms** (compulsive repetitive behaviors, e.g., doing/undoing a button); appears conscious but **no recollection**; ~**half of adult epilepsy** |
 
-**Automatisms**: compulsive, repetitive simple behaviors during complex partial seizures (e.g., doing/undoing a button).
+- **Automatisms**: compulsive repetitive simple behaviors. Two cases (Lennox, 1960): a doctor who operated competently then behaved inappropriately with amnesia; a music teacher who did acrobatics on stage and woke far from home.
 
-**Two Cases (Lennox, 1960) illustrating subtlety of complex partial seizures:**
-- Doctor who performed competent surgery but then behaved inappropriately, with subsequent amnesia.
-- Music teacher who walked onto a concert stage, circled the piano, did acrobatics, and later found himself far from home on public transit.
-
-##### Generalized Seizures (Involve entire brain)
-- Some begin as focal discharges spreading throughout; others begin almost simultaneously everywhere.
-- Sudden-onset forms may begin in widely projecting structures (e.g., thalamus).
+**Generalized seizures** (entire brain):
 
 | Type | Features |
 |---|---|
-| **Grand mal** ("big trouble") | Loss of consciousness, loss of equilibrium, violent **tonic-clonic convulsion** (tonus = rigidity; clonus = tremors); also tongue biting, urinary incontinence, **cyanosis** (turning blue from excessive O2 extraction); **hypoxia** during convulsion can itself cause brain damage |
-| **Petit mal** ("small trouble") | No convulsions; **petit mal absence**: disrupted consciousness, cessation of behavior, vacant look, sometimes fluttering eyelids; EEG: **bilaterally symmetrical 3-Hz spike-and-wave discharge**; most common in **children**; often ceases at puberty; frequently misidentified as daydreaming |
+| **Grand mal** | Loss of consciousness/equilibrium; **tonic-clonic convulsion** (tonus = rigidity, clonus = tremors); tongue biting, incontinence, **cyanosis**; **hypoxia** can itself cause damage |
+| **Petit mal** | No convulsions; **petit mal absence** (disrupted consciousness, vacant look, fluttering eyelids); EEG = **bilaterally symmetrical 3-Hz spike-and-wave**; most common in **children**; often ceases at puberty |
 
-#### Treatment
-- No cure; **antiepileptic medication** reduces frequency/severity (often with adverse side effects).
-- Brain surgery in grave situations.
-
----
+- **Treatment**: no cure; **antiepileptic medication** reduces frequency/severity; surgery in grave cases.
 
 ### Parkinson's Disease
-
-- **Parkinson's disease**: a progressive movement disorder of middle and old age.
-- Affects **1-2% of the elderly**; about **2.5x more prevalent in males**.
-- Inevitable worsening.
-
-#### Symptoms (Full-blown)
-- **Resting tremor** (during inactivity, NOT during voluntary movement or sleep)
-- **Muscular rigidity**
-- Difficulty initiating movement
-- **Bradykinesia** (slowness of movement)
-- **Masklike face**
-- Pain and depression often precede severe motor symptoms
-- Cognitive deficits present but **dementia NOT typically associated**
-- Classic description: "thinking people trapped inside bodies they cannot control"
-
-#### Neuropathology
-- Degeneration worst in **substantia nigra** (midbrain).
-- Substantia nigra neurons project via **nigrostriatal pathway** to **striatum** of basal ganglia.
-- Little **dopamine** remains in substantia nigra and striatum.
-- **Lewy bodies**: clumps of proteins in surviving dopaminergic neurons of substantia nigra; first reported by German pathologist **Lewy in 1912**.
-
-#### Etiology
-- No single cause; faulty genes, infections, strokes, tumors, TBI, neurotoxins all implicated.
-- Majority: no obvious cause, no family history.
-- ~**10 gene mutations** linked to Parkinson's; all discovered in different families with rare **early-onset familial** forms.
-- All mutations **disrupt mitochondrial function** (Abou-Sleiman, Muqit & Wood, 2006).
-
-#### Treatment
-- **L-dopa**: precursor to dopamine; alleviates symptoms but NOT permanent; eventually becomes ineffective; side effects (involuntary movements).
-- **Deep brain stimulation (DBS)**: chronic bilateral high-frequency stimulation via implanted electrode targeting **subthalamic nucleus**.
-  - Symptoms alleviated within minutes of stimulation.
-  - Improvement relative to pretreatment often apparent at 2 years.
-  - Therapeutic effects dissipate within 1-2 hours if stimulation stopped.
-  - Side effects: cognitive, speech, gait problems.
-- No drug permanently reduces severity or blocks progressive development.
-
----
+- **Parkinson's disease**: progressive movement disorder of middle/old age; **1-2% of elderly**; ~**2.5× more in males**.
+- **Symptoms**: **resting tremor** (not during movement/sleep), **muscular rigidity**, difficulty initiating movement, **bradykinesia**, **masklike face**; pain/depression often precede; cognitive deficits but **dementia not typical** ("thinking people trapped inside bodies").
+- **Neuropathology**: degeneration worst in **substantia nigra**, projecting via the **nigrostriatal pathway** to the **striatum**; little **dopamine** remains. **Lewy bodies**: protein clumps in surviving dopaminergic neurons (Lewy, **1912**).
+- **Etiology**: no single cause; ~**10 gene mutations** in rare **early-onset familial** forms, all disrupting **mitochondrial function** (Abou-Sleiman, Muqit & Wood, 2006).
+- **Treatment**: **L-dopa** (dopamine precursor; not permanent, side effects); **deep brain stimulation (DBS)** of the **subthalamic nucleus** (effects within minutes; reverse within 1-2 hours of stopping). No drug halts progression.
 
 ### Huntington's Disease
-
-- **Huntington's disease**: progressive motor disorder; rare (**1 in 10,000**).
-- Unlike Parkinson's: **strong genetic basis**; associated with **severe dementia**.
-- Death ~**15 years** after first symptoms.
-
-#### Progression
-1. Increased fidgetiness (first sign).
-2. Rapid, complex, jerky movements of **entire limbs**.
-3. Severe motor and intellectual deterioration; unable to feed self, control bowels, or recognize own children.
-4. No cure.
-
-#### Genetics (HIGH-YIELD)
-- Single **dominant gene** called **huntingtin** (encodes the **huntingtin protein**).
-- All carriers develop the disease; ~**50% of offspring** affected.
-- First symptoms appear **after peak reproductive years (~age 40)** -- why gene persists in population.
-- Mechanism of brain damage from huntingtin protein still unknown.
-- **Genetic test** available (Gilliam, Gusella & Lehrach, 1987; Martin, 1987).
-
----
+- **Huntington's disease**: progressive motor disorder; rare (**1 in 10,000**); **strong genetic basis**; **severe dementia**; death ~**15 years** after onset.
+- **Progression**: fidgetiness → rapid jerky whole-limb movements → severe motor/intellectual deterioration; no cure.
+- **Genetics (HIGH-YIELD)**: single **dominant gene, huntingtin** (encodes the huntingtin protein); **all carriers** develop it; ~**50% of offspring** affected; symptoms appear **after peak reproductive years (~40)**, so the gene persists. **Genetic test** available (Gilliam, Gusella & Lehrach, 1987).
 
 ### Multiple Sclerosis
-
-- **Multiple sclerosis (MS)**: progressive autoimmune disease attacking **myelin of CNS axons**.
-- Typically attacks **young adults**.
-- Progression: microscopic myelin degeneration → severe myelin damage → axon dysfunction/degeneration → **hard scar tissue** (sclerosis = hardening).
-
-#### Autoimmune Nature
-- **Autoimmune disorder**: immune system attacks own body (myelin is the target).
-- Animal model: **experimental autoimmune encephalomyelitis** (induced by injecting myelin + immune stimulant).
-
-#### Symptoms (Advanced)
-- Visual disturbances, muscular weakness, numbness, tremor, **ataxia** (loss of motor coordination).
-- Cognitive deficits and emotional changes in some patients.
-- Periods of **remission** (up to 2 years) but generally progressive.
-
-#### Epidemiology
-
-**Supporting genetic factors:**
-- Monozygotic concordance: **25%**; dizygotic: **5%**
-- **3x higher incidence in females** than males
-- Higher in **Caucasians (0.15%)** vs. native Asians and Africans
-
-**Supporting environmental factors:**
-- Higher incidence in **colder climates** (farther from equator)
-- Migrants from high- to low-incidence regions **reduce susceptibility** (especially if young)
-- **Cigarette smokers** at greater risk
-
-**Epigenetic angle:**
-- Only one chromosomal locus linked to MS with certainty; 25% monozygotic concordance points to epigenetic mechanisms.
-- **Vitamin D**: MS highest where little strong sunshine (major vitamin D source); vitamin D influences MS-implicated chromosomal locus (Ramagopalan et al., 2009).
-
----
+- **Multiple sclerosis (MS)**: progressive **autoimmune** disease attacking **myelin of CNS axons**; usually young adults. Progression: myelin degeneration → axon dysfunction → **hard scar tissue** (sclerosis). Animal model: **experimental autoimmune encephalomyelitis**.
+- **Symptoms (advanced)**: visual disturbances, weakness, numbness, tremor, **ataxia** (loss of coordination); some cognitive/emotional changes; **remissions** (up to 2 years) but generally progressive.
+- **Epidemiology — genetic**: MZ concordance **25%**, DZ **5%**; **3× higher in females**; higher in **Caucasians (0.15%)**. **Environmental**: higher in colder climates; young migrants to low-incidence areas reduce risk; smokers at greater risk. **Vitamin D** (from sunshine) influences an MS-implicated locus (Ramagopalan et al., 2009); 25% MZ concordance points to epigenetics.
 
 ### Alzheimer's Disease
+- **Alzheimer's disease**: most common cause of **dementia**; ~**10%** over 65, ~**35%** over 85; terminal.
 
-- **Alzheimer's disease**: most common cause of **dementia**.
-- ~**10%** of general population over 65; ~**35%** over 85.
-- Terminal.
-
-#### Progressive Stages
 | Stage | Features |
 |---|---|
-| **Early** | Selective memory decline, attention deficits, personality changes |
+| **Early** | Selective memory decline, attention deficits, personality change |
 | **Intermediate** | Confusion, irritability, anxiety, speech deterioration |
-| **Advanced** | Difficulty swallowing, bladder control; requires full care |
+| **Advanced** | Difficulty swallowing, bladder control; full care needed |
 
-#### Definitive Diagnosis
-- Behavioral symptoms alone insufficient; **definitive diagnosis requires autopsy**.
-
-**Two neuropathological hallmarks:**
-1. **Neurofibrillary tangles**: threadlike protein tangles in neural cytoplasm.
-2. **Amyloid plaques**: scar tissue clumps of degenerating neurons + **amyloid protein** (normally in very small amounts).
-
-Also: substantial **neuron loss** throughout.
-
-#### Distribution of Pathology
-Most prevalent in:
-- **Medial temporal lobe**: entorhinal cortex, amygdala, hippocampus (memory structures).
-- **Inferior temporal cortex**, **posterior parietal cortex**, **prefrontal cortex** (complex cognitive functions).
-
-#### Genetics
-- 50% chance of developing disease (if surviving into 80s) with an affected immediate family member.
-- Three gene mutations found in rare **early-onset familial** form.
-- ~**20 chromosomal loci** implicated in common late-onset form, each with slight effect.
-- Epigenetic mechanisms increasingly implicated.
-- No cure.
-
-#### The Amyloid Hypothesis (Dominant View)
-- **Amyloid hypothesis** (Hardy & Selkoe, 2002): amyloid plaques are **primary symptom** causing all others.
-- Evidence: all three early-onset gene mutations **influence amyloid synthesis**; amyloid is toxic to cultured neurons.
-- Alternative: neurofibrillary tangles are primary (Ballatore, Lee & Trojanowski, 2007; Spires-Jones et al., 2009).
-
-#### Treatment Attempts
-- **Cholinergic agonists** (acetylcholine declines early): largely ineffective.
-- **Amyloid vaccine (immunotherapy)**: most promising approach; effective in transgenic mice; human trials curtailed due to serious side effects; safer alternatives sought.
+- **Definitive diagnosis requires autopsy.** Two hallmarks: **neurofibrillary tangles** (cytoplasmic protein tangles) and **amyloid plaques** (degenerating neurons + **amyloid protein**); plus widespread **neuron loss**.
+- **Distribution**: **medial temporal lobe** (entorhinal cortex, amygdala, hippocampus — memory); inferior temporal, posterior parietal, prefrontal cortex (complex cognition).
+- **Genetics**: 50% risk with an affected immediate relative (if surviving into 80s); three mutations in rare **early-onset familial** form; ~**20 loci** in late-onset form; epigenetics implicated; no cure.
+- **Amyloid hypothesis** (Hardy & Selkoe, 2002): amyloid plaques are the **primary symptom** (all three early-onset mutations affect amyloid synthesis; amyloid is neurotoxic). Alternative: tangles are primary.
+- **Treatment**: **cholinergic agonists** largely ineffective; **amyloid vaccine (immunotherapy)** promising in transgenic mice but human trials curtailed by side effects.
 
 ---
 
-## 10.3 Animal Models of Human Neuropsychological Diseases
+## 10.3 Animal Models
 
-> **Critical caveat (Maries et al., 2003):** Even the best animal models display only **some** features of the diseases they model. Do not treat them as duplicating the human condition in every respect.
+> **Caveat (Maries et al., 2003):** even the best models show only **some** disease features.
 
 ### Kindling Model of Epilepsy
 
-> **KEY STUDY: Goddard, McIntyre & Leech (1969)**
-> - **Method:** One mild electrical stimulation/day delivered to rats via implanted **amygdalar electrodes**.
-> - **Finding:** No response initially; progressive development of convulsive responses with each stimulation. First convulsions: slight facial tremor. Eventually: generalized whole-body convulsions.
-> - Named: **kindling phenomenon** -- one of the first neuroplastic phenomena widely studied.
+> **KEY STUDY: Goddard, McIntyre & Leech (1969):** one mild stimulation/day via **amygdalar electrodes** in rats produced progressively intensifying convulsions (slight facial tremor → generalized convulsions) — the **kindling phenomenon**.
 
-**Generality of kindling:**
-- Demonstrated in mice, rabbits, cats, dogs, various primates.
-- Can be produced by repeated stimulation of many brain sites (not just amygdala).
-- Can be produced by repeated application of initially subconvulsive doses of convulsive chemicals.
+- **Generality**: many species, many sites, also via subconvulsive chemical doses.
+- **Two features**: (1) **permanent** (responds after months unstimulated); (2) requires **distributed** (not massed) stimulations (no kindling under ~20-min intervals).
+- **Models epilepsy**: convulsions resemble human types and **epileptogenesis** after head injury. **Limitation**: usually **elicited**, not spontaneous (but ~**300 stimulations** in rats → spontaneous seizures). Also models interictal emotional behavior (Kalynchuk, 2000).
 
-**Two key features:**
-1. **Permanent**: A kindled subject left unstimulated for months still responds with generalized convulsion.
-2. **Requires distributed stimulations** (not massed): intervals shorter than 1-2 hours require many more stimulations; no kindling at intervals less than ~20 minutes.
+### Transgenic Mouse Models of Alzheimer's
+- **Transgenic**: animals with another species' genes introduced.
 
-**How kindling models epilepsy:**
-1. Convulsions similar to some human epilepsy types.
-2. Comparable to **epileptogenesis** after head injury (delayed onset with escalating frequency/severity).
+> **KEY STUDY: Hsiao et al. (1996):** human **amyloid** genes injected into fertilized mouse eggs → mice develop **amyloid plaques** (distribution like humans), neural loss, and memory disturbances.
 
-**Limitation:** Most lab kindling uses **elicited** convulsions, not spontaneous ones (true epilepsy = spontaneous). However, after ~**300 stimulations in rats**, a truly epileptic syndrome with **spontaneous seizures** can be induced.
+- **Limitation**: most lack **neurofibrillary tangles**. The **triple transgenic (3xTg-AD)** model shows **both** plaques and tangles (Pietropaolo, Feldon & Yee, 2008).
 
-**Interictal behavior modeling:** Kindled subjects display changes in interictal emotional behavior similar to those in human epileptics (Kalynchuk, 2000; Wintink et al., 2003).
+### MPTP Model of Parkinson's
 
----
+> **KEY CASE: The Frozen Addicts (Langston, 1985):** in 1982, young addicts developed irreversible parkinsonism from new **synthetic heroin** contaminated with **MPTP**; symptoms included bradykinesia, tremor, rigidity, **seborrhea**, **micrographia**.
 
-### Transgenic Mouse Models of Alzheimer's Disease
+> **KEY STUDY: Langston (1986):** primates respond to MPTP like humans — **substantia nigra cell loss** and greatly reduced **dopamine**; some monkeys show depletion without gross motor symptoms (Taylor et al., 1990).
 
-- **Transgenic**: animals into which **genes of another species** have been introduced.
-
-> **KEY STUDY: Hsiao et al. (1996)**
-> - **Method:** Genes accelerating synthesis of **human amyloid** injected into newly fertilized mouse eggs, implanted into foster mother.
-> - **Finding:** Mature transgenic mice develop brains with **amyloid plaques** like human Alzheimer's patients; distribution comparable (highest in medial temporal lobe: hippocampus, amygdala, entorhinal cortex); mice show **neural loss and memory disturbances**.
-
-**Limitation:** Most transgenic models do **not display neurofibrillary tangles** -- serious if tangles are primary symptom.
-
-**Triple transgenic model (3xTg-AD):** Three human Alzheimer genes inserted; displays **both amyloid plaques AND neurofibrillary tangles** (Pietropaolo, Feldon & Yee, 2008).
+- **Deprenyl** (MAO-B inhibitor) blocks MPTP and **retards Parkinson's progression ~50%** (Tetrud & Langston, 1989). **Limitation**: doesn't model etiology.
 
 ---
 
-### MPTP Model of Parkinson's Disease
-
-> **KEY CASE: The Frozen Addicts (Langston, 1985)**
-> - 1982: Group of **young drug addicts** presented with severe, irreversible parkinsonism.
-> - Link: recent use of new **synthetic heroin**.
-> - Symptoms: bradykinesia, tremor, muscular rigidity; also seborrhea (oily skin), micrographia (small handwriting).
-> - Offending agent: **MPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine)**.
-> - No remission.
-
-> **KEY STUDY: Langston (1986)**
-> - Established nonhuman primates respond to MPTP identically to humans.
-> - MPTP-exposed primate brains show **substantia nigra cell loss** as in Parkinson's patients.
-> - **Dopamine greatly reduced** in both the model and the naturally occurring disorder.
-> - Curious: some monkeys show major dopamine depletion **without gross motor symptoms** (Taylor et al., 1990).
-
-**Clinical benefit:**
-- **Deprenyl** (MAO-B inhibitor/monoamine agonist) blocks MPTP effects in animals.
-- Administered to early Parkinson's patients: **retards disease progression by ~50%** (Tetrud & Langston, 1989).
-
-**Limitation:** MPTP model does **not model etiological factors** in Parkinson's disease.
-
----
-
-## 10.4 Neuroplastic Responses to Nervous System Damage
+## 10.4 Neuroplastic Responses to Damage
 
 ### Neural Degeneration
+- **Neural degeneration**: neural deterioration; studied by **axotomy** (cutting axons).
 
-- **Neural degeneration**: neural deterioration; component of both development and disease.
-- Standard controlled method: **axotomy** (cutting axons).
-
-#### Two Kinds of Degeneration After Axotomy
-
-| Type | Segment Affected | Timeline |
+| Type | Segment | Timeline |
 |---|---|---|
-| **Anterograde degeneration** | **Distal segment** (cut to synaptic terminals) | Rapid: badly swollen within hours; fragments within days |
-| **Retrograde degeneration** | **Proximal segment** (cut to cell body) | Gradual: major cell body changes in 2-3 days |
+| **Anterograde degeneration** | **Distal** (cut → terminals) | Rapid (hours-days) |
+| **Retrograde degeneration** | **Proximal** (cut → cell body) | Gradual (2-3 days) |
 
-**Post-axotomy cell body changes (2-3 days):**
-- **Early degenerative changes** (decreased size): neuron will likely die by apoptosis or necrosis.
-- **Early regenerative changes** (increased size): massive protein synthesis for axon replacement -- survival not guaranteed if regenerating axon fails to make synaptic contact.
-
-#### Transneuronal Degeneration
-| Type | Direction |
-|---|---|
-| **Anterograde transneuronal degeneration** | Spreads from damaged neurons to neurons they synapse **onto** |
-| **Retrograde transneuronal degeneration** | Spreads from damaged neurons to neurons that synapse **onto them** |
-
----
+- Cell body changes (2-3 days): **early degenerative** (shrinkage → likely death) or **early regenerative** (growth → survival if axon makes contact).
+- **Transneuronal degeneration**: **anterograde** spreads to neurons the damaged one synapses **onto**; **retrograde** spreads to neurons that synapse **onto** it.
 
 ### Neural Regeneration
-
-- **Neural regeneration**: regrowth of damaged neurons.
-- Far less successful in mammals and higher vertebrates than in invertebrates and lower vertebrates.
-- Capacity for accurate axonal growth present in higher vertebrates during early development is **lost at maturity**.
-- In adult mammals:
-  - **CNS**: virtually nonexistent.
-  - **PNS**: hit-or-miss.
-
-#### Three Patterns of PNS Regeneration in Mammals
-
-Regrowth begins from proximal stump **2-3 days** after damage.
+- **Neural regeneration**: regrowth of damaged neurons; far less successful in mammals; accurate growth present in early development is **lost at maturity**. Adult mammals: **CNS** virtually none; **PNS** hit-or-miss (regrowth from proximal stump after **2-3 days**).
 
 | Condition | Outcome |
 |---|---|
-| Schwann cell sheaths **intact** (e.g., crush without severing) | Axons regenerate to **correct targets** at a few mm/day |
-| Nerve **severed**, ends **slightly separated** | Axons grow into **incorrect sheaths**, reach incorrect targets; coordinated limb use difficult to regain |
-| Nerve **severed**, ends **widely separated** (or long section damaged) | **No meaningful regeneration**; tips grow in tangled mass around proximal stump; neurons ultimately die |
+| Schwann sheaths **intact** (crush) | Regenerate to **correct targets** (few mm/day) |
+| Severed, **slightly separated** | Grow into **incorrect** sheaths/targets |
+| Severed, **widely separated** | **No meaningful regeneration**; neurons die |
 
-#### Why PNS Regenerates but CNS Does Not
-
-- NOT inherent to neuron type: CNS neurons can regenerate in PNS environment; PNS neurons cannot in CNS environment.
-- Key = **environmental difference**.
-
-**Schwann cells** (PNS myelination) promote regeneration:
-- Clear neural debris.
-- Produce **neurotrophic factors** (stimulate new axon growth).
-- Produce **cell-adhesion molecules (CAMs)** (mark regeneration paths).
-
-**Oligodendroglia** (CNS myelination) inhibit regeneration:
-- Do NOT clear debris.
-- **Release factors that actively block regeneration** (Yiu & He, 2006).
-- Survive months post-damage, chronically inhibiting axon regrowth.
-
-#### Collateral Sprouting
-- **Collateral sprouting**: branches grow from **adjacent healthy axons** and synapse at sites vacated by degenerated axons.
-- Sprouts emerge from axon terminals or **nodes of Ranvier**.
-
-#### Regeneration in Lower Vertebrates
-- Accurate in both CNS and PNS; even without remnant Schwann cell sheaths.
-- Medical potential: identifying promoting factors might cure human CNS injuries.
-- Invertebrates: regenerating axons release a factor promoting **limb regeneration** when an entire limb is lost.
-
----
+- **Why PNS but not CNS**: environmental, not neuron-type. **Schwann cells** (PNS) **promote** regeneration (clear debris, **neurotrophic factors**, **CAMs**). **Oligodendroglia** (CNS) **block** it (release inhibitory factors; survive months; Yiu & He, 2006).
+- **Collateral sprouting**: branches from adjacent healthy axons fill vacated synaptic sites (from terminals or **nodes of Ranvier**).
+- **Lower vertebrates**: regenerate accurately in CNS and PNS.
 
 ### Neural Reorganization
+- Adult brains reorganize after **experience** and **damage**; best studied in topographic sensory/motor cortex.
 
-- Adult mammalian brains can reorganize in response to both **experience** and **damage**.
-- Most studied in topographically organized **sensory and motor cortex**.
+> **KEY STUDY 1: Kaas et al. (1990) / Gilbert & Wiesel (1992):** after a retinal lesion (other eye removed), visual cortex neurons acquired receptive fields in the **adjacent retinal area**; change begins **within minutes**.
 
-#### Three Landmark Studies
+> **KEY STUDY 2: Pons et al. (1991):** 10 years after cutting contralateral arm sensory neurons, the cortical **face representation expanded >1 cm into the arm area** — far greater than expected.
 
-> **KEY STUDY 1: Kaas et al. (1990) / Gilbert & Wiesel (1992)**
-> - Method: Small retinal lesion made in one eye; other eye removed.
-> - Finding: Months later, visual cortex neurons originally receiving from the lesioned retinal area now had receptive fields in the **adjacent retinal area**. Change begins **within minutes** of the lesion (Gilbert & Wiesel, 1992).
+> **KEY STUDY 3: Sanes, Suner & Donoghue (1990):** after transecting **vibrissae (whisker)** motor neurons in rats, the vibrissae motor cortex area activated **other facial muscles**.
 
-> **KEY STUDY 2: Pons et al. (1991)**
-> - Method: Mapped primary somatosensory cortex of monkeys whose contralateral arm sensory neurons were cut **10 years earlier**.
-> - Finding: The cortical **face representation had expanded by over 1 cm into the original arm area**. Far greater reorganization than previously thought possible; long interval between surgery and testing was a likely factor.
+- **Humans**: blind individuals' visual cortex reorganizes to process tactile/auditory information.
 
-> **KEY STUDY 3: Sanes, Suner & Donoghue (1990)**
-> - Method: Transected motor neurons controlling **vibrissae (whiskers)** of rats.
-> - Finding: Weeks later, stimulation of the vibrissae motor cortex area now activated **other facial muscles**.
-
-#### Cortical Reorganization in Humans
-- Brain-imaging studies of blind individuals showed visual cortex reorganized to process tactile/auditory information.
+### Recovery of Function
+- Recovery via reorganization, collateral sprouting, and compensatory changes in intact circuits; animal-model findings inform treatment.
 
 ---
 
-### Recovery of Function after Brain Damage
+## 10.5 Neuroplasticity and Treatment
 
-- The brain shows functional recovery through neuroplastic mechanisms: reorganization, collateral sprouting, compensatory changes in intact circuits.
-- Animal model findings (DBS, deprenyl, kindling) inform clinical treatment.
-
----
-
-## 10.5 Neuroplasticity and the Treatment of Brain Damage
-
-Key treatment themes integrating neuroplasticity principles:
-- **L-dopa** for Parkinson's (limited duration of effectiveness).
-- **Deep brain stimulation** of subthalamic nucleus for Parkinson's.
-- **Deprenyl** (MAO-B inhibitor): retards Parkinson's progression ~50% (Tetrud & Langston, 1989).
-- **Amyloid vaccine** for Alzheimer's: promising in transgenic mice; curtailed in humans due to side effects.
-- **Glutamate antagonists** for stroke: effective in animals; unproven in humans; must be initiated early.
-- Factors promoting regeneration in lower vertebrates may unlock CNS injury treatments.
+- **L-dopa** (Parkinson's; limited duration); **DBS** of the subthalamic nucleus; **deprenyl** (retards Parkinson's ~50%); **amyloid vaccine** (Alzheimer's; curtailed in humans); **glutamate antagonists** (stroke; unproven in humans, must start early). Lower-vertebrate regeneration factors may unlock CNS-injury treatment.
 
 ---
 
@@ -571,95 +219,89 @@ Key treatment themes integrating neuroplasticity principles:
 
 | Term | Definition |
 |---|---|
-| **Tumor (neoplasm)** | Mass of cells growing independently of the rest of the body |
-| **Encapsulated tumor** | Grows within its own membrane; almost always benign; surgically removable |
-| **Infiltrating tumor** | Grows diffusely through surrounding tissue; usually malignant |
-| **Metastatic tumor** | Originates elsewhere; carried to brain via bloodstream |
-| **Metastasis** | Transmission of disease from one organ to another |
+| **Tumor (neoplasm)** | Mass of cells growing independently of the body |
+| **Encapsulated tumor** | Within its own membrane; usually benign; removable |
+| **Infiltrating tumor** | Diffuse growth; usually malignant |
+| **Metastatic tumor** | From elsewhere; carried via blood |
+| **Metastasis** | Disease spread between organs |
 | **Acoustic neuroma** | Encapsulated tumor on cranial nerve VIII |
-| **Neuroma** | Tumor growing on a nerve or tract |
+| **Neuroma** | Tumor on a nerve/tract |
 | **Meningioma** | Benign encapsulated tumor on the meninges |
-| **Stroke** | Sudden-onset cerebrovascular disorder causing brain damage |
-| **Infarct** | Area of dead or dying tissue from a stroke |
-| **Penumbra** | Dysfunctional area surrounding an infarct; primary treatment target |
-| **Cerebral hemorrhage** | Bleeding in the brain from a ruptured blood vessel |
-| **Aneurysm** | Pathological balloon-like arterial wall dilation at a point of defective elasticity |
-| **Cerebral ischemia** | Disruption of blood supply to an area of the brain |
-| **Thrombosis** | Blockage by a thrombus formed at the occlusion site |
-| **Thrombus** | Plug (blood clot, fat, air, etc.) blocking blood flow at its site of formation |
-| **Embolism** | Blockage by an embolus that traveled from a larger to a smaller vessel |
-| **Embolus** | A thrombus that has traveled through the bloodstream |
-| **Arteriosclerosis** | Thickening and narrowing of vessel walls from fat deposits; can cause complete blockage |
-| **NMDA receptor** | N-methyl-D-aspartate receptor; key mediator of ischemic neuronal death |
+| **Stroke** | Sudden cerebrovascular disorder causing brain damage |
+| **Infarct** | Dead/dying tissue from a stroke |
+| **Penumbra** | Dysfunctional area around an infarct; treatment target |
+| **Cerebral hemorrhage** | Bleeding from a ruptured vessel |
+| **Aneurysm** | Balloon-like arterial dilation at defective elasticity |
+| **Cerebral ischemia** | Disrupted blood supply |
+| **Thrombosis / Thrombus** | Blockage by a plug at its formation site |
+| **Embolism / Embolus** | Blockage by a traveled thrombus |
+| **Arteriosclerosis** | Thickened/narrowed vessel walls from fat deposits |
+| **NMDA receptor** | N-methyl-D-aspartate receptor; mediates ischemic death |
 | **Aphasia** | Language difficulties from brain damage |
-| **Closed-head injury** | Brain injury from non-penetrating blow to skull |
-| **Contusion** | Closed-head injury with cerebral circulatory damage and hematoma formation |
-| **Hematoma** | Localized collection of clotted blood; a bruise |
-| **Subdural space** | Space between dura mater and arachnoid membrane; site of blood accumulation in contusions |
-| **Contrecoup injury** | Contusion on the side of brain opposite the blow |
-| **Concussion** | Consciousness disturbance after head blow with no structural damage; now known to have long-term effects |
-| **Punch-drunk syndrome / Dementia pugilistica** | Dementia and cerebral scarring from repeated concussions |
+| **Closed-head injury** | Brain injury from a non-penetrating blow |
+| **Contusion** | Closed-head injury with circulatory damage/hematoma |
+| **Hematoma** | Clotted blood collection; a bruise |
+| **Subdural space** | Between dura and arachnoid; blood site in contusions |
+| **Contrecoup injury** | Contusion opposite the blow |
+| **Concussion** | Disturbed consciousness, no structural damage; long-term effects |
+| **Punch-drunk syndrome / Dementia pugilistica** | Dementia/scarring from repeated concussions |
 | **Encephalitis** | Brain inflammation from infection |
-| **Cerebral abscess** | Pocket of pus in the brain from bacterial infection |
-| **Meningitis** | Inflammation of the meninges; fatal in 25% of adults |
-| **General paresis** | Insanity and dementia from syphilitic brain infection |
+| **Cerebral abscess** | Pus pocket from bacterial infection |
+| **Meningitis** | Meningeal inflammation; fatal in 25% of adults |
+| **General paresis** | Syphilitic insanity/dementia |
 | **Toxic psychosis** | Chronic insanity from a neurotoxin |
-| **Tardive dyskinesia (TD)** | Motor disorder from antipsychotic drugs; lip smacking, tongue rolling, jaw movements, cheek puffing |
-| **Apoptosis** | Programmed cell death; slow, no inflammation, debris packaged |
-| **Necrosis** | Passive cell death from injury; fast, causes inflammation |
-| **Down syndrome** | Genetic disorder from trisomy 21; ~0.15% of births |
-| **Trisomy 21** | Three copies of chromosome 21; genetic basis of Down syndrome |
-| **Epilepsy** | Spontaneously recurring seizures from chronic brain dysfunction |
+| **Tardive dyskinesia (TD)** | Antipsychotic-induced motor disorder |
+| **Apoptosis** | Programmed cell death; slow, no inflammation |
+| **Necrosis** | Passive cell death; fast, inflammation |
+| **Down syndrome / Trisomy 21** | Extra chromosome 21; ~0.15% of births |
+| **Epilepsy** | Spontaneously recurring seizures from chronic dysfunction |
 | **Epileptic aura** | Psychological change before a convulsion; localizes focus |
-| **Simple partial seizure (Jacksonian)** | Partial seizure with sensory/motor symptoms; named after Hughlings Jackson |
-| **Complex partial seizure** | Partial seizure (temporal lobe) with automatisms; ~half of adult epilepsy |
-| **Automatisms** | Compulsive, repetitive simple behaviors during complex partial seizures |
-| **Temporal lobe epilepsy** | Complex partial seizures restricted to the temporal lobes |
-| **Generalized seizure** | Seizure involving the entire brain |
-| **Grand mal seizure** | Generalized seizure with loss of consciousness, tonic-clonic convulsion, cyanosis |
-| **Tonic-clonic convulsion** | Convulsion with both tonus (rigidity) and clonus (tremors) |
-| **Petit mal seizure** | Generalized seizure without convulsions; 3-Hz spike-and-wave EEG; primarily in children |
-| **Petit mal absence** | Disruption of consciousness, vacant look, cessation of behavior |
-| **Epileptogenesis** | Development (genesis) of epilepsy |
-| **Cyanosis** | Turning blue from excessive oxygen extraction during convulsion |
-| **Hypoxia** | Shortage of oxygen supply to tissue |
+| **Simple partial seizure (Jacksonian)** | Sensory/motor; named after Hughlings Jackson |
+| **Complex partial seizure** | Temporal lobe; automatisms; ~half of adult epilepsy |
+| **Automatisms** | Compulsive repetitive behaviors in complex partial seizures |
+| **Temporal lobe epilepsy** | Complex partial seizures in the temporal lobes |
+| **Generalized seizure** | Involves the entire brain |
+| **Grand mal seizure** | Loss of consciousness; tonic-clonic convulsion; cyanosis |
+| **Tonic-clonic convulsion** | Rigidity (tonus) + tremors (clonus) |
+| **Petit mal seizure** | No convulsions; 3-Hz spike-and-wave; in children |
+| **Petit mal absence** | Disrupted consciousness, vacant look |
+| **Epileptogenesis** | Development of epilepsy |
+| **Cyanosis** | Turning blue from excessive O2 extraction |
+| **Hypoxia** | Oxygen shortage to tissue |
 | **Parkinson's disease** | Progressive movement disorder; substantia nigra degeneration |
-| **Bradykinesia** | Slowness of movement; core Parkinson's symptom |
-| **Substantia nigra** | Midbrain dopaminergic nucleus; severely degenerated in Parkinson's |
-| **Nigrostriatal pathway** | Dopaminergic pathway from substantia nigra to striatum; degenerated in Parkinson's |
-| **Lewy bodies** | Protein clumps in surviving substantia nigra neurons; Parkinson's hallmark |
-| **L-dopa (levodopa)** | Dopamine precursor; Parkinson's treatment; not permanent |
-| **Deep brain stimulation (DBS)** | Continuous high-frequency electrical stimulation via implanted electrode; targets subthalamic nucleus |
-| **Subthalamic nucleus** | DBS target in Parkinson's; just below thalamus; connected to basal ganglia |
-| **Huntington's disease** | Rare progressive disorder; single dominant gene; severe dementia |
-| **Huntingtin** | Dominant gene causing Huntington's disease |
-| **Multiple sclerosis (MS)** | Autoimmune disease attacking CNS myelin |
+| **Bradykinesia** | Slowness of movement |
+| **Substantia nigra** | Midbrain dopaminergic nucleus; degenerates in Parkinson's |
+| **Nigrostriatal pathway** | Substantia nigra → striatum dopaminergic pathway |
+| **Lewy bodies** | Protein clumps in surviving substantia nigra neurons |
+| **L-dopa (levodopa)** | Dopamine precursor; Parkinson's treatment |
+| **Deep brain stimulation (DBS)** | High-frequency stimulation via implanted electrode |
+| **Subthalamic nucleus** | DBS target in Parkinson's |
+| **Huntington's disease** | Rare progressive disorder; dominant gene; severe dementia |
+| **Huntingtin** | Dominant gene causing Huntington's |
+| **Multiple sclerosis (MS)** | Autoimmune attack on CNS myelin |
 | **Ataxia** | Loss of motor coordination |
-| **Experimental autoimmune encephalomyelitis** | Animal model of MS; induced by myelin + immune stimulant injection |
-| **Alzheimer's disease** | Most common cause of dementia; hallmarks: neurofibrillary tangles and amyloid plaques |
-| **Neurofibrillary tangles** | Threadlike protein tangles in neural cytoplasm; Alzheimer's hallmark |
-| **Amyloid plaques** | Clumps of degenerating neurons + amyloid protein; Alzheimer's hallmark |
-| **Amyloid hypothesis** | Amyloid plaques are the primary symptom of Alzheimer's, causing all others |
-| **Kindling phenomenon** | Progressive intensification of convulsions from periodic brain stimulations; permanent |
-| **Transgenic** | Animals with genes of another species introduced |
-| **MPTP** | 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine; destroys substantia nigra; animal model of Parkinson's |
-| **Deprenyl** | MAO-B inhibitor; blocks MPTP; retards Parkinson's progression ~50% |
-| **Neural degeneration** | Neural deterioration in development and disease |
+| **Experimental autoimmune encephalomyelitis** | Animal model of MS |
+| **Alzheimer's disease** | Most common dementia; tangles + amyloid plaques |
+| **Neurofibrillary tangles** | Cytoplasmic protein tangles; Alzheimer's hallmark |
+| **Amyloid plaques** | Degenerating neurons + amyloid protein |
+| **Amyloid hypothesis** | Amyloid plaques are the primary Alzheimer's symptom |
+| **Kindling phenomenon** | Progressive convulsion intensification from periodic stimulation; permanent |
+| **Transgenic** | Animals with another species' genes introduced |
+| **MPTP** | Toxin destroying substantia nigra; Parkinson's model |
+| **Deprenyl** | MAO-B inhibitor; blocks MPTP; retards Parkinson's ~50% |
+| **Neural degeneration** | Neural deterioration |
 | **Axotomy** | Cutting a neuron's axon |
-| **Anterograde degeneration** | Distal segment (cut to terminals) degenerates; rapid |
-| **Retrograde degeneration** | Proximal segment (cut to cell body) degenerates; gradual |
-| **Transneuronal degeneration** | Degeneration spreading via synaptic connections |
-| **Anterograde transneuronal degeneration** | Spreads to neurons the damaged neuron synapses onto |
-| **Retrograde transneuronal degeneration** | Spreads to neurons that synapse onto the damaged neuron |
-| **Collateral sprouting** | Branches from adjacent healthy axons grow into vacated synaptic sites |
-| **Neurotrophic factors** | Schwann cell factors stimulating new axon growth |
-| **Cell-adhesion molecules (CAMs)** | Schwann cell membrane molecules marking regeneration paths |
-| **Schwann cells** | PNS myelinating cells; promote regeneration (debris clearance, neurotrophic factors, CAMs) |
-| **Oligodendroglia** | CNS myelinating cells; actively block regeneration |
-| **Interictal behavior** | Epileptic behavior occurring between seizures |
-| **Epidemiology** | Study of factors (diet, geography, age, sex, race) influencing disease distribution |
-| **Micrographia** | Abnormally small handwriting; subtle Parkinson's sign |
-| **Seborrhea** | Oily skin; subtle Parkinson's sign |
+| **Anterograde degeneration** | Distal segment degenerates; rapid |
+| **Retrograde degeneration** | Proximal segment degenerates; gradual |
+| **Transneuronal degeneration** | Spreads via synaptic connections |
+| **Collateral sprouting** | Adjacent healthy axons fill vacated synapses |
+| **Neurotrophic factors** | Schwann cell factors stimulating axon growth |
+| **Cell-adhesion molecules (CAMs)** | Schwann cell molecules marking regeneration paths |
+| **Schwann cells** | PNS myelinators; promote regeneration |
+| **Oligodendroglia** | CNS myelinators; block regeneration |
+| **Interictal behavior** | Behavior between seizures |
+| **Epidemiology** | Study of disease distribution factors |
+| **Micrographia / Seborrhea** | Small handwriting / oily skin; subtle Parkinson's signs |
 
 ---
 
@@ -667,68 +309,61 @@ Key treatment themes integrating neuroplasticity principles:
 
 | Person | Contribution |
 |---|---|
-| **Goddard, McIntyre & Leech (1969)** | Discovered the kindling phenomenon using repeated amygdalar stimulation in rats |
-| **Hsiao et al. (1996)** | Developed transgenic mouse model of Alzheimer's using human amyloid genes |
-| **Langston (1985)** | Identified MPTP as cause of irreversible parkinsonism in drug addicts ("frozen addicts") |
-| **Langston (1986)** | Developed MPTP animal model of Parkinson's disease using nonhuman primates |
-| **Tetrud & Langston (1989)** | Showed deprenyl retards Parkinson's progression by ~50% |
-| **Kaas et al. (1990)** | Demonstrated visual cortex reorganization following retinal lesion |
-| **Gilbert & Wiesel (1992)** | Showed visual cortex reorganization begins within minutes of retinal lesion |
-| **Pons et al. (1991)** | Showed somatosensory cortex face area expands over 1 cm into arm area after 10-year arm deafferentation in monkeys |
-| **Sanes, Suner & Donoghue (1990)** | Showed vibrissae motor cortex area activates other facial muscles after vibrissae motor neuron transection |
-| **Hughlings Jackson (19th century)** | Famous neurologist after whom Jacksonian (simple partial) seizures are named |
-| **Lewy (1912)** | German pathologist; first reported Lewy bodies in substantia nigra of Parkinson's patients |
-| **Wahlgren & Ahmed (2004)** | Argued glutamate antagonist stroke treatment must begin soon after the stroke |
-| **Nau & Brück (2002)** | Reported meningitis is fatal in 25% of adults |
-| **Hardy & Selkoe (2002)** | Proposed the amyloid hypothesis as dominant view of Alzheimer's disease pathology |
-| **Gilliam, Gusella & Lehrach (1987) / Martin (1987)** | Developed genetic test to detect huntingtin gene in relatives of Huntington's patients |
-| **Ramagopalan et al. (2009)** | Showed vitamin D influences a chromosomal locus implicated in MS |
-| **Lennox (1960)** | Clinical descriptions illustrating the subtlety of complex partial seizures |
-| **De Beaumont et al. (2009)** | Showed cognitive, motor, and neurological effects of concussion can last many years |
-| **Berkovic et al. (2006)** | Identified over 70 different faulty genes linked to epilepsy |
-| **Taylor et al. (1990)** | Found some monkeys show MPTP-induced dopamine depletion without gross motor symptoms |
-| **Elibol et al. (2001)** | Showed some dying cells display signs of both necrosis and apoptosis |
+| **Goddard, McIntyre & Leech (1969)** | Discovered kindling via repeated amygdalar stimulation |
+| **Hsiao et al. (1996)** | Transgenic mouse Alzheimer's model (human amyloid genes) |
+| **Langston (1985)** | Identified MPTP as cause of "frozen addicts" parkinsonism |
+| **Langston (1986)** | MPTP primate model of Parkinson's |
+| **Tetrud & Langston (1989)** | Deprenyl retards Parkinson's ~50% |
+| **Kaas et al. (1990)** | Visual cortex reorganization after retinal lesion |
+| **Gilbert & Wiesel (1992)** | Visual cortex reorganization within minutes |
+| **Pons et al. (1991)** | Face area expands >1 cm into arm area after 10-year deafferentation |
+| **Sanes, Suner & Donoghue (1990)** | Vibrissae motor cortex activates other facial muscles after transection |
+| **Hughlings Jackson** | Neurologist; namesake of Jacksonian seizures |
+| **Lewy (1912)** | First reported Lewy bodies |
+| **Wahlgren & Ahmed (2004)** | Glutamate-antagonist stroke treatment must start early |
+| **Nau & Brück (2002)** | Meningitis fatal in 25% of adults |
+| **Hardy & Selkoe (2002)** | Amyloid hypothesis of Alzheimer's |
+| **Gilliam, Gusella & Lehrach (1987)** | Genetic test for huntingtin |
+| **Ramagopalan et al. (2009)** | Vitamin D influences an MS-implicated locus |
+| **Lennox (1960)** | Cases illustrating complex partial seizures |
+| **De Beaumont et al. (2009)** | Long-term concussion effects |
+| **Berkovic et al. (2006)** | Over 70 epilepsy-linked genes |
+| **Taylor et al. (1990)** | MPTP dopamine depletion without motor symptoms |
+| **Elibol et al. (2001)** | Cells showing both necrosis and apoptosis |
 
 ---
 
 ## Likely Exam Points
 
-1. **Stroke epidemiology**: third leading cause of death in the US; most common cause of adult disability; major cause of neurological dysfunction.
+1. **Stroke epidemiology**: third leading cause of death in the US; most common cause of adult disability.
 
-2. **Glutamate/NMDA cascade in stroke**: ischemia causes excessive glutamate release; overactivates NMDA receptors; Na+/Ca2+ influx kills neurons and spreads the cascade; damage develops over 1-2 days; hippocampus especially vulnerable.
+2. **Glutamate/NMDA cascade**: ischemia → excess glutamate → NMDA overactivation → Na+/Ca2+ influx kills and spreads; develops over 1-2 days; hippocampus especially vulnerable.
 
-3. **Petit mal seizures**: characteristic **bilaterally symmetrical 3-Hz spike-and-wave EEG**; no convulsions; primary symptom is "absence"; most common in children; often ceases at puberty; frequently misidentified as daydreaming.
+3. **Petit mal**: **bilaterally symmetrical 3-Hz spike-and-wave EEG**; no convulsions; "absence"; mostly children; often ceases at puberty.
 
-4. **Complex partial seizures**: involve **automatisms**; restricted to temporal lobes; account for ~**half of all adult epilepsy**; patients appear conscious but have no subsequent recollection; two cases (Lennox, 1960).
+4. **Complex partial seizures**: **automatisms**; temporal lobes; ~**half of adult epilepsy**; appear conscious, no recollection (Lennox, 1960).
 
-5. **Parkinson's disease**: degeneration of **substantia nigra** and **nigrostriatal pathway**; hallmark = **Lewy bodies**; resting tremor (not during movement or sleep); treated with L-dopa and **DBS of the subthalamic nucleus**; thinking preserved ("thinking people trapped inside bodies").
+5. **Parkinson's**: **substantia nigra**/**nigrostriatal** degeneration; hallmark **Lewy bodies**; resting tremor (not in movement/sleep); L-dopa + **DBS of subthalamic nucleus**; thinking preserved.
 
-6. **Huntington's disease**: single **dominant gene (huntingtin)**; all carriers develop it; ~50% of offspring affected; onset after reproductive peak (~40); rare (1 in 10,000); dementia associated (unlike Parkinson's); death ~15 years post-onset.
+6. **Huntington's**: dominant gene **huntingtin**; all carriers develop it; ~50% of offspring; onset ~40; rare (1 in 10,000); dementia; death ~15 years post-onset.
 
-7. **Alzheimer's disease**: most common dementia; definitive diagnosis only at **autopsy**; hallmarks = **neurofibrillary tangles** and **amyloid plaques**; particularly prevalent in medial temporal lobe (entorhinal cortex, hippocampus, amygdala); amyloid hypothesis (Hardy & Selkoe, 2002) is dominant view.
+7. **Alzheimer's**: most common dementia; definitive diagnosis at **autopsy**; **neurofibrillary tangles** + **amyloid plaques**; medial temporal lobe; amyloid hypothesis (Hardy & Selkoe, 2002).
 
-8. **Multiple sclerosis**: **autoimmune** CNS myelin attack; **monozygotic concordance only 25%** (epigenetic role); **3x higher in females**; higher in colder climates and Caucasians; experimental model = experimental autoimmune encephalomyelitis.
+8. **MS**: autoimmune CNS myelin attack; MZ concordance **25%** (epigenetics); **3× higher in females**; colder climates, Caucasians; model = experimental autoimmune encephalomyelitis.
 
-9. **Apoptosis vs. necrosis**: necrosis = fast (hours), passive, causes inflammation; apoptosis = slow (days), programmed, no inflammation, debris packaged -- therefore more adaptive. All six causes of brain damage can activate apoptosis.
+9. **Apoptosis vs. necrosis**: necrosis = fast/passive/inflammation; apoptosis = slow/programmed/no inflammation (more adaptive). All six causes can trigger apoptosis.
 
-10. **Kindling (Goddard et al., 1969)**: periodic mild amygdalar stimulation produces progressively intensifying generalized convulsions; neuroplastic changes are **permanent**; requires **distributed** (not massed) stimulations (minimum ~20-minute intervals); models epileptogenesis after head injury; limitation = elicited not spontaneous seizures (overcome after ~300 stimulations).
+10. **Kindling (Goddard et al., 1969)**: progressively intensifying convulsions; **permanent**; needs **distributed** stimulation (≥~20-min intervals); models epileptogenesis; elicited not spontaneous (until ~300 stimulations).
 
-11. **PNS regenerates, CNS does not**: due to environmental not neuron-type differences; **Schwann cells** promote (neurotrophic factors, CAMs, debris clearance); **oligodendroglia** block (inhibitory factors, survive months post-damage); **collateral sprouting** from adjacent healthy axons fills vacated synapses.
+11. **PNS regenerates, CNS doesn't**: environmental difference; **Schwann cells** promote, **oligodendroglia** block; **collateral sprouting** fills vacated synapses.
 
-12. **MPTP model**: synthetic heroin contaminant causing irreversible parkinsonism (Langston, 1985); destroys substantia nigra; **deprenyl** (MAO-B inhibitor) blocks MPTP and retards Parkinson's progression ~50% (Tetrud & Langston, 1989).
+12. **MPTP model** (Langston, 1985): synthetic heroin contaminant; destroys substantia nigra; **deprenyl** blocks it and retards progression ~50%.
 
-13. **Down syndrome**: trisomy 21; ~0.15% of births; maternal ovulation accident; risk: 1 in 1,667 at age 20 vs. 1 in 11 at age 49.
+13. **Down syndrome**: trisomy 21; ~0.15% of births; risk 1 in 1,667 (age 20) vs. 1 in 11 (age 49).
 
-14. **Cortical reorganization**: Pons et al. (1991) -- somatosensory face area expanded >1 cm into arm area after 10-year arm deafferentation; Gilbert & Wiesel (1992) -- visual cortex reorganization begins within minutes of retinal lesion.
+14. **Cortical reorganization**: Pons et al. (1991) — face area expanded >1 cm into arm area; Gilbert & Wiesel (1992) — within minutes.
 
-15. **Anterograde vs. retrograde degeneration**: anterograde = distal segment (cut to terminals), fast; retrograde = proximal segment (cut to cell body), gradual. Transneuronal degeneration spreads via synapses in both directions.
-```
-
----
-
-The note is complete. It's fully formatted with YAML frontmatter, all sections from the chapter, bold key terms, researcher attributions, classification tables, key study callouts, and the three required end sections (Key Terms, Key People, Likely Exam Points).
-
-To save this, copy the content between the triple backticks and save it as `2026-05-24-pinel-ch10-brain-damage-neuroplasticity.md` in your knowledge base. If you want me to save it directly to a location (Obsidian vault, Google Drive, etc.), approve the relevant file-system or Drive permission and I'll do it automatically.
+15. **Anterograde vs. retrograde degeneration**: anterograde = distal segment, fast; retrograde = proximal segment, gradual; transneuronal spreads via synapses both directions.
 
 ---
 *Source: Biopsychology (Pinel, 8th ed.), Chapter 10: Brain Damage and Neuroplasticity (pp. 266-293). Part of [[INDEX]].*

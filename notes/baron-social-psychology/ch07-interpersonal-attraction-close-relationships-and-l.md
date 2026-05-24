@@ -8,472 +8,323 @@ tags: [social-psychology, interpersonal-attraction, close-relationships, love, M
 
 # 7 Interpersonal Attraction, Close Relationships, and Love
 
-Chapter overview: This chapter examines why people are attracted to one another (interpersonal attraction), how close relationships form and develop (family, friends, romantic partners), the nature and multiple types of love, and factors that determine relationship success or failure. Key determinants of attraction include affiliation needs, emotions, proximity, physical attractiveness, similarity, and reciprocal liking.
+This chapter covers why people are attracted to one another, how close relationships form, the types of love, and relationship success/failure. Key determinants of attraction: affiliation needs, emotions, proximity, physical attractiveness, similarity, and reciprocal liking.
 
 ---
 
-## Internal Sources of Attraction: The Role of Needs and Emotions
+## Internal Sources of Attraction: Needs and Emotions
 
-### The Importance of Affiliation in Human Existence — and Interpersonal Attraction
+### The Importance of Affiliation
 
-- **Interpersonal attraction**: The evaluations we make of other people — the positive and negative attitudes we form about them.
-- **Affiliation**: The tendency to associate and interact with other people; appears to have a neurobiological basis (Rowe, 1996).
-- **Need for affiliation**: The basic motive to seek and maintain interpersonal relationships (Baumeister & Leary, 1995; Koole, Greenberg, & Pyszczynski, 2006).
-  - May be as basic to psychological well-being as hunger and thirst are to physical well-being.
-  - Evolutionary basis: cooperating with others increased our ancestors' success in obtaining food and surviving danger.
-  - Newborns prefer to look at faces over other stimuli (Mondloch et al., 1999).
-  - Human infants are born motivated to seek contact with their interpersonal world (Baldwin, 2000).
+- **Interpersonal attraction**: the positive and negative attitudes we form about other people.
+- **Affiliation**: the tendency to associate and interact with others; has a neurobiological basis (Rowe, 1996).
+- **Need for affiliation**: the basic motive to seek and maintain relationships (Baumeister & Leary, 1995).
+  - May be as basic to well-being as hunger and thirst are to the body.
+  - Evolutionary basis: cooperation aided ancestral survival.
+  - Newborns prefer faces (Mondloch et al., 1999); infants seek contact with their social world (Baldwin, 2000).
 
-#### Individual Differences in Need to Affiliate
-- People differ in the strength of this need — it constitutes a relatively stable trait or disposition.
-- People tend to seek the amount of social contact that is optimal for them (O'Connor & Rosenblood, 1996).
+#### Individual Differences
+- People differ in this need (a stable trait) and seek their optimal level of contact (O'Connor & Rosenblood, 1996).
 
-**Effects of social exclusion / unmet affiliation needs:**
-- Sense of lost control, sadness, anger, feeling of not belonging (Buckley, Winkel, & Leary, 2004).
+**Effects of social exclusion:**
+- Lost control, sadness, anger, not belonging (Buckley, Winkel, & Leary, 2004).
 - Increased sensitivity to interpersonal information (Gardner, Pickett, & Brewer, 2000).
 - Less effective cognitive functioning (Baumeister, Twenge, & Nuss, 2002).
 
 #### Are There People Who Do Not Need Others?
+- **Dismissing avoidant attachment style**: claiming little need for emotional attachments and avoiding closeness (Collins & Feeney, 2000).
+- But Carvallo & Gabriel (2006): even these individuals show higher self-esteem and better moods when accepted, proving universal affiliation needs.
+- **Attachment style**: how we form bonds and regulate emotions in relationships.
+- **Attachment anxiety** (fear of rejection): higher anxiety → greater emotion-brain activation when imagining negative outcomes (Gillath, Bunge, Wendelken, & Mikulincer, 2005). Attachment styles affect self-disclosure and help-seeking (Gillath et al., 2008).
 
-- **Dismissing avoidant attachment style**: A pattern in which individuals claim to have little or no need for emotional attachments and tend to avoid close relationships (Collins & Feeney, 2000).
-- Research (Carvallo & Gabriel, 2006): Even persons with this style show increased self-esteem and improved moods when they learn they are accepted by others — proving affiliation needs are present regardless.
-- **Attachment style**: The ways in which we form emotional bonds and regulate emotions in close relationships.
-- **Attachment anxiety** (fear of rejection/abandonment): Higher anxiety = greater activation in emotion-linked brain areas when thinking about negative relationship outcomes such as conflict, breakups, or partner death (Gillath, Bunge, Wendelken, & Mikulincer, 2005).
-- Gillath et al. (2008): Attachment styles exert strong effects on thinking about others and relationships, influencing self-disclosure and help-seeking behavior.
+#### Situational Influences
+- Mortality reminders increase desire to affiliate (Wisman & Koole, 2003); disasters drive people to seek comfort and help (Benjamin, 1998).
 
-#### Situational Influences on the Need to Affiliate
-- Reminders of one's own mortality increase desire to affiliate (Wisman & Koole, 2003).
-- After natural disasters and highly disturbing events, people seek affiliation for comfort, help, and to reduce negative feelings (Benjamin, 1998; Byrne, 1991).
-
-> **KEY STUDY — Schachter (1959): "Misery Loves Miserable Company"**
-> - Participants expecting electric shock preferred to wait with others facing the same threat rather than being alone; control group (no shock) preferred solitude or were indifferent.
-> - Conclusion: "Misery doesn't just love any kind of company, it loves only miserable company."
-> - Mechanism: Affiliation under threat provides opportunity for **social comparison** — seeking cognitive clarity (what is happening?) and emotional clarity (how should I feel?) (Gump & Kulik, 1997; Kulik et al., 1996).
+> **KEY STUDY: Schachter (1959), "Misery Loves Miserable Company"**
+> - Participants expecting electric shock preferred to wait with others facing the same threat; the no-shock control preferred solitude or was indifferent.
+> - "Misery loves only miserable company."
+> - Mechanism: affiliation under threat enables **social comparison** for cognitive clarity (what is happening?) and emotional clarity (how should I feel?) (Gump & Kulik, 1997).
 
 ---
 
 ### EMOTIONS AND ATTRACTION: Feelings as a Basis for Liking
 
-- **Basic principle**: Positive affect leads to positive evaluations of others (liking); negative affect leads to negative evaluations (disliking) (Byrne, 1997; Dovidio, Gaertner, Isen, & Lowrance, 1995).
+- **Basic principle**: positive affect → liking; negative affect → disliking (Byrne, 1997).
 
-#### Two Mechanisms by Which Emotions Affect Attraction:
+**Two mechanisms:**
+1. **Direct effects**: when a person causes your emotional state, those feelings shape liking for them.
+2. **Indirect (associated) effects**: when a person is merely present while your emotion is aroused by something else, you evaluate them more positively (if happy) or negatively (if unhappy). E.g., meeting a stranger after a low vs. high exam grade.
 
-**1. Direct effects of emotions on attraction**
-- When another person causes your emotional state, these feelings influence liking for that person.
-- Liking those who make you feel good; disliking those who make you feel bad (Ben-Porath, 2002; Reich, Zautra, & Potter, 2001).
-
-**2. Indirect (associated) effects of emotions on attraction**
-- When another person is simply present when your emotional state is aroused by something or someone else, you evaluate that person more positively (if feeling good) or more negatively (if feeling bad).
-- The person is not responsible for your emotion — they are merely associated with it.
-- Example: Meeting a stranger right after receiving a low exam grade leads to less liking than meeting the same stranger after a high grade.
-
-**Research demonstrations of indirect/associated effects:**
-- Subliminal presentation of pleasant (kittens) vs. unpleasant (snakes) pictures → affected liking for a neutral stranger (Krosnick et al., 1992).
-- Background music perceived as pleasant (rock and roll) vs. unpleasant (classical jazz) → affected liking for a stranger (May & Hamilton, 1980).
-- Pre-existing positive vs. negative moods of participants → affected ratings of strangers (Berry & Hansen, 1996).
+**Demonstrations of associated effects:**
+- Subliminal pleasant (kittens) vs. unpleasant (snakes) images → liking for a stranger (Krosnick et al., 1992).
+- Pleasant vs. unpleasant background music → liking for a stranger (May & Hamilton, 1980).
+- Pre-existing moods → ratings of strangers (Berry & Hansen, 1996).
 
 #### Mechanism: Classical Conditioning
-- Attraction to others can be viewed as a special kind of attitude.
-- When a neutral stimulus (a new person) is paired with a positive stimulus (something that makes you feel good), the person is evaluated more positively — even without awareness of the pairing (Olson & Fazio, 2001).
-- Advertisers and politicians exploit this: associating products and candidates with attractive models, happy events, and cheering crowds generates liking through positive emotion pairing.
-- Research confirms such attempts are effective (Pentony, 1995).
+- Attraction is a special attitude. Pairing a neutral person with a positive stimulus → more positive evaluation, even without awareness (Olson & Fazio, 2001).
+- Advertisers/politicians exploit this; it works (Pentony, 1995).
 
 ---
 
-## External Sources of Attraction: The Effects of Proximity and Physical Beauty
+## External Sources of Attraction: Proximity and Physical Beauty
 
-### The Power of Proximity: Unplanned Contacts
+### The Power of Proximity
 
-- **Proximity**: Physical closeness between two individuals with respect to where they live, sit in a classroom, work, etc. The smaller the physical distance, the greater the probability of repeated contact and the development of mutual attraction.
-- Proximity is a basic prerequisite for attraction — without contact, feelings cannot develop.
-- Note: Social networks and electronic media now allow initial attraction without face-to-face contact, but direct contact is still needed for close relationships to develop fully.
+- **Proximity**: physical closeness; smaller distance → greater probability of repeated contact and mutual attraction. A basic prerequisite for attraction.
+- Students become acquainted when seated adjacently (Byrne, 1961a; Segal, 1974); people who live/work close form friendships and marry (Bossard, 1932; Festinger, Schachter, & Back, 1950).
 
-**Historical research on proximity:**
-- Students most likely to become acquainted when seated in adjoining chairs (Byrne, 1961a; Maisonneuve, Palmade, & Fourment, 1952; Segal, 1974).
-- People who live or work in close proximity are likely to form friendships and even marry (Bossard, 1932; Festinger, Schachter, & Back, 1950).
+#### The Repeated Exposure Effect
+- **Repeated exposure effect** (**mere exposure effect**; Zajonc, 1968): more exposure to a stimulus → more favorable evaluation. Subtle, powerful, general. Present early: infants smile more at previously seen faces (Brooks-Gunn & Lewis, 1981).
 
-#### Why Does Proximity Matter? The Repeated Exposure Effect
+> **KEY STUDY: Moreland & Beach (1992), Exposure in the Classroom**
+> - Four female assistants attended a class 0, 5, 10, or 15 times without interacting. Students later rated liking.
+> - Results (1-7 scale): 0 = 3.62; 5 = 3.88; 10 = 4.25; 15 = 4.38.
+> - Repeated exposure increases attraction.
 
-- **Repeated exposure effect** (also: **mere exposure effect**; Zajonc, 1968): The more often we are exposed to a new stimulus — a person, idea, or product — the more favorable our evaluation tends to become.
-- Effect is subtle, powerful, and general — occurs for people, words, and objects.
-- Present very early in life: Infants smile more at photos of previously seen people than at strangers (Brooks-Gunn & Lewis, 1981).
+**Zajonc's explanation:** novelty arouses mild discomfort; repeated exposure decreases negative and increases positive emotion (Lee, 2001). Familiar faces elicit positive affect (Harmon-Jones & Allen, 2001), and positive affect elicits perceived familiarity (Monin, 2003).
 
-> **KEY STUDY — Moreland & Beach (1992): Exposure and Liking in the Classroom**
-> - Method: Four female research assistants attended a college class 0, 5, 10, or 15 times during a semester without interacting with actual students. At the end of the semester, students were shown slides of the four assistants and rated liking.
-> - Results (1-7 scale): 0 times = 3.62; 5 times = 3.88; 10 times = 4.25; 15 times = 4.38.
-> - Conclusion: Repeated exposure produces positive affect and increased attraction.
-
-**Zajonc's explanation:**
-- Encountering something new arouses mild discomfort (adaptive caution for ancestors).
-- With repeated exposure, negative emotions decrease and positive emotions increase (Lee, 2001).
-- Familiar face: Elicits positive affect; activates brain areas associated with positive emotions (Harmon-Jones & Allen, 2001).
-- Positive affect also elicits perception of familiarity: even a beautiful face seen for the first time is perceived as more familiar than an unattractive face (Monin, 2003).
-
-**Exception to the repeated exposure effect:**
-- When initial reaction is very negative, repeated exposure makes things worse, not better (Swap, 1977).
-- "Familiarity breeds contempt."
+**Exception:** if the initial reaction is very negative, repeated exposure makes it worse (Swap, 1977): "familiarity breeds contempt."
 
 ---
 
-### Observable Characteristics of Others: The Effects of Physical Attractiveness
+### Physical Attractiveness
 
-- **Physical attractiveness**: The combination of characteristics evaluated as beautiful or handsome at the positive extreme, unattractive at the negative extreme.
+- **Physical attractiveness**: characteristics evaluated as beautiful/handsome (positive) vs. unattractive (negative).
 
-#### Real-World Effects of Physical Attractiveness
-- Attractive defendants found guilty less often by judges and juries (Downs & Lyons, 1991).
-- Attractive people judged as healthier, more intelligent, more trustworthy, kinder, more generous, warmer (Lemay, Clark, & Greenberg, 2010).
-- People respond more positively to attractive infants (Karraker & Stern, 1990).
+**Real-world effects:**
+- Attractive defendants found guilty less often (Downs & Lyons, 1991).
+- Attractive people judged healthier, smarter, kinder, warmer (Lemay, Clark, & Greenberg, 2010).
+- More positive responses to attractive infants (Karraker & Stern, 1990).
 
-#### The "What Is Beautiful Is Good" Effect
+#### "What Is Beautiful Is Good"
+- **Physical attractiveness stereotype** (Dion, Berscheid, & Walster, 1972): attractive people are believed to possess other desirable traits (Langlois et al., 2000; Snyder, Tanke, & Berscheid, 1977).
+- **Alternative (Lemay, Clark, & Greenberg, 2010), three steps:** (1) we desire relationships with attractive people; (2) this makes us perceive them as responsive/kind; (3) we project our desire onto them. Removing "desire to affiliate" statistically eliminated the attractiveness-trait link.
 
-- **Physical attractiveness stereotype** (first proposed by Dion, Berscheid, & Walster, 1972): Physically attractive people are believed to also possess many other desirable characteristics.
-- Supported by many studies (Langlois et al., 2000; Snyder, Tanke, & Berscheid, 1977).
+**Accurate?** Mostly not (Feingold, 1992), but attractiveness IS linked to popularity, social skills, and self-esteem (Diener, Wolsic, & Fujita, 1995), partly because attractive people are treated well and develop genuine skills (Zebrowitz, Collins, & Dutta, 1998).
 
-**Alternative explanation — Lemay, Clark, & Greenberg (2010) — Three-step process:**
-1. We desire to form relationships with attractive people.
-2. This desire leads us to perceive attractive people as interpersonally responsive — kinder, warmer, more outgoing.
-3. We project our own desire to form relationships onto them, generating very positive perceptions.
-- When "desire to form relationship" was removed statistically, the attractiveness-trait link disappeared.
+#### What Is "Attractiveness"?
+- Good cross-cultural agreement (Cunningham et al., 1995).
+- **Two types of attractive women (Cunningham, 1986):** (1) **"cute"/childlike** (large widely spaced eyes, small nose/chin); (2) **mature/sexy** (prominent cheekbones, high eyebrows, large pupils, big smile). Both found across racial groups (Ashmore, Solomon, & Longo, 1996).
 
-**Is the stereotype accurate?**
-- Mostly not: evil people can be good-looking; many unattractive people are intelligent, kind, generous (Feingold, 1992; Kenealy et al., 1991).
-- Some accurate associations: attractiveness IS linked to popularity, good interpersonal skills, and high self-esteem (Diener, Wolsic, & Fujita, 1995).
-- Reason: Attractive people are treated well throughout life, which may develop genuine social skills (Zebrowitz, Collins, & Dutta, 1998).
+> **KEY STUDY: Langlois & Roggman (1990), Composite Faces**
+> - Computer-averaged composite faces were rated MORE attractive than most individual faces; more faces averaged (up to 32) = more beautiful.
+> - Composites approximate our facial schema. Effect is specific to human faces, not composite dogs or birds (Halberstadt & Rhodes, 2000).
 
-#### What Exactly Is "Attractiveness"?
+> **KEY STUDY: Elliot & Niesta (2008), Red Is Romantic**
+> - Female strangers shown against red vs. other backgrounds/clothing. Red boosted attractiveness ratings, but ONLY for male participants.
+> - Cross-species link: female primates display red during ovulation.
 
-- Good cross-cultural agreement about attractiveness (Cunningham et al., 1995; Fink & Penton-Voak, 2002).
-
-**Two types of attractive women (Cunningham, 1986):**
-1. **"Cute"/childlike**: Large, widely spaced eyes; small nose and chin. (e.g., Amy Adams)
-2. **Mature/sexy**: Prominent cheekbones, high eyebrows, large pupils, big smile. (e.g., Angelina Jolie)
-- Both types found across racial groups (Ashmore, Solomon, & Longo, 1996).
-
-> **KEY STUDY — Langlois & Roggman (1990): Composite Faces**
-> - Method: Computer-digitized multiple facial photos into single composite images.
-> - Finding: Composite faces rated MORE attractive than most individual faces; the more faces averaged, the more beautiful the result (up to 32 faces).
-> - Explanation: Composite face approximates our cognitive schema for faces.
-> - Specificity: Effect unique to human faces — does NOT work for composite dogs or birds (Halberstadt & Rhodes, 2000).
-
-> **KEY STUDY — Elliot & Niesta (2008): Red Is Romantic**
-> - Method: Male and female participants saw photos of female strangers against red vs. other-colored backgrounds or in red vs. blue clothing; rated attractiveness and sexual appeal.
-> - Finding: Red significantly boosted ratings of female strangers — but ONLY for male participants. Women's ratings were unaffected by color.
-> - Explanation: Cross-species and cross-cultural link between red and sexual readiness (female primates display red during ovulation).
-
-#### Other Appearance and Behavioral Factors
-
-- **Body build stereotypes**: Round = easygoing/lacks discipline; Muscular = energetic/healthy; Thin = intelligent/introspective (Gardner & Tuckerman, 1994).
-- **Anti-fat bias**: Strong in many cultures; affects dating and career outcomes (Crandall & Martinez, 1996).
-- **Youthful walking style**: More positive response than elderly style (Montepare & Zebrowitz-McArthur, 1988).
-- **Firm handshake**: Perceived as extroverted and emotionally expressive (Chaplin et al., 2000).
-- **Animated behavior**: Positive response (Bernieri et al., 1996).
-- **Modesty over arrogance**: More attractive (Hareli & Weiner, 2000).
-- **First names**: Old-fashioned names create negative impressions (Macrae, Mitchell, & Pendy, 2002).
-- **"Closing time" effect**: Opposite-sex strangers perceived as more attractive as the evening progresses and available partners decrease — scarcity effect, not alcohol (Pennebaker et al., 1979; Gladue & Delaney, 1990).
+#### Other Factors
+- **Body build stereotypes**: round = easygoing; muscular = energetic/healthy; thin = intelligent/introspective (Gardner & Tuckerman, 1994).
+- **Anti-fat bias** (Crandall & Martinez, 1996); **youthful walking style** (Montepare & Zebrowitz-McArthur, 1988); **firm handshake** = extroverted (Chaplin et al., 2000); **modesty over arrogance** (Hareli & Weiner, 2000); old-fashioned **first names** create negative impressions (Macrae, Mitchell, & Pendy, 2002).
+- **"Closing time" effect**: strangers seem more attractive as the evening ends and partners dwindle (scarcity, not alcohol) (Pennebaker et al., 1979).
 
 ---
 
-## Factors Based on Social Interaction: Similarity and Mutual Liking
+## Social Interaction Factors: Similarity and Mutual Liking
 
-### Similarity: Birds of a Feather Actually Do Flock Together
+### Similarity
 
-- **Similarity hypothesis**: The more similar two people are, the more they tend to like each other.
-- Origin: Aristotle (~330 BC); correlational evidence: Galton (1870) — spouses resemble each other in many respects.
+- **Similarity hypothesis**: more similar = more liking. Origin: Aristotle (~330 BC); Galton (1870) found spouses resemble each other.
 
-> **KEY STUDY — Newcomb (1956): Transfer Students and Attitude Similarity**
-> - Method: Measured attitudes (family, religion, public affairs, race relations) of transfer students by mail BEFORE they arrived on campus; assessed liking weekly after arrival.
-> - Finding: More initially similar → more liking by end of semester.
-> - Significance: Proves similarity CAUSES attraction (not the reverse) — attitudes were measured before students met. Confirmed by Byrne (1961b); Schachter (1951).
+> **KEY STUDY: Newcomb (1956), Transfer Students**
+> - Attitudes measured by mail BEFORE students arrived; liking assessed weekly after.
+> - More initial similarity → more liking. Proves similarity CAUSES attraction (measured before meeting). Confirmed by Byrne (1961b); Schachter (1951).
 
 #### Do Opposites Attract?
-
-- **Complementarity hypothesis**: Dominant attracts submissive, talkative attracts quiet, etc. — based on mutual reinforcement.
-- Direct tests FAILED to support complementarity (Palmer & Byrne, 1970).
-- Single exception: In male-female interactions, dominance in one person elicits submissiveness in the other — this specific complementarity increases attraction more than matching dominance (Tiedens & Fragale, 2003; Markey et al., 2003).
-- Overall: Similarity — not complementarity — is the primary basis for attraction.
+- **Complementarity hypothesis**: dominant attracts submissive, etc. Direct tests FAILED (Palmer & Byrne, 1970). Single exception: in male-female interactions, dominance in one elicits submissiveness and increases attraction (Tiedens & Fragale, 2003). Overall, similarity (not complementarity) is primary.
 
 #### Similarity-Dissimilarity Effect
-
-- **Similarity-dissimilarity effect**: Consistent finding that people respond positively to similarity and negatively to dissimilarity in others.
-- **Attitude similarity**: The extent to which two individuals share the same attitudes.
-
-**Byrne's bogus stranger paradigm:**
-1. Assess participants' own attitudes.
-2. Expose to a "stranger's" attitudes (experimentally constructed to be similar or dissimilar).
-3. Rate liking for the stranger.
-- Consistent result: Similar strangers liked much more; also judged more intelligent, moral, better adjusted.
+- **Similarity-dissimilarity effect**: positive response to similarity, negative to dissimilarity.
+- **Attitude similarity**: extent two people share attitudes.
+- **Byrne's bogus stranger paradigm:** assess attitudes → expose to a constructed similar/dissimilar "stranger" → rate liking. Similar strangers liked more and judged more intelligent, moral, well-adjusted.
 
 #### Proportion of Similarity
-
-- **Proportion of similarity** (Byrne & Nelson, 1965): Number of similar topics / (similar + dissimilar topics).
-- Higher proportion → greater liking. Holds regardless of number of topics, topic importance, gender, age, education, or culture (Byrne, 1971).
+- **Proportion of similarity** (Byrne & Nelson, 1965): similar topics / (similar + dissimilar). Higher proportion → more liking, regardless of number, importance, gender, age, education, or culture (Byrne, 1971).
 
 #### Repulsion Hypothesis
-
-- **Repulsion hypothesis** (Rosenbaum, 1986): Similarity has no positive effect on attraction — people are simply repulsed by dissimilarity.
-- Later shown to be INCORRECT as stated (Smeaton, Byrne, & Murnen, 1989).
-- Grain of truth: Dissimilarity has a slightly STRONGER negative effect than similarity has a positive effect (Chen & Kenrick, 2002; Singh & Ho, 2000).
-- Consistent with: "bad is stronger than good" in social cognition (Baumeister et al., 2001).
+- **Repulsion hypothesis** (Rosenbaum, 1986): similarity has no positive effect; people are just repulsed by dissimilarity. Shown INCORRECT as stated (Smeaton, Byrne, & Murnen, 1989). Grain of truth: dissimilarity has a slightly STRONGER negative effect than similarity has positive ("bad is stronger than good"; Baumeister et al., 2001).
 
 #### Domains Where Similarity Predicts Attraction
-- Smoking marijuana (Eisenman, 1985); religious practices (Kandel, 1978); self-concept (Klohnen & Luo, 2003); chronotype — morning vs. evening person (Watts, 1982); sense of humor (Cann, Calhoun, & Banks, 1995).
+- Marijuana use (Eisenman, 1985); religion (Kandel, 1978); self-concept (Klohnen & Luo, 2003); chronotype (Watts, 1982); sense of humor (Cann, Calhoun, & Banks, 1995).
 
-#### The Matching Hypothesis (Physical Attractiveness)
+#### The Matching Hypothesis
+- **Matching hypothesis**: we prefer the most attractive partners but focus on obtaining those near our own attractiveness level (Berscheid, Dion, Walster & Walster, 1971).
 
-- **Matching hypothesis**: Although we prefer the most attractive romantic partners, we generally focus on obtaining those whose physical attractiveness is about the same as our own.
-- First proposed by Berscheid, Dion, Walster & Walster (1971) — couples similar in attractiveness more likely to continue dating.
+> **KEY STUDY: van Straaten et al. (2009)**
+> - Strangers interacted briefly. Men invested more effort when similar in attractiveness but showed stronger interest in more attractive partners; women "played it safe" regardless.
+> - People focus effort on partners matching their attractiveness level.
 
-> **KEY STUDY — van Straaten et al. (2009)**
-> - Method: Male and female strangers interacted briefly; attractiveness rated by observers; effort to impress partner and interest in dating were assessed.
-> - Men: Invested more effort when similar to partner in attractiveness; showed stronger interest in more attractive partners regardless.
-> - Women: Did not show the same pattern — "played it safe" regardless of attractiveness similarity.
-> - Conclusion: People focus effort on obtaining partners who match their own attractiveness level.
-
-#### Explaining Similarity-Dissimilarity: Balance Theory
-
-- **Balance theory** (Newcomb, 1961; Heider, 1958 — independently):
-  - Two people who like each other + discover similarity = **balance** (pleasant).
-  - Two people who like each other + discover dissimilarity = **imbalance** (unpleasant; motivates change).
-  - Two people who dislike each other = **nonbalance** (neither pleasant nor unpleasant).
-
-**Additional explanations:**
-- **Validation theory**: Similar others validate our views — they confirm our perceptions are correct; dissimilar others implicitly challenge us.
-- **Byrne's attraction-as-reinforcement model**: Similarity is reinforcing; dissimilarity is aversive. Attraction = function of proportion of positive reinforcements from another person.
+#### Explaining Similarity-Dissimilarity
+- **Balance theory** (Newcomb, 1961; Heider, 1958): two people who like each other + similarity = **balance** (pleasant); + dissimilarity = **imbalance** (unpleasant, motivates change); mutual dislike = **nonbalance**.
+- **Validation theory**: similar others validate our views.
+- **Byrne's attraction-as-reinforcement model**: similarity is reinforcing; attraction = function of proportion of positive reinforcements.
 
 ---
 
-### Reciprocal Liking or Disliking: Liking Those Who Like Us
+### Reciprocal Liking
 
-- **Reciprocal liking**: We like people who like us; dislike people who dislike us. Robust effect, even with strangers.
-- Learning someone likes us boosts self-esteem and creates positive affect → we reciprocate liking.
+- **Reciprocal liking**: we like those who like us; dislike those who dislike us. Robust, even with strangers. Being liked boosts self-esteem and creates positive affect.
+- **Gain-loss theory** (Aronson & Linder, 1965): greatest liking for someone who shifts from disliking to liking us (**gain**); greatest disliking for someone who shifts from liking to disliking (**loss**); constant states are less salient.
+- **Self-enhancement theory**: being liked enhances self-esteem, so we like those who enhance our self-regard.
 
-**Gain-loss theory** (Aronson & Linder, 1965):
-- Greatest liking: Person who initially disliked us but came to like us (**gain**).
-- Greatest disliking: Person who initially liked us but then rejected us (**loss**).
-- Less liking/disliking: Person who always liked or always disliked us (constant state = less salient).
-
-**Self-enhancement theory**: Being liked by others enhances self-esteem → we like those who enhance our self-regard.
+### What Do We Desire in Others?
+Priorities across relationship types: (1) **warmth/trustworthiness** (most universally valued); (2) **competence** (especially at work); (3) **physical attractiveness** (weighted more in romance). Context modifies priorities.
 
 ---
 
-### What Do We Desire in Others?: Designing Ideal Interaction Partners
+## Close Relationships
 
-- People prioritize these qualities across relationship types:
-  1. **Warmth and trustworthiness** — most universally valued; knowing a partner is kind, caring, and reliable.
-  2. **Competence** — especially valued in work contexts; secondary to warmth in close relationships.
-  3. **Physical attractiveness** — weighted more in romantic contexts than in friendship contexts.
-- Context modifies priorities: for a work partner, competence ranks higher; for a close friend or romantic partner, warmth and trustworthiness are paramount.
+- **Close relationships**: lasting bonds (family, friends, lovers, spouses) with strong interdependence, frequent interaction, emotional depth, and mutual influence.
 
----
-
-## Close Relationships: Foundations of Social Life
-
-- **Close relationships**: Lasting social bonds (family, friends, lovers, spouses) characterized by strong interdependence, frequent interaction, emotional depth, and mutual influence.
-
-### Relationships with Family Members: Our First — and Most Lasting — Close Relationships
+### Family: Our First and Most Lasting Relationships
 
 #### Attachment Theory
+- **Bowlby (1969, 1973, 1980)**: infants form **attachment** bonds with caregivers as an adaptive survival strategy, creating **internal working models** for future relationships.
+- **Attachment behaviors**: proximity seeking, safe haven, secure base.
 
-- **Bowlby (1969, 1973, 1980)**: Infants form strong emotional bonds (**attachment**) with primary caregivers as an adaptive survival strategy. These early bonds create **internal working models** (cognitive-emotional templates) for all future close relationships.
-- **Attachment behaviors**: Proximity seeking; safe haven (seeking caregiver when distressed); secure base (exploring from caregiver as a base).
-
-**Ainsworth et al. (1978) — The Strange Situation:**
-A structured laboratory observation procedure in which caregiver and infant are separated and reunited; the infant's behavior during reunions classifies attachment style.
+**Ainsworth et al. (1978), Strange Situation:** a structured separation-reunion procedure classifying infant attachment.
 
 | Attachment Style | Description | Prevalence |
 |---|---|---|
-| **Secure** | Uses caregiver as safe base; distressed on separation; easily soothed upon return | ~60-65% |
-| **Anxious-ambivalent (Resistant)** | Highly distressed on separation; cannot be soothed on return; simultaneously angry and clingy | ~10-15% |
-| **Avoidant** | Indifferent to caregiver's presence/absence; avoids or ignores caregiver on return | ~20-25% |
+| **Secure** | Caregiver as safe base; distressed on separation; easily soothed | ~60-65% |
+| **Anxious-ambivalent (Resistant)** | Highly distressed; not soothed on return; angry and clingy | ~10-15% |
+| **Avoidant** | Indifferent; avoids/ignores caregiver on return | ~20-25% |
 
-- **Disorganized/Disoriented** attachment: Fourth type added by Main & Solomon (1986); inconsistent, confused behavior with no organized strategy.
+- **Disorganized/Disoriented**: fourth type (Main & Solomon, 1986); inconsistent, no organized strategy.
 
 #### Adult Attachment Styles
+**Hazan & Shaver (1987)**, romantic relationships:
+1. **Secure** (~56%): comfortable with closeness, trusting.
+2. **Anxious-ambivalent/Preoccupied** (~20%): wants extreme closeness, fears abandonment.
+3. **Avoidant** (~24%): uncomfortable with closeness, emotionally distant.
 
-**Hazan & Shaver (1987)** — Extended attachment theory to adult romantic relationships:
-
-1. **Secure** (~56%): Comfortable with closeness; trusting; believes they are lovable and others are trustworthy.
-2. **Anxious-ambivalent/Preoccupied** (~20%): Wants extreme closeness; worries about abandonment; dependent and emotionally volatile.
-3. **Avoidant** (~24%): Uncomfortable with closeness; reluctant to depend on others; emotionally distant.
-
-**Bartholomew & Horowitz (1991) — Four Adult Attachment Styles** (2×2 model):
+**Bartholomew & Horowitz (1991), four styles (2×2):**
 
 |  | Positive Model of Others | Negative Model of Others |
 |---|---|---|
-| **Positive Model of Self** | **Secure** — comfortable with intimacy and autonomy | **Dismissing avoidant** — denies need for closeness; compulsively self-reliant |
-| **Negative Model of Self** | **Preoccupied** (anxious-ambivalent) — seeks validation; hyperactivates attachment | **Fearful avoidant** — wants closeness but fears rejection; avoids intimacy |
+| **Positive Model of Self** | **Secure** (comfortable with intimacy and autonomy) | **Dismissing avoidant** (denies need for closeness) |
+| **Negative Model of Self** | **Preoccupied** (seeks validation, hyperactivates attachment) | **Fearful avoidant** (wants closeness but fears rejection) |
 
-#### Family Relationship Notes
-- Genetic kinship creates powerful bonds even in conflicted relationships.
-- **Sibling relationships**: Often the longest-lasting of all close relationships; characterized by both rivalry (especially in childhood) and deep loyalty.
-
----
-
-### Friendships: Relationships Beyond the Family
-
-- Friendships are voluntary, chosen relationships — distinct from kinship bonds.
-- Key features of close friendship (Davis & Todd, 1985): enjoyment, acceptance, trust, respect, mutual assistance, confiding, understanding, spontaneity.
-
-#### Gender Differences in Friendship
-- **Women's friendships**: More intimate; more self-disclosure; more emotional support; focus on discussing personal feelings ("face-to-face" friendship).
-- **Men's friendships**: More activity-based; less self-disclosure; more shared activities ("side-by-side" friendship).
-
-#### Benefits of Friendship
-- Social support buffers stress and improves mental and physical health.
-- Strong social networks associated with greater longevity and higher life satisfaction.
-- Social isolation is a major risk factor for depression, anxiety, and physical illness.
+#### Family Notes
+- Genetic kinship creates strong bonds even in conflict.
+- **Sibling relationships**: often the longest-lasting; mix rivalry and loyalty.
 
 ---
 
-### Romantic Relationships and the (Partially Solved) Mystery of Love
+### Friendships
+- Voluntary, chosen relationships. Key features (Davis & Todd, 1985): enjoyment, acceptance, trust, respect, mutual assistance, confiding, understanding, spontaneity.
+
+#### Gender Differences
+- **Women's**: more intimate, more self-disclosure, emotional support ("face-to-face").
+- **Men's**: activity-based, less self-disclosure ("side-by-side").
+
+#### Benefits
+- Social support buffers stress and improves health; strong networks predict longevity; isolation is a risk factor for depression and illness.
+
+---
+
+### Romantic Relationships and Love
 
 #### Passionate vs. Companionate Love
-
-- **Passionate love** (Hatfield & Sprecher, 1986): An intense emotional state involving strong attraction, sexual desire, and preoccupation with the beloved; characterized by both ecstasy (when reciprocated) and agony (when unrequited). Highest early in relationships; tends to decline over time. Measured by the **Passionate Love Scale**.
-
-- **Companionate love** (Hatfield & Walster, 1978): Deep affection, friendship, and commitment; less intense but more stable and enduring than passionate love; grows as intimacy and commitment deepen.
+- **Passionate love** (Hatfield & Sprecher, 1986): intense state with strong attraction, sexual desire, preoccupation; ecstasy (reciprocated) and agony (unrequited). Highest early, declines over time. Measured by the **Passionate Love Scale**.
+- **Companionate love** (Hatfield & Walster, 1978): deep affection, friendship, commitment; less intense but more stable; grows with intimacy and commitment.
 
 #### Sternberg's Triangular Theory of Love (1986)
-
-Three components:
-1. **Intimacy**: Feelings of closeness, connectedness, emotional bonding — the "warm" component.
-2. **Passion**: Drives leading to romance, physical attraction, and sexual consummation — the "hot" component.
-3. **Commitment**: The decision to love and maintain that love over time — the "cold" (cognitive) component.
-
-**Eight types of love:**
+Three components: **Intimacy** (warm), **Passion** (hot), **Commitment** (cold/cognitive).
 
 | Type | Intimacy | Passion | Commitment | Description |
 |---|---|---|---|---|
 | **Nonlove** | — | — | — | Casual acquaintanceship |
 | **Liking** | ✓ | — | — | Friendship; closeness without romance |
-| **Infatuated love** | — | ✓ | — | "Love at first sight"; fades quickly without intimacy |
-| **Empty love** | — | — | ✓ | Commitment without intimacy or passion; stagnant long-term or arranged relationships |
-| **Romantic love** | ✓ | ✓ | — | Physical and emotional passion without long-term commitment |
-| **Companionate love** | ✓ | — | ✓ | Long-term committed friendship without passion |
-| **Fatuous love** | — | ✓ | ✓ | Whirlwind commitment from passion without intimacy; vulnerable to collapse |
-| **Consummate love** | ✓ | ✓ | ✓ | All three components; the ideal "complete" love |
+| **Infatuated love** | — | ✓ | — | "Love at first sight"; fades without intimacy |
+| **Empty love** | — | — | ✓ | Commitment only; stagnant or arranged |
+| **Romantic love** | ✓ | ✓ | — | Passion without long-term commitment |
+| **Companionate love** | ✓ | — | ✓ | Committed friendship without passion |
+| **Fatuous love** | — | ✓ | ✓ | Whirlwind passion + commitment, no intimacy |
+| **Consummate love** | ✓ | ✓ | ✓ | All three; the ideal complete love |
 
-- Over time: Passion tends to decrease; intimacy and commitment tend to increase.
+- Over time: passion decreases; intimacy and commitment increase.
 
 #### Lee's Love Styles / "Colors of Love" (1977)
-
-**John Alan Lee** proposed six styles (measured by Hendrick & Hendrick's Love Attitudes Scale):
+**John Alan Lee**, six styles (measured by Hendrick & Hendrick's Love Attitudes Scale):
 
 | Style | Name | Core Characteristics |
 |---|---|---|
-| **Eros** | Romantic love | Passionate, idealistic; emphasis on physical beauty and immediate attraction |
-| **Ludus** | Game-playing love | Non-committal, playful, manipulative; multiple partners; avoids deep feelings |
-| **Storge** | Friendship love | Gradual development from companionship; stable, comfortable |
-| **Pragma** | Practical love | Logical "shopping list" approach; compatibility and practicality paramount |
-| **Mania** | Possessive love | Obsessive, jealous, extremely dependent; emotional highs and lows |
-| **Agape** | Altruistic love | Selfless, giving without expectation of return; patience and kindness |
+| **Eros** | Romantic | Passionate, idealistic; physical beauty, immediate attraction |
+| **Ludus** | Game-playing | Non-committal, playful, manipulative; multiple partners |
+| **Storge** | Friendship | Gradual from companionship; stable, comfortable |
+| **Pragma** | Practical | Logical "shopping list"; compatibility paramount |
+| **Mania** | Possessive | Obsessive, jealous, dependent; emotional highs/lows |
+| **Agape** | Altruistic | Selfless, giving without expecting return |
 
-**Gender differences:** Men score higher on Ludus; women score higher on Pragma, Storge, and Mania.
+**Gender:** men score higher on Ludus; women higher on Pragma, Storge, Mania.
 
-#### Two-Factor Theory of Emotion Applied to Love
+#### Two-Factor Theory Applied to Love
+- **Schachter & Singer (1962)**: emotion = arousal + cognitive label.
+- Applied (Berscheid & Walster, 1974): passionate love = arousal labeled as love.
+- **Misattribution of arousal**: arousal from any source (fear, exercise) may be misattributed to a romantic partner.
 
-- **Schachter & Singer (1962)**: Emotion = physiological arousal + cognitive label.
-- Applied to love (Berscheid & Walster, 1974): Passionate love = physiological arousal labeled as love.
-- **Misattribution of arousal**: Any source of arousal (fear, exercise, excitement) may be misattributed to a nearby romantic partner, increasing perceived attraction.
-
-> **KEY STUDY — Dutton & Aron (1974): The Capilano Bridge Study**
-> - Method: Attractive female experimenter approached men on either a high wobbly suspension bridge (230 ft above a river; HIGH arousal) or a sturdy low bridge (LOW arousal). She gave her telephone number for "follow-up questions."
-> - Findings: Men on the high bridge showed significantly more sexual imagery in questionnaire stories and were much more likely to call the experimenter afterward.
-> - Conclusion: Fear-arousal was misattributed as romantic attraction — direct support for two-factor theory applied to love.
+> **KEY STUDY: Dutton & Aron (1974), Capilano Bridge**
+> - An attractive female experimenter approached men on a high, wobbly suspension bridge (230 ft; HIGH arousal) or a sturdy low bridge (LOW arousal), giving her number.
+> - High-bridge men showed more sexual imagery and were more likely to call.
+> - Fear-arousal misattributed as attraction; supports two-factor theory of love.
 
 #### Development of Romantic Relationships
-
-**Social penetration theory** (Altman & Taylor, 1973): Relationships develop through increasing self-disclosure — from:
-- **Breadth**: Many topics at a superficial level (early stage).
-- **Depth**: Fewer topics but deeply personal (mature stage).
-- Process compared to peeling an onion layer by layer.
-- **Reciprocity norm**: When one person discloses, the other feels normative pressure to reciprocate at a similar level.
-
-**Levinger's ABCDE stage model of close relationships:**
-- **A**ttraction
-- **B**uild-up (developing intimacy)
-- **C**ontinuation (commitment deepens)
-- **D**eterioration (problems arise)
-- **E**nding (dissolution)
+- **Social penetration theory** (Altman & Taylor, 1973): relationships develop through increasing self-disclosure, from **breadth** (many superficial topics) to **depth** (few deeply personal topics); like peeling an onion. **Reciprocity norm**: disclosure invites matching disclosure.
+- **Levinger's ABCDE model**: **A**ttraction, **B**uild-up, **C**ontinuation, **D**eterioration, **E**nding.
 
 ---
 
-### Jealousy: An Internal Threat to Relationships — Romantic and Otherwise
+### Jealousy
 
-- **Jealousy**: A negative emotional state aroused by a perceived threat to one's relationship from a real or imagined rival.
-- Occurs in romantic relationships, friendships, and family relationships; most intense in romantic contexts.
-- Distinction: **Envy** = wanting what someone else has; **Jealousy** = fear of losing what you have to a rival.
+- **Jealousy**: a negative emotional state from a perceived threat to one's relationship from a real or imagined rival. Distinct from **envy** (wanting what others have); jealousy = fear of losing what you have.
 
-#### Components of Jealousy
-- **Cognitive**: Suspicious thoughts; monitoring partner behavior; rumination.
-- **Emotional**: Fear, anger, anxiety, sadness, wounded pride.
-- **Behavioral**: Partner surveillance, confrontation, withdrawal, retaliation.
+**Components:** cognitive (suspicion, rumination), emotional (fear, anger, anxiety), behavioral (surveillance, confrontation, withdrawal).
 
-#### Gender Differences in Jealousy: Evolutionary Perspective
+#### Gender Differences (Evolutionary)
 
-> **KEY STUDY — Buss et al. (1992): Sexual vs. Emotional Jealousy**
-> - Participants imagined two scenarios: (1) partner having sex with someone else (sexual infidelity) vs. (2) partner falling deeply in love with someone else (emotional infidelity).
-> - Men: More distressed by sexual infidelity.
-> - Women: More distressed by emotional infidelity.
-> - Cross-cultural replications: Consistent across many cultures (Buunk et al., 1996).
+> **KEY STUDY: Buss et al. (1992), Sexual vs. Emotional Jealousy**
+> - Imagine a partner having sex with someone else (sexual) vs. falling in love (emotional).
+> - Men: more distressed by sexual infidelity. Women: more distressed by emotional infidelity.
+> - Cross-culturally replicated (Buunk et al., 1996).
 
-**Evolutionary explanation — parental investment theory (Trivers, 1972):**
-- **Men** face **paternity uncertainty** → sexual jealousy evolved to reduce risk of raising another male's offspring.
-- **Women** risk losing male's **resources and long-term commitment** → emotional jealousy evolved to detect when partner's emotional investment is diverted.
+- **Parental investment theory (Trivers, 1972):** men face **paternity uncertainty** → sexual jealousy; women risk losing **resources/commitment** → emotional jealousy.
+- **Criticism:** social-cognitive theory attributes differences to socialization. Harris (2003): in ACTUAL infidelity, both sexes equally distressed by both types.
 
-**Criticism:**
-- Social-cognitive theory: Differences reflect socialization, not evolution.
-- Harris (2003): In ACTUAL (not hypothetical) infidelity situations, both sexes are equally distressed by both types.
-
-#### Jealousy in Non-Romantic Relationships
-- **Sibling jealousy**: Common when a new sibling arrives; affects self-esteem.
-- **Friendship jealousy**: When a close friend forms new close relationships, the original friend may feel threatened.
+#### In Non-Romantic Relationships
+- Sibling jealousy (new sibling) and friendship jealousy (friend's new bonds).
 
 ---
 
-### SOCIAL LIFE IN A CONNECTED WORLD: Breaking Up Is Hard to Do, But Help Is Available
+### SOCIAL LIFE IN A CONNECTED WORLD: Breaking Up
 
-- Internet and social media have transformed how people experience relationship dissolution.
-- **Facebook and social networks** complicate breakups: ongoing visibility of ex-partner's profile, mutual friends, and shared posts makes emotional closure more difficult.
-- **Ghosting**: Ending a relationship by ceasing all communication without explanation — a phenomenon uniquely facilitated by digital communication.
-- **Online support communities**: Provide social support, normalize heartbreak, offer coping strategies.
-- Dual nature of social media: Can prolong distress (constant reminders of ex) while also facilitating recovery (social support, new opportunities through dating apps).
+- Social media complicates dissolution: ongoing visibility of an ex's profile and mutual friends hinders closure.
+- **Ghosting**: ending a relationship by ceasing all communication; facilitated by digital communication.
+- **Online support communities** normalize heartbreak and offer coping. Social media has a dual nature: prolongs distress yet aids recovery.
 
 ---
 
-### Selecting Romantic Partners: Do Women and Men Differ in What They Seek?
+### Selecting Romantic Partners: Sex Differences
 
 #### Evolutionary Perspective
 
-> **KEY STUDY — Buss (1989): Cross-Cultural Mate Preferences**
-> - Method: Surveyed 10,000+ participants in 37 cultures on 6 continents about what they valued in a potential romantic partner.
-> - Women preferred: good financial prospects and resources, high social status, ambition and industriousness, older age (signals established resources), intelligence, dependability.
-> - Men preferred: physical attractiveness, youth (signals fertility and reproductive value), good health, chastity (in many cultures).
-> - These gender differences were consistent across all 37 cultures.
+> **KEY STUDY: Buss (1989), Cross-Cultural Mate Preferences**
+> - 10,000+ participants in 37 cultures.
+> - Women preferred: financial prospects/resources, status, ambition, older age, intelligence, dependability.
+> - Men preferred: physical attractiveness, youth (fertility), health, chastity (many cultures).
+> - Consistent across all 37 cultures.
 
-**Theoretical basis — parental investment theory (Trivers, 1972):**
-- The sex that invests more biologically in reproduction (women: pregnancy, lactation, childcare) is more selective in mate choice.
-- Women: seek partners with resources and commitment to invest.
-- Men: prefer partners signaling high reproductive value (youth, physical attractiveness as cues to fertility and genetic health).
+- **Parental investment theory (Trivers, 1972):** the sex investing more biologically (women) is more selective; women seek resources/commitment, men seek cues to reproductive value.
 
-#### Social Role Theory Alternative (Eagly & Wood, 1999)
-- Gender differences in mate preferences reflect social roles and socialization, NOT evolved mechanisms.
-- Evidence: In cultures where women have more economic power and independence, differences in mate preferences are smaller.
-- As gender equality increases, women's preference for financially powerful men decreases.
+#### Social Role Theory (Eagly & Wood, 1999)
+- Differences reflect social roles, not evolved mechanisms. Where women have more economic power, mate-preference differences are smaller.
 
-#### What Both Genders Universally Value Most
-Across all 37 cultures in Buss's study, both men and women ranked these highest:
-1. Kindness and understanding
-2. Intelligence
-3. Exciting personality
-4. Good health
-- Physical attractiveness and earning potential were important but ranked BELOW these by both genders.
+#### What Both Genders Value Most
+Across Buss's 37 cultures, both ranked highest: (1) kindness/understanding, (2) intelligence, (3) exciting personality, (4) good health. Attractiveness and earning potential ranked below these.
 
 #### Self-Presentation in the Mating Market
-- Both sexes engage in impression management, but differ in emphasis:
-  - **Men**: Emphasize resources, status, and dominance.
-  - **Women**: Emphasize physical attractiveness, youth, and fidelity.
-- Online dating profiles reliably reflect these evolutionary patterns.
+- Men emphasize resources/status/dominance; women emphasize attractiveness/youth/fidelity. Online profiles reflect these patterns.
 
 ---
 
@@ -481,48 +332,48 @@ Across all 37 cultures in Buss's study, both men and women ranked these highest:
 
 | Term | Definition |
 |---|---|
-| **Interpersonal attraction** | The positive and negative evaluations (attitudes) we make of other people |
-| **Need for affiliation** | The basic motive to seek and maintain interpersonal relationships (Baumeister & Leary, 1995) |
-| **Dismissing avoidant attachment style** | Pattern of claiming little/no need for emotional attachments and actively avoiding close relationships |
-| **Attachment style** | The characteristic ways a person forms emotional bonds and regulates emotions in close relationships |
-| **Attachment anxiety** | Fear of rejection and abandonment; correlates with greater emotional brain activation when imagining negative relationship outcomes |
-| **Proximity** | Physical closeness between individuals; smaller distance = greater probability of repeated contact and mutual attraction |
-| **Repeated exposure effect (mere exposure effect)** | Zajonc's (1968) finding that frequent contact with any stimulus results in increasingly positive evaluation |
-| **Physical attractiveness** | The combination of characteristics evaluated as beautiful/handsome (positive extreme) vs. unattractive (negative extreme) |
-| **Physical attractiveness stereotype** | Belief that attractive people also possess many other desirable characteristics ("what is beautiful is good"; Dion et al., 1972) |
-| **Similarity hypothesis** | The more similar two people are, the more they tend to like each other |
-| **Similarity-dissimilarity effect** | Consistent finding: people respond positively to similarity and negatively to dissimilarity in others |
-| **Attitude similarity** | The extent to which two individuals share the same attitudes |
-| **Proportion of similarity** | (Number of similar topics) / (similar + dissimilar topics); higher proportion predicts greater attraction (Byrne & Nelson, 1965) |
-| **Repulsion hypothesis** | Rosenbaum's (1986) proposal that similarity has no independent positive effect on attraction — people are simply repulsed by dissimilarity; largely incorrect |
-| **Complementarity hypothesis** | Idea that opposites attract because complementary differences are mutually reinforcing; generally not supported |
-| **Matching hypothesis** | We prefer the most attractive partners but focus effort on obtaining those whose attractiveness matches our own |
-| **Balance theory** | Newcomb & Heider: people organize likes and dislikes symmetrically; similarity between two people who like each other = balance (pleasant); dissimilarity = imbalance (unpleasant) |
-| **Reciprocal liking** | The tendency to like people who like us and dislike people who dislike us |
-| **Gain-loss theory** | Aronson & Linder (1965): we like most those who shift from disliking to liking us (gain); dislike most those who shift from liking to disliking us (loss) |
-| **Close relationships** | Lasting social bonds (family, friends, lovers, spouses) characterized by strong interdependence, frequent interaction, and emotional depth |
-| **Attachment** | The strong emotional bond between infant and caregiver that serves as a working model for later close relationships (Bowlby) |
-| **Secure attachment** | Comfortable with closeness and dependency; trusting; uses caregiver as safe base |
-| **Anxious-ambivalent attachment** | Clingy, fearful of abandonment, difficult to soothe; preoccupied in adulthood |
-| **Avoidant attachment** | Emotionally distant; indifferent to caregiver; uncomfortable with closeness in adulthood |
-| **Passionate love** | Intense emotional state with strong attraction, sexual desire, and preoccupation; characterized by ecstasy and agony (Hatfield) |
-| **Companionate love** | Deep affection, friendship, and commitment; less intense but more stable than passionate love (Hatfield & Walster, 1978) |
-| **Intimacy (Sternberg)** | Feelings of closeness, connectedness, and emotional bonding — the "warm" component |
-| **Passion (Sternberg)** | Drives leading to romance, physical attraction, and sexual consummation — the "hot" component |
-| **Commitment (Sternberg)** | The decision to love another person and maintain that love over time — the "cold" (cognitive) component |
-| **Consummate love** | All three components of Sternberg's triangle (intimacy + passion + commitment); the ideal complete love |
-| **Eros** | Lee's love style: passionate, romantic love based on physical attraction and idealization |
-| **Ludus** | Lee's love style: game-playing, non-committal, manipulative love |
-| **Storge** | Lee's love style: friendship-based, gradually developing affectionate love |
-| **Pragma** | Lee's love style: practical, logical "shopping list" approach to partner selection |
-| **Mania** | Lee's love style: possessive, obsessive, jealous, dependent love |
-| **Agape** | Lee's love style: selfless, altruistic love given without expectation of return |
-| **Jealousy** | A negative emotional state aroused by perceived threat to one's relationship from a real or imagined rival |
-| **Misattribution of arousal** | Mislabeling physiological arousal from one source (e.g., fear) as attraction to a nearby person |
-| **Social penetration theory** | Altman & Taylor (1973): relationships develop through increasing breadth and depth of self-disclosure |
-| **Parental investment theory** | Trivers (1972): the sex that invests more biologically in offspring is more selective in mate choice; explains gender differences in mating strategies |
-| **Direct effects of emotion on attraction** | When another person is the cause of your emotional state — positive emotions → liking; negative → disliking |
-| **Indirect (associated) effects of emotion on attraction** | When another person is simply present while your emotion is aroused by something else — positive affect → liking; negative affect → disliking |
+| **Interpersonal attraction** | The positive and negative attitudes we form of others |
+| **Need for affiliation** | The basic motive to seek and maintain relationships (Baumeister & Leary, 1995) |
+| **Dismissing avoidant attachment style** | Claiming little need for attachment and avoiding closeness |
+| **Attachment style** | How a person forms bonds and regulates emotions in relationships |
+| **Attachment anxiety** | Fear of rejection/abandonment; more emotional brain activation to negative outcomes |
+| **Proximity** | Physical closeness; smaller distance → more contact and attraction |
+| **Repeated exposure effect (mere exposure)** | Frequent contact with a stimulus increases liking (Zajonc, 1968) |
+| **Physical attractiveness** | Characteristics evaluated as beautiful/handsome vs. unattractive |
+| **Physical attractiveness stereotype** | Attractive people believed to have other desirable traits (Dion et al., 1972) |
+| **Similarity hypothesis** | More similar = more liking |
+| **Similarity-dissimilarity effect** | Positive response to similarity, negative to dissimilarity |
+| **Attitude similarity** | Extent two people share attitudes |
+| **Proportion of similarity** | Similar topics / total topics; predicts attraction (Byrne & Nelson, 1965) |
+| **Repulsion hypothesis** | Rosenbaum (1986): people are repulsed by dissimilarity (largely incorrect) |
+| **Complementarity hypothesis** | Opposites attract via mutual reinforcement (generally unsupported) |
+| **Matching hypothesis** | We focus on partners matching our own attractiveness level |
+| **Balance theory** | Newcomb & Heider: similarity between two who like each other = balance (pleasant) |
+| **Reciprocal liking** | Liking those who like us, disliking those who dislike us |
+| **Gain-loss theory** | Aronson & Linder (1965): most liking for a disliking→liking shift (gain); most disliking for liking→disliking (loss) |
+| **Close relationships** | Lasting bonds with strong interdependence and emotional depth |
+| **Attachment** | Strong infant-caregiver bond serving as a model for later relationships (Bowlby) |
+| **Secure attachment** | Comfortable with closeness; trusting; caregiver as safe base |
+| **Anxious-ambivalent attachment** | Clingy, fearful of abandonment, hard to soothe |
+| **Avoidant attachment** | Emotionally distant; uncomfortable with closeness |
+| **Passionate love** | Intense attraction, sexual desire, preoccupation; ecstasy and agony (Hatfield) |
+| **Companionate love** | Deep affection, friendship, commitment; stable (Hatfield & Walster, 1978) |
+| **Intimacy (Sternberg)** | Closeness, connectedness; the "warm" component |
+| **Passion (Sternberg)** | Romance, physical attraction; the "hot" component |
+| **Commitment (Sternberg)** | Decision to love and maintain it; the "cold" component |
+| **Consummate love** | All three Sternberg components; ideal complete love |
+| **Eros** | Lee: passionate, romantic love |
+| **Ludus** | Lee: game-playing, non-committal love |
+| **Storge** | Lee: friendship-based, gradual love |
+| **Pragma** | Lee: practical, logical love |
+| **Mania** | Lee: possessive, obsessive love |
+| **Agape** | Lee: selfless, altruistic love |
+| **Jealousy** | Negative state from a perceived rival threat to one's relationship |
+| **Misattribution of arousal** | Mislabeling arousal (e.g., fear) as attraction |
+| **Social penetration theory** | Altman & Taylor (1973): relationships develop via increasing breadth and depth of disclosure |
+| **Parental investment theory** | Trivers (1972): the sex investing more in offspring is more selective |
+| **Direct effects of emotion on attraction** | Person causes your emotion → positive→liking, negative→disliking |
+| **Indirect (associated) effects** | Person present while emotion is aroused by something else → affects liking |
 
 ---
 
@@ -531,92 +382,69 @@ Across all 37 cultures in Buss's study, both men and women ranked these highest:
 | Person | Contribution |
 |---|---|
 | **Baumeister & Leary (1995)** | Need for affiliation as fundamental as hunger/thirst |
-| **Rowe (1996)** | Neurobiological basis of affiliation tendency |
-| **Schachter (1959)** | "Misery loves only miserable company" — social comparison under stress |
+| **Rowe (1996)** | Neurobiological basis of affiliation |
+| **Schachter (1959)** | "Misery loves only miserable company"; social comparison under stress |
 | **Zajonc (1968)** | Repeated (mere) exposure effect |
-| **Moreland & Beach (1992)** | Classroom study demonstrating repeated exposure → increased liking |
-| **Dion, Berscheid, & Walster (1972)** | First proposed physical attractiveness stereotype ("what is beautiful is good") |
-| **Lemay, Clark, & Greenberg (2010)** | Alternative explanation: "beautiful is good" via projection of desire to affiliate |
-| **Cunningham (1986)** | Two types of attractive women: cute/childlike vs. mature/sexy |
-| **Langlois & Roggman (1990)** | Composite (averaged) faces rated more attractive than individual faces |
-| **Elliot & Niesta (2008)** | Color red enhances perceived attractiveness of women for male participants |
-| **Aristotle (~330 BC)** | First proposed similarity as a basis for friendship |
-| **Galton (1870)** | First correlational data on spouses' resemblance |
-| **Newcomb (1956)** | Classic study proving similarity causes attraction (transfer student paradigm) |
-| **Byrne (1961b, 1971)** | Bogus stranger paradigm; extensive research on similarity-dissimilarity effect; attraction-as-reinforcement model |
-| **Byrne & Nelson (1965)** | Proportion of similarity formula |
+| **Moreland & Beach (1992)** | Classroom exposure → liking |
+| **Dion, Berscheid, & Walster (1972)** | Physical attractiveness stereotype |
+| **Lemay, Clark, & Greenberg (2010)** | "Beautiful is good" via projected desire to affiliate |
+| **Cunningham (1986)** | Two types of attractive women |
+| **Langlois & Roggman (1990)** | Composite faces rated more attractive |
+| **Elliot & Niesta (2008)** | Red enhances women's attractiveness for men |
+| **Aristotle (~330 BC)** | Similarity as basis for friendship |
+| **Galton (1870)** | Spouses' resemblance |
+| **Newcomb (1956)** | Similarity causes attraction (transfer students) |
+| **Byrne (1961b, 1971)** | Bogus stranger paradigm; attraction-as-reinforcement model |
+| **Byrne & Nelson (1965)** | Proportion of similarity |
 | **Rosenbaum (1986)** | Repulsion hypothesis |
-| **Berscheid, Dion, Walster & Walster (1971)** | First proposed matching hypothesis |
-| **van Straaten et al. (2009)** | Recent empirical support for matching hypothesis |
-| **Newcomb (1961) & Heider (1958)** | Balance theory (independently proposed) |
-| **Aronson & Linder (1965)** | Gain-loss theory of attraction |
+| **Berscheid, Dion, Walster & Walster (1971)** | Matching hypothesis |
+| **van Straaten et al. (2009)** | Support for matching hypothesis |
+| **Newcomb (1961) & Heider (1958)** | Balance theory |
+| **Aronson & Linder (1965)** | Gain-loss theory |
 | **Bowlby (1969, 1973, 1980)** | Attachment theory; internal working models |
-| **Ainsworth et al. (1978)** | Strange Situation; three infant attachment styles |
-| **Main & Solomon (1986)** | Fourth attachment style: disorganized/disoriented |
-| **Hazan & Shaver (1987)** | Adult attachment styles in romantic relationships |
-| **Bartholomew & Horowitz (1991)** | Four adult attachment styles (2×2 model) |
+| **Ainsworth et al. (1978)** | Strange Situation; three infant styles |
+| **Main & Solomon (1986)** | Disorganized/disoriented attachment |
+| **Hazan & Shaver (1987)** | Adult attachment styles |
+| **Bartholomew & Horowitz (1991)** | Four adult attachment styles (2×2) |
 | **Hatfield & Sprecher (1986)** | Passionate Love Scale |
-| **Hatfield & Walster (1978)** | Companionate love concept |
-| **Sternberg (1986)** | Triangular Theory of Love: intimacy, passion, commitment; 8 types |
-| **Lee (1977)** | Six love styles: Eros, Ludus, Storge, Pragma, Mania, Agape |
-| **Hendrick & Hendrick** | Love Attitudes Scale (measures Lee's six styles) |
-| **Schachter & Singer (1962)** | Two-factor theory of emotion (arousal + cognitive label) |
-| **Dutton & Aron (1974)** | Capilano Bridge study — misattribution of arousal and attraction |
-| **Berscheid & Walster (1974)** | Applied two-factor theory to passionate love |
+| **Hatfield & Walster (1978)** | Companionate love |
+| **Sternberg (1986)** | Triangular Theory of Love; 8 types |
+| **Lee (1977)** | Six love styles |
+| **Hendrick & Hendrick** | Love Attitudes Scale |
+| **Schachter & Singer (1962)** | Two-factor theory of emotion |
+| **Dutton & Aron (1974)** | Capilano Bridge; misattribution of arousal |
+| **Berscheid & Walster (1974)** | Two-factor theory applied to passionate love |
 | **Altman & Taylor (1973)** | Social penetration theory |
-| **Levinger (1980)** | ABCDE stage model of close relationship development |
-| **Buss (1989)** | Cross-cultural study of mate preferences (37 cultures, 10,000+ participants) |
+| **Levinger (1980)** | ABCDE stage model |
+| **Buss (1989)** | Cross-cultural mate preferences (37 cultures) |
 | **Trivers (1972)** | Parental investment theory |
-| **Eagly & Wood (1999)** | Social role theory alternative to evolutionary account of mate preferences |
-| **Gillath, Bunge, Wendelken, & Mikulincer (2005)** | Neural correlates of attachment anxiety |
-| **Carvallo & Gabriel (2006)** | Dismissing avoidant individuals still show affiliation needs |
-| **Baumeister et al. (2001)** | "Bad is stronger than good" in social cognition |
-| **Buss et al. (1992)** | Gender differences in jealousy: men → sexual; women → emotional infidelity |
-| **Buunk et al. (1996)** | Cross-cultural replications of gender differences in jealousy |
-| **Harris (2003)** | Criticism: in actual infidelity, both sexes equally distressed by both types |
+| **Eagly & Wood (1999)** | Social role theory alternative |
+| **Gillath et al. (2005)** | Neural correlates of attachment anxiety |
+| **Carvallo & Gabriel (2006)** | Dismissing avoidants still show affiliation needs |
+| **Baumeister et al. (2001)** | "Bad is stronger than good" |
+| **Buss et al. (1992)** | Gender differences in jealousy |
+| **Buunk et al. (1996)** | Cross-cultural jealousy replications |
+| **Harris (2003)** | Criticism: actual infidelity distresses both sexes equally |
 
 ---
 
 ## Likely Exam Points
 
-1. **Need for affiliation** (Baumeister & Leary, 1995) is as fundamental as hunger/thirst. Even people with **dismissing avoidant attachment style** show increased self-esteem and mood when accepted by others, proving universal affiliation needs (Carvallo & Gabriel, 2006).
-
-2. **Schachter (1959)**: Participants expecting electric shock chose to wait with others facing the SAME threat — not just any company. "Misery loves only miserable company." Mechanism = social comparison for cognitive and emotional clarity.
-
-3. **Repeated (mere) exposure effect** (Zajonc, 1968): More exposure = more positive evaluation. Moreland & Beach (1992): class attendances (0/5/10/15 times) directly and linearly predicted liking. Critical exception: does NOT apply when the initial reaction is very negative — can worsen (Swap, 1977).
-
-4. **Physical attractiveness stereotype** ("what is beautiful is good"; Dion, Berscheid, & Walster, 1972): Attractive defendants found guilty less often; attractive people judged as healthier, smarter, kinder. Lemay et al. (2010) alternative: the effect occurs because we project our desire to form relationships onto attractive people — when this desire is statistically removed, the attractiveness-trait link disappears.
-
-5. **Composite faces** (Langlois & Roggman, 1990): Averaged faces are rated MORE attractive than individual faces; the more faces averaged, the more attractive the composite. Effect is specific to human faces — does NOT work for composite dogs or birds (Halberstadt & Rhodes, 2000).
-
-6. **Red and attractiveness** (Elliot & Niesta, 2008): Red color/background boosts perceived attractiveness of women — but ONLY for male participants. Evolutionary parallel: female primates display red during ovulation. Historical support: Egyptian tombs contain red cosmetics.
-
-7. **Similarity hypothesis** confirmed by Newcomb (1956): Transfer students whose attitudes were measured by mail BEFORE meeting showed that pre-existing similarity predicted later liking — proving similarity CAUSES attraction (not the reverse). Byrne (1971): effect holds for attitudes, values, personality, chronotype, sense of humor, and minor preferences.
-
-8. **Proportion of similarity** (Byrne & Nelson, 1965): Attraction = f(similar topics / total topics). Effect is constant across gender, age, culture, and topic importance. **Repulsion hypothesis** (Rosenbaum, 1986) is mostly incorrect, but dissimilarity does have a slightly stronger negative effect than similarity has a positive effect ("bad is stronger than good").
-
-9. **Matching hypothesis** (Berscheid et al., 1971): We prefer the most attractive partners but invest effort in those who match our own level. Supported by van Straaten et al. (2009) for men. Women did not show the pattern — "played it safe" regardless of similarity.
-
-10. **Sternberg's Triangular Theory of Love (1986)**: Three components — Intimacy (warm/emotional), Passion (hot/physical), Commitment (cold/cognitive). Eight types: Nonlove, Liking, Infatuated, Empty, Romantic, Companionate, Fatuous, and **Consummate** (all three). Passion tends to decrease over time; commitment and intimacy tend to increase.
-
-11. **Lee's six love styles (1977)**: Eros (romantic/passionate), Ludus (game-playing), Storge (friendship-based), Pragma (practical), Mania (possessive/obsessive), Agape (altruistic). Gender: men score higher on Ludus; women score higher on Pragma, Storge, and Mania.
-
-12. **Dutton & Aron (1974) — Capilano Bridge study**: Men on a high, arousing suspension bridge showed more sexual imagery and were more likely to call the female experimenter than men on a low, stable bridge. Demonstrates **misattribution of arousal** — fear-arousal is mislabeled as romantic attraction, supporting two-factor theory applied to love.
-
-13. **Hazan & Shaver (1987)**: Three adult attachment styles parallel infant styles — Secure (~56%), Anxious-ambivalent/Preoccupied (~20%), Avoidant (~24%). Bartholomew & Horowitz (1991) extended this to a 2×2 four-style model: Secure, Preoccupied, Dismissing avoidant, Fearful avoidant.
-
-14. **Buss (1989)**: Cross-cultural study across 37 cultures, 10,000+ participants. Women prefer: resources, status, older age, ambition, dependability. Men prefer: physical attractiveness, youth, health. Based on **parental investment theory** (Trivers, 1972). Counter-argument: social role theory (Eagly & Wood, 1999) — differences shrink as gender equality increases.
-
-15. **Gender differences in jealousy** (Buss et al., 1992): Men more distressed by **sexual infidelity** (paternity uncertainty); women more distressed by **emotional infidelity** (risk of losing resources and commitment). Evolutionary basis = parental investment theory (Trivers, 1972). Criticism by Harris (2003): in actual infidelity, both sexes are equally distressed by both types.
-```
-
----
-
-The note above is the complete, exam-ready study document. A few things to note about coverage:
-
-- **The chapter text was cut off** mid-sentence in the balance theory explanation, so sections from "Reciprocal Liking" onward are completed from authoritative knowledge of this textbook edition.
-- All key studies have researcher, method, and finding captured.
-- All 8 types of Sternberg's love, all 6 of Lee's love styles, all 4 adult attachment styles (Bartholomew model), and all gender-difference findings in jealousy and mate selection are fully enumerated — these are the heaviest MCQ targets in this chapter.
+1. **Need for affiliation** (Baumeister & Leary, 1995) is as fundamental as hunger/thirst; even dismissing avoidants show affiliation needs (Carvallo & Gabriel, 2006).
+2. **Schachter (1959)**: shock-expecting participants chose company facing the same threat; social comparison for cognitive and emotional clarity.
+3. **Repeated (mere) exposure effect** (Zajonc, 1968): Moreland & Beach (1992) linear liking by attendance. Exception: very negative initial reactions worsen with exposure (Swap, 1977).
+4. **Physical attractiveness stereotype** (Dion et al., 1972). Lemay et al. (2010): effect via projected desire to affiliate.
+5. **Composite faces** (Langlois & Roggman, 1990): averaged faces more attractive; specific to human faces.
+6. **Red and attractiveness** (Elliot & Niesta, 2008): red boosts women's attractiveness, only for men.
+7. **Similarity hypothesis** (Newcomb, 1956): pre-meeting similarity predicts liking, proving causation.
+8. **Proportion of similarity** (Byrne & Nelson, 1965). Repulsion hypothesis (Rosenbaum, 1986) mostly wrong, but dissimilarity is slightly stronger.
+9. **Matching hypothesis** (Berscheid et al., 1971; van Straaten et al., 2009, for men).
+10. **Sternberg's Triangular Theory (1986)**: Intimacy, Passion, Commitment; 8 types incl. **Consummate** (all three).
+11. **Lee's six love styles (1977)**: Eros, Ludus, Storge, Pragma, Mania, Agape. Men higher on Ludus; women higher on Pragma, Storge, Mania.
+12. **Dutton & Aron (1974) Capilano Bridge**: fear arousal misattributed as attraction; two-factor theory of love.
+13. **Hazan & Shaver (1987)**: adult styles (Secure ~56%, Preoccupied ~20%, Avoidant ~24%); Bartholomew & Horowitz (1991) 2×2 four styles.
+14. **Buss (1989)**: 37 cultures; women prefer resources/status/age; men prefer attractiveness/youth/health (parental investment theory, Trivers, 1972). Counter: social role theory (Eagly & Wood, 1999).
+15. **Gender differences in jealousy** (Buss et al., 1992): men → sexual, women → emotional infidelity. Criticism: Harris (2003).
 
 ---
 *Source: Social Psychology (Baron & Branscombe, 13th ed.), 7 Interpersonal Attraction, Close Relationships, and Love (pp. 244-281). Part of [[INDEX]].*

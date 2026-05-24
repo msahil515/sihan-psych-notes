@@ -1,5 +1,5 @@
 {
-  "name": "Psych Notes — MET Prep",
+  "name": "Psych Notes \u2014 MET Prep",
   "short_name": "Psych Notes",
   "start_url": "./index.html",
   "scope": "./",
@@ -8,7 +8,17 @@
   "theme_color": "#0f1115",
   "description": "Offline psychology textbook notes for MET 2026 Clinical Psych prep.",
   "icons": [
-    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
-    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }

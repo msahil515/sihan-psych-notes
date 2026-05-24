@@ -10,668 +10,350 @@ tags: [biopsychology, neural-conduction, synaptic-transmission, action-potential
 
 # Chapter 4: Neural Conduction and Synaptic Transmission
 
-This chapter explains how neurons generate, conduct, and transmit electrochemical signals. It begins with the resting membrane potential, progresses through postsynaptic potentials and action potentials, details synaptic transmission mechanisms, and concludes with a classification of neurotransmitters. The clinical case of Roberto Garcia d'Orta (Parkinson's disease) frames the practical relevance of these fundamentals throughout.
+How neurons generate, conduct, and transmit electrochemical signals: resting potential → postsynaptic potentials → action potentials → synaptic transmission → neurotransmitter classification. Framed by the Parkinson's case of Roberto Garcia d'Orta.
 
 ---
 
-## Clinical Case: The Lizard — Roberto Garcia d'Orta (Parkinson's Disease)
+## Clinical Case: The Lizard — Roberto Garcia d'Orta (Parkinson's)
 
-- Patient: **Roberto Garcia d'Orta**, a man in his sixties who had been an active businessman.
-- Self-description: *"I have become a lizard... a great lizard frozen in a dark, cold, strange world."*
-- Diagnosis: **Parkinson's disease** — a progressive neurodegenerative disorder.
+- Man in his sixties; called himself *"a great lizard frozen in a dark, cold, strange world."* Diagnosis: **Parkinson's disease** (progressive neurodegeneration).
 
-### Symptoms of Parkinson's Disease
+### Symptoms
 
 | Symptom | Description |
 |---|---|
-| **Tremor-at-rest** | Trembling hands that shake worst when doing nothing; not disabling in itself |
+| **Tremor-at-rest** | Hands shake worst when idle; not disabling alone |
 | **Rigidity** | Rigid, inflexible muscles |
-| **Bradykinesia** | Slowness in executing voluntary movements once initiated |
-| **Akinesia** | Poverty of spontaneous movements; difficulty initiating movement |
-| **Reptilian stare** | Characteristic lack of blinking, widely opened eyes in a motionless face |
-| **Shuffling gait** | Slow, shuffling steps |
-| **Hypophonia** | Monotonous whisper; weak voice |
+| **Bradykinesia** | Slow execution of initiated voluntary movements |
+| **Akinesia** | Poverty/difficulty initiating spontaneous movement |
+| **Reptilian stare** | Unblinking, wide eyes, motionless face |
+| **Shuffling gait** | Slow shuffling steps |
+| **Hypophonia** | Weak, monotonous whisper |
 
 ### Neurological Basis
+- Neurons of the **substantia nigra** ("black substance") die; they normally make **dopamine** and deliver it to the **striatum**, which needs dopamine for normal movement. Dopamine loss → motor symptoms.
 
-- A small cluster of neurons called the **substantia nigra** (Latin: "black substance") die unaccountably.
-- These neurons normally synthesize **dopamine** and deliver it to the **striatum**.
-- The striatum controls movement and requires dopamine to do so normally.
-- As substantia nigra cells die, dopamine supply to the striatum decreases, producing motor symptoms.
+### Why L-dopa, Not Dopamine
+- Dopamine does not cross the **blood-brain barrier (BBB)**; its **precursor L-dopa (levodopa)** does and is converted to dopamine in the brain. L-dopa partially reversed Mr. d'Orta's symptoms.
 
-### Why Dopamine Itself Is Not the Treatment
-
-- Dopamine does not readily penetrate the **blood-brain barrier (BBB)**.
-- Solution: **L-dopa** (levodopa) — the chemical **precursor** of dopamine — readily crosses the BBB and is converted to dopamine once inside the brain.
-- L-dopa was prescribed to Mr. d'Orta and partially reversed his symptoms (reduced shuffle, stronger voice, faded reptilian stare, restored ADLs).
-
-> **MCQ TARGET:** L-dopa is effective in Parkinson's because dopamine cannot cross the blood-brain barrier, but its precursor L-dopa can; L-dopa is converted to dopamine intracerebrally.
+> **MCQ TARGET:** L-dopa works because dopamine can't cross the BBB but its precursor can; L-dopa → dopamine intracerebrally.
 
 ---
 
 ## 4.1 Resting Membrane Potential
 
-### Definition
+- **Membrane potential**: difference in charge between inside and outside of a cell.
+- **Resting potential**: steady ~**-70 mV** (inside vs. outside); resting neuron is **polarized**.
+- Recording uses an intracellular **microelectrode** (tip < **1/1000 mm**) plus an extracellular electrode; both outside = 0 mV; intracellular = ~-70 mV.
 
-- **Membrane potential**: The difference in electrical charge between the **inside** and the **outside** of a cell.
-- **Resting potential**: The steady membrane potential of approximately **-70 mV** recorded in a neuron at rest (inside relative to outside).
-- A neuron with a -70 mV resting potential is said to be **polarized**.
-
-### Recording the Membrane Potential
-
-- Requires two electrodes: one **intracellular**, one **extracellular** (in extracellular fluid).
-- **Microelectrodes**: Intracellular electrodes with tips less than **1/1000 of a millimeter** in diameter (too small to be seen by naked eye).
-- When both electrode tips are extracellular: voltage difference = **zero**.
-- When intracellular electrode is inserted into a neuron: steady reading of approximately **-70 mV**.
-
-> **MCQ TARGET:** The resting potential is approximately -70 mV; the inside of the neuron is negative relative to the outside.
-
----
+> **MCQ TARGET:** Resting potential ≈ -70 mV; inside negative relative to outside.
 
 ### Ionic Basis of the Resting Potential
 
-#### Ion Distribution in the Resting Neuron
-
-| Ion | Location of Higher Concentration | Ability to Cross Membrane |
+| Ion | Higher Concentration | Crosses Membrane |
 |---|---|---|
-| **Na+ (sodium)** | Outside | Difficult (low permeability) |
-| **K+ (potassium)** | Inside | Readily (high permeability) |
-| **Cl- (chloride)** | Outside | Readily (high permeability) |
-| **Protein ions (negative)** | Inside only | Cannot cross (synthesized inside, trapped) |
+| **Na+ (sodium)** | Outside | Difficult |
+| **K+ (potassium)** | Inside | Readily |
+| **Cl- (chloride)** | Outside | Readily |
+| **Protein ions (−)** | Inside only | Cannot cross |
 
-- Na = from Latin **natrium**; K = from Latin **kalium**.
+- Na = *natrium*; K = *kalium*.
 
-#### Two Homogenizing Factors (Push Toward Equal Distribution)
+**Two homogenizing forces (toward equal distribution):**
+1. **Random motion** → ions move down concentration gradients (high → low).
+2. **Electrostatic pressure** → like charges repel, opposite attract.
 
-1. **Random motion**: Ions in constant random motion tend to move **down their concentration gradients** (from high to low concentration).
-2. **Electrostatic pressure**: Like charges repel each other; opposite charges attract — accumulations of charge tend to be dispersed.
+**Two membrane properties counteracting homogenization:**
+1. **Differential permeability** (passive): K+ and Cl- pass readily via **ion channels** (selective pores); Na+ with difficulty; protein ions not at all.
+2. **Sodium-potassium pumps** (active): exchange **3 Na+ out for 2 K+ in** continuously.
 
-#### Two Membrane Properties That Counteract Homogenization
+> **KEY STUDY: Hodgkin & Huxley (1950s)** — calculated the electrostatic charge needed to balance each ion's concentration gradient vs. the actual -70 mV:
+> - **Cl-**: needed = **-70 mV** = actual → Cl- is at **equilibrium**.
+> - **K+**: needed = **-90 mV** (20 mV more than actual) → K+ driven **out** by 20 mV net; must be pumped back.
+> - **Na+**: concentration (50 mV) + electrostatic (70 mV) = **120 mV** driving Na+ **in**; membrane resists, pumps expel it.
+> - **Nobel Prize 1963** (shared with J.C. Eccles).
 
-1. **Differential permeability** (passive; no energy required):
-   - K+ and Cl- pass readily through the membrane via **ion channels**.
-   - Na+ passes through with difficulty.
-   - Protein ions do not pass through at all.
-   - **Ion channels**: Specialized pores in the neural membrane; each type is specialized for passage of particular ions.
-
-2. **Sodium-potassium pumps** (active; energy consuming):
-   - Exchange **3 Na+ ions out** for **2 K+ ions in** continuously.
-   - Maintain the unequal distribution despite constant leak.
-
-#### Hodgkin and Huxley's Analysis (Nobel Prize, 1963)
-
-> **KEY STUDY: Hodgkin & Huxley, 1950s**
-> - **Method:** Calculated the electrostatic charge needed to counteract concentration-gradient-driven movement for each ion; compared calculated values to actual resting potential of -70 mV.
-> - **Findings:**
->   - **Cl-**: Calculated electrostatic charge needed = **-70 mV** = exactly the actual resting potential. Conclusion: Cl- distribution is in **equilibrium** — concentration gradient driving Cl- in is exactly balanced by -70 mV electrostatic pressure driving it out.
->   - **K+**: Calculated electrostatic charge needed = **-90 mV** — 20 mV MORE than the actual resting potential. Conclusion: K+ ions are continuously being driven **out** of resting neurons by 20 mV of net pressure; must be actively pumped back in.
->   - **Na+**: Both concentration gradient AND electrostatic gradient act in the **same direction** (into the neuron): 50 mV from concentration gradient + 70 mV from electrostatic gradient = equivalent of **120 mV** driving Na+ in. Despite this massive pressure, membrane is resistant to Na+; sodium-potassium pumps pump it out at same rate it leaks in.
-> - **Nobel Prize:** 1963 (shared with J.C. Eccles).
-
-#### Factors Maintaining Ion Distribution (Table 4.1 Summary)
-
-| Ion | Driving Force | Membrane Resistance | Pump Action |
+| Ion | Driving Force | Resistance | Pump |
 |---|---|---|---|
-| Na+ | 120 mV total driving it IN | High resistance to passage | Pumped OUT by Na+/K+ pump |
-| K+ | 20 mV net driving it OUT | Low resistance (passes freely) | Pumped IN by Na+/K+ pump |
-| Cl- | Balanced at -70 mV equilibrium | Low resistance | No pump needed; passive equilibrium |
+| Na+ | 120 mV IN | High | Pumped OUT |
+| K+ | 20 mV net OUT | Low | Pumped IN |
+| Cl- | Balanced (-70 mV equilibrium) | Low | None (passive) |
 
 ---
 
 ## 4.2 Generation and Conduction of Postsynaptic Potentials
 
-### Neurotransmitter Release and Postsynaptic Effects
+- Firing releases **neurotransmitters** from **terminal buttons** → diffuse across **synaptic clefts** → bind **receptors** on the next neuron. Two effects:
+  1. **Depolarization**: less negative inside (e.g., -70 → -67 mV).
+  2. **Hyperpolarization**: more negative inside (e.g., -70 → -72 mV).
 
-- When neurons fire, they release **neurotransmitters** from **terminal buttons**.
-- Neurotransmitters diffuse across **synaptic clefts** and bind to **receptor molecules** on the receptive membranes of the next neuron.
-- Two possible effects on the postsynaptic membrane:
-  1. **Depolarization**: Decrease in resting potential (e.g., from -70 mV to -67 mV) = membrane becomes less negative inside.
-  2. **Hyperpolarization**: Increase in resting potential (e.g., from -70 mV to -72 mV) = membrane becomes more negative inside.
-
-### Types of Postsynaptic Potentials
-
-| Type | Abbreviation | Direction | Effect on Firing |
+| Type | Abbrev. | Direction | Effect |
 |---|---|---|---|
-| **Excitatory postsynaptic potential** | **EPSP** | Depolarization | Increases likelihood of firing |
-| **Inhibitory postsynaptic potential** | **IPSP** | Hyperpolarization | Decreases likelihood of firing |
+| **Excitatory postsynaptic potential** | **EPSP** | Depolarization | ↑ firing likelihood |
+| **Inhibitory postsynaptic potential** | **IPSP** | Hyperpolarization | ↓ firing likelihood |
 
-### Properties of EPSPs and IPSPs
-
-- Both are **graded responses**: amplitude is proportional to signal intensity.
-  - Weak signals → small potentials; strong signals → large potentials.
-- **Transmission is rapid**: so fast it can be assumed instantaneous for most purposes.
-- **Transmission is decremental**: EPSPs and IPSPs decrease in amplitude as they travel through the neuron (like sound waves losing amplitude through air).
-- Most do not travel more than **a couple of millimeters** from their site of generation before fading.
-- Generated at synapses, usually on **dendrites** or **cell body**.
-- Travel passively toward the axon like electrical signals through a cable.
+**Properties of EPSPs/IPSPs:**
+- **Graded** (amplitude ∝ signal intensity).
+- **Rapid** (effectively instantaneous).
+- **Decremental** (fade with distance; usually < a couple of mm).
+- Generated at synapses (usually dendrites/cell body); travel passively toward the axon.
 
 ---
 
-## 4.3 Integration of Postsynaptic Potentials and Generation of Action Potentials
+## 4.3 Integration of PSPs and Generation of Action Potentials
 
 ### Threshold of Excitation
-
-- A single synapse's postsynaptic potential typically has **little effect** on firing (Bruno & Sakmann, 2006).
-- Most neurons have **thousands of synapses** covering their receptive areas.
-- Firing depends on the **net balance** of excitatory and inhibitory signals reaching the axon.
-- **Threshold of excitation**: Usually approximately **-65 mV** — if the membrane is depolarized to this level, an action potential is generated.
-- **Axon hillock**: The conical structure at the junction between the cell body and axon — long believed to be where APs are generated.
-- **Updated finding (Palmer & Stuart, 2006):** Action potentials are actually generated in the **section of the axon adjacent to the axon hillock**, not at the axon hillock itself.
+- A single synapse's PSP has **little effect** alone (Bruno & Sakmann, 2006); neurons have **thousands of synapses**; firing depends on the **net balance** of EPSPs/IPSPs.
+- **Threshold of excitation**: ~**-65 mV** → triggers an action potential.
+- **Axon hillock**: cone at cell body-axon junction; APs are actually generated in the **adjacent axon section**, not at the hillock (Palmer & Stuart, 2006).
 
 ### The Action Potential (AP)
-
-- A **massive but momentary** reversal of membrane potential.
-- Duration: **~1 millisecond**.
-- Magnitude: Membrane potential reverses from approximately **-70 mV to +50 mV**.
-- **All-or-none response**: Unlike PSPs, APs are not graded. They either occur to their full extent or not at all.
-  - Stimulating a neuron more intensely does NOT increase AP speed or amplitude.
-- Analogy: Like firing a gun — squeezing the trigger harder does not make the bullet travel faster or farther.
+- **Massive, momentary** reversal: ~**-70 to +50 mV**, lasting **~1 ms**.
+- **All-or-none**: occurs fully or not at all; more intense stimulation does NOT change AP speed/amplitude (like firing a gun).
 
 ### Neural Integration
+- **Integration**: combining individual signals into one. Two ways:
+- **Spatial summation**: simultaneous PSPs at different sites add — two EPSPs → bigger EPSP; two IPSPs → bigger IPSP; EPSP + IPSP → cancel.
+- **Temporal summation**: PSPs in rapid succession at the **same synapse** sum (PSPs outlast the stimulus; repeated subthreshold EPSPs can fire the neuron).
 
-- **Integration**: Adding or combining a number of individual signals into one overall signal.
-- Neurons integrate incoming signals in **two ways**:
-
-#### 1. Spatial Summation
-
-- EPSPs or IPSPs produced **simultaneously** at different synaptic sites are added together.
-- Three possible combinations:
-  1. Two simultaneous EPSPs → greater EPSP
-  2. Two simultaneous IPSPs → greater IPSP
-  3. Simultaneous EPSP + IPSP → cancel each other out
-
-#### 2. Temporal Summation
-
-- Postsynaptic potentials produced in **rapid succession** at the **same synapse** sum together.
-- Possible because PSPs often **outlast** the stimulus; a second stimulus superimposes on the lingering first potential.
-- A brief subthreshold EPSP repeated rapidly can fire a neuron.
-
-### Synapse Location and Influence
-
-- Traditionally assumed: synapses **closer to the axon trigger zone** have more influence (because PSPs are decremental).
-- However, some neurons have mechanisms to **amplify dendritic signals** from far away, so all signals reach the cell body at similar amplitude (Williams & Stuart, 2002, 2003).
+### Synapse Location
+- Synapses closer to the trigger zone were assumed more influential (PSPs decrement), but some neurons **amplify distal dendritic signals** so all arrive at similar amplitude (Williams & Stuart, 2002, 2003).
 
 ---
 
 ## 4.4 Conduction of Action Potentials
 
-### Ionic Basis of Action Potentials
+### Ionic Basis
+- Produced via **voltage-activated ion channels** (open/close with membrane potential changes; Armstrong, 2007).
 
-- Action potentials are produced and conducted via **voltage-activated ion channels** — ion channels that open or close in response to changes in membrane potential (Armstrong, 2007).
+| Phase | Event |
+|---|---|
+| **Rising phase** | Threshold reached → **Na+ channels open** → Na+ rushes IN (-70 → +50 mV) |
+| **Repolarization onset** | **K+ channels open** → K+ driven OUT |
+| **Na+ channels close** | After ~1 ms; ends rising phase |
+| **Repolarization** | K+ efflux restores negative interior |
+| **Hyperpolarization** | K+ channels close slowly → brief undershoot below -70 mV |
+| **K+ channels close** | Returns toward -70 mV |
 
-#### Sequence of Events During an Action Potential
-
-| Phase | Event | Ions Involved |
-|---|---|---|
-| **Rising phase** | Membrane reaches threshold → voltage-activated **Na+ channels open wide** → Na+ rushes IN | Na+ influx drives potential from -70 to +50 mV |
-| **Onset of repolarization** | Rising potential triggers opening of **voltage-activated K+ channels** → K+ driven OUT | K+ efflux begins |
-| **Na+ channels close** | After ~1 millisecond — marks end of rising phase | Na+ no longer entering |
-| **Repolarization** | Continued efflux of K+ restores negative internal charge | K+ efflux |
-| **Hyperpolarization** | K+ channels close **gradually** → too many K+ ions exit → membrane briefly more negative than resting | Brief undershoot below -70 mV |
-| **K+ channels close** | Gradual closure ends hyperpolarization | Returns toward -70 mV |
-
-- The number of ions that cross during a single AP is **extremely small** relative to total ion concentrations; resting concentrations are rapidly reestablished by **random ion movement**.
-- **Sodium-potassium pumps play only a minor role** in reestablishing resting potential after a single AP.
+- Ion movement per AP is tiny; resting concentrations restored mainly by **random ion movement**; Na+/K+ pumps play only a **minor** role per AP.
 
 ### Refractory Periods
 
 | Period | Definition | Duration |
 |---|---|---|
-| **Absolute refractory period** | Period immediately after AP initiation during which it is **impossible** to elicit a second AP | ~1-2 milliseconds |
-| **Relative refractory period** | Period following absolute refractory period during which a second AP **can** be elicited but only with **higher-than-normal** stimulation | Variable |
+| **Absolute refractory** | Second AP **impossible** | ~1-2 ms |
+| **Relative refractory** | Second AP possible only with **higher-than-normal** stimulation | Variable |
 
-#### Functional Importance of Refractory Periods
+**Functions:**
+1. **Unidirectional conduction**: just-traveled axon is refractory → AP cannot reverse (cell body → terminals).
+2. **Rate coding**: firing rate encodes intensity; max ~**1,000/sec**; weaker stimulation → slower rate.
 
-1. **Unidirectional conduction**: The portion of axon over which an AP just traveled is temporarily refractory, so the AP **cannot reverse direction** — always travels from cell body toward terminal buttons (under normal conditions).
-2. **Rate coding**: Firing rate encodes stimulation intensity.
-   - Maximum firing rate: ~**1,000 times per second** (when firing as fast as absolute refractory period allows).
-   - Weaker stimulation → slower rate (must wait for relative refractory period to end).
-   - Intermediate stimulation → intermediate firing rate.
+### Axonal Conduction
 
-### Axonal Conduction of Action Potentials
-
-#### Differences from PSP Conduction
-
-| Property | PSP Conduction | AP Axonal Conduction |
+| Property | PSP | AP (axonal) |
 |---|---|---|
-| Speed | Very fast (passive, essentially instantaneous) | Slower (active processes introduce delays) |
-| Amplitude | Decremental (loses amplitude with distance) | **Nondecremental** (constant amplitude) |
+| Speed | Very fast (passive) | Slower (active delays) |
+| Amplitude | Decremental | **Nondecremental** |
 | Mechanism | Passive | Largely **active** |
 
-#### Mechanism of Nondecremental Conduction
+**Nondecremental mechanism:** AP travels passively to adjacent voltage-activated Na+ channels → opens them → full AP regenerated → repeats to all **terminal buttons** (a single wave of excitation at constant speed).
 
-1. AP generated near axon hillock → travels passively along axonal membrane to adjacent voltage-activated Na+ channels.
-2. Arrival of electrical signal opens these Na+ channels → Na+ rushes in → **full-blown AP generated** at this new location.
-3. This AP then conducts passively to the next Na+ channels → another full AP triggered.
-4. Repeats until all **terminal buttons** are reached.
-- Because Na+ channels on the axonal membrane are numerous and close together, this process is conceptualized as a **single wave of excitation** spreading at constant speed.
+- **Orthodromic conduction**: cell body → terminals (natural). **Antidromic conduction**: reverse (artificial stimulation).
+- The wave also spreads **backward** through cell body/dendrites (backward APs; function largely unknown).
 
-#### Directional Terms
+### Myelinated Axons
+- **Myelin**: fatty insulation (from glia). **Nodes of Ranvier**: gaps where ions cross; **Na+ channels are concentrated at the nodes** (Salzer, 2002).
+- **Saltatory conduction** (*saltare* = "to jump"): AP conducted passively along each myelinated segment, regenerated full-strength at each node — appears to **jump node to node**; greatly increases speed.
 
-- **Orthodromic conduction**: AP travels in the natural direction — from **cell body to terminal buttons**.
-- **Antidromic conduction**: AP travels in the reverse direction — from terminal end back to cell body (can occur with artificial electrical stimulation of sufficient intensity).
+> **MCQ TARGET:** Saltatory conduction = AP jumping node to node in myelinated axons; much faster than unmyelinated.
 
-- The wave of excitation also spreads **backward** through the cell body and dendrites (backward action potentials) — functions largely unknown, currently under intensive investigation.
+- Myelin-destroying diseases (e.g., **multiple sclerosis**) devastate neural function.
 
-### Conduction in Myelinated Axons
+### Velocity of Conduction
+Depends on: (1) **axon diameter** (larger = faster); (2) **myelination** (myelinated = faster).
 
-- **Myelin**: Fatty tissue that insulates axons; formed by glial cells.
-- **Nodes of Ranvier**: Gaps between adjacent myelin segments where ions CAN pass through the axonal membrane.
-- In myelinated axons, **sodium channels are concentrated at the nodes of Ranvier** (Salzer, 2002).
-
-#### Saltatory Conduction
-
-- **Saltatory conduction** (from Latin *saltare* = "to skip or jump"): Mode of AP conduction in myelinated axons.
-- Mechanism:
-  - AP generated at one node → conducted passively (instantly but decrementally) along the myelinated segment to the next node.
-  - Signal is diminished by arrival but still strong enough to open voltage-activated Na+ channels at the next node.
-  - Full-blown AP generated at next node → process repeats.
-- The AP appears to **jump** from node to node.
-- **Result**: Myelination greatly increases conduction speed.
-  - Passive conduction along myelin = instantaneous.
-  - Slight delay at each node (active AP generation), but overall much faster than unmyelinated conduction.
-
-> **MCQ TARGET:** Saltatory conduction = AP jumping from node to node in myelinated axons; significantly faster than unmyelinated conduction.
-
-- Neurodegenerative diseases that destroy myelin (e.g., **multiple sclerosis**) have devastating effects on neural activity and behavior.
-
-### The Velocity of Axonal Conduction
-
-Conduction velocity depends on two axon properties:
-
-1. **Axon diameter**: Larger diameter → faster conduction.
-2. **Myelination**: Myelinated axons → faster conduction.
-
-| Axon Type | Example | Speed |
+| Axon | Example | Speed |
 |---|---|---|
-| Large, myelinated | Mammalian motor neurons | Up to ~100 m/s in cats; **~60 m/s in humans** |
+| Large, myelinated | Motor neurons | ~100 m/s in cats; **~60 m/s in humans** |
 | Small, unmyelinated | Interneurons | ~1 m/s |
 
-> **MCQ TARGET (Misconception):** Maximum motor neuron conduction velocity is ~100 m/s in CATS, but only ~**60 m/s** in humans (Peters & Brooke, 1998).
+> **MCQ TARGET:** Max human motor neuron speed ≈ **60 m/s** (100 m/s is the cat figure; Peters & Brooke, 1998).
 
-### Conduction in Neurons without Axons
+### Neurons without Axons
+- Many brain neurons lack axons or have short ones and show no APs; conduction in such **interneurons** is **passive and decremental** (Juusola et al., 1996).
 
-- Many mammalian brain neurons either **lack axons** or have very short ones.
-- Many of these do NOT display action potentials.
-- Conduction in such **interneurons** is typically **passive and decremental** (Juusola et al., 1996).
-- APs are the mechanism for nondecremental, long-distance transmission; interneurons with no axons use graded potentials.
-
-### The Hodgkin-Huxley Model in Perspective
-
-- **Hodgkin-Huxley model**: Theory of neural conduction first proposed in the early **1950s** (Huxley, 2002).
-- **Nobel Prize**: Awarded in **1963** to Hodgkin and Huxley (and shared with J.C. Eccles).
-- Model was based on **squid motor neurons** — simple, large, and readily accessible in the PNS. Squid motor neurons are particularly large, aiding experimental access.
-
-#### Limitations of the Hodgkin-Huxley Model
-
-The model describes simple motor neurons; many cerebral neurons differ:
+### Hodgkin-Huxley Model in Perspective
+- **Hodgkin-Huxley model**: neural conduction theory, early **1950s** (Nobel 1963); based on large, accessible **squid motor neurons**.
 
 | Property | Motor Neurons | Many Cerebral Neurons |
 |---|---|---|
-| Spontaneous firing | No — only fire with input | Fire **continually even without input** (Lisman et al., 2007) |
-| Signal type | APs only | Some axons conduct **both graded signals and APs** (Alle & Geiger, 2006, 2008) |
-| AP uniformity | All APs are the same | APs vary greatly in **duration, amplitude, and frequency** (Bean, 2007) |
-| Axons | Always present | Many cerebral neurons have **no axons**, no APs |
-| Dendrites | Passive | Some dendrites can **actively conduct APs** (Chen et al., 1997) |
+| Spontaneous firing | No | Fire continually without input (Lisman et al., 2007) |
+| Signal type | APs only | Both graded signals + APs (Alle & Geiger, 2006, 2008) |
+| AP uniformity | Uniform | Vary in duration/amplitude/frequency (Bean, 2007) |
+| Axons | Present | Many have none, no APs |
+| Dendrites | Passive | Some actively conduct APs (Chen et al., 1997) |
 
-> **Conclusion:** The Hodgkin-Huxley model should be applied to cerebral neurons **with caution**. Cerebral neurons are far more complex, varied, and plastic than squid/mammalian motor neurons.
+> **Conclusion:** Apply the model to cerebral neurons **with caution** — they are far more complex, varied, and plastic.
 
 ---
 
-## 4.5 Synaptic Transmission: Chemical Transmission of Signals Among Neurons
+## 4.5 Synaptic Transmission
 
-Overview of five aspects of synaptic transmission:
-1. Structure of synapses
-2. Synthesis, packaging, and transport of neurotransmitter molecules
-3. Release of neurotransmitter molecules
-4. Activation of receptors by neurotransmitter molecules
-5. Reuptake, enzymatic degradation, and recycling
+Five aspects: (1) synapse structure; (2) NT synthesis/packaging/transport; (3) NT release; (4) receptor activation; (5) reuptake/degradation/recycling.
 
 ### Structure of Synapses
+- **Synaptic cleft**: gap between presynaptic (terminal button) and postsynaptic membranes.
+- **Dendritic spines**: nodules on dendrites where many synapses terminate.
+- **Synaptic vesicles**: sacs storing NT in terminal buttons.
 
-#### Key Anatomical Terms
-
-- **Synaptic cleft**: The narrow gap between the presynaptic membrane (terminal button) and the postsynaptic membrane of the next neuron.
-- **Presynaptic membrane**: The membrane of the terminal button.
-- **Postsynaptic membrane**: The membrane of the neuron receiving the signal.
-- **Dendritic spines**: Nodules of various shapes on the surfaces of many dendrites; many synapses terminate here.
-- **Synaptic vesicles**: Membrane-bound sacs inside terminal buttons that store neurotransmitter molecules.
-
-#### Types of Synapses by Location
-
-| Type | Description |
+| Synapse Type | Description |
 |---|---|
-| **Axodendritic** | Axon terminal buttons synapse onto **dendrites** (most common); many terminate on dendritic spines |
-| **Axosomatic** | Axon terminal buttons synapse onto **somas** (cell bodies) (also common) |
-| **Dendrodendritic** | Dendrite-to-dendrite; notable because often capable of **bidirectional** transmission |
-| **Axoaxonic** | Axon terminal buttons synapse onto **other axons/terminal buttons**; mediates presynaptic facilitation and inhibition |
+| **Axodendritic** | Onto **dendrites** (most common; often spines) |
+| **Axosomatic** | Onto **somas** |
+| **Dendrodendritic** | Dendrite-to-dendrite; often **bidirectional** |
+| **Axoaxonic** | Onto other axons/buttons; mediates presynaptic facilitation/inhibition |
 
-#### Presynaptic Facilitation and Inhibition (Axoaxonic Synapses)
+**Presynaptic facilitation/inhibition** (axoaxonic): increases or decreases one button's effect; advantage = selectively influences **one synapse** rather than the whole neuron.
 
-- An **axoaxonic synapse** on or near a terminal button can:
-  - **Presynaptic facilitation**: Increase the effects of that button on the postsynaptic neuron.
-  - **Presynaptic inhibition**: Decrease the effects of that button on the postsynaptic neuron.
-- **Advantage over EPSPs/IPSPs**: Can selectively influence **one particular synapse** rather than the entire neuron.
+**Directed synapses**: release and reception sites close. **Nondirected synapses**: release at a distance — e.g., **string-of-beads synapses** releasing NT from **varicosities** along the axon.
 
-#### Directed vs. Nondirected Synapses
+### Synthesis, Packaging, Transport
 
-| Type | Description |
-|---|---|
-| **Directed synapses** | Site of neurotransmitter release and site of reception are in **close proximity** |
-| **Nondirected synapses** | Site of release is at **some distance** from the site of reception |
+| Category | Example | Synthesis | Packaging |
+|---|---|---|---|
+| **Small-molecule NTs** | Amino acids, monoamines, ACh | Terminal button cytoplasm | Button's **Golgi complex**; smaller vesicles |
+| **Large-molecule (neuropeptides)** | Opioids, substance P | Cell body ribosomes | Cell body Golgi; larger vesicles |
 
-- **String-of-beads synapses**: A type of nondirected synapse where neurotransmitters are released from **varicosities** (bulges/swellings) along the axon and branches; neurotransmitters widely dispersed to surrounding targets.
+- **Neuropeptides**: **3-36 amino acid** chains; vesicles transported by **microtubules** to buttons at ~**40 cm/day**.
+- **Coexistence**: two NTs in one neuron (usually one small-molecule + one neuropeptide) — disproves "one neuron, one NT."
 
----
+### Release: Exocytosis
+- **Exocytosis**: NT release.
+  1. At rest, vesicles cluster near presynaptic membrane rich in **voltage-activated calcium channels**.
+  2. AP arrives → channels open → **Ca2+ enters**.
+  3. Ca2+ → vesicles **fuse** with membrane and empty into the cleft.
+  4. Often one AP → release from one vesicle (Matsui & Jahr, 2006).
 
-### Synthesis, Packaging, and Transport of Neurotransmitter Molecules
-
-#### Two Basic Categories of Neurotransmitters
-
-| Category | Size | Example | Synthesis Location | Packaging | Vesicle Size |
-|---|---|---|---|---|---|
-| **Small-molecule neurotransmitters** | Small | Amino acids, monoamines, ACh | Cytoplasm of **terminal button** | By button's **Golgi complex** | Smaller |
-| **Large-molecule neurotransmitters (neuropeptides)** | Large (3-36 amino acids) | Opioids, substance P | Ribosomes in **cell body** cytoplasm | By cell body's **Golgi complex** | Larger |
-
-- **Neuropeptides**: Short amino acid chains comprising **3-36 amino acids** (short proteins).
-- Small-molecule vesicles: Stored in clusters **next to the presynaptic membrane**.
-- Neuropeptide vesicles: Transported by **microtubules** to terminal buttons at a rate of approximately **40 centimeters per day**; do not congregate as closely to presynaptic membrane.
-
-#### Coexistence
-
-- **Coexistence**: The presence of **two neurotransmitters** in the same neuron.
-- Was once believed each neuron releases only one neurotransmitter — this is incorrect.
-- Most documented cases involve **one small-molecule neurotransmitter + one neuropeptide** (indicated by two vesicle sizes in the button).
-
----
-
-### Release of Neurotransmitter Molecules
-
-#### Exocytosis
-
-- **Exocytosis**: The process of neurotransmitter release.
-- Mechanism:
-  1. When neuron is at rest: vesicles (containing small-molecule neurotransmitters) congregate near presynaptic membrane sections rich in **voltage-activated calcium channels**.
-  2. Action potential arrives → calcium channels open → **Ca2+ ions enter** the terminal button.
-  3. Ca2+ entry causes synaptic vesicles to **fuse with the presynaptic membrane** and empty contents into the synaptic cleft.
-  4. At many (not all) synapses: **one AP triggers release from one vesicle** (Matsui & Jahr, 2006).
-
-#### Differences in Release: Small-Molecule vs. Neuropeptide
-
-| Property | Small-Molecule Neurotransmitters | Neuropeptides |
+| Property | Small-Molecule | Neuropeptides |
 |---|---|---|
-| Release pattern | **Pulse** with each AP (momentary Ca2+ influx) | **Gradual** release in response to sustained elevated intracellular Ca2+ |
-| Trigger | Single AP → brief Ca2+ spike | General increase in firing rate → sustained Ca2+ increase |
+| Release | **Pulse** per AP (brief Ca2+ spike) | **Gradual** with sustained Ca2+ |
+| Trigger | Single AP | Increased firing rate |
 
----
+### Receptor Activation
+- Receptors are **proteins** with NT-specific binding sites; a NT is a **ligand**.
+- Most NTs bind **multiple receptor subtypes** (in different brain areas, with different responses) → one NT can send different messages.
 
-### Activation of Receptors by Neurotransmitter Molecules
-
-- Each receptor is a **protein** with binding sites for only particular neurotransmitters.
-- **Ligand**: Any molecule that binds to another; a neurotransmitter is a ligand of its receptor.
-- Most neurotransmitters bind to **multiple receptor subtypes** (not just one type).
-- **Receptor subtypes**: Different types of receptors to which a particular neurotransmitter can bind.
-  - Typically located in **different brain areas**.
-  - Typically respond to the neurotransmitter in **different ways**.
-  - Advantage: One neurotransmitter can transmit **different kinds of messages** to different brain regions.
-
-#### Two Fundamental Types of Receptors
-
-| Feature | **Ionotropic Receptors** | **Metabotropic Receptors** |
+| Feature | **Ionotropic** | **Metabotropic** |
 |---|---|---|
-| Association | Ligand-activated **ion channels** | **Signal proteins** and **G proteins** (GTP-sensitive proteins) |
-| Speed of effect | **Immediate** EPSP or IPSP | **Slower** to develop |
-| Duration | Briefer | **Longer-lasting** |
-| Diffuseness | Localized | **More diffuse** |
-| Variety | Less varied | **More varied** |
-| Prevalence | Less common | **More prevalent** |
-| Mechanism | Neurotransmitter binds → ion channel opens or closes immediately | Neurotransmitter binds → G protein subunit breaks off → acts on ion channel OR triggers synthesis of **second messenger** |
+| Association | Ligand-activated **ion channels** | **Signal proteins + G proteins** |
+| Speed | **Immediate** PSP | **Slower** |
+| Duration | Briefer | Longer-lasting |
+| Spread | Localized | More diffuse |
+| Prevalence | Less common | More prevalent |
 
-##### Ionotropic Receptor Mechanism (Detail)
+- **Ionotropic EPSP**: opens **Na+ channels** → depolarization. **Ionotropic IPSP**: opens **K+** (exit) or **Cl-** (enter) → hyperpolarization.
+- **Metabotropic**: receptor attached to a **serpentine signal protein** (crosses membrane **7×**) with an internal **G protein**. NT binds → a **G protein subunit breaks off** → either (a) binds a nearby **ion channel** (EPSP/IPSP), or (b) triggers a **second messenger** (NT = first messenger) that diffuses through cytoplasm and can bind **DNA** (gene expression) → radical, long-lasting effects.
+- **Autoreceptors**: presynaptic metabotropic receptors binding the neuron's **own** NT; monitor synaptic NT and regulate release (feedback: high → reduce, low → increase).
 
-- EPSPs via ionotropic: Neurotransmitter opens **Na+ channels** → Na+ influx → depolarization.
-- IPSPs via ionotropic: Neurotransmitter opens **K+ channels** (K+ exits) or **Cl- channels** (Cl- enters) → hyperpolarization.
-
-##### Metabotropic Receptor Mechanism (Detail)
-
-- Each metabotropic receptor is attached to a **serpentine signal protein** that winds through the cell membrane **seven times**.
-- Metabotropic receptor on outside; **G protein** attached to inside portion of signal protein.
-- When neurotransmitter binds → a **subunit of the G protein breaks away** → two possible outcomes:
-  1. Subunit moves along inner membrane surface → binds to nearby **ion channel** → induces EPSP or IPSP.
-  2. Subunit triggers synthesis of a **second messenger**.
-- **Second messenger** (neurotransmitter = first messenger): Diffuses through cytoplasm; can influence cell in many ways, including entering the nucleus and binding to **DNA** (influencing gene expression — epigenetic effects).
-- Result: Neurotransmitter binding to metabotropic receptor can have **radical, long-lasting effects**.
-
-#### Autoreceptors
-
-- **Autoreceptors**: A special type of metabotropic receptor with two unconventional characteristics:
-  1. Binds the **neuron's own** neurotransmitter molecules.
-  2. Located on the **presynaptic** (not postsynaptic) membrane.
-- Function: Monitor the number of neurotransmitter molecules in the synapse.
-  - High levels in synapse → **reduce** subsequent release.
-  - Low levels in synapse → **increase** subsequent release.
-- Function as a **feedback control mechanism** for neurotransmitter release.
-
-#### Small-Molecule vs. Neuropeptide Receptor Binding (Functional Summary)
-
-| Property | Small-Molecule Neurotransmitters | Neuropeptides |
+| Property | Small-Molecule | Neuropeptides |
 |---|---|---|
-| Synapse type | Directed synapses | Diffuse release |
-| Receptor type | Ionotropic OR metabotropic (acting directly on ion channels) | Virtually all **metabotropic** (via second messengers) |
-| Function | Rapid, brief, excitatory or inhibitory signals to adjacent cells | Slow, diffuse, **long-lasting** signals |
+| Synapse | Directed | Diffuse |
+| Receptors | Ionotropic or metabotropic | Virtually all **metabotropic** |
+| Function | Rapid, brief signals | Slow, diffuse, **long-lasting** |
 
----
+### Reuptake, Degradation, Recycling
+- **Reuptake** (most common): NT drawn back into the **presynaptic button** by transporters.
+- **Enzymatic degradation**: NT broken apart in the synapse by **enzymes**. Classic case: **acetylcholine**, broken down by **acetylcholinesterase**.
+- **Recycling**: NT/breakdown products and even **vesicles** are recycled (Sudhof, 2004).
 
-### Reuptake, Enzymatic Degradation, and Recycling
+### Glia and Synaptic Transmission
+- **Astrocytes** release transmitters, have NT receptors, conduct signals, and participate in NT **reuptake** (Fields & Burnstock, 2006). More prevalent in more intelligent organisms.
 
-Two mechanisms terminate synaptic messages:
-
-#### 1. Reuptake (More Common)
-
-- **Reuptake**: Neurotransmitter molecules are almost immediately drawn back into the **presynaptic terminal button** by **transporter mechanisms** after release.
-- This is the primary deactivation mechanism for the majority of neurotransmitters.
-
-#### 2. Enzymatic Degradation
-
-- Neurotransmitter is **broken apart in the synapse** by enzymes.
-- **Enzymes**: Proteins that stimulate or inhibit biochemical reactions without being affected by them.
-- Classic example: **Acetylcholine** (one of the few neurotransmitters deactivated primarily by enzymatic degradation).
-  - Enzyme: **Acetylcholinesterase** breaks down acetylcholine.
-
-#### Recycling
-
-- Regardless of deactivation method, neurotransmitter molecules or their breakdown products are drawn back into the terminal button and **recycled**.
-- Even the **vesicles** are recycled: drawn back from presynaptic membrane and used to create new vesicles (Sudhof, 2004).
-
----
-
-### Glial Function and Synaptic Transmission
-
-- Glial cells, once thought to play only supportive roles, are now recognized as active participants in brain function.
-- **Astrocytes** have been shown to:
-  - Release chemical transmitters.
-  - Contain receptors for neurotransmitters.
-  - Conduct signals.
-  - Participate in neurotransmitter **reuptake** (Fields & Burnstock, 2006; Miller & Cleveland, 2005).
-- Glial cells are more prevalent in more **intelligent organisms** — suggesting a role in cognitive capacity.
-- The old neurocentric view of brain function is now recognized as incomplete.
-
-#### Gap Junctions (Electrical Synapses)
-
-- **Gap junctions**: Narrow spaces between adjacent neurons bridged by fine tubular channels called **connexins** that contain cytoplasm.
-- The cytoplasm of the two neurons is continuous through connexins.
-- Allow **electrical signals and small molecules** to pass directly from one neuron to the next.
-- Also called **electrical synapses** (vs. chemical synapses).
-- Common in **invertebrate** nervous systems; harder to demonstrate in mammals.
-- First demonstrated in mammals in the **1970s**; now found throughout the mammalian brain.
-- Appear to be integral to **local neural inhibitory circuits** (Hestrin & Galarreta, 2005).
-- **Astrocytes** communicate with each other, neurons, and other cells through gap junctions (Bennett et al., 2003).
-
-#### Advantages of Gap Junctions
-
-1. Communication is **very fast** (no active mechanisms required).
-2. Permit communication in **either direction** (bidirectional).
-
-#### Disadvantage
-
-- Less **selective** than chemical synapses.
+**Gap junctions (electrical synapses):**
+- Narrow gaps bridged by **connexins** (cytoplasm-filled tubular channels) → continuous cytoplasm; pass **electrical signals and small molecules** directly.
+- Common in **invertebrates**; first shown in mammals in the **1970s**; integral to **local inhibitory circuits** (Hestrin & Galarreta, 2005); astrocytes communicate via them (Bennett et al., 2003).
+- Advantages: **very fast**, **bidirectional**. Disadvantage: less **selective**.
 
 ---
 
 ## 4.6 Neurotransmitters
 
-Over **100 neurotransmitter substances** have been identified (Purves et al., 2004).
-
-### Classification Overview
+Over **100 neurotransmitters** identified (Purves et al., 2004).
 
 ```
 Neurotransmitters
-├── Small-Molecule Neurotransmitters
-│   ├── Amino Acid Neurotransmitters
-│   │   ├── Glutamate
-│   │   ├── Aspartate
-│   │   ├── Glycine
-│   │   └── GABA (gamma-aminobutyric acid)
-│   ├── Monoamine Neurotransmitters
-│   │   ├── Catecholamines (from tyrosine)
-│   │   │   ├── Dopamine
-│   │   │   ├── Norepinephrine
-│   │   │   └── Epinephrine
-│   │   └── Indolamines (from tryptophan)
-│   │       └── Serotonin (5-HT)
-│   ├── Acetylcholine (in a class by itself)
-│   └── Unconventional Neurotransmitters
-│       ├── Soluble-Gas Neurotransmitters
-│       │   ├── Nitric oxide
-│       │   └── Carbon monoxide
-│       └── Endocannabinoids
-│           └── Anandamide
-└── Large-Molecule Neurotransmitters
-    └── Neuropeptides (>100 identified)
-        ├── Pituitary peptides
-        ├── Hypothalamic peptides
-        ├── Brain-gut peptides
-        ├── Opioid peptides
-        └── Miscellaneous peptides
+├── Small-Molecule
+│   ├── Amino Acids: Glutamate, Aspartate, Glycine, GABA
+│   ├── Monoamines
+│   │   ├── Catecholamines (from tyrosine): Dopamine, Norepinephrine, Epinephrine
+│   │   └── Indolamines (from tryptophan): Serotonin (5-HT)
+│   ├── Acetylcholine (class by itself)
+│   └── Unconventional
+│       ├── Soluble gases: Nitric oxide, Carbon monoxide
+│       └── Endocannabinoids: Anandamide
+└── Large-Molecule
+    └── Neuropeptides (>100): Pituitary, Hypothalamic, Brain-gut, Opioid, Miscellaneous
 ```
 
----
-
 ### Amino Acid Neurotransmitters
+Dominate fast-acting directed CNS synapses; building blocks of proteins.
 
-- Neurotransmitters in the **vast majority of fast-acting, directed synapses** in the CNS.
-- The molecular building blocks of proteins.
+| NT | Role |
+|---|---|
+| **Glutamate** | Most prevalent **excitatory** NT in mammalian CNS |
+| **Aspartate** | Excitatory |
+| **Glycine** | Inhibitory (common in spinal cord) |
+| **GABA** | Most prevalent **inhibitory** NT in CNS (synthesized from glutamate); excitatory at some synapses (Szabadics et al., 2006) |
 
-| Neurotransmitter | Type | Primary Role |
-|---|---|---|
-| **Glutamate** | Amino acid | Most prevalent **excitatory** neurotransmitter in mammalian CNS |
-| **Aspartate** | Amino acid | Excitatory |
-| **Glycine** | Amino acid | Inhibitory (common in spinal cord) |
-| **GABA** (gamma-aminobutyric acid) | Amino acid (synthesized from glutamate) | Most prevalent **inhibitory** neurotransmitter in CNS; has **excitatory** effects at some synapses (Szabadics et al., 2006) |
-
-- Glutamate, aspartate, and glycine are common in dietary proteins.
-- GABA is synthesized by a **simple modification of glutamate's structure** — it is not a dietary protein component.
-
-> **MCQ TARGET:** Glutamate = most common excitatory NT in CNS; GABA = most common inhibitory NT in CNS.
-
----
+> **MCQ TARGET:** Glutamate = most common excitatory; GABA = most common inhibitory.
 
 ### Monoamine Neurotransmitters
+- Each from a **single amino acid**; effects **diffuse**; cell bodies mostly in the **brain stem**; branched axons with **varicosities** (string-of-beads).
 
-- Each synthesized from a **single amino acid** (hence "mono-amine").
-- Slightly larger than amino acid NTs; effects tend to be **more diffuse**.
-- Neurons present in small groups with cell bodies mostly in the **brain stem**.
-- Have highly branched axons with many **varicosities** (string-of-beads synapses) releasing NTs diffusely into extracellular fluid.
-
-#### Catecholamines (from amino acid tyrosine)
-
-**Synthesis Pathway:**
+**Catecholamines (from tyrosine):**
 ```
 Tyrosine → L-dopa → Dopamine → Norepinephrine → Epinephrine
 ```
 
-| Catecholamine | Synthesizing Neurons | Extra Enzyme |
-|---|---|---|
-| **Dopamine** | Dopaminergic neurons | None beyond basic pathway |
-| **Norepinephrine** | **Noradrenergic** neurons | Extra enzyme converts dopamine → norepinephrine |
-| **Epinephrine** | **Adrenergic** neurons | All enzymes of noradrenergic + extra enzyme converts norepinephrine → epinephrine |
+| Catecholamine | Neurons |
+|---|---|
+| **Dopamine** | Dopaminergic |
+| **Norepinephrine** | **Noradrenergic** (extra enzyme: dopamine → NE) |
+| **Epinephrine** | **Adrenergic** (extra enzyme: NE → epinephrine) |
 
-- Why "noradrenergic" and "adrenergic"? Epinephrine and norepinephrine were formerly called **adrenaline** and **noradrenaline** until a drug company registered "Adrenalin" as a brand name. Practical reason: "norepinephrinergic" is too unwieldy.
+- "Noradrenergic/adrenergic" because epinephrine/norepinephrine were once **adrenaline/noradrenaline**.
 
-#### Indolamines (from amino acid tryptophan)
+**Indolamines (from tryptophan):** **Serotonin** = **5-hydroxytryptamine (5-HT)**.
 
-| Neurotransmitter | Alternate Name | Synthesis Precursor |
-|---|---|---|
-| **Serotonin** | **5-hydroxytryptamine (5-HT)** | Tryptophan |
+> **MCQ TARGET:** Serotonin (5-HT) = indolamine from tryptophan; dopamine/NE/epinephrine = catecholamines from tyrosine via L-dopa.
 
-> **MCQ TARGET:** Serotonin = 5-HT = indolamine synthesized from tryptophan. Dopamine, norepinephrine, epinephrine = catecholamines synthesized from tyrosine via L-dopa.
-
----
-
-### Acetylcholine
-
-- **Acetylcholine (ACh)**: A small-molecule neurotransmitter "in a class by itself."
-- Synthesis: Adding an **acetyl group to a choline molecule**.
-- Found at:
-  - **Neuromuscular junctions** (between motor neurons and skeletal muscles).
-  - Many synapses in the **autonomic nervous system**.
-  - Synapses in several parts of the **central nervous system**.
-- Deactivation: By the enzyme **acetylcholinesterase** (enzymatic degradation — one of the FEW NTs deactivated this way rather than reuptake).
-- Neurons releasing ACh are called **cholinergic** neurons.
-
----
+### Acetylcholine (ACh)
+- Small-molecule NT "in a class by itself"; made by adding an **acetyl group to choline**.
+- Found at **neuromuscular junctions**, many **autonomic** synapses, parts of the **CNS**.
+- Deactivated by **acetylcholinesterase** (one of the few NTs primarily degraded enzymatically). Releasing neurons = **cholinergic**.
 
 ### Unconventional Neurotransmitters
 
-#### Soluble-Gas Neurotransmitters
+**Soluble gases (nitric oxide, carbon monoxide):**
+- Synthesized in **cytoplasm**; **diffuse through the membrane** (no vesicles; lipid-soluble) into nearby cells; trigger a **second messenger**; deactivated in **seconds**.
+- Mediate **retrograde transmission** — feedback from **postsynaptic back to presynaptic** neuron (regulates the presynaptic neuron; Ludwig & Pittman, 2003).
 
-| Property | Description |
+**Endocannabinoids:**
+- Similar to **THC** (main psychoactive component of **marijuana**). Main example: **anandamide** (Sanskrit *ananda* = "eternal bliss").
+- Synthesized from **fatty membrane compounds** just before release; released from **dendrites/cell body**; act on **presynaptic** neurons to **inhibit** transmission; lipid-soluble.
+
+> **MCQ TARGET:** Endocannabinoids = retrograde-acting, lipid-soluble; anandamide = "eternal bliss"; THC-like.
+
+### Neuropeptides (Large-Molecule)
+- Over **100** identified; **3-36 amino acid** chains; action depends on sequence; virtually all bind **metabotropic** receptors (second messengers); released **diffusely**; **slow, long-lasting**.
+
+| Category | Origin |
 |---|---|
-| Examples | **Nitric oxide (NO)** and **carbon monoxide (CO)** |
-| Synthesis | In the neural **cytoplasm** |
-| Release mechanism | Immediately **diffuse through cell membrane** (no vesicles needed — lipid-soluble) |
-| Spread | Into extracellular fluid and then into **nearby cells** |
-| Action | Stimulate production of a **second messenger** inside target cells |
-| Duration | Deactivated in **a few seconds** (converted to other molecules) |
-| Study difficulty | Very difficult to study due to brief existence |
-| Special function | **Retrograde transmission** — transmit feedback signals from **postsynaptic neuron BACK to presynaptic neuron** |
-
-- **Retrograde transmission**: Signals transmitted "backward" from postsynaptic to presynaptic neuron.
-- Function: Regulate the activity of the presynaptic neuron (Ludwig & Pittman, 2003).
-
-#### Endocannabinoids
-
-| Property | Description |
-|---|---|
-| Name origin | Similar to **delta-9-tetrahydrocannabinol (THC)**, the main psychoactive constituent of **marijuana** |
-| Examples | **Anandamide** (from Sanskrit *ananda* = "eternal bliss") — most widely studied; one other identified (Van Sickle et al., 2005) |
-| Synthesis | Immediately before release; synthesized from **fatty compounds in the cell membrane** |
-| Release site | Tend to be released from **dendrites and cell body** |
-| Target | Tend to act on **presynaptic neurons** |
-| Effect | **Inhibit** subsequent synaptic transmission |
-| Lipid solubility | Lipid-soluble; pass through cell membranes |
-
-> **MCQ TARGET:** Endocannabinoids = retrograde-acting, lipid-soluble; anandamide from Sanskrit "eternal bliss"; similar in structure to THC.
-
----
-
-### Neuropeptides (Large-Molecule Neurotransmitters)
-
-- Over **100 neuropeptides** identified (Ludwig & Leng, 2006).
-- Short amino acid chains: **3-36 amino acids** (short proteins).
-- Actions depend on **amino acid sequence**.
-- Virtually all bind to **metabotropic receptors** acting through second messengers.
-- Released **diffusely**; produce **slow, long-lasting** effects.
-
-#### Five Categories of Neuropeptides
-
-| Category | Description / Origin |
-|---|---|
-| **Pituitary peptides** | First identified as hormones released by the **pituitary gland** |
-| **Hypothalamic peptides** | First identified as hormones released by the **hypothalamus** |
-| **Brain-gut peptides** | First discovered in the **gut** (gastrointestinal tract) |
-| **Opioid peptides** | Similar in structure to active ingredients of **opium** (e.g., endorphins, enkephalins) |
-| **Miscellaneous peptides** | Catch-all category for those not fitting above |
+| **Pituitary peptides** | First found as pituitary hormones |
+| **Hypothalamic peptides** | First found as hypothalamic hormones |
+| **Brain-gut peptides** | First discovered in the gut |
+| **Opioid peptides** | Opium-like (e.g., endorphins, enkephalins) |
+| **Miscellaneous peptides** | Catch-all |
 
 ---
 
@@ -679,85 +361,82 @@ Tyrosine → L-dopa → Dopamine → Norepinephrine → Epinephrine
 
 | Term | Definition |
 |---|---|
-| **Membrane potential** | Difference in electrical charge between the inside and outside of a cell |
-| **Resting potential** | Steady membrane potential of approximately -70 mV in a resting neuron |
-| **Polarized** | State of a resting neuron with -70 mV charge built up across its membrane |
-| **Microelectrode** | Intracellular electrode with tip less than 1/1000 mm in diameter; used to record resting potential |
-| **Ion channel** | Specialized pore in neural membrane through which ions pass; each type selective for particular ions |
-| **Concentration gradient** | Difference in concentration of a substance between two regions; ions move from high to low concentration |
-| **Electrostatic pressure** | Force exerted by accumulated charges; like charges repel, opposite charges attract |
-| **Differential permeability** | Property of neural membrane whereby different ions pass through with different ease (passive) |
-| **Sodium-potassium pump** | Active energy-consuming transporter that exchanges 3 Na+ out for 2 K+ in; maintains ion distribution |
-| **Influx** | Inflow of ions into a neuron |
-| **Efflux** | Outflow of ions from a neuron |
-| **EPSP** | Excitatory postsynaptic potential; depolarization of postsynaptic membrane that increases firing likelihood |
-| **IPSP** | Inhibitory postsynaptic potential; hyperpolarization of postsynaptic membrane that decreases firing likelihood |
-| **Graded response** | Response whose amplitude is proportional to the intensity of the eliciting stimulus |
-| **Decremental conduction** | Transmission where signal amplitude decreases with distance |
-| **Nondecremental conduction** | Transmission where signal amplitude remains constant (characteristic of APs along axons) |
-| **Threshold of excitation** | Level of depolarization (approximately -65 mV) at which an action potential is generated |
-| **Action potential (AP)** | Massive, momentary (~1 ms) reversal of membrane potential from -70 to +50 mV; all-or-none |
-| **All-or-none response** | Response that either occurs to its full extent or not at all; not graded |
-| **Axon hillock** | Conical structure at the junction of cell body and axon; adjacent area is actual AP initiation site |
-| **Integration** | Adding/combining multiple postsynaptic potentials into one overall signal |
-| **Spatial summation** | Integration of simultaneous signals from different synaptic sites |
-| **Temporal summation** | Integration of signals arriving in rapid succession at the same synapse |
-| **Voltage-activated ion channels** | Ion channels that open or close in response to changes in membrane potential |
-| **Absolute refractory period** | ~1-2 ms after AP during which no second AP can be elicited |
-| **Relative refractory period** | Period after absolute refractory period; second AP possible but requires higher-than-normal stimulation |
-| **Orthodromic conduction** | AP conduction from cell body toward terminal buttons (natural direction) |
-| **Antidromic conduction** | AP conduction from terminal toward cell body (reverse direction; artificially induced) |
-| **Myelin** | Fatty insulating tissue wrapped around axons by glial cells |
-| **Nodes of Ranvier** | Gaps between myelin segments where Na+ channels are concentrated; sites of AP regeneration |
-| **Saltatory conduction** | AP conduction in myelinated axons where signal "jumps" from node to node |
-| **Synaptic cleft** | Narrow gap between presynaptic and postsynaptic membranes |
-| **Dendritic spines** | Nodules on dendrite surfaces; many synapses terminate here |
-| **Axodendritic synapse** | Synapse between axon terminal button and dendrite |
-| **Axosomatic synapse** | Synapse between axon terminal button and soma (cell body) |
-| **Axoaxonic synapse** | Synapse between axon terminal button and another axon; mediates presynaptic facilitation/inhibition |
-| **Dendrodendritic synapse** | Synapse between two dendrites; often bidirectional |
-| **Directed synapse** | Synapse where release site and reception site are in close proximity |
-| **Nondirected synapse** | Synapse where release site is at a distance from reception site |
-| **Varicosities** | Bulges/swellings along axons from which neurotransmitters are diffusely released |
-| **String-of-beads synapses** | Nondirected synapses with varicosities along axon; appearance like a string of beads |
-| **Neuropeptides** | Large-molecule neurotransmitters; short amino acid chains (3-36 amino acids) |
-| **Coexistence** | Presence of two neurotransmitters in the same neuron |
-| **Exocytosis** | Process by which synaptic vesicles fuse with presynaptic membrane and release neurotransmitters |
-| **Ligand** | Any molecule that binds to another; neurotransmitter is a ligand of its receptor |
-| **Receptor subtype** | One of multiple types of receptors for a single neurotransmitter, located in different brain areas |
-| **Ionotropic receptor** | Receptor associated with ligand-activated ion channels; causes immediate PSPs |
-| **Metabotropic receptor** | Receptor associated with signal proteins and G proteins; slower, longer-lasting, more diffuse effects |
-| **G protein** | Guanosine-triphosphate-sensitive protein associated with metabotropic receptors |
-| **Second messenger** | Chemical synthesized in response to G protein activation; diffuses through cytoplasm and mediates NT effects; NT = first messenger |
-| **Autoreceptor** | Presynaptic metabotropic receptor that binds neuron's own NT; monitors and regulates NT release |
-| **Presynaptic facilitation** | Enhancement of a terminal button's effect on postsynaptic neuron via axoaxonic synapse |
-| **Presynaptic inhibition** | Reduction of a terminal button's effect on postsynaptic neuron via axoaxonic synapse |
-| **Reuptake** | Primary NT deactivation mechanism; NT drawn back into presynaptic button by transporters |
-| **Enzymatic degradation** | NT deactivation by enzyme breakdown in the synapse (e.g., ACh by acetylcholinesterase) |
-| **Acetylcholinesterase** | Enzyme that breaks down acetylcholine in the synapse |
-| **Gap junctions** | Cytoplasm-filled connexin channels bridging adjacent neurons; electrical synapses; bidirectional |
-| **Connexins** | Fine tubular channels forming gap junctions between adjacent neurons |
-| **Glutamate** | Most prevalent excitatory amino acid NT in mammalian CNS |
-| **GABA** | Gamma-aminobutyric acid; most prevalent inhibitory NT in CNS; synthesized from glutamate |
-| **Monoamine** | NT class synthesized from a single amino acid; includes catecholamines and indolamines |
-| **Catecholamine** | Subclass of monoamines synthesized from tyrosine: dopamine, norepinephrine, epinephrine |
-| **Indolamine** | Subclass of monoamines synthesized from tryptophan: serotonin (5-HT) |
-| **Dopamine** | Catecholamine NT; deficient in Parkinson's disease (substantia nigra degeneration) |
-| **Norepinephrine** | Catecholamine NT; released by noradrenergic neurons; formerly noradrenaline |
-| **Epinephrine** | Catecholamine NT; released by adrenergic neurons; formerly adrenaline |
-| **Serotonin (5-HT)** | 5-hydroxytryptamine; indolamine NT synthesized from tryptophan |
-| **Acetylcholine (ACh)** | Small-molecule NT at neuromuscular junctions, autonomic NS, and parts of CNS; deactivated by acetylcholinesterase |
-| **Cholinergic** | Neurons that release acetylcholine |
-| **Noradrenergic** | Neurons that release norepinephrine |
-| **Adrenergic** | Neurons that release epinephrine |
-| **Nitric oxide / Carbon monoxide** | Soluble-gas unconventional NTs; lipid-soluble; diffuse through membranes; involved in retrograde transmission |
-| **Retrograde transmission** | Signals transmitted from postsynaptic neuron BACK to presynaptic neuron |
-| **Endocannabinoids** | Unconventional NTs similar to THC; synthesized from fatty membrane compounds; inhibit presynaptic transmission |
-| **Anandamide** | Most studied endocannabinoid; from Sanskrit "eternal bliss" |
-| **Substantia nigra** | Brain region whose dopaminergic neurons die in Parkinson's disease |
-| **Striatum** | Brain structure that receives dopamine from substantia nigra; involved in movement control |
-| **L-dopa (levodopa)** | Chemical precursor of dopamine; crosses blood-brain barrier; treatment for Parkinson's disease |
-| **Hodgkin-Huxley model** | Theory of neural conduction proposed in the early 1950s; Nobel Prize 1963; based on squid motor neurons |
+| **Membrane potential** | Difference in charge between inside and outside of a cell |
+| **Resting potential** | Steady ~-70 mV in a resting neuron |
+| **Polarized** | Resting neuron with -70 mV across its membrane |
+| **Microelectrode** | Intracellular electrode (tip < 1/1000 mm) for recording resting potential |
+| **Ion channel** | Selective membrane pore for particular ions |
+| **Concentration gradient** | Concentration difference between regions; ions move high → low |
+| **Electrostatic pressure** | Force from accumulated charges; like repel, opposite attract |
+| **Differential permeability** | Membrane lets different ions pass with different ease (passive) |
+| **Sodium-potassium pump** | Active pump: 3 Na+ out / 2 K+ in; maintains ion distribution |
+| **Influx / Efflux** | Inflow / outflow of ions |
+| **EPSP** | Depolarizing postsynaptic potential; ↑ firing likelihood |
+| **IPSP** | Hyperpolarizing postsynaptic potential; ↓ firing likelihood |
+| **Graded response** | Amplitude ∝ stimulus intensity |
+| **Decremental conduction** | Amplitude decreases with distance |
+| **Nondecremental conduction** | Amplitude constant (AP along axons) |
+| **Threshold of excitation** | ~-65 mV depolarization that triggers an AP |
+| **Action potential (AP)** | Momentary (~1 ms) reversal -70 → +50 mV; all-or-none |
+| **All-or-none response** | Occurs fully or not at all; not graded |
+| **Axon hillock** | Cell body-axon junction; adjacent area is the AP initiation site |
+| **Integration** | Combining multiple PSPs into one signal |
+| **Spatial summation** | Integration of simultaneous signals at different sites |
+| **Temporal summation** | Integration of rapid-succession signals at the same synapse |
+| **Voltage-activated ion channels** | Channels opening/closing with membrane potential |
+| **Absolute refractory period** | ~1-2 ms; no second AP possible |
+| **Relative refractory period** | Second AP possible only with higher stimulation |
+| **Orthodromic conduction** | Cell body → terminals (natural) |
+| **Antidromic conduction** | Terminal → cell body (artificial) |
+| **Myelin** | Fatty axon insulation from glia |
+| **Nodes of Ranvier** | Myelin gaps with concentrated Na+ channels; AP regeneration sites |
+| **Saltatory conduction** | AP "jumps" node to node in myelinated axons |
+| **Synaptic cleft** | Gap between presynaptic and postsynaptic membranes |
+| **Dendritic spines** | Dendrite nodules where synapses terminate |
+| **Axodendritic synapse** | Button → dendrite |
+| **Axosomatic synapse** | Button → soma |
+| **Axoaxonic synapse** | Button → axon; presynaptic facilitation/inhibition |
+| **Dendrodendritic synapse** | Dendrite → dendrite; often bidirectional |
+| **Directed synapse** | Release and reception sites close |
+| **Nondirected synapse** | Release site distant from reception |
+| **Varicosities** | Axon bulges releasing NT diffusely |
+| **String-of-beads synapses** | Nondirected synapses with axonal varicosities |
+| **Neuropeptides** | Large-molecule NTs; 3-36 amino acid chains |
+| **Coexistence** | Two NTs in one neuron |
+| **Exocytosis** | Vesicle fusion releasing NT |
+| **Ligand** | Molecule that binds another; NT is a ligand of its receptor |
+| **Receptor subtype** | One of several receptors for a single NT, in different areas |
+| **Ionotropic receptor** | Ligand-activated ion channel; immediate PSP |
+| **Metabotropic receptor** | Signal protein + G protein; slower, longer, diffuse |
+| **G protein** | GTP-sensitive protein of metabotropic receptors |
+| **Second messenger** | Chemical made via G protein; mediates NT effects (NT = first messenger) |
+| **Autoreceptor** | Presynaptic metabotropic receptor binding the neuron's own NT; regulates release |
+| **Presynaptic facilitation** | Axoaxonic enhancement of a button's effect |
+| **Presynaptic inhibition** | Axoaxonic reduction of a button's effect |
+| **Reuptake** | Primary deactivation; NT drawn back into the button |
+| **Enzymatic degradation** | NT broken down in the synapse (ACh by acetylcholinesterase) |
+| **Acetylcholinesterase** | Enzyme degrading acetylcholine |
+| **Gap junctions** | Connexin channels bridging neurons; electrical synapses; bidirectional |
+| **Connexins** | Tubular channels forming gap junctions |
+| **Glutamate** | Most prevalent excitatory amino acid NT in CNS |
+| **GABA** | Most prevalent inhibitory NT; from glutamate |
+| **Monoamine** | NT from a single amino acid; catecholamines + indolamines |
+| **Catecholamine** | From tyrosine: dopamine, norepinephrine, epinephrine |
+| **Indolamine** | From tryptophan: serotonin (5-HT) |
+| **Dopamine** | Catecholamine; deficient in Parkinson's (substantia nigra) |
+| **Norepinephrine** | Catecholamine; noradrenergic neurons; formerly noradrenaline |
+| **Epinephrine** | Catecholamine; adrenergic neurons; formerly adrenaline |
+| **Serotonin (5-HT)** | 5-hydroxytryptamine; indolamine from tryptophan |
+| **Acetylcholine (ACh)** | NT at neuromuscular junctions, ANS, CNS; deactivated by acetylcholinesterase |
+| **Cholinergic / Noradrenergic / Adrenergic** | Neurons releasing ACh / NE / epinephrine |
+| **Nitric oxide / Carbon monoxide** | Soluble-gas NTs; lipid-soluble; retrograde transmission |
+| **Retrograde transmission** | Postsynaptic → presynaptic signaling |
+| **Endocannabinoids** | THC-like NTs from fatty membrane compounds; inhibit presynaptic transmission |
+| **Anandamide** | Most studied endocannabinoid; Sanskrit "eternal bliss" |
+| **Substantia nigra** | Dopaminergic neurons die in Parkinson's |
+| **Striatum** | Receives dopamine from substantia nigra; movement control |
+| **L-dopa (levodopa)** | Dopamine precursor; crosses BBB; Parkinson's treatment |
+| **Hodgkin-Huxley model** | Neural conduction theory (1950s; Nobel 1963; squid motor neurons) |
 
 ---
 
@@ -765,58 +444,58 @@ Tyrosine → L-dopa → Dopamine → Norepinephrine → Epinephrine
 
 | Person | Contribution |
 |---|---|
-| **Alan Hodgkin** | Co-developed Hodgkin-Huxley model of neural conduction (1950s); Nobel Prize 1963; calculated electrostatic forces for Na+, K+, Cl- ions; inferred existence of sodium-potassium pumps |
-| **Andrew Huxley** | Co-developed Hodgkin-Huxley model of neural conduction (1950s); Nobel Prize 1963 |
-| **J.C. Eccles** | Shared the 1963 Nobel Prize with Hodgkin and Huxley |
-| **Bruno & Sakmann (2006)** | Demonstrated that a single synapse's PSP typically has little effect on firing of a postsynaptic neuron |
-| **Palmer & Stuart (2006)** | Demonstrated that APs are generated in the axon section adjacent to the axon hillock, not at the axon hillock itself |
-| **Williams & Stuart (2002, 2003)** | Showed some neurons amplify distal dendritic signals so all signals arrive at cell body with similar amplitude |
-| **Salzer (2002)** | Identified that Na+ channels in myelinated axons are concentrated at nodes of Ranvier |
-| **Peters & Brooke (1998)** | Determined maximum motor neuron conduction velocity in humans is ~60 m/s (not 100 m/s as assumed from cat studies) |
-| **Hestrin & Galarreta (2005)** | Showed gap junctions are integral to local neural inhibitory circuits in mammals |
-| **Bennett et al. (2003)** | Showed astrocytes communicate via gap junctions with each other, neurons, and other cells |
-| **Matsui & Jahr (2006)** | Demonstrated that at many synapses, one AP causes release from one vesicle |
-| **Boehning & Snyder (2003)** | Described soluble-gas neurotransmitters (nitric oxide and carbon monoxide) |
-| **Ludwig & Pittman (2003)** | Described function of retrograde transmission in regulating presynaptic neuron activity |
+| **Alan Hodgkin** | Hodgkin-Huxley model (1950s; Nobel 1963); calculated ionic electrostatic forces; inferred Na+/K+ pumps |
+| **Andrew Huxley** | Co-developed Hodgkin-Huxley model; Nobel 1963 |
+| **J.C. Eccles** | Shared the 1963 Nobel Prize |
+| **Bruno & Sakmann (2006)** | A single synapse's PSP has little effect on firing |
+| **Palmer & Stuart (2006)** | APs generated in the axon section adjacent to the hillock, not at it |
+| **Williams & Stuart (2002, 2003)** | Some neurons amplify distal dendritic signals |
+| **Salzer (2002)** | Na+ channels concentrated at nodes of Ranvier |
+| **Peters & Brooke (1998)** | Max human motor neuron speed ~60 m/s |
+| **Hestrin & Galarreta (2005)** | Gap junctions integral to local inhibitory circuits |
+| **Bennett et al. (2003)** | Astrocytes communicate via gap junctions |
+| **Matsui & Jahr (2006)** | One AP → release from one vesicle at many synapses |
+| **Boehning & Snyder (2003)** | Soluble-gas neurotransmitters |
+| **Ludwig & Pittman (2003)** | Retrograde transmission regulates presynaptic activity |
 | **Van Sickle et al. (2005)** | Identified two endocannabinoids |
-| **Sudhof (2004)** | Described vesicle recycling after neurotransmitter release |
-| **Tzingounis & Wadiche (2007)** | Contributed to discovery of transporter classes beyond sodium-potassium pumps |
-| **Harold Klawans** | Author of "Newton's Madness" — source of Mr. d'Orta's case study |
-| **Armstrong (2007)** | Reviewed voltage-activated ion channels and the Hodgkin-Huxley model |
+| **Sudhof (2004)** | Vesicle recycling |
+| **Tzingounis & Wadiche (2007)** | Transporter classes beyond Na+/K+ pumps |
+| **Harold Klawans** | "Newton's Madness" — source of Mr. d'Orta's case |
+| **Armstrong (2007)** | Voltage-activated ion channels review |
 
 ---
 
 ## Likely Exam Points
 
-1. **Resting potential is approximately -70 mV**; inside of neuron is negative relative to outside; resting neuron is said to be "polarized."
+1. **Resting potential ≈ -70 mV**; inside negative; neuron is "polarized."
 
-2. **Sodium-potassium pump exchanges 3 Na+ OUT for 2 K+ IN** continuously, using energy (active process); maintains resting ion concentrations.
+2. **Na+/K+ pump**: 3 Na+ OUT / 2 K+ IN; active; maintains resting concentrations.
 
-3. **Hodgkin and Huxley (1950s, Nobel Prize 1963):** Calculated electrostatic forces for each ion; found Cl- in equilibrium at -70 mV, K+ driven out by 20 mV net pressure, Na+ driven in by 120 mV total pressure (50 mV concentration + 70 mV electrostatic). Inferred existence of Na+/K+ pumps. Used squid motor neurons.
+3. **Hodgkin & Huxley (1950s; Nobel 1963)**: Cl- at equilibrium (-70 mV); K+ driven out by 20 mV; Na+ driven in by 120 mV (50 concentration + 70 electrostatic); inferred Na+/K+ pumps; used squid motor neurons.
 
-4. **EPSPs = depolarization (membrane less negative); IPSPs = hyperpolarization (membrane more negative).** Both are graded and decrement ally conducted. EPSPs increase, IPSPs decrease likelihood of firing.
+4. **EPSP = depolarization, IPSP = hyperpolarization**; both graded and decremental; EPSP ↑, IPSP ↓ firing.
 
-5. **Action potentials are all-or-none** (not graded); threshold = approximately -65 mV; AP reverses membrane potential from -70 mV to +50 mV in ~1 millisecond; generated in axon section adjacent to axon hillock (not AT axon hillock — Palmer & Stuart, 2006).
+5. **APs are all-or-none**; threshold ≈ -65 mV; -70 → +50 mV in ~1 ms; generated **adjacent** to the axon hillock (Palmer & Stuart, 2006).
 
-6. **Absolute refractory period (~1-2 ms)** = impossible to fire again; **relative refractory period** = possible to fire but requires higher-than-normal stimulation. Refractory periods ensure (a) unidirectional AP conduction and (b) rate coding of stimulus intensity (max ~1000 APs/second).
+6. **Absolute refractory (~1-2 ms)** = no second AP; **relative** = needs higher stimulation. Ensures unidirectional conduction + rate coding (max ~1,000/sec).
 
-7. **Saltatory conduction** = APs jump from node to node in myelinated axons; faster than unmyelinated conduction. Human motor neuron max speed = **60 m/s** (not 100 m/s, which is the cat maximum).
+7. **Saltatory conduction** = node-to-node jumping; faster. Human motor neuron max **60 m/s** (cat = 100 m/s).
 
-8. **Glutamate = most prevalent excitatory NT in CNS; GABA = most prevalent inhibitory NT** in CNS (but can be excitatory at some synapses).
+8. **Glutamate = top excitatory; GABA = top inhibitory** in CNS.
 
-9. **Catecholamines** (dopamine, norepinephrine, epinephrine) synthesized from **tyrosine** via L-dopa. **Serotonin** (indolamine) synthesized from **tryptophan**. Acetylcholine = cholinergic neurons; deactivated by **acetylcholinesterase**.
+9. **Catecholamines** (dopamine, NE, epinephrine) from **tyrosine** via L-dopa; **serotonin** from **tryptophan**; ACh deactivated by **acetylcholinesterase**.
 
-10. **Ionotropic receptors** = ion channels, immediate effect. **Metabotropic receptors** = G proteins, slower/longer effects, can involve **second messengers** (including gene expression via DNA binding). Metabotropic receptors are **more prevalent**.
+10. **Ionotropic** = ion channels, immediate; **metabotropic** = G proteins, slower/longer, can use **second messengers** (gene expression); metabotropic **more prevalent**.
 
-11. **Autoreceptors** = presynaptic metabotropic receptors that bind the neuron's OWN NT; regulate NT release (feedback control).
+11. **Autoreceptors** = presynaptic metabotropic receptors binding the neuron's own NT; feedback control of release.
 
-12. **Reuptake** = primary NT deactivation mechanism (most NTs). **Enzymatic degradation** (acetylcholinesterase for ACh) = secondary mechanism. Both result in recycling of NT molecules/vesicles.
+12. **Reuptake** = primary deactivation; **enzymatic degradation** (acetylcholinesterase for ACh) = secondary; both recycle NT/vesicles.
 
-13. **L-dopa** (not dopamine) is used to treat Parkinson's disease because dopamine cannot cross the blood-brain barrier but L-dopa can; L-dopa is converted to dopamine in the brain.
+13. **L-dopa** treats Parkinson's because dopamine can't cross the BBB but L-dopa can.
 
-14. **Endocannabinoids** (e.g., anandamide) act via **retrograde transmission** — from postsynaptic BACK to presynaptic neurons; inhibit presynaptic NT release; anandamide = Sanskrit "eternal bliss"; synthesized from fatty membrane compounds.
+14. **Endocannabinoids** (anandamide) act via **retrograde transmission** (postsynaptic → presynaptic); inhibit release; "eternal bliss"; from fatty membrane compounds.
 
-15. **Gap junctions (electrical synapses)** use **connexins**; bidirectional; very fast (no active mechanisms); more prevalent in invertebrates but found throughout mammalian brain; astrocytes also communicate via gap junctions; rediscovered in mammals 1970s onward.
+15. **Gap junctions (electrical synapses)** = **connexins**; bidirectional; very fast; common in invertebrates, found throughout mammalian brain; astrocytes use them.
 
 ---
 *Source: Biopsychology (Pinel, 8th ed.), Chapter 4: Neural Conduction and Synaptic Transmission (pp. 100-125). Part of [[INDEX]].*
