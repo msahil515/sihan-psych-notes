@@ -3,97 +3,312 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Psych Notes — MET Prep</title>
 <link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#0f1115">
+<meta name="theme-color" content="#0b0d12">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <style>
 *{box-sizing:border-box}
-:root{--bg:#0f1115;--panel:#171a21;--ink:#e6e8ee;--muted:#9aa3b2;--accent:#5b9cff;--line:#262b36;--side-w:340px}
-html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;-webkit-text-size-adjust:100%}
+:root{
+  --bg:#0b0d12; --bg2:#0f1218; --panel:#13161f; --panel2:#171b26;
+  --ink:#e8ebf2; --ink2:#c2c8d6; --muted:#8a93a6; --faint:#5b6376;
+  --line:#222736; --line2:#2c3243;
+  --accent:#5b9cff; --accent-soft:rgba(91,156,255,.14); --accent-line:rgba(91,156,255,.4);
+  --side-w:360px; --radius:14px;
+}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased}
+body{background:radial-gradient(1200px 700px at 85% -10%,#141a28 0,var(--bg) 55%)}
 #app{display:flex;height:100%}
-#topbar{display:none;align-items:center;gap:10px;height:52px;padding:0 12px;background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:30}
-#menu{flex:none;width:40px;height:40px;border:1px solid var(--line);border-radius:9px;background:#0c0e12;color:var(--ink);font-size:19px;line-height:1;cursor:pointer}
-#topbar .tt{font-size:15px;font-weight:700}
-#side{width:var(--side-w);flex:none;background:var(--panel);border-right:1px solid var(--line);overflow-y:auto;padding:12px;-webkit-overflow-scrolling:touch}
-#main{flex:1;overflow-y:auto;padding:28px 40px;max-width:1100px;-webkit-overflow-scrolling:touch}
-#overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:20}
-h1.brand{font-size:18px;margin:4px 6px 12px}
-#q{width:100%;padding:11px 12px;border-radius:10px;border:1px solid var(--line);background:#0c0e12;color:var(--ink);font-size:15px}
-.book{margin-top:14px}
-.book>.bt{font-weight:700;color:var(--accent);font-size:13px;text-transform:uppercase;letter-spacing:.04em;padding:6px}
-.ch{display:block;padding:9px 10px;border-radius:8px;color:var(--ink);text-decoration:none;cursor:pointer;font-size:14.5px}
-.ch:active,.ch:hover{background:#1f2530}
-.ch.active{background:#26314a;color:#fff}
-.ch small{color:var(--muted)}
-#main h1{font-size:26px;border-bottom:1px solid var(--line);padding-bottom:10px}
-#main h2{font-size:21px;margin-top:28px;color:#cdd6ff}
-#main h3{font-size:17px;color:#aeb8d8}
-#main table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px}
-#main th,#main td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
-#main th{background:#1c222e}
-#main code{background:#1c222e;padding:1px 5px;border-radius:5px}
-#main strong{color:#fff}
-.hint{color:var(--muted);font-size:13px;margin-bottom:8px}
-#empty{color:var(--muted);text-align:center;margin-top:60px}
-/* Tablet/phone: sidebar becomes a slide-out drawer, notes read full-width */
+::selection{background:var(--accent-soft)}
+
+/* ---- top bar (mobile) ---- */
+#topbar{display:none;align-items:center;gap:12px;height:54px;padding:0 14px;
+  background:rgba(15,18,24,.92);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);position:sticky;top:0;z-index:30}
+#menu{flex:none;width:40px;height:40px;border:1px solid var(--line2);border-radius:11px;
+  background:var(--panel2);color:var(--ink);font-size:18px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}
+#menu:active{background:#1d2231}
+#topbar .tt{font-size:15px;font-weight:650;letter-spacing:.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* ---- sidebar ---- */
+#side{width:var(--side-w);flex:none;background:linear-gradient(180deg,var(--panel) 0,var(--bg2) 100%);
+  border-right:1px solid var(--line);overflow-y:auto;padding:20px 16px 40px;-webkit-overflow-scrolling:touch}
+.brand{display:flex;align-items:center;gap:11px;margin:2px 6px 16px}
+.brand .logo{width:38px;height:38px;border-radius:11px;flex:none;display:flex;align-items:center;justify-content:center;
+  font-size:21px;background:linear-gradient(135deg,#5b9cff,#a78bfa);box-shadow:0 4px 14px rgba(91,156,255,.35)}
+.brand .bn{font-size:16px;font-weight:750;letter-spacing:.01em}
+.brand .bs{font-size:11.5px;color:var(--muted);font-weight:500;letter-spacing:.03em;text-transform:uppercase}
+.search{position:relative;margin:0 2px 14px}
+.search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);opacity:.5}
+#q{width:100%;padding:12px 14px 12px 40px;border-radius:12px;border:1px solid var(--line2);
+  background:#0a0c11;color:var(--ink);font-size:15px;outline:none;transition:border-color .15s,box-shadow .15s}
+#q:focus{border-color:var(--accent-line);box-shadow:0 0 0 3px var(--accent-soft)}
+
+/* book filter pills */
+.pills{display:flex;flex-wrap:wrap;gap:7px;margin:0 2px 8px}
+.pill{flex:none;padding:7px 12px;border-radius:999px;border:1px solid var(--line2);background:transparent;
+  color:var(--ink2);font-size:13px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:7px;transition:.14s}
+.pill .dot{width:8px;height:8px;border-radius:50%;background:currentColor;opacity:.85}
+.pill:hover{border-color:var(--faint)}
+.pill.on{color:#fff;border-color:var(--bk,var(--accent-line));background:var(--bk-soft,var(--accent-soft));box-shadow:inset 0 0 0 1px var(--bk,transparent)}
+
+/* nav */
+#nav{margin-top:4px}
+.bkgroup{margin-top:16px}
+.bkhead{display:flex;align-items:center;gap:9px;padding:6px 8px;margin-bottom:2px}
+.bkhead .bk-ic{width:26px;height:26px;border-radius:8px;flex:none;display:flex;align-items:center;justify-content:center;font-size:14px;background:var(--bk-soft);border:1px solid var(--bk-line)}
+.bkhead .bk-nm{font-size:12px;font-weight:750;letter-spacing:.06em;text-transform:uppercase;color:var(--bk)}
+.bkhead .bk-ct{margin-left:auto;font-size:11px;color:var(--faint);font-variant-numeric:tabular-nums}
+.ch{display:flex;align-items:flex-start;gap:10px;padding:9px 10px;border-radius:10px;color:var(--ink2);
+  text-decoration:none;cursor:pointer;font-size:14px;line-height:1.45;position:relative}
+.ch .nm{flex:none;min-width:22px;height:22px;padding:0 5px;border-radius:7px;font-size:11.5px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;background:var(--panel2);color:var(--muted);
+  border:1px solid var(--line2);font-variant-numeric:tabular-nums;margin-top:1px}
+.ch:hover{background:#1a1f2c;color:var(--ink)}
+.ch.active{background:var(--bk-soft);color:#fff}
+.ch.active .nm{background:var(--bk);color:#0b0d12;border-color:var(--bk)}
+.ch.active::before{content:"";position:absolute;left:-16px;top:6px;bottom:6px;width:3px;border-radius:0 3px 3px 0;background:var(--bk)}
+.ch .bdg{margin-left:auto;flex:none;font-size:10px;font-weight:700;letter-spacing:.04em;color:var(--bk);
+  background:var(--bk-soft);border:1px solid var(--bk-line);border-radius:6px;padding:1px 6px;align-self:center}
+.noresult{color:var(--muted);font-size:13.5px;text-align:center;padding:30px 10px}
+
+/* ---- main ---- */
+#main{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;position:relative}
+#progress{position:sticky;top:0;left:0;height:3px;width:100%;z-index:15;background:transparent}
+#progress>i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--bk,var(--accent)),#a78bfa);transition:width .08s linear}
+.wrap{max-width:820px;margin:0 auto;padding:34px 44px 90px}
+
+/* home */
+.home .hero{margin:14px 0 28px}
+.home .hero h1{font-size:30px;font-weight:800;margin:0 0 8px;letter-spacing:-.01em;
+  background:linear-gradient(120deg,#fff,#b9c2da);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.home .hero p{color:var(--muted);font-size:15px;margin:0;max-width:560px}
+.cards{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+.card{text-align:left;border:1px solid var(--line2);border-radius:var(--radius);padding:18px;cursor:pointer;
+  background:linear-gradient(165deg,var(--panel2),var(--panel));position:relative;overflow:hidden;transition:.16s;color:inherit}
+.card::after{content:"";position:absolute;inset:0;border-radius:var(--radius);box-shadow:inset 0 1px 0 rgba(255,255,255,.04);pointer-events:none}
+.card:hover{transform:translateY(-2px);border-color:var(--bk-line);box-shadow:0 14px 34px rgba(0,0,0,.4)}
+.card .ic{width:46px;height:46px;border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:24px;
+  background:var(--bk-soft);border:1px solid var(--bk-line);margin-bottom:14px}
+.card .ttl{font-size:17px;font-weight:750;margin:0 0 3px;letter-spacing:.01em}
+.card .ed{font-size:12.5px;color:var(--muted);margin:0 0 14px;line-height:1.4}
+.card .meta{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--bk);font-weight:650}
+.card .meta .bar{flex:1;height:4px;border-radius:3px;background:var(--line2);overflow:hidden}
+.card .meta .bar>i{display:block;height:100%;width:100%;background:var(--bk);opacity:.55}
+
+/* book index (chapter grid inside main) */
+.bkindex{margin-top:6px}
+.bkindex .ihead{display:flex;align-items:center;gap:13px;margin:8px 0 20px}
+.bkindex .ihead .ic{width:50px;height:50px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:26px;background:var(--bk-soft);border:1px solid var(--bk-line);flex:none}
+.bkindex .ihead h2{margin:0;font-size:22px;font-weight:780}
+.bkindex .ihead .sub{color:var(--muted);font-size:13px}
+.ilist{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.icell{display:flex;align-items:center;gap:12px;padding:13px 15px;border:1px solid var(--line2);border-radius:12px;
+  cursor:pointer;background:var(--panel);transition:.14s;color:var(--ink2)}
+.icell:hover{border-color:var(--bk-line);background:var(--panel2);color:#fff;transform:translateX(2px)}
+.icell .n{flex:none;width:30px;height:30px;border-radius:9px;display:flex;align-items:center;justify-content:center;
+  font-size:13px;font-weight:750;background:var(--bk-soft);color:var(--bk);border:1px solid var(--bk-line);font-variant-numeric:tabular-nums}
+.icell .t{font-size:14px;line-height:1.35}
+
+/* reader */
+.crumb{display:flex;align-items:center;gap:9px;font-size:12.5px;font-weight:650;color:var(--bk);
+  letter-spacing:.04em;text-transform:uppercase;margin-bottom:14px}
+.crumb .bk-ic{width:22px;height:22px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:12px;background:var(--bk-soft);border:1px solid var(--bk-line)}
+.crumb .sep{color:var(--faint)}
+.reader h1{font-size:28px;font-weight:800;line-height:1.25;letter-spacing:-.01em;margin:0 0 6px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.reader h2{font-size:20px;font-weight:740;margin:34px 0 10px;color:#dfe5ff;scroll-margin-top:70px}
+.reader h3{font-size:16.5px;font-weight:700;margin:22px 0 8px;color:var(--ink2)}
+.reader p{margin:12px 0;color:var(--ink2)}
+.reader strong{color:#fff;font-weight:680}
+.reader ul,.reader ol{padding-left:22px;color:var(--ink2)}
+.reader li{margin:5px 0}
+.reader a{color:var(--bk)}
+.reader code{background:var(--panel2);border:1px solid var(--line2);padding:1px 6px;border-radius:6px;font-size:13.5px}
+.reader table{border-collapse:collapse;width:100%;margin:18px 0;font-size:14px;display:block;overflow-x:auto}
+.reader th,.reader td{border:1px solid var(--line2);padding:9px 12px;text-align:left;vertical-align:top}
+.reader th{background:var(--panel2);color:#fff;font-weight:700;position:sticky;top:0}
+.reader tr:nth-child(even) td{background:rgba(255,255,255,.015)}
+.reader blockquote{margin:14px 0;padding:8px 16px;border-left:3px solid var(--bk);background:var(--bk-soft);border-radius:0 8px 8px 0;color:var(--ink2)}
+.reader hr{border:0;border-top:1px solid var(--line);margin:26px 0}
+
+/* prev / next */
+.pn{display:flex;gap:12px;margin-top:42px;padding-top:22px;border-top:1px solid var(--line)}
+.pn a{flex:1;display:flex;flex-direction:column;gap:3px;padding:13px 16px;border:1px solid var(--line2);border-radius:12px;
+  cursor:pointer;text-decoration:none;background:var(--panel);transition:.14s;min-width:0}
+.pn a:hover{border-color:var(--bk-line);background:var(--panel2)}
+.pn a.next{text-align:right;align-items:flex-end}
+.pn .lab{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.pn .pt{font-size:13.5px;color:var(--ink);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.pn a.empty{visibility:hidden}
+
 @media(max-width:900px){
   #app{display:block;height:100%}
   #topbar{display:flex}
-  #main{height:calc(100% - 52px);padding:18px;max-width:none}
-  #side{position:fixed;top:0;left:0;height:100%;width:min(86vw,var(--side-w));z-index:25;
-        transform:translateX(-100%);transition:transform .22s ease;box-shadow:0 0 24px rgba(0,0,0,.5)}
+  #main{height:calc(100% - 54px)}
+  .wrap{padding:22px 18px 80px}
+  .cards{grid-template-columns:1fr}
+  .ilist{grid-template-columns:1fr}
+  #side{position:fixed;top:0;left:0;height:100%;width:min(88vw,var(--side-w));z-index:25;
+    transform:translateX(-100%);transition:transform .24s cubic-bezier(.4,0,.2,1);box-shadow:0 0 40px rgba(0,0,0,.6)}
   body.nav-open #side{transform:translateX(0)}
+  #overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:20;backdrop-filter:blur(2px)}
   body.nav-open #overlay{display:block}
 }
+@media(max-width:900px){.home .hero h1{font-size:25px}.reader h1{font-size:24px}}
 </style></head><body>
 <div id="topbar">
   <button id="menu" aria-label="Menu">☰</button>
-  <span class="tt">📚 Psych Notes</span>
+  <span class="tt" id="tt">Psych Notes</span>
 </div>
 <div id="app">
-  <div id="side">
-    <h1 class="brand">📚 Psych Notes · MET Prep</h1>
-    <input id="q" placeholder="Search all notes…" autocomplete="off" autocapitalize="off">
+  <aside id="side">
+    <div class="brand">
+      <div class="logo">ψ</div>
+      <div><div class="bn">Psych Notes</div><div class="bs">MET 2026 Prep</div></div>
+    </div>
+    <div class="search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8a93a6" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" placeholder="Search all 45 chapters…" autocomplete="off" autocapitalize="off" spellcheck="false">
+    </div>
+    <div class="pills" id="pills"></div>
     <div id="nav"></div>
-  </div>
-  <div id="main"><div id="empty">Select a chapter, or search across all three books.</div></div>
+  </aside>
+  <main id="main"><div id="progress"><i></i></div><div class="wrap" id="view"></div></main>
 </div>
 <div id="overlay"></div>
 <script>
 const DATA = __PAYLOAD__;
-const nav=document.getElementById('nav'), main=document.getElementById('main'), q=document.getElementById('q');
+// ---- per-book visual identity (keyed by book.key) ----
+const THEME={
+  "schultz-personality":{c:"167,139,250",ic:"🧩"},
+  "baron-social-psychology":{c:"45,212,191",ic:"👥"},
+  "pinel-biopsychology":{c:"251,191,114",ic:"🧠"}
+};
+const FALLBACK={c:"91,156,255",ic:"📘"};
+const meta=k=>THEME[k]||FALLBACK;
+function bookVars(k){const m=meta(k);return `--bk:rgb(${m.c});--bk-soft:rgba(${m.c},.13);--bk-line:rgba(${m.c},.42)`;}
+function edition(b){const m=(b.title||"").match(/\(([^)]+)\)/);return m?m[1]:"";}
+function cleanTitle(t){return t.replace(/^(Chapter|Ch)?\s*\d+\s*[:.—-]?\s*/i,"").trim();}
+
+const view=document.getElementById('view'), nav=document.getElementById('nav'),
+      q=document.getElementById('q'), pills=document.getElementById('pills'),
+      main=document.getElementById('main'), tt=document.getElementById('tt'),
+      progress=document.querySelector('#progress>i');
 const menu=document.getElementById('menu'), overlay=document.getElementById('overlay');
+let activeBook="all", current=null;
+
 function openNav(){document.body.classList.add('nav-open');}
 function closeNav(){document.body.classList.remove('nav-open');}
-function toggleNav(){document.body.classList.toggle('nav-open');}
-menu.addEventListener('click',toggleNav);
-overlay.addEventListener('click',closeNav);
-function render(){
+menu.onclick=()=>document.body.classList.toggle('nav-open');
+overlay.onclick=closeNav;
+
+// ---- filter pills ----
+function buildPills(){
+  pills.innerHTML='';
+  const mk=(key,label)=>{
+    const b=document.createElement('button');b.className='pill'+(activeBook===key?' on':'');
+    if(key!=='all') b.setAttribute('style',bookVars(key));
+    b.innerHTML=(key==='all'?'':'<span class="dot"></span>')+label;
+    b.onclick=()=>{activeBook=key;current=null;q.value='';buildPills();renderNav();renderHome();closeNav();};
+    pills.appendChild(b);
+  };
+  mk('all','All');
+  DATA.books.forEach(b=>mk(b.key,b.subject));
+}
+
+// ---- sidebar nav ----
+function renderNav(){
   const term=q.value.trim().toLowerCase();
   nav.innerHTML='';
+  let shown=0;
   DATA.books.forEach(bk=>{
+    if(!term && activeBook!=='all' && activeBook!==bk.key) return;
     let docs=DATA.docs.filter(d=>d.book===bk.key);
     if(term) docs=docs.filter(d=>d.title.toLowerCase().includes(term)||d.text.includes(term));
     if(!docs.length) return;
-    const bd=document.createElement('div'); bd.className='book';
-    bd.innerHTML='<div class="bt">'+bk.subject+'</div>';
+    shown+=docs.length;
+    const m=meta(bk.key);
+    const g=document.createElement('div');g.className='bkgroup';g.setAttribute('style',bookVars(bk.key));
+    const h=document.createElement('div');h.className='bkhead';
+    h.innerHTML=`<span class="bk-ic">${m.ic}</span><span class="bk-nm">${bk.subject}</span><span class="bk-ct">${docs.length}</span>`;
+    g.appendChild(h);
     docs.forEach(d=>{
-      const a=document.createElement('a'); a.className='ch';
-      a.innerHTML=d.title.replace(/^(Ch ?\d+:?|\d+|Chapter \d+:?)\s*/i,m=>'<small>'+m.trim()+'</small> ');
-      a.onclick=()=>openDoc(d,a);
-      bd.appendChild(a);
+      const a=document.createElement('a');a.className='ch'+(current&&current===d?' active':'');
+      a.innerHTML=`<span class="nm">${d.num}</span><span>${cleanTitle(d.title)}</span>`;
+      a.onclick=()=>openDoc(d);
+      g.appendChild(a);
     });
-    nav.appendChild(bd);
+    nav.appendChild(g);
   });
+  if(!shown) nav.innerHTML='<div class="noresult">No chapters match “'+term.replace(/</g,'')+'”.</div>';
 }
-function openDoc(d,el){
-  document.querySelectorAll('.ch.active').forEach(e=>e.classList.remove('active'));
-  if(el) el.classList.add('active');
-  main.innerHTML='<div class="hint">'+d.bookTitle+'</div>'+d.html;
-  main.scrollTop=0;
-  closeNav();
+
+// ---- home / book index ----
+function renderHome(){
+  current=null;tt.textContent='Psych Notes';main.scrollTop=0;progress.style.width='0';
+  if(activeBook==='all'){
+    let cards='';
+    DATA.books.forEach(b=>{
+      const m=meta(b.key),n=DATA.docs.filter(d=>d.book===b.key).length;
+      cards+=`<button class="card" style="${bookVars(b.key)}" data-book="${b.key}">
+        <div class="ic">${m.ic}</div>
+        <div class="ttl">${b.subject}</div>
+        <div class="ed">${edition(b)}</div>
+        <div class="meta"><span>${n} chapters</span><span class="bar"><i></i></span></div>
+      </button>`;
+    });
+    view.className='wrap home';
+    view.innerHTML=`<div class="hero"><h1>Three textbooks, one tap away.</h1>
+      <p>Granular chapter notes for the MET 2026 Clinical Psych entrance. Pick a book to see its chapters, or search every page at once. Works fully offline.</p></div>
+      <div class="cards">${cards}</div>`;
+    view.querySelectorAll('.card').forEach(c=>c.onclick=()=>{
+      activeBook=c.dataset.book;buildPills();renderNav();renderHome();
+    });
+  } else {
+    const b=DATA.books.find(x=>x.key===activeBook),m=meta(activeBook);
+    const docs=DATA.docs.filter(d=>d.book===activeBook);
+    let cells='';
+    docs.forEach(d=>{cells+=`<div class="icell" data-num="${d.num}"><span class="n">${d.num}</span><span class="t">${cleanTitle(d.title)}</span></div>`;});
+    view.className='wrap';view.setAttribute('style',bookVars(activeBook));
+    view.innerHTML=`<div class="bkindex"><div class="ihead"><div class="ic">${m.ic}</div>
+      <div><h2>${b.subject}</h2><div class="sub">${b.title}</div></div></div>
+      <div class="ilist">${cells}</div></div>`;
+    view.querySelectorAll('.icell').forEach(c=>c.onclick=()=>{
+      const d=docs.find(x=>String(x.num)===c.dataset.num);if(d)openDoc(d);
+    });
+  }
 }
-q.addEventListener('input',render);
-render();
+
+// ---- reader ----
+function openDoc(d){
+  current=d;activeBook=d.book;buildPills();
+  const m=meta(d.book);
+  const sib=DATA.docs.filter(x=>x.book===d.book);
+  const i=sib.indexOf(d),prev=sib[i-1],next=sib[i+1];
+  const pn=(item,cls,lab)=>item
+    ? `<a class="${cls}" data-num="${item.num}"><span class="lab">${lab}</span><span class="pt">${cleanTitle(item.title)}</span></a>`
+    : `<a class="${cls} empty"></a>`;
+  view.className='wrap reader';view.setAttribute('style',bookVars(d.book));
+  view.innerHTML=`<div class="crumb"><span class="bk-ic">${m.ic}</span>${d.subject}<span class="sep">›</span>Ch ${d.num}</div>`
+    +'<h1>'+cleanTitle(d.title)+'</h1>'+d.html
+    +`<nav class="pn">${pn(prev,'prev','‹ Previous')}${pn(next,'next','Next ›')}</nav>`;
+  view.querySelectorAll('.pn a[data-num]').forEach(a=>a.onclick=()=>{
+    const t=sib.find(x=>String(x.num)===a.dataset.num);if(t)openDoc(t);
+  });
+  tt.textContent=cleanTitle(d.title);
+  main.scrollTop=0;progress.style.width='0';
+  renderNav();closeNav();
+}
+
+// reading progress
+main.addEventListener('scroll',()=>{
+  if(!current){progress.style.width='0';return;}
+  const max=main.scrollHeight-main.clientHeight;
+  progress.style.width=(max>0?Math.min(100,main.scrollTop/max*100):0)+'%';
+});
+
+q.addEventListener('input',()=>{renderNav();if(q.value.trim())openNav();});
+buildPills();renderNav();renderHome();
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));}
 </script></body></html>
