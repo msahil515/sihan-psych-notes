@@ -1,0 +1,748 @@
+# Biopsychology (Pinel, 8th ed.) — Index
+
+*Subject: Biopsychology · 18 chapters · 608 pages*
+
+Granular chapter-by-chapter index (section headings auto-detected; no embedded TOC).
+
+## [[ch01-chapter-1-biopsychology-as-a-neuroscience|Chapter 1: Biopsychology as a Neuroscience]]  <small>(pp. 26–45)</small>
+- What Is Biopsychology?  <small>p.27</small>
+- Four Major Themes of This Book  <small>p.27</small>
+- Thinking Creatively  <small>p.27</small>
+- Evolutiona  <small>p.27</small>
+- Perspective  <small>p.27</small>
+- Ne roplasticity  <small>p.27</small>
+- Clinical  <small>p.27</small>
+- Implications  <small>p.27</small>
+- What Is the Relation between  <small>p.28</small>
+- Biopsychology and the Other  <small>p.28</small>
+- Disciplines of Neuroscience?  <small>p.28</small>
+- What Types of Research  <small>p.28</small>
+- Characterize the  <small>p.28</small>
+- Biopsychological Approach?  <small>p.28</small>
+- Human and Nonhuman Subjects  <small>p.28</small>
+- Experiments and Nonexperiments  <small>p.29</small>
+- Check It Out  <small>p.29</small>
+- Pure and Applied Research  <small>p.31</small>
+- What Are the Divisions  <small>p.32</small>
+- Physiological Psychology  <small>p.33</small>
+- Psychopharmacology  <small>p.33</small>
+- Neuropsychology  <small>p.33</small>
+- The Case of Mr. R., the  <small>p.33</small>
+- Brain-Damaged Student  <small>p.33</small>
+- Who Switched to Architecture  <small>p.33</small>
+- Psychophysiology  <small>p.33</small>
+- Cognitive Neuroscience  <small>p.34</small>
+- Comparative Psychology  <small>p.35</small>
+- Converging Operations: How Do  <small>p.36</small>
+- Biopsychologists Work Together?  <small>p.36</small>
+- Scientific Inference: How  <small>p.37</small>
+- Do Biopsychologists Study  <small>p.37</small>
+- Critical Thinking about  <small>p.38</small>
+- Biopsychological Claims  <small>p.38</small>
+- Case 1: José and the Bull  <small>p.39</small>
+- Case 2: Becky, Moniz, and  <small>p.39</small>
+- Prefrontal Lobotomy  <small>p.39</small>
+- Themes Revisited  <small>p.41</small>
+- Think about It  <small>p.42</small>
+- Key Terms  <small>p.42</small>
+
+## [[ch02-chapter-2-evolution-genetics-and-experience|Chapter 2: Evolution, Genetics, and Experience]]  <small>(pp. 46–75)</small>
+- Problems with Thinking about the Biology  <small>p.46</small>
+- Dichotomies  <small>p.46</small>
+- The Case of the Man Who  <small>p.46</small>
+- Fell Out of Bed  <small>p.46</small>
+- Clinical  <small>p.46</small>
+- Implications  <small>p.46</small>
+- The Case of the Chimps  <small>p.47</small>
+- Evolutiona  <small>p.47</small>
+- Perspective  <small>p.47</small>
+- The Case of the Thinking Student  <small>p.48</small>
+- Human Evolution  <small>p.48</small>
+- Thinking Creatively  <small>p.48</small>
+- Evolution and Behavior  <small>p.50</small>
+- Course of Human Evolution  <small>p.51</small>
+- Thinking about Human  <small>p.53</small>
+- Evolution  <small>p.53</small>
+- Evolution of the Human Brain  <small>p.55</small>
+- Evolutionary Psychology: Understanding  <small>p.57</small>
+- Mate Bonding  <small>p.57</small>
+- Thinking about Evolutionary Psychology  <small>p.59</small>
+- Fundamental Genetics  <small>p.59</small>
+- Mendelian Genetics  <small>p.59</small>
+- Chromosomes: Reproduction  <small>p.60</small>
+- Chromosomes: Structure and Replication  <small>p.60</small>
+- Sex Chromosomes and Sex-Linked Traits  <small>p.62</small>
+- The Genetic Code and Gene Expression  <small>p.62</small>
+- Mitochondrial DNA  <small>p.63</small>
+- Modern Genetics  <small>p.63</small>
+- Behavioral Development:  <small>p.66</small>
+- Interaction of Genetic Factors  <small>p.66</small>
+- Selective Breeding of Maze-Bright  <small>p.66</small>
+- Ne roplasticity  <small>p.66</small>
+- Phenylketonuria: A Single-Gene  <small>p.67</small>
+- Metabolic Disorder  <small>p.67</small>
+- Development of Birdsong  <small>p.68</small>
+- Genetics of Human Psychological  <small>p.69</small>
+- Differences  <small>p.69</small>
+- Development of Individuals versus  <small>p.70</small>
+- Development of Differences among  <small>p.70</small>
+- Individuals  <small>p.70</small>
+
+## [[ch03-chapter-3-anatomy-of-the-nervous-system|Chapter 3: Anatomy of the Nervous System]]  <small>(pp. 76–99)</small>
+- Clinical  <small>p.76</small>
+- Implications  <small>p.76</small>
+- Meninges, Ventricles, and  <small>p.77</small>
+- Cerebrospinal Fluid  <small>p.77</small>
+- Blood Brain Barrier  <small>p.77</small>
+- Anatomy of Neurons  <small>p.79</small>
+- Cells of the Nervous System  <small>p.79</small>
+- Glial Cells: The Forgotten Cells  <small>p.81</small>
+- Neuroanatomical Techniques  <small>p.83</small>
+- Directions in the Vertebrate Nervous System  <small>p.85</small>
+- Spinal Cord  <small>p.87</small>
+- Five Major Divisions  <small>p.87</small>
+- Major Structures  <small>p.88</small>
+- Myelencephalon  <small>p.88</small>
+- Metencephalon  <small>p.89</small>
+- Mesencephalon  <small>p.89</small>
+- Diencephalon  <small>p.90</small>
+- Telencephalon  <small>p.90</small>
+- Evolutiona  <small>p.91</small>
+- Perspective  <small>p.91</small>
+- The Limbic System and the Basal Ganglia  <small>p.93</small>
+- Themes Revisited  <small>p.97</small>
+- Think about It  <small>p.98</small>
+- Key Terms  <small>p.98</small>
+- Neural Conduction and  <small>p.99</small>
+- Synaptic Transmission  <small>p.99</small>
+- How Neurons Send  <small>p.99</small>
+
+## [[ch04-chapter-4-neural-conduction-and-synaptic-transmiss|Chapter 4: Neural Conduction and Synaptic Transmission]]  <small>(pp. 100–125)</small>
+- Resting Membrane Potential  <small>p.100</small>
+- Recording the Membrane Potential  <small>p.100</small>
+- The Lizard, a Case  <small>p.100</small>
+- Clinical  <small>p.100</small>
+- Implications  <small>p.100</small>
+- Ionic Basis of the Resting Potential  <small>p.101</small>
+- Thinking Creatively  <small>p.101</small>
+- Generation and Conduction of  <small>p.103</small>
+- Postsynaptic Potentials  <small>p.103</small>
+- Integration of Postsynaptic  <small>p.104</small>
+- Potentials and Generation of  <small>p.104</small>
+- Action Potentials  <small>p.104</small>
+- Conduction of Action Potentials  <small>p.106</small>
+- Ionic Basis of Action Potentials  <small>p.106</small>
+- Refractory Periods  <small>p.107</small>
+- Axonal Conduction of Action Potentials  <small>p.107</small>
+- Conduction in  <small>p.108</small>
+- Myelinated Axons  <small>p.108</small>
+- The Velocity of Axonal Conduction  <small>p.109</small>
+- Conduction in Neurons without Axons  <small>p.109</small>
+- The Hodgkin-Huxley Model in Perspective  <small>p.109</small>
+- Synaptic Transmission: Chemical  <small>p.110</small>
+- Transmission of Signals among  <small>p.110</small>
+- Neurons  <small>p.110</small>
+- Structure of Synapses  <small>p.110</small>
+- Synthesis, Packaging,  <small>p.111</small>
+- Neurotransmitter  <small>p.111</small>
+- Molecules  <small>p.111</small>
+- Release of Neurotransmitter Molecules  <small>p.112</small>
+- Activation of Receptors by  <small>p.113</small>
+- Neurotransmitter Molecules  <small>p.113</small>
+- Reuptake, Enzymatic Degradation,  <small>p.114</small>
+- Glial Function and Synaptic Transmission  <small>p.115</small>
+- Evolutiona  <small>p.115</small>
+- Perspective  <small>p.115</small>
+- Neurotransmitters  <small>p.116</small>
+- Amino Acid Neurotransmitters  <small>p.116</small>
+- Monoamine Neurotransmitters  <small>p.116</small>
+- Acetylcholine  <small>p.117</small>
+- Unconventional Neurotransmitters  <small>p.117</small>
+
+## [[ch05-chapter-5-the-research-methods-of-biopsychology|Chapter 5: The Research Methods of Biopsychology]]  <small>(pp. 126–155)</small>
+- PART ONE  <small>p.126</small>
+- METHODS OF STUDYING  <small>p.126</small>
+- THE NERVOUS SYSTEM  <small>p.126</small>
+- Methods of Visualizing  <small>p.126</small>
+- Human Brain  <small>p.126</small>
+- The Ironic Case of Professor P.  <small>p.126</small>
+- Clinical  <small>p.126</small>
+- Implications  <small>p.126</small>
+- X-Ray Computed  <small>p.127</small>
+- Tomography  <small>p.127</small>
+- Contrast X-Rays  <small>p.127</small>
+- Magnetic Resonance Imaging  <small>p.128</small>
+- Positron Emission Tomography  <small>p.128</small>
+- Functional MRI  <small>p.129</small>
+- Magnetoencephalography  <small>p.130</small>
+- Transcranial Magnetic Stimulation  <small>p.131</small>
+- Recording Human  <small>p.131</small>
+- Psychophysiological Activity  <small>p.131</small>
+- Scalp Electroencephalography  <small>p.131</small>
+- Muscle Tension  <small>p.133</small>
+- Eye Movement  <small>p.133</small>
+- Skin Conductance  <small>p.134</small>
+- Cardiovascular Activity  <small>p.134</small>
+- Invasive Physiological  <small>p.135</small>
+- Research Methods  <small>p.135</small>
+- Stereotaxic Surgery  <small>p.135</small>
+- Lesion Methods  <small>p.135</small>
+- Thinking Creatively  <small>p.136</small>
+- Electrical Stimulation  <small>p.137</small>
+- Invasive Electrophysiological  <small>p.137</small>
+- Recording Methods  <small>p.137</small>
+- Routes of Drug Administration  <small>p.138</small>
+- Pharmacological Research  <small>p.138</small>
+- Methods  <small>p.138</small>
+- Selective Chemical Lesions  <small>p.139</small>
+- Measuring Chemical Activity of the Brain  <small>p.139</small>
+- Locating Neurotransmitters  <small>p.140</small>
+- Genetic Engineering  <small>p.140</small>
+- Gene Knockout Techniques  <small>p.140</small>
+- Gene Replacement Techniques  <small>p.141</small>
+
+## [[ch06-chapter-6-the-visual-system|Chapter 6: The Visual System]]  <small>(pp. 156–189)</small>
+- The Case of Mrs. Richards:  <small>p.156</small>
+- Fortification Illusions and  <small>p.156</small>
+- Thinking Creatively  <small>p.156</small>
+- Clinical  <small>p.156</small>
+- Implications  <small>p.156</small>
+- Light Enters the Eye and Reaches  <small>p.157</small>
+- The Pupil and the Lens  <small>p.157</small>
+- Evolutiona  <small>p.157</small>
+- Perspective  <small>p.157</small>
+- Eye Position and Binocular Disparity  <small>p.158</small>
+- Check It Out  <small>p.159</small>
+- The Retina and Translation of  <small>p.160</small>
+- Light into Neural Signals  <small>p.160</small>
+- Cone and Rod Vision  <small>p.161</small>
+- Spectral Sensitivity  <small>p.163</small>
+- Eye Movement  <small>p.164</small>
+- 50 *  <small>p.164</small>
+- 40 *  <small>p.164</small>
+- 30 *  <small>p.164</small>
+- 20 *  <small>p.164</small>
+- 10 *  <small>p.164</small>
+- 5 *  0 *  <small>p.164</small>
+- Visual Transduction: The Conversion  <small>p.165</small>
+- From Retina to  <small>p.166</small>
+- Primary Visual Cortex  <small>p.166</small>
+- Retinotopic Organization  <small>p.167</small>
+- The M and P Channels  <small>p.167</small>
+- Seeing Edges  <small>p.168</small>
+- Lateral Inhibition and Contrast  <small>p.168</small>
+- Enhancement  <small>p.168</small>
+- Receptive Fields of Visual  <small>p.169</small>
+- Neurons  <small>p.169</small>
+- Receptive Fields: Neurons of the  <small>p.170</small>
+- Retina-Geniculate-Striate System  <small>p.170</small>
+- Receptive Fields: Simple Cortical Cells  <small>p.171</small>
+- Receptive Fields: Complex Cortical Cells  <small>p.172</small>
+- Columnar Organization of Primary  <small>p.172</small>
+- Visual Cortex  <small>p.172</small>
+- The Case of Mrs. Richards,  <small>p.173</small>
+- Revisited  <small>p.173</small>
+
+## [[ch07-chapter-7-mechanisms-of-perception-hearing-touch-s|Chapter 7: Mechanisms of Perception: Hearing, Touch, Smell, Taste, and A]]  <small>(pp. 190–215)</small>
+- The Case of the Man Who Mistook  <small>p.190</small>
+- His Wife for a Hat  <small>p.190</small>
+- Functional Segregation  <small>p.190</small>
+- Parallel Processing  <small>p.190</small>
+- Summary Model of Sensory System  <small>p.190</small>
+- Organization  <small>p.190</small>
+- Clinical  <small>p.190</small>
+- Implications  <small>p.190</small>
+- Auditory System  <small>p.191</small>
+- The Ear  <small>p.192</small>
+- From the Ear to the Primary  <small>p.194</small>
+- Auditory Cortex  <small>p.194</small>
+- Subcortical Mechanisms  <small>p.194</small>
+- Evolutiona  <small>p.195</small>
+- Perspective  <small>p.195</small>
+- Effects of Damage to the Auditory System  <small>p.196</small>
+- Ne roplasticity  <small>p.197</small>
+- Cutaneous Receptors  <small>p.198</small>
+- Somatosensory System:  <small>p.198</small>
+- Touch and Pain  <small>p.198</small>
+- Dermatomes  <small>p.199</small>
+- Two Major Somatosensory Pathways  <small>p.199</small>
+- Cortical Areas of  <small>p.201</small>
+- Somatosensation  <small>p.201</small>
+- Effects of Damage to the Primary  <small>p.203</small>
+- Somatosensory Cortex  <small>p.203</small>
+- Somatosensory System and  <small>p.203</small>
+- Association Cortex  <small>p.203</small>
+- The Case of W.M., Who Reduced  <small>p.203</small>
+- His Scotoma with His Hand  <small>p.203</small>
+- Somatosensory Agnosias  <small>p.203</small>
+- Check It Out  <small>p.203</small>
+- The Case of Aunt Betty, Who Lost  <small>p.204</small>
+- Half of Her Body  <small>p.204</small>
+- Perception of Pain  <small>p.204</small>
+- The Case of Miss C., the Woman  <small>p.205</small>
+- Who Felt No Pain  <small>p.205</small>
+- Thinking Creatively  <small>p.205</small>
+- Neuropathic Pain  <small>p.207</small>
+- Chemical Senses: Smell and Taste  <small>p.207</small>
+
+## [[ch08-chapter-8-the-sensorimotor-system|Chapter 8: The Sensorimotor System]]  <small>(pp. 216–243)</small>
+- Three Principles of  <small>p.216</small>
+- Sensorimotor Function  <small>p.216</small>
+- The Sensorimotor System  <small>p.216</small>
+- Is Hierarchically Organized  <small>p.216</small>
+- The Case of Rhonda,  <small>p.216</small>
+- Thinking Creatively  <small>p.216</small>
+- Learning Changes the Nature and Locus  <small>p.217</small>
+- A General Model of Sensorimotor  <small>p.217</small>
+- System Function  <small>p.217</small>
+- Motor Output Is Guided by Sensory Input  <small>p.217</small>
+- The Case of G.O., the Man with  <small>p.217</small>
+- Too Little Feedback  <small>p.217</small>
+- Ne roplasticity  <small>p.217</small>
+- Clinical  <small>p.217</small>
+- Implications  <small>p.217</small>
+- Sensorimotor Association Cortex  <small>p.218</small>
+- Posterior Parietal Association Cortex  <small>p.218</small>
+- The Case of Mrs. S., the Woman  <small>p.219</small>
+- Who Turned in Circles  <small>p.219</small>
+- Dorsolateral Prefrontal Association Cortex  <small>p.221</small>
+- Secondary Motor Cortex  <small>p.221</small>
+- Identifying the Areas of  <small>p.221</small>
+- Evolutiona  <small>p.221</small>
+- Perspective  <small>p.221</small>
+- Mirror Neurons  <small>p.222</small>
+- Primary Motor Cortex  <small>p.224</small>
+- Belle: The Monkey That Controlled  <small>p.225</small>
+- Cerebellum and Basal Ganglia  <small>p.226</small>
+- Cerebellum  <small>p.226</small>
+- Basal Ganglia  <small>p.226</small>
+- Descending Motor Pathways  <small>p.227</small>
+- Dorsolateral Corticospinal Tract and  <small>p.227</small>
+- Dorsolateral Corticorubrospinal Tract  <small>p.227</small>
+- Ventromedial Corticospinal Tract and  <small>p.229</small>
+- Ventromedial Cortico-brainstem-spinal Tract  <small>p.229</small>
+- Comparison of the Two Dorsolateral Motor  <small>p.229</small>
+- Pathways and the Two Ventromedial  <small>p.229</small>
+- Motor Pathways  <small>p.229</small>
+- Sensorimotor Spinal Circuits  <small>p.231</small>
+- Muscles  <small>p.231</small>
+
+## [[ch09-chapter-9-development-of-the-nervous-system|Chapter 9: Development of the Nervous System]]  <small>(pp. 244–265)</small>
+- Phases of Neurodevelopment  <small>p.244</small>
+- Induction of the Neural Plate  <small>p.244</small>
+- The Case of Genie  <small>p.244</small>
+- Ne roplasticity  <small>p.244</small>
+- Thinking Creatively  <small>p.244</small>
+- Clinical  <small>p.244</small>
+- Implications  <small>p.244</small>
+- Neural Proliferation  <small>p.246</small>
+- Migration and Aggregation  <small>p.246</small>
+- Axon Growth and Synapse Formation  <small>p.248</small>
+- Evolutiona  <small>p.248</small>
+- Perspective  <small>p.248</small>
+- Neuron Death and Synapse  <small>p.250</small>
+- Rearrangement  <small>p.250</small>
+- Postnatal Cerebral Development  <small>p.252</small>
+- Postnatal Growth of the Human Brain  <small>p.252</small>
+- Development of the Prefrontal Cortex  <small>p.253</small>
+- Effects of Experience on the Early  <small>p.254</small>
+- Development, Maintenance, and  <small>p.254</small>
+- Reorganization of Neural Circuits  <small>p.254</small>
+- Early Studies of Experience and  <small>p.254</small>
+- Neurodevelopment: Deprivation  <small>p.254</small>
+- Competitive Nature of Experience  <small>p.254</small>
+- Dominance Columns  <small>p.254</small>
+- Effects of Experience on Topographic  <small>p.255</small>
+- Sensory Cortex Maps  <small>p.255</small>
+- Experience Fine-Tunes Neurodevelopment  <small>p.255</small>
+- Neuroplasticity in Adults  <small>p.256</small>
+- Neurogenesis in Adult Mammals  <small>p.256</small>
+- Effects of Experience on the Reorganization  <small>p.257</small>
+- Autism  <small>p.258</small>
+- The Case of Alex: Are You Ready  <small>p.258</small>
+- Disorders of Neurodevelopment:  <small>p.258</small>
+- Autism and Williams Syndrome  <small>p.258</small>
+- Cases of Amazing Savant Abilities  <small>p.259</small>
+- Williams Syndrome  <small>p.260</small>
+- The Case of Anne Louise  <small>p.260</small>
+- McGarrah: Uneven Abilities of  <small>p.260</small>
+- Those with Williams Syndrome  <small>p.260</small>
+- Epilogue  <small>p.262</small>
+
+## [[ch10-chapter-10-brain-damage-and-neuroplasticity|Chapter 10: Brain Damage and Neuroplasticity]]  <small>(pp. 266–293)</small>
+- Cerebrovascular Disorders: Strokes  <small>p.266</small>
+- Clinical  <small>p.266</small>
+- Implications  <small>p.266</small>
+- Closed-Head Injuries  <small>p.268</small>
+- The Case of Jerry Quarry,  <small>p.269</small>
+- Ex-Boxer  <small>p.269</small>
+- Infections of the Brain  <small>p.269</small>
+- Neurotoxins  <small>p.270</small>
+- Genetic Factors  <small>p.270</small>
+- Evolutiona  <small>p.270</small>
+- Perspective  <small>p.270</small>
+- Programmed Cell Death  <small>p.271</small>
+- 10.2  <small>p.271</small>
+- Neuropsychological Diseases  <small>p.271</small>
+- Epilepsy  <small>p.271</small>
+- Ne roplasticity  <small>p.271</small>
+- The Subtlety of Complex Partial  <small>p.272</small>
+- Seizures: Two Cases  <small>p.272</small>
+- Parkinson s Disease  <small>p.273</small>
+- Huntington s Disease  <small>p.274</small>
+- Multiple Sclerosis  <small>p.274</small>
+- Thinking Creatively  <small>p.274</small>
+- Alzheimer s Disease  <small>p.275</small>
+- 10.3  <small>p.277</small>
+- Animal Models of Human  <small>p.277</small>
+- Kindling Model of Epilepsy  <small>p.277</small>
+- Transgenic Mouse Models of  <small>p.278</small>
+- MPTP Model of Parkinson s Disease  <small>p.278</small>
+- The Cases of the Frozen Addicts  <small>p.278</small>
+- 10.4  <small>p.279</small>
+- Neuroplastic Responses to  <small>p.279</small>
+- Nervous System Damage:  <small>p.279</small>
+- Degeneration, Regeneration,  <small>p.279</small>
+- Reorganization, and Recovery  <small>p.279</small>
+- Neural Degeneration  <small>p.279</small>
+- Neural Regeneration  <small>p.281</small>
+- Neural Reorganization  <small>p.282</small>
+- Recovery of Function after Brain Damage  <small>p.283</small>
+- 10.5  <small>p.285</small>
+- Neuroplasticity and the Treatment  <small>p.285</small>
+
+## [[ch11-chapter-11-learning-memory-and-amnesia|Chapter 11: Learning, Memory, and Amnesia]]  <small>(pp. 294–323)</small>
+- Formal Assessment of H.M. s  <small>p.294</small>
+- Anterograde Amnesia: Discovery  <small>p.294</small>
+- Three Major Scientific Contributions of  <small>p.296</small>
+- H.M. s Case  <small>p.296</small>
+- Medial Temporal Lobe Amnesia  <small>p.296</small>
+- Clinical  <small>p.296</small>
+- Implications  <small>p.296</small>
+- Semantic and Episodic Memories  <small>p.297</small>
+- The Case of K.C., the Man  <small>p.297</small>
+- Who Can t Time Travel  <small>p.297</small>
+- Evolutiona  <small>p.297</small>
+- Perspective  <small>p.297</small>
+- The Case of the Clever  <small>p.298</small>
+- Neuropsychologist: Spotting  <small>p.298</small>
+- Episodic Memory Deficits  <small>p.298</small>
+- Effects of Cerebral Ischemia  <small>p.298</small>
+- Memory  <small>p.298</small>
+- The Case of R.B., Product of a  <small>p.298</small>
+- Bungled Operation  <small>p.298</small>
+- 11.2  <small>p.299</small>
+- Amnesia of Korsakoff s Syndrome  <small>p.299</small>
+- The Up-Your-Nose Case of N.A.  <small>p.300</small>
+- 11.3  <small>p.300</small>
+- Amnesia of Alzheimer s Disease  <small>p.300</small>
+- 11.4  <small>p.300</small>
+- Amnesia after Concussion:  <small>p.300</small>
+- Evidence for Consolidation  <small>p.300</small>
+- Posttraumatic Amnesia  <small>p.300</small>
+- Gradients of Retrograde Amnesia and  <small>p.301</small>
+- Memory Consolidation  <small>p.301</small>
+- Ne roplasticity  <small>p.301</small>
+- Hippocampus and Consolidation  <small>p.303</small>
+- Reconsolidation  <small>p.303</small>
+- Check It Out  <small>p.303</small>
+- 11.5  <small>p.304</small>
+- Neuroanatomy of Object-  <small>p.304</small>
+- Recognition Memory  <small>p.304</small>
+- Monkey Model of Object-Recognition  <small>p.304</small>
+- Amnesia: The Delayed Nonmatching-  <small>p.304</small>
+- Thinking Creatively  <small>p.304</small>
+
+## [[ch12-chapter-12-hunger-eating-and-health|Chapter 12: Hunger, Eating, and Health]]  <small>(pp. 324–351)</small>
+- Energy Storage in the Body  <small>p.324</small>
+- Three Phases of Energy Metabolism  <small>p.325</small>
+- 12.2  <small>p.326</small>
+- Theories of Hunger  <small>p.326</small>
+- Set-Point Assumption  <small>p.326</small>
+- Glucostatic and Lipostatic Set-Point  <small>p.327</small>
+- Theories of Hunger and Eating  <small>p.327</small>
+- Problems with Set-Point Theories  <small>p.327</small>
+- Positive-Incentive Perspective  <small>p.328</small>
+- Thinking Creatively  <small>p.328</small>
+- Evolutiona  <small>p.328</small>
+- Perspective  <small>p.328</small>
+- 12.3  <small>p.329</small>
+- Factors That Determine What,  <small>p.329</small>
+- When, and How Much We Eat  <small>p.329</small>
+- Factors That Determine What We Eat  <small>p.329</small>
+- Factors That Influence When We Eat  <small>p.330</small>
+- Factors That Influence How Much We Eat  <small>p.330</small>
+- Myth of Hypothalamic Hunger  <small>p.333</small>
+- 12.4  <small>p.333</small>
+- Physiological Research  <small>p.333</small>
+- Role of Blood Glucose Levels  <small>p.333</small>
+- Role of the Gastrointestinal  <small>p.335</small>
+- Tract in Satiety  <small>p.335</small>
+- Hunger and Satiety Peptides  <small>p.336</small>
+- Serotonin and Satiety  <small>p.337</small>
+- Prader-Willi Syndrome: Patients  <small>p.337</small>
+- Prader-Willi Syndrome:  <small>p.338</small>
+- The Case of Miss A.  <small>p.338</small>
+- 12.5  <small>p.338</small>
+- Body Weight Regulation: Set  <small>p.338</small>
+- Points versus Settling Points  <small>p.338</small>
+- Set-Point Assumptions about  <small>p.338</small>
+- Body Weight and Eating  <small>p.338</small>
+- Set Points and Settling Points  <small>p.339</small>
+- 12.6  <small>p.342</small>
+- Human Obesity: Causes,  <small>p.342</small>
+- Mechanisms, and Treatments  <small>p.342</small>
+- Who Needs to Be Concerned  <small>p.342</small>
+- Why Is There an Epidemic of Obesity?  <small>p.343</small>
+
+## [[ch13-chapter-13-hormones-and-sex|Chapter 13: Hormones and Sex]]  <small>(pp. 352–379)</small>
+- Developmental and Activational Effects  <small>p.352</small>
+- 13.1  <small>p.352</small>
+- Neuroendocrine System  <small>p.352</small>
+- Men-Are-Men-and-Women-Are-Women  <small>p.352</small>
+- Assumption  <small>p.352</small>
+- Thinking Creatively  <small>p.352</small>
+- Glands  <small>p.353</small>
+- Gonads  <small>p.353</small>
+- Classes of Hormones  <small>p.353</small>
+- Sex Steroids  <small>p.353</small>
+- Hormones of the Pituitary  <small>p.354</small>
+- Female Gonadal Hormone Levels  <small>p.354</small>
+- Are Cyclic; Male Gonadal Hormone  <small>p.354</small>
+- Levels Are Steady  <small>p.354</small>
+- Evolutiona  <small>p.354</small>
+- Perspective  <small>p.354</small>
+- Neural Control of the Pituitary  <small>p.355</small>
+- Control of the Anterior and Posterior  <small>p.355</small>
+- Pituitary by the Hypothalamus  <small>p.355</small>
+- Discovery of Hypothalamic  <small>p.355</small>
+- Releasing Hormones  <small>p.355</small>
+- Regulation of Hormone Levels  <small>p.356</small>
+- Pulsatile Hormone Release  <small>p.357</small>
+- Summary Model of Gonadal  <small>p.357</small>
+- Endocrine Regulation  <small>p.357</small>
+- 13.2  <small>p.357</small>
+- Hormones and Sexual  <small>p.357</small>
+- Development of the Body  <small>p.357</small>
+- Fetal Hormones and Development  <small>p.358</small>
+- Puberty: Hormones and Development  <small>p.359</small>
+- 13.3  <small>p.360</small>
+- Development of Brain  <small>p.360</small>
+- Sex Differences in the Brain  <small>p.360</small>
+- Ne roplasticity  <small>p.362</small>
+- Perinatal Hormones and  <small>p.363</small>
+- Behavioral Development  <small>p.363</small>
+- 13.4  <small>p.364</small>
+- Three Cases of Exceptional Human  <small>p.364</small>
+- Sexual Development  <small>p.364</small>
+- The Case of Anne S., the  <small>p.364</small>
+
+## [[ch14-chapter-14-sleep-dreaming-and-circadian-rhythms|Chapter 14: Sleep, Dreaming, and Circadian Rhythms]]  <small>(pp. 380–407)</small>
+- 14.1  <small>p.380</small>
+- Stages of Sleep  <small>p.380</small>
+- Three Standard Psychophysiological  <small>p.380</small>
+- Measures of Sleep  <small>p.380</small>
+- The Case of the Woman  <small>p.380</small>
+- Who Wouldn t Sleep  <small>p.380</small>
+- Thinking Creatively  <small>p.380</small>
+- Four Stages of Sleep EEG  <small>p.381</small>
+- REM Sleep and Dreaming  <small>p.382</small>
+- Testing Common Beliefs about Dreaming  <small>p.383</small>
+- Interpretation of Dreams  <small>p.383</small>
+- 14.2  <small>p.383</small>
+- Why Do We Sleep, and Why  <small>p.383</small>
+- Do We Sleep When We Do?  <small>p.383</small>
+- Comparative Analysis of Sleep  <small>p.384</small>
+- Evolutiona  <small>p.384</small>
+- Perspective  <small>p.384</small>
+- 14.3  <small>p.385</small>
+- Effects of Sleep Deprivation  <small>p.385</small>
+- Interpretation of the Effects of Sleep  <small>p.385</small>
+- Deprivation: The Stress Problem  <small>p.385</small>
+- Predictions of Recuperation Theories  <small>p.385</small>
+- Two Classic Sleep-Deprivation Case Studies  <small>p.386</small>
+- The Case of the Sleep-Deprived  <small>p.386</small>
+- Students  <small>p.386</small>
+- The Case of Randy Gardner  <small>p.386</small>
+- Experimental Studies of Sleep  <small>p.386</small>
+- Deprivation in Humans  <small>p.386</small>
+- Sleep-Deprivation Studies with  <small>p.387</small>
+- Laboratory Animals  <small>p.387</small>
+- REM-Sleep Deprivation  <small>p.388</small>
+- Sleep Deprivation Increases  <small>p.389</small>
+- Ne roplasticity  <small>p.389</small>
+- 14.4  <small>p.390</small>
+- Circadian Sleep Cycles  <small>p.390</small>
+- Free-Running Circadian Sleep Wake Cycles  <small>p.390</small>
+- Jet Lag and Shift Work  <small>p.391</small>
+- A Circadian Clock in the  <small>p.392</small>
+- Suprachiasmatic Nuclei  <small>p.392</small>
+- Neural Mechanisms of Entrainment  <small>p.393</small>
+
+## [[ch15-chapter-15-drug-addiction-and-the-brain-s-reward-c|Chapter 15: Drug Addiction and the Brain s Reward Circuits]]  <small>(pp. 408–435)</small>
+- Drug Administration and Absorption  <small>p.408</small>
+- The Case of the Drugged  <small>p.408</small>
+- High School Teachers  <small>p.408</small>
+- 15.1  <small>p.408</small>
+- Basic Principles of Drug Action  <small>p.408</small>
+- Thinking Creatively  <small>p.408</small>
+- Drug Penetration of the Central  <small>p.409</small>
+- Nervous System  <small>p.409</small>
+- Mechanisms of Drug Action  <small>p.409</small>
+- Drug Metabolism and Elimination  <small>p.409</small>
+- Drug Tolerance  <small>p.409</small>
+- Drug Withdrawal Effects  <small>p.410</small>
+- Addiction: What Is It?  <small>p.410</small>
+- Clinical  <small>p.410</small>
+- Implications  <small>p.410</small>
+- 15.2  <small>p.411</small>
+- Role of Learning in  <small>p.411</small>
+- Contingent Drug Tolerance  <small>p.411</small>
+- Evolutiona  <small>p.411</small>
+- Perspective  <small>p.411</small>
+- Conditioned Drug Tolerance  <small>p.412</small>
+- Thinking about Drug Conditioning  <small>p.413</small>
+- 15.3  <small>p.413</small>
+- Five Commonly Abused Drugs  <small>p.413</small>
+- Tobacco  <small>p.413</small>
+- Alcohol  <small>p.414</small>
+- Marijuana  <small>p.416</small>
+- Cocaine and Other Stimulants  <small>p.418</small>
+- The Opiates: Heroin and Morphine  <small>p.419</small>
+- Comparison of the Hazards of Tobacco,  <small>p.422</small>
+- Alcohol, Marijuana, Cocaine, and Heroin  <small>p.422</small>
+- 15.4  <small>p.423</small>
+- Biopsychological Approaches to  <small>p.423</small>
+- Theories of Addiction  <small>p.423</small>
+- Physical-Dependence and Positive-Incentive  <small>p.423</small>
+- Perspectives of Addiction  <small>p.423</small>
+- From Pleasure to Compulsion:  <small>p.423</small>
+- Incentive-Sensitization Theory  <small>p.423</small>
+- Relapse and Its Causes  <small>p.424</small>
+- 15.5  <small>p.425</small>
+
+## [[ch16-chapter-16-lateralization-language-and-the-split-b|Chapter 16: Lateralization, Language, and the Split Brain]]  <small>(pp. 436–467)</small>
+- 16.1  <small>p.436</small>
+- Cerebral Lateralization of  <small>p.436</small>
+- Function: Introduction  <small>p.436</small>
+- Discovery of the Specific Contributions  <small>p.436</small>
+- Aphasia and Apraxia  <small>p.436</small>
+- Tests of Cerebral Lateralization  <small>p.437</small>
+- Clinical  <small>p.437</small>
+- Implications  <small>p.437</small>
+- Discovery of the Relation between Speech  <small>p.438</small>
+- Laterality and Handedness  <small>p.438</small>
+- Sex Differences in Brain Lateralization  <small>p.438</small>
+- 16.2  <small>p.438</small>
+- The Split Brain  <small>p.438</small>
+- Ne roplasticity  <small>p.438</small>
+- Groundbreaking Experiment  <small>p.439</small>
+- Evolutiona  <small>p.439</small>
+- Perspective  <small>p.439</small>
+- Commissurotomy in Human Epileptics  <small>p.440</small>
+- Evidence That the Hemispheres of Split-  <small>p.442</small>
+- Brain Patients Can Function Independently  <small>p.442</small>
+- Cross-Cuing  <small>p.442</small>
+- Thinking Creatively  <small>p.442</small>
+- Doing Two Things at Once  <small>p.443</small>
+- The Z Lens  <small>p.444</small>
+- Dual Mental Functioning and Conflict  <small>p.444</small>
+- The Case of Peter, the Split-Brain  <small>p.444</small>
+- Patient Tormented by Conflict  <small>p.444</small>
+- Independence of Split Hemispheres:  <small>p.445</small>
+- Current Perspective  <small>p.445</small>
+- 16.3  <small>p.446</small>
+- Differences between Left  <small>p.446</small>
+- Examples of Cerebral Lateralization  <small>p.446</small>
+- What Is Lateralized  <small>p.448</small>
+- Broad Clusters of  <small>p.448</small>
+- Abilities or Individual Cognitive Processes?  <small>p.448</small>
+- Anatomical Asymmetries of the Brain  <small>p.448</small>
+- 16.4  <small>p.450</small>
+- Evolutionary Perspective  <small>p.450</small>
+- Theories of the Evolution of  <small>p.450</small>
+- Cerebral Lateralization  <small>p.450</small>
+
+## [[ch17-chapter-17-biopsychology-of-emotion-stress-and-hea|Chapter 17: Biopsychology of Emotion, Stress, and Health]]  <small>(pp. 468–491)</small>
+- Evolutiona  <small>p.468</small>
+- Perspective  <small>p.468</small>
+- A Human Case of Kluver-Bucy  <small>p.470</small>
+- Syndrome  <small>p.470</small>
+- Emotions and the Autonomic  <small>p.470</small>
+- Nervous System  <small>p.470</small>
+- Clinical  <small>p.470</small>
+- Implications  <small>p.470</small>
+- Emotions and Facial Expression  <small>p.471</small>
+- Check It Out  <small>p.473</small>
+- 17.2  <small>p.474</small>
+- Fear, Defense, and Aggression  <small>p.474</small>
+- Types of Aggressive and Defensive  <small>p.474</small>
+- Behaviors  <small>p.474</small>
+- Aggression and Testosterone  <small>p.476</small>
+- 17.3  <small>p.476</small>
+- Neural Mechanisms of  <small>p.476</small>
+- Fear Conditioning  <small>p.476</small>
+- Thinking Creatively  <small>p.476</small>
+- Amygdala and Fear Conditioning  <small>p.477</small>
+- Contextual Fear Conditioning  <small>p.477</small>
+- Amygdala Complex and Fear Conditioning  <small>p.478</small>
+- 17.4  <small>p.478</small>
+- Stress and Health  <small>p.478</small>
+- The Stress Response  <small>p.478</small>
+- Animal Models of Stress  <small>p.479</small>
+- Psychosomatic Disorders: The Case  <small>p.480</small>
+- Psychoneuroimmunology: Stress, the  <small>p.480</small>
+- Immune System, and the Brain  <small>p.480</small>
+- Early Experience of Stress  <small>p.483</small>
+- Stress and the Hippocampus  <small>p.484</small>
+- Ne roplasticity  <small>p.484</small>
+- 17.5  <small>p.485</small>
+- Brain Mechanisms of Human  <small>p.485</small>
+- Emotion  <small>p.485</small>
+- Cognitive Neuroscience of Emotion  <small>p.485</small>
+- Amygdala and Human Emotion  <small>p.485</small>
+- The Case of S.P., the Woman  <small>p.486</small>
+- Who Couldn t Perceive Fear  <small>p.486</small>
+- Medial Prefrontal Lobes  <small>p.486</small>
+
+## [[ch18-chapter-18-biopsychology-of-psychiatric-disorders|Chapter 18: Biopsychology of Psychiatric Disorders]]  <small>(pp. 492–608)</small>
+- Causal Factors in Schizophrenia  <small>p.492</small>
+- What Is Schizophrenia?  <small>p.492</small>
+- Clinical  <small>p.492</small>
+- Implications  <small>p.492</small>
+- Discovery of the First Antischizophrenic  <small>p.493</small>
+- Drugs  <small>p.493</small>
+- Dopamine Theory of Schizophrenia  <small>p.493</small>
+- Neural Basis of Schizophrenia: Limitations  <small>p.495</small>
+- Ne roplasticity  <small>p.495</small>
+- 18.2  <small>p.497</small>
+- Affective Disorders: Depression  <small>p.497</small>
+- The Case of P.S., the Weeping  <small>p.497</small>
+- Widow  <small>p.497</small>
+- Major Categories of Affective Disorders  <small>p.498</small>
+- Causal Factors in Affective Disorders  <small>p.498</small>
+- Discovery of Antidepressant Drugs  <small>p.499</small>
+- Brain Pathology and Affective Disorders  <small>p.501</small>
+- Theories of Depression  <small>p.501</small>
+- Thinking Creatively  <small>p.501</small>
+- Treatment of Depression  <small>p.502</small>
+- 18.3  <small>p.503</small>
+- Anxiety Disorders  <small>p.503</small>
+- The Case of M.R., the Woman  <small>p.503</small>
+- Who Was Afraid to Go Out  <small>p.503</small>
+- Five Classes of Anxiety Disorders  <small>p.503</small>
+- Etiology of Anxiety Disorders  <small>p.504</small>
+- Pharmacological Treatment  <small>p.504</small>
+- Animal Models of Anxiety  <small>p.504</small>
+- Evolutiona  <small>p.504</small>
+- Perspective  <small>p.504</small>
+- Neural Bases of Anxiety Disorders  <small>p.505</small>
+- 18.4  <small>p.505</small>
+- Tourette Syndrome  <small>p.505</small>
+- The Case of R.G.  <small>p.505</small>
+- Barking Mad  <small>p.505</small>
+- What Is Tourette Syndrome?  <small>p.506</small>
+- Neuropathology of Tourette Syndrome  <small>p.506</small>
+- Treatment of Tourette Syndrome  <small>p.507</small>
+- The Case of P.H., the Neuroscientist  <small>p.507</small>
+- 18.5  <small>p.508</small>

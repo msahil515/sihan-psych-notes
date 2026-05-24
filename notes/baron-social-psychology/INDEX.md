@@ -1,0 +1,373 @@
+# Social Psychology (Baron & Branscombe, 13th ed.) — Index
+
+*Subject: Social Psychology · 12 chapters · 539 pages*
+
+Granular chapter-by-chapter index. Each chapter links to its detailed notes.
+
+## [[ch01-social-psychology-the-science-of-the-social-side-o|1 Social Psychology: The Science of the Social Side of Life]]  <small>(pp. 32–63)</small>
+- Social Psychology: An Overview  <small>p.35</small>
+  - Social Psychology Is Scientific in Nature  <small>p.35</small>
+  - Social Psychology Focuses on the Behavior of Individuals  <small>p.37</small>
+  - Social Psychology Seeks to Understand the Causes of Social Behavior and Thought  <small>p.38</small>
+  - The Search for Basic Principles in a Changing Social World  <small>p.41</small>
+  - Social Psychology: Summing Up  <small>p.42</small>
+- Social Psychology: Advances at the Boundaries  <small>p.42</small>
+  - Cognition and Behavior: Two Sides of the Same Social Coin  <small>p.43</small>
+  - The Role of Emotion in the Social Side of Life  <small>p.43</small>
+  - Relationships: How They Develop, Change, and Strengthen—or End  <small>p.43</small>
+  - Social Neuroscience: Where Social Psychology and Brain Research Meet  <small>p.45</small>
+  - The Role of Implicit (Nonconscious) Processes  <small>p.47</small>
+  - Taking Full Account of Social Diversity  <small>p.48</small>
+- How Social Psychologists Answer the Questions They Ask: Research as the Route to Increased Knowledge  <small>p.49</small>
+  - Systematic Observation: Describing the World Around Us  <small>p.50</small>
+  - Correlation: The Search for Relationships  <small>p.51</small>
+  - The Experimental Method: Knowledge Through Systematic Intervention  <small>p.53</small>
+  - Further Thoughts on Causality: The Role of Mediating Variables  <small>p.56</small>
+- The Role of Theory in Social Psychology  <small>p.56</small>
+- The Quest for Knowledge and the Rights of Individuals: In Search of an Appropriate Balance  <small>p.58</small>
+- Getting the Most Out of This Book: A User’s Guide  <small>p.61</small>
+- SUMMARY AND REVIEW  <small>p.62</small>
+- KEY TERMS  <small>p.63</small>
+
+## [[ch02-social-cognition-how-we-think-about-the-social-wor|2 Social Cognition: How We Think About the Social World]]  <small>(pp. 64–97)</small>
+- Heuristics: How We Reduce Our Effort in Social Cognition  <small>p.67</small>
+  - Representativeness: Judging by Resemblance  <small>p.68</small>
+  - Availability: “If I Can Retrieve Instances, They Must Be Frequent”  <small>p.69</small>
+  - Anchoring and Adjustment: Where You Begin Makes a Difference  <small>p.71</small>
+  - Status Quo Heuristic: “What Is, Is Good”  <small>p.72</small>
+- Schemas: Mental Frameworks for Organizing Social Information  <small>p.73</small>
+  - The Impact of Schemas on Social Cognition: Attention, Encoding, Retrieval  <small>p.74</small>
+  - Priming: Which Schemas Guide Our Thought?  <small>p.75</small>
+  - Schema Persistence: Why Even Discredited Schemas Can Sometimes Influence Our Thought and Behavior  <small>p.76</small>
+  - Reasoning by Metaphor: How Social Attitudes and Behavior Are Affected by Figures of Speech  <small>p.76</small>
+- Automatic and Controlled Processing: Two Basic Modes of Social Thought  <small>p.78</small>
+  - Automatic Processing and Automatic Social Behavior  <small>p.78</small>
+  - The Benefits of Automatic Processing: Beyond Mere Efficiency  <small>p.80</small>
+  - SOCIAL LIFE IN A CONNECTED WORLD: Dealing with Information Overload and Improving Choices  <small>p.81</small>
+- Potential Sources of Error in Social Cognition: Why Total Rationality Is Rarer Than You Think  <small>p.82</small>
+  - A Basic “Tilt” in Social Thought: Our Powerful Tendency to Be Overly Optimistic  <small>p.83</small>
+  - Situation-Specific Sources of Error in Social Cognition: Counterfactual Thinking and Magical Thinking  <small>p.86</small>
+- Affect and Cognition: How Feelings Shape Thought and Thought Shapes Feelings  <small>p.89</small>
+  - The Influence of Affect on Cognition  <small>p.89</small>
+  - The Influence of Cognition on Affect  <small>p.91</small>
+  - EMOTIONS AND SOCIAL COGNITION: Why We Can’t Always Predict Our Responses to Tragedy  <small>p.92</small>
+  - Affect and Cognition: Social Neuroscience Evidence for Two Separate Systems  <small>p.94</small>
+- SUMMARY AND REVIEW  <small>p.96</small>
+- KEY TERMS  <small>p.97</small>
+
+## [[ch03-social-perception-perceiving-and-understanding-oth|3 Social Perception: Perceiving and Understanding Others]]  <small>(pp. 98–131)</small>
+- Nonverbal Communication: The Unspoken Language of Expressions, Gazes, Gestures, and Scents  <small>p.100</small>
+  - Nonverbal Communication: The Basic Channels  <small>p.101</small>
+  - Scent: Another Source of Nonverbal Social Information  <small>p.105</small>
+  - Are Facial Expressions an Especially Important Source of Information About Others?  <small>p.105</small>
+  - The Facial Feedback Hypothesis: Do We Show What We Feel and Feel What We Show?  <small>p.106</small>
+  - Deception: Recognizing It Through Nonverbal Cues, and Its Effects on Social Relations  <small>p.107</small>
+  - EMOTIONS AND SOCIAL PERCEPTION: Cultural Differences in Inferring Others’ Emotions  <small>p.109</small>
+- Attribution: Understanding the Causes of Others’ Behavior  <small>p.111</small>
+  - Theories of Attribution: Frameworks for Understanding How We Make Sense of the Social World  <small>p.111</small>
+  - Attribution: Some Basic Sources of Error  <small>p.115</small>
+  - Applications of Attribution Theory: Insights and Interventions  <small>p.120</small>
+  - SOCIAL LIFE IN A CONNECTED WORLD: Understanding Other People Through the Internet—Attribution and Computer-Mediated Communication  <small>p.121</small>
+- Impression Formation and Impression Management: Combining Information About Others  <small>p.123</small>
+  - The Beginnings of Research on First Impressions: Asch’s Research on Central and Peripheral Traits  <small>p.123</small>
+  - How Quickly Are First Impressions Formed—and Are They Accurate?  <small>p.124</small>
+  - Implicit Personality Theories: Schemas That Shape First Impressions  <small>p.126</small>
+  - Impression Management: Tactics for “Looking Good” to Others  <small>p.127</small>
+  - Does Impression Management Work? Does It Really Boost Impressions of the People Using It?  <small>p.128</small>
+- SUMMARY AND REVIEW  <small>p.130</small>
+- KEY TERMS  <small>p.131</small>
+
+## [[ch04-the-self-answering-the-question-who-am-i|4 The Self: Answering the Question “Who Am I?”]]  <small>(pp. 132–167)</small>
+- Self-Presentation: Managing the Self in Different Social Contexts  <small>p.135</small>
+  - Self–Other Accuracy in Predicting Our Behavior  <small>p.135</small>
+  - SOCIAL LIFE IN A CONNECTED WORLD: Does Facebook Use Change Our Offine Behavior?  <small>p.137</small>
+  - Self-Presentation Tactics  <small>p.139</small>
+- Self-Knowledge: Determining Who We Are  <small>p.140</small>
+  - Introspection: Looking Inward to Discover the Causes of Our Own Behavior  <small>p.141</small>
+  - The Self from the Other’s Standpoint  <small>p.142</small>
+- Who Am I?: Personal versus Social Identity  <small>p.144</small>
+  - Who I Think I Am Depends on the Social Context  <small>p.145</small>
+  - Who I Am Depends on Others’ Treatment  <small>p.148</small>
+  - The Self Across Time: Past and Future Selves  <small>p.149</small>
+  - Self-Control: Why It Can Be Difficult to Do  <small>p.150</small>
+- Self-Esteem: Attitudes Toward Ourselves  <small>p.152</small>
+  - The Measurement of Self-Esteem  <small>p.152</small>
+- EMOTIONS AND THE SELF: Does Talking Positively to Ourselves Really Work?  <small>p.154</small>
+  - Is High Self-Esteem Always Beneficial?  <small>p.155</small>
+  - Do Women and Men Differ in Their Levels of Self-Esteem?  <small>p.156</small>
+- Social Comparison: How We Evaluate Ourselves  <small>p.157</small>
+  - Self-Serving Biases and Unrealistic Optimism  <small>p.159</small>
+- The Self as Target of Prejudice  <small>p.161</small>
+  - Emotional Consequences: How Well-Being Can Suffer  <small>p.161</small>
+  - Behavioral Consequences: Stereotype Threat Effects on Performance  <small>p.162</small>
+- SUMMARY AND REVIEW  <small>p.165</small>
+- KEY TERMS  <small>p.167</small>
+
+## [[ch05-attitudes-evaluating-and-responding-to-the-social-|5 Attitudes: Evaluating and Responding to the Social World]]  <small>(pp. 168–205)</small>
+- Attitude Formation: How Attitudes Develop  <small>p.174</small>
+  - Classical Conditioning: Learning Based on Association  <small>p.174</small>
+  - Instrumental Conditioning: Rewards for the “Right” Views  <small>p.176</small>
+  - Observational Learning: Learning by Exposure to Others  <small>p.178</small>
+- When and Why Do Attitudes Influence Behavior?  <small>p.179</small>
+  - Role of the Social Context in the Link Between Attitudes and Behavior  <small>p.180</small>
+  - Strength of Attitudes  <small>p.181</small>
+  - Attitude Extremity: Role of Vested Interests  <small>p.181</small>
+  - Attitude Certainty: Importance of Clarity and Correctness  <small>p.182</small>
+  - Role of Personal Experience  <small>p.183</small>
+  - EMOTIONS AND ATTITUDE FORMATION: When What the Ad Promises Matches How We Feel  <small>p.184</small>
+- How Do Attitudes Guide Behavior?  <small>p.185</small>
+  - Attitudes Arrived at Through Reasoned Thought  <small>p.186</small>
+  - Attitudes and Spontaneous Behavioral Reactions  <small>p.187</small>
+- The Fine Art of Persuasion: How Attitudes Are Changed  <small>p.188</small>
+  - Persuasion: Communicators, Messages, and Audiences  <small>p.189</small>
+  - The Cognitive Processes Underlying Persuasion  <small>p.191</small>
+- SOCIAL LIFE IN A CONNECTED WORLD: Electronic Word-of-Mouth Marketing and Persuasion  <small>p.193</small>
+- Resisting Persuasion Attempts  <small>p.195</small>
+  - Reactance: Protecting Our Personal Freedom  <small>p.195</small>
+  - Forewarning: Prior Knowledge of Persuasive Intent  <small>p.196</small>
+  - Selective Avoidance of Persuasion Attempts  <small>p.196</small>
+  - Actively Defending Our Attitudes: Counterarguing Against the Competition  <small>p.197</small>
+  - Individual Differences in Resistance to Persuasion  <small>p.197</small>
+  - Ego-Depletion Can Undermine Resistance  <small>p.198</small>
+- Cognitive Dissonance: What Is It and How Do We Manage It?  <small>p.199</small>
+  - Dissonance and Attitude Change: The Effects of Induced Compliance  <small>p.200</small>
+  - Alternative Strategies for Resolving Dissonance  <small>p.201</small>
+  - When Dissonance Is a Tool for Beneficial Changes in Behavior  <small>p.202</small>
+- SUMMARY AND REVIEW  <small>p.203</small>
+- KEY TERMS  <small>p.205</small>
+
+## [[ch06-the-causes-effects-and-cures-of-stereotyping-preju|6 The Causes, Effects, and Cures of Stereotyping, Prejudice, and Discrimination]]  <small>(pp. 206–243)</small>
+- How Members of Different Groups Perceive Inequality  <small>p.209</small>
+- The Nature and Origins of Stereotyping  <small>p.213</small>
+  - Stereotyping: Beliefs about Social Groups  <small>p.213</small>
+  - SOCIAL LIFE IN A CONNECTED WORLD: Representations of Female and Male Figures in Video Games  <small>p.216</small>
+  - Is Stereotyping Absent If Members of Different Groups Are Rated the Same?  <small>p.220</small>
+  - Can We Be Victims of Stereotyping and Not Even Recognize It?: The Case of Single People  <small>p.221</small>
+  - Why Do People Form and Use Stereotypes?  <small>p.222</small>
+- Prejudice: Feelings Toward Social Groups  <small>p.225</small>
+  - The Origins of Prejudice: Contrasting Perspectives  <small>p.227</small>
+  - EMOTIONS AND PREJUDICE: When Are People Willing to Die and Kill for Their Group?  <small>p.231</small>
+- Discrimination: Prejudice in Action  <small>p.234</small>
+  - Modern Racism: More Subtle, but Just as Deadly  <small>p.234</small>
+- Why Prejudice Is Not Inevitable: Techniques for Countering Its Effects  <small>p.237</small>
+  - On Learning Not to Hate  <small>p.237</small>
+  - The Potential Benefits of Contact  <small>p.238</small>
+  - Recategorization: Changing the Boundaries  <small>p.238</small>
+  - The Benefits of Guilt for Prejudice Reduction  <small>p.239</small>
+  - Can We Learn to “Just Say No” to Stereotyping and Biased Attributions?  <small>p.240</small>
+  - Social Influence as a Means of Reducing Prejudice  <small>p.241</small>
+- SUMMARY AND REVIEW  <small>p.242</small>
+- KEY TERMS  <small>p.243</small>
+
+## [[ch07-interpersonal-attraction-close-relationships-and-l|7 Interpersonal Attraction, Close Relationships, and Love]]  <small>(pp. 244–281)</small>
+- Internal Sources of Attraction: The Role of Needs and Emotions  <small>p.246</small>
+  - The Importance of Affiliation in Human Existence—and Interpersonal Attraction  <small>p.247</small>
+  - EMOTIONS AND ATTRACTION: Feelings as a Basis for Liking  <small>p.249</small>
+- External Sources of Attraction: The Effects of Proximity and Physical Beauty  <small>p.251</small>
+  - The Power of Proximity: Unplanned Contacts  <small>p.251</small>
+  - Observable Characteristics of Others: The Effects of Physical Attractiveness  <small>p.253</small>
+- Factors Based on Social Interaction: Similarity and Mutual Liking  <small>p.258</small>
+  - Similarity: Birds of a Feather Actually Do Flock Together  <small>p.258</small>
+  - Reciprocal Liking or Disliking: Liking Those Who Like Us  <small>p.263</small>
+  - What Do We Desire In Others?: Designing Ideal Interaction Partners  <small>p.263</small>
+- Close Relationships: Foundations of Social Life  <small>p.265</small>
+  - Relationships with Family Members: Our First—and Most Lasting—Close Relationships  <small>p.266</small>
+  - Friendships: Relationships Beyond the Family  <small>p.268</small>
+  - Romantic Relationships and the (Partially Solved) Mystery of Love  <small>p.270</small>
+  - Jealousy: An Internal Threat to Relationships—Romantic and Otherwise  <small>p.274</small>
+  - SOCIAL LIFE IN A CONNECTED WORLD: Breaking Up Is Hard to Do, But Help Is Available  <small>p.275</small>
+  - Selecting Romantic Partners: Do Women and Men Differ in What They Seek?  <small>p.276</small>
+- SUMMARY AND REVIEW  <small>p.280</small>
+- KEY TERMS  <small>p.281</small>
+
+## [[ch08-social-influence-changing-others-behavior|8 Social Influence: Changing Others’ Behavior]]  <small>(pp. 282–317)</small>
+- Conformity: Group Influence in Action  <small>p.285</small>
+  - How Much Do We Conform? More Than We Think  <small>p.286</small>
+  - Asch’s Research on Conformity: Social Pressure—the Irresistible Force?  <small>p.288</small>
+  - Sherif’s Research on the Autokinetic Phenomenon: How Norms Emerge  <small>p.289</small>
+  - Factors Affecting Conformity: Variables That Determine the Extent to Which We “Go Along”  <small>p.290</small>
+  - Social Foundations of Conformity: Why We Often Choose to “Go Along”  <small>p.291</small>
+  - The Downside of Conformity: Why Good People Sometimes Do Evil Things  <small>p.293</small>
+  - Why We Sometimes Choose Not to Go Along: The Effects of Power, Basic Motives, and the Desire for Uniqueness  <small>p.295</small>
+  - EMOTIONS AND SOCIAL INFLUENCE: Emotional Contagion  <small>p.299</small>
+  - Do Women and Men Differ in the Tendency to Conform?  <small>p.300</small>
+  - Minority Influence: Does the Majority Always Rule?  <small>p.301</small>
+- Compliance: To Ask—Sometimes—Is to Receive  <small>p.303</small>
+  - Compliance: The Underlying Principles  <small>p.303</small>
+  - Tactics Based on Friendship or Liking: Ingratiation  <small>p.304</small>
+  - Tactics Based on Commitment or Consistency: The Foot-in-the-Door and the Lowball  <small>p.305</small>
+  - Tactics Based on Reciprocity: The Door-in-the-Face and the “That’s-Not-All” Approach  <small>p.306</small>
+  - Tactics Based on Scarcity: Playing Hard to Get and the Fast-Approaching-Deadline Technique  <small>p.307</small>
+  - SOCIAL LIFE IN A CONNECTED WORLD: The Use of Social Influence Tactics by Scammers on the Web—Internet Daters, Beware!  <small>p.308</small>
+- Symbolic Social Influence: How We Are Influenced by Others Even When They Are Not There  <small>p.309</small>
+- Obedience to Authority: Would You Harm an Innocent Stranger If Ordered to Do So?  <small>p.311</small>
+  - Obedience in the Laboratory  <small>p.311</small>
+  - Destructive Obedience: Why It Occurs  <small>p.313</small>
+  - Destructive Obedience: Resisting Its Effects  <small>p.314</small>
+- SUMMARY AND REVIEW  <small>p.316</small>
+- KEY TERMS  <small>p.317</small>
+
+## [[ch09-prosocial-behavior-helping-others|9 Prosocial Behavior: Helping Others]]  <small>(pp. 318–349)</small>
+- Why People Help: Motives for Prosocial Behavior  <small>p.321</small>
+  - Empathy-Altruism: It Feels Good to Help Others  <small>p.321</small>
+  - Negative-State Relief: Helping Sometimes Reduces Unpleasant Feelings  <small>p.323</small>
+  - Empathic Joy: Helping as an Accomplishment  <small>p.323</small>
+  - Why Nice People Sometimes Finish First: Competitive Altruism  <small>p.323</small>
+  - Kin Selection Theory: Helping Ourselves by Helping People Who Share Our Genes  <small>p.325</small>
+  - Defensive Helping: Helping Outgroups to Reduce Their Threat to One’s Ingroup  <small>p.325</small>
+- Responding to an Emergency: Will Bystanders Help?  <small>p.326</small>
+  - Helping in Emergencies: Apathy—or Action?  <small>p.326</small>
+  - Is There Safety in Numbers? Sometimes, but Not Always  <small>p.327</small>
+  - Understanding the Bystander Effect: Five Crucial Steps in Deciding to Help— or Not  <small>p.328</small>
+- Factors That Increase or Decrease the Tendency to Help  <small>p.331</small>
+  - Situational (External) Factors Influence Helping: Similarity and Responsibility  <small>p.331</small>
+  - Exposure to Live Prosocial Models  <small>p.332</small>
+  - Playing Prosocial Video Games  <small>p.333</small>
+  - Gratitude: How It Increases Further Helping  <small>p.334</small>
+  - EMOTIONS AND PROSOCIAL BEHAVIOR: Mood, Feelings of Elevation, and Helping  <small>p.336</small>
+  - Empathy: An Important Foundation for Helping  <small>p.337</small>
+  - Factors That Reduce Helping: Social Exclusion, Darkness, and Putting an Economic Value on Our Time and Effort  <small>p.340</small>
+  - SOCIAL LIFE IN A CONNECTED WORLD: Helping Others via the Internet—the Case of Kiva  <small>p.342</small>
+- The Effects of Being Helped: Why Perceived Motives Really Matter  <small>p.344</small>
+- Final Thoughts: Are Prosocial Behavior and Aggression Opposites?  <small>p.346</small>
+- SUMMARY AND REVIEW  <small>p.348</small>
+- KEY TERMS  <small>p.349</small>
+
+## [[ch10-aggression-its-nature-causes-and-control|10 Aggression: Its Nature, Causes, and Control]]  <small>(pp. 350–387)</small>
+- Perspectives on Aggression: In Search of the Roots of Violence  <small>p.353</small>
+  - The Role of Biological Factors: Are We Programmed to Aggress?  <small>p.353</small>
+  - Drive Theories: The Motive to Harm Others  <small>p.354</small>
+  - Modern Theories of Aggression: The Social Learning Perspective and the General Aggression Model  <small>p.355</small>
+- Causes of Human Aggression: Social, Cultural, Personal, and Situational  <small>p.357</small>
+  - Basic Sources of Aggression: Frustration and Provocation  <small>p.358</small>
+  - EMOTIONS AND AGGRESSION: Does Arousal Play a Role?  <small>p.359</small>
+  - Social Causes of Aggression: Social Exclusion and Exposure to Media Violence  <small>p.361</small>
+  - Cultural Factors in Aggression: “Cultures of Honor,” Sexual Jealousy, and the Male Gender Role  <small>p.367</small>
+  - Personality, Gender, and Aggression  <small>p.370</small>
+  - Situational Determinants of Aggression: The Effects of Heat and Alcohol  <small>p.374</small>
+- Bullying: Singling Out Others for Repeated Abuse  <small>p.378</small>
+  - Why Do People Engage in Bullying?  <small>p.378</small>
+  - The Characteristics of Bullies and Victims  <small>p.379</small>
+  - Reducing the Occurrence of Bullying: Some Positive Steps  <small>p.379</small>
+  - SOCIAL LIFE IN A CONNECTED WORLD: Cyberbullying  <small>p.380</small>
+- The Prevention and Control of Aggression: Some Useful Techniques  <small>p.381</small>
+  - Punishment: Just Desserts or Deterrence?  <small>p.381</small>
+  - Self-Regulation: Internal Mechanisms for Controlling Aggression  <small>p.382</small>
+  - Catharsis: Does “Blowing Off Steam” Really Help?  <small>p.383</small>
+  - Reducing Aggression by Bolstering Self-Esteem  <small>p.385</small>
+- SUMMARY AND REVIEW  <small>p.386</small>
+- KEY TERMS  <small>p.387</small>
+
+## [[ch11-groups-and-individuals-the-consequences-of-belongi|11 Groups and Individuals: The Consequences of Belonging]]  <small>(pp. 388–425)</small>
+- Groups: When We Join . . . and When We Leave  <small>p.392</small>
+  - Groups: Their Key Components  <small>p.393</small>
+  - The Benefits—and Costs—of Joining  <small>p.399</small>
+- Effects of the Presence of Others: From Task Performance to Behavior in Crowds  <small>p.403</small>
+  - Social Facilitation: Performing in the Presence of Others  <small>p.403</small>
+  - Social Loafing: Letting Others Do the Work  <small>p.406</small>
+  - Effects of Being in a Crowd  <small>p.407</small>
+- Coordination in Groups: Cooperation or Conflict?  <small>p.409</small>
+  - SOCIAL LIFE IN A CONNECTED WORLD: Working with Others via Computer-Mediated Communication  <small>p.409</small>
+  - Cooperation: Working with Others to Achieve Shared Goals  <small>p.410</small>
+  - Responding to and Resolving Conflicts: Some Useful Techniques  <small>p.412</small>
+- Perceived Fairness in Groups: Its Nature and Effects  <small>p.414</small>
+  - Basic Rules for Judging Fairness: Distributive, Procedural, and Transactional Justice  <small>p.415</small>
+  - EMOTIONS AND GROUPS: When Members of One Group Perceive Members of Another Group as Rejecting Them  <small>p.416</small>
+- Decision Making by Groups: How It Occurs and the Pitfalls It Faces  <small>p.417</small>
+  - The Decision-Making Process: How Groups Attain Consensus  <small>p.418</small>
+- The Downside of Group Decision Making  <small>p.419</small>
+- The Role of Leadership in Group Settings  <small>p.421</small>
+- SUMMARY AND REVIEW  <small>p.424</small>
+- KEY TERMS  <small>p.425</small>
+
+## [[ch12-social-psychology-a-guide-to-dealing-with-adversit|12 Social Psychology: A Guide to Dealing with Adversity and Achieving a Happy Life]]  <small>(pp. 426–539)</small>
+- Some Basic Causes of Social Adversity—and Coping with Them  <small>p.428</small>
+  - Loneliness: Life Without Relationships  <small>p.429</small>
+  - The Shattering—and Building—of Relationships  <small>p.431</small>
+- The Social Side of Personal Health  <small>p.439</small>
+  - Obesity: Why Its Roots Are Social as Well as Biological  <small>p.439</small>
+  - SOCIAL LIFE IN A CONNECTED WORLD: Can Internet Sites Help People Lose Weight?  <small>p.442</small>
+  - Stress: Social Tactics for Reducing Its Harmful Effects  <small>p.443</small>
+- Making the Legal System More Open, Fair, and Effective: The Social Side of the Law  <small>p.446</small>
+  - Social Influence and the Legal System  <small>p.446</small>
+  - The Influence of Prejudice and Stereotypes on the Legal System  <small>p.448</small>
+- Personal Happiness: What It Is, and How to Attain It  <small>p.450</small>
+  - How Happy are People Generally?  <small>p.450</small>
+  - Factors That Influence Happiness  <small>p.451</small>
+  - Wealth: An Important Ingredient in Personal Happiness?  <small>p.452</small>
+  - Is Happiness Having What You Want, or Wanting What You Have?  <small>p.453</small>
+  - The Benefits of Happiness  <small>p.454</small>
+  - Can We Increase Personal Happiness?  <small>p.454</small>
+  - EMOTIONS AND PERSONAL HAPPINESS: Is It Possible to Be Too Happy?  <small>p.456</small>
+- SUMMARY AND REVIEW  <small>p.457</small>
+- KEY TERMS  <small>p.458</small>
+- A  <small>p.459</small>
+- B  <small>p.459</small>
+- C  <small>p.459</small>
+- D  <small>p.460</small>
+- E  <small>p.461</small>
+- F  <small>p.461</small>
+- G  <small>p.461</small>
+- H  <small>p.462</small>
+- I  <small>p.462</small>
+- J  <small>p.462</small>
+- K  <small>p.462</small>
+- L  <small>p.462</small>
+- M  <small>p.463</small>
+- N  <small>p.463</small>
+- O  <small>p.463</small>
+- P  <small>p.463</small>
+- R  <small>p.464</small>
+- S  <small>p.464</small>
+- T  <small>p.466</small>
+- U  <small>p.466</small>
+- Z  <small>p.466</small>
+- A  <small>p.515</small>
+- B  <small>p.515</small>
+- C  <small>p.516</small>
+- D  <small>p.517</small>
+- E  <small>p.518</small>
+- F  <small>p.518</small>
+- G  <small>p.519</small>
+- H  <small>p.519</small>
+- I  <small>p.520</small>
+- J  <small>p.520</small>
+- K  <small>p.521</small>
+- L  <small>p.521</small>
+- M  <small>p.522</small>
+- N  <small>p.523</small>
+- O  <small>p.523</small>
+- P  <small>p.524</small>
+- Q  <small>p.524</small>
+- R  <small>p.524</small>
+- S  <small>p.525</small>
+- T  <small>p.526</small>
+- U  <small>p.527</small>
+- V  <small>p.527</small>
+- W  <small>p.527</small>
+- X  <small>p.528</small>
+- Y  <small>p.528</small>
+- Z  <small>p.528</small>
+- A  <small>p.529</small>
+- B  <small>p.530</small>
+- C  <small>p.530</small>
+- D  <small>p.531</small>
+- E  <small>p.532</small>
+- F  <small>p.532</small>
+- G  <small>p.532</small>
+- H  <small>p.533</small>
+- I  <small>p.533</small>
+- J  <small>p.534</small>
+- K  <small>p.534</small>
+- L  <small>p.534</small>
+- M  <small>p.534</small>
+- N  <small>p.535</small>
+- O  <small>p.535</small>
+- P  <small>p.535</small>
+- R  <small>p.536</small>
+- S  <small>p.537</small>
+- T  <small>p.539</small>
+- U  <small>p.539</small>
+- V  <small>p.539</small>
+- W  <small>p.539</small>
+- Z  <small>p.539</small>

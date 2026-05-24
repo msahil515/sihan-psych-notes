@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Psych Notes — MET Prep</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0f1115">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<style>
+*{box-sizing:border-box}
+:root{--bg:#0f1115;--panel:#171a21;--ink:#e6e8ee;--muted:#9aa3b2;--accent:#5b9cff;--line:#262b36}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;-webkit-text-size-adjust:100%}
+#app{display:flex;height:100%}
+#side{width:340px;flex:none;background:var(--panel);border-right:1px solid var(--line);overflow-y:auto;padding:12px;-webkit-overflow-scrolling:touch}
+#main{flex:1;overflow-y:auto;padding:28px 40px;max-width:1100px;-webkit-overflow-scrolling:touch}
+h1.brand{font-size:18px;margin:4px 6px 12px}
+#q{width:100%;padding:11px 12px;border-radius:10px;border:1px solid var(--line);background:#0c0e12;color:var(--ink);font-size:15px}
+.book{margin-top:14px}
+.book>.bt{font-weight:700;color:var(--accent);font-size:13px;text-transform:uppercase;letter-spacing:.04em;padding:6px}
+.ch{display:block;padding:9px 10px;border-radius:8px;color:var(--ink);text-decoration:none;cursor:pointer;font-size:14.5px}
+.ch:active,.ch:hover{background:#1f2530}
+.ch.active{background:#26314a;color:#fff}
+.ch small{color:var(--muted)}
+#main h1{font-size:26px;border-bottom:1px solid var(--line);padding-bottom:10px}
+#main h2{font-size:21px;margin-top:28px;color:#cdd6ff}
+#main h3{font-size:17px;color:#aeb8d8}
+#main table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px}
+#main th,#main td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+#main th{background:#1c222e}
+#main code{background:#1c222e;padding:1px 5px;border-radius:5px}
+#main strong{color:#fff}
+.hint{color:var(--muted);font-size:13px;margin-bottom:8px}
+#empty{color:var(--muted);text-align:center;margin-top:60px}
+@media(max-width:760px){#side{width:42%}#main{padding:18px}}
+</style></head><body>
+<div id="app">
+  <div id="side">
+    <h1 class="brand">📚 Psych Notes · MET Prep</h1>
+    <input id="q" placeholder="Search all notes…" autocomplete="off" autocapitalize="off">
+    <div id="nav"></div>
+  </div>
+  <div id="main"><div id="empty">Select a chapter, or search across all three books.</div></div>
+</div>
+<script>
+const DATA = __PAYLOAD__;
+const nav=document.getElementById('nav'), main=document.getElementById('main'), q=document.getElementById('q');
+function render(){
+  const term=q.value.trim().toLowerCase();
+  nav.innerHTML='';
+  DATA.books.forEach(bk=>{
+    let docs=DATA.docs.filter(d=>d.book===bk.key);
+    if(term) docs=docs.filter(d=>d.title.toLowerCase().includes(term)||d.text.includes(term));
+    if(!docs.length) return;
+    const bd=document.createElement('div'); bd.className='book';
+    bd.innerHTML='<div class="bt">'+bk.subject+'</div>';
+    docs.forEach(d=>{
+      const a=document.createElement('a'); a.className='ch';
+      a.innerHTML=d.title.replace(/^(Ch ?\d+:?|\d+|Chapter \d+:?)\s*/i,m=>'<small>'+m.trim()+'</small> ');
+      a.onclick=()=>openDoc(d,a);
+      bd.appendChild(a);
+    });
+    nav.appendChild(bd);
+  });
+}
+function openDoc(d,el){
+  document.querySelectorAll('.ch.active').forEach(e=>e.classList.remove('active'));
+  if(el) el.classList.add('active');
+  main.innerHTML='<div class="hint">'+d.bookTitle+'</div>'+d.html;
+  main.scrollTop=0;
+}
+q.addEventListener('input',render);
+render();
+if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));}
+</script></body></html>
