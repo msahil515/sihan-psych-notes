@@ -49,6 +49,22 @@ body{background:radial-gradient(1200px 700px at 85% -10%,#141a28 0,var(--bg) 55%
   background:#0a0c11;color:var(--ink);font-size:15px;outline:none;transition:border-color .15s,box-shadow .15s}
 #q:focus{border-color:var(--accent-line);box-shadow:0 0 0 3px var(--accent-soft)}
 
+/* ---- sidebar collapse (desktop) ---- */
+#sidetoggle{flex:none;margin-left:auto;width:30px;height:30px;border:1px solid var(--line2);border-radius:9px;
+  background:var(--panel2);color:var(--muted);font-size:15px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.14s}
+#sidetoggle:hover{color:var(--ink);border-color:var(--faint)}
+#side{transition:margin-left .24s cubic-bezier(.4,0,.2,1)}
+body.side-collapsed #side{margin-left:calc(-1 * var(--side-w))}
+#reopen{display:none}
+@media(min-width:901px){
+  #reopen{position:fixed;top:14px;left:14px;width:40px;height:40px;z-index:28;
+    border:1px solid var(--line2);border-radius:11px;background:var(--panel2);color:var(--ink);
+    font-size:18px;line-height:1;cursor:pointer;align-items:center;justify-content:center;
+    box-shadow:0 4px 14px rgba(0,0,0,.4);opacity:0;pointer-events:none;transform:translateX(-6px);transition:.18s}
+  #reopen:hover{background:#1d2231}
+  body.side-collapsed #reopen{display:flex;opacity:1;pointer-events:auto;transform:none}
+}
+
 /* book filter pills */
 .pills{display:flex;flex-wrap:wrap;gap:7px;margin:0 2px 8px}
 .pill{flex:none;padding:7px 12px;border-radius:999px;border:1px solid var(--line2);background:transparent;
@@ -156,6 +172,7 @@ body{background:radial-gradient(1200px 700px at 85% -10%,#141a28 0,var(--bg) 55%
   #app{display:block;height:100%}
   #topbar{display:flex}
   #side .search{display:none}
+  #sidetoggle{display:none}
   #main{height:calc(100% - 54px)}
   .wrap{padding:22px 18px 80px}
   .cards{grid-template-columns:1fr}
@@ -180,6 +197,7 @@ body{background:radial-gradient(1200px 700px at 85% -10%,#141a28 0,var(--bg) 55%
     <div class="brand">
       <div class="logo">ψ</div>
       <div><div class="bn">Psych Notes</div><div class="bs">MET 2026 Prep</div></div>
+      <button id="sidetoggle" aria-label="Collapse sidebar" title="Collapse sidebar">«</button>
     </div>
     <div class="search">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8a93a6" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
@@ -190,6 +208,7 @@ body{background:radial-gradient(1200px 700px at 85% -10%,#141a28 0,var(--bg) 55%
   </aside>
   <main id="main"><div id="progress"><i></i></div><div class="wrap" id="view"></div></main>
 </div>
+<button id="reopen" aria-label="Open sidebar" title="Open sidebar">☰</button>
 <div id="overlay"></div>
 <script>
 const DATA = __PAYLOAD__;
@@ -217,6 +236,13 @@ function openNav(){document.body.classList.add('nav-open');}
 function closeNav(){document.body.classList.remove('nav-open');}
 menu.onclick=()=>document.body.classList.toggle('nav-open');
 overlay.onclick=closeNav;
+
+// ---- sidebar collapse (desktop) ----
+const sidetoggle=document.getElementById('sidetoggle'), reopen=document.getElementById('reopen');
+function setCollapsed(v){document.body.classList.toggle('side-collapsed',v);try{localStorage.setItem('sideCollapsed',v?'1':'0');}catch(e){}}
+if(sidetoggle)sidetoggle.onclick=()=>setCollapsed(true);
+if(reopen)reopen.onclick=()=>setCollapsed(false);
+try{if(localStorage.getItem('sideCollapsed')==='1')document.body.classList.add('side-collapsed');}catch(e){}
 
 // ---- filter pills ----
 function buildPills(){
