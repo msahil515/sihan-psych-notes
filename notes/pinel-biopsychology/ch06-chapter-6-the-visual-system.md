@@ -138,6 +138,50 @@ The visual system does not copy the world; it constructs a 3D perception from ti
 - **Lateral geniculate nucleus (LGN)**: in the **thalamus**; **6 layers** (3 from each eye); receives only **contralateral visual field** input; most projections end in **lower layer IV** of cortex.
 - **Striate cortex (V1, primary visual cortex)**: named for the **stripe** where LGN axons terminate.
 
+<div class="fig">
+<svg viewBox="0 0 560 330" role="img" aria-label="The visual pathway from eyes to primary visual cortex">
+<text x="280" y="22" text-anchor="middle" font-size="12" fill="#c2c8d6">left visual field <tspan fill="#5b9cff">&#9632;</tspan>   right visual field <tspan fill="#fbbf72">&#9632;</tspan></text>
+<g stroke="#e8ebf2" stroke-width="2"><circle cx="70" cy="95" r="30" fill="#161b27"/><circle cx="70" cy="235" r="30" fill="#161b27"/></g>
+<path d="M70 65 A30 30 0 0 1 70 125" fill="#fbbf72" opacity="0.55"/>
+<path d="M70 125 A30 30 0 0 1 70 65" fill="#5b9cff" opacity="0.55"/>
+<path d="M70 205 A30 30 0 0 1 70 265" fill="#fbbf72" opacity="0.55"/>
+<path d="M70 265 A30 30 0 0 1 70 205" fill="#5b9cff" opacity="0.55"/>
+<g fill="none" stroke-width="3.4" stroke-linecap="round">
+<path d="M100 88 L210 150" stroke="#5b9cff"/>
+<path d="M100 102 L210 165" stroke="#fbbf72"/>
+<path d="M100 228 L210 165" stroke="#5b9cff"/>
+<path d="M100 242 L210 150" stroke="#fbbf72"/>
+</g>
+<ellipse cx="210" cy="157" rx="16" ry="26" fill="#3a2f1e" stroke="#e8ebf2" stroke-width="2"/>
+<g fill="none" stroke-width="3.4" stroke-linecap="round">
+<path d="M226 150 L330 120" stroke="#fbbf72"/>
+<path d="M226 165 L330 232" stroke="#5b9cff"/>
+</g>
+<rect x="330" y="100" width="46" height="40" rx="8" fill="#1c2740" stroke="#fbbf72" stroke-width="2"/>
+<rect x="330" y="212" width="46" height="40" rx="8" fill="#22314c" stroke="#5b9cff" stroke-width="2"/>
+<g fill="none" stroke-width="3.4" stroke-linecap="round">
+<path d="M376 120 Q450 130 470 165" stroke="#fbbf72"/>
+<path d="M376 232 Q450 222 470 191" stroke="#5b9cff"/>
+</g>
+<path d="M470 120 Q520 178 470 236 Q500 178 470 120 Z" fill="#2a2238" stroke="#a78bfa" stroke-width="2.2"/>
+<g font-size="12.5" fill="#c2c8d6">
+<text x="70" y="290" text-anchor="middle" fill="#e8ebf2">eyes (retinas)</text>
+<text x="70" y="306" text-anchor="middle" font-size="10.5">nasal | temporal halves</text>
+<text x="155" y="120" text-anchor="middle">optic nerve</text>
+<text x="210" y="205" text-anchor="middle">optic chiasm</text>
+<text x="210" y="220" text-anchor="middle" font-size="10.5">nasal fibers cross</text>
+<text x="300" y="95" text-anchor="middle">optic tract</text>
+<text x="353" y="92" text-anchor="middle" fill="#e8ebf2">LGN</text>
+<text x="353" y="270" text-anchor="middle" font-size="10.5">(thalamus)</text>
+<text x="445" y="150" text-anchor="middle" font-size="11">optic</text><text x="445" y="163" text-anchor="middle" font-size="11">radiation</text>
+<text x="498" y="178" text-anchor="middle" fill="#a78bfa">V1</text>
+<text x="498" y="290" text-anchor="middle" font-size="10.5">primary</text>
+<text x="498" y="303" text-anchor="middle" font-size="10.5">visual cortex</text>
+</g>
+</svg>
+<p class="cap"><b>Retina to cortex.</b> Each eye splits into a nasal and temporal half-retina. At the optic chiasm the nasal fibers cross, so everything from the <b>left</b> visual field ends up in the <b>right</b> primary visual cortex (and vice-versa), relayed through the LGN of the thalamus.</p>
+</div>
+
 ### Retinotopic Organization
 - **Retinotopic organization**: each level is a **map of the retina**; adjacent retinal areas → adjacent neurons.
 - **Cortical magnification**: ~**25%** of V1 is devoted to the small **fovea**.

@@ -28,11 +28,13 @@ def build_docs():
             raw = f.read_text()
             body = re.sub(r'^---\n.*?\n---\n', '', raw, count=1, flags=re.S)
             md.reset()
+            # search text: drop whole diagram blocks (SVG + wrappers) so markup isn't indexed
+            search_src = re.sub(r'<div class="fig">.*?</div>', ' ', body, flags=re.S)
             docs.append({
                 "book": key, "bookTitle": b["title"], "subject": b["subject"],
                 "num": c["num"], "title": c["title"],
                 "html": md.convert(body),
-                "text": re.sub(r'\s+', ' ', body).lower()[:20000],
+                "text": re.sub(r'\s+', ' ', search_src).lower()[:20000],
             })
     return docs
 

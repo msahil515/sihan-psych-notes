@@ -44,6 +44,24 @@ Surveys nervous system structure from gross divisions (CNS vs. PNS) to the cellu
 2. Each target organ gets *opposing* sympathetic/parasympathetic input.
 3. Sympathetic = arousal; parasympathetic = relaxation.
 
+<div class="fig">
+<svg viewBox="0 0 560 320" role="img" aria-label="Organisation of the nervous system">
+<g stroke="#5b6376" stroke-width="1.6" fill="none">
+<path d="M280 52 V74 M135 74 H425 M135 74 V96 M425 74 V96"/>
+<path d="M425 138 V156 M296 156 H467 M296 156 V176 M467 156 V176"/>
+<path d="M467 218 V236 M381 236 H500 M381 236 V256 M500 236 V256"/>
+</g>
+<rect x="180" y="18" width="200" height="34" rx="9" fill="#161b27" stroke="#fbbf72" stroke-width="2"/><text x="280.0" y="40.0" text-anchor="middle" fill="#e8ebf2" font-size="13.5" font-weight="700">Nervous system</text>
+<rect x="60" y="96" width="150" height="42" rx="9" fill="#161b27" stroke="#5b9cff" stroke-width="2"/><text x="135.0" y="116" text-anchor="middle" fill="#e8ebf2" font-size="13.5" font-weight="700">CNS</text><text x="135.0" y="132" text-anchor="middle" fill="#c2c8d6" font-size="10.5">brain + spinal cord</text>
+<rect x="350" y="96" width="150" height="42" rx="9" fill="#161b27" stroke="#5b9cff" stroke-width="2"/><text x="425.0" y="116" text-anchor="middle" fill="#e8ebf2" font-size="13.5" font-weight="700">PNS</text><text x="425.0" y="132" text-anchor="middle" fill="#c2c8d6" font-size="10.5">outside the CNS</text>
+<rect x="232" y="176" width="128" height="42" rx="9" fill="#161b27" stroke="#2dd4bf" stroke-width="2"/><text x="296.0" y="196" text-anchor="middle" fill="#e8ebf2" font-size="13.5" font-weight="700">Somatic (SNS)</text><text x="296.0" y="212" text-anchor="middle" fill="#c2c8d6" font-size="10.5">external world</text>
+<rect x="392" y="176" width="150" height="42" rx="9" fill="#161b27" stroke="#2dd4bf" stroke-width="2"/><text x="467.0" y="196" text-anchor="middle" fill="#e8ebf2" font-size="13.5" font-weight="700">Autonomic (ANS)</text><text x="467.0" y="212" text-anchor="middle" fill="#c2c8d6" font-size="10.5">internal organs</text>
+<rect x="330" y="256" width="102" height="46" rx="9" fill="#161b27" stroke="#a78bfa" stroke-width="2"/><text x="381.0" y="276" text-anchor="middle" fill="#e8ebf2" font-size="12" font-weight="700">Sympathetic</text><text x="381.0" y="292" text-anchor="middle" fill="#c2c8d6" font-size="10.5">fight-or-flight</text>
+<rect x="442" y="256" width="116" height="46" rx="9" fill="#161b27" stroke="#a78bfa" stroke-width="2"/><text x="500.0" y="276" text-anchor="middle" fill="#e8ebf2" font-size="12" font-weight="700">Parasympathetic</text><text x="500.0" y="292" text-anchor="middle" fill="#c2c8d6" font-size="10.5">rest-and-digest</text>
+</svg>
+<p class="cap"><b>A system of twos.</b> The nervous system splits into CNS and PNS; the PNS into somatic and autonomic; and the autonomic into the opposing sympathetic (arousal) and parasympathetic (calming) branches.</p>
+</div>
+
 ### Cranial Nerves
 
 - **12 pairs of cranial nerves** project directly from the brain; numbered I–XII (anterior to posterior).
@@ -103,6 +121,45 @@ The CNS is encased in bone and three membranes, the **meninges** (sing. meninx),
 | **Nodes of Ranvier** | Gaps between myelin sections |
 | **Buttons (terminal buttons)** | Axon-ending knobs; release chemicals into synapses |
 | **Synapses** | Gaps across which chemical signals are transmitted |
+
+<div class="fig">
+<svg viewBox="0 0 560 240" role="img" aria-label="Structure of a neuron">
+<line x1="150" y1="120" x2="478" y2="120" stroke="#cdd3e0" stroke-width="5"/>
+<g fill="#22314c" stroke="#5b9cff" stroke-width="2">
+<rect x="190" y="110" width="58" height="20" rx="10"/>
+<rect x="266" y="110" width="58" height="20" rx="10"/>
+<rect x="342" y="110" width="58" height="20" rx="10"/>
+</g>
+<g stroke="#fbbf72" stroke-width="2.6" fill="none" stroke-linecap="round">
+<path d="M96 116 L60 78 M72 86 L46 66 M72 86 L50 100"/>
+<path d="M96 128 L58 162 M70 152 L46 170 M70 152 L52 182"/>
+<path d="M92 104 L66 58"/>
+</g>
+<ellipse cx="116" cy="121" rx="30" ry="27" fill="#3a2f1e" stroke="#fbbf72" stroke-width="2.6"/>
+<circle cx="116" cy="121" r="11" fill="#fbbf72" opacity="0.9"/>
+<path d="M146 108 L162 121 L146 134 Z" fill="#fbbf72" opacity="0.55"/>
+<line x1="478" y1="120" x2="498" y2="104" stroke="#cdd3e0" stroke-width="3" stroke-linecap="round"/>
+<line x1="478" y1="120" x2="504" y2="120" stroke="#cdd3e0" stroke-width="3" stroke-linecap="round"/>
+<line x1="478" y1="120" x2="494" y2="136" stroke="#cdd3e0" stroke-width="3" stroke-linecap="round"/>
+<g fill="#fbbf72"><circle cx="500" cy="100" r="8"/><circle cx="508" cy="120" r="8"/><circle cx="500" cy="140" r="8"/></g>
+<g font-size="13" fill="#c2c8d6">
+<text x="40" y="40">Dendrites</text>
+<line x1="58" y1="46" x2="72" y2="70" stroke="#5b6376"/>
+<text x="116" y="200" text-anchor="middle">Cell body (soma)</text>
+<text x="116" y="218" text-anchor="middle" fill="#fbbf72" font-size="11.5">nucleus inside</text>
+<text x="170" y="92" text-anchor="middle">Axon hillock</text>
+<line x1="170" y1="98" x2="158" y2="114" stroke="#5b6376"/>
+<text x="277" y="92" text-anchor="middle" fill="#5b9cff">Myelin sheath</text>
+<line x1="277" y1="98" x2="277" y2="108" stroke="#5b6376"/>
+<text x="333" y="160" text-anchor="middle">Node of Ranvier</text>
+<line x1="333" y1="148" x2="333" y2="130" stroke="#5b6376"/>
+<text x="496" y="172" text-anchor="middle">Terminal buttons</text>
+<line x1="500" y1="158" x2="504" y2="148" stroke="#5b6376"/>
+<text x="300" y="103" text-anchor="middle" fill="#e8ebf2" font-size="11.5">Axon</text>
+</g>
+</svg>
+<p class="cap"><b>Structure of a neuron.</b> Signals flow one way: dendrites receive, the soma integrates, the axon carries the action potential (jumping node to node between myelin segments), and terminal buttons release neurotransmitter onto the next cell.</p>
+</div>
 
 ### Internal Anatomy
 
@@ -313,6 +370,44 @@ Ascending/descending tracts, part of reticular formation, plus:
 | **Parietal** | Posterior to central fissure | Postcentral gyrus | Body sensation (postcentral gyrus); object/body location; directing attention |
 | **Temporal** | Below lateral fissure | Superior temporal gyrus; inferior + medial temporal cortex | Hearing/language (superior temporal gyrus); complex visual ID (inferior temporal); memory (medial temporal) |
 | **Occipital** | Most posterior | | Visual analysis |
+
+<div class="fig">
+<svg viewBox="0 0 560 350" role="img" aria-label="Lateral view of the brain and its four lobes">
+<defs>
+<clipPath id="cx"><path d="M90 195 C70 150 80 100 140 80 C210 55 320 55 400 75 C450 90 488 130 478 175 C470 218 440 242 380 242 C300 247 175 247 130 236 C106 229 96 213 90 195 Z"/></clipPath>
+</defs>
+<g clip-path="url(#cx)">
+<rect x="0" y="0" width="560" height="350" fill="#11151f"/>
+<path d="M0 0 L255 40 L304 197 L0 150 Z" fill="#5b9cff" fill-opacity="0.50"/>
+<path d="M255 40 L400 45 L430 210 L380 205 L304 197 Z" fill="#a78bfa" fill-opacity="0.50"/>
+<path d="M400 45 L560 0 L560 350 L425 350 L430 210 Z" fill="#fbbf72" fill-opacity="0.44"/>
+<path d="M0 150 L304 197 L380 205 L430 211 L427 350 L0 350 Z" fill="#2dd4bf" fill-opacity="0.48"/>
+</g>
+<path d="M404 232 Q416 280 408 320 Q402 334 392 322 Q380 280 388 234 Z" fill="#222a3a" stroke="#e8ebf2" stroke-width="2"/>
+<path d="M420 236 Q502 232 500 276 Q498 312 438 310 Q414 308 414 280 Q414 254 420 236 Z" fill="#15302b" stroke="#2dd4bf" stroke-width="2.2"/>
+<g stroke="#2dd4bf" stroke-width="1.3" opacity="0.7"><path d="M420 252 H494"/><path d="M416 268 H498"/><path d="M418 284 H492"/><path d="M426 298 H480"/></g>
+<path d="M90 195 C70 150 80 100 140 80 C210 55 320 55 400 75 C450 90 488 130 478 175 C470 218 440 242 380 242 C300 247 175 247 130 236 C106 229 96 213 90 195 Z" fill="none" stroke="#e8ebf2" stroke-width="2.4"/>
+<path d="M252 66 L300 192" stroke="#e8ebf2" stroke-width="2" fill="none" stroke-dasharray="2 5" opacity="0.85"/>
+<path d="M120 165 Q250 188 372 205" stroke="#e8ebf2" stroke-width="2" fill="none" stroke-dasharray="2 5" opacity="0.85"/>
+<g font-size="14.5" font-weight="700">
+<text x="165" y="120" fill="#5b9cff">Frontal</text>
+<text x="318" y="95" text-anchor="middle" fill="#a78bfa">Parietal</text>
+<text x="445" y="135" text-anchor="middle" fill="#fbbf72">Occipital</text>
+<text x="235" y="218" fill="#2dd4bf">Temporal</text>
+</g>
+<g font-size="11.5" fill="#c2c8d6">
+<text x="262" y="52" text-anchor="middle">central sulcus</text>
+<line x1="262" y1="58" x2="270" y2="74" stroke="#5b6376"/>
+<text x="104" y="150" text-anchor="end">lateral</text><text x="104" y="163" text-anchor="end">sulcus</text>
+<line x1="108" y1="158" x2="124" y2="166" stroke="#5b6376"/>
+<text x="470" y="344" text-anchor="middle" fill="#2dd4bf">cerebellum</text>
+<line x1="466" y1="330" x2="460" y2="312" stroke="#5b6376"/>
+<text x="360" y="340" text-anchor="middle">brain stem</text>
+<line x1="374" y1="328" x2="398" y2="312" stroke="#5b6376"/>
+</g>
+</svg>
+<p class="cap"><b>The cerebral cortex, side view.</b> The central sulcus and lateral sulcus split each hemisphere into four lobes: frontal (movement, planning), parietal (body sensation), temporal (hearing, memory), occipital (vision). The cerebellum (movement coordination) and brain stem sit below and behind.</p>
+</div>
 
 - **Lobes are NOT functional units** — the cortex is a folded sheet.
 
