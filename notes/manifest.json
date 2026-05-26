@@ -6672,5 +6672,21 @@
         ]
       }
     ]
+  },
+  "key-acts-law": {
+    "title": "Key Acts & Law (India)",
+    "file": "(prep doc)",
+    "subject": "Law & Acts",
+    "pages": 11,
+    "chapters": [
+      {
+        "num": 1,
+        "title": "Mental Health Acts in India",
+        "slug": "ch01-mental-health-acts-india",
+        "start": 1,
+        "end": 11,
+        "sections": []
+      }
+    ]
   }
 }

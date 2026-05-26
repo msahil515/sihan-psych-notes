@@ -6,7 +6,7 @@ import json, re, subprocess, sys, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 NOTES = ROOT / "notes"
-EXPECT = {"schultz-personality": 15, "baron-social-psychology": 12, "pinel-biopsychology": 18}
+EXPECT = {"schultz-personality": 15, "baron-social-psychology": 12, "pinel-biopsychology": 18, "key-acts-law": 1}
 
 fails = []
 def check(name, cond, detail=""):
@@ -33,7 +33,7 @@ for art in ("index.html", "manifest.webmanifest", "sw.js", "icon-192.png", "icon
 if (DOCS / "index.html").exists():
     html = (DOCS / "index.html").read_text()
     check("index.html has no external script src", "src=\"http" not in html and "src='http" not in html)
-    check("index.html embeds 45 docs", html.count('"title":') == 45 + 3, f'count={html.count(chr(34)+"title"+chr(34))}')  # 45 docs + 3 books
+    ndocs=sum(EXPECT.values()); check(f"index.html embeds {ndocs} docs", html.count('"title":') == ndocs + len(EXPECT), f'count={html.count(chr(34)+"title"+chr(34))}')  # docs + books
     check("index.html registers service worker", "serviceWorker" in html)
     check("index.html has search box", 'id="q"' in html)
 
