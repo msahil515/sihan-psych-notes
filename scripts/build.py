@@ -50,7 +50,7 @@ def main():
     manifest = {
         "name": "Psych Notes — MET Prep", "short_name": "Psych Notes",
         "start_url": "./index.html", "scope": "./", "display": "standalone",
-        "background_color": "#0f1115", "theme_color": "#0f1115",
+        "background_color": "#f3efe6", "theme_color": "#f3efe6",
         "description": "Offline psychology textbook notes for MET 2026 Clinical Psych prep.",
         "icons": [
             {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
