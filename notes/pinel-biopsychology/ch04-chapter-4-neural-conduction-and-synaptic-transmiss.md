@@ -135,37 +135,12 @@ How neurons generate, conduct, and transmit electrochemical signals: resting pot
 | **Hyperpolarization** | K+ channels close slowly → brief undershoot below -70 mV |
 | **K+ channels close** | Returns toward -70 mV |
 
-<div class="fig">
-<svg viewBox="0 0 560 330" role="img" aria-label="The action potential">
-<line x1="64" y1="40" x2="64" y2="292" stroke="#5b6376" stroke-width="1.6"/>
-<line x1="64" y1="292" x2="528" y2="292" stroke="#5b6376" stroke-width="1.6"/>
-<line x1="64" y1="242" x2="528" y2="242" stroke="#2dd4bf" stroke-width="1.3" stroke-dasharray="5 4"/>
-<line x1="64" y1="251" x2="528" y2="251" stroke="#c2c8d6" stroke-width="1.3" stroke-dasharray="5 4"/>
-<polyline fill="none" stroke="#fbbf72" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"
- points="74,251 150,251 170,242 196,58 210,67 244,251 262,272 300,254 360,251 520,251"/>
-<g font-size="12" fill="#c2c8d6">
-<text x="58" y="62" text-anchor="end">+40</text>
-<text x="58" y="132" text-anchor="end">0</text>
-<text x="58" y="246" text-anchor="end" fill="#2dd4bf">-65</text>
-<text x="58" y="264" text-anchor="end">-70</text>
-<text x="14" y="160" font-size="12" fill="#c2c8d6" transform="rotate(-90 14 160)">membrane potential (mV)</text>
-<text x="300" y="320" text-anchor="middle">time (~1 ms per spike)</text>
-</g>
-<g font-size="11.5" fill="#2dd4bf"><text x="520" y="235" text-anchor="end">threshold</text></g>
-<g font-size="11.5" fill="#e8ebf2">
-<text x="118" y="241" text-anchor="middle">resting</text>
-<text x="205" y="44" text-anchor="middle" fill="#f08a8a">depolarization</text>
-<text x="205" y="60" text-anchor="middle" fill="#f08a8a" font-size="10.5">Na+ rushes IN</text>
-<text x="300" y="93" fill="#5b9cff">repolarization</text>
-<text x="300" y="108" fill="#5b9cff" font-size="10.5">K+ flows OUT</text>
-<text x="360" y="265" text-anchor="middle" font-size="10.5">hyperpolarization</text>
-<line x1="318" y1="268" x2="272" y2="274" stroke="#5b6376"/>
-</g>
-</svg>
-<p class="cap"><b>The action potential is all-or-none.</b> Once a stimulus pushes the membrane past threshold (-65 mV), Na+ floods in and the inside shoots to about +40 mV; K+ then flows out to repolarize, overshooting into a brief hyperpolarization before settling back to the -70 mV resting potential.</p>
-</div>
-
 - Ion movement per AP is tiny; resting concentrations restored mainly by **random ion movement**; Na+/K+ pumps play only a **minor** role per AP.
+
+<div class="fig">
+<a class="figzoom" href="figs/f_4_5.jpg" target="_blank" rel="noopener"><img src="figs/f_4_5.jpg" loading="lazy" alt="Pinel Fig 4.5: sodium and potassium channels across the action potential"></a>
+<p class="cap"><b>Na⁺ and K⁺ channels across the three phases of the action potential.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig 4.5</p>
+</div>
 
 ### Refractory Periods
 
@@ -236,29 +211,6 @@ Five aspects: (1) synapse structure; (2) NT synthesis/packaging/transport; (3) N
 - **Dendritic spines**: nodules on dendrites where many synapses terminate.
 - **Synaptic vesicles**: sacs storing NT in terminal buttons.
 
-<div class="fig">
-<svg viewBox="0 0 520 320" role="img" aria-label="Chemical synapse">
-<path d="M150 20 Q120 70 130 120 L390 120 Q400 70 370 20 Z" fill="#3a2f1e" stroke="#fbbf72" stroke-width="2.4"/>
-<g fill="none" stroke="#fbbf72" stroke-width="2"><circle cx="200" cy="70" r="13"/><circle cx="250" cy="92" r="13"/><circle cx="300" cy="64" r="13"/><circle cx="335" cy="96" r="13"/></g>
-<g fill="#fbbf72"><circle cx="200" cy="70" r="3.5"/><circle cx="250" cy="92" r="3.5"/><circle cx="300" cy="64" r="3.5"/><circle cx="335" cy="96" r="3.5"/></g>
-<rect x="110" y="200" width="300" height="80" rx="8" fill="#1c2740" stroke="#5b9cff" stroke-width="2.4"/>
-<g fill="#2dd4bf"><rect x="170" y="186" width="26" height="16" rx="5"/><rect x="247" y="186" width="26" height="16" rx="5"/><rect x="324" y="186" width="26" height="16" rx="5"/></g>
-<g fill="#fbbf72"><circle cx="225" cy="150" r="4"/><circle cx="205" cy="165" r="4"/><circle cx="260" cy="160" r="4"/><circle cx="300" cy="150" r="4"/><circle cx="335" cy="166" r="4"/><circle cx="183" cy="178" r="4"/><circle cx="337" cy="178" r="4"/></g>
-<path d="M150 140 q-22 18 -4 36" fill="none" stroke="#c2c8d6" stroke-width="1.8" marker-end="url(#ah)"/>
-<defs><marker id="ah" markerWidth="8" markerHeight="8" refX="5" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8 z" fill="#c2c8d6"/></marker></defs>
-<g font-size="13" fill="#c2c8d6">
-<text x="260" y="40" text-anchor="middle" fill="#e8ebf2">Presynaptic terminal button</text>
-<text x="200" y="70" text-anchor="middle" dy="-18" font-size="11" fill="#fbbf72">vesicles (NT)</text>
-<text x="438" y="160" text-anchor="middle">synaptic</text><text x="438" y="175" text-anchor="middle">cleft</text>
-<line x1="408" y1="158" x2="380" y2="140" stroke="#5b6376"/>
-<text x="260" y="245" text-anchor="middle" fill="#e8ebf2">Postsynaptic membrane</text>
-<text x="385" y="196" font-size="11" fill="#2dd4bf">receptors</text>
-<text x="120" y="150" font-size="11">reuptake</text>
-</g>
-</svg>
-<p class="cap"><b>Chemical synapse.</b> An arriving action potential triggers vesicles to dump neurotransmitter into the synaptic cleft; the molecules diffuse across and bind receptors on the postsynaptic membrane (causing an EPSP or IPSP), then are cleared by reuptake or enzymes.</p>
-</div>
-
 | Synapse Type | Description |
 |---|---|
 | **Axodendritic** | Onto **dendrites** (most common; often spines) |
@@ -269,6 +221,11 @@ Five aspects: (1) synapse structure; (2) NT synthesis/packaging/transport; (3) N
 **Presynaptic facilitation/inhibition** (axoaxonic): increases or decreases one button's effect; advantage = selectively influences **one synapse** rather than the whole neuron.
 
 **Directed synapses**: release and reception sites close. **Nondirected synapses**: release at a distance — e.g., **string-of-beads synapses** releasing NT from **varicosities** along the axon.
+
+<div class="fig">
+<a class="figzoom" href="figs/f_4_7.jpg" target="_blank" rel="noopener"><img src="figs/f_4_7.jpg" loading="lazy" alt="Pinel Fig 4.7: anatomy of a typical synapse"></a>
+<p class="cap"><b>Anatomy of a typical synapse.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig 4.7</p>
+</div>
 
 ### Synthesis, Packaging, Transport
 
@@ -347,6 +304,11 @@ Neurotransmitters
 └── Large-Molecule
     └── Neuropeptides (>100): Pituitary, Hypothalamic, Brain-gut, Opioid, Miscellaneous
 ```
+
+<div class="fig">
+<a class="figzoom" href="figs/f_4_16.jpg" target="_blank" rel="noopener"><img src="figs/f_4_16.jpg" loading="lazy" alt="Pinel Fig 4.16: the classes of neurotransmitters"></a>
+<p class="cap"><b>The classes of neurotransmitters.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig 4.16</p>
+</div>
 
 ### Amino Acid Neurotransmitters
 Dominate fast-acting directed CNS synapses; building blocks of proteins.

@@ -72,6 +72,11 @@ tags: [biopsychology, perception, auditory-system, somatosensory, olfaction, gus
 - **Tonotopic organization**: frequencies stimulate different basilar membrane points — **high** frequencies near the oval/round windows; **low** at the apex. (Analogous to **retinotopic** in vision.)
 - **Semicircular canals**: receptors of the **vestibular system** (head movement, balance).
 
+<div class="fig">
+<a class="figzoom" href="figs/f_7_4.jpg" target="_blank" rel="noopener"><img src="figs/f_7_4.jpg" loading="lazy" alt="Pinel Fig 7.4: anatomy of the ear"></a>
+<p class="cap"><b>Anatomy of the ear.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig 7.4</p>
+</div>
+
 ### From Ear to Primary Auditory Cortex
 No single dominant pathway; a **network**. Ascending:
 1. Auditory nerve → **ipsilateral cochlear nuclei**
@@ -140,6 +145,16 @@ Signals from each ear combine at the superior olives and reach **both** ipsilate
 - Second-order neurons mostly decussate at the spinal cord entry level.
 
 > **KEY CLINICAL STUDY: Mark, Ervin & Yakolev (1962):** ventral posterior lesions reduced touch/temperature/sharp pain but **not deep chronic pain**; parafascicular/intralaminar lesions **reduced deep chronic pain** without disrupting cutaneous sensitivity → separate deep-pain pathway.
+
+<div class="fig">
+<a class="figzoom" href="figs/f_7_10.jpg" target="_blank" rel="noopener"><img src="figs/f_7_10.jpg" loading="lazy" alt="Pinel Fig 7.10: the dorsal-column medial-lemniscus system"></a>
+<p class="cap"><b>The dorsal-column medial-lemniscus system.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig 7.10</p>
+</div>
+
+<div class="fig">
+<a class="figzoom" href="figs/f_7_11.jpg" target="_blank" rel="noopener"><img src="figs/f_7_11.jpg" loading="lazy" alt="Pinel Fig 7.11: the anterolateral system"></a>
+<p class="cap"><b>The anterolateral system.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig 7.11</p>
+</div>
 
 ### Cortical Areas of Somatosensation
 

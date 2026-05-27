@@ -32,6 +32,11 @@ pages: 216-243
 ### Principle 3: Learning Changes Nature and Locus of Control
 - Early learning: each response under **conscious control**. After practice: responses become **integrated sequences (motor programs)** run smoothly with feedback but **without conscious regulation**, transferred to **lower levels** (e.g., typing, swimming, piano) (Ashe et al., 2006).
 
+<div class="fig">
+<a class="figzoom" href="figs/f_8_1.jpg" target="_blank" rel="noopener"><img src="figs/f_8_1.jpg" loading="lazy" alt="Pinel Fig 8.1: the sensorimotor system as a hierarchy"></a>
+<p class="cap"><b>The sensorimotor system as a hierarchy.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig 8.1</p>
+</div>
+
 ### General Model (Figure 8.1)
 - Full hierarchy from association cortex to muscle: hierarchical structure, functional segregation, parallel connections, and many **feedback pathways**. Signals traced *downward*.
 
@@ -93,6 +98,11 @@ pages: 216-243
 ## 8.4 Primary Motor Cortex
 
 - **Location:** **precentral gyrus**. Major point of **convergence** of cortical sensorimotor signals and major **departure** point for cortical motor output.
+
+<div class="fig">
+<a class="figzoom" href="figs/f_8_6.jpg" target="_blank" rel="noopener"><img src="figs/f_8_6.jpg" loading="lazy" alt="Pinel Fig 8.6: the motor homunculus"></a>
+<p class="cap"><b>The motor homunculus.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig 8.6</p>
+</div>
 
 ### Conventional View
 

@@ -109,6 +109,11 @@ Neural bases of learning and memory via amnesic patients and animal models: expl
 - **Concussion**: temporary loss of consciousness from a **nonpenetrating** head injury. **Posttraumatic amnesia (PTA)**: amnesia after such a blow (most common amnesia cause). **Coma**: pathological unconsciousness.
 - **Profile**: after consciousness returns, a period of **confusion**; then **permanent retrograde amnesia** for events just before the blow and **permanent anterograde amnesia** for the confusion period. STM appears normal during confusion. Severity scales with blow severity. **Islands of memory**: surviving isolated memories.
 
+<div class="fig">
+<a class="figzoom" href="figs/f_11_5.jpg" target="_blank" rel="noopener"><img src="figs/f_11_5.jpg" loading="lazy" alt="Pinel Fig 11.5: retrograde versus anterograde amnesia after a closed-head injury"></a>
+<p class="cap"><b>Retrograde vs anterograde amnesia after a closed-head TBI.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig 11.5</p>
+</div>
+
 ### Gradients of Retrograde Amnesia and Consolidation
 - **Temporally graded retrograde amnesia**: recent memories preferentially disrupted → older ones are **consolidated**.
 - **Hebb's consolidation theory**: memories first held by **reverberating neural activity** (disruptable), then induce **structural synaptic changes** (stable) = **consolidation**.
@@ -167,6 +172,11 @@ Neural bases of learning and memory via amnesic patients and animal models: expl
 ## 11.6 Hippocampus and Memory for Spatial Location
 
 - Substantial evidence implicates the hippocampus in **spatial location** memory. Hippocampal lesions often spare non-spatial memory but **consistently disrupt** spatial tasks.
+
+<div class="fig">
+<a class="figzoom" href="figs/f_11_4.jpg" target="_blank" rel="noopener"><img src="figs/f_11_4.jpg" loading="lazy" alt="Pinel Fig 11.4: the major components of the hippocampus"></a>
+<p class="cap"><b>The major components of the hippocampus.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig 11.4</p>
+</div>
 
 ### Spatial Tasks
 - **Morris water maze**: rats must swim to a **hidden submerged platform**; intact rats learn fast, hippocampal-lesioned rats with great difficulty.

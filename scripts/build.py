@@ -58,11 +58,15 @@ def main():
     }
     (DOCS / "manifest.webmanifest").write_text(json.dumps(manifest, indent=2))
 
-    sw = """const CACHE='psych-notes-v6';
-const ASSETS=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
-self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)));self.skipWaiting();});
-self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim();});
-self.addEventListener('fetch',e=>{e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)));});
+    # precache the real textbook figures so they work fully offline
+    figs = sorted(f"./figs/{p.name}" for p in (DOCS / "figs").glob("*.jpg"))
+    core = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png']
+    assets = json.dumps(core + figs)
+    sw = f"""const CACHE='psych-notes-v7';
+const ASSETS={assets};
+self.addEventListener('install',e=>{{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)));self.skipWaiting();}});
+self.addEventListener('activate',e=>{{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim();}});
+self.addEventListener('fetch',e=>{{e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)));}});
 """
     (DOCS / "sw.js").write_text(sw)
 
