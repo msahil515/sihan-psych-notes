@@ -280,6 +280,37 @@ html[data-theme="light"] .themebtn .moon{display:block}
   .cards{grid-template-columns:1fr 1fr}
   .ilist{grid-template-columns:1fr 1fr}
 }
+
+/* ===== wide / landscape reading surface (tablet landscape + desktop) =====
+   On a roomy screen the article becomes a contained sheet of paper floating
+   on the warm desk, with a chapter masthead tinted to the book's accent, so
+   the landscape Tab S6 reads like a real document instead of text stretched
+   across an empty background. Phones / portrait keep the plain flow above. */
+@media(min-width:1180px){
+  .reader .art{
+    background:var(--panel);border:1px solid var(--line);border-radius:18px;
+    padding:42px 52px 46px;box-shadow:var(--shadow);position:relative;overflow:hidden;
+  }
+  /* thin accent ribbon along the top edge, tinted to the current book */
+  .reader .art::before{content:"";position:absolute;left:0;right:0;top:0;height:3px;
+    background:linear-gradient(90deg,var(--bk),color-mix(in srgb,var(--bk) 20%,transparent) 80%)}
+  /* masthead: kicker breadcrumb, title, then a short accent rule */
+  .reader .art>.crumb{margin-bottom:11px}
+  .reader .art>h1{border-bottom:none;padding-bottom:0;margin-bottom:24px}
+  .reader .art>h1::after{content:"";display:block;width:52px;height:3px;border-radius:3px;
+    background:var(--bk);opacity:.9;margin-top:17px}
+  /* nested surfaces sit one step deeper so they read as insets, not blend-ins */
+  .reader .art .fig{background:var(--panel2)}
+  .reader .art .pn a{background:var(--panel2)}
+  .reader .art .pn a:hover{background:var(--hover)}
+  /* outline rail: tighter, with a soft header */
+  .has-toc .toc{top:34px}
+  .toc .toc-h{color:var(--bk);opacity:.85}
+}
+/* keep the card comfortable on the narrower tablet-landscape width */
+@media (min-width:1180px) and (max-width:1366px) and (orientation:landscape){
+  .reader .art{padding:38px 42px 42px}
+}
 </style></head><body>
 <div id="topbar">
   <button id="menu" aria-label="Menu">☰</button>

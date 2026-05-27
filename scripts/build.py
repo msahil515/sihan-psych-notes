@@ -31,10 +31,14 @@ def build_docs():
             md.reset()
             # search text: drop whole diagram blocks (SVG + wrappers) so markup isn't indexed
             search_src = re.sub(r'<div class="fig">.*?</div>', ' ', body, flags=re.S)
+            html = md.convert(body)
+            # the reader template already renders the chapter title as its masthead <h1>,
+            # so strip the markdown body's own leading <h1> to avoid a duplicated title.
+            html = re.sub(r'^\s*<h1[^>]*>.*?</h1>\s*', '', html, count=1, flags=re.S)
             docs.append({
                 "book": key, "bookTitle": b["title"], "subject": b["subject"],
                 "num": c["num"], "title": c["title"],
-                "html": md.convert(body),
+                "html": html,
                 "text": re.sub(r'\s+', ' ', search_src).lower()[:20000],
             })
     return docs
