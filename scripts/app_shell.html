@@ -205,6 +205,28 @@ body.side-collapsed #side{margin-left:calc(-1 * var(--side-w))}
   body.nav-open #overlay{display:block}
 }
 @media(max-width:900px){.home .hero h1{font-size:25px}.reader h1{font-size:24px}}
+
+/* ---- force-sync button ---- */
+.syncbtn{flex:none;width:40px;height:40px;border:1px solid var(--line2);border-radius:11px;
+  background:var(--panel2);color:var(--ink2);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.14s}
+.syncbtn:hover{color:var(--ink);border-color:var(--faint)}
+.syncbtn:active{background:#1d2231}
+.syncbtn svg{display:block}
+.syncbtn.spin svg{animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+#topbar .syncbtn{margin-left:0}
+.brand .syncbtn{width:30px;height:30px;border-radius:9px;color:var(--muted);margin-left:auto}
+.brand .syncbtn svg{width:15px;height:15px}
+
+/* ---- toast ---- */
+#toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,16px);z-index:60;
+  background:#0f1320;border:1px solid var(--accent-line);color:var(--ink);
+  padding:11px 16px;border-radius:12px;font-size:13.5px;font-weight:600;
+  box-shadow:0 12px 34px rgba(0,0,0,.5);opacity:0;pointer-events:none;
+  transition:opacity .22s,transform .22s;display:flex;align-items:center;gap:9px;max-width:88vw}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+#toast .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex:none;box-shadow:0 0 8px var(--accent)}
+#toast b{color:#fff;font-weight:700}
 </style></head><body>
 <div id="topbar">
   <button id="menu" aria-label="Menu">☰</button>
@@ -212,12 +234,18 @@ body.side-collapsed #side{margin-left:calc(-1 * var(--side-w))}
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8a93a6" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
     <input id="q2" placeholder="Search 45 chapters…" autocomplete="off" autocapitalize="off" spellcheck="false">
   </div>
+  <button id="sync2" class="syncbtn" aria-label="Force sync" title="Force sync to latest">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>
+  </button>
 </div>
 <div id="app">
   <aside id="side">
     <div class="brand">
       <div class="logo">ψ</div>
       <div><div class="bn">Psych Notes</div><div class="bs">MET 2026 Prep</div></div>
+      <button id="sync" class="syncbtn" aria-label="Force sync" title="Force sync to latest">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>
+      </button>
       <button id="sidetoggle" aria-label="Collapse sidebar" title="Collapse sidebar">«</button>
     </div>
     <div class="search">
@@ -231,6 +259,7 @@ body.side-collapsed #side{margin-left:calc(-1 * var(--side-w))}
 </div>
 <button id="reopen" aria-label="Open sidebar" title="Open sidebar">☰</button>
 <div id="overlay"></div>
+<div id="toast"></div>
 <script>
 const DATA = __PAYLOAD__;
 // ---- per-book visual identity (keyed by book.key) ----
@@ -404,4 +433,44 @@ q.addEventListener('input',()=>runSearch(q.value));
 q2.addEventListener('input',()=>runSearch(q2.value));
 buildPills();renderNav();renderHome();
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));}
+
+// ---- toast ----
+let toastT;
+function toast(html,ms=2600){
+  const el=document.getElementById('toast');if(!el)return;
+  el.innerHTML='<span class="dot"></span>'+html;el.classList.add('show');
+  clearTimeout(toastT);toastT=setTimeout(()=>el.classList.remove('show'),ms);
+}
+
+// ---- force sync: wipe the service worker + caches, then reload fresh ----
+let syncing=false;
+async function forceSync(){
+  if(syncing)return;syncing=true;
+  document.querySelectorAll('.syncbtn').forEach(b=>b.classList.add('spin'));
+  toast('Syncing to latest…',8000);
+  try{
+    if('serviceWorker' in navigator){
+      const regs=await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map(r=>r.unregister()));
+    }
+    if(window.caches){
+      const keys=await caches.keys();
+      await Promise.all(keys.map(k=>caches.delete(k)));
+    }
+  }catch(e){}
+  try{sessionStorage.setItem('justSynced','1');}catch(e){}
+  // cache-bust the document itself so we never get a stale HTML from the HTTP cache
+  location.replace(location.pathname+'?s='+Date.now());
+}
+document.querySelectorAll('.syncbtn').forEach(b=>b.onclick=forceSync);
+
+// confirm after the reload triggered by forceSync
+try{
+  if(sessionStorage.getItem('justSynced')){
+    sessionStorage.removeItem('justSynced');
+    const v=(DATA&&DATA.build)?' &middot; <b>'+DATA.build+'</b>':'';
+    setTimeout(()=>toast('Synced to the latest version'+v),300);
+    if(location.search) history.replaceState(null,'',location.pathname);
+  }
+}catch(e){}
 </script></body></html>

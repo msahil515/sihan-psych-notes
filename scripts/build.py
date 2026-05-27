@@ -8,9 +8,10 @@ Outputs:
   docs/sw.js                 service worker (cache-first, full offline)
   docs/icon-192.png/512.png  app icons
 """
-import json, re, pathlib, markdown
+import json, re, time, pathlib, markdown
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+BUILD = time.strftime("%Y-%m-%d %H:%M")  # stamps each deploy so the SW cache auto-busts
 NOTES = ROOT / "notes"
 DOCS = ROOT / "docs"
 DOCS.mkdir(exist_ok=True)
@@ -41,7 +42,7 @@ def build_docs():
 def main():
     docs = build_docs()
     books = [{"key": k, "title": v["title"], "subject": v["subject"]} for k, v in MAN.items()]
-    payload = json.dumps({"books": books, "docs": docs}, ensure_ascii=False)
+    payload = json.dumps({"books": books, "docs": docs, "build": BUILD}, ensure_ascii=False)
 
     shell = (ROOT / "scripts" / "app_shell.html").read_text()
     (DOCS / "index.html").write_text(shell.replace("__PAYLOAD__", payload))
@@ -62,7 +63,10 @@ def main():
     figs = sorted(f"./figs/{p.name}" for p in (DOCS / "figs").glob("*.jpg"))
     core = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png']
     assets = json.dumps(core + figs)
-    sw = f"""const CACHE='psych-notes-v7';
+    # cache name carries the build stamp so a new deploy installs a fresh SW,
+    # which drops every old cache on activate -> the app self-updates, no reinstall needed.
+    cache_ver = "psych-notes-" + BUILD.replace(" ", "-").replace(":", "")
+    sw = f"""const CACHE='{cache_ver}';
 const ASSETS={assets};
 self.addEventListener('install',e=>{{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)));self.skipWaiting();}});
 self.addEventListener('activate',e=>{{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim();}});
