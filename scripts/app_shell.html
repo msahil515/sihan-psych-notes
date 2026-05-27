@@ -255,6 +255,31 @@ html[data-theme="light"] .themebtn .moon{display:block}
 #toast.show{opacity:1;transform:translate(-50%,0)}
 #toast .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex:none;box-shadow:0 0 8px var(--accent)}
 #toast b{color:var(--ink-strong);font-weight:700}
+
+/* ===== tablet tuning (Galaxy Tab S6 ~ 1280x800 / 800x1280 css px) ===== */
+/* landscape: trim the wide sidebar so the reader isn't squeezed, bump the type
+   for the 10.5" high-dpi screen, and give nav rows bigger tap targets. */
+@media (min-width:901px) and (max-width:1366px) and (orientation:landscape){
+  :root{--side-w:304px}
+  .wrap{padding:34px 46px 96px}
+  .reader{font-size:18.5px;line-height:1.82}
+  .reader h1{font-size:31px}
+  .reader h2{font-size:23px}
+  .reader h3{font-size:18.5px}
+  .ch{padding:11px 11px}
+  .ch .nm{min-width:24px;height:24px}
+  .icell{padding:15px 16px}
+}
+/* portrait: uses the hamburger shell, but the screen is far wider than a phone,
+   so cap the reading column for sane line length and enlarge the type. */
+@media (min-width:601px) and (max-width:900px){
+  .wrap{padding:32px 28px 92px;max-width:700px;margin:0 auto}
+  .reader{font-size:18.5px;line-height:1.82}
+  .reader h1{font-size:28px}
+  .reader h2{font-size:22px}
+  .cards{grid-template-columns:1fr 1fr}
+  .ilist{grid-template-columns:1fr 1fr}
+}
 </style></head><body>
 <div id="topbar">
   <button id="menu" aria-label="Menu">☰</button>
