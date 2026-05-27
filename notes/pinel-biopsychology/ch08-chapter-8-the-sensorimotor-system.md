@@ -86,6 +86,18 @@ pages: 216-243
 - **Function:** stimulation elicits **complex, often bilateral movements**; neurons activate just before movement; **program specific movement patterns** from dorsolateral prefrontal instructions (Hoshi & Tanji, 2007); active when **imagining/planning** movements (Kosslyn et al., 2001).
 - **Sensory inputs:** SMA mainly from **somatosensory** system; premotor cortex mainly from **visual** system.
 
+### Premotor Cortex
+- **Location:** the **lateral** strip of secondary motor cortex, running from the SMA down to the **lateral fissure**; sits just *anterior* to the primary motor cortex. Two divisions per hemisphere: **dorsal premotor (PMd)** and **ventral premotor (PMv)**.
+- **Main input:** the **visual** system (contrast: SMA is fed mainly by the **somatosensory** system). This is the key exam distinction — **premotor = visually guided; SMA = somatosensory/internally guided**.
+- **Function:** preparing and selecting movements that are **guided by external sensory cues** (e.g., reaching for a seen object); converts the dorsolateral prefrontal cortex's "what to do" into the **specific motor program**; fires *just before* movement onset and is active when merely **planning or imagining** a movement (Kosslyn et al., 2001).
+- **Mirror neurons live here:** Rizzolatti found them in macaque **ventral premotor cortex** (early 1990s) — see below.
+- **vs. SMA at a glance:** premotor = lateral surface, visual input, externally cued movement. SMA = medial surface (over the top), somatosensory input, internally generated / sequenced movement.
+
+### Supplementary Motor Area (SMA)
+- **Location:** **medial** surface of the frontal lobe (folds "over the top" of the hemisphere), anterior to primary motor cortex. The supplementary family includes **SMA**, **preSMA**, and the **supplementary eye field**.
+- **Main input:** the **somatosensory** system.
+- **Function:** programming **internally generated** and **well-learned, sequenced** movements; like premotor, active during the planning/imagining of movement.
+
 ### Mirror Neurons
 - **Mirror neurons**: fire both when an individual **performs** a goal-directed hand movement AND when **observing** the same movement (Fadiga, Craighero, & Olivier, 2005).
 - Discovered **early 1990s** by **Giacomo Rizzolatti** in macaque **ventral premotor cortex** (some neurons fired when the experimenter, not the monkey, picked up an object).
@@ -305,6 +317,8 @@ Four pathways from primary motor cortex to spinal motor neurons: **two dorsolate
 4. **Motor homunculus**: Penfield & Boldrey (1937), conscious-patient stimulation; most cortex for **hands and mouth**.
 
 5. **Mirror neurons**: Rizzolatti, **ventral premotor cortex**, early 1990s; fire performing AND observing; mechanism for social cognition.
+
+5a. **Premotor vs. SMA** (high-yield): **premotor** = lateral, **visual** input, externally/visually cued movement, holds mirror neurons. **SMA** = medial ("over the top"), **somatosensory** input, internally generated/sequenced movement. Both are secondary motor cortex and both fire before movement and during planning.
 
 6. **Cerebellum**: **10% of brain mass** but **>half** of all neurons; compares three inputs and corrects deviations; key for motor learning, especially **timing**.
 
