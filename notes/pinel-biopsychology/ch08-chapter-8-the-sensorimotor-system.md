@@ -140,19 +140,92 @@ pages: 216-243
 
 ## 8.5 Cerebellum and Basal Ganglia
 
-- Neither is part of the descending pathway; both **interact with multiple levels** to coordinate/modulate (Glickstein, 2000).
+- Neither is part of the descending pathway; both **interact with multiple levels** to coordinate/modulate (Glickstein, 2000). The cortex **plans and commands**; cerebellum and basal ganglia **shape, time, and select** that command before it reaches muscle.
+- High-yield contrast: **cerebellum = error correction + timing + motor learning (ipsilateral signs)**; **basal ganglia = action selection + scaling/gating + habit learning (contralateral signs)**.
 
 ### Cerebellum
 - **10% of brain mass** but **more than half of all brain neurons** (Azevedo et al., 2009); systematic lobes/columns/layers.
-- **Inputs:** (1) primary/secondary motor cortex; (2) descending motor signals from brain stem; (3) sensorimotor feedback (somatosensory, vestibular).
-- **Function:** **compares** inputs and **corrects deviating movements** (Bastian, 2006); major role in **motor learning**, especially **timing** of sequences (D'Angelo & De Zeeuw, 2008).
-- **Diffuse damage:** loss of precise **direction/force/velocity/amplitude** control; can't adapt to changing conditions; **tremor**; disturbed **balance, gait, speech, eye movement**; difficulty learning new sequences.
-- **Expanded view:** active in **non-motor cognitive tasks** (Strick, Dum, & Fiez, 2009); connected to prefrontal cortex; may fine-tune/learn cognitive responses like motor ones (Doya, 2000).
+
+**Anatomical divisions (3 functional zones, often asked):**
+1. **Vestibulocerebellum** (flocculonodular lobe) — balance, postural reflexes, vestibulo-ocular reflex (VOR), smooth pursuit eye movements. Damage = truncal ataxia, nystagmus.
+2. **Spinocerebellum** (vermis + intermediate hemispheres) — axial (vermis) and limb (intermediate) coordination, ongoing movement correction. Damage = gait ataxia, limb dysmetria.
+3. **Cerebrocerebellum** (lateral hemispheres) — planning, timing, cognitive functions, motor learning of sequenced skills. Damage = dysdiadochokinesia, intention tremor, delayed initiation.
+
+**Deep cerebellar nuclei (output, lateral → medial):** **D**entate, **I**nterposed (globose + emboliform), **F**astigial. Mnemonic: "Don't Eat Greasy Foods" (Dentate-Emboliform-Globose-Fastigial).
+
+**Input fibers (two systems, classic MCQ):**
+- **Mossy fibers** — from pontine nuclei, spinal cord, vestibular nuclei; carry sensorimotor context; synapse on granule cells → parallel fibers → Purkinje cells.
+- **Climbing fibers** — from **inferior olive** (one climbing fiber per Purkinje cell); carry **error signal**; drive **long-term depression (LTD)** at parallel-fiber–Purkinje synapses — the cellular basis of cerebellar motor learning.
+- **Sole output of cerebellar cortex = Purkinje cells (GABAergic, inhibitory)** → deep nuclei → thalamus/red nucleus.
+
+**Function:**
+- **Comparator model:** compares intended movement (cortical efference copy) with actual movement (proprioceptive + vestibular feedback) and **corrects deviations online** (Bastian, 2006).
+- **Timing** of sequenced movements (D'Angelo & De Zeeuw, 2008) — critical for rapid, ballistic actions and rhythmic tasks.
+- **Motor learning** — adapts VOR gain, conditions the eyeblink response (classic Pavlovian model), tunes new motor sequences.
+- Controls **ipsilateral** body (output decussates twice → net same-side).
+
+**Diffuse damage (cerebellar syndrome) — DANISH mnemonic:**
+- **D**ysdiadochokinesia (can't do rapid alternating movements)
+- **A**taxia (wide-based, staggering "drunken" gait)
+- **N**ystagmus
+- **I**ntention tremor (worsens as target nears; contrast with Parkinson's resting tremor)
+- **S**canning, dysarthric speech
+- **H**ypotonia, **H**eel-shin test failure
+- Plus **dysmetria** (past-pointing on finger-nose), inability to adapt to changing conditions, difficulty learning new sequences.
+
+**Expanded view:** active in **non-motor cognitive tasks** (Strick, Dum, & Fiez, 2009); cerebrocerebellum connects to prefrontal cortex; may fine-tune/learn cognitive responses like motor ones (Doya, 2000). Cerebellar cognitive affective syndrome (Schmahmann) — executive, visuospatial, language, affective deficits after posterior lobe damage.
 
 ### Basal Ganglia
 - A **heterogeneous collection of interconnected nuclei**; fewer neurons than cerebellum.
-- **Function:** **modulatory**; few descending fibers; part of **neural loops** returning to cortex via the **thalamus** (McHaffie et al., 2005); many loops involve **motor** cortex.
-- **Current view:** also serve **cognitive functions** (Graybiel, 2005). Participate in gradual, trial-by-trial **response learning** (reward/punishment; Joshua, Adler, & Bergman, 2009).
+
+**Components (high-yield list):**
+- **Striatum** = caudate + putamen (input nuclei).
+- **Globus pallidus** — external (**GPe**) and internal (**GPi**) segments.
+- **Substantia nigra** — pars compacta (**SNc**, dopaminergic) and pars reticulata (**SNr**, GABAergic; functionally paired with GPi).
+- **Subthalamic nucleus (STN)** — only **glutamatergic (excitatory)** nucleus in the loop.
+- Sometimes included: nucleus accumbens (ventral striatum, limbic loop), ventral pallidum. **Red nucleus is NOT part of basal ganglia** (common MCQ trap).
+
+**Three pathways (must-know for MET/NIMHANS):**
+1. **Direct pathway ("GO"):** Cortex → striatum (D1 receptors, facilitated by dopamine) → GPi/SNr (inhibited) → thalamus (disinhibited) → cortex. **Net effect: facilitates movement.**
+2. **Indirect pathway ("NO-GO"):** Cortex → striatum (D2 receptors, inhibited by dopamine) → GPe → STN (disinhibited) → GPi/SNr (excited) → thalamus (more inhibited) → cortex. **Net effect: suppresses competing/unwanted movement.**
+3. **Hyperdirect pathway:** Cortex → STN directly → GPi → thalamus. **Net effect: rapid global brake** (stops actions; key in Stop-signal tasks).
+- **Dopamine from SNc** simultaneously **excites the direct (D1)** and **inhibits the indirect (D2)** pathway — both actions promote movement. Loss of SNc dopamine flips this and produces Parkinsonism.
+
+**Function:**
+- **Action selection / gating** — picks one motor program and suppresses competitors.
+- **Modulatory:** few descending fibers; works through **cortico–basal ganglia–thalamo–cortical loops** (McHaffie et al., 2005; Nambu, 2008).
+- **Scaling of movement** — sets velocity, force, amplitude (hence bradykinesia/hypokinesia in Parkinson's, hyperkinesia in Huntington's).
+- **Procedural / habit learning** — gradual, trial-by-trial **response learning** via dopaminergic reward prediction error (Joshua, Adler, & Bergman, 2009; Surmeier et al., 2009).
+- Controls **contralateral** body (lesion signs appear on the opposite side).
+
+**Five parallel cortico–striato–thalamo–cortical loops (Alexander, DeLong & Strick, 1986):**
+1. **Motor** (putamen) — movement.
+2. **Oculomotor** (caudate body) — saccades.
+3. **Dorsolateral prefrontal** (caudate head) — executive function, working memory.
+4. **Lateral orbitofrontal** — social behavior, OCD-relevant.
+5. **Anterior cingulate / limbic** (ventral striatum) — motivation, reward.
+
+**Classic disorders (commonly asked):**
+- **Parkinson's disease** — degeneration of **SNc dopaminergic neurons** → underactive direct + overactive indirect → **hypokinetic**: resting (pill-rolling) tremor, rigidity (cogwheel/lead-pipe), bradykinesia, postural instability, masked facies, micrographia, shuffling gait. **Lewy bodies (α-synuclein)** pathognomonic.
+- **Huntington's disease** — autosomal dominant CAG trinucleotide repeat on chromosome 4 (HTT gene); loss of **indirect-pathway striatal neurons** (especially in **caudate**) → **hyperkinetic**: chorea, dystonia, cognitive decline, psychiatric symptoms; **anticipation** across generations.
+- **Hemiballismus** — **subthalamic nucleus** lesion (classically lacunar stroke) → loss of indirect-pathway brake → violent, large-amplitude flinging movements on the **contralateral** side.
+- **Tourette's syndrome** — striatal/cortico-striatal dysfunction; motor + vocal tics; comorbid with OCD/ADHD.
+- **Dystonia, Wilson's disease** (copper deposition in putamen → "wing-beating" tremor + Kayser-Fleischer rings), **tardive dyskinesia** (chronic D2-blocker exposure → hypersensitive D2 → choreoathetoid movements).
+
+**Cognitive role (current view):** also serve **executive and limbic functions** (Graybiel, 2005); ventral striatum encodes reward; dorsal striatum encodes stimulus–response habits. Explains why basal-ganglia disorders carry mood, OCD, and executive symptoms alongside the motor signs.
+
+### Cerebellum vs Basal Ganglia — Quick MCQ Table
+
+| Feature | Cerebellum | Basal Ganglia |
+|---|---|---|
+| Output | Corrects ongoing movement, error signal | Selects/initiates and scales movement |
+| Damage side | **Ipsilateral** | **Contralateral** |
+| Tremor type | **Intention** (worse near target) | **Resting** (pill-rolling, PD) |
+| Tone | **Hypotonia** | **Rigidity** (PD) or chorea (HD) |
+| Learning role | Timing, error-based (climbing fibers, LTD) | Reward-based, habit (dopaminergic RPE) |
+| Key transmitter | GABA (Purkinje), glutamate (granule), error via climbing fibers | Dopamine (SNc), GABA, glutamate (STN only) |
+| Classic disease | Spinocerebellar ataxia, alcoholic degeneration | Parkinson's, Huntington's, hemiballismus |
+| Loop endpoint | Motor + premotor cortex (via VL thalamus) | Wide cortex incl. PFC (via VA/VL thalamus) |
 
 ---
 
