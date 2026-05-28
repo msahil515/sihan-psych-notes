@@ -535,7 +535,40 @@ function openDoc(d){
   setTitle(cleanTitle(d.title));
   main.scrollTop=0;progress.style.width='0';
   renderNav();closeNav();
+  saveLast();
 }
+
+// ---- resume where you left off ------------------------------------------
+// remember the last chapter + scroll position so reopening the app (or a
+// force-sync reload) drops Sihan right back where he was reading.
+const LAST_KEY='pn-last';
+function saveLast(){
+  if(!current)return;
+  try{localStorage.setItem(LAST_KEY,JSON.stringify({book:current.book,num:current.num,y:Math.round(main.scrollTop)}));}catch(e){}
+}
+let lastSaveT=0;
+function saveLastThrottled(){const n=performance.now();if(n-lastSaveT<400)return;lastSaveT=n;saveLast();}
+function resumeLast(){
+  let last=null;
+  try{last=JSON.parse(localStorage.getItem(LAST_KEY)||'null');}catch(e){}
+  if(!last)return false;
+  const d=DATA.docs.find(x=>x.book===last.book&&String(x.num)===String(last.num));
+  if(!d)return false;
+  openDoc(d);
+  const y=+last.y||0;
+  if(y>0){
+    // wait for layout (figures/tables) to settle before restoring scroll
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{
+      main.scrollTop=y;syncTOC();
+      const max=main.scrollHeight-main.clientHeight;
+      progress.style.width=(max>0?Math.min(100,main.scrollTop/max*100):0)+'%';
+    }));
+  }
+  return true;
+}
+// persist the final position when the tab is hidden / closed
+window.addEventListener('pagehide',saveLast);
+document.addEventListener('visibilitychange',()=>{if(document.hidden)saveLast();});
 
 // ---- glossary popover ---------------------------------------------------
 // auto-pick the hard / technical bolded terms on the rendered chapter and
@@ -678,6 +711,7 @@ main.addEventListener('scroll',()=>{
   const max=main.scrollHeight-main.clientHeight;
   progress.style.width=(max>0?Math.min(100,main.scrollTop/max*100):0)+'%';
   syncTOC();
+  saveLastThrottled();
 });
 
 function runSearch(val){q.value=val;q2.value=val;renderNav();if(val.trim())openNav();}
@@ -685,7 +719,8 @@ q.addEventListener('input',()=>runSearch(q.value));
 q2.addEventListener('input',()=>runSearch(q2.value));
 // sync the document theme-color to the active theme on first paint
 (function(){const mc=document.querySelector('meta[name="theme-color"]');if(mc)mc.setAttribute('content',curTheme()==='light'?'#f3efe6':'#14161c');})();
-buildPills();renderNav();renderHome();
+buildPills();renderNav();
+if(!resumeLast())renderHome();
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));}
 
 // ---- toast ----
