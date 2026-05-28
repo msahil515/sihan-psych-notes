@@ -315,32 +315,6 @@ Parental behaviors inducing hostility: (1) preferring one sibling, (2) unfair pu
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|--------|--------------------------|
-| **Karen Horney (1885–1952)** | Safety need, basic anxiety, 10 neurotic needs, three trends, idealized self-image, feminist critique; founded American Journal of Psychoanalysis (1941) |
-| **Sigmund Freud** | Penis envy, Oedipus complex, libido — all challenged by Horney; chaired the 1922 congress |
-| **Alfred Adler** | Compensation for inferiority; his types parallel Horney's three trends |
-| **Karl Abraham** | Conducted Horney's unsuccessful analysis; blamed unresolved Oedipal longings |
-| **Erich Fromm** | Analyst and Horney's most intense love affair; analyzed her daughter |
-| **Erik Erikson** | Influenced by Horney; basic mistrust ≈ basic anxiety |
-| **Abraham Maslow** | Influenced by Horney; used real self and self-realization |
-| **Caspi, Elder, & Bem (1987–1989)** | 30-year longitudinal validation of neurotic trends |
-| **Moskowitz & Schwartzman (1989)** | Aggressive/detached types predicted later outcomes |
-| **Cohen (1967)** | Developed the CAD; career choice correlates with trend type |
-| **Coolidge et al. (2001, 2011)** | Developed the HCTI and Tridimensional Inventory |
-| **Berg, Janoff-Bulman, & Cotter (2001)** | "Want to" vs. "should" predicts life satisfaction |
-| **Ryckman, Thornton, & Butler (1994)** | Developed the HCA; competitiveness linked to narcissism |
-| **Hibbard & Buhrmester (2010)** | CW vs. CE; CW linked to depression in girls |
-| **Hall & Van de Castle (1965)** | Dream study supporting penis envy; not Horney |
-| **Confucius (551–479 B.C.)** | Enforced women's submission; cultural determination of feminine psychology |
-| **Haghayegh & Oreyzia (2009)** | High aggression → more car accidents (Iran) |
-| **Paris, Bernard (1994)** | Key biographer |
-| **Westkott (1986)** | Elaborated Horney's work during the 1980s women's movement |
-
----
-
 ## Likely Exam Points
 
 1. **Basic anxiety** (verbatim): "an insidiously increasing, all-pervading feeling of being lonely and helpless in a hostile world" (Horney, 1937) — the **foundation of all neuroses**.

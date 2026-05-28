@@ -221,25 +221,6 @@ Skinner's radical behaviorism accounts for all behavior through observable conse
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **B. F. Skinner (1904–1990)** | Radical behaviorism; operant conditioning, Skinner box, reinforcement schedules, behavior modification, token economy, shaping, functional analysis |
-| **Ivan Pavlov** | Classical/respondent conditioning; fundamental law of learning |
-| **John B. Watson** | Adopted conditioning for behaviorism |
-| **Keller & Marian Breland** | Conditioned 6,000+ animals; discovered instinctive drift; "The Misbehavior of Organisms" (1961) |
-| **Erich Fromm** | Had his behavior shaped by Skinner during a lecture |
-| **Ayllon & Azrin (1968)** | Pioneering token economy with psychotic patients |
-| **Tangney, Baumeister, & Boone (2004)** | High self-control → better grades/adjustment |
-| **Wills et al. (2007)** | Nurturing parents → higher self-control |
-| **Gronerod et al. (2013)** | Analyzed Skinner's Rorschach/TAT profile |
-| **Burger & Lynn (2005)** | 74% of MLB players superstitious; Americans > Japanese |
-| **Dallery, Glenn, & Raiff (2007)** | Online token economy for smokers |
-| **Hawkins et al. (1966)** | Direct observation of an unruly child (16-hour home study) |
-
----
-
 ## Likely Exam Points
 
 1. **Skinner offered no personality theory**; personality = a collection of operant behaviors shaped by reinforcers.

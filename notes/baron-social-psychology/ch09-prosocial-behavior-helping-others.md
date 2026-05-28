@@ -271,34 +271,6 @@ Failure at any step = non-helping.
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Darley & Latané (1968)** | Bystander effect, diffusion of responsibility; five-step model (1970) |
-| **Batson et al. (1981)** | Empathy-altruism hypothesis |
-| **Cialdini, Baumann, & Kenrick (1981)** | Negative-state relief model |
-| **Smith, Keating, & Stotland (1989)** | Empathic joy hypothesis; feedback crucial |
-| **Cialdini, Brown, Lewis, Luce, & Neuberg (1997)** | Kin selection in prosocial behavior |
-| **Burnstein, Crandall, & Kitayama (1994)** | Helping closer and younger relatives |
-| **Nadler, Harpaz-Gorodeisky, & Ben-David (2009)** | Defensive helping |
-| **Gleason, Jensen-Campbell, & Ickes (2009)** | Empathic accuracy and social adjustment |
-| **Konrath, O'Brien, & Hsing (2011)** | Declining empathy in U.S. students |
-| **Greitmeyer & Osswald (2010)** | Prosocial video games increase helping |
-| **Gentile et al. (2009)** | Lasting effects of prosocial games |
-| **Grant & Gino (2010)** | Gratitude increases helping via self-worth |
-| **Bryan & Test (1967)** | Live prosocial models increase helping |
-| **Schnall, Roper, & Fessler (2010)** | Elevation increases helping beyond positive mood |
-| **Hodges et al. (2010)** | Similarity increases empathic concern, not accuracy |
-| **Isen & Levin (1972)** | Good moods increase helping |
-| **Flynn, Reagans, Amanatullah, & Ames (2006)** | Status motive behind prosocial acts |
-| **Levine, Prosser, Evans, & Reicher (2005)** | Ingroup victims more likely helped |
-| **Steele, Critchlow, & Liu (1988)** | Alcohol increases helping |
-| **Kuntsman & Plant (2009)** | Aversive racism reduces helping black victims |
-| **Weiner (1980); Higgins & Shaw (1999)** | Victim responsibility reduces helping |
-
----
-
 ## Likely Exam Points
 
 1. **Bystander Effect (Darley & Latané, 1968)**: 85% (alone), 62% (2), 31% (5); more bystanders = less help, longer delay.

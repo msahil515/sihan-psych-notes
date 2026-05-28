@@ -434,23 +434,6 @@ Freud's original **topographic model**: three levels of consciousness.
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Sigmund Freud (1856–1939)** | Founder of psychoanalysis; instinct theory, topographic/structural models, defense mechanisms, psychosexual stages, dream analysis, free association |
-| **Jean-Martin Charcot** | Parisian psychiatrist; hypnosis pioneer; alerted Freud to the sexual basis of neurosis |
-| **Martha Bernays** | Freud's wife; 4-year engagement; tied to his sexual conflicts |
-| **Carl Jung** | Early disciple; later developed Analytical Psychology |
-| **Alfred Adler** | Early disciple; later developed Individual Psychology |
-| **Anna Freud (1895–1982)** | Founder of ego psychology; *The Ego and the Mechanisms of Defense* (1936); pioneered child psychoanalysis; Hampstead Clinic |
-| **Josef Breuer** | Early collaborator; "talking cure"; co-authored *Studies on Hysteria* (1895) |
-| **Max Schur** | Freud's physician; administered the morphine ending his life (1939) |
-| **Fisher & Greenberg** | Meta-analyses (1977, 1996); mixed support for Freudian concepts |
-| **Benjamin Spock** | Pediatrician; child care books based on Freud |
-
----
-
 ## Likely Exam Points
 
 1. **Freud: 1856–1939.** Born Freiberg, Moravia; ~80 years in Vienna; died in London after fleeing the Nazis.

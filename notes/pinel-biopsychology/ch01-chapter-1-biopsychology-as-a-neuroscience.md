@@ -337,33 +337,6 @@ Six divisions; significant overlap exists.
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **D.O. Hebb** | *The Organization of Behavior* (1949); first comprehensive theory of brain activity producing complex psychological phenomena; eclectic approach; established the discipline |
-| **Oliver Sacks** | Examined Jimmie G. (Korsakoff's); *The Man Who Mistook His Wife for a Hat* (1986) |
-| **S.S. Korsakoff** | Russian physician; first described Korsakoff's syndrome (late 19th c.) |
-| **Lester & Gorzalka (1988)** | Demonstrated Coolidge effect in female hamsters; controlled male fatigue via simultaneous mating; DV = lordosis duration |
-| **Acker et al. (1984)** | Quasiexperiment: 100 male alcoholics vs. 50 nondrinkers; more brain damage and cognitive deficits in alcoholics |
-| **Hammond, Merton, & Sutton (1956)** | Curare-paralyzed Merton's eye muscles; showed the brain uses active motor commands (not eye-position feedback) for perceived motion |
-| **José Delgado** | Demonstrated (via media) caudate stimulation stopping a bull; claimed a "taming center" — lacked valid support |
-| **Egas Moniz** | Developed prefrontal lobotomy from one chimp (Becky); Nobel Prize 1949; later discredited |
-| **Almeida Lima** | Neurosurgeon who performed the first lobotomies for Moniz using the leucotome |
-| **Walter Freeman** | Popularized transorbital lobotomy in the US; lobotomized Howard Dully at age 12 |
-| **Howard Dully** | Normal child lobotomized at 12 by Freeman; memoir *My Lobotomy* (Dully & Fleming, 2007) |
-| **Elliot Valenstein** | Critically analyzed Delgado's bull and the history of lobotomy |
-| **Dewsbury (1991)** | Defined biopsychology; "biology" should include ethology, ecology, evolution, not just physiology |
-| **Azevedo et al. (2009)** | Estimated ~100 billion neurons in the human brain |
-| **Grillner & Dickinson (2002)** | The nervous system's ultimate purpose is to produce and control behavior |
-| **Kolb & Whishaw (1990)** | Case of Mr. R. (*Fundamentals of Human Neuropsychology*); clinical neuropsychological assessment |
-| **Mumby, Cameli, & Glenn (1999)** | Thiamine-deficient rats show deficits/damage like human Korsakoff's |
-| **Zimitat et al. (1990)** | Alcohol accelerates brain damage in thiamine-deficient rats (possible direct toxicity) |
-| **Thompson (2005)** | Cited re converging operations |
-| **Ulrich (1991)** | Research-model animals must be respected as our own sensibilities |
-
----
-
 ## Likely Exam Points
 
 1. **Founding text**: *The Organization of Behavior* (1949) by **D.O. Hebb** — first comprehensive brain-behavior theory; eclectic approach.

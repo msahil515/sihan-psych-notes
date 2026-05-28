@@ -357,29 +357,6 @@ Recorded from ganglion cells → LGN → lower layer IV (Hubel & Wiesel, 1979).
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|--------|-------------|
-| **Whitman Richards (1971)** | Case of Mrs. Richards; documented migraine fortification illusions |
-| **George Biddell Airy (1870)** | Astronomer; near-identical fortification illusion drawings |
-| **Jan Purkinje (1825)** | Purkinje effect |
-| **Thomas Young (1802)** | Component (trichromatic) theory |
-| **Hermann von Helmholtz (1852)** | Refined into Young-Helmholtz theory |
-| **Ewald Hering (1878)** | Opponent-process theory |
-| **David Hubel & Torsten Wiesel** | Nobel 1981; receptive fields; simple/complex cells; columnar organization |
-| **Ratliff (1972)** | Lateral inhibition/contrast enhancement in horseshoe crab |
-| **Dobelle, Mladejovsky, & Girvin (1974)** | Retinotopic organization via cortical electrode percepts in blind patients |
-| **George Wald (1964)** | Confirmed three cone types; validated Young-Helmholtz |
-| **Edwin Land (1977)** | Retinex theory of color constancy |
-| **Jacobs et al. (2007)** | Converted dichromat mice to trichromats |
-| **Arieli et al. (1996)** | Baseline cortical activity shapes response; cognition-perception link |
-| **Field & Chichilnisky (2007); Werblin & Roska (2007)** | Retinal function/processing |
-| **Dacey (2004); Masland (2001); Wässle (2004)** | >50 retinal neuron types |
-| **Bloomfield & Völgyi (2009)** | Retinal gap-junction communication |
-
----
-
 ## Likely Exam Points
 
 1. **Visible light** = 380-760 nm; wavelength → color, intensity → brightness.

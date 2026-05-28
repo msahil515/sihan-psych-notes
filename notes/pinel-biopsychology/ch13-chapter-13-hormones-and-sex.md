@@ -261,38 +261,6 @@ Each subject was male in some respects, female in others — each a test of theo
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Phoenix (2008)** | Developmental vs. activational effects framework |
-| **Cohen-Bendahan, van de Beek, & Berenbaum (2005)** | Prenatal androgen contributes to sex differences in interests/spatial/aggression |
-| **Geoffrey Harris (1950s, 1955)** | Pituitary transplants; hypothalamic control via portal vessels |
-| **Guillemin & Schally (late 1960s)** | Isolated thyrotropin-releasing hormone; Nobel 1977 |
-| **Schally, Kastin, & Arimura (1971)** | Isolated GnRH |
-| **Pfeiffer (1936)** | Perinatal androgens determine cyclic vs. steady gonadotropin pattern |
-| **Harris & Levine (1965)** | Corrected Pfeiffer: hypothalamus, not pituitary |
-| **Balthazart & Ball (1998)** | Aromatization in brain masculinization |
-| **Phoenix, Goy, Gerall, & Young (1959)** | Perinatal testosterone masculinizes + defeminizes (guinea pigs) |
-| **Grady, Phoenix, & Young (1965)** | Neonatal castration feminizes + demasculinizes (male rats) |
-| **Jost (1972)** | Female ducts develop without testicular hormones |
-| **Arnold (2004, 2009)** | Y = 27 proteins, X = ~1,500; sex chromosomes act independently |
-| **Dewing et al. (2003)** | Sex differences in brain gene expression before gonads function |
-| **Bremer (1959)** | 157 orchidectomized Norwegians; variable effects; castration for sex offenders |
-| **John Money (1975)** | Recommended Reimer's reassignment; social-learning claim (disproven) |
-| **Diamond & Sigmundson (1997)** | Reimer follow-up; male-line development despite female rearing |
-| **Reiner (1997)** | Brain (not genitals) determines psychosocial sexual development |
-| **Jones & Park (1971)** | Case of Anne S. (CAIS) |
-| **Money & Ehrhardt (1972)** | Case of Elaine (adrenogenital syndrome) |
-| **Colapinto (2000)** | *As Nature Made Him* (David Reimer) |
-| **Singer (1968)** | Medial preoptic lesions abolish male, not female, reproductive behavior |
-| **Goy & McEwen (1980)** | Aromatization important in rodents |
-| **Wallen (2005)** | Aromatization not critical in monkeys |
-| **Brown (1994)** | Steroids have the most diverse, long-lasting cellular effects |
-| **Grumbach (2002)** | Pubertal anterior pituitary hormone increases |
-
----
-
 ## Likely Exam Points
 
 1. **MAMAWAWA** = the flawed view of male/female as exclusive opposites; both gonads make androgens AND estrogens.

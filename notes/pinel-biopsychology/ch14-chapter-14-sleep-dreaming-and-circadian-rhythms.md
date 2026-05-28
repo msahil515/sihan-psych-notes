@@ -252,36 +252,6 @@ Together (EEG + EOG + EMG) these are the **three standard bases for defining sle
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|--------|-------------|
-| **Nathaniel Kleitman** | 1953 REM-dreaming link; deprivation studies |
-| **William C. Dement** | REM-dream work; Randy Gardner case |
-| **Berger and Oswald** | 1962: neck EMG loss during REM |
-| **Sigmund Freud** | Manifest/latent dreams; unconscious censor |
-| **J. Allan Hobson** | 1989 activation-synthesis theory |
-| **Dement and Wolpert** | 1958: external stimuli incorporated into dreams |
-| **Dement and Kleitman** | 1957: dreams run in real time |
-| **Goodenough et al.** | 1959: "non-dreamers" have normal REM |
-| **Karacan et al.** | 1966: REM erections unrelated to sexual content |
-| **Baron Constantin von Economo** | Mapped hypothalamic sleep-wake regions |
-| **Bremer** | 1936/37 cerveau/encéphale isolé |
-| **Moruzzi and Magoun** | 1949 reticular formation as wakefulness center |
-| **Richter** | 1967 hypothalamic lesions; 1971 innate free-running cycles |
-| **Ralph et al.** | 1990 SCN transplant |
-| **Ralph and Menaker** | 1988 tau gene |
-| **Mrosovsky and Salmon** | 1987 exercise speeds phase-advance adaptation |
-| **Cohen et al.** | 2009 short sleep → more cold symptoms |
-| **Rechtschaffen et al.** | 1983 carousel apparatus |
-| **Vertes and Siegel** | 2005 REM-memory evidence unconvincing |
-| **Nykamp et al.** | 1998 wakefulness substitution; default theory |
-| **Webb and Agnew** | 1967 REM deprivation needs more awakenings |
-| **R. Meddis** | 1977 Miss M case |
-| **Horne** | 2000 default theory of REM |
-
----
-
 ## Likely Exam Points
 
 1. **Three measures**: EEG, EOG, EMG define sleep stages; Berger & Oswald (1962) found the EMG loss.

@@ -56,7 +56,7 @@ tags: [biopsychology, research-methods, neuroimaging, MET-2026, clinical-psychol
 ### Functional MRI (fMRI)
 - **fMRI**: images the **increase in oxygenated blood** to active areas; most influential tool of **cognitive neuroscience** (Poldrack, 2008).
 - Mechanism (Raichle & Mintun, 2006): active areas take up **more oxygenated blood than needed**; oxygenated blood has **magnetic properties** → the **BOLD signal** (Blood-Oxygen-Level-Dependent).
-- **Four advantages over PET:** (1) nothing injected; (2) **structural + functional** in one image; (3) better spatial resolution; (4) whole-brain 3D activity.
+- **Four advantages over PET:** (1) nothing injected; (2) **structural + functional** in one image; (3) better spatial resolution; (4) whole-brain 3D activity. Clinically used for presurgical mapping and diagnostics (Holdsworth & Bammer, 2008).
 - **Limitations:** BOLD is **NOT neural activity** (complex, variable relationship); **too slow** (2-3 s/image vs. millisecond APs); often misrepresented as "pictures of neural activity."
 
 > **Key Study:** Kiehl et al. (1999) — fMRI: cortical areas more active when identifying words vs. asterisk control.
@@ -343,36 +343,6 @@ Both expose brain slices to a **labeled ligand**.
 | **Melanopsin** | Retinal protein projecting to hypothalamic circadian clock |
 | **Spatial resolution** | Ability to detect spatial-location differences |
 | **Temporal resolution** | Ability to detect timing differences |
-
----
-
-## Key People
-
-| Person | Contribution |
-|--------|-------------|
-| **Shimomura, Johnson, and Saiga (1962)** | First isolated GFP from jellyfish |
-| **Martin Chalfie** | First used GFP in neurons (C. elegans, 1994); Nobel Chemistry 2008 |
-| **Osamu Shimomura** | GFP co-discoverer; Nobel Chemistry 2008 |
-| **Roger Y. Tsien** | GFP variants in different colors (1998); Nobel Chemistry 2008 |
-| **Livet et al. (2007)** | Brainbow technique for pathway tracing |
-| **Ruby et al. (2002); Hattar et al. (2003)** | Melanopsin knockout circadian studies |
-| **Shen et al. (2008)** | Schizophrenia transgenic mice; confirmed causal gene role |
-| **Phelps & Mazziotta (1985)** | Foundational PET activity study |
-| **Kiehl et al. (1999)** | fMRI word-identification study |
-| **Gevins et al. (1995)** | EEG on 3D MRI; theta peaks in anterior cingulate during memory |
-| **Nicolelis & Ribeiro (2006)** | Simultaneous extracellular recording from ~100 neurons |
-| **Robinson & Justice (1991)** | Cerebral dialysis technique |
-| **Floresco, Seamans, & Phillips (1997)** | Reversible lesions via lidocaine |
-| **Raichle & Mintun (2006)** | Oxygenated-blood attributes enabling fMRI |
-| **Poldrack (2008)** | fMRI as top cognitive neuroscience tool; temporal limits |
-| **Holdsworth & Bammer (2008)** | Clinical fMRI use |
-| **Pascual-Leone, Walsh, & Rothwell (2000); Fitzpatrick & Rothman (2000)** | TMS methodology |
-| **Rorden & Karnath (2004); Sack (2006)** | Imaging cannot prove causation |
-| **Barros, Porras, & Bittner (2005)** | 2-DG accumulates in neurons and/or astrocytes |
-| **Friedman, Cycowicz, & Gaeta (2001)** | P300 wave characteristics |
-| **Eisener-Dorman, Lawrence, & Bolivar (2008)** | Gene knockout techniques |
-| **Wechsler** | Developed WAIS |
-| **Halstead & Reitan** | Developed the Halstead-Reitan Battery |
 
 ---
 

@@ -313,54 +313,6 @@ The legal system's assumptions about behavior are often incorrect. Two foci: soc
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Archibald, Bartholomew, & Marx (1995)** | Defined loneliness |
-| **McGuire & Clifford (2000)** | Loneliness is partly heritable (twins) |
-| **Jetten, Haslam et al. (2009-2011)** | Group membership buffers loneliness and health problems |
-| **Asher & Paquette (2003)** | One friend reduces loneliness in children |
-| **Cacioppo, Hawkley, & Berntson (2003)** | Loneliness → poor health, lower life expectancy |
-| **Terman & Buttenwieser (1935)** | Similarity and marital success |
-| **Caspi, Herbener, & Ozer (1992)** | 20-year similarity-survival study |
-| **Byrne & Blaylock (1963)** | Assumed similarity in happy marriages |
-| **Lee, Rogge, & Reis (2010)** | Implicit attitudes predict relationship outcomes |
-| **Murray, Griffin, Rose, & Bellavia (2006)** | Low-SE failures spill into relationships |
-| **McNulty (2010)** | "Too positive" couples decline more |
-| **Clark et al. (2010)** | Communal approach predicts satisfaction |
-| **Miller, Caughlin, & Huston (2003)** | Positive illusions predict marital happiness (13 years) |
-| **Lazarus & Folkman (1984)** | Defined stress |
-| **Holmes & Rahe (1967)** | SRRS |
-| **Taylor (2002)** | "Tend and befriend" |
-| **Baumeister, Heatherton, & Tice (1994)** | Obesity and self-control |
-| **Eberhardt et al. (2004)** | Afrocentric features and death sentences |
-| **Wells (1993)** | Sequential lineups reduce false IDs |
-| **Wegner (1994)** | Ironic processes of mental control |
-| **Diener & Diener (1996)** | Most people are moderately happy |
-| **Lykken & Tellegen (1996)** | Set-point theory (~50% genetic) |
-| **Easterlin (1974)** | Easterlin Paradox |
-| **Kahneman & Deaton (2010)** | ~$75,000 income threshold |
-| **Van Boven & Gilovich (2003)** | Experiential > material purchases |
-| **Wilson & Gilbert (2003)** | Impact bias |
-| **Emmons & McCullough (2003)** | Gratitude exercises raise happiness |
-| **Fredrickson (1998, 2001)** | Broaden-and-Build Theory |
-| **Csikszentmihalyi (1990)** | Flow |
-| **Lyubomirsky, Sheldon, & Schkade (2005)** | "Happiness pie" (50/10/40) |
-| **Danner, Snowdon, & Friesen (2001)** | "Nun Study"; positive emotion and longevity |
-| **Dunn, Aknin, & Norton (2008)** | Prosocial spending increases happiness |
-| **Gruber, Mauss, & Tamir (2011)** | Extreme happiness can be counterproductive |
-| **Oishi, Diener, & Lucas (2007)** | Moderate positive affect best for academics |
-| **Quoidbach et al. (2014)** | Emodiversity and health |
-| **Scheier & Carver (1985)** | Dispositional optimism |
-| **Deci & Ryan** | Self-Determination Theory |
-| **Fowers, Lyons, Montel, & Shaked (2001)** | 10% divorce-risk estimate (optimism bias) |
-| **Campbell & Foster (2002)** | Narcissists report less commitment |
-| **Vertue (2003)** | Insecure attachment and loneliness |
-| **Turan & Vicary (2010)** | Relationship-building knowledge and satisfaction |
-
----
-
 ## Likely Exam Points
 
 1. **Loneliness** (Archibald et al., 1995): desiring more/better relationships than one has; involuntary vs. voluntary.

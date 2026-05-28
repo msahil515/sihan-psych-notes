@@ -344,42 +344,6 @@ People care about *what* they receive and *how* decisions are made.
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Zajonc** (1965) | Drive theory of social facilitation |
-| **Zajonc, Heingartner, & Herman** (1969) | Cockroach maze; facilitation without evaluation apprehension |
-| **Cottrell et al.** (1968) | Evaluation apprehension theory |
-| **Baron** (1986) | Distraction conflict theory |
-| **Latané, Williams, & Harkins** (1979) | First social loafing demonstration |
-| **Karau & Williams** (1993) | Defined social loafing; reduction factors |
-| **Janis** (1972) | Groupthink; 8 symptoms; case studies |
-| **Stasser & Titus** (1985) | Shared information bias / hidden profile |
-| **Aronson & Mills** (1959) | Initiation severity increases group attraction |
-| **Sani** (2005, 2009) | Group schism; Church of England study |
-| **Campbell** (1958) | Coined "entitativity" |
-| **Lickel et al.** (2000) | Entitativity taxonomy |
-| **Jetten, Hornsey, & Adarves-Yorno** (2006) | High-status members conform less |
-| **Hornsey, Jetten, McAuliffe, & Hogg** (2006) | Dissenter evaluation depends on group norm |
-| **Reicher & Haslam** (2006) | Simulated prison; role internalization |
-| **Hochschild** (1983) | Feeling rules |
-| **Tajfel & Turner** (1986) | Social identity theory |
-| **Brewer & Caporael** (2006) | Interdependence as survival strategy |
-| **Schachter** (1959) | Emotion drives social comparison/affiliation |
-| **Turner & Killian** (1972) | Emergent norm theory |
-| **Reicher, Spears, & Postmes** (1995) | SIDE Model |
-| **Osgood** (1962) | GRIT |
-| **Sherif** (1954/1961) | Superordinate goals; Robbers Cave |
-| **Fiedler** (1978) | Contingency model; LPC scale |
-| **Burns** (1978); **Bass** (1985) | Transformational vs. transactional leadership |
-| **Hogg** (2001) | Social identity theory of leadership; prototypicality |
-| **Hollander** (1958) | Idiosyncrasy credit |
-| **Thibaut & Walker** (1975) | Procedural justice |
-| **Wohl, Branscombe et al.** (2010, 2011) | Cohesion responses to group-distinctiveness threats |
-
----
-
 ## Likely Exam Points
 
 1. **Entitativity** (Campbell, 1958): perceived group coherence; correlates with importance (r = .75; Lickel et al., 2000).

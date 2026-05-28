@@ -202,30 +202,6 @@ Kelly proposed a cognitive theory built on the idea that each person functions l
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **George Kelly (1905–1967)** | Founder of personal construct theory; REP Test, self-characterization sketch, fixed role therapy; replaced Rogers at Ohio State; Ph.D. Iowa (1931) |
-| **Duck & Spencer (1972)** | Construct similarity among friends pre-existed friendships |
-| **Neimeyer (1984)** | Spouses with alike constructs were happier |
-| **Sechrest (1968)** | Personal characteristics correspond to how we construe others |
-| **Bannister, Fransella & Agnew (1971)** | Schizophrenics: unstable construing people, stable with objects |
-| **Crockett (1982)** | Construct system differentiates/integrates with age |
-| **Tetlock (1983, 1984)** | Conservatives high in cognitive simplicity; moderates/liberals high in complexity |
-| **Adams-Webber (2001)** | Couples: high partner correlation in cognitive complexity; women higher |
-| **Benet-Martinez, Lee & Leu (2006)** | Biculturals higher in cognitive complexity |
-| **Canter, Sarangi & Youngs (2014)** | Terrorists who couldn't re-construe their future least likely to disengage |
-| **Grice (2002)** | Computer analysis of repertory grids |
-| **Abe, Imai & Nedate (2011)** | Fixed role therapy reduced social anxiety in Japan |
-| **Needs (1988)** | Offenders identified with action heroes; rapists felt inadequate |
-| **Smith et al. (1991)** | Repeat patients construed smaller social networks |
-| **Sechrest & Jackson (1961)** | High-CC adults had less authoritarian parents |
-| **Abraham Maslow** | Invited Kelly to Brandeis (1965) |
-| **Carl Rogers** | Kelly replaced him at Ohio State |
-
----
-
 ## Likely Exam Points
 
 1. **Kelly excludes**: unconscious, ego, needs, drives, S-R, reinforcement, motivation, emotion — unique among major theories.

@@ -162,7 +162,7 @@ The CNS is encased in bone and three membranes, the **meninges** (sing. meninx),
 
 ## 3.5 Glial Cells
 
-- **Glial cells**: non-neuronal cells. Often said to outnumber neurons 10:1, but Azevedo et al. (2009) found numbers are approximately **equal**.
+- **Glial cells**: non-neuronal cells (Fields & Stevens-Graham, 2002 reviewed the four types and their functions). Often said to outnumber neurons 10:1, but Azevedo et al. (2009) found numbers are approximately **equal**.
 
 ### Four Types
 
@@ -560,35 +560,6 @@ Notes: the amygdala is part of **both** the limbic system and basal ganglia; the
 | **Striatum** | Caudate + putamen |
 | **Globus pallidus** | Pale circular structure; medial to putamen |
 | **Nucleus accumbens** | Medial ventral striatum; reward for addictive drugs/reinforcers |
-
----
-
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Camillo Golgi** | Italian physician; accidental Golgi stain (early 1870s; potassium dichromate + silver nitrate); first to visualize individual neurons |
-| **Franz Nissl** | German psychiatrist; Nissl stain (1880s; cresyl violet) binding cell bodies for counting |
-| **Guyenet (2006)** | Exceptions to the conventional sympathetic/parasympathetic principles |
-| **Banerjee & Bhat (2007)** | Blood-brain barrier research |
-| **Abbott, Ronnback, & Hannson (2005, 2006)** | Tight junctions of cerebral vessels; astrocyte role in BBB |
-| **Azevedo et al. (2009)** | Showed glial-to-neuron numbers are approximately equal |
-| **Nimmerjahn, Kirchhoff, & Helmchen (2005)** | Microglia injury response |
-| **Kettenmann & Verkhratsky (2008)** | Astrocyte functions beyond support |
-| **Jourdain et al. (2007)** | Astrocytes control synapse establishment/maintenance |
-| **Rouach et al. (2008)** | Astrocytes modulate neural activity |
-| **Edgar & Nave (2009)** | Astrocytes maintain axon function |
-| **Giaume et al. (2010)** | Astrocytes participate in glial circuits |
-| **Loscher & Potschka (2005)** | Drug penetration of the BBB |
-| **Swanson & Petrovich (1998)** | Amygdala research |
-| **Laughlin & Sejnowski (2003)** | Neocortex columnar organization |
-| **Spruston (2008)** | Pyramidal cells |
-| **Nelson, Sugino, & Hempel (2006)** | Variety of neuron shapes/sizes |
-| **Piomelli, Astarita, & Rapaka (2007)** | Lipid bilayer composition |
-| **Fields & Stevens-Graham (2002)** | Types/functions of glial cells |
-| **Olds & Milner** | Accidentally discovered intracranial self-stimulation → brain reward circuits |
-| **Rapport (2005)** | Historical account of the Golgi stain |
-| **Molyneaux et al. (2007)** | Key characteristics of neocortical anatomy |
 
 ---
 

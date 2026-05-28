@@ -16,6 +16,8 @@ How neurons generate, conduct, and transmit electrochemical signals: resting pot
 
 ## Clinical Case: The Lizard — Roberto Garcia d'Orta (Parkinson's)
 
+*Case drawn from neurologist **Harold Klawans**' "Newton's Madness."*
+
 - Man in his sixties; called himself *"a great lizard frozen in a dark, cold, strange world."* Diagnosis: **Parkinson's disease** (progressive neurodegeneration).
 
 ### Symptoms
@@ -272,7 +274,7 @@ Five aspects: (1) synapse structure; (2) NT synthesis/packaging/transport; (3) N
 | Function | Rapid, brief signals | Slow, diffuse, **long-lasting** |
 
 ### Reuptake, Degradation, Recycling
-- **Reuptake** (most common): NT drawn back into the **presynaptic button** by transporters.
+- **Reuptake** (most common): NT drawn back into the **presynaptic button** by transporters (Tzingounis & Wadiche, 2007 mapped transporter classes beyond the classic Na⁺/K⁺ pumps).
 - **Enzymatic degradation**: NT broken apart in the synapse by **enzymes**. Classic case: **acetylcholine**, broken down by **acetylcholinesterase**.
 - **Recycling**: NT/breakdown products and even **vesicles** are recycled (Sudhof, 2004).
 
@@ -349,12 +351,12 @@ Tyrosine → L-dopa → Dopamine → Norepinephrine → Epinephrine
 
 ### Unconventional Neurotransmitters
 
-**Soluble gases (nitric oxide, carbon monoxide):**
+**Soluble gases (nitric oxide, carbon monoxide):** (reviewed by Boehning & Snyder, 2003)
 - Synthesized in **cytoplasm**; **diffuse through the membrane** (no vesicles; lipid-soluble) into nearby cells; trigger a **second messenger**; deactivated in **seconds**.
 - Mediate **retrograde transmission** — feedback from **postsynaptic back to presynaptic** neuron (regulates the presynaptic neuron; Ludwig & Pittman, 2003).
 
 **Endocannabinoids:**
-- Similar to **THC** (main psychoactive component of **marijuana**). Main example: **anandamide** (Sanskrit *ananda* = "eternal bliss").
+- Similar to **THC** (main psychoactive component of **marijuana**). Main example: **anandamide** (Sanskrit *ananda* = "eternal bliss"). Van Sickle et al. (2005) identified two of them.
 - Synthesized from **fatty membrane compounds** just before release; released from **dendrites/cell body**; act on **presynaptic** neurons to **inhibit** transmission; lipid-soluble.
 
 > **MCQ TARGET:** Endocannabinoids = retrograde-acting, lipid-soluble; anandamide = "eternal bliss"; THC-like.
@@ -452,31 +454,6 @@ Tyrosine → L-dopa → Dopamine → Norepinephrine → Epinephrine
 | **Striatum** | Receives dopamine from substantia nigra; movement control |
 | **L-dopa (levodopa)** | Dopamine precursor; crosses BBB; Parkinson's treatment |
 | **Hodgkin-Huxley model** | Neural conduction theory (1950s; Nobel 1963; squid motor neurons) |
-
----
-
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Alan Hodgkin** | Hodgkin-Huxley model (1950s; Nobel 1963); calculated ionic electrostatic forces; inferred Na+/K+ pumps |
-| **Andrew Huxley** | Co-developed Hodgkin-Huxley model; Nobel 1963 |
-| **J.C. Eccles** | Shared the 1963 Nobel Prize |
-| **Bruno & Sakmann (2006)** | A single synapse's PSP has little effect on firing |
-| **Palmer & Stuart (2006)** | APs generated in the axon section adjacent to the hillock, not at it |
-| **Williams & Stuart (2002, 2003)** | Some neurons amplify distal dendritic signals |
-| **Salzer (2002)** | Na+ channels concentrated at nodes of Ranvier |
-| **Peters & Brooke (1998)** | Max human motor neuron speed ~60 m/s |
-| **Hestrin & Galarreta (2005)** | Gap junctions integral to local inhibitory circuits |
-| **Bennett et al. (2003)** | Astrocytes communicate via gap junctions |
-| **Matsui & Jahr (2006)** | One AP → release from one vesicle at many synapses |
-| **Boehning & Snyder (2003)** | Soluble-gas neurotransmitters |
-| **Ludwig & Pittman (2003)** | Retrograde transmission regulates presynaptic activity |
-| **Van Sickle et al. (2005)** | Identified two endocannabinoids |
-| **Sudhof (2004)** | Vesicle recycling |
-| **Tzingounis & Wadiche (2007)** | Transporter classes beyond Na+/K+ pumps |
-| **Harold Klawans** | "Newton's Madness" — source of Mr. d'Orta's case |
-| **Armstrong (2007)** | Voltage-activated ion channels review |
 
 ---
 

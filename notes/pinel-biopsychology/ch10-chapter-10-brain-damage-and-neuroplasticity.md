@@ -305,34 +305,6 @@ Surveys causes of brain damage (tumors, strokes, closed-head injuries, infection
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Goddard, McIntyre & Leech (1969)** | Discovered kindling via repeated amygdalar stimulation |
-| **Hsiao et al. (1996)** | Transgenic mouse Alzheimer's model (human amyloid genes) |
-| **Langston (1985)** | Identified MPTP as cause of "frozen addicts" parkinsonism |
-| **Langston (1986)** | MPTP primate model of Parkinson's |
-| **Tetrud & Langston (1989)** | Deprenyl retards Parkinson's ~50% |
-| **Kaas et al. (1990)** | Visual cortex reorganization after retinal lesion |
-| **Gilbert & Wiesel (1992)** | Visual cortex reorganization within minutes |
-| **Pons et al. (1991)** | Face area expands >1 cm into arm area after 10-year deafferentation |
-| **Sanes, Suner & Donoghue (1990)** | Vibrissae motor cortex activates other facial muscles after transection |
-| **Hughlings Jackson** | Neurologist; namesake of Jacksonian seizures |
-| **Lewy (1912)** | First reported Lewy bodies |
-| **Wahlgren & Ahmed (2004)** | Glutamate-antagonist stroke treatment must start early |
-| **Nau & Brück (2002)** | Meningitis fatal in 25% of adults |
-| **Hardy & Selkoe (2002)** | Amyloid hypothesis of Alzheimer's |
-| **Gilliam, Gusella & Lehrach (1987)** | Genetic test for huntingtin |
-| **Ramagopalan et al. (2009)** | Vitamin D influences an MS-implicated locus |
-| **Lennox (1960)** | Cases illustrating complex partial seizures |
-| **De Beaumont et al. (2009)** | Long-term concussion effects |
-| **Berkovic et al. (2006)** | Over 70 epilepsy-linked genes |
-| **Taylor et al. (1990)** | MPTP dopamine depletion without motor symptoms |
-| **Elibol et al. (2001)** | Cells showing both necrosis and apoptosis |
-
----
-
 ## Likely Exam Points
 
 1. **Stroke epidemiology**: third leading cause of death in the US; most common cause of adult disability.

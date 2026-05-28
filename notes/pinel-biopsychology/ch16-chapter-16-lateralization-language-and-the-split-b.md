@@ -56,7 +56,7 @@ The forebrain has two hemispheres connected by the **cerebral commissures** (chi
 - Confirmed in monkeys (fine tactual/motor discriminations don't transfer — these fibers are **contralateral**).
 
 ### Commissurotomy in Humans
-- Epileptic discharge spreads via the corpus callosum. **Vogel and Bogen** began **commissurotomy** (transect corpus callosum, smaller commissures intact) for intractable epilepsy; benefit was greater than expected (many had no further major convulsions). Evaluated by **Sperry and Gazzaniga** → **Sperry's Nobel Prize 1981**.
+- Epileptic discharge spreads via the corpus callosum. An earlier attempt by **Van Wagenen & Herren (1940)** failed to control seizures, but **Vogel and Bogen** later revived **commissurotomy** (transect corpus callosum, smaller commissures intact) for intractable epilepsy; benefit was greater than expected (many had no further major convulsions). Evaluated by **Sperry and Gazzaniga** → **Sperry's Nobel Prize 1981**.
 - **Testing**: patients fixate center; stimuli flashed for **0.1 s** to one visual field. **Left visual field → right hemisphere**; **right visual field → left hemisphere**. Tactual/motor tasks done under a ledge.
 
 ### Independent Hemispheric Function
@@ -192,41 +192,6 @@ The forebrain has two hemispheres connected by the **cerebral commissures** (chi
 | **Agenesis of the corpus callosum** | Congenital absence of the corpus callosum |
 | **Intractable epilepsy** | Medication-resistant epilepsy; commissurotomy indication |
 | **Bilateral duplication** | Having two of almost everything, one per side |
-
----
-
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Marc Dax (1836)** | First noted left-hemisphere damage in speech-impaired patients (ignored) |
-| **Paul Broca (1861-1864)** | Broca's area; left-hemisphere language production |
-| **Hugo-Karl Liepmann** | Apraxia tied to left-hemisphere damage |
-| **Juhn Wada (1949)** | Sodium amytal (Wada) test |
-| **Doreen Kimura (1961, 1964)** | Dichotic listening; right-ear digit / left-ear melody advantage |
-| **Roger Sperry** | Split-brain research; Nobel Prize 1981 |
-| **Ronald Myers** | Co-author of the 1953 split-brain cat study |
-| **Michael Gazzaniga** | Split-brain evaluations; left-hemisphere interpreter |
-| **Vogel and Bogen** | Initiated human commissurotomy program |
-| **Van Wagenen & Herren (1940)** | Earlier failed commissurotomy attempt |
-| **Jerre Levy (1969)** | Right-hemisphere spatial superiority |
-| **Levy, Trevarthen, & Sperry (1972)** | Chimeric figures test |
-| **Eran Zaidel (1975)** | Z lens |
-| **Sperry, Zaidel, & Zaidel (1979)** | Emotional content crosses split hemispheres |
-| **McGlone (1977, 1980)** | Males 3× more likely to be aphasic; male brains more lateralized |
-| **Sommer et al. (2004)** | Meta-analysis: no significant sex effect on lateralization |
-| **Russell & Espir (1961)** | WWII handedness-speech study |
-| **Penfield & Roberts (1959)** | Unilateral excision study |
-| **Milner (1974)** | Sodium amytal data (92%/69%/30%) |
-| **Galuske et al. (2000)** | Columnar asymmetry in Wernicke's area |
-| **Schlaug et al. (1995)** | Planum temporale and perfect pitch |
-| **Geschwind & Levitsky (1968)** | Planum temporale larger left in ~65% |
-| **MacNeilage, Rogers, & Vallortigara (2009)** | Lateralization ~500 mya |
-| **Corina et al. (1992)** | Sign language aphasia (W.L.) |
-| **Hauser, Chomsky, & Fitch (2005)** | Human language definition |
-| **Golinkoff & Hirsh-Pasek (2006)** | Infant language milestones |
-| **Weissman & Banich (2000)** | Task difficulty and hemispheric independence |
-| **Luck et al. (1989)** | Split-brain faster at parallel visual search |
 
 ---
 

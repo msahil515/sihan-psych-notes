@@ -377,57 +377,6 @@ Across Buss's 37 cultures, both ranked highest: (1) kindness/understanding, (2) 
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Baumeister & Leary (1995)** | Need for affiliation as fundamental as hunger/thirst |
-| **Rowe (1996)** | Neurobiological basis of affiliation |
-| **Schachter (1959)** | "Misery loves only miserable company"; social comparison under stress |
-| **Zajonc (1968)** | Repeated (mere) exposure effect |
-| **Moreland & Beach (1992)** | Classroom exposure → liking |
-| **Dion, Berscheid, & Walster (1972)** | Physical attractiveness stereotype |
-| **Lemay, Clark, & Greenberg (2010)** | "Beautiful is good" via projected desire to affiliate |
-| **Cunningham (1986)** | Two types of attractive women |
-| **Langlois & Roggman (1990)** | Composite faces rated more attractive |
-| **Elliot & Niesta (2008)** | Red enhances women's attractiveness for men |
-| **Aristotle (~330 BC)** | Similarity as basis for friendship |
-| **Galton (1870)** | Spouses' resemblance |
-| **Newcomb (1956)** | Similarity causes attraction (transfer students) |
-| **Byrne (1961b, 1971)** | Bogus stranger paradigm; attraction-as-reinforcement model |
-| **Byrne & Nelson (1965)** | Proportion of similarity |
-| **Rosenbaum (1986)** | Repulsion hypothesis |
-| **Berscheid, Dion, Walster & Walster (1971)** | Matching hypothesis |
-| **van Straaten et al. (2009)** | Support for matching hypothesis |
-| **Newcomb (1961) & Heider (1958)** | Balance theory |
-| **Aronson & Linder (1965)** | Gain-loss theory |
-| **Bowlby (1969, 1973, 1980)** | Attachment theory; internal working models |
-| **Ainsworth et al. (1978)** | Strange Situation; three infant styles |
-| **Main & Solomon (1986)** | Disorganized/disoriented attachment |
-| **Hazan & Shaver (1987)** | Adult attachment styles |
-| **Bartholomew & Horowitz (1991)** | Four adult attachment styles (2×2) |
-| **Hatfield & Sprecher (1986)** | Passionate Love Scale |
-| **Hatfield & Walster (1978)** | Companionate love |
-| **Sternberg (1986)** | Triangular Theory of Love; 8 types |
-| **Lee (1977)** | Six love styles |
-| **Hendrick & Hendrick** | Love Attitudes Scale |
-| **Schachter & Singer (1962)** | Two-factor theory of emotion |
-| **Dutton & Aron (1974)** | Capilano Bridge; misattribution of arousal |
-| **Berscheid & Walster (1974)** | Two-factor theory applied to passionate love |
-| **Altman & Taylor (1973)** | Social penetration theory |
-| **Levinger (1980)** | ABCDE stage model |
-| **Buss (1989)** | Cross-cultural mate preferences (37 cultures) |
-| **Trivers (1972)** | Parental investment theory |
-| **Eagly & Wood (1999)** | Social role theory alternative |
-| **Gillath et al. (2005)** | Neural correlates of attachment anxiety |
-| **Carvallo & Gabriel (2006)** | Dismissing avoidants still show affiliation needs |
-| **Baumeister et al. (2001)** | "Bad is stronger than good" |
-| **Buss et al. (1992)** | Gender differences in jealousy |
-| **Buunk et al. (1996)** | Cross-cultural jealousy replications |
-| **Harris (2003)** | Criticism: actual infidelity distresses both sexes equally |
-
----
-
 ## Likely Exam Points
 
 1. **Need for affiliation** (Baumeister & Leary, 1995) is as fundamental as hunger/thirst; even dismissing avoidants show affiliation needs (Carvallo & Gabriel, 2006).

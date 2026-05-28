@@ -455,26 +455,6 @@ All behavior is a product of interactions among: (1) **genetic endowment** (prod
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|--------|-------------|
-| **René Descartes** | Cartesian dualism — non-physical mind separate from physical brain |
-| **Julien Offroy de la Mettrie** | 1747: thought is produced by the brain; exiled to Berlin |
-| **Oliver Sacks** | Asomatognosia case ("man who fell out of bed") — right parietal damage, loss of left-body awareness (1985) |
-| **G. G. Gallup** | Mirror/mark test of chimpanzee self-awareness (1983) |
-| **Charles Darwin** | *On the Origin of Species* (1859); evolution by natural selection; four evidence types; Darwinian fitness |
-| **Peter Grant** | 1991: rapid evolution of Galápagos finch beak size after one drought — evolution in progress |
-| **Gregor Mendel** | Monk (1822–1884); pea-plant laws of inheritance; recognized only in early 20th c.; sent Darwin an unread manuscript |
-| **Robert Trivers** | 1972: mate-bonding theory from asymmetric parental investment (explains polygyny/polyandry) |
-| **David Buss** | 1992: confirmed evolutionary predictions about human mate selection |
-| **McCann** | 1981: elephant seals — dominant male ~37% of copulations vs. ~1% for rank 10 |
-| **Pusey, Williams, & Goodall** | 1997: high-ranking female chimps had more, higher-surviving offspring (food access) |
-| **Daeschler, Shubin, & Jenkins** | 2006: ~375 mya fish/land-vertebrate transitional fossil, N. Canada |
-| **Kaessmann & Pääbo** | 2002: mitochondrial DNA as an evolutionary clock |
-
----
-
 ## Likely Exam Points
 
 1. **Asomatognosia** = loss of awareness of the **left side**, from **right parietal lobe** damage (Sacks, 1985).

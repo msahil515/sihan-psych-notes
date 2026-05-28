@@ -316,48 +316,6 @@ Two methods: (1) introspection, (2) the observer's perspective on the self.
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|--------|-------------|
-| **Tajfel & Turner (1986)** | Social Identity Theory; personal-social identity continuum |
-| **Festinger (1954)** | Social Comparison Theory |
-| **Steele & Aronson (1995)** | Discovered/named Stereotype Threat; verbal-task impairment in Black students |
-| **Swann (2005)** | Self-verification theory |
-| **Rosenberg (1965)** | Rosenberg Self-Esteem Scale |
-| **Baumeister, Smart & Boden (1996)** | Threatened egotism → aggression |
-| **Baumeister** | Ego depletion model of self-control |
-| **Crocker & Major (1989)** | Attributional ambiguity |
-| **Branscombe, Schmitt & Harvey (1999)** | Rejection-identification model |
-| **Nisbett & Wilson (1977)** | People lack conscious access to causes of behavior |
-| **Wilson & Kraft (1993)** | Introspection temporarily changes attitudes |
-| **Gilbert & Wilson (2000)** | Affective forecasting errors |
-| **Dunn, Aknin & Norton (2008)** | Prosocial spending produces more happiness than personal spending |
-| **Pronin & Ross (2006)** | Past self described in more trait terms; acting-techniques study |
-| **Vazire & Mehl (2008)** | EAR study; self-other accuracy is domain-specific |
-| **Weinstein (1980)** | Unrealistic optimism |
-| **Goffman (1963)** | Defined stigma |
-| **Leary** | Sociometer theory |
-| **Wills (1981)** | Downward social comparison protects self-esteem |
-| **Zywicka & Danowski (2008)** | Social Compensation vs. Enhancement hypotheses |
-| **Ellison, Steinfield & Lampe (2007)** | Social capital and Facebook (Compensation supported) |
-| **Bargh, McKenna & Fitzsimons (2002)** | Shy people express "true self" better online |
-| **Sheeks & Birchmeier (2007)** | Online social skills transfer to real life |
-| **LeBoeuf, Shafir & Bayuk (2010)** | Salient identity affects choice and regret |
-| **Jetten, Branscombe, Schmitt & Spears (2001)** | Expected rejection → stronger identification with pierced group |
-| **Ross & Wilson (2003)** | Temporal self-appraisal; derogating the distant past self |
-| **Guimond et al. (2007)** | Five-nation study: gender differences only under intergroup comparison |
-| **Trafimow, Silverman, Fan & Law (1997)** | Language shifts bilingual self-construal |
-| **Spencer, Steele & Quinn (1999)** | Stereotype threat for women in math |
-| **Kashy & DePaulo (1996)** | College students lie about twice a day |
-| **Pronin, Kruger, Savitsky & Ross (2001)** | Self-knowledge paradox |
-| **Wood, Perunovic & Lee (2009)** | Positive self-statements backfire for low self-esteem |
-| **Koo, Algoe, Wilson & Gilbert (2008)** | Mental subtraction increases happiness |
-| **Twenge, Abebe & Campbell (2010)** | Baby names show increasing individualism post-1980 |
-| **Mendoza-Denton et al. (2001)** | Question context changes self-description |
-
----
-
 ## Likely Exam Points
 
 1. **Vazire & Mehl (2008) EAR study:** self-other accuracy is **domain-specific**; EAR recorded every 12.5 minutes for 4 days.

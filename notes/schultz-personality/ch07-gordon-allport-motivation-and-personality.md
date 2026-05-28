@@ -296,29 +296,6 @@ Meeting all six = emotionally healthy and functionally autonomous.
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Gordon Allport (1897–1967)** | Trait-based theory; first US personality course and trait research; *Personality* (1937); proprium, functional autonomy, Study of Values |
-| **Floyd Allport** | Gordon's brother; social psychologist; inferiority benchmark |
-| **Sigmund Freud** | Allport's counterpoint; the 1919 Vienna meeting |
-| **Paul Ekman** | 7 universal facial emotions; FACS; *Time* 100 (2009) |
-| **Paige (1966)** | Computer analysis of Jenny's letters validated Allport's method |
-| **Allport, Vernon & Lindzey (1960)** | Study of Values |
-| **Allport & Vernon (1933)** | Landmark expressive behavior study |
-| **Allport & Cantril (1934)** | Expressive behavior from still photos |
-| **Harker & Keltner (2001)** | Yearbook study; positive expressions at 21 predicted later well-being |
-| **Kaufman & Bristol (2001)** | Personal/social context improves learning |
-| **Abraham Maslow / Carl Rogers** | Humanists influenced by Allport |
-| **Ambody & Rosenthal (1992)** | Anxiety judged from a 30-second film |
-| **Pollak & Sinha (2002)** | Abused children identify anger more readily |
-| **Joormann & Gotlib (2006)** | Depressed adults: more intensity for happiness, less for sadness |
-| **Keltner (1997)** | Conscientiousness ↔ embarrassment expressions |
-| **Heller & Haynal (1997)** | Expressions distinguished later-suicide depressed patients |
-
----
-
 ## Likely Exam Points
 
 1. **Allport's definition (1961):** "the dynamic organization within the individual of those psychophysical systems that determine characteristic behavior and thought" — four testable components.

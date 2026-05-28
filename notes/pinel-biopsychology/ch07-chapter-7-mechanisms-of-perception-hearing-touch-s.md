@@ -312,32 +312,6 @@ Circuit: **PAG** (opiates inhibit PAG inhibitory interneurons, raising output) â
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Oliver Sacks** | Dr. P. case; sensation-perception distinction |
-| **Wilder Penfield** | Mapped SI (1937); somatosensory homunculus |
-| **Ronald Melzack & Patrick Wall** | Gate-control theory (1965); Miss C. case |
-| **Basbaum & Fields** | Descending analgesia circuit (1978) |
-| **Reynolds** | PAG stimulation analgesia in rats (1969) |
-| **Bendor & Wang** | Pitch area anterior to primary auditory cortex (2005) |
-| **Murphy & Schneider** | Pheromonal control of hamster aggression/sex (1970) |
-| **Cox et al.** | Sodium channel gene in congenital pain insensitivity (2006) |
-| **Heffner & Heffner** | Permanent auditory cortex lesion effects (2003) |
-| **Mark, Ervin & Yakolev** | Deep chronic pain via parafascicular/intralaminar nuclei (1962) |
-| **Corkin, Milner & Rasmussen** | Unilateral SI excision deficits (1970) |
-| **Schendel & Robertson** | W.M.: hand in scotoma improved detection (2004) |
-| **Konishi** | Barn owl sound localization (2003) |
-| **King, Schnupp & Thompson** | Auditory-space map in superior colliculus (1998) |
-| **Eggermont & Roberts** | Tinnitus is central (2004) |
-| **Doty** | Lifelong olfactory receptor cell replacement (2001) |
-| **Keller & Vosshall** | ~1,000 human olfactory receptor types (2008) |
-| **Imai & Sakano** | One receptor protein per olfactory cell (2007) |
-| **Soucy et al.** | Systematic mirror-symmetric glomerular layout (2009) |
-
----
-
 ## Likely Exam Points
 
 1. **Three principles** of current sensory organization: hierarchical, **functionally segregated** (not homogeneous), **parallel** (not serial).

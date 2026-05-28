@@ -345,39 +345,6 @@ Universal problems: (1) behavior toward others, (2) occupation, (3) love.
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Alfred Adler (1870–1937)** | Founder of individual psychology; inferiority feelings, striving for superiority, fictional finalism, style of life, social interest, birth order |
-| **Sigmund Freud** | Adler's initial colleague then opponent; contrast point for nearly every Adlerian concept |
-| **Robert Zajonc (2001)** | First-borns' intellectual advantage via the tutoring/rehearsal mechanism |
-| **J. E. Crandall (1981)** | Developed the SIS |
-| **Greever, Tseng, & Friedland (1973)** | Developed the SII |
-| **Peluso et al. (2004)** | Developed the BASIS-A |
-| **Grieser, Greenberg, & Harrison (1972)** | REM/NREM dream study supporting dreams solving current problems |
-| **Breger, Hunter, & Lane (1971)** | Pre-stressor dream content reflects current worries |
-| **Strano & Petrocelli (2005)** | Moderate inferiority feelings → higher GPA |
-| **Kosaka (2008)** | Inferiority focus changes across adolescent age groups |
-| **Jackson & Sechrest (1962)** | Early recollections by disorder (fear/abandonment/illness) |
-| **Hafner, Fakouri, & Labrentz (1982)** | Alcoholics' early recollections: threat and external control |
-| **Patterson (2014)** | Traumatic early recollections → more PTSD in police |
-| **Hankoff (1987)** | Criminals' early recollections more aggressive |
-| **Davidow & Bruhn (1990)** | Delinquents: rule-breaking, parental distrust |
-| **Tobey & Bruhn (1992)** | Dangerous patients: aggressive, powerless memories |
-| **Statton & Wilborn (1991)** | Early recollections are subjective recreations |
-| **Buchanan, Kern, & Bell-Dumas (1991)** | Fabricated recollections share one's own themes |
-| **Clark (2005); Kasler & Nevo (2005)** | Recollections predict career preferences |
-| **Crook, Raskin, & Eliot (1981)** | Depressed adults' parents rated hostile/rejecting |
-| **Lefkowitz & Tesiny (1984)** | Neglect at 8 predicted depression at 18 |
-| **Capron (2004)** | Pampering types linked to narcissism, low self-esteem |
-| **Ferguson (2010)** | Need to belong supports social interest |
-| **Manaster (2006)** | Adler's system not easily verified scientifically |
-| **Demosthenes** | Overcame a stutter to become an orator (organic inferiority example) |
-| **Theodore Roosevelt** | Sickly child → fitness model (organic inferiority example) |
-
----
-
 ## Likely Exam Points
 
 1. **"Individual psychology"** emphasizes each person's uniqueness, not group differences.

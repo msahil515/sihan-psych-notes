@@ -102,7 +102,7 @@ Social cognition is how we interpret, analyze, remember, and use information abo
 
 ## Schemas: Mental Frameworks for Organizing Social Information
 
-- **Schemas**: mental frameworks centering on a theme that help organize social information and guide processing in specific contexts.
+- **Schemas** (Wyer & Srull, 1994): mental frameworks centering on a theme that help organize social information and guide processing in specific contexts.
 - Formed through experience; shared within a culture (e.g., "visiting a doctor," "going to a restaurant").
 - They influence what we **notice** (attention), **store** (encoding), and **recall** (retrieval).
 
@@ -416,49 +416,6 @@ Social cognition is how we interpret, analyze, remember, and use information abo
 | **Somatic marker hypothesis** | Damasio: body states from past emotions guide decision-making |
 | **Self-fulfilling prophecy** | Schemas/expectations shaping behavior to confirm themselves |
 | **Sympathetic magic** | Combination of the laws of similarity and contagion |
-
----
-
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Kahneman & Tversky (1973); Kahneman & Frederick (2002)** | Foundational work on heuristics, base rate neglect, representativeness, availability |
-| **Spina et al. (2010)** | Cultural differences (China vs. Canada) in representativeness use |
-| **Schwarz et al. (1991)** | Both ease of retrieval and amount of information matter in availability |
-| **Caruso (2008)** | Ease of retrieval affects self-relevant judgments more than judgments about others |
-| **Englich, Mussweiler & Strack (2006)** | Even experienced judges influenced by anchoring, including random sources |
-| **Eidelman, Pattershall & Crandall (2010)** | Status quo heuristic: older/established options judged better |
-| **Wyer & Srull (1994)** | Research on schemas and social cognition |
-| **Kunda (1999)** | Schema reliance increases under cognitive load |
-| **Stangor & McMillan (1992)** | Schema-consistent/inconsistent encoding and retrieval |
-| **Sparrow & Wegner (2006)** | Unpriming: expressed schemas dissipate, unexpressed persist |
-| **Rosenthal & Jacobson (1968)** | "Pygmalion in the Classroom": self-fulfilling teacher expectations |
-| **Kunda & Oleson (1995)** | Perseverance effect: schemas resist contradictory information |
-| **Landau, Meier & Keefer (2010)** | Review: metaphors affect social attitudes and behavior |
-| **Landau, Sullivan & Greenberg (2009)** | Contamination/body metaphor and immigration attitudes |
-| **Bargh, Chen & Burrows (1996)** | Automatic social behavior: rudeness/politeness priming; elderly priming and slow walking |
-| **Cesario, Plaks & Higgins (2006)** | Schema activation prepares for interaction (GAY/STRAIGHT priming and hostility) |
-| **Dijksterhuis & van Olden (2006)** | Unconscious thought advantage: more satisfying decisions |
-| **Dijksterhuis & Nordgren (2007)** | Unconscious thought theory |
-| **Galdi, Arcuri & Gawronski (2008)** | Unconscious thought sometimes superior to conscious |
-| **Buehler, Griffin & Ross (1994)** | Planning fallacy |
-| **Medvec, Madey & Gilovich (1995)** | Silver vs. bronze medalist counterfactual study |
-| **Schachter & Singer (1962)** | Two-factor theory of emotion |
-| **Dutton & Aron (1974)** | Capilano bridge: misattribution of arousal |
-| **Zillmann (1983)** | Excitation transfer theory |
-| **Forgas (1995a, 2000)** | Affect infusion model |
-| **Gilbert et al.** | Impact bias and immune neglect |
-| **Damasio (1994)** | Somatic marker hypothesis |
-| **LeDoux (1996)** | Two emotional processing pathways: fast (thalamus→amygdala), slow (cortex) |
-| **Fiske & Taylor (2008)** | Definition/framework for social cognition |
-| **Phelps et al. (2001)** | Automatic evaluation localized to amygdala |
-| **Cunningham et al. (2003)** | Controlled evaluation localized to prefrontal cortex |
-| **Cohen (2005)** | Two brain systems for automatic vs. controlled processing |
-| **Sherman et al. (2008)** | Automatic and controlled processing can co-occur under uncertainty |
-| **Rozin & Nemeroff (1990)** | Laws of similarity and contagion |
-| **Isen (1987)** | Positive mood increases creativity, broadens attention |
-| **Taylor & Brown (1988)** | Depressive realism |
 
 ---
 

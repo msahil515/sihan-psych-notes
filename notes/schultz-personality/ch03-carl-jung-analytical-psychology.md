@@ -344,19 +344,6 @@ Blended **objective/scientific** methods with mystical investigation (myths, alc
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Carl Gustav Jung** (1875–1961) | Founded analytical psychology; collective unconscious, archetypes, extraversion/introversion, individuation, word-association test. |
-| **Sigmund Freud** | Jung's mentor (1907–1913); named him "crown prince"; their break led Jung to his own theory. |
-| **Eugen Bleuler** | Director of the Zurich hospital where Jung worked from 1900; coined **schizophrenia**. |
-| **Katharine Cook Briggs** | Co-developed the **MBTI** (with Myers; 1920s; published 1943). |
-| **Isabel Briggs Myers** | Co-developed the **MBTI** (with Briggs; published 1943/1976). |
-| **Marie-Louise von Franz** (1915–1998) | Lifelong disciple of Jung. |
-
----
-
 ## Likely Exam Points
 
 1. **Analytical psychology** differs from Freud: (a) libido = generalized life energy; (b) personality shaped by future as well as past; (c) deeper unconscious, including a **collective unconscious**.

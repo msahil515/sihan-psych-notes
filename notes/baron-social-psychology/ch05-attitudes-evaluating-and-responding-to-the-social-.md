@@ -445,47 +445,6 @@ Two routes: (1) **reasoned thought**, (2) **spontaneous behavioral reactions**.
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Leon Festinger** | Cognitive dissonance (1957); social comparison (1954); "When Prophecy Fails" (1956) |
-| **Festinger & Carlsmith** | $1 vs. $20 induced compliance study; insufficient justification (1959) |
-| **Richard LaPiere** | 1934 attitude-behavior gap study (Chinese couple) |
-| **Petty & Cacioppo** | ELM (1986); Need for Cognition scale (1982) |
-| **Shelly Chaiken** | Heuristic-Systematic Model (1987) |
-| **Russell Fazio** | Attitude accessibility; MODE model (1990, 2000) |
-| **Greenwald, McGhee, & Schwarz** | IAT (1998) |
-| **Albert Bandura** | Observational learning (1997) |
-| **Jack Brehm** | Psychological reactance (1966) |
-| **William McGuire** | Attitude inoculation (1964) |
-| **Icek Ajzen** | Theory of Planned Behavior (1991) |
-| **Roy Baumeister** | Ego-depletion (1998) |
-| **Claude Steele** | Self-affirmation (1988) |
-| **Aronson, Fried, & Stone** | Hypocrisy induction (1991); Stone et al. (1994) condom study |
-| **Petrocelli, Tormala, & Rucker** | Two-component attitude certainty (clarity vs. correctness) (2007) |
-| **Sivacek & Crano** | Vested interest, drinking age (1982) |
-| **Haugtvedt & Wegener** | Vested interest and counterarguing, nuclear plant (1994) |
-| **Kim, Park, & Schwarz** | Emotion-attitude matching, Japan vacation ads (2010) |
-| **Levitan & Visser** | Social networks and attitude change (2009) |
-| **Miller & Morrison** | Pluralistic ignorance, Stanford alcohol (2009) |
-| **Fleming & Petty** | Group identification, Snickerdoodles (2000) |
-| **Noel, Wann, & Branscombe** | Audience-dependent expression (1995) |
-| **Krosnick, Betz, Jussim, & Lynn** | Subliminal conditioning (1992) |
-| **Moons, Mackie, & Garcia-Marques** | Illusion of truth effect (2009) |
-| **Terry & Hogg** | Group identification, sunscreen (1996) |
-| **Schwarz & Clore** | Emotions as information (1983, 2007) |
-| **Williams, Paluck, & Spencer-Rodgers** | IAT male-wealth association (2010) |
-| **Morison, Cozzolino, & Orbell** | Future consequences, HPV vaccine decision (2010) |
-| **Hunt, Kim, Borgida, & Chaiken** | Vested interest vs. values, immediate vs. distant policy (2010) |
-| **Eaton, Visser, Krosnick, & Anand** | Age and attitude certainty (2009) |
-| **Falomir-Pichastor et al.** | Anti-discrimination norms, threat, Switzerland (2004) |
-| **Greenwald, Poehlman, Uhlmann, & Banaji** | Implicit vs. explicit attitudes distinct; implicit predicts some behaviors better (2009) |
-| **Arkes & Tetlock** | IAT may measure cultural familiarity, not endorsement (2004) |
-| **Blankenship & Wegener** | Value-linked involvement, Tashkentistan (2008) |
-
----
-
 ## Likely Exam Points
 
 1. **LaPiere (1934)**: attitude-behavior gap; 92% of businesses said they'd refuse Chinese customers despite serving them in person.

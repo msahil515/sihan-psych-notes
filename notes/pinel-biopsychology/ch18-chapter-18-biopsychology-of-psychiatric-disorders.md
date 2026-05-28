@@ -41,7 +41,7 @@ Biological bases of four disorders: schizophrenia, affective disorders (depressi
 
 - **Current view**: people inherit a **susceptibility** activated by experience. **Multiple genes** implicated.
 - **Early/environmental factors** altering neurodevelopment: birth complications, infections, autoimmune reactions, toxins, trauma, stress.
-- **Neurodevelopmental theory**: schizophrenia from disrupted fetal brain development. **Famine studies** (Dutch 1944-45; Chinese 1959-61): prenatal famine increased adult schizophrenia (St. Clair et al., 2005).
+- **Neurodevelopmental theory**: schizophrenia from disrupted fetal brain development. **Famine studies** (Dutch 1944-45; Chinese 1959-61): prenatal famine increased adult schizophrenia (St. Clair et al., 2005; McClellan et al., 2006). Adolescent-onset cases also show progressive **cortical gray-matter loss** during the teenage years (Thompson et al., 2001).
 
 ### Discovery of Antischizophrenic Drugs
 - **Chlorpromazine**: developed as an **antihistamine**; **1950** a French surgeon noted calming effects; alleviates symptoms (calms agitated, activates blunted); doesn't cure; first **receptor blocker** identified.
@@ -90,7 +90,7 @@ Biological bases of four disorders: schizophrenia, affective disorders (depressi
 1. **MAOIs**: **Iproniazid** (first antidepressant; originally for **tuberculosis**; 1957). Inhibit **monoamine oxidase (MAO)** → raise monoamines. **Cheese effect**: blocking **tyramine** breakdown → BP surges/strokes (cheese, wine, pickles).
 2. **Tricyclics**: three-ring structure; **imipramine** (first; first tried as antischizophrenic); block **serotonin + norepinephrine** reuptake; safer than MAOIs.
 3. **Selective reuptake inhibitors**: **SSRIs** (late 1980s; **fluoxetine/Prozac** first; no more effective than imipramine; a 2003 suicide-risk warning was unconfirmed and a premature warning **increased** suicide rates 2003-2005, Gibbons et al., 2007); **SNRIs** (e.g., Reboxetine).
-4. **Mood stabilizers**: treat depression without inducing mania (or vice versa); mechanism unknown; also treat **epilepsy**. **Lithium** (first; **John Cade, 1954**; guinea-pig "calmness" was actually nausea). Best: mania = **lithium/carbamazepine**; bipolar depression = **lamotrigine**.
+4. **Mood stabilizers** (reviewed by Bourin & Prica, 2007): treat depression without inducing mania (or vice versa); mechanism unknown; also treat **epilepsy**. **Lithium** (first; **John Cade, 1954**; guinea-pig "calmness" was actually nausea). Best: mania = **lithium/carbamazepine**; bipolar depression = **lamotrigine**.
 
 - **Effectiveness**: ~50% response vs. 25% placebo (Hollon, Thase, & Markowitz, 2002). **Kirsch et al. (2008)**: no significant benefit over placebo in mild/moderate depression; placebos **82% as effective**.
 
@@ -226,39 +226,6 @@ Biological bases of four disorders: schizophrenia, affective disorders (depressi
 | **Coprolalia / Palilalia** | Obscenities / repeating one's own words |
 | **Caudate nucleus / Striatum** | Smaller in Tourette / caudate + putamen; dopaminergic target |
 | **Basal ganglia-thalamus-cortex circuit** | Hypothesized abnormal circuit in Tourette |
-
----
-
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Ehringer & Hornykiewicz (1960)** | Dopamine depletion in Parkinson's; sparked dopamine theory |
-| **Carlsson & Lindqvist (1963)** | Chlorpromazine = receptor blocker; revised theory |
-| **Creese, Burt, & Snyder (1976)** | Neuroleptic affinity ↔ potency; D2 specificity |
-| **Snyder (1978)** | D2 binding correlates with potency |
-| **Gottesman & Shields (1982)** | Adoption studies (biological-parent risk) |
-| **Gottesman & Bertelsen (1989)** | Discordant twins transmit equal risk |
-| **Hartmann & Civelli (1997)** | Five dopamine receptor subtypes |
-| **St. Clair et al. (2005); McClellan et al. (2006)** | Famine studies (neurodevelopmental theory) |
-| **Thompson et al. (2001)** | Cortical gray matter loss in adolescent schizophrenia |
-| **Adams et al. (2005)** | Chlorpromazine marginally effective |
-| **Lieberman et al. (2005)** | 74% neuroleptic dropout |
-| **John Cade (1954)** | Discovered lithium |
-| **Hollon, Thase, & Markowitz (2002)** | ~50% response, 25% placebo |
-| **Kirsch et al. (2008)** | Antidepressants ≈ placebo (mild/moderate) |
-| **Lozano et al. (2008)** | Anterior cingulate DBS for depression |
-| **Bostwick & Pankratz (2000)** | ~5% lifetime suicide risk (corrected 15%) |
-| **Bourin & Prica (2007)** | Mood stabilizer review |
-| **Nemeroff (1998)** | Receptor up-regulation in depression |
-| **Gibbons et al. (2007)** | SSRI-warning fallout raised suicide rates |
-| **Somers et al. (2006)** | Anxiety prevalence ~17%; 2:1 female |
-| **Pellow et al. (1985); Treit et al. (1993); Blanchard et al. (1990)** | Anxiety animal models |
-| **Schienle et al. (2005)** | Amygdala activity in spider phobia |
-| **Pauls (2001)** | Tourette concordance (55%/8%) |
-| **Himle & Woods (2005); Marcks et al. (2004)** | Tic-suppression rebound is a myth |
-| **Sowell et al. (2008)** | Sensorimotor cortex thinning in Tourette |
-| **Gilbert et al. (2006)** | Reduced D2 binding in unmedicated Tourette |
 
 ---
 

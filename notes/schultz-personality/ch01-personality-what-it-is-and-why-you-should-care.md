@@ -559,34 +559,6 @@ Every theory takes a position on **six fundamental questions** — the organizin
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Sigmund Freud** | Founder of psychoanalysis; unconscious determinism; starting point of personality theory |
-| **Adams (1954)** | Use of "I" reveals the meaning of personality |
-| **Walter Mischel (1968, 1973)** | Challenged stable traits vs. situational variables; sparked the person-situation debate |
-| **Funder (2001)** | Declared the person-situation dichotomy "a fake"; championed interactionism |
-| **Hermann Rorschach (1884-1922)** | Swiss psychiatrist; developed the Rorschach (1921); died 9 months after publication |
-| **John Exner (1993)** | Developed the Comprehensive System for the Rorschach |
-| **Henry Murray** | Co-developed the TAT with Christiana Morgan |
-| **Christiana Morgan** | Co-developed the TAT (Morgan & Murray, 1935) |
-| **Arnold Buss & Robert Plomin (1984)** | Questionnaire assessing twin temperaments via maternal observation |
-| **Triandis & Suh (2002)** | Identified cultural influences as among the most important shapers of personality |
-| **Fischer & Boer (2011)** | 63-country, 400+ million study linking individualism to well-being |
-| **Heine, Takata, & Lehman (2000)** | Greater self-enhancement in Canadians; self-criticism in Japanese |
-| **Gosling, Gaddis, & Vazire (2007)** | Online personality as accurate as face-to-face |
-| **Back et al. (2010)** | Replicated online accuracy in German sample |
-| **Lam & Peng (2010)** | Excessive Internet use raised anxiety/depression in Chinese adolescents |
-| **McCrae et al. (1998)** | Chinese immigrants 10+ years in Canada scored higher in extraversion |
-| **Oishi & Diener (2001)** | European-Americans gain well-being from personal goals; Asian-Americans from satisfying others |
-| **Norenzayan & Lee (2010)** | East-West differences in fate attribution |
-| **Buckels, Trapnell, & Paulhus (2014)** | Trolls mostly male, average age 29, high in sadism |
-| **Barrett et al. (2000)** | Women show greater emotional complexity/intensity (U.S. and German) |
-| **Alansari (2006)** | Women higher in anxiety in 11 of 16 Islamic nations |
-
----
-
 ## Likely Exam Points
 
 1. **Etymology:** from Latin **persona** (actor's mask, ~1500 CE); personality = outward visible impression.

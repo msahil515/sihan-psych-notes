@@ -361,24 +361,6 @@ Four pathways from primary motor cortex to spinal motor neurons: **two dorsolate
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Giacomo Rizzolatti** | Discovered mirror neurons (early 1990s, macaque ventral premotor cortex) |
-| **Wilder Penfield & Edwin Boldrey** | First mapping of primary motor cortex somatotopy (1937) |
-| **Wilder Penfield & T. Rasmussen** | Definitive motor homunculus diagram (1950) |
-| **Michael Graziano** | Long-burst stimulation (2006); complex sequences and endpoint encoding |
-| **Lawrence & Kuypers** | Monkey transection experiments (1968a, 1968b) dissociating descending tracts |
-| **Miguel Nicolelis & John Chapin** | Belle controlled a remote robotic arm (2002); BMI pioneers |
-| **Rothwell et al.** | G.O. case (1982); critical role of somatosensory feedback |
-| **Oliver Sacks** | Mrs. S. (contralateral neglect, turned in circles) |
-| **Desmurget et al.** | Posterior parietal stimulation → sense of intention (2009) |
-| **Fadiga, Craighero, & Olivier** | Defined mirror neurons (2005) |
-| **Johansson & Flanagan** | Stereognosis and motor-somatosensory interplay (2009) |
-
----
-
 ## Likely Exam Points
 
 1. **Three principles**: hierarchical; motor output guided by sensory feedback; learning changes nature and locus of control.

@@ -280,35 +280,6 @@ Biological bases of emotion: Darwin's evolutionary theory, neural circuits of fe
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|--------|-------------|
-| **Charles Darwin** | *Expression of Emotions* (1872); principle of antithesis |
-| **William James / Carl Lange** | James-Lange theory (1884) |
-| **Walter Cannon** | Cannon-Bard theory (~1915) |
-| **Philip Bard** | Extended Cannon-Bard; discovered sham rage (1929) |
-| **James Papez** | Limbic system circuit (1937) |
-| **Paul MacLean** | Limbic system theory of emotion (1952) |
-| **Heinrich Kluver / Paul Bucy** | Kluver-Bucy syndrome (1939) |
-| **Paul Ekman / Wallace Friesen** | Facial expression universality; six primaries; Duchenne smile |
-| **Duchenne** | First described the genuine smile (1862) |
-| **Rutledge and Hupka** | Facial feedback study (1985) |
-| **Tracy and Robins** | Pride as a primary emotion |
-| **Porter and ten Brinke** | Microexpressions (2008) |
-| **Blanchard and Blanchard** | Colony-intruder model |
-| **Pellis and colleagues** | Cat-mouse aggression-defense scale (1988) |
-| **Hans Selye** | Stress response (1950s); pituitary-adrenal-cortex system |
-| **Joseph LeDoux** | Auditory fear conditioning circuit; amygdala pathways |
-| **Lykken** | Guilty-knowledge technique (1959) |
-| **Cohen et al.** | Stress and cold susceptibility (1991) |
-| **Segerstrom and Miller** | Stress-immunity meta-analysis (2004) |
-| **Soma et al. (Demas et al.)** | Testosterone-aggression comparative review |
-| **Klinesmith, Kasser, & McAndrew** | Gun handling raises testosterone (2006) |
-| **Ax (1955) / Levenson (1994)** | ANS specificity is intermediate |
-
----
-
 ## Likely Exam Points
 
 1. **James-Lange (1884)**: body responses produce emotion (different emotions = different ANS patterns; first physiological theory).

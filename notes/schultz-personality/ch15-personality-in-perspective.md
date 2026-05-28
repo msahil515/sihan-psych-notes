@@ -211,42 +211,6 @@ Nearly every theory addresses **conscious (cognitive) processes**; even Freud an
 
 ---
 
-## Key People
-
-| Person | Contribution Relevant to Ch 15 |
-|---|---|
-| **Freud** | Fixed by age 5; emotional unconscious; defense mechanisms; parental influence |
-| **Adler** | Birth order; family environment; compensation |
-| **Jung** | Extraversion/introversion; collective unconscious; archetypes; midlife change |
-| **Horney** | Cultural/parental influences on neurosis; feminine psychology |
-| **Allport** | Genetics supplies raw material; environment shapes it |
-| **Cattell** | 16 factors; heredity vs. environment; infancy formative |
-| **Eysenck** | Three genetic dimensions (P, N, E) |
-| **McCrae & Costa** | Big Five; stable from age 30 |
-| **Buss & Plomin** | Three temperaments; behavioral genetics |
-| **Zuckerman** | Sensation seeking (genetic) |
-| **Erikson** | Eight stages; ego identity; epigenetic principle |
-| **Maslow** | Hierarchy; self-actualization; first two years critical |
-| **Rogers** | Unconditional positive regard; fully functioning person |
-| **Kelly** | Personal construct theory; cognitive approach |
-| **Skinner** | Reinforcement; personality = learned responses |
-| **Bandura** | Observational learning; self-efficacy; reciprocal determinism |
-| **Rotter** | Locus of control |
-| **Seligman** | Learned helplessness; explanatory style |
-| **McAdams (1994)** | Three-level model (traits, concerns, narrative) |
-| **Silverman & Weinberger (1985)** | "Mommy and I are one" subliminal study |
-| **Twenge (2000)** | 1980s > 1950s in anxiety/neuroticism |
-| **Roberts, Caspi & Moffitt** | Workplace affects traits (2003); psychological maturity (2001) |
-| **Yamagata et al. (2006)** | Big Five = "common heritage of the human species" |
-| **Klahr & Burt (2014)** | ~40% of parental behavior genetic; bidirectional |
-| **Harvey (1999)** | Maternal employment no negative impact |
-| **Aviezer et al. (1994)** | Kibbutz bonding/sleeping study |
-| **Loehlin (1997)** | Shared friends predict twin personality similarity |
-| **Harris** | Peers may influence personality more than parents |
-| **Steinberg & Morris (2001)** | Authoritative parenting and adjustment |
-
----
-
 ## Likely Exam Points
 
 1. **Eysenck's three inherited dimensions**: psychoticism, neuroticism, extraversion.

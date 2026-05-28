@@ -311,36 +311,6 @@ This chapter covers the nature, causes, and control of aggression: biological, d
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|--------|-------------|
-| **Sigmund Freud** | Thanatos (death instinct) |
-| **Konrad Lorenz** | Inherited fighting instinct (1966, 1974) |
-| **Dollard, Doob, Miller, Mowrer & Sears** | Frustration-aggression hypothesis (1939) |
-| **Leonard Berkowitz** | Refined frustration-aggression; drive theory (1989, 1993) |
-| **Albert Bandura** | Social learning; Bobo doll studies (1963, 1997) |
-| **Craig Anderson** | GAM; media violence/video game meta-analyses |
-| **Brad Bushman** | GAM; media violence, catharsis myth, desensitization |
-| **Dolf Zillmann** | Excitation transfer theory (1983, 1988, 1994) |
-| **Dov Cohen & Richard Nisbett** | Cultures of honor (1994, 1997) |
-| **DeWall, Twenge, Gitter & Baumeister** | Social exclusion and hostile cognitive bias (2009) |
-| **Griskevicius et al.** | Mating motivation, status, and male aggression (2007, 2009) |
-| **Bartholow, Bushman & Sestir** | Neural desensitization via P300 (2006) |
-| **Przybylski, Ryan & Rigby** | Video game popularity = autonomy/competence (2009) |
-| **Dan Olweus** | Bullying research pioneer; prevention program |
-| **Roy Baumeister** | Ego depletion; narcissism and aggression |
-| **Claude Steele & Robert Josephs** | Alcohol myopia (1990) |
-| **Ryan & Deci** | Cognitive evaluation theory (2000, 2007) |
-| **Huesmann & Eron** | Longitudinal TV violence → adult aggression (1984, 1986) |
-| **Leary, Twenge & Quinlivan** | Social rejection triggers aggression (2006) |
-| **Folger & Baron** | Unjustified frustration as strong elicitor (1996) |
-| **Timmerman** | Cultures of honor in baseball (2007) |
-| **Vandello & Cohen** | Cultures of honor persist today (2003) |
-| **Krahe et al.** | Skin conductance desensitization evidence (2011) |
-
----
-
 ## Likely Exam Points
 
 1. **Definition of aggression**: intentional harm + the target wants to avoid it. Accidents don't qualify.

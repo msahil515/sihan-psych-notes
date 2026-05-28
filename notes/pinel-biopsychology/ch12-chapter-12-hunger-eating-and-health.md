@@ -293,45 +293,6 @@ tags: [biopsychology, hunger, eating, obesity, metabolism, hypothalamus, MET2026
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|--------|-------------|
-| **Cannon & Washburn (1912)** | Stomach contractions and hunger pangs (balloon study) |
-| **Hetherington & Ranson (1940)** | VMH lesions → hyperphagia, obesity (VMH syndrome) |
-| **Anand & Brobeck (1951)** | LH lesions → aphagia (proposed feeding center) |
-| **Teitelbaum & Epstein (1962)** | LH lesions also → adipsia; partial recovery with tube feeding |
-| **Teitelbaum (1957)** | VMH-lesioned rats less willing to work for food |
-| **Gibbs, Young, & Smith (1973)** | CCK reduces meal size — foundational peptide study |
-| **Weingarten (1983)** | Pavlovian conditioning of hunger; eating from expectation |
-| **Weingarten & Kulikovsky (1989)** | Sham eating; meal size from prior experience |
-| **Koopmans (1981)** | Transplanted stomach; bloodborne satiety signal |
-| **Harris et al. (1933)** | Thiamine learning: easier with 2 than 10 diet options |
-| **Collier (1986)** | Mammals prefer many small meals with free access |
-| **Woods (1991)** | Premeal hunger = cephalic preparation, not deficit |
-| **Campfield & Smith (1990)** | Premeal ~8% glucose drop preceded by insulin rise |
-| **Rolls et al. (1981)** | Sensory-specific satiety in humans |
-| **Booth (1981)** | Immediate then general satiety (~30 min) |
-| **Rogers & Blundell (1980)** | Cafeteria diet: +84% intake, +49% weight |
-| **Redd & de Castro (1992)** | People eat 60% more with others |
-| **Galef (1995)** | Social learning of food preferences in rats |
-| **Galef & Wright (1995)** | Group-reared rats learn healthier diets |
-| **Powley et al. (1980)** | VMH lesions raise insulin → lipogenesis (metabolic view) |
-| **Leibowitz, Hammer, & Chang (1981)** | Paraventricular lesions → hyperphagia/obesity |
-| **Miller, Bailey, & Stevenson (1950)** | VMH-lesioned rats avoid unpalatable food |
-| **Weingarten, Chang, & Jarvie (1983)** | VMH finickiness is from obesity, not the lesion |
-| **Rothwell & Stock (1982)** | Cafeteria-diet rats: +45% resting expenditure (thermogenesis) |
-| **Weindruch et al. (1986)** | 65% caloric restriction → 67% longer lifespan in mice |
-| **Kagawa (1978)** | Okinawa: 20% fewer calories, up to 40× more centenarians |
-| **Goldstone (2004)** | Prader-Willi as a hunger/satiety model |
-| **Blundell & Halford (1998)** | Serotonin satiety properties; agonists for obesity |
-| **Assanand, Pinel, & Lehman (1998)** | Documented set-point thinking |
-| **Lowe (1993)** | Beliefs about calories outweigh actual calories on meal size |
-| **Berridge (2004)** | Reviewed the positive-incentive perspective |
-| **Booth, Fuller, & Lewis (1981); Wirtshafter & Davis (1977)** | Early settling-point advocates |
-
----
-
 ## Likely Exam Points
 
 1. **Fat vs. glycogen**: fat stores ~2× energy/gram and holds no water (glycogen holds water). Fat = 85%, glycogen = 0.5% of reserves.

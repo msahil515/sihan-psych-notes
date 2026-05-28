@@ -290,27 +290,6 @@ Constitute **1% or less** of the population; first observed in **Ruth Benedict**
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Abraham Maslow (1908–1970)** | Founded humanistic psychology; hierarchy of needs, self-actualization, metamotivation, peak experiences, Jonah complex |
-| **Everett Shostrom** | Developed the POI (1964) |
-| **Ruth Benedict / Max Wertheimer** | Inspired the self-actualization concept |
-| **Alfred Adler** | Compensation and social interest influenced Maslow |
-| **Karen Horney** | Childhood security ideas parallel Maslow's |
-| **John B. Watson** | Behaviorism; Maslow's early influence |
-| **E. L. Thorndike** | Maslow's Columbia postdoc supervisor; IQ test (195) |
-| **Erik Erikson** | Trust in early childhood parallels Maslow |
-| **Deci & Ryan** | Self-Determination Theory |
-| **Kang & Jung (2014)** | Smartphone Basic Needs Scale |
-| **Gardner, Pickett, & Brewer (2000)** | Thwarted belongingness increases memory for social events |
-| **Tay & Diener (2011)** | 123-country support for the hierarchy |
-| **Graham & Balloun (1973)** | Confirmed the order of the five needs |
-| **Williams & Page (1989)** | Need satisfaction ↔ lower neuroticism/depression |
-
----
-
 ## Likely Exam Points
 
 1. **Hierarchy (bottom to top)**: Physiological → Safety → Belongingness/Love → Esteem → Self-Actualization; lower needs stronger and partially satisfied first.

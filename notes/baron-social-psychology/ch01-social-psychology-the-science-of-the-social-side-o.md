@@ -522,46 +522,6 @@ Pedagogical features: **Key Points**, **Key Terms**, **Figures**, **Social Life 
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Robert A. Baron** | Co-author; research on environmental influences (pleasant smells and helping) |
-| **Nyla Branscombe** | Co-author; social identity and intergroup relations |
-| **Ernest Hemingway** | Quoted: "Life is a moveable feast" (opening metaphor) |
-| **Buehler, Griffin, & Ross (1994)** | Documented the planning fallacy: underestimation of task duration from future-focused thinking |
-| **Norton, Frost, & Ariely (2006)** | Familiarity can breed disliking: more knowledge reveals more dissimilarities |
-| **David Buss (2004, 2008)** | Leading evolutionary psychologist; mate preferences and gender differences |
-| **Buss & Shackelford (1997)** | Applied evolutionary framework to social psychology; mate retention |
-| **Isen & Levin (1972)** | Classic: positive mood increases helping |
-| **Van Berkum et al. (2009)** | N400 demonstrates rapid (250 ms) processing of value-inconsistent information |
-| **Montgomery, Seeherman, & Haxby (2009)** | High-empathy individuals show greater frontal operculum activity to social expressions |
-| **Gazzola, Aziz-Zadeh, & Keysers (2006)** | Proposed mirror neurons' key role in empathy |
-| **Luo & Snider (2009)** | Newlyweds: both positivity bias and accuracy predict marital satisfaction |
-| **Slotter, Gardner, & Finkel (2010)** | Breakup reduces self-concept clarity |
-| **Spielmann, MacDonald, & Wilson (2009)** | Breakup increases desire for rebound relationships, especially with anxious attachment |
-| **Swami et al. (2010)** | Cross-cultural (10 countries) study of preferred body types; SES differences |
-| **Li et al. (2009)** | Humor in speed dating signals romantic interest |
-| **Ames, Kammrath, Suppes, & Bolger (2010)** | We cannot tell when snap impressions are accurate |
-| **Carney, Colvin, & Hall (2007)** | Brief exposures yield valid personality impressions ("thin slices") |
-| **Hassin & Trope (2000)** | We cannot ignore others' appearance even when trying |
-| **Nauman, Vazire, Rentfrow, & Gosling (2009)** | Appearance-based impressions can be accurate, especially from spontaneous behavior |
-| **Fazio & Hilden (2001)** | Implicit negative outgroup attitudes (denied) still influence reactions |
-| **Ruder & Bless (2003)** | Impact of moods on memory |
-| **Cacioppo et al. (2003)** | Cautioned that social neuroscience cannot answer every question; advocated pluralistic methods |
-| **Willingham & Dunn (2003)** | Many aspects of social thought cannot easily link to specific brain areas |
-| **Gilbert (2006)** | People are poor predictors of their own future happiness |
-| **Goel, Mason, & Watts (2010)** | Persuasion principles remain consistent despite changing media |
-| **Pelham, Mirenberg, & Jones (2002)** | We cannot accurately report unconscious influences |
-| **Forgas, Baumeister, & Tice (2009)** | Emotion across a wide range of social behaviors |
-| **Pettijohn & Jungeberg (2004)** | Evolutionary tendencies can be overridden by cognition and learning |
-| **Larrick, Timmerman, Carton, & Abrevaya (2011)** | Heat-aggression link found on baseball fields |
-| **Rotton & Kelley (1985)** | No reliable evidence for full moon effects |
-| **Rotton & Cohn (2000)** | Hot weather increases irritability and aggression |
-| **Schmitt & Buss (2001)** | Evolutionary framework for physical attractiveness and mate selection |
-
----
-
 ## Likely Exam Points
 
 1. **Definition of social psychology** (Baron & Branscombe): "the scientific field that seeks to understand the nature and causes of individual behavior, feelings, and thought in social situations": includes BOTH actual AND symbolic presence of others.

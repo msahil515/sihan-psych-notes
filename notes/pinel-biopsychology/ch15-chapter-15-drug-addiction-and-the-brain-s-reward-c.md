@@ -127,14 +127,14 @@ Covers pharmacological principles, the biology of tolerance and withdrawal, five
 - **Systemic**: **cirrhosis** (major death cause), heart damage, oral/liver cancer, ulcers, **pancreatitis**, **gastritis**, 20,000+ traffic deaths/year. Even 1-2 drinks/day raises most cancer risks.
 - **Fetal Alcohol Syndrome (FAS)**: alcohol is a **teratogen**; brain damage, mental retardation, poor coordination, low birth weight, deformity; **no safe time or amount**.
 - **Disulfiram (Antabuse)**: blocks alcohol metabolism → **acetaldehyde** accumulation → aversive effects; not a cure.
-- **Heart disease (revised)**: Fillmore et al. (2006) using **lifetime abstainers** as controls found moderate drinking does NOT prevent coronary disease (earlier findings confounded by sick ex-drinkers).
+- **Heart disease (revised)**: Fillmore et al. (2006), corroborated by Stockwell et al. (2007), used **lifetime abstainers** as controls and found moderate drinking does NOT prevent coronary disease (earlier findings confounded by sick ex-drinkers).
 
 ### Marijuana
 - From **Cannabis sativa**; primary ingredient **THC (delta-9-tetrahydrocannabinol)**; 80+ **cannabinoids**. **Hashish** = dried resin; **hash oil** = most potent. Historically grown for rope; misclassified as a **narcotic**.
 - **Social doses**: well-being, relaxation, expanded time/space sense, enhanced perception, hunger; not obvious to observers. **High doses**: short-term memory impairment, slurred speech, unreality, paranoia, motor impairment.
 - **Addiction potential LOW**: ~10% use daily; withdrawal rare.
 - **Hazards**: respiratory problems (~10% of chronic smokers); **tachycardia**. Brain damage evidence mostly **negative**; exception **Yücel et al. (2008)** — extreme use (5+ joints/day, ~20 years) linked to **reduced hippocampus/amygdala volumes** (needs replication).
-- **Memory** deficits are acute and reversible (Grant et al., 2003). **Schizophrenia**: heavy use correlated (Zammit et al., 2002) but correlation, not causation (early schizophrenia may increase use).
+- **Memory** deficits are acute and reversible (Grant et al., 2003). Apparent IQ-decline findings are confounded — Pope et al. (2003) showed low pre-use verbal IQ predisposes to heavy use, so causation runs the other way. **Schizophrenia**: heavy use correlated (Zammit et al., 2002) but correlation, not causation (early schizophrenia may increase use).
 - **Therapeutic THC**: suppresses nausea (cancer), stimulates appetite (AIDS), blocks seizures, dilates bronchioles, decreases **glaucoma** pressure, reduces anxiety/pain/MS symptoms.
 
 | Receptor | Location |
@@ -168,7 +168,7 @@ Covers pharmacological principles, the biology of tolerance and withdrawal, five
 - **Laudanum** = opium + alcohol preparation. Heroin > morphine due to greater **lipid solubility/BBB penetration**.
 - **Effects**: **rush** (intense abdominal/orgasmic pleasure) → serene drowsy euphoria; uses: analgesic, cough suppressant, antidiarrheal.
 - **Withdrawal**: begins **6-12 h** after last dose; gooseflesh ("cold turkey"), muscle spasms ("kicking the habit"); peaks day **2-3**, resolves by day 7; comparable to bad flu — **not as dangerous** as alcohol/barbiturate withdrawal.
-- **Direct hazards minor**: many use for years with little harm; addiction more prevalent among **doctors, nurses, dentists** (e.g., **Dr. William Stewart Halsted**). **Indirect hazards** (from illegality): crime, AIDS/hepatitis from needles, unknown purity; ~10% treatment success.
+- **Direct hazards minor**: many use for years with little harm; addiction more prevalent among **doctors, nurses, dentists** (Brewster, 1986; e.g., **Dr. William Stewart Halsted**). **Indirect hazards** (from illegality): crime, AIDS/hepatitis from needles, unknown purity; ~10% treatment success.
 - **Overdose confusion**: many "overdoses" are **drug interactions** (Darke et al., 2000); some from purity variation; recent US increase is mostly from **legal synthetic opioids** (Oxycontin), not heroin (Paulozzi et al., 2006).
 
 | Treatment | Mechanism | Notes |
@@ -272,41 +272,6 @@ Three triggers (even after abstinence): (1) **stress** (HPA axis, sensitizes rew
 | **Cue-induced craving** | Craving triggered by drug-associated cues |
 | **Glaucoma / Diuretic** | Elevated eye pressure (THC helps) / increases urine |
 | **Apoptosis / Pancreatitis / Gastritis** | Programmed cell death / pancreas / stomach inflammation (alcohol) |
-
----
-
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Pinel, Mana & Kim (1989)** | Contingent tolerance (before-and-after design) |
-| **Crowell, Hinson & Siegel (1981)** | Situational specificity of tolerance |
-| **Siegel** | Conditioned compensatory response theory |
-| **Siegel et al. (1982)** | Overdose risk in novel environments |
-| **Ramsay & Woods (1997)** | US = neural disruption, UR = compensatory response |
-| **Anagnostaras & Robinson (1996)** | Situational specificity of sensitization |
-| **Robinson & Berridge (1993)** | Incentive-Sensitization Theory |
-| **Olds & Milner (1954)** | ICSS; brain reward system |
-| **Benowitz (2008)** | Nicotine on nicotinic cholinergic receptors |
-| **Di Franza (2008)** | Nicotine addiction within weeks |
-| **Doll et al. (2004)** | Quitting before 30 restores life expectancy |
-| **Lerman et al. (1999)** | Nicotine heritability ~65% |
-| **Parrott (1999)** | Smokers more tense than nonsmokers |
-| **McGue (1999)** | Alcohol heritability ~55% |
-| **Fillmore et al. (2006); Stockwell et al. (2007)** | Moderate drinking doesn't prevent heart disease |
-| **Yücel et al. (2008)** | Extreme marijuana use → reduced hippocampus/amygdala |
-| **Zammit et al. (2002)** | Heavy marijuana use correlated with schizophrenia |
-| **Pope et al. (2003)** | Low verbal IQ predisposes to heavy use (confound) |
-| **Nicoll & Alger (2004)** | Anandamide as first endocannabinoid |
-| **Thompson et al. (2004)** | Methamphetamine brain volume loss |
-| **Robinson (1991)** | Drug sensitization |
-| **Littleton (2001)** | Tolerance is not unitary |
-| **Volkow & Li (2004)** | Definition of addiction |
-| **Koob & Bloom (1988)** | Drug action mechanisms |
-| **Darke et al. (2000)** | "Overdoses" often drug interactions |
-| **Paulozzi et al. (2006)** | Overdose increase from legal opioids |
-| **Zador (2007)** | Methadone dropout/~10% success |
-| **Brewster (1986)** | Opiate addiction higher among health professionals |
 
 ---
 

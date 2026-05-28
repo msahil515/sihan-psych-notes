@@ -191,28 +191,6 @@ Rogers developed **person-centered therapy** (originally non-directive/client-ce
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Carl Rogers (1902–1987)** | Founded person-centered therapy; self-actualization theory; recorded therapy sessions; encounter groups; APA president (1946) |
-| **William Kell** | Found self-insight (not external factors) best predicted delinquent behavior |
-| **Helen McNeil** | Replicated Kell; confirmed self-insight as best predictor |
-| **William Stephenson (1953)** | Developed the Q-sort technique |
-| **Mrs. Oak** | Case study; perceived/ideal self r rose +.36 → +.79 (Rogers, 1954) |
-| **Butler & Haigh (1954)** | 25 clients; r rose .01 → +.31 after therapy |
-| **Chodorkoff (1954)** | Well-adjusted people show less perceptual defense |
-| **Medinnus & Curtis (1963)** | Self-accepting mothers more accepting of children |
-| **Gendlin & Tomlinson (1967)** | Experiencing Scale (self-trust) |
-| **Richard Coan (1972)** | Experience Inventory (openness) |
-| **Faith, Wong, & Carpenter (1995)** | Encounter groups comparable to traditional therapies |
-| **Assor, Roth, & Deci (2004)** | Negative consequences of conditional positive regard |
-| **Heine et al. (1999)** | Positive self-regard less prevalent in collectivist cultures |
-| **Ford (1991)** | Temperament–realization discrepancy → maladjustment |
-| **Coopersmith (1967)** | Affectionate, reward-using parents → high-self-esteem children |
-
----
-
 ## Likely Exam Points
 
 1. **Single basic motivation**: the **actualizing tendency** (vs. Freud's multiple drives).

@@ -284,37 +284,6 @@ Neural bases of learning and memory via amnesic patients and animal models: expl
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **H.M. (Henry Molaison)** | Most studied amnesic; 1953 bilateral MTL lobectomy; revealed explicit/implicit distinction, consolidation, STM/LTM dissociation |
-| **Brenda Milner** | Primary H.M. researcher; mirror-drawing, block-tapping tests; global amnesia |
-| **William Beecher Scoville** | Performed H.M.'s lobectomy; 1957 paper with Milner |
-| **Suzanne Corkin** | H.M.'s rotary-pursuit test (1968); follow-up studies |
-| **Endel Tulving** | Semantic-episodic dichotomy; episodic memory as mental time travel; K.C.'s clinician |
-| **K.C.** | Tulving's patient; preserved semantic, absent episodic memory |
-| **R.B.** | Ischemic amnesia; CA1 damage; Zola-Morgan, Squire, & Amaral (1986) |
-| **N.A.** | Medial diencephalic amnesia from fencing foil injury (1960); Squire et al. (1989) |
-| **Donald Hebb** | Reverberating activity (STM); structural synaptic changes (consolidation) |
-| **Larry Squire** | Consolidation/amnesia studies; N.A.; ECS gradients; DNMTS |
-| **Nadel & Moscovitch** | Multiple-trace theory (1997) |
-| **Nader, Schafe, & LeDoux (2000)** | Reconsolidation study (anisomycin into amygdala) |
-| **Gaffan (1974)** | Co-developed DNMTS |
-| **Mishkin & Delacour (1975)** | Co-developed DNMTS |
-| **David Mumby** | Rat DNMTS (Mumby box); rhinal cortex critical for object recognition |
-| **O'Keefe & Nadel (1978)** | Cognitive map theory; place cells |
-| **Sherry & Vaccarino (1989)** | Food-caching birds have larger hippocampuses |
-| **Clayton (2001)** | Caching + retrieving triggers hippocampal growth (chickadees) |
-| **Vargha-Khadem et al. (1997)** | Early MTL damage spares semantic, not episodic, memory |
-| **Woodruff-Pak (1993)** | H.M.'s intact eye-blink conditioning |
-| **Reber, Knowlton, & Squire (1996)** | Amnesics learn implicit tasks but lack flexibility |
-| **Zola-Morgan, Squire, & Amaral (1986)** | R.B.'s CA1 ischemic damage |
-| **Pinel (1969)** | ECS consolidation window of 10 min to 1 hour |
-| **Squire, Slater, & Chace (1975)** | 3-year human ECS retrograde gradient |
-
----
-
 ## Likely Exam Points
 
 1. **H.M. (1953)**: bilateral MTL lobectomy; severe anterograde amnesia with intact STM (digit span 6) and remote memory; died 2008.

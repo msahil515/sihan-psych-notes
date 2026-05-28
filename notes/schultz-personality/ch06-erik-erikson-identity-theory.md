@@ -310,26 +310,6 @@ Erikson extended Freud across the entire life span with eight psychosocial stage
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Erik Erikson (1902–1994)** | Eight psychosocial stages; identity crisis; epigenetic principle; psychohistorical analysis |
-| **Anna Freud** | Analyzed Erikson (3 years, $7/month); influenced his child/social focus |
-| **Sigmund Freud** | Erikson's starting point; he extended the psychosexual stages |
-| **Joan Serson (Erikson)** | Wife and lifelong intellectual partner/editor |
-| **James Marcia (1966, 1980)** | Five identity statuses |
-| **McAdams & de St. Aubin (1992)** | Loyola Generativity Scale |
-| **Balistreri et al. (1995)** | Ego Identity Process Questionnaire |
-| **Dignan (1965)** | Ego-Identity Scale |
-| **Constantinople (1969)** | Inventory of Psychosocial Development; happiness ↔ adaptive development |
-| **Suedfeld et al. (2005)** | Holocaust survivors; mistrust in Stage 1 despite later coping |
-| **Kroger, Martinussen, & Marcia (2010)** | Meta-analysis: identity achievement rises with age |
-| **Ciaccio (1971)** | Children's stories confirm stage themes |
-| **Peterson & Stewart (1990)** | Vera Brittain: identity → intimacy → generativity |
-
----
-
 ## Likely Exam Points
 
 1. **Three extensions of Freud**: life-span development; ego independent of id; cultural/historical forces.

@@ -227,29 +227,6 @@ Three forms: **modeling**, **guided participation**, **covert modeling**.
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Albert Bandura (1925–)** | Social-learning/social-cognitive theory; observational learning, modeling, self-efficacy; Bobo doll; APA president 1973 |
-| **Bandura & Walters (1963)** | Children model parents' aggression/inhibition |
-| **Bandura, Ross, & Ross (1963)** | Bobo doll experiment (live/TV/cartoon equivalent) |
-| **Walters, Bowen, & Parke (1963)** | Sexual disinhibition via modeling (eye movements) |
-| **Bandura, Grusec, & Menlove (1967)** | Dog phobia modeling treatment |
-| **Bandura, Blanchard, & Ritter (1969)** | Film-based snake phobia treatment |
-| **B. F. Skinner** | Operant conditioning; Bandura's contrast |
-| **Melamed & Siegel (1975)** | Modeling film reduced pre-surgical anxiety |
-| **Sarason (1975)** | Coping-model reduced test anxiety |
-| **Maddux (2002)** | "The power of believing you can" |
-| **Schneewind (1995)** | Gender differences in parental influence on self-efficacy |
-| **Valentijn et al. (2006)** | Memory self-efficacy predicts later memory |
-| **Vaidya et al. (2010)** | Disinhibition declines with age |
-| **Andreoletti, Zebrowitz, & Lachman (2001)** | Appearance affects control beliefs more than self-esteem/health |
-| **Alfred Adler** | Birth-order emphasis cited by Bandura |
-| **Holzberger, Philipp, & Kunter (2013)** | Bidirectional teacher–student self-efficacy |
-
----
-
 ## Likely Exam Points
 
 1. **Bobo doll (Bandura, Ross, & Ross, 1963)**: twice the aggression of controls; **live, TV, and cartoon models equally effective**.

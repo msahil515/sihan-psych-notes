@@ -76,7 +76,7 @@ Most cells use both (Hatten, 2002).
 - **Chemoaffinity hypothesis** (Sperry, 1963): each postsynaptic surface releases a **specific chemical label** attracting the matching growing axon.
 - **Limitations:** some axons take circuitous routes; in half-retina/half-tectum lesions, axons fill space orderly rather than returning to original sites.
 - **Revised model:** growth cones follow a **series of signals along the route** (Imai et al., 2009), aided by adjacent axons. **Pioneer growth cones** blaze the trail; **fasciculation** = later axons follow it.
-- **Topographic gradient hypothesis**: axons guided by **two intersecting gradients** (e.g., anterior-posterior + medial-lateral) (Flanagan, 2006). **Ephrins** are the key molecules: **ephrin-A** = medial-lateral gradient; **ephrin-B** = dorsal-ventral gradient on the developing retina; each point has a unique combination. Rationale: topographic maps minimize connection volume (Chklovskii & Koulakov, 2004).
+- **Topographic gradient hypothesis**: axons guided by **two intersecting gradients** (e.g., anterior-posterior + medial-lateral) (Flanagan, 2006; McLaughlin & O'Leary, 2005). **Ephrins** are the key molecules: **ephrin-A** = medial-lateral gradient; **ephrin-B** = dorsal-ventral gradient on the developing retina; each point has a unique combination. Rationale: topographic maps minimize connection volume (Chklovskii & Koulakov, 2004).
 
 **Synaptogenesis:**
 - **Synaptogenesis** = forming new synapses; requires coordinated activity in ≥2 neurons and depends on **astrocytes** (Allen & Barres, 2005).
@@ -185,7 +185,7 @@ Most cells use both (Hatten, 2002).
 
 - **Scale:** ~**2,000 new neurons/hour** in adult hippocampus (West, Slomianka, & Gunderson, 1991).
 
-> **KEY EXPERIMENT — Kempermann & Gage (1999):** enriched-environment adult rats had **60% more** new hippocampal neurons; the effect depends mainly on **increased exercise** (Van Praag et al., 1999). Aerobic exercise improves older-adult cognition (Hertzog et al., 2008).
+> **KEY EXPERIMENT — Kempermann & Gage (1999):** enriched-environment adult rats had **60% more** new hippocampal neurons; the effect depends mainly on **increased exercise** (Van Praag et al., 1999; Farmer et al., 2004). Aerobic exercise improves older-adult cognition (Hertzog et al., 2008).
 
 - New neurons survive, integrate, and conduct signals (Toni et al., 2008).
 
@@ -307,48 +307,6 @@ Most cells use both (Hatten, 2002).
 | **Autism spectrum disorders** | Related group incl. autism and Asperger's |
 | **Asperger's syndrome** | Mild; cognitive/linguistic functions preserved |
 | **Williams syndrome** | Chromosome 7 microdeletion; strong language/social, severe visuospatial deficits |
-
----
-
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Roger Sperry** | Frog 180° eye-rotation regeneration studies; chemoaffinity hypothesis (1963) |
-| **Rita Levi-Montalcini** | Isolated NGF, the first neurotrophin (1952, 1975) |
-| **Placzek & Briscoe (2005)** | Role of the organizer in neural plate induction |
-| **Spradling & Zheng (2007)** | Stem cell self-renewal (asymmetric division) |
-| **Hatten (2002)** | Radial/tangential migration |
-| **Campbell & Gotz (2002)** | Radial glia scaffold migration |
-| **Cooper (2008)** | Inside-out cortical development |
-| **Dalva, McClelland, & Kayser (2007)** | CAMs in migration/aggregation |
-| **Flanagan (2006); McLaughlin & O'Leary (2005)** | Topographic gradient hypothesis |
-| **Piaget** | A-not-B task; perseverative errors |
-| **Diamond (1985, 1991)** | Perseverative errors; dorsolateral prefrontal cortex role |
-| **Allen & Barres (2005); Shors (2009)** | Synaptogenesis depends on astrocytes |
-| **Mauch et al. (2001)** | Astrocytes provide cholesterol |
-| **Perea, Navarrete, & Araque (2009)** | Astrocytes process/transfer/store information |
-| **Antonini & Stryker (1993)** | Monocular deprivation → axonal branching loss |
-| **Hubel, Wiesel, & LeVay (1977); Hata & Stryker (1994)** | Monocular deprivation and ocular dominance columns |
-| **Hofer et al. (2005, 2006)** | Adult ocular dominance reorganization; prior deprivation deepens effect |
-| **Roe et al. (1990)** | Rerouted retinal axons → retinotopic auditory cortex |
-| **Knudsen & Brainard (1991)** | Barn owl prisms shift the auditory spatial map |
-| **Münte, Altenmüller, & Jänke (2002)** | Music training expands auditory cortex |
-| **Goldman & Nottebohm (1983)** | Seasonal songbird neurogenesis |
-| **Cameron et al. (1993)** | Adult rat hippocampal neurogenesis |
-| **Eriksson et al. (1998)** | Adult human hippocampal neurogenesis |
-| **Kornack & Rakic (1999)** | Adult primate hippocampal neurogenesis |
-| **West, Slomianka, & Gunderson (1991)** | ~2,000 new hippocampal neurons/hour |
-| **Kempermann & Gage (1999)** | Enrichment → 60% more hippocampal neurons |
-| **Van Praag et al. (1999); Farmer et al. (2004)** | Neurogenesis benefit depends on exercise |
-| **Mühlnickel et al. (1998)** | Tinnitus reorganizes auditory cortex |
-| **Elbert et al. (1995)** | Musicians' enlarged somatosensory hand area |
-| **Rossini et al. (1994)** | Finger anesthesia shrinks cortical representation |
-| **Baron-Cohen & Belmonte (2005)** | Three core autism symptoms |
-| **Dawson et al. (2007)** | 50% of autistic individuals have mental retardation |
-| **Shelton, Tancredi, & Hertz-Picciotto (2010)** | Paternal age and autism risk |
-| **Treffert & Christensen (2005)** | Savant abilities as compensatory overdevelopment |
-| **Rodier (2000)** | Genetic factors in autism |
 
 ---
 

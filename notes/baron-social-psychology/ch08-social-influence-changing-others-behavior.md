@@ -341,36 +341,6 @@ Two core motives (Deutsch & Gerard, 1955; Insko, 1985): the desire to be **liked
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Solomon Asch** (1951, 1955, 1956) | Line judgment conformity; 76% conformed at least once; unanimity, group size, public vs. private |
-| **Muzafer Sherif** (1937) | Autokinetic phenomenon; norm emergence and private acceptance |
-| **Philip Zimbardo** (1971) | Stanford Prison Study; situationism in evil; agentic shift |
-| **Stanley Milgram** (1963, 1974) | Obedience experiments; ~65% to 450V; agentic state theory |
-| **Robert Cialdini** (1984, 2000, 2006) | Six principles of influence; normative focus theory |
-| **Serge Moscovici** | Minority influence; conversion theory; dual-process model |
-| **Deutsch & Gerard** (1955) | Normative vs. informational social influence |
-| **Pronin, Berger, & Molouki** (2007) | Introspection illusion |
-| **Galinsky et al.** (2008) | Power reduces conformity |
-| **Griskevicius et al.** (2006) | Mate-attraction motives shift conformity by gender stereotype |
-| **Imhoff & Erb** (2009) | Uniqueness threat motivates nonconformity |
-| **Reicher & Haslam** (2006) | BBC Prison Study; role identification key |
-| **Hatfield, Cacioppo, & Rapson** (1994) | Emotional contagion via mimicry |
-| **Parkinson & Simons** (2009) | Cognitive appraisal mediates contagion |
-| **Freedman & Fraser** (1966) | Foot-in-the-door experiment |
-| **Burger** (1986) | That's-not-all technique |
-| **Fitzsimons & Bargh** (2003) | Symbolic social influence via goal activation |
-| **Hewlin** (2009) | Facades of conformity |
-| **Snyder & Fromkin** (1980) | Need for uniqueness |
-| **Keltner, Gruenfeld, & Anderson** (2003) | Power reduces susceptibility to conformity |
-| **Azar** (2007) | ~15% tipping norm |
-| **Turner** (1991, 2006) | Cohesiveness/conformity; social structures not fixed |
-| **Bond & Smith** (1996) | Meta-analysis; conformity rises beyond 8 members |
-
----
-
 ## Likely Exam Points
 
 1. **Asch numbers**: 76% conformed at least once; 37% overall on critical trials; 5% control error; 12 of 18 critical trials; 6-8 confederates.

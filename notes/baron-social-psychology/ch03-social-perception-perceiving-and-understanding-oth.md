@@ -494,50 +494,6 @@ Major tactics (Baumeister, 1982; Jones & Pittman, 1982; Schlenker, 1980):
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|---|---|
-| **Paul Ekman** | Universality of expressions (Friesen, 1975); microexpressions; deception detection; rare >80% lie detectors |
-| **Walter Friesen** | Co-researched universality of expressions (1975) |
-| **Carroll Izard** | Five basic emotions in facial expressions (1991) |
-| **E.E. Jones & Keith Davis** | Correspondent inference theory (1965) |
-| **Harold Kelley** | Covariation model (1972): consensus, consistency, distinctiveness |
-| **Bernard Weiner** | Three attribution dimensions; achievement model (1985, 1993, 1995) |
-| **Solomon Asch** | Central vs. peripheral traits; warm/cold study (1946) |
-| **Willis & Todorov** | First impressions form in 100 ms (2006) |
-| **Nalini Ambady** | Thin slices of behavior |
-| **James Laird** | Facial feedback hypothesis (1984) |
-| **Davis, Senghas, Brandt, & Ochsner** | Botox study supporting facial feedback (2010) |
-| **McCanne & Anderson** | Facial muscle suppression study supporting facial feedback (1987) |
-| **Miller & Maner** | T-shirt ovulation study: scent and testosterone (2010) |
-| **DePaulo & Kashy** | Prevalence of lying: one lie/day; 20% of interactions (1998) |
-| **Tyler, Feldman, & Reichert** | Deception effects; lying contagion (2006) |
-| **Matsumoto & Willingham** | Olympic athletes' expressions; silver medalist sadness; counterfactual thinking (2006) |
-| **Uchida, Townsend, Markus, & Bersieker** | Cultural differences in inferring emotions (2009) |
-| **Norenzayan & Lee** | Fate attributions: belief in God and complex causality (2010) |
-| **Kozak, Marsh, & Wegner** | Action identification and attributed mental complexity (2006) |
-| **Chaplin et al.** | Handshaking predicts extraversion and openness (2000) |
-| **Levav & Argo** | Pat on arm by woman induces security and risk-taking (2010) |
-| **Aronoff, Woike, & Hyman** | Ballet postures: angular = threatening, rounded = warm (1992) |
-| **William James** | Early facial-feedback precursor (1894) |
-| **Jones & Pittman** | Taxonomy of impression management tactics (1982) |
-| **Jones & Harris** | FAE Castro essay study (1967) |
-| **Abramson, Seligman, & Teasdale** | Depressive attributional style (1978) |
-| **Dion, Berscheid, & Walster** | "What is beautiful is good" (1972) |
-| **Snyder, Tanke, & Berscheid** | Self-fulfilling prophecy in social perception (1977) |
-| **Zebrowitz, Kikuchi, & Fellous** | Neutral faces resembling emotions perceived as emotional (2007) |
-| **Zhang & Parmley** | Friends read each other's cues better than strangers (2011) |
-| **Wilson & Linville** | Attributional retraining for first-year grades (1982, 1985) |
-| **Kleinke** | High gazing = liking (1986) |
-| **Bushman** | Road rage: avoid eye contact with aggressive drivers (1998) |
-| **Ellsworth & Carlsmith** | People terminate interaction with a starer (1973) |
-| **Greenbaum & Rosenfield** | People may leave the scene when stared at (1978) |
-| **O'Sullivan** | Consistency assumption hinders deception detection (2003) |
-| **Effenbein & Ambady** | Confirmed cross-cultural universality of expressions (2002) |
-
----
-
 ## Likely Exam Points
 
 1. **Five basic emotions** (Izard, 1991): anger, fear, happiness, sadness, disgust. Surprise is NOT a confirmed sixth universal (frequent trick question).

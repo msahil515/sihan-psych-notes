@@ -195,28 +195,6 @@ Three limited-domain constructs: Rotter's **locus of control**, Zuckerman's **se
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|--------|-------------|
-| **Julian Rotter (1916–2014)** | Locus of control; I-E Scale (1966); social-learning approach |
-| **Marvin Zuckerman (1928–)** | Sensation seeking; SSS; four components; hereditary basis |
-| **Martin E. P. Seligman (1942–)** | Learned helplessness; explanatory style; positive psychology; PERMA |
-| **Nowicki & Strickland (1973)** | Children's I-E Scale (40 items) |
-| **Overmier & Seligman; Seligman & Maier (1967)** | Dog shuttle-box learned-helplessness studies |
-| **Hiroto (1974)** | Learned helplessness in humans (noise) |
-| **Visintainer, Volpicelli, & Seligman (1982)** | Rat tumor study (27/50/70%) |
-| **Maier, Laudenslager, & Ryan (1985)** | Helplessness weakens immune system |
-| **Dalla et al. (2008)** | Female rats less susceptible than males |
-| **Albert Bandura** | Self-efficacy; distinguished it from LOC (situation-specific vs. generalized) |
-| **George Kelly** | Rotter's Ohio State colleague |
-| **Hans & Sybil Eysenck** | Hereditary component of sensation seeking (58% genetic; twin study) |
-| **Carver & Scheier** | Optimism research |
-| **Heckhausen & Schulz (1995)** | Internal LOC peaks in middle age |
-| **Law, Logan, & Baron (1994)** | Stress inoculation reduces dental pain |
-
----
-
 ## Likely Exam Points
 
 1. **I-E Scale = 23 forced-choice pairs** (the Children's Nowicki-Strickland scale = 40 items) — classic distractor.

@@ -390,26 +390,6 @@ Covers the genetics/trait approach: Cattell's 16-source-trait model, Eysenck's t
 
 ---
 
-## Key People
-
-| Person | Contribution |
-|--------|-------------|
-| **Raymond Cattell** (1905–1998) | Factor analysis of personality; 16 source traits; 16 PF; L/Q/T data; 6 stages; 1/3 heredity; father of the trait approach |
-| **Hans Eysenck** (1916–1997) | PEN model; cortical arousal theory; emphasized heredity; most-cited psychologist at death |
-| **Sybil Eysenck** | Co-developed the EPI |
-| **Robert McCrae** (1949–) | Co-developer of the Big Five; NEO-PI; NIH Baltimore |
-| **Paul Costa** (1942–) | Co-developer of the Big Five; longitudinal stability studies |
-| **Michael Ashton** | Co-developer of HEXACO; identified Honesty-Humility |
-| **Kibeom Lee** | Co-developer of HEXACO |
-| **Delroy Paulhus** | Co-proposed the Dark Triad (2002); SD3 |
-| **Kevin Williams** | Co-proposed the Dark Triad (2002) |
-| **Charles E. Spearman** | Cattell's supervisor; developed factor analysis for abilities |
-| **Gordon Allport** | Cattell's Harvard colleague; early advocate of heredity |
-| **Walter Mischel** | Situationism (1968); person-situation debate |
-| **Edward L. Thorndike** | Invited Cattell to Columbia |
-
----
-
 ## Likely Exam Points
 
 1. **16 PF**: 16 source traits; ages **16+**; ~**40 languages**; predicts **marital stability** (Cattell & Nesselroade, 1967); can be **faked** (Simon, 2007).
