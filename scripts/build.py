@@ -16,6 +16,8 @@ NOTES = ROOT / "notes"
 DOCS = ROOT / "docs"
 DOCS.mkdir(exist_ok=True)
 MAN = json.load(open(NOTES / "manifest.json"))
+GLOSS_PATH = NOTES / "glossary.json"
+GLOSS = json.load(open(GLOSS_PATH)) if GLOSS_PATH.exists() else {}
 
 md = markdown.Markdown(extensions=["tables", "fenced_code", "sane_lists", "toc"])
 
@@ -46,7 +48,7 @@ def build_docs():
 def main():
     docs = build_docs()
     books = [{"key": k, "title": v["title"], "subject": v["subject"]} for k, v in MAN.items()]
-    payload = json.dumps({"books": books, "docs": docs, "build": BUILD}, ensure_ascii=False)
+    payload = json.dumps({"books": books, "docs": docs, "build": BUILD, "gloss": GLOSS}, ensure_ascii=False)
 
     shell = (ROOT / "scripts" / "app_shell.html").read_text()
     (DOCS / "index.html").write_text(shell.replace("__PAYLOAD__", payload))

@@ -311,6 +311,38 @@ html[data-theme="light"] .themebtn .moon{display:block}
 @media (min-width:1180px) and (max-width:1366px) and (orientation:landscape){
   .reader .art{padding:38px 42px 42px}
 }
+
+/* ---- glossary popover: tap a bolded jargon term -> short definition ---- */
+/* highlight the bolded terms we have a definition for, so it's discoverable */
+.reader strong.gloss{
+  cursor:help;
+  background-image:linear-gradient(transparent 0,transparent calc(100% - 2px),var(--bk,var(--accent)) calc(100% - 2px),var(--bk,var(--accent)) 100%);
+  background-repeat:no-repeat;background-size:100% 100%;
+  text-decoration:none;border-bottom:0;
+  transition:background-color .12s;
+  padding-bottom:1px;border-radius:2px;
+}
+.reader strong.gloss:hover,.reader strong.gloss.on{background-color:var(--bk-soft,var(--accent-soft))}
+/* the floating popover itself */
+#glosspop{
+  position:fixed;z-index:70;max-width:min(360px,92vw);
+  background:var(--panel);color:var(--ink);
+  border:1px solid var(--bk-line,var(--accent-line));border-radius:14px;
+  box-shadow:var(--shadow);font-family:var(--sans);font-size:14.5px;line-height:1.55;
+  opacity:0;transform:translateY(4px) scale(.985);pointer-events:none;
+  transition:opacity .15s ease,transform .15s ease;
+  padding:14px 16px 13px;
+}
+#glosspop.show{opacity:1;transform:none;pointer-events:auto}
+#glosspop .gp-head{display:flex;align-items:flex-start;gap:10px;margin:0 0 7px}
+#glosspop .gp-term{flex:1;min-width:0;font-family:var(--serif);font-size:16px;font-weight:700;color:var(--ink-strong);letter-spacing:-.005em;line-height:1.25}
+#glosspop .gp-tag{flex:none;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--bk,var(--accent));background:var(--bk-soft,var(--accent-soft));border:1px solid var(--bk-line,var(--accent-line));border-radius:6px;padding:2px 7px;margin-top:2px;white-space:nowrap}
+#glosspop .gp-x{flex:none;width:24px;height:24px;border:1px solid var(--line2);border-radius:7px;background:var(--panel2);color:var(--muted);font-size:14px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;margin-top:-1px}
+#glosspop .gp-x:hover{color:var(--ink);border-color:var(--faint)}
+#glosspop .gp-def{margin:0;color:var(--ink2)}
+@media(max-width:600px){
+  #glosspop{max-width:calc(100vw - 24px);left:12px !important;right:12px !important;width:auto}
+}
 </style></head><body>
 <div id="topbar">
   <button id="menu" aria-label="Menu">☰</button>
@@ -354,6 +386,7 @@ html[data-theme="light"] .themebtn .moon{display:block}
 <button id="reopen" aria-label="Open sidebar" title="Open sidebar">☰</button>
 <div id="overlay"></div>
 <div id="toast"></div>
+<div id="glosspop" role="dialog" aria-modal="false" aria-label="Definition"></div>
 <script>
 const DATA = __PAYLOAD__;
 // ---- per-book visual identity (keyed by book.key); c=dark accent, cl=light accent ----
@@ -498,10 +531,120 @@ function openDoc(d){
     const t=sib.find(x=>String(x.num)===a.dataset.num);if(t)openDoc(t);
   });
   buildTOC();
+  decorateGlossary();
   setTitle(cleanTitle(d.title));
   main.scrollTop=0;progress.style.width='0';
   renderNav();closeNav();
 }
+
+// ---- glossary popover ---------------------------------------------------
+// auto-pick the hard / technical bolded terms on the rendered chapter and
+// make them tap-to-define. closes on outside click or Esc.
+const GLOSS=(DATA&&DATA.gloss)||{};
+function glossNormalize(s){
+  return (s||'')
+    .replace(/ /g,' ')
+    .replace(/[‘’']/g,"'")
+    .replace(/[:.;,!?—–-]+\s*$/,'')   // trailing colon, period, em/en dash, hyphen
+    .replace(/^[\s—–-]+/,'')          // leading dashes
+    .replace(/\s+/g,' ')
+    .trim()
+    .toLowerCase();
+}
+function glossLookup(raw){
+  if(!raw) return null;
+  const k=glossNormalize(raw);
+  if(!k) return null;
+  if(GLOSS[k]) return {key:k,def:GLOSS[k]};
+  // simple plural rollback: "fibers" -> "fiber", "areas" -> "area"
+  if(k.endsWith('s') && GLOSS[k.slice(0,-1)]) return {key:k.slice(0,-1),def:GLOSS[k.slice(0,-1)]};
+  if(k.endsWith('ies') && GLOSS[k.slice(0,-3)+'y']) return {key:k.slice(0,-3)+'y',def:GLOSS[k.slice(0,-3)+'y']};
+  // also try the head before " vs. " or " (" (e.g. "Premotor vs. SMA", "Supplementary motor area (SMA)")
+  const head=k.split(/\s+\(|\s+vs\.?\s+/)[0].trim();
+  if(head!==k && GLOSS[head]) return {key:head,def:GLOSS[head]};
+  return null;
+}
+// avoid wiring the popover for "labels" — bolded tokens that are clearly
+// headings/sentinels rather than glossary entries (e.g. "Function:", "1.6 ms").
+function glossSkipShape(raw){
+  const s=(raw||'').trim();
+  if(!s) return true;
+  if(s.length>60) return true;                       // too long, probably a sentence
+  if(/^[-+\d]/.test(s)) return true;                 // starts with digit/sign — stats/values
+  if(/^[A-Z]+:?$/.test(s) && s.length<=2) return true; // 1-2 char tokens unlikely
+  return false;
+}
+function decorateGlossary(){
+  if(!Object.keys(GLOSS).length) return;
+  const root=view.querySelector('.art');if(!root) return;
+  root.querySelectorAll('strong').forEach(s=>{
+    if(s.classList.contains('gloss')) return;
+    const raw=s.textContent;
+    if(glossSkipShape(raw)) return;
+    const hit=glossLookup(raw);
+    if(!hit) return;
+    s.classList.add('gloss');
+    s.setAttribute('tabindex','0');
+    s.setAttribute('role','button');
+    s.setAttribute('aria-label','Definition of '+raw);
+    s.dataset.gkey=hit.key;
+    s.dataset.gterm=raw.replace(/[:.,;\s]+$/,'').trim();
+  });
+}
+
+const glosspop=document.getElementById('glosspop');
+let glossActive=null;
+function showGloss(strong){
+  const def=GLOSS[strong.dataset.gkey];
+  if(!def) return;
+  const term=strong.dataset.gterm||strong.textContent.trim();
+  glosspop.innerHTML=
+    '<div class="gp-head">'+
+      '<div class="gp-term">'+escHTML(term)+'</div>'+
+      '<button class="gp-x" aria-label="Close">✕</button>'+
+    '</div>'+
+    '<p class="gp-def">'+escHTML(def)+'</p>';
+  glosspop.querySelector('.gp-x').onclick=hideGloss;
+  // position: prefer just below the term; flip above if no room; clamp inside viewport.
+  const r=strong.getBoundingClientRect();
+  glosspop.style.left='0px';glosspop.style.top='0px';   // reset so we can measure
+  glosspop.classList.add('show');
+  const pad=10;
+  const pw=glosspop.offsetWidth, ph=glosspop.offsetHeight;
+  const vw=document.documentElement.clientWidth, vh=document.documentElement.clientHeight;
+  let left=r.left, top=r.bottom+8;
+  if(top+ph+pad>vh) top=Math.max(pad, r.top-ph-8);    // flip above if cramped
+  if(left+pw+pad>vw) left=vw-pw-pad;
+  if(left<pad) left=pad;
+  glosspop.style.left=left+'px';glosspop.style.top=top+'px';
+  if(glossActive) glossActive.classList.remove('on');
+  glossActive=strong; strong.classList.add('on');
+}
+function hideGloss(){
+  glosspop.classList.remove('show');
+  if(glossActive){glossActive.classList.remove('on');glossActive=null;}
+}
+function escHTML(s){return (s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);}
+
+// open on click of a glossed strong; close on click outside or Esc; reposition on scroll/resize
+document.addEventListener('click',e=>{
+  const t=e.target.closest('strong.gloss');
+  if(t){
+    e.preventDefault();
+    if(glossActive===t){hideGloss();return;}
+    showGloss(t);return;
+  }
+  if(glosspop.classList.contains('show') && !e.target.closest('#glosspop')) hideGloss();
+},true);
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape' && glosspop.classList.contains('show')) hideGloss();
+  // also let Enter / Space on a focused strong.gloss open it (keyboard a11y)
+  if((e.key==='Enter'||e.key===' ') && document.activeElement && document.activeElement.classList && document.activeElement.classList.contains('gloss')){
+    e.preventDefault();showGloss(document.activeElement);
+  }
+});
+main.addEventListener('scroll',()=>{if(glosspop.classList.contains('show')) hideGloss();},{passive:true});
+window.addEventListener('resize',hideGloss);
 
 // ---- on-this-page outline ----
 let tocLinks=[];
