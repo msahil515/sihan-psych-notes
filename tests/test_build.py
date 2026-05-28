@@ -6,7 +6,7 @@ import json, re, subprocess, sys, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 NOTES = ROOT / "notes"
-EXPECT = {"schultz-personality": 15, "baron-social-psychology": 12, "pinel-biopsychology": 18, "key-acts-law": 1}
+EXPECT = {"schultz-personality": 15, "baron-social-psychology": 12, "pinel-biopsychology": 18, "key-acts-law": 1, "cognitive-eysenck-keane": 6, "singh-research-methods": 5}
 
 fails = []
 def check(name, cond, detail=""):
