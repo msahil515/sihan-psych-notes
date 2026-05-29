@@ -54,7 +54,7 @@ def main():
     (DOCS / "index.html").write_text(shell.replace("__PAYLOAD__", payload))
 
     manifest = {
-        "name": "Psych Notes — MET Prep", "short_name": "Psych Notes",
+        "name": "Textbook Library", "short_name": "Textbook Library",
         "start_url": "./index.html", "scope": "./", "display": "standalone",
         "background_color": "#f3efe6", "theme_color": "#f3efe6",
         "description": "Offline psychology textbook notes for MET 2026 Clinical Psych prep.",

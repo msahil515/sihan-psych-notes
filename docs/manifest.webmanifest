@@ -1,6 +1,6 @@
 {
-  "name": "Psych Notes \u2014 MET Prep",
-  "short_name": "Psych Notes",
+  "name": "Textbook Library",
+  "short_name": "Textbook Library",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
