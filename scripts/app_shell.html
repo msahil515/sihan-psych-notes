@@ -449,6 +449,15 @@ body.reading-1up .openbook .spine,body.reading-1up .openbook .gutter-l,body.read
 .readerfoot .progbar{width:min(420px,70%);height:4px;border-radius:3px;background:var(--line2);overflow:hidden}
 .readerfoot .progbar span{display:block;height:100%;width:0;border-radius:3px;background:linear-gradient(90deg,var(--bk,var(--accent)),#a78bfa);transition:width .28s ease}
 @media(max-width:700px){.readerfoot .booklabel{display:none}.readerfoot .foot-nav{max-width:30vw;font-size:12px;padding:8px 10px}.bookbar .bb-crumb .sub{display:none}}
+
+/* ---- distraction-free / immersive reading -----------------------------------
+   "Full screen" strips EVERY bit of reader chrome — the top bar, the page
+   controls, the footer — leaving just the page text edge to edge. The .desk is
+   flex:1, so with the bar and footer gone it fills the whole screen. Tap the ⛶
+   button or the middle of the page to enter; tap the middle again to bring the
+   controls back. */
+body.pn-immersive .bookbar,
+body.pn-immersive .readerfoot{display:none !important}
 </style></head><body>
 <div id="topbar">
   <button id="menu" aria-label="Menu">☰</button>
@@ -645,7 +654,8 @@ function colsForViewport(){
   return 0;
 }
 function clearReaderMode(){
-  document.body.classList.remove('pn-paged','reading-1up','reading-2up','nav-open');
+  document.body.classList.remove('pn-paged','reading-1up','reading-2up','nav-open','pn-immersive');
+  exitFs();   // never strand the user in fullscreen when they leave the reader
   PAGED=false;
 }
 
@@ -701,7 +711,7 @@ function renderBookReader(d,cols){
         +'<div class="leaf-hi"></div>'
         +'<article class="art reader"><h1>'+escHTML(cleanTitle(d.title))+'</h1>'+d.html+'</article>'
         +'<div class="gutter-l"></div><div class="gutter-r"></div><div class="spine"></div>'
-        +'<div class="pageturn-hint" id="turnHint">Swipe, or tap a page edge, to turn &#8594;</div>'
+        +'<div class="pageturn-hint" id="turnHint">Tap an edge or swipe to turn &middot; tap the middle for full screen</div>'
       +'</div>'
     +'</div>'
     +'<div class="readerfoot">'
@@ -853,32 +863,58 @@ function bumpFont(dir){
   if(PAGED){const art=view.querySelector('.art');if(art)art.style.transition='none';layoutPaged(NCOLS===1?1:2);}
 }
 
-// ---- fullscreen (one tap -> landscape edge to edge, no browser bars) -----
-// Uses the native Fullscreen API on the whole document so the Tab S11's
-// browser chrome drops away; book mode already fills the screen, so the page
-// goes truly edge to edge. Falls back to hiding the button where unsupported.
+// ---- distraction-free reading (one tap -> just the text, edge to edge) ----
+// "Full screen" strips ALL reader chrome (top bar, page controls, footer) via
+// body.pn-immersive AND drops the browser bars via the native Fullscreen API,
+// so the page goes truly edge to edge with nothing but the words on it. Tap the
+// ⛶ button or the middle of the page to enter; tap the middle again to bring
+// the controls back. Chrome-hiding works everywhere; native fullscreen is the
+// bonus on devices that support it (the Tab S11).
 function fsElement(){return document.fullscreenElement||document.webkitFullscreenElement||null;}
-function fsSupported(){const e=document.documentElement;return !!(e.requestFullscreen||e.webkitRequestFullscreen);}
+function fsSupported(){return true;}   // immersive chrome-hide works on every device
+function nativeFsSupported(){const e=document.documentElement;return !!(e.requestFullscreen||e.webkitRequestFullscreen);}
 function enterFs(){
   const e=document.documentElement;const r=e.requestFullscreen||e.webkitRequestFullscreen;
   if(!r)return;try{const p=r.call(e);if(p&&p.catch)p.catch(()=>{});}catch(err){}
 }
 function exitFs(){
+  if(!fsElement())return;
   const x=document.exitFullscreen||document.webkitExitFullscreen;
   if(!x)return;try{const p=x.call(document);if(p&&p.catch)p.catch(()=>{});}catch(err){}
 }
-function toggleReaderFullscreen(){if(fsElement())exitFs();else enterFs();}
+function readerImmersive(){return document.body.classList.contains('pn-immersive');}
+function setImmersive(on){
+  on=!!on;
+  if(readerImmersive()===on)return;
+  document.body.classList.toggle('pn-immersive',on);
+  syncFsBtn();
+  // chrome appearing/disappearing changes the usable page height -> re-lay the spread
+  if(current && document.body.classList.contains('pn-paged')){
+    const cols=colsForViewport();
+    if(cols>=1){
+      const art=view.querySelector('.art');if(art)art.style.transition='none';
+      requestAnimationFrame(()=>layoutPaged(cols));
+    }
+  }
+}
+function toggleReaderFullscreen(){
+  const on=!readerImmersive();
+  setImmersive(on);
+  if(on)enterFs();else exitFs();
+}
 function syncFsBtn(){
-  const on=!!fsElement();
+  const on=readerImmersive();
   document.querySelectorAll('#bookFs').forEach(b=>{
-    b.innerHTML=on?'&#10005;':'&#9974;';                 // ✕ when full, ⛶ otherwise
-    b.title=on?'Exit fullscreen':'Fullscreen';
+    b.innerHTML=on?'&#10005;':'&#9974;';                 // ✕ when immersive, ⛶ otherwise
+    b.title=on?'Exit full screen':'Full screen';
     b.setAttribute('aria-label',b.title);
   });
 }
-// keep the glyph in sync and re-lay out the spread when the chrome appears /
-// disappears (entering fullscreen changes the usable height)
+// if the user drops native fullscreen (Esc / Android back), bring the chrome
+// back too so they're never stranded with the controls hidden; otherwise just
+// keep the glyph + spread in sync when the usable height changes.
 ['fullscreenchange','webkitfullscreenchange'].forEach(ev=>document.addEventListener(ev,()=>{
+  if(!fsElement() && readerImmersive()){setImmersive(false);return;}
   syncFsBtn();
   if(!current)return;
   const cols=colsForViewport();
@@ -946,6 +982,7 @@ function attachGestures(target,win,fracFn){
       const f=fracFn(t.clientX);
       if(f<EDGE){gestureTurn(-1);dismissTurnHint();}
       else if(f>1-EDGE){gestureTurn(1);dismissTurnHint();}
+      else{_lastGestureTurn=Date.now();toggleReaderFullscreen();dismissTurnHint();}   // middle tap -> distraction-free
     }
   },{passive:true});
   target.addEventListener('click',ev=>{
@@ -956,6 +993,7 @@ function attachGestures(target,win,fracFn){
     const f=fracFn(ev.clientX);
     if(f<EDGE){gestureTurn(-1);dismissTurnHint();}
     else if(f>1-EDGE){gestureTurn(1);dismissTurnHint();}
+    else{toggleReaderFullscreen();dismissTurnHint();}   // middle click -> distraction-free
   });
 }
 
