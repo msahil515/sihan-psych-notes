@@ -343,6 +343,111 @@ html[data-theme="light"] .themebtn .moon{display:block}
 @media(max-width:600px){
   #glosspop{max-width:calc(100vw - 24px);left:12px !important;right:12px !important;width:auto}
 }
+
+/* ============================================================
+   Book reader — 2-up landscape spread / 1-up portrait page,
+   ported from the Notes for Exam app. Tuned for the Tab S11 Ultra:
+   wide landscape gets two facing pages, portrait gets one page you
+   flip like a book, phones keep the plain scroll reader above.
+   The spread uses the live theme vars, so it works in light + dark.
+   ============================================================ */
+body.pn-paged #topbar{display:none !important}
+body.pn-paged #main{overflow:hidden;height:100%;display:flex;flex-direction:column;position:relative}
+@media(max-width:900px){body.pn-paged #main{height:100%}}
+body.pn-paged #progress{display:none}
+body.pn-paged #view{flex:1 1 auto;min-height:0}
+/* while reading the book, the chapter sidebar is an on-demand drawer at every
+   width, so the spread gets the whole screen (like Notes for Exam) */
+body.pn-paged #side{position:fixed;top:0;left:0;height:100%;width:min(86vw,var(--side-w));z-index:60;
+  transform:translateX(-104%);transition:transform .24s cubic-bezier(.2,.7,.3,1);
+  box-shadow:18px 0 50px rgba(0,0,0,.4);margin-left:0 !important}
+body.pn-paged.nav-open #side{transform:none}
+body.pn-paged #overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:55;backdrop-filter:blur(2px)}
+body.pn-paged.nav-open #overlay{display:block}
+body.pn-paged #reopen{display:none !important}
+
+.pn-book{display:flex;flex-direction:column;height:100%;min-height:0;max-width:none;margin:0;padding:0}
+.bookbar{flex:none;display:flex;align-items:center;gap:9px;height:52px;padding:0 12px;
+  border-bottom:1px solid var(--line);background:color-mix(in srgb,var(--bg2) 92%,transparent);
+  backdrop-filter:blur(10px);position:relative;z-index:5}
+.bookbar button{flex:none;height:38px;border:1px solid var(--line2);border-radius:10px;background:var(--panel2);
+  color:var(--ink2);font-size:14px;font-weight:650;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;padding:0 12px}
+.bookbar button:hover{border-color:var(--faint);color:var(--ink)}
+.bookbar button:active{background:var(--hover)}
+.bookbar .bb-ic{width:40px;padding:0;font-size:17px;line-height:1}
+.bookbar .bb-crumb{flex:1;min-width:0;display:flex;align-items:center;gap:8px;font-family:var(--sans);
+  font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--bk,var(--accent));overflow:hidden;white-space:nowrap}
+.bookbar .bb-crumb .tt{font-family:var(--serif);font-size:15px;font-weight:700;text-transform:none;letter-spacing:0;
+  color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.bookbar .bb-crumb .sep{color:var(--faint)}
+.bookbar .bb-crumb .sub{overflow:hidden;text-overflow:ellipsis}
+.bookbar .fontctl{display:flex;gap:0;margin-left:auto}
+.bookbar .fontctl button{width:42px;padding:0;border-radius:0}
+.bookbar .fontctl button:first-child{border-radius:10px 0 0 10px;border-right:0;font-size:12px}
+.bookbar .fontctl button:last-child{border-radius:0 10px 10px 0}
+
+/* the desk: the open book fills it edge to edge */
+.desk{flex:1;min-height:0;position:relative;display:flex;align-items:stretch;justify-content:center;
+  background:var(--bg2);overflow:hidden}
+.openbook{position:relative;z-index:2;flex:1;min-width:0;width:100%;height:100%;background:var(--panel);overflow:hidden}
+/* the article is a multi-column flow whose columns ARE the printed pages.
+   The shell sets --pg-colw so exactly N columns sit across the frame (2 in a
+   landscape spread, 1 in a portrait page) and pages by sliding --pg-x. */
+.openbook .art{box-sizing:border-box;height:100%;width:100%;max-width:none;margin:0;
+  padding:var(--pg-pv,3rem) var(--pg-ph,2.4rem);
+  font-family:var(--serif);font-size:var(--pn-fs,18px);line-height:1.78;color:var(--ink);
+  column-width:var(--pg-colw,18rem);-webkit-column-width:var(--pg-colw,18rem);
+  column-gap:var(--pg-gap,5rem);-webkit-column-gap:var(--pg-gap,5rem);
+  column-fill:auto;-webkit-column-fill:auto;
+  overflow:visible;transform:translateX(calc(-1 * var(--pg-x,0px)));
+  transition:transform .36s cubic-bezier(.22,.61,.36,1);will-change:transform;
+  background:none !important;border:0 !important;box-shadow:none !important;border-radius:0 !important}
+.openbook .art::before{display:none !important}
+.openbook .art>h1:first-child{margin-top:0}
+.openbook .art h1{font-size:1.9em;border-bottom:none !important;padding-bottom:0 !important;margin:0 0 .55em}
+.openbook .art h1::after{display:none !important}
+.openbook .art h1,.openbook .art h2,.openbook .art h3,.openbook .art h4{
+  break-after:avoid-column;-webkit-column-break-after:avoid;break-inside:avoid;-webkit-column-break-inside:avoid}
+.openbook .art h2{margin-top:1.5em}
+.openbook .art p{orphans:2;widows:2}
+.openbook .art blockquote,.openbook .art pre,.openbook .art .fig{break-inside:avoid;-webkit-column-break-inside:avoid}
+.openbook .art table{display:table;table-layout:fixed;width:100%;font-size:.78em;overflow:visible;word-break:break-word}
+.openbook .art thead{display:table-header-group}
+.openbook .art .fig{margin:18px 0;text-align:center}
+/* an image can't fragment across a column break, so cap its height to the page
+   (the shell sets --pg-imgmax to the usable page height) — tall figures scale
+   down to fit instead of overflowing the leaf */
+.openbook .art .fig img,.openbook .art .fig svg{max-width:100%;max-height:var(--pg-imgmax,80%);width:auto;height:auto;object-fit:contain}
+.openbook .leaf-hi{position:absolute;left:0;right:0;top:0;height:3px;z-index:4;pointer-events:none;
+  background:linear-gradient(180deg,rgba(255,255,255,.45),transparent)}
+.openbook .spine{position:absolute;top:0;bottom:0;left:50%;width:12%;transform:translateX(-50%);z-index:4;pointer-events:none;
+  background:linear-gradient(90deg,transparent 0,rgba(0,0,0,.04) 32%,rgba(0,0,0,.12) 47%,rgba(0,0,0,.2) 50%,rgba(0,0,0,.12) 53%,transparent 68%)}
+.openbook .spine::after{content:"";position:absolute;left:50%;top:0;bottom:0;width:2px;transform:translateX(-50%);
+  background:linear-gradient(180deg,rgba(255,255,255,.35),rgba(0,0,0,.25) 14%,rgba(0,0,0,.25) 86%,rgba(255,255,255,.3))}
+.openbook .gutter-l,.openbook .gutter-r{position:absolute;top:0;bottom:0;width:46px;z-index:3;pointer-events:none}
+.openbook .gutter-l{left:calc(50% - 46px);background:linear-gradient(90deg,transparent,rgba(0,0,0,.07))}
+.openbook .gutter-r{left:50%;background:linear-gradient(270deg,transparent,rgba(0,0,0,.07))}
+body.reading-1up .openbook .spine,body.reading-1up .openbook .gutter-l,body.reading-1up .openbook .gutter-r{display:none}
+
+.pageturn-hint{position:absolute;left:50%;bottom:18px;transform:translate(-50%,8px);z-index:6;pointer-events:none;
+  font-family:var(--sans);font-size:12.5px;font-weight:600;color:var(--ink);background:var(--toast-bg);
+  border:1px solid var(--accent-line);border-radius:999px;padding:7px 15px;box-shadow:var(--shadow);
+  opacity:0;transition:opacity .35s ease,transform .35s ease}
+.pageturn-hint.show{opacity:1;transform:translate(-50%,0)}
+
+.readerfoot{flex:none;display:flex;align-items:center;gap:14px;
+  padding:8px 16px calc(8px + env(safe-area-inset-bottom));border-top:1px solid var(--line);background:var(--bg2);position:relative;z-index:5}
+.readerfoot .foot-nav{flex:none;border:1px solid var(--line2);background:var(--panel);color:var(--ink);
+  padding:9px 14px;border-radius:10px;font-weight:700;font-size:13px;font-family:var(--sans);
+  max-width:32vw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
+.readerfoot .foot-nav:hover:not(:disabled){border-color:var(--faint)}
+.readerfoot .foot-nav:disabled{opacity:.38;cursor:default}
+.readerfoot .foot-mid{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:5px}
+.readerfoot .pagelabel{font-family:var(--sans);font-size:12px;letter-spacing:.04em;color:var(--muted);font-weight:600}
+.readerfoot .booklabel{font-family:var(--serif);font-size:12.5px;color:var(--muted);font-style:italic;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.readerfoot .progbar{width:min(420px,70%);height:4px;border-radius:3px;background:var(--line2);overflow:hidden}
+.readerfoot .progbar span{display:block;height:100%;width:0;border-radius:3px;background:linear-gradient(90deg,var(--bk,var(--accent)),#a78bfa);transition:width .28s ease}
+@media(max-width:700px){.readerfoot .booklabel{display:none}.readerfoot .foot-nav{max-width:30vw;font-size:12px;padding:8px 10px}.bookbar .bb-crumb .sub{display:none}}
 </style></head><body>
 <div id="topbar">
   <button id="menu" aria-label="Menu">☰</button>
@@ -409,6 +514,10 @@ const view=document.getElementById('view'), nav=document.getElementById('nav'),
 const setTitle=t=>{if(tt)tt.textContent=t;};
 const menu=document.getElementById('menu'), overlay=document.getElementById('overlay');
 let activeBook="all", current=null;
+// ---- book-reader (2-up / 1-up spread) state ----
+let RPREV=null, RNEXT=null, PAGED=false, NCOLS=2, NSPREADS=1, CUR=0,
+    SPREAD_PITCH=0, COL_PITCH=0, PAD_H=0, SPREAD_W=0, pendingOpenLast=false;
+const SPREAD_KEY='pn-spread';
 
 function openNav(){document.body.classList.add('nav-open');}
 function closeNav(){document.body.classList.remove('nav-open');}
@@ -479,6 +588,7 @@ function renderNav(){
 
 // ---- home / book index ----
 function renderHome(){
+  clearReaderMode();
   current=null;setTitle('Textbook Library');main.scrollTop=0;progress.style.width='0';
   if(activeBook==='all'){
     let cards='';
@@ -513,12 +623,46 @@ function renderHome(){
   }
 }
 
-// ---- reader ----
+// ---- reader ------------------------------------------------------------
+// Two presentations of a chapter, chosen by viewport (colsForViewport):
+//   2 → wide landscape (Tab S11 Ultra, desktop): a two-page book spread
+//   1 → portrait tablet: one full page, flipped like a book
+//   0 → phone: the plain vertical-scroll reader (unchanged)
+function siblings(d){
+  const sib=DATA.docs.filter(x=>x.book===d.book);
+  const i=sib.indexOf(d);
+  return {sib,prev:sib[i-1],next:sib[i+1]};
+}
+// How many printed pages to show, by viewport. Portrait (incl. a wide portrait
+// tablet) gets one page; only a roomy landscape gets the two-page spread; a
+// phone keeps scrolling (paging one tiny column reads worse).
+function colsForViewport(){
+  const portrait=window.matchMedia('(orientation: portrait)').matches;
+  const w=window.innerWidth||document.documentElement.clientWidth||0;
+  if(!portrait && w>=1000) return 2;
+  if(w>=680) return 1;
+  return 0;
+}
+function clearReaderMode(){
+  document.body.classList.remove('pn-paged','reading-1up','reading-2up','nav-open');
+  PAGED=false;
+}
+
 function openDoc(d){
   current=d;activeBook=d.book;buildPills();
-  const m=meta(d.book);
-  const sib=DATA.docs.filter(x=>x.book===d.book);
-  const i=sib.indexOf(d),prev=sib[i-1],next=sib[i+1];
+  const s=siblings(d);RPREV=s.prev;RNEXT=s.next;
+  const cols=colsForViewport();
+  if(cols>=1) renderBookReader(d,cols);
+  else renderScrollReader(d);
+  setTitle(cleanTitle(d.title));
+  renderNav();closeNav();
+  saveLast();
+}
+
+// ---- scroll reader (phone) — the original presentation, untouched -------
+function renderScrollReader(d){
+  clearReaderMode();
+  const m=meta(d.book);const {sib,prev,next}=siblings(d);
   const pn=(item,cls,lab)=>item
     ? `<a class="${cls}" data-num="${item.num}"><span class="lab">${lab}</span><span class="pt">${cleanTitle(item.title)}</span></a>`
     : `<a class="${cls} empty"></a>`;
@@ -532,11 +676,265 @@ function openDoc(d){
   });
   buildTOC();
   decorateGlossary();
-  setTitle(cleanTitle(d.title));
   main.scrollTop=0;progress.style.width='0';
-  renderNav();closeNav();
-  saveLast();
 }
+
+// ---- book reader (tablet / desktop): 2-up spread or 1-up page -----------
+function renderBookReader(d,cols){
+  const m=meta(d.book);const {prev,next}=siblings(d);
+  document.body.classList.add('pn-paged');
+  document.body.classList.remove('nav-open');
+  view.className='pn-book';view.setAttribute('style',bookVars(d.book));
+  view.innerHTML=
+    '<div class="bookbar">'
+      +'<button class="bb-ic" id="bookBack" title="Library" aria-label="Library">&#8592;</button>'
+      +'<button class="bb-ic" id="bookToc" title="Contents" aria-label="Contents">&#9776;</button>'
+      +'<div class="bb-crumb"><span>'+m.ic+'</span><span class="sub">'+escHTML(d.subject)+'</span>'
+        +'<span class="sep">&rsaquo;</span><span class="tt">'+escHTML(cleanTitle(d.title))+'</span></div>'
+      +'<div class="fontctl"><button id="fsDown" aria-label="Smaller text">A&#8722;</button>'
+        +'<button id="fsUp" aria-label="Larger text">A&#43;</button></div>'
+    +'</div>'
+    +'<div class="desk" id="desk">'
+      +'<div class="openbook" id="openbook">'
+        +'<div class="leaf-hi"></div>'
+        +'<article class="art reader"><h1>'+escHTML(cleanTitle(d.title))+'</h1>'+d.html+'</article>'
+        +'<div class="gutter-l"></div><div class="gutter-r"></div><div class="spine"></div>'
+        +'<div class="pageturn-hint" id="turnHint">Swipe, or tap a page edge, to turn &#8594;</div>'
+      +'</div>'
+    +'</div>'
+    +'<div class="readerfoot">'
+      +'<button class="foot-nav" id="prevCh"'+(prev?'':' disabled')+'>&#8249; '+(prev?escHTML(cleanTitle(prev.title)):'Start')+'</button>'
+      +'<div class="foot-mid"><div class="pagelabel" id="pageLabel">&nbsp;</div>'
+        +'<div class="progbar"><span id="progBar"></span></div>'
+        +'<div class="booklabel">'+m.ic+' '+escHTML(d.subject)+' &middot; Ch '+d.num+'</div></div>'
+      +'<button class="foot-nav" id="nextCh"'+(next?'':' disabled')+'>'+(next?escHTML(cleanTitle(next.title)):'End')+' &#8250;</button>'
+    +'</div>';
+
+  view.querySelector('#bookBack').onclick=()=>{clearReaderMode();activeBook=d.book;buildPills();renderNav();renderHome();};
+  view.querySelector('#bookToc').onclick=()=>document.body.classList.toggle('nav-open');
+  if(prev)view.querySelector('#prevCh').onclick=()=>openDoc(prev);
+  if(next)view.querySelector('#nextCh').onclick=()=>openDoc(next);
+  view.querySelector('#fsUp').onclick=()=>bumpFont(1);
+  view.querySelector('#fsDown').onclick=()=>bumpFont(-1);
+
+  applyBookFont();
+  decorateGlossary();
+  const desk=document.getElementById('desk');
+  attachGestures(desk,window,clientX=>{const r=desk.getBoundingClientRect();return (clientX-r.left)/(r.width||1);});
+  requestAnimationFrame(()=>{layoutPaged(cols);maybeShowTurnHint();});
+}
+
+// decide + lay out the paged spread for the current frame size
+function layoutPaged(cols){
+  const frame=document.getElementById('openbook');
+  const art=view.querySelector('.art');
+  if(!frame||!art)return;
+  const W=frame.clientWidth, H=frame.clientHeight;
+  if(W<4||H<4){requestAnimationFrame(()=>layoutPaged(cols));return;}
+  NCOLS=(cols===1)?1:2;
+  document.body.classList.toggle('reading-1up',NCOLS===1);
+  document.body.classList.toggle('reading-2up',NCOLS===2);
+
+  // 2-up: a wide spine gutter splits the pages + tight outer margins.
+  // 1-up: no spine; the gap is the slack between flipped pages and must be at
+  // least the outer margin so no sliver of the next page bleeds in.
+  let gap,ph;
+  if(NCOLS===1){ ph=Math.round(Math.min(96,Math.max(34,W*0.085))); gap=ph+12; }
+  else{ gap=Math.round(Math.min(110,Math.max(58,W*0.072))); ph=Math.round(Math.min(70,Math.max(30,W*0.038))); }
+  const pv=Math.round(Math.min(70,Math.max(28,H*0.072)));
+
+  art.style.setProperty('--pg-gap',gap+'px');
+  art.style.setProperty('--pg-ph',ph+'px');
+  art.style.setProperty('--pg-pv',pv+'px');
+  // cap figure images to the usable page height so a tall figure scales down
+  // to fit one leaf instead of overflowing (images can't split across columns)
+  art.style.setProperty('--pg-imgmax',Math.max(160,H-2*pv-96)+'px');
+  art.style.transition='none';
+  art.style.setProperty('--pg-x','0px');
+  void art.offsetWidth;
+
+  SPREAD_W=W;PAD_H=ph;
+  // colWidth derived from the article's REAL content box (clientWidth-2*ph),
+  // exactly as CSS sizes columns, so paging by COL_PITCH lands every page on
+  // the same margins with zero drift. (See the Notes for Exam margin-pitch fix.)
+  let cw0=art.clientWidth||W;
+  let colW=(cw0-2*ph-(NCOLS-1)*gap)/NCOLS;
+  art.style.setProperty('--pg-colw',colW+'px');
+  void art.offsetWidth;
+  let cw=art.clientWidth||W;
+  colW=(cw-2*ph-(NCOLS-1)*gap)/NCOLS;
+  art.style.setProperty('--pg-colw',colW+'px');
+  COL_PITCH=colW+gap;
+  SPREAD_PITCH=NCOLS*COL_PITCH;
+
+  measurePaged(art);
+  PAGED=true;
+  let want=pendingOpenLast ? (NSPREADS-1) : restoredSpread(d_key(current));
+  pendingOpenLast=false;
+  CUR=Math.min(NSPREADS-1,Math.max(0,want));
+  requestAnimationFrame(()=>{try{art.style.transition='';}catch(e){}});
+  applyPaged();
+  scheduleRemeasurePaged();
+}
+
+function measurePaged(art){
+  if(!art||!SPREAD_W||!COL_PITCH)return;
+  // child rects and the article rect carry the same translateX, so it cancels
+  // in (child.left - base); columns sit at x = PAD_H + col*COL_PITCH.
+  const base=art.getBoundingClientRect().left;
+  let total=SPREAD_W;const kids=art.children;
+  for(let i=0;i<kids.length;i++){
+    const r=kids[i].getBoundingClientRect();
+    const right=(r.left-base)+r.width;
+    if(right>total)total=right;
+  }
+  const ncols=Math.max(1,Math.ceil((total-PAD_H-1)/COL_PITCH));
+  NSPREADS=Math.max(1,Math.ceil(ncols/NCOLS));
+}
+
+let _remTimer=null;
+function scheduleRemeasurePaged(){
+  clearTimeout(_remTimer);
+  _remTimer=setTimeout(()=>{
+    if(!PAGED)return;
+    const art=view.querySelector('.art');if(!art)return;
+    const before=NSPREADS;
+    measurePaged(art);
+    CUR=Math.min(NSPREADS-1,Math.max(0,CUR));
+    applyPaged();
+  },420);
+}
+
+function applyPaged(){
+  const art=view.querySelector('.art');if(!art)return;
+  const step=SPREAD_PITCH||SPREAD_W;
+  art.style.setProperty('--pg-x',(CUR*step)+'px');
+  const leftPg=CUR*NCOLS+1, totalP=NSPREADS*NCOLS;
+  const lab=document.getElementById('pageLabel');
+  if(lab&&NCOLS===1) lab.textContent=NSPREADS>1?('Page '+leftPg+' of '+totalP):' ';
+  else if(lab) lab.textContent=NSPREADS>1?('Pages '+leftPg+'–'+(leftPg+1)+' of '+totalP):' ';
+  const bar=document.getElementById('progBar');
+  if(bar)bar.style.width=Math.round(Math.min(1,Math.max(0,(CUR+1)/NSPREADS))*100)+'%';
+  hideGloss();
+  persistSpread();
+}
+
+function turnPageBook(dir){
+  if(!PAGED)return;
+  if(dir>0){
+    if(CUR<NSPREADS-1){CUR++;applyPaged();}
+    else if(RNEXT){openDoc(RNEXT);}
+  } else {
+    if(CUR>0){CUR--;applyPaged();}
+    else if(RPREV){pendingOpenLast=true;openDoc(RPREV);}
+  }
+}
+
+function d_key(d){return d?d.book+'/'+d.num:'';}
+function persistSpread(){
+  if(!current)return;
+  try{const sp=JSON.parse(localStorage.getItem(SPREAD_KEY)||'{}');sp[d_key(current)]=CUR;localStorage.setItem(SPREAD_KEY,JSON.stringify(sp));}catch(e){}
+}
+function restoredSpread(k){
+  try{const sp=JSON.parse(localStorage.getItem(SPREAD_KEY)||'{}');return sp[k]||0;}catch(e){return 0;}
+}
+
+// ---- font size (book mode) ----
+function bookFont(){const v=parseInt(localStorage.getItem('pn-fs')||'18',10);return isNaN(v)?18:v;}
+function applyBookFont(){const art=view.querySelector('.art');if(art)art.style.setProperty('--pn-fs',bookFont()+'px');}
+function bumpFont(dir){
+  const v=Math.max(14,Math.min(26,bookFont()+dir*2));
+  try{localStorage.setItem('pn-fs',v);}catch(e){}
+  applyBookFont();
+  if(PAGED){const art=view.querySelector('.art');if(art)art.style.transition='none';layoutPaged(NCOLS===1?1:2);}
+}
+
+// ---- first-run swipe/tap hint ----
+function maybeShowTurnHint(){
+  try{
+    if(!PAGED)return;
+    if(localStorage.getItem('pn:turnhint'))return;
+    const h=document.getElementById('turnHint');if(!h)return;
+    setTimeout(()=>{if(PAGED)h.classList.add('show');},650);
+    setTimeout(dismissTurnHint,5200);
+  }catch(e){}
+}
+function dismissTurnHint(){
+  const h=document.getElementById('turnHint');if(h)h.classList.remove('show');
+  try{localStorage.setItem('pn:turnhint','1');}catch(e){}
+}
+
+// ---- page-turn gestures (swipe + edge tap, no button) -------------------
+let _lastGestureTurn=0;
+function isInteractive(node){
+  while(node&&node.nodeType===1){
+    const t=node.tagName;
+    if(t==='A'||t==='BUTTON'||t==='INPUT'||t==='SELECT'||t==='TEXTAREA'||t==='SUMMARY'||t==='LABEL')return true;
+    if(node.getAttribute&&node.getAttribute('role'))return true;
+    node=node.parentNode;
+  }
+  return false;
+}
+function hasSelection(win){
+  try{const s=win&&win.getSelection&&win.getSelection();return !!(s&&String(s).length>0&&!s.isCollapsed);}catch(e){return false;}
+}
+function gestureTurn(dir){_lastGestureTurn=Date.now();turnPageBook(dir);}
+function attachGestures(target,win,fracFn){
+  let sx=0,sy=0,st=0,moved=false,tracking=false;
+  const SWIPE=42,TAP_MOVE=12,TAP_MS=450,EDGE=0.32;
+  target.addEventListener('touchstart',ev=>{
+    if(!ev.touches||ev.touches.length!==1){tracking=false;return;}
+    const t=ev.touches[0];sx=t.clientX;sy=t.clientY;st=Date.now();moved=false;tracking=true;
+  },{passive:true});
+  target.addEventListener('touchmove',ev=>{
+    if(!tracking||!ev.touches||!ev.touches.length)return;
+    const t=ev.touches[0];
+    if(Math.abs(t.clientX-sx)>TAP_MOVE||Math.abs(t.clientY-sy)>TAP_MOVE)moved=true;
+  },{passive:true});
+  target.addEventListener('touchend',ev=>{
+    if(!tracking)return;tracking=false;
+    if(!PAGED)return;
+    const t=ev.changedTouches&&ev.changedTouches[0];if(!t)return;
+    const dx=t.clientX-sx,dy=t.clientY-sy,dt=Date.now()-st;
+    if(hasSelection(win))return;
+    if(Math.abs(dx)>SWIPE&&Math.abs(dx)>Math.abs(dy)*1.3){gestureTurn(dx<0?1:-1);dismissTurnHint();return;}
+    if(!moved&&Math.abs(dx)<TAP_MOVE&&Math.abs(dy)<TAP_MOVE&&dt<TAP_MS){
+      if(isInteractive(t.target))return;
+      const f=fracFn(t.clientX);
+      if(f<EDGE){gestureTurn(-1);dismissTurnHint();}
+      else if(f>1-EDGE){gestureTurn(1);dismissTurnHint();}
+    }
+  },{passive:true});
+  target.addEventListener('click',ev=>{
+    if(!PAGED)return;
+    if(Date.now()-_lastGestureTurn<600)return;
+    if(ev.pointerType==='touch')return;
+    if(hasSelection(win)||isInteractive(ev.target))return;
+    const f=fracFn(ev.clientX);
+    if(f<EDGE){gestureTurn(-1);dismissTurnHint();}
+    else if(f>1-EDGE){gestureTurn(1);dismissTurnHint();}
+  });
+}
+
+// re-lay out on resize / orientation change (debounced); re-open the chapter
+// when crossing the scroll<->paged boundary so the right presentation loads.
+let _relayout=null;
+window.addEventListener('resize',()=>{
+  if(!current)return;
+  clearTimeout(_relayout);
+  _relayout=setTimeout(()=>{
+    if(!current)return;
+    const cols=colsForViewport();
+    const isPaged=document.body.classList.contains('pn-paged');
+    if(cols>=1){
+      if(!isPaged){openDoc(current);return;}
+      const art=view.querySelector('.art');if(art)art.style.transition='none';
+      layoutPaged(cols);
+    } else if(isPaged){
+      openDoc(current);
+    }
+  },180);
+});
 
 // ---- resume where you left off ------------------------------------------
 // remember the last chapter + scroll position so reopening the app (or a
