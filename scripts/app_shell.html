@@ -382,6 +382,7 @@ body.pn-paged #reopen{display:none !important}
 .bookbar .bb-crumb .sep{color:var(--faint)}
 .bookbar .bb-crumb .sub{overflow:hidden;text-overflow:ellipsis}
 .bookbar .fontctl{display:flex;gap:0;margin-left:auto}
+.bookbar .bb-fs{margin-left:8px;font-size:16px}
 .bookbar .fontctl button{width:42px;padding:0;border-radius:0}
 .bookbar .fontctl button:first-child{border-radius:10px 0 0 10px;border-right:0;font-size:12px}
 .bookbar .fontctl button:last-child{border-radius:0 10px 10px 0}
@@ -693,6 +694,7 @@ function renderBookReader(d,cols){
         +'<span class="sep">&rsaquo;</span><span class="tt">'+escHTML(cleanTitle(d.title))+'</span></div>'
       +'<div class="fontctl"><button id="fsDown" aria-label="Smaller text">A&#8722;</button>'
         +'<button id="fsUp" aria-label="Larger text">A&#43;</button></div>'
+      +'<button class="bb-ic bb-fs" id="bookFs" title="Fullscreen" aria-label="Fullscreen">&#9974;</button>'
     +'</div>'
     +'<div class="desk" id="desk">'
       +'<div class="openbook" id="openbook">'
@@ -716,6 +718,8 @@ function renderBookReader(d,cols){
   if(next)view.querySelector('#nextCh').onclick=()=>openDoc(next);
   view.querySelector('#fsUp').onclick=()=>bumpFont(1);
   view.querySelector('#fsDown').onclick=()=>bumpFont(-1);
+  const fsBtn=view.querySelector('#bookFs');
+  if(fsBtn){ if(!fsSupported()) fsBtn.style.display='none'; else { fsBtn.onclick=toggleReaderFullscreen; syncFsBtn(); } }
 
   applyBookFont();
   decorateGlossary();
@@ -848,6 +852,45 @@ function bumpFont(dir){
   applyBookFont();
   if(PAGED){const art=view.querySelector('.art');if(art)art.style.transition='none';layoutPaged(NCOLS===1?1:2);}
 }
+
+// ---- fullscreen (one tap -> landscape edge to edge, no browser bars) -----
+// Uses the native Fullscreen API on the whole document so the Tab S11's
+// browser chrome drops away; book mode already fills the screen, so the page
+// goes truly edge to edge. Falls back to hiding the button where unsupported.
+function fsElement(){return document.fullscreenElement||document.webkitFullscreenElement||null;}
+function fsSupported(){const e=document.documentElement;return !!(e.requestFullscreen||e.webkitRequestFullscreen);}
+function enterFs(){
+  const e=document.documentElement;const r=e.requestFullscreen||e.webkitRequestFullscreen;
+  if(!r)return;try{const p=r.call(e);if(p&&p.catch)p.catch(()=>{});}catch(err){}
+}
+function exitFs(){
+  const x=document.exitFullscreen||document.webkitExitFullscreen;
+  if(!x)return;try{const p=x.call(document);if(p&&p.catch)p.catch(()=>{});}catch(err){}
+}
+function toggleReaderFullscreen(){if(fsElement())exitFs();else enterFs();}
+function syncFsBtn(){
+  const on=!!fsElement();
+  document.querySelectorAll('#bookFs').forEach(b=>{
+    b.innerHTML=on?'&#10005;':'&#9974;';                 // ✕ when full, ⛶ otherwise
+    b.title=on?'Exit fullscreen':'Fullscreen';
+    b.setAttribute('aria-label',b.title);
+  });
+}
+// keep the glyph in sync and re-lay out the spread when the chrome appears /
+// disappears (entering fullscreen changes the usable height)
+['fullscreenchange','webkitfullscreenchange'].forEach(ev=>document.addEventListener(ev,()=>{
+  syncFsBtn();
+  if(!current)return;
+  const cols=colsForViewport();
+  const isPaged=document.body.classList.contains('pn-paged');
+  if(cols>=1){
+    if(!isPaged){openDoc(current);return;}
+    const art=view.querySelector('.art');if(art)art.style.transition='none';
+    layoutPaged(cols);
+  } else if(isPaged){
+    openDoc(current);
+  }
+}));
 
 // ---- first-run swipe/tap hint ----
 function maybeShowTurnHint(){
