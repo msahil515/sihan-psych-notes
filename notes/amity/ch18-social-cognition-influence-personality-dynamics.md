@@ -108,6 +108,16 @@ The studies illustrate the **agentic state** (the person sees themselves as an i
 
 Darley and Latané's five-step decision model: (1) notice the event, (2) interpret it as an emergency, (3) assume responsibility, (4) know how to help, (5) decide to help. Failure at any step stops helping.
 
+### Lewin's Leadership Styles
+
+**Kurt Lewin**, with Ronald Lippitt and Ralph White (1939), ran classic experiments on boys' activity groups led by adults trained to use three distinct styles. The study is foundational for both social psychology and organizational behaviour, and the three styles are a recurring entrance-exam item.
+
+- **Autocratic (authoritarian):** the leader makes all decisions alone, dictates tasks and methods, and stays aloof from the group. It produces high quantity of work but only while the leader is present, plus more hostility, aggression, and dependence. Work stops or collapses when the leader leaves.
+- **Democratic (participative):** the leader involves the group in decisions, discusses options, and lets members choose methods. It yields slightly lower quantity but higher quality, more originality, stronger motivation, and group cohesion that continues even when the leader steps away. Lewin judged this the most effective style overall.
+- **Laissez-faire (delegative):** the leader gives complete freedom and minimal guidance, supplying materials but not directing. It produces the least work, the lowest quality, and the most frustration and disorganization, because the group lacks structure.
+
+Lewin is also the source of **field theory** (behaviour is a function of the person and the environment, B = f(P, E)), the concept of **life space**, and the **three-stage model of change (unfreeze, change/move, refreeze)**, all of which are separately testable.
+
 ## 4. Personality Theory
 
 ### Allport: Trait Theory
