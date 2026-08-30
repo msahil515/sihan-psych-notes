@@ -98,6 +98,47 @@ PLAN = {
             ("f_8_6.jpg", "The motor homunculus.",
              "Pinel Fig 8.6: the motor homunculus")]),
     ],
+    "ch12-chapter-12-hunger-eating-and-health.md": [
+        ("### Why the body stores most of its energy as fat", [
+            ("f_12_1.jpg", "The gastrointestinal tract and the process of digestion.",
+             "Pinel Fig 12.1: the gastrointestinal tract and the eight steps of digestion")]),
+        ("### The three phases of energy metabolism", [
+            ("f_12_2.jpg", "Distribution of stored energy in an average person.",
+             "Pinel Fig 12.2: fat 85 percent, protein 14.5 percent, glycogen 0.5 percent")]),
+        ("## 12.2 Two Theories of Hunger: Set Points versus Positive Incentives", [
+            ("f_12_3.jpg", "The cephalic, absorptive and fasting phases, and what insulin and glucagon do in each.",
+             "Pinel Fig 12.3: the three phases of energy metabolism")]),
+        ("### The anatomy of any set-point system", [
+            ("f_12_4.jpg", "The energy set-point view of hunger and eating.",
+             "Pinel Fig 12.4: the energy set-point view of hunger and eating")]),
+        ("### How much we eat: the appetizer effect, serving size, and social facilitation", [
+            ("f_12_5.jpg", "The sham-eating preparation.",
+             "Pinel Fig 12.5: the sham-eating preparation")]),
+        ("### Why the VMH is not a satiety centre", [
+            ("f_12_6.jpg", "The ventromedial and lateral hypothalamus in the rat brain.",
+             "Pinel Fig 12.6: locations of the VMH and LH in the rat brain")]),
+        ("### Koopmans's transplanted stomach", [
+            ("f_12_7.jpg", "Cannon and Washburn's 1912 system for measuring stomach contractions.",
+             "Pinel Fig 12.7: the Cannon and Washburn balloon apparatus and hunger pangs")]),
+        ("### Hunger and satiety peptides", [
+            ("f_12_8.jpg", "Transplantation of an extra stomach and length of intestine in a rat.",
+             "Pinel Fig 12.8: Koopmans's transplanted stomach preparation")]),
+        ("### The settling-point model and the leaky barrel", [
+            ("f_12_9.jpg", "The diminishing effects on body weight of a low-calorie and a high-calorie diet.",
+             "Pinel Fig 12.9: diets plateau at a new stable level")]),
+        ("### Four facts of weight regulation, explained twice", [
+            ("f_12_10.jpg", "The leaky-barrel model: a settling point, not a set point.",
+             "Pinel Fig 12.10: the leaky-barrel model of body-weight homeostasis")]),
+        ("### Leptin: the discovery", [
+            ("f_12_11.jpg", "The five stages of a typical weight-loss program.",
+             "Pinel Fig 12.11: the five stages of a typical weight-loss programme")]),
+        ("### Leptin, insulin, and the arcuate melanocortin system", [
+            ("f_12_12.jpg", "A control mouse and an ob/ob mouse.",
+             "Pinel Fig 12.12: a control mouse beside a leptin-deficient ob/ob mouse")]),
+        ("## 12.7 Anorexia Nervosa and Bulimia Nervosa", [
+            ("f_12_13.jpg", "Gastric bypass and the adjustable gastric band.",
+             "Pinel Fig 12.13: two surgical treatments, gastric bypass and adjustable gastric band")]),
+    ],
     "ch11-chapter-11-learning-memory-and-amnesia.md": [
         ("### Gradients of Retrograde Amnesia and Consolidation", [
             ("f_11_5.jpg", "Retrograde vs anterograde amnesia after a closed-head TBI.",
