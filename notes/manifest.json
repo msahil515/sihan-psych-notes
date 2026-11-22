@@ -7757,6 +7757,286 @@
         ]
       },
       {
+        "num": 12,
+        "title": "Chapter 12: Problem Solving and Expertise",
+        "slug": "ch12-problem-solving-and-expertise",
+        "part": "Part IV Thinking and Reasoning (full depth)",
+        "sections": [
+          {
+            "level": 2,
+            "title": "12.1 Introduction"
+          },
+          {
+            "level": 2,
+            "title": "12.2 Problem Solving: Introduction"
+          },
+          {
+            "level": 2,
+            "title": "12.3 Gestalt Approach: Insight and Role of Experience"
+          },
+          {
+            "level": 2,
+            "title": "12.4 Problem-Solving Strategies"
+          },
+          {
+            "level": 2,
+            "title": "12.5 Analogical Problem Solving"
+          },
+          {
+            "level": 2,
+            "title": "12.6 Expertise"
+          },
+          {
+            "level": 2,
+            "title": "12.7 Chess-Playing Expertise"
+          },
+          {
+            "level": 2,
+            "title": "12.8 Medical Expertise"
+          },
+          {
+            "level": 2,
+            "title": "12.9 Brain Plasticity"
+          },
+          {
+            "level": 2,
+            "title": "12.10 Deliberate Practice"
+          },
+          {
+            "level": 2,
+            "title": "How the chapter fits together"
+          },
+          {
+            "level": 2,
+            "title": "Worked example"
+          },
+          {
+            "level": 2,
+            "title": "MCQ traps"
+          },
+          {
+            "level": 2,
+            "title": "Key terms"
+          },
+          {
+            "level": 2,
+            "title": "Likely exam points"
+          }
+        ]
+      },
+      {
+        "num": 13,
+        "title": "Chapter 13: Judgement and Decision Making",
+        "slug": "ch13-judgement-and-decision-making",
+        "part": "Part IV Thinking and Reasoning (full depth)",
+        "sections": [
+          {
+            "level": 2,
+            "title": "13.1 Introduction"
+          },
+          {
+            "level": 2,
+            "title": "13.2 Judgement Research"
+          },
+          {
+            "level": 2,
+            "title": "13.3 Judgement Theories"
+          },
+          {
+            "level": 2,
+            "title": "13.4 Decision Making under Risk"
+          },
+          {
+            "level": 2,
+            "title": "13.5 Decision Making: Emotional and Social Factors"
+          },
+          {
+            "level": 2,
+            "title": "13.6 Complex Decision Making"
+          },
+          {
+            "level": 2,
+            "title": "How the chapter fits together"
+          },
+          {
+            "level": 2,
+            "title": "Worked example"
+          },
+          {
+            "level": 2,
+            "title": "MCQ traps"
+          },
+          {
+            "level": 2,
+            "title": "Key terms"
+          },
+          {
+            "level": 2,
+            "title": "Likely exam points"
+          }
+        ]
+      },
+      {
+        "num": 14,
+        "title": "Chapter 14: Reasoning and Hypothesis Testing",
+        "slug": "ch14-reasoning-and-hypothesis-testing",
+        "part": "Part IV Thinking and Reasoning (full depth)",
+        "sections": [
+          {
+            "level": 2,
+            "title": "14.1 Introduction"
+          },
+          {
+            "level": 2,
+            "title": "14.2 Hypothesis Testing"
+          },
+          {
+            "level": 2,
+            "title": "14.3 Deductive Reasoning"
+          },
+          {
+            "level": 2,
+            "title": "14.4 Theories of Deductive Reasoning"
+          },
+          {
+            "level": 2,
+            "title": "14.5 Brain Systems in Reasoning"
+          },
+          {
+            "level": 2,
+            "title": "14.6 Informal Reasoning"
+          },
+          {
+            "level": 2,
+            "title": "14.7 Are Humans Rational?"
+          },
+          {
+            "level": 2,
+            "title": "How the chapter fits together"
+          },
+          {
+            "level": 2,
+            "title": "Worked example"
+          },
+          {
+            "level": 2,
+            "title": "MCQ traps"
+          },
+          {
+            "level": 2,
+            "title": "Key terms"
+          },
+          {
+            "level": 2,
+            "title": "Likely exam points"
+          }
+        ]
+      },
+      {
+        "num": 15,
+        "title": "Chapter 15: Cognition and Emotion",
+        "slug": "ch15-cognition-and-emotion",
+        "part": "Part V Broadening Horizons (full depth)",
+        "sections": [
+          {
+            "level": 2,
+            "title": "15.1 Introduction"
+          },
+          {
+            "level": 2,
+            "title": "15.2 Appraisal Theories"
+          },
+          {
+            "level": 2,
+            "title": "15.3 Emotion Regulation"
+          },
+          {
+            "level": 2,
+            "title": "15.4 Affect and Cognition: Attention and Memory"
+          },
+          {
+            "level": 2,
+            "title": "15.5 Affect and Cognition: Judgement and Decision Making"
+          },
+          {
+            "level": 2,
+            "title": "15.6 Anxiety, Depression and Cognitive Biases"
+          },
+          {
+            "level": 2,
+            "title": "15.7 Cognitive Bias Modification"
+          },
+          {
+            "level": 2,
+            "title": "How the chapter fits together"
+          },
+          {
+            "level": 2,
+            "title": "Worked example"
+          },
+          {
+            "level": 2,
+            "title": "MCQ traps"
+          },
+          {
+            "level": 2,
+            "title": "Key terms"
+          },
+          {
+            "level": 2,
+            "title": "Likely exam points"
+          }
+        ]
+      },
+      {
+        "num": 16,
+        "title": "Chapter 16: Consciousness",
+        "slug": "ch16-consciousness",
+        "part": "Part V Broadening Horizons (full depth)",
+        "sections": [
+          {
+            "level": 2,
+            "title": "16.1 Introduction"
+          },
+          {
+            "level": 2,
+            "title": "16.2 Functions of Consciousness"
+          },
+          {
+            "level": 2,
+            "title": "16.3 Assessing Consciousness and Conscious Experience"
+          },
+          {
+            "level": 2,
+            "title": "16.4 Global Workspace Theoretical Approach"
+          },
+          {
+            "level": 2,
+            "title": "16.5 Is Consciousness Unitary?"
+          },
+          {
+            "level": 2,
+            "title": "How the chapter fits together"
+          },
+          {
+            "level": 2,
+            "title": "Worked example"
+          },
+          {
+            "level": 2,
+            "title": "MCQ traps"
+          },
+          {
+            "level": 2,
+            "title": "Key terms"
+          },
+          {
+            "level": 2,
+            "title": "Likely exam points"
+          }
+        ]
+      },
+      {
         "num": "Q1",
         "title": "Ch 1: Approaches to Human Cognition",
         "slug": "ch-quick-1-approaches-to-human-cognition",
