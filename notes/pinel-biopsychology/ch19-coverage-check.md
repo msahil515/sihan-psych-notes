@@ -1,0 +1,988 @@
+# Coverage check: every Pinel topic
+
+**What was checked.** Every heading in the contents of Pinel and Barnes, *Biopsychology*, 11th edition, chapters 1 to 18, down to the smallest sub-heading, the named cases included: **905 topics**. Only the end-of-chapter Themes Revisited and Key Terms pages are left out.
+
+**Result.** This rewrite covers **905 of 905 (100%)**. The old short version of these notes, before the rewrite, covered 619 of 905 (68%).
+
+**How.** A script looks for each topic's key words close together in the chapter. Where the rewrite words a topic differently from Pinel's heading, the passage that covers it was found by hand and the script checks that passage is really in the chapter. The list below shows, for every topic, the section of this rewrite that covers it, so it also works as a checklist for revising Pinel.
+
+| Chapter | Topics | Old version | This rewrite |
+|---|---|---|---|
+| 1. Biopsychology as a Neuroscience | 35 | 77% | 100% |
+| 2. Evolution, Genetics, and Experience | 42 | 86% | 100% |
+| 3. Anatomy of the Nervous System | 28 | 96% | 100% |
+| 4. Neural Conduction and Synaptic Transmission | 36 | 78% | 100% |
+| 5. The Research Methods of Biopsychology | 83 | 71% | 100% |
+| 6. The Visual System | 47 | 62% | 100% |
+| 7. Sensory Systems, Perception, and Attention | 52 | 69% | 100% |
+| 8. The Sensorimotor System | 42 | 74% | 100% |
+| 9. Development of the Nervous System | 40 | 75% | 100% |
+| 10. Brain Damage and Neuroplasticity | 46 | 63% | 100% |
+| 11. Learning, Memory, and Amnesia | 54 | 54% | 100% |
+| 12. Hunger, Eating, and Health | 66 | 62% | 100% |
+| 13. Hormones and Sex | 57 | 77% | 100% |
+| 14. Sleep, Dreaming, and Circadian Rhythms | 65 | 72% | 100% |
+| 15. Drug Use, Drug Addiction, and the Brain's Reward Circuits | 46 | 67% | 100% |
+| 16. Lateralization, Language, and the Split Brain | 55 | 49% | 100% |
+| 17. Biopsychology of Emotion, Stress, and Health | 45 | 76% | 100% |
+| 18. Biopsychology of Psychiatric Disorders | 66 | 52% | 100% |
+| **All 18** | **905** | **68%** | **100%** |
+
+## Chapter 1: Biopsychology as a Neuroscience
+
+- **The Case of Jimmie G., the Man Frozen in Time** (p. 27) &rarr; The Case of Jimmie G., the Man Frozen in Time
+    - Four Major Themes of This Text (p. 27) &rarr; Four Major Themes of This Text
+        - Thinking Creatively about Biopsychology (p. 27) &rarr; Four Major Themes of This Text
+        - Clinical Implications (p. 27) &rarr; Four Major Themes of This Text
+        - The Evolutionary Perspective (p. 27) &rarr; Four Major Themes of This Text
+        - Neuroplasticity (p. 27) &rarr; Four Major Themes of This Text
+    - Emerging Themes of This Text (p. 28) &rarr; Emerging Themes of This Text
+        - Thinking about Epigenetics (p. 28) &rarr; Emerging Themes of This Text
+        - Consciousness (p. 28) &rarr; Emerging Themes of This Text
+- **What Is Biopsychology?** (p. 28) &rarr; 1.1 What Is Biopsychology?
+    - Defining Biopsychology (p. 28) &rarr; 1.1 What Is Biopsychology?
+    - What Are the Origins of Biopsychology? (p. 28) &rarr; 1.1 What Is Biopsychology?
+    - How Is Biopsychology Related to the Other Disciplines of Neuroscience? (p. 29) &rarr; 1.1 What Is Biopsychology?
+- **What Types of Research Characterize the Biopsychological Approach?** (p. 29) &rarr; 1.2 What Types of Research Characterize the Biopsychological Approach?
+    - Human and Nonhuman Subjects (p. 29) &rarr; 1.2 What Types of Research Characterize the Biopsychological Approach?
+    - Experiments and Nonexperiments (p. 30) &rarr; 1.2 What Types of Research Characterize the Biopsychological Approach?
+        - Experiments (p. 30) &rarr; 1.2 What Types of Research Characterize the Biopsychological Approach?
+        - Quasiexperimental Studies (p. 31) &rarr; 1.2 What Types of Research Characterize the Biopsychological Approach?
+        - Case Studies (p. 32) &rarr; 1.2 What Types of Research Characterize the Biopsychological Approach?
+    - Pure and Applied Research (p. 32) &rarr; 1.2 What Types of Research Characterize the Biopsychological Approach?
+- **What Are the Divisions of Biopsychology?** (p. 33) &rarr; 1.3 What Are the Divisions of Biopsychology?
+    - Physiological Psychology (p. 34) &rarr; 1.3 What Are the Divisions of Biopsychology?
+    - Psychopharmacology (p. 34) &rarr; 1.3 What Are the Divisions of Biopsychology?
+    - Neuropsychology (p. 34) &rarr; 1.3 What Are the Divisions of Biopsychology?
+- **The Case of Mr. R., the Student with a Brain Injury Who Switched to Architecture** (p. 34) &rarr; 1.3 What Are the Divisions of Biopsychology?
+    - Psychophysiology (p. 35) &rarr; 1.3 What Are the Divisions of Biopsychology?
+    - Cognitive Neuroscience (p. 35) &rarr; 1.3 What Are the Divisions of Biopsychology?
+    - Comparative Psychology (p. 36) &rarr; 1.3 What Are the Divisions of Biopsychology?
+- **How Do Biopsychologists Conduct Their Work?** (p. 37) &rarr; 1.4 How Do Biopsychologists Conduct Their Work?
+    - Converging Operations: How Do Biopsychologists Work Together? (p. 37) &rarr; 1.4 How Do Biopsychologists Conduct Their Work?
+    - Scientific Inference: How Do Biopsychologists Study the Unobservable Workings of the Brain? (p. 38) &rarr; 1.4 How Do Biopsychologists Conduct Their Work?
+- **Thinking Critically about Biopsychological Claims** (p. 39) &rarr; 1.5 Thinking Critically about Biopsychological Claims
+    - Evaluating Biopsychological Claims (p. 40) &rarr; 1.5 Thinking Critically about Biopsychological Claims
+- **Case 1: José and the Bull** (p. 40) &rarr; 1.5 Thinking Critically about Biopsychological Claims
+- **Case 2: Two Chimpanzees, Moniz, and the Prefrontal Lobotomy** (p. 40) &rarr; 1.5 Thinking Critically about Biopsychological Claims
+
+## Chapter 2: Evolution, Genetics, and Experience
+
+- **Thinking about the Biology of Behavior: From Dichotomies to Interactions** (p. 45) &rarr; 2.1 Thinking about the Biology of Behaviour: From Dichotomies to Interactions
+    - The Origins of Dichotomous Thinking (p. 45) &rarr; 2.1 Thinking about the Biology of Behaviour: From Dichotomies to Interactions
+        - Is it Physiological, or is it Psychological? (p. 45) &rarr; 2.1 Thinking about the Biology of Behaviour: From Dichotomies to Interactions
+        - Is it Inherited, or is it Learned? (p. 46) &rarr; 2.1 Thinking about the Biology of Behaviour: From Dichotomies to Interactions
+    - Problems with Thinking about the Biology of Behavior in Terms of Traditional Dichotomies (p. 46) &rarr; 2.1 Thinking about the Biology of Behaviour: From Dichotomies to Interactions
+        - Physiological-or-Psychological Thinking Runs into Difficulty (p. 46) &rarr; 2.1 Thinking about the Biology of Behaviour: From Dichotomies to Interactions
+- **The Case of the Man Who Fell Out of Bed** (p. 47) &rarr; 2.1 Thinking about the Biology of Behaviour: From Dichotomies to Interactions
+- **The Case of the Chimps with Mirrors** (p. 47) &rarr; 2.1 Thinking about the Biology of Behaviour: From Dichotomies to Interactions
+    - Nature-or-Nurture Thinking Runs into Difficulty (p. 48) &rarr; 2.1 Thinking about the Biology of Behaviour: From Dichotomies to Interactions
+- **The Case of the Thinking Student** (p. 48) &rarr; 2.1 Thinking about the Biology of Behaviour: From Dichotomies to Interactions
+    - A Model of the Biology of Behavior (p. 48) &rarr; 2.1 Thinking about the Biology of Behaviour: From Dichotomies to Interactions
+- **Human Evolution** (p. 49) &rarr; 2.2 Human Evolution
+    - Darwin’s Theory of Evolution (p. 49) &rarr; 2.2 Human Evolution
+    - Evolution and Behavior (p. 51) &rarr; 2.2 Human Evolution
+        - Social Dominance (p. 51) &rarr; 2.2 Human Evolution
+        - Courtship Display (p. 51) &rarr; 2.2 Human Evolution
+    - Course of Human Evolution (p. 52) &rarr; 2.2 Human Evolution
+        - Evolution of Vertebrates (p. 52) &rarr; 2.2 Human Evolution
+        - Evolution of Amphibians (p. 52) &rarr; 2.2 Human Evolution
+        - Evolution of Reptiles (p. 52) &rarr; 2.2 Human Evolution
+        - Evolution of Mammals (p. 52) &rarr; 2.2 Human Evolution
+        - Emergence of Humankind (p. 53) &rarr; 2.2 Human Evolution
+    - Thinking about Human Evolution (p. 54) &rarr; 2.2 Human Evolution
+    - Evolution of the Human Brain (p. 56) &rarr; 2.2 Human Evolution
+- **Fundamental Genetics** (p. 58) &rarr; 2.3 Fundamental Genetics
+    - Mendelian Genetics (p. 58) &rarr; 2.3 Fundamental Genetics
+    - Chromosomes (p. 59) &rarr; 2.3 Fundamental Genetics
+        - Reproduction and Recombination (p. 59) &rarr; 2.3 Fundamental Genetics
+        - Structure and Replication (p. 60) &rarr; 2.3 Fundamental Genetics
+        - Sex Chromosomes and Sex-Linked Traits (p. 61) &rarr; 2.3 Fundamental Genetics
+    - Genetic Code and Gene Expression (p. 61) &rarr; 2.3 Fundamental Genetics
+    - Human Genome Project (p. 63) &rarr; 2.3 Fundamental Genetics
+    - Modern Genetics: Growth of Epigenetics (p. 63) &rarr; 2.3 Fundamental Genetics
+- **Epigenetics of Behavioral Development: Interaction of Genetic Factors and Experience** (p. 66) &rarr; 2.4 Epigenetics of Behavioural Development: Interaction of Genetic Factors and Experience
+    - Selective Breeding of “Maze-Bright” and “Maze-Dull” Rats (p. 66) &rarr; 2.4 Epigenetics of Behavioural Development: Interaction of Genetic Factors and Experience
+    - Phenylketonuria: A Single-Gene Metabolic Disorder (p. 67) &rarr; 2.4 Epigenetics of Behavioural Development: Interaction of Genetic Factors and Experience
+- **Genetics of Human Psychological Differences** (p. 68) &rarr; 2.5 Genetics of Human Psychological Differences
+    - Development of Individuals versus Development of Differences among Individuals (p. 68) &rarr; 2.5 Genetics of Human Psychological Differences
+    - Heritability Estimates: Minnesota Study of Twins Reared Apart (p. 68) &rarr; 2.5 Genetics of Human Psychological Differences
+    - A Look into the Future: Two Kinds of Twin Studies (p. 69) &rarr; 2.5 Genetics of Human Psychological Differences
+        - Twin Studies of Epigenetic Effects (p. 5) &rarr; 2.5 Genetics of Human Psychological Differences
+        - Twin Studies of the Effects of Experience on Heritability (p. 5) &rarr; 2.5 Genetics of Human Psychological Differences
+
+## Chapter 3: Anatomy of the Nervous System
+
+- **General Layout of the Nervous System** (p. 73) &rarr; 3.1 General Layout of the Nervous System
+    - Divisions of the Nervous System (p. 73) &rarr; 3.1 General Layout of the Nervous System
+    - Meninges (p. 74) &rarr; 3.1 General Layout of the Nervous System
+    - Ventricles and Cerebrospinal Fluid (p. 75) &rarr; 3.1 General Layout of the Nervous System
+    - Blood–Brain Barrier (p. 76) &rarr; 3.1 General Layout of the Nervous System
+- **Cells of the Nervous System** (p. 77) &rarr; 3.2 Cells of the Nervous System
+    - Anatomy of Neurons (p. 77) &rarr; 3.2 Cells of the Nervous System
+        - Neuron Cell Membrane (p. 77) &rarr; 3.2 Cells of the Nervous System
+        - Classes of Neurons (p. 77) &rarr; 3.2 Cells of the Nervous System
+        - Neurons and Neuroanatomical Structure (p. 78) &rarr; 3.2 Cells of the Nervous System
+    - Glia: The Forgotten Cells (p. 80) &rarr; 3.2 Cells of the Nervous System
+- **Neuroanatomical Techniques and Directions** (p. 82) &rarr; 3.3 Neuroanatomical Techniques and Directions
+    - Neuroanatomical Techniques (p. 82) &rarr; 3.3 Neuroanatomical Techniques and Directions
+        - Golgi Stain (p. 82) &rarr; 3.3 Neuroanatomical Techniques and Directions
+        - Nissl Stain (p. 82) &rarr; 3.3 Neuroanatomical Techniques and Directions
+        - Electron Microscopy (p. 82) &rarr; 3.3 Neuroanatomical Techniques and Directions
+        - Neuroanatomical Tracing Techniques (p. 83) &rarr; 3.3 Neuroanatomical Techniques and Directions
+    - Directions in the Vertebrate Nervous System (p. 84) &rarr; 3.3 Neuroanatomical Techniques and Directions
+- **Anatomy of the Central Nervous System** (p. 86) &rarr; 3.4 Anatomy of the Central Nervous System
+    - Spinal Cord (p. 86) &rarr; 3.4 Anatomy of the Central Nervous System
+    - Five Major Divisions of the Brain (p. 86) &rarr; 3.4 Anatomy of the Central Nervous System
+    - Myelencephalon (p. 87) &rarr; 3.4 Anatomy of the Central Nervous System
+    - Metencephalon (p. 87) &rarr; 3.4 Anatomy of the Central Nervous System
+    - Mesencephalon (p. 88) &rarr; 3.4 Anatomy of the Central Nervous System
+    - Diencephalon (p. 88) &rarr; 3.4 Anatomy of the Central Nervous System
+    - Telencephalon (p. 90) &rarr; 3.4 Anatomy of the Central Nervous System
+        - Cerebral Cortex (p. 90) &rarr; 3.4 Anatomy of the Central Nervous System
+    - Limbic System and the Basal Ganglia (p. 92) &rarr; 3.4 Anatomy of the Central Nervous System
+
+## Chapter 4: Neural Conduction and Synaptic Transmission
+
+- **The Lizard: A Case of Parkinson’s Disease** (p. 98) &rarr; The Lizard: A Case of Parkinson's Disease
+- **Resting Membrane Potential** (p. 99) &rarr; 4.1 Resting Membrane Potential
+    - Recording the Membrane Potential (p. 99) &rarr; 4.1 Resting Membrane Potential
+    - Ionic Basis of the Resting Potential (p. 99) &rarr; 4.1 Resting Membrane Potential
+- **Generation, Conduction, and Integration of Postsynaptic Potentials** (p. 100) &rarr; 4.2 Generation, Conduction, and Integration of Postsynaptic Potentials
+    - Generation and Conduction of Postsynaptic Potentials (p. 100) &rarr; 4.2 Generation, Conduction, and Integration of Postsynaptic Potentials
+    - Integration of Postsynaptic Potentials and Generation of Action Potentials (p. 101) &rarr; 4.2 Generation, Conduction, and Integration of Postsynaptic Potentials
+- **Conduction of Action Potentials** (p. 104) &rarr; 4.3 Conduction of Action Potentials
+    - Ionic Basis of Action Potentials (p. 104) &rarr; 4.3 Conduction of Action Potentials
+    - Refractory Periods (p. 105) &rarr; 4.3 Conduction of Action Potentials
+    - Axonal Conduction of Action Potentials (p. 105) &rarr; 4.3 Conduction of Action Potentials
+        - Conduction in Myelinated Axons (p. 105) &rarr; 4.3 Conduction of Action Potentials
+        - The Velocity of Axonal Conduction (p. 106) &rarr; 4.3 Conduction of Action Potentials
+        - Conduction in Neurons without Axons (p. 106) &rarr; 4.3 Conduction of Action Potentials
+    - The Hodgkin-Huxley Model in Perspective (p. 106) &rarr; 4.3 Conduction of Action Potentials
+- **Synaptic Transmission: From Electrical Signals to Chemical Signals** (p. 107) &rarr; 4.4 Synaptic Transmission: From Electrical Signals to Chemical Signals
+    - Structure of Synapses (p. 107) &rarr; 4.4 Synaptic Transmission: From Electrical Signals to Chemical Signals
+    - Synthesis, Packaging, and Transport of Neurotransmitter Molecules (p. 109) &rarr; 4.4 Synaptic Transmission: From Electrical Signals to Chemical Signals
+    - Release of Neurotransmitter Molecules (p. 109) &rarr; 4.4 Synaptic Transmission: From Electrical Signals to Chemical Signals
+    - Activation of Receptors by Neurotransmitter Molecules (p. 109) &rarr; 4.4 Synaptic Transmission: From Electrical Signals to Chemical Signals
+    - Reuptake, Enzymatic Degradation, and Recycling (p. 111) &rarr; 4.4 Synaptic Transmission: From Electrical Signals to Chemical Signals
+    - Glia, Gap Junctions, and Synaptic Transmission (p. 112) &rarr; 4.4 Synaptic Transmission: From Electrical Signals to Chemical Signals
+- **Neurotransmitters** (p. 114) &rarr; 4.5 Neurotransmitters
+    - Overview of the Neurotransmitter Classes (p. 114) &rarr; 4.5 Neurotransmitters
+    - The Roles and Functions of Neurotransmitters (p. 114) &rarr; 4.5 Neurotransmitters
+        - Amino Acid Neurotransmitters (p. 114) &rarr; 4.5 Neurotransmitters
+        - Monoamine Neurotransmitters (p. 114) &rarr; 4.5 Neurotransmitters
+        - Acetylcholine (p. 114) &rarr; 4.5 Neurotransmitters
+        - Unconventional Neurotransmitters (p. 114) &rarr; 4.5 Neurotransmitters
+        - Neuropeptides (p. 116) &rarr; 4.5 Neurotransmitters
+- **Pharmacology of Synaptic Transmission and Behavior** (p. 116) &rarr; 4.6 Pharmacology of Synaptic Transmission and Behaviour
+    - How Drugs Influence Synaptic Transmission (p. 116) &rarr; 4.6 Pharmacology of Synaptic Transmission and Behaviour
+    - Behavioral Pharmacology: Three Influential Lines of Research (p. 117) &rarr; 4.6 Pharmacology of Synaptic Transmission and Behaviour
+        - Wrinkles and Darts: Discovery of Receptor Subtypes (p. 117) &rarr; 4.6 Pharmacology of Synaptic Transmission and Behaviour
+        - Pleasure and Pain: Discovery of Endogenous Opioids (p. 119) &rarr; 4.6 Pharmacology of Synaptic Transmission and Behaviour
+        - Tremors and Mental Illness: Discovery of Antipsychotic Drugs (p. 119) &rarr; 4.6 Pharmacology of Synaptic Transmission and Behaviour
+
+## Chapter 5: The Research Methods of Biopsychology
+
+- **The Ironic Case of Professor P.** (p. 123) &rarr; The Ironic Case of Professor P.
+- **Methods of Visualizing and Stimulating the Living Human Brain** (p. 123) &rarr; 5.1 Methods of Visualising and Stimulating the Living Human Brain
+    - X-Ray-Based Techniques (p. 124) &rarr; 5.1 Methods of Visualising and Stimulating the Living Human Brain
+        - Contrast X-Rays (p. 124) &rarr; 5.1 Methods of Visualising and Stimulating the Living Human Brain
+        - Computed Tomography (p. 124) &rarr; 5.1 Methods of Visualising and Stimulating the Living Human Brain
+    - Radioactivity-Based Techniques (p. 125) &rarr; 5.1 Methods of Visualising and Stimulating the Living Human Brain
+    - Magnetic-Field-Based Techniques (p. 125) &rarr; 5.1 Methods of Visualising and Stimulating the Living Human Brain
+        - Magnetic Resonance Imaging (p. 125) &rarr; 5.1 Methods of Visualising and Stimulating the Living Human Brain
+        - Diffusion Tensor MRI (p. 126) &rarr; 5.1 Methods of Visualising and Stimulating the Living Human Brain
+        - Functional MRI (p. 126) &rarr; 5.1 Methods of Visualising and Stimulating the Living Human Brain
+    - Ultrasound-Based Techniques (p. 127) &rarr; 5.1 Methods of Visualising and Stimulating the Living Human Brain
+    - Transcranial Stimulation (p. 127) &rarr; 5.1 Methods of Visualising and Stimulating the Living Human Brain
+- **Recording Human Psychophysiological Activity** (p. 128) &rarr; 5.2 Recording Human Psychophysiological Activity
+    - Psychophysiological Measures of Brain Activity (p. 128) &rarr; 5.2 Recording Human Psychophysiological Activity
+        - Scalp Electroencephalography (p. 128) &rarr; 5.2 Recording Human Psychophysiological Activity
+        - Magnetoencephalography (p. 130) &rarr; 5.2 Recording Human Psychophysiological Activity
+    - Psychophysiological Measures of Somatic Nervous System Activity (p. 130) &rarr; 5.2 Recording Human Psychophysiological Activity
+        - Muscle Tension (p. 130) &rarr; 5.2 Recording Human Psychophysiological Activity
+        - Eye Movement (p. 130) &rarr; 5.2 Recording Human Psychophysiological Activity
+    - Psychophysiological Measures of Autonomic Nervous System Activity (p. 131) &rarr; 5.2 Recording Human Psychophysiological Activity
+        - Skin Conductance (p. 131) &rarr; 5.2 Recording Human Psychophysiological Activity
+        - Cardiovascular Activity (p. 131) &rarr; 5.2 Recording Human Psychophysiological Activity
+- **Invasive Physiological Research Methods** (p. 132) &rarr; 5.3 Invasive Physiological Research Methods
+    - Stereotaxic Surgery (p. 132) &rarr; 5.3 Invasive Physiological Research Methods
+    - Lesion Methods (p. 133) &rarr; 5.3 Invasive Physiological Research Methods
+        - Aspiration Lesions (p. 133) &rarr; 5.3 Invasive Physiological Research Methods
+        - Radio-Frequency Lesions (p. 133) &rarr; 5.3 Invasive Physiological Research Methods
+        - Knife Cuts (p. 133) &rarr; 5.3 Invasive Physiological Research Methods
+        - Reversible Lesions (p. 133) &rarr; 5.3 Invasive Physiological Research Methods
+        - Interpreting Lesion Effects (p. 133) &rarr; 5.3 Invasive Physiological Research Methods
+        - Bilateral and Unilateral Lesions (p. 134) &rarr; 5.3 Invasive Physiological Research Methods
+    - Electrical Stimulation (p. 134) &rarr; 5.3 Invasive Physiological Research Methods
+    - Invasive Electrophysiological Recording Methods (p. 134) &rarr; 5.3 Invasive Physiological Research Methods
+        - Intracellular Unit Recording (p. 134) &rarr; 5.3 Invasive Physiological Research Methods
+        - Extracellular Unit Recording (p. 134) &rarr; 5.3 Invasive Physiological Research Methods
+        - Multiple-Unit Recording (p. 135) &rarr; 5.3 Invasive Physiological Research Methods
+        - Invasive Eeg Recording (p. 135) &rarr; 5.3 Invasive Physiological Research Methods
+- **Pharmacological Research Methods** (p. 135) &rarr; 5.4 Pharmacological Research Methods
+    - Routes of Drug Administration (p. 136) &rarr; 5.4 Pharmacological Research Methods
+    - Selective Chemical Lesions (p. 136) &rarr; 5.4 Pharmacological Research Methods
+    - Measuring Chemical Activity of the Brain (p. 136) &rarr; 5.4 Pharmacological Research Methods
+        - 2-Deoxyglucose Technique (p. 136) &rarr; 5.4 Pharmacological Research Methods
+        - Cerebral Dialysis (p. 136) &rarr; 5.4 Pharmacological Research Methods
+    - Locating Neurotransmitters and Receptors in the Brain (p. 137) &rarr; 5.4 Pharmacological Research Methods
+        - Immunocytochemistry (p. 137) &rarr; 5.4 Pharmacological Research Methods
+        - In Situ Hybridization (p. 137) &rarr; 5.4 Pharmacological Research Methods
+- **Genetic Methods** (p. 137) &rarr; 5.5 Genetic Methods
+    - Gene Knockout Techniques (p. 138) &rarr; 5.5 Genetic Methods
+    - Gene Knockin Techniques (p. 138) &rarr; 5.5 Genetic Methods
+    - Gene Editing Techniques (p. 138) &rarr; 5.5 Genetic Methods
+    - Fantastic Fluorescence and the Brainbow (p. 139) &rarr; 5.5 Genetic Methods
+    - Optogenetics: A Neural Light Switch (p. 139) &rarr; 5.5 Genetic Methods
+- **Neuropsychological Testing** (p. 141) &rarr; 5.6 Neuropsychological Testing
+    - Modern Approach to Neuropsychological Testing (p. 141) &rarr; 5.6 Neuropsychological Testing
+        - The Single-Test Approach (p. 141) &rarr; 5.6 Neuropsychological Testing
+        - The Standardized-Test-Battery Approach (p. 141) &rarr; 5.6 Neuropsychological Testing
+        - The Customized-Test-Battery Approach (p. 142) &rarr; 5.6 Neuropsychological Testing
+    - Tests of the Common Neuropsychological Test Battery (p. 142) &rarr; 5.6 Neuropsychological Testing
+        - Intelligence (p. 142) &rarr; 5.6 Neuropsychological Testing
+        - Memory (p. 142) &rarr; 5.6 Neuropsychological Testing
+        - Language (p. 142) &rarr; 5.6 Neuropsychological Testing
+        - Language Lateralization (p. 143) &rarr; 5.6 Neuropsychological Testing
+    - Tests of Specific Neuropsychological Function (p. 143) &rarr; 5.6 Neuropsychological Testing
+        - Memory (p. 143) &rarr; 5.6 Neuropsychological Testing
+        - Language (p. 143) &rarr; 5.6 Neuropsychological Testing
+- **Behavioral Methods of Cognitive Neuroscience** (p. 144) &rarr; 5.7 Behavioural Methods of Cognitive Neuroscience
+- **The Case of the Vegetative Patient** (p. 144) &rarr; 5.7 Behavioural Methods of Cognitive Neuroscience
+    - Paired-Image Subtraction Technique (p. 144) &rarr; 5.7 Behavioural Methods of Cognitive Neuroscience
+    - Default Mode Network (p. 145) &rarr; 5.7 Behavioural Methods of Cognitive Neuroscience
+    - Mean Difference Images (p. 145) &rarr; 5.7 Behavioural Methods of Cognitive Neuroscience
+    - Functional Connectivity (p. 146) &rarr; 5.7 Behavioural Methods of Cognitive Neuroscience
+- **Biopsychological Paradigms of Animal Behavior** (p. 146) &rarr; 5.8 Biopsychological Paradigms of Animal Behaviour
+    - Paradigms for the Assessment of Species-Common Behaviors (p. 146) &rarr; 5.8 Biopsychological Paradigms of Animal Behaviour
+        - Open-Field Test (p. 146) &rarr; 5.8 Biopsychological Paradigms of Animal Behaviour
+        - Tests of Aggressive and Defensive Behavior (p. 146) &rarr; 5.8 Biopsychological Paradigms of Animal Behaviour
+        - Tests of Sexual Behavior (p. 146) &rarr; 5.8 Biopsychological Paradigms of Animal Behaviour
+    - Traditional Conditioning Paradigms (p. 147) &rarr; 5.8 Biopsychological Paradigms of Animal Behaviour
+    - Seminatural Animal Learning Paradigms (p. 147) &rarr; 5.8 Biopsychological Paradigms of Animal Behaviour
+        - Conditioned Taste Aversion (p. 147) &rarr; 5.8 Biopsychological Paradigms of Animal Behaviour
+        - Radial Arm Maze (p. 148) &rarr; 5.8 Biopsychological Paradigms of Animal Behaviour
+        - Morris Water Maze (p. 148) &rarr; 5.8 Biopsychological Paradigms of Animal Behaviour
+        - Conditioned Defensive Burying (p. 148) &rarr; 5.8 Biopsychological Paradigms of Animal Behaviour
+    - Thinking Creatively About Biopsychological Research (p. 148) &rarr; 5.8 Biopsychological Paradigms of Animal Behaviour
+
+## Chapter 6: The Visual System
+
+- **The Case of Mrs. Richards: Fortification Illusions and the Astronomer** (p. 153) &rarr; The Case of Mrs. Richards: Fortification Illusions and the Astronomer
+- **Light Enters the Eye and Reaches the Retina** (p. 154) &rarr; 6.1 Light Enters the Eye and Reaches the Retina
+    - Pupil and Lens (p. 154) &rarr; 6.1 Light Enters the Eye and Reaches the Retina
+    - Eye Position and Binocular Disparity (p. 155) &rarr; 6.1 Light Enters the Eye and Reaches the Retina
+- **The Retina and Translation of Light into Neural Signals** (p. 157) &rarr; 6.2 The Retina and Translation of Light into Neural Signals
+    - Structure of the Retina (p. 157) &rarr; 6.2 The Retina and Translation of Light into Neural Signals
+    - Cone and Rod Vision (p. 158) &rarr; 6.2 The Retina and Translation of Light into Neural Signals
+    - Spectral Sensitivity (p. 160) &rarr; 6.2 The Retina and Translation of Light into Neural Signals
+    - Eye Movement (p. 161) &rarr; 6.2 The Retina and Translation of Light into Neural Signals
+    - Visual Transduction: The Conversion of Light to Neural Signals (p. 162) &rarr; 6.2 The Retina and Translation of Light into Neural Signals
+- **From Retina to Primary Visual Cortex** (p. 163) &rarr; 6.3 From Retina to Primary Visual Cortex
+    - Retina-Geniculate-Striate System (p. 163) &rarr; 6.3 From Retina to Primary Visual Cortex
+    - Retinotopic Organization (p. 164) &rarr; 6.3 From Retina to Primary Visual Cortex
+    - The M and P Channels (p. 164) &rarr; 6.3 From Retina to Primary Visual Cortex
+- **Seeing Edges** (p. 165) &rarr; 6.4 Seeing Edges
+    - Contrast Enhancement (p. 165) &rarr; 6.4 Seeing Edges
+    - Receptive Fields of Visual Neurons: Hubel & Wiesel (p. 166) &rarr; 6.4 Seeing Edges
+    - Receptive Fields of the Retina-Geniculate-Striate System: Hubel & Wiesel (p. 166) &rarr; 6.4 Seeing Edges
+    - Receptive Fields of Primary Visual Cortex Neurons: Hubel & Wiesel (p. 167) &rarr; 6.4 Seeing Edges
+        - Simple Striate Cells (p. 168) &rarr; 6.4 Seeing Edges
+        - Complex Striate Cells (p. 168) &rarr; 6.4 Seeing Edges
+        - Binocular Complex Striate Cells (p. 168) &rarr; 6.4 Seeing Edges
+    - Organization of Primary Visual Cortex: Hubel & Wiesel’s Findings (p. 168) &rarr; 6.4 Seeing Edges
+- **The Case of Mrs. Richards, Revisited** (p. 169) &rarr; The Case of Mrs. Richards: Fortification Illusions and the Astronomer
+    - Changing Concept of the Characteristics of Visual Receptive Fields (p. 169) &rarr; 6.4 Seeing Edges
+        - Retinal Ganglion Cells (p. 169) &rarr; 6.4 Seeing Edges
+        - Lateral Geniculate Cells (p. 169) &rarr; 6.4 Seeing Edges
+    - Changing Concept of Visual Receptive Fields: Contextual Influences in Visual Processing (p. 169) &rarr; 6.4 Seeing Edges
+- **Seeing Color** (p. 170) &rarr; 6.5 Seeing Colour
+    - Component and Opponent Processing (p. 170) &rarr; 6.5 Seeing Colour
+    - Color Constancy and the Retinex Theory (p. 172) &rarr; 6.5 Seeing Colour
+- **Cortical Mechanisms of Vision and Conscious Awareness** (p. 173) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+    - Three Different Classes of Visual Cortex (p. 174) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+    - Damage to Primary Visual Cortex: Scotomas and Completion (p. 174) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+- **The Physiological Psychologist Who Made Faces Disappear** (p. 175) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+- **The Case of D.B., the Man Confused by His Own Blindsight** (p. 175) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+    - Functional Areas of Secondary and Association Visual Cortex (p. 176) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+    - Dorsal and Ventral Streams (p. 176) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+- **D.F., the Woman Who Could Grasp Objects She Did Not Consciously See** (p. 178) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+- **A.T., the Woman Who Could Not Accurately Grasp Unfamiliar Objects That She Saw** (p. 178) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+    - Prosopagnosia (p. 179) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+        - Is Prosopagnosia Specific to Faces? (p. 179) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+- **R.P., a Typical Prosopagnosic** (p. 179) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+    - What Brain Pathology is Associated with Prosopagnosia? (p. 179) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+    - Can Prosopagnosics Perceive Faces in the Absence of Conscious Awareness? (p. 180) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+    - Akinetopsia (p. 180) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+- **Two Cases of Drug-Induced Akinetopsia** (p. 180) &rarr; 6.6 Cortical Mechanisms of Vision and Conscious Awareness
+
+## Chapter 7: Sensory Systems, Perception, and Attention
+
+- **The Case of the Man Who Could See Only One Thing at a Time** (p. 185) &rarr; The Case of the Man Who Could See Only One Thing at a Time
+- **Principles of Sensory System Organization** (p. 185) &rarr; 7.1 Principles of Sensory System Organisation
+    - Types of Sensory Areas of Cortex (p. 185) &rarr; 7.1 Principles of Sensory System Organisation
+    - Features of Sensory System Organization (p. 185) &rarr; 7.1 Principles of Sensory System Organisation
+- **Case of the Man Who Mistook His Wife for a Hat** (p. 186) &rarr; 7.1 Principles of Sensory System Organisation
+    - Functional Segregation (p. 186) &rarr; 7.1 Principles of Sensory System Organisation
+    - Parallel Processing (p. 186) &rarr; 7.1 Principles of Sensory System Organisation
+    - Summary Model of Sensory System Organization (p. 186) &rarr; 7.1 Principles of Sensory System Organisation
+- **Auditory System** (p. 187) &rarr; 7.2 The Auditory System
+    - Physical and Perceptual Dimensions of Sound (p. 187) &rarr; 7.2 The Auditory System
+    - The Ear (p. 188) &rarr; 7.2 The Auditory System
+    - From the Ear to the Primary Auditory Cortex (p. 189) &rarr; 7.2 The Auditory System
+    - Auditory Cortex (p. 189) &rarr; 7.2 The Auditory System
+        - Organization of Primate Auditory Cortex (p. 190) &rarr; 7.2 The Auditory System
+        - What Sounds Should be used to Study auditory Cortex? (p. 190) &rarr; 7.2 The Auditory System
+        - What Analyses does the Auditory Cortex Perform? (p. 191) &rarr; 7.2 The Auditory System
+        - Two Streams of Auditory Cortex (p. 191) &rarr; 7.2 The Auditory System
+        - Auditory–Visual Interactions (p. 191) &rarr; 7.2 The Auditory System
+        - Where does the Perception of Pitch Occur? (p. 191) &rarr; 7.2 The Auditory System
+    - Effects of Damage to the Auditory System (p. 192) &rarr; 7.2 The Auditory System
+        - Auditory Cortex Damage (p. 192) &rarr; 7.2 The Auditory System
+        - Deafness in Humans (p. 192) &rarr; 7.2 The Auditory System
+- **Somatosensory System: Touch and Pain** (p. 194) &rarr; 7.3 The Somatosensory System: Touch and Pain
+    - Cutaneous Receptors (p. 194) &rarr; 7.3 The Somatosensory System: Touch and Pain
+    - Two Major Somatosensory Pathways (p. 194) &rarr; 7.3 The Somatosensory System: Touch and Pain
+    - Cortical Areas of Somatosensation (p. 195) &rarr; 7.3 The Somatosensory System: Touch and Pain
+        - Effects of Damage to the Primary Somatosensory Cortex (p. 197) &rarr; 7.3 The Somatosensory System: Touch and Pain
+    - Somatosensory System and Association Cortex (p. 198) &rarr; 7.3 The Somatosensory System: Touch and Pain
+- **The Case of W.M., Who Reduced His Scotoma with His Hand** (p. 198) &rarr; 7.3 The Somatosensory System: Touch and Pain
+    - Somatosensory Agnosias (p. 198) &rarr; 7.3 The Somatosensory System: Touch and Pain
+- **The Case of Aunt Betty, Who Lost Half of Her Body** (p. 198) &rarr; 7.3 The Somatosensory System: Touch and Pain
+    - Rubber-Hand Illusion (p. 199) &rarr; 7.3 The Somatosensory System: Touch and Pain
+    - Perception of Pain (p. 199) &rarr; 7.3 The Somatosensory System: Touch and Pain
+        - Pain is Adaptive (p. 199) &rarr; 7.3 The Somatosensory System: Touch and Pain
+- **The Case of Miss C., the Woman Who Felt No Pain** (p. 199) &rarr; 7.3 The Somatosensory System: Touch and Pain
+    - Pain has no Clear Cortical Representation (p. 200) &rarr; 7.3 The Somatosensory System: Touch and Pain
+    - Pain is Modulated by Cognition and Emotion (p. 200) &rarr; 7.3 The Somatosensory System: Touch and Pain
+    - Neuropathic Pain (p. 201) &rarr; 7.3 The Somatosensory System: Touch and Pain
+- **Chemical Senses: Smell and Taste** (p. 202) &rarr; 7.4 Chemical Senses: Smell and Taste
+    - Adaptive Roles of the Chemical Senses (p. 202) &rarr; 7.4 Chemical Senses: Smell and Taste
+    - Olfactory System (p. 202) &rarr; 7.4 Chemical Senses: Smell and Taste
+    - Gustatory System (p. 204) &rarr; 7.4 Chemical Senses: Smell and Taste
+    - Brain Damage and the Chemical Senses (p. 205) &rarr; 7.4 Chemical Senses: Smell and Taste
+- **Perception** (p. 206) &rarr; 7.5 Perception
+    - Role of Prior Experience in Perception (p. 206) &rarr; 7.5 Perception
+    - Perceptual Decision Making (p. 206) &rarr; 7.5 Perception
+    - The Binding Problem (p. 207) &rarr; 7.5 Perception
+- **Selective Attention** (p. 208) &rarr; 7.6 Selective Attention
+    - Characteristics of Selective Attention (p. 208) &rarr; 7.6 Selective Attention
+    - Change Blindness (p. 209) &rarr; 7.6 Selective Attention
+    - Neural Mechanisms of Attention (p. 210) &rarr; 7.6 Selective Attention
+    - Simultanagnosia (p. 210) &rarr; 7.6 Selective Attention
+
+## Chapter 8: The Sensorimotor System
+
+- **The Case of Rhonelle, the Dexterous Cashier** (p. 214) &rarr; The Case of Rhonelle, the Dexterous Cashier
+- **Three Principles of Sensorimotor Function** (p. 214) &rarr; 8.1 Three Principles of Sensorimotor Function
+    - The Sensorimotor System Is Hierarchically Organized (p. 214) &rarr; 8.1 Three Principles of Sensorimotor Function
+    - Motor Output Is Guided by Sensory Input (p. 215) &rarr; 8.1 Three Principles of Sensorimotor Function
+- **The Case of G.O., the Man with Too Little Feedback** (p. 215) &rarr; 8.1 Three Principles of Sensorimotor Function
+    - Learning Changes the Nature and Locus of Sensorimotor Control (p. 215) &rarr; 8.1 Three Principles of Sensorimotor Function
+    - General Model of Sensorimotor System Function (p. 215) &rarr; 8.1 Three Principles of Sensorimotor Function
+- **Sensorimotor Association Cortex** (p. 216) &rarr; 8.2 Sensorimotor Association Cortex
+    - Posterior Parietal Association Cortex (p. 216) &rarr; 8.2 Sensorimotor Association Cortex
+- **The Case of Mrs. S., the Woman Who Turned in Circles** (p. 217) &rarr; 8.2 Sensorimotor Association Cortex
+    - Dorsolateral Prefrontal Association Cortex (p. 218) &rarr; 8.2 Sensorimotor Association Cortex
+- **Secondary Motor Cortex** (p. 219) &rarr; 8.3 Secondary Motor Cortex
+    - Identifying the Areas of Secondary Motor Cortex (p. 219) &rarr; 8.3 Secondary Motor Cortex
+    - Mirror Neurons (p. 219) &rarr; 8.3 Secondary Motor Cortex
+- **Primary Motor Cortex** (p. 221) &rarr; 8.4 Primary Motor Cortex
+    - Conventional View of Primary Motor Cortex Function (p. 221) &rarr; 8.4 Primary Motor Cortex
+    - Current View of Primary Motor Cortex Function (p. 222) &rarr; 8.4 Primary Motor Cortex
+- **Belle: The Monkey That Controlled a Robot with Her Mind** (p. 222) &rarr; 8.4 Primary Motor Cortex
+    - Effects of Primary Motor Cortex Lesions (p. 223) &rarr; 8.4 Primary Motor Cortex
+- **Cerebellum and Basal Ganglia** (p. 223) &rarr; 8.5 Cerebellum and Basal Ganglia
+    - Cerebellum (p. 223) &rarr; 8.5 Cerebellum and Basal Ganglia
+    - Basal Ganglia (p. 223) &rarr; 8.5 Cerebellum and Basal Ganglia
+- **Descending Motor Pathways** (p. 224) &rarr; 8.6 Descending Motor Pathways
+    - The Two Dorsolateral Motor Pathways and the Two Ventromedial Motor Pathways (p. 225) &rarr; 8.6 Descending Motor Pathways
+- **Sensorimotor Spinal Circuits** (p. 225) &rarr; 8.7 Sensorimotor Spinal Circuits
+    - Muscles (p. 225) &rarr; 8.7 Sensorimotor Spinal Circuits
+    - Receptor Organs of Tendons and Muscles (p. 226) &rarr; 8.7 Sensorimotor Spinal Circuits
+    - Stretch Reflex (p. 227) &rarr; 8.7 Sensorimotor Spinal Circuits
+    - Withdrawal Reflex (p. 228) &rarr; 8.7 Sensorimotor Spinal Circuits
+    - Reciprocal Innervation (p. 228) &rarr; 8.7 Sensorimotor Spinal Circuits
+    - Recurrent Collateral Inhibition (p. 230) &rarr; 8.7 Sensorimotor Spinal Circuits
+    - Walking: A Complex Sensorimotor Reflex (p. 230) &rarr; 8.7 Sensorimotor Spinal Circuits
+- **Central Sensorimotor Programs and Learning** (p. 231) &rarr; 8.8 Central Sensorimotor Programs and Learning
+    - A Hierarchy of Central Sensorimotor Programs (p. 231) &rarr; 8.8 Central Sensorimotor Programs and Learning
+    - Characteristics of Central Sensorimotor Programs (p. 231) &rarr; 8.8 Central Sensorimotor Programs and Learning
+        - Central Sensorimotor Programs are Capable of Motor Equivalence (p. 231) &rarr; 8.8 Central Sensorimotor Programs and Learning
+        - Sensory Information that Controls Central Sensorimotor Programs is not Necessarily Conscious (p. 231) &rarr; 8.8 Central Sensorimotor Programs and Learning
+        - Central Sensorimotor Programs can Develop without Practice (p. 232) &rarr; 8.8 Central Sensorimotor Programs and Learning
+        - Practice can Create Central Sensorimotor Programs (p. 232) &rarr; 8.8 Central Sensorimotor Programs and Learning
+    - Functional Brain Imaging of Sensorimotor Learning (p. 233) &rarr; 8.8 Central Sensorimotor Programs and Learning
+    - Neuroplasticity Associated with Sensorimotor Learning (p. 234) &rarr; 8.8 Central Sensorimotor Programs and Learning
+- **The Case of Rhonelle, Revisited** (p. 234) &rarr; 8.8 Central Sensorimotor Programs and Learning
+
+## Chapter 9: Development of the Nervous System
+
+- **The Case of Genie** (p. 238) &rarr; The Case of Genie
+- **Five Phases of Early Neurodevelopment** (p. 238) &rarr; 9.1 Five Phases of Early Neurodevelopment
+    - Stem Cells and Neurodevelopment (p. 238) &rarr; 9.1 Five Phases of Early Neurodevelopment
+    - Induction of the Neural Plate (p. 239) &rarr; 9.1 Five Phases of Early Neurodevelopment
+    - Neural Proliferation (p. 240) &rarr; 9.1 Five Phases of Early Neurodevelopment
+    - Migration and Aggregation (p. 240) &rarr; 9.1 Five Phases of Early Neurodevelopment
+        - Migration (p. 240) &rarr; 9.1 Five Phases of Early Neurodevelopment
+        - Aggregation (p. 242) &rarr; 9.1 Five Phases of Early Neurodevelopment
+    - Axon Growth and Synapse Formation (p. 242) &rarr; 9.1 Five Phases of Early Neurodevelopment
+        - Axon Growth (p. 242) &rarr; 9.1 Five Phases of Early Neurodevelopment
+        - Synapse Formation (p. 244) &rarr; 9.1 Five Phases of Early Neurodevelopment
+    - Neuron Death and Synapse Rearrangement (p. 245) &rarr; 9.1 Five Phases of Early Neurodevelopment
+        - Synapse Rearrangement (p. 246) &rarr; 9.1 Five Phases of Early Neurodevelopment
+- **Early Cerebral Development in Humans** (p. 246) &rarr; 9.2 Early Cerebral Development in Humans
+    - Prenatal Growth of the Human Brain (p. 247) &rarr; 9.2 Early Cerebral Development in Humans
+    - Postnatal Growth of the Human Brain (p. 247) &rarr; 9.2 Early Cerebral Development in Humans
+    - Development of the Prefrontal Cortex (p. 248) &rarr; 9.2 Early Cerebral Development in Humans
+- **Effects of Experience on Postnatal Development of Neural Circuits** (p. 248) &rarr; 9.3 Effects of Experience on Postnatal Development of Neural Circuits
+    - Critical Periods vs. Sensitive Periods (p. 248) &rarr; 9.3 Effects of Experience on Postnatal Development of Neural Circuits
+    - Early Studies of Experience and Neurodevelopment: Deprivation and Enrichment (p. 249) &rarr; 9.3 Effects of Experience on Postnatal Development of Neural Circuits
+    - Experience and Neurodevelopment (p. 249) &rarr; 9.3 Effects of Experience on Postnatal Development of Neural Circuits
+        - Ocular Dominance Columns (p. 249) &rarr; 9.3 Effects of Experience on Postnatal Development of Neural Circuits
+        - Topographic Sensory Cortex Maps (p. 250) &rarr; 9.3 Effects of Experience on Postnatal Development of Neural Circuits
+- **Neuroplasticity in Adults** (p. 250) &rarr; 9.4 Neuroplasticity in Adults
+    - Neurogenesis in Adult Mammals (p. 250) &rarr; 9.4 Neuroplasticity in Adults
+        - Effects of Experience on Adult Neurogenesis (p. 251) &rarr; 9.4 Neuroplasticity in Adults
+        - Functions of Newly Born Neurons in the Adult Brain (p. 251) &rarr; 9.4 Neuroplasticity in Adults
+    - Effects of Experience on the Reorganization of the Adult Cortex (p. 252) &rarr; 9.4 Neuroplasticity in Adults
+- **Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome** (p. 252) &rarr; 9.5 Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome
+    - Autism Spectrum Disorder (p. 253) &rarr; 9.5 Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome
+        - ASD is a Heterogeneous Disorder (p. 253) &rarr; 9.5 Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome
+- **The Case of Alex: Are You Ready to Rock?** (p. 253) &rarr; 9.5 Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome
+- **The Case of S.D.: The Self-Advocate** (p. 253) &rarr; 9.5 Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome
+    - ASD Savants (p. 254) &rarr; 9.5 Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome
+- **Cases of Amazing Savant Abilities** (p. 254) &rarr; 9.5 Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome
+    - Genetic Mechanisms of ASD (p. 254) &rarr; 9.5 Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome
+    - Neural Mechanisms of ASD (p. 254) &rarr; 9.5 Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome
+    - Williams Syndrome (p. 255) &rarr; 9.5 Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome
+- **The Case of Anne Louise McGarrah: Uneven Abilities** (p. 255) &rarr; 9.5 Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome
+    - Epilogue (p. 256) &rarr; 9.5 Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome
+
+## Chapter 10: Brain Damage and Neuroplasticity
+
+- **The Ironic Case of Professor P.** (p. 259) &rarr; The Ironic Case of Professor P.
+- **Causes of Brain Damage** (p. 260) &rarr; 10.1 Causes of Brain Damage
+    - Brain Tumors (p. 260) &rarr; 10.1 Causes of Brain Damage
+    - Strokes (p. 261) &rarr; 10.1 Causes of Brain Damage
+        - Cerebral Hemorrhage (p. 251) &rarr; 10.1 Causes of Brain Damage
+        - Cerebral Ischemia (p. 262) &rarr; 10.1 Causes of Brain Damage
+    - Traumatic Brain Injuries (p. 262) &rarr; 10.1 Causes of Brain Damage
+- **The Case of Junior Seau** (p. 264) &rarr; 10.1 Causes of Brain Damage
+    - Infections of the Brain (p. 264) &rarr; 10.1 Causes of Brain Damage
+        - Bacterial Infections (p. 264) &rarr; 10.1 Causes of Brain Damage
+        - Viral Infections (p. 264) &rarr; 10.1 Causes of Brain Damage
+    - Neurotoxins (p. 265) &rarr; 10.1 Causes of Brain Damage
+    - Genetic Factors (p. 265) &rarr; 10.1 Causes of Brain Damage
+    - Programmed Cell Death (p. 265) &rarr; 10.1 Causes of Brain Damage
+- **Neurological Diseases** (p. 266) &rarr; 10.2 Neurological Diseases
+    - Epilepsy (p. 266) &rarr; 10.2 Neurological Diseases
+        - Focal Seizures (p. 267) &rarr; 10.2 Neurological Diseases
+- **The Subtlety of Complex Seizures: Two Cases** (p. 267) &rarr; 10.2 Neurological Diseases
+    - Generalized Seizures (p. 267) &rarr; 10.2 Neurological Diseases
+    - Parkinson’s Disease (p. 268) &rarr; 10.2 Neurological Diseases
+    - Huntington’s Disease (p. 269) &rarr; 10.2 Neurological Diseases
+    - Multiple Sclerosis (p. 270) &rarr; 10.2 Neurological Diseases
+    - Alzheimer’s Disease (p. 271) &rarr; 10.2 Neurological Diseases
+- **Animal Models of Human Neurological Diseases** (p. 274) &rarr; 10.3 Animal Models of Human Neurological Diseases
+    - Kindling Model of Epilepsy (p. 274) &rarr; 10.3 Animal Models of Human Neurological Diseases
+    - MPTP Model of Parkinson’s Disease (p. 275) &rarr; 10.3 Animal Models of Human Neurological Diseases
+- **The Case of the Frozen Drug Users** (p. 275) &rarr; 10.3 Animal Models of Human Neurological Diseases
+- **Responses to Nervous System Damage: Degeneration, Regeneration, Reorganization, and Recovery** (p. 275) &rarr; 10.4 Responses to Nervous System Damage: Degeneration, Regeneration, Reorganisation, and Recovery
+    - Neural Degeneration (p. 275) &rarr; 10.4 Responses to Nervous System Damage: Degeneration, Regeneration, Reorganisation, and Recovery
+    - Neural Regeneration (p. 276) &rarr; 10.4 Responses to Nervous System Damage: Degeneration, Regeneration, Reorganisation, and Recovery
+    - Neural Reorganization (p. 278) &rarr; 10.4 Responses to Nervous System Damage: Degeneration, Regeneration, Reorganisation, and Recovery
+        - Cortical Reorganization Following Damage in Laboratory Animals (p. 278) &rarr; 10.4 Responses to Nervous System Damage: Degeneration, Regeneration, Reorganisation, and Recovery
+        - Cortical Reorganization Following Damage in Humans (p. 278) &rarr; 10.4 Responses to Nervous System Damage: Degeneration, Regeneration, Reorganisation, and Recovery
+        - Mechanisms of Neural Reorganization (p. 279) &rarr; 10.4 Responses to Nervous System Damage: Degeneration, Regeneration, Reorganisation, and Recovery
+    - Recovery of Function after CNS Damage (p. 280) &rarr; 10.4 Responses to Nervous System Damage: Degeneration, Regeneration, Reorganisation, and Recovery
+- **Neuroplasticity and the Treatment of CNS Damage** (p. 280) &rarr; 10.5 Neuroplasticity and the Treatment of CNS Damage
+    - Neurotransplantation as a Treatment for CNS Damage: Early Research (p. 281) &rarr; 10.5 Neuroplasticity and the Treatment of CNS Damage
+- **The Case of Roberto Garcia d’Orta: The Lizard Gets an Autotransplant** (p. 281) &rarr; 10.5 Neuroplasticity and the Treatment of CNS Damage
+    - Modern Research on Neurotransplantation (p. 282) &rarr; 10.5 Neuroplasticity and the Treatment of CNS Damage
+    - Promoting Recovery from CNS Damage by Rehabilitative Training (p. 282) &rarr; 10.5 Neuroplasticity and the Treatment of CNS Damage
+        - Treating Strokes (p. 282) &rarr; 10.5 Neuroplasticity and the Treatment of CNS Damage
+        - Treating Spinal Injury (p. 283) &rarr; 10.5 Neuroplasticity and the Treatment of CNS Damage
+        - Benefits of Cognitive and Physical Exercise (p. 283) &rarr; 10.5 Neuroplasticity and the Treatment of CNS Damage
+        - Treating Phantom Limbs (p. 283) &rarr; 10.5 Neuroplasticity and the Treatment of CNS Damage
+- **Cases of Carlos and Philip: Phantom Limbs and Ramachandran** (p. 284) &rarr; 10.5 Neuroplasticity and the Treatment of CNS Damage
+- **The Ironic Case of Professor P.: Recovery** (p. 284) &rarr; 10.5 Neuroplasticity and the Treatment of CNS Damage
+
+## Chapter 11: Learning, Memory, and Amnesia
+
+- **Amnesic Effects of Bilateral Medial Temporal Lobectomy** (p. 289) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+- **The Case of H.M., the Man Who Changed the Study of Memory** (p. 289) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+    - Formal Assessment of H.M.’s Anterograde Amnesia: Discovery of Unconscious Memories (p. 290) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+        - Digit-Span + 1 Test (p. 290) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+        - Block-Tapping Test (p. 290) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+        - Mirror-Drawing Test (p. 290) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+        - Incomplete-Pictures Test (p. 291) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+        - Pavlovian Conditioning (p. 291) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+    - Three Major Scientific Contributions of H.M.’s Case (p. 291) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+    - Medial Temporal Lobe Amnesia (p. 292) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+    - Semantic and Episodic Memories (p. 292) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+- **The Case of K.C., the Man Who Can’t Time Travel** (p. 293) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+- **The Case of the Clever Neuropsychologist: Spotting Episodic  Memory Deficits** (p. 293) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+    - Effects of Global Cerebral Ischemia on the Hippocampus and Memory (p. 294) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+- **The Case of R.B., Product of a Bungled Operation** (p. 294) &rarr; 11.1 Amnesic Effects of Bilateral Medial Temporal Lobectomy
+- **Amnesias of Korsakoff’s Syndrome and Alzheimer’s Disease** (p. 295) &rarr; 11.2 Amnesias of Korsakoff's Syndrome and Alzheimer's Disease
+    - Amnesia of Korsakoff’s Syndrome (p. 295) &rarr; 11.2 Amnesias of Korsakoff's Syndrome and Alzheimer's Disease
+- **The Up-Your-Nose Case of N.A.** (p. 295) &rarr; 11.2 Amnesias of Korsakoff's Syndrome and Alzheimer's Disease
+    - Amnesia of Alzheimer’s Disease (p. 295) &rarr; 11.2 Amnesias of Korsakoff's Syndrome and Alzheimer's Disease
+- **Amnesia after Traumatic Brain Injury: Evidence for Consolidation** (p. 296) &rarr; 11.3 Amnesia after Traumatic Brain Injury: Evidence for Consolidation
+    - Posttraumatic Amnesia (p. 296) &rarr; 11.3 Amnesia after Traumatic Brain Injury: Evidence for Consolidation
+    - Gradients of Retrograde Amnesia and Memory Consolidation (p. 296) &rarr; 11.3 Amnesia after Traumatic Brain Injury: Evidence for Consolidation
+        - Hippocampus and Consolidation (p. 297) &rarr; 11.3 Amnesia after Traumatic Brain Injury: Evidence for Consolidation
+        - Reconsolidation (p. 298) &rarr; 11.3 Amnesia after Traumatic Brain Injury: Evidence for Consolidation
+- **Evolving Perspective of the Role of the Hippocampus in Memory** (p. 298) &rarr; 11.4 Evolving Perspective of the Role of the Hippocampus in Memory
+    - Animal Models of Object-Recognition Amnesia: The Delayed Nonmatching-to-Sample Test (p. 299) &rarr; 11.4 Evolving Perspective of the Role of the Hippocampus in Memory
+        - Monkey Version of the Delayed Nonmatching-to-Sample Test (p. 299) &rarr; 11.4 Evolving Perspective of the Role of the Hippocampus in Memory
+        - Rat Version of the Delayed Non-Matching-to-Sample Test (p. 300) &rarr; 11.4 Evolving Perspective of the Role of the Hippocampus in Memory
+    - Neuroanatomical Basis of the Object-Recognition Deficits Resulting from Bilateral Medial Temporal Lobectomy (p. 302) &rarr; 11.4 Evolving Perspective of the Role of the Hippocampus in Memory
+- **Neurons of the Medial Temporal Lobes and Memory** (p. 303) &rarr; 11.5 Neurons of the Medial Temporal Lobes and Memory
+    - Morris Water Maze Test (p. 303) &rarr; 11.5 Neurons of the Medial Temporal Lobes and Memory
+    - Radial Arm Maze Test (p. 303) &rarr; 11.5 Neurons of the Medial Temporal Lobes and Memory
+    - Hippocampal Place Cells and Entorhinal Grid Cells (p. 304) &rarr; 11.5 Neurons of the Medial Temporal Lobes and Memory
+        - The Hippocampus as a Cognitive Map (p. 305) &rarr; 11.5 Neurons of the Medial Temporal Lobes and Memory
+    - Jennifer Aniston Neurons: Concept Cells (p. 305) &rarr; 11.5 Neurons of the Medial Temporal Lobes and Memory
+    - Engram Cells (p. 306) &rarr; 11.5 Neurons of the Medial Temporal Lobes and Memory
+- **Where Are Memories Stored?** (p. 306) &rarr; 11.6 Where Are Memories Stored?
+    - Five Brain Areas Implicated in Memory (p. 306) &rarr; 11.6 Where Are Memories Stored?
+        - Inferotemporal Cortex (p. 306) &rarr; 11.6 Where Are Memories Stored?
+        - Amygdala (p. 307) &rarr; 11.6 Where Are Memories Stored?
+        - Prefrontal Cortex (p. 307) &rarr; 11.6 Where Are Memories Stored?
+- **The Case of the Cook Who Couldn’t** (p. 308) &rarr; 11.6 Where Are Memories Stored?
+    - Cerebellum and Striatum (p. 308) &rarr; 11.6 Where Are Memories Stored?
+- **Cellular Mechanisms of Learning and Memory** (p. 309) &rarr; 11.7 Cellular Mechanisms of Learning and Memory
+    - Synaptic Mechanisms of Learning and Memory: Long-Term Potentiation (p. 309) &rarr; 11.7 Cellular Mechanisms of Learning and Memory
+    - Induction of LTP: Learning (p. 311) &rarr; 11.7 Cellular Mechanisms of Learning and Memory
+    - Maintenance and Expression of LTP: Storage and Recall (p. 312) &rarr; 11.7 Cellular Mechanisms of Learning and Memory
+    - Variability of LTP (p. 312) &rarr; 11.7 Cellular Mechanisms of Learning and Memory
+    - Nonsynaptic Mechanisms of Learning and Memory (p. 313) &rarr; 11.7 Cellular Mechanisms of Learning and Memory
+- **Conclusion: Biopsychology of Memory and You** (p. 313) &rarr; 11.8 Conclusion: Biopsychology of Memory and You
+    - Infantile Amnesia (p. 313) &rarr; 11.8 Conclusion: Biopsychology of Memory and You
+    - Smart Drugs: Do They Work? (p. 313) &rarr; 11.8 Conclusion: Biopsychology of Memory and You
+    - Posttraumatic Amnesia and Episodic Memory (p. 314) &rarr; 11.8 Conclusion: Biopsychology of Memory and You
+- **The Case of R.M., the Biopsychologist Who Remembered H.M.** (p. 314) &rarr; 11.8 Conclusion: Biopsychology of Memory and You
+
+## Chapter 12: Hunger, Eating, and Health
+
+- **The Case of the Man Who Forgot Not to Eat** (p. 318) &rarr; The Case of the Man Who Forgot Not to Eat
+- **Digestion, Energy Storage, and Energy Utilization** (p. 318) &rarr; 12.1 Digestion, Energy Storage, and Energy Utilisation
+    - Digestion and Energy Storage in the Body (p. 318) &rarr; 12.1 Digestion, Energy Storage, and Energy Utilisation
+        - Digestion (p. 318) &rarr; 12.1 Digestion, Energy Storage, and Energy Utilisation
+        - Energy Storage in the Body (p. 318) &rarr; 12.1 Digestion, Energy Storage, and Energy Utilisation
+    - Three Phases of Energy Metabolism (p. 319) &rarr; 12.1 Digestion, Energy Storage, and Energy Utilisation
+- **Theories of Hunger and Eating: Set Points versus Positive Incentives** (p. 320) &rarr; 12.2 Two Theories of Hunger: Set Points versus Positive Incentives
+    - Set-Point Assumption (p. 320) &rarr; 12.2 Two Theories of Hunger: Set Points versus Positive Incentives
+        - Glucostatic Theory (p. 322) &rarr; 12.2 Two Theories of Hunger: Set Points versus Positive Incentives
+        - Lipostatic Theory (p. 322) &rarr; 12.2 Two Theories of Hunger: Set Points versus Positive Incentives
+        - Problems with Set-Point Theories of Hunger and Eating (p. 322) &rarr; 12.2 Two Theories of Hunger: Set Points versus Positive Incentives
+    - Positive-Incentive Perspective (p. 323) &rarr; 12.2 Two Theories of Hunger: Set Points versus Positive Incentives
+- **Factors That Determine What, When, and How Much We Eat** (p. 323) &rarr; 12.3 What, When, and How Much We Eat
+    - Factors That Influence What We Eat (p. 323) &rarr; 12.3 What, When, and How Much We Eat
+        - Learned Taste Preferences and Aversions (p. 323) &rarr; 12.3 What, When, and How Much We Eat
+        - Learning to Eat Vitamins and Minerals (p. 324) &rarr; 12.3 What, When, and How Much We Eat
+    - Factors That Influence When We Eat (p. 324) &rarr; 12.3 What, When, and How Much We Eat
+        - Premeal Hunger (p. 324) &rarr; 12.3 What, When, and How Much We Eat
+        - Pavlovian Conditioning of Hunger (p. 324) &rarr; 12.3 What, When, and How Much We Eat
+    - Factors That Influence How Much We Eat (p. 324) &rarr; 12.3 What, When, and How Much We Eat
+        - Satiety Signals (p. 325) &rarr; 12.3 What, When, and How Much We Eat
+        - Sham Eating (p. 325) &rarr; 12.3 What, When, and How Much We Eat
+        - Appetizer Effect and Satiety (p. 325) &rarr; 12.3 What, When, and How Much We Eat
+        - Serving Size and Satiety (p. 325) &rarr; 12.3 What, When, and How Much We Eat
+        - Social Influences and Satiety (p. 325) &rarr; 12.3 What, When, and How Much We Eat
+        - Sensory-Specific Satiety (p. 325) &rarr; 12.3 What, When, and How Much We Eat
+- **Physiological Research on Hunger and Satiety** (p. 327) &rarr; 12.4 Physiological Research on Hunger and Satiety
+    - Role of Blood Glucose Levels in Hunger and Satiety (p. 327) &rarr; 12.4 Physiological Research on Hunger and Satiety
+    - Evolution of Research on the Role of Hypothalamic Nuclei in Hunger and Satiety (p. 327) &rarr; 12.4 Physiological Research on Hunger and Satiety
+        - The Myth of Hypothalamic Hunger and Satiety Centers (p. 327) &rarr; 12.4 Physiological Research on Hunger and Satiety
+        - Modern Research on the Role of Hypothalamic Nuclei in Hunger and Satiety (p. 328) &rarr; 12.4 Physiological Research on Hunger and Satiety
+    - Role of the Gastrointestinal Tract in Satiety (p. 328) &rarr; 12.4 Physiological Research on Hunger and Satiety
+    - Hypothalamic Circuits, Peptides, and the Gut (p. 330) &rarr; 12.4 Physiological Research on Hunger and Satiety
+    - Serotonin and Satiety (p. 330) &rarr; 12.4 Physiological Research on Hunger and Satiety
+    - Prader-Willi Syndrome: Patients with Insatiable Hunger (p. 331) &rarr; 12.4 Physiological Research on Hunger and Satiety
+- **Prader-Willi Syndrome: The Case of Miss A.** (p. 331) &rarr; 12.4 Physiological Research on Hunger and Satiety
+- **Body-Weight Regulation: Set Points versus Settling Points** (p. 331) &rarr; 12.5 Body-Weight Regulation: Set Points versus Settling Points
+    - Set-Point Assumptions about Body Weight and Eating (p. 331) &rarr; 12.5 Body-Weight Regulation: Set Points versus Settling Points
+        - Variability of Body Weight (p. 331) &rarr; 12.5 Body-Weight Regulation: Set Points versus Settling Points
+        - Set Points and Health (p. 331) &rarr; 12.5 Body-Weight Regulation: Set Points versus Settling Points
+        - Regulation of Body Weight by Changes in the Efficiency of Energy Utilization (p. 332) &rarr; 12.5 Body-Weight Regulation: Set Points versus Settling Points
+    - Set Points and Settling Points in Weight Control (p. 333) &rarr; 12.5 Body-Weight Regulation: Set Points versus Settling Points
+- **Human Overeating: Causes, Mechanisms, and Treatments** (p. 335) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+    - Overeating: Who Needs to Be Concerned? (p. 335) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+    - Overeating: Why Is There An Epidemic? (p. 335) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+    - Why Do Some People Gain Weight from Overeating While Others Do Not? (p. 336) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+        - Differences in Energy Expenditure (p. 336) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+        - Differences in Gut Microbiome Composition (p. 336) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+        - Genetic and Epigenetic Factors (p. 336) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+    - Why Are Weight-Loss Programs Often Ineffective? (p. 337) &rarr; 12.5 Body-Weight Regulation: Set Points versus Settling Points
+    - Leptin and the Regulation of Body Fat (p. 337) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+        - The Discovery of Leptin (p. 338) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+        - Leptin, Insulin, and the Arcuate Melanocortin System (p. 338) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+        - Leptin as a Treatment for High Body-Fat Levels in Humans (p. 338) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+- **The Case of the Child with No Leptin** (p. 339) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+    - Treatment of Overeating and High Body-Fat Levels (p. 339) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+        - Serotonergic Agonists (p. 339) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+        - Gastric Surgery (p. 339) &rarr; 12.6 Human Overeating: Causes, Mechanisms, and Treatments
+- **Anorexia and Bulimia Nervosa** (p. 340) &rarr; 12.7 Anorexia Nervosa and Bulimia Nervosa
+    - Anorexia and Bulimia Nervosa (p. 340) &rarr; 12.7 Anorexia Nervosa and Bulimia Nervosa
+        - Anorexia Nervosa (p. 340) &rarr; 12.7 Anorexia Nervosa and Bulimia Nervosa
+        - Bulimia Nervosa (p. 340) &rarr; 12.7 Anorexia Nervosa and Bulimia Nervosa
+    - Relation between Anorexia and Bulimia (p. 340) &rarr; 12.7 Anorexia Nervosa and Bulimia Nervosa
+    - Anorexia and Positive Incentives (p. 341) &rarr; 12.7 Anorexia Nervosa and Bulimia Nervosa
+    - Anorexia Nervosa: A Hypothesis (p. 341) &rarr; 12.7 Anorexia Nervosa and Bulimia Nervosa
+- **The Case of the Student with Anorexia** (p. 342) &rarr; 12.7 Anorexia Nervosa and Bulimia Nervosa
+
+## Chapter 13: Hormones and Sex
+
+- **Men-are-Men-and-Women-are-Women Assumption** (p. 346) &rarr; Opening: What's Wrong with the Mamawawa?
+- **Developmental and Activational Effects of Sex Hormones** (p. 346) &rarr; 13.5 Effects of Gonadal Hormones on Adults
+- **Neuroendocrine System** (p. 346) &rarr; 13.1 Neuroendocrine System
+    - Glands (p. 346) &rarr; 13.1 Neuroendocrine System
+        - Gonads (p. 347) &rarr; 13.1 Neuroendocrine System
+    - Hormones (p. 347) &rarr; 13.1 Neuroendocrine System
+        - Sex Steroids (p. 347) &rarr; 13.1 Neuroendocrine System
+    - The Pituitary (p. 348) &rarr; 13.1 Neuroendocrine System
+        - Female Gonadal Hormone Levels are Cyclic; Male Gonadal Hormone Levels are Steady (p. 348) &rarr; 13.1 Neuroendocrine System
+    - Control of the Pituitary (p. 348) &rarr; 13.1 Neuroendocrine System
+        - Control of the Anterior and Posterior Pituitary by the Hypothalamus (p. 349) &rarr; 13.1 Neuroendocrine System
+    - Discovery of Hypothalamic Releasing Hormones (p. 349) &rarr; 13.1 Neuroendocrine System
+    - Regulation of Hormone Levels (p. 350) &rarr; 13.1 Neuroendocrine System
+        - Regulation by Neural Signals (p. 350) &rarr; 13.1 Neuroendocrine System
+        - Regulation by Hormonal Signals (p. 350) &rarr; 13.1 Neuroendocrine System
+        - Regulation by Nonhormonal Chemicals (p. 351) &rarr; 13.1 Neuroendocrine System
+        - Pulsatile Hormone Release (p. 351) &rarr; 13.1 Neuroendocrine System
+    - Summary Model of Gonadal Endocrine Regulation (p. 351) &rarr; 13.1 Neuroendocrine System
+- **Hormones and Sexual Development of the Body** (p. 351) &rarr; 13.2 Hormones and Sexual Development of the Body
+    - Sexual Differentiation (p. 351) &rarr; 13.2 Hormones and Sexual Development of the Body
+        - Fetal Hormones and Development of Reproductive Organs (p. 352) &rarr; 13.2 Hormones and Sexual Development of the Body
+        - Internal Reproductive Ducts (p. 352) &rarr; 13.2 Hormones and Sexual Development of the Body
+        - External Reproductive Organs (p. 353) &rarr; 13.2 Hormones and Sexual Development of the Body
+    - Puberty: Hormones and Development of Secondary Sex Characteristics (p. 353) &rarr; 13.2 Hormones and Sexual Development of the Body
+- **Sexual Development of Brain and Behavior** (p. 354) &rarr; 13.3 Sexual Development of Brain and Behaviour
+    - Sex Differences in the Brain (p. 355) &rarr; 13.3 Sexual Development of Brain and Behaviour
+        - First Discovery of a Sex Difference in Mammalian Brain Function (p. 355) &rarr; 13.3 Sexual Development of Brain and Behaviour
+        - Aromatization Hypothesis (p. 355) &rarr; 13.3 Sexual Development of Brain and Behaviour
+        - Sex Differences in the Brain: The Modern Perspective (p. 356) &rarr; 13.3 Sexual Development of Brain and Behaviour
+    - Development of Sex Differences in Behavior (p. 356) &rarr; 13.3 Sexual Development of Brain and Behaviour
+        - Development of Reproductive Behaviors in Laboratory Animals (p. 357) &rarr; 13.3 Sexual Development of Brain and Behaviour
+        - Development of Sex Differences in the Behavior of Humans (p. 357) &rarr; 13.3 Sexual Development of Brain and Behaviour
+- **Three Cases of Exceptional Human Sexual Development** (p. 358) &rarr; 13.4 Three Cases of Exceptional Human Sexual Development
+    - Exceptional Cases of Human Sexual Development (p. 359) &rarr; 13.4 Three Cases of Exceptional Human Sexual Development
+- **The Case of Anne S., the Woman with Testes** (p. 359) &rarr; 13.4 Three Cases of Exceptional Human Sexual Development
+- **The Case of the Little Girl Who Grew into a Boy** (p. 359) &rarr; 13.4 Three Cases of Exceptional Human Sexual Development
+- **The Case of the Twin Who Lost His Penis** (p. 360) &rarr; 13.4 Three Cases of Exceptional Human Sexual Development
+    - Do the Exceptional Cases Prove the Rule? (p. 361) &rarr; 13.4 Three Cases of Exceptional Human Sexual Development
+- **Effects of Gonadal Hormones on Adults** (p. 361) &rarr; 13.5 Effects of Gonadal Hormones on Adults
+    - Male Sexual Behavior and Gonadal Hormones (p. 361) &rarr; 13.5 Effects of Gonadal Hormones on Adults
+- **The Case of the Man Who Lost and Regained His Manhood** (p. 362) &rarr; 13.5 Effects of Gonadal Hormones on Adults
+    - Female Sexual Behavior and Gonadal Hormones (p. 362) &rarr; 13.5 Effects of Gonadal Hormones on Adults
+    - Anabolic Steroid Abuse (p. 363) &rarr; 13.5 Effects of Gonadal Hormones on Adults
+- **Brain Mechanisms of Sexual Behavior** (p. 364) &rarr; 13.6 Brain Mechanisms of Sexual Behaviour
+    - Four Brain Structures Associated with Sexual Activity (p. 364) &rarr; 13.6 Brain Mechanisms of Sexual Behaviour
+        - Cortex and Sexual Activity (p. 365) &rarr; 13.6 Brain Mechanisms of Sexual Behaviour
+        - Hypothalamus and Sexual Activity (p. 365) &rarr; 13.6 Brain Mechanisms of Sexual Behaviour
+        - Amygdala and Sexual Activity (p. 366) &rarr; 13.6 Brain Mechanisms of Sexual Behaviour
+        - Ventral Striatum and Sexual Activity (p. 366) &rarr; 13.6 Brain Mechanisms of Sexual Behaviour
+- **Sexual Orientation and Gender Identity** (p. 367) &rarr; 13.7 Sexual Orientation and Gender Identity
+    - Sexual Orientation (p. 367) &rarr; 13.7 Sexual Orientation and Gender Identity
+        - Sexual Orientation and Genes (p. 367) &rarr; 13.7 Sexual Orientation and Gender Identity
+        - Sexual Orientation and Early Hormones (p. 367) &rarr; 13.7 Sexual Orientation and Gender Identity
+    - What Triggers the Development of Sexual Attraction? (p. 368) &rarr; 13.7 Sexual Orientation and Gender Identity
+    - What Differences in the Brain Can Account for Differences in Sexual Attraction? (p. 368) &rarr; 13.7 Sexual Orientation and Gender Identity
+    - Gender Identity (p. 368) &rarr; 13.7 Sexual Orientation and Gender Identity
+    - Independence of Sexual Orientation and Gender Identity (p. 368) &rarr; 13.7 Sexual Orientation and Gender Identity
+
+## Chapter 14: Sleep, Dreaming, and Circadian Rhythms
+
+- **The Case of the Woman Who Wouldn’t Sleep** (p. 374) &rarr; Opening: How Much Do You Need to Sleep?
+- **Stages of Sleep** (p. 374) &rarr; 14.1 Stages of Sleep
+    - Three Standard Psychophysiological Measures of Sleep (p. 374) &rarr; 14.1 Stages of Sleep
+    - Three Stages of Sleep EEG (p. 374) &rarr; 14.1 Stages of Sleep
+- **Dreaming** (p. 376) &rarr; 14.2 Dreaming
+    - Discovery of the Relationship between REM Sleep and Dreaming (p. 376) &rarr; 14.2 Dreaming
+    - Testing Common Beliefs About Dreaming (p. 376) &rarr; 14.2 Dreaming
+        - External Stimuli and Dreams (p. 376) &rarr; 14.2 Dreaming
+        - Dream Duration (p. 376) &rarr; 14.2 Dreaming
+        - People who don’t Dream (p. 376) &rarr; 14.2 Dreaming
+        - Sexual Content in Dreams (p. 376) &rarr; 14.2 Dreaming
+        - Sleeptalking and Sleepwalking (p. 377) &rarr; 14.2 Dreaming
+    - Does REM Sleep = Dreaming? (p. 377) &rarr; 14.2 Dreaming
+    - Lucid Dreaming (p. 377) &rarr; 14.2 Dreaming
+- **The Case of the Levitating Teenager** (p. 377) &rarr; 14.2 Dreaming
+- **The Case of the Artistic Dreamer** (p. 377) &rarr; 14.2 Dreaming
+- **The Case of the Bored Lucid Dreamer** (p. 378) &rarr; 14.2 Dreaming
+    - Why Do We Dream What We Do? (p. 378) &rarr; 14.2 Dreaming
+    - Why Do We Dream? (p. 379) &rarr; 14.2 Dreaming
+        - Hobson’s Activation-Synthesis Hypothesis (p. 379) &rarr; 14.2 Dreaming
+        - Revonsuo’s Evolutionary Theory of Dreams (p. 379) &rarr; 14.2 Dreaming
+        - Hobson’s Protoconsciousness Hypothesis (p. 379) &rarr; 14.2 Dreaming
+    - The Dreaming Brain (p. 380) &rarr; 14.2 Dreaming
+- **Why Do We Sleep, and Why Do We Sleep When We Do?** (p. 381) &rarr; 14.3 Why Do We Sleep, and Why Do We Sleep When We Do?
+    - Two Kinds of Theories of Sleep (p. 381) &rarr; 14.3 Why Do We Sleep, and Why Do We Sleep When We Do?
+    - Comparative Analysis of Sleep (p. 381) &rarr; 14.3 Why Do We Sleep, and Why Do We Sleep When We Do?
+- **Effects of Sleep Deprivation** (p. 382) &rarr; 14.4 Effects of Sleep Deprivation
+    - Interpretation of the Effects of Sleep Deprivation: The Stress Problem (p. 383) &rarr; 14.4 Effects of Sleep Deprivation
+    - Predictions of Recuperation Theories about Sleep Deprivation (p. 383) &rarr; 14.4 Effects of Sleep Deprivation
+    - Two Classic Sleep-Deprivation Case Studies (p. 383) &rarr; 14.4 Effects of Sleep Deprivation
+- **The Case of the Sleep-Deprived Students** (p. 383) &rarr; 14.4 Effects of Sleep Deprivation
+- **The Case of Randy Gardner** (p. 383) &rarr; 14.4 Effects of Sleep Deprivation
+    - Studies of Sleep Deprivation in Humans (p. 384) &rarr; 14.4 Effects of Sleep Deprivation
+    - Sleep-Deprivation Studies of Laboratory Animals (p. 385) &rarr; 14.4 Effects of Sleep Deprivation
+    - REM-Sleep Deprivation (p. 385) &rarr; 14.4 Effects of Sleep Deprivation
+    - Sleep Deprivation Increases the Efficiency of Sleep (p. 387) &rarr; 14.4 Effects of Sleep Deprivation
+- **Circadian Sleep Cycles** (p. 388) &rarr; 14.5 Circadian Sleep Cycles
+    - Circadian Rhythms (p. 388) &rarr; 14.5 Circadian Sleep Cycles
+    - Free-Running Circadian Sleep–Wake Cycles (p. 388) &rarr; 14.5 Circadian Sleep Cycles
+    - Jet Lag and Shift Work (p. 389) &rarr; 14.5 Circadian Sleep Cycles
+    - A Circadian Clock in the Suprachiasmatic Nuclei (p. 389) &rarr; 14.5 Circadian Sleep Cycles
+    - Neural Mechanisms of Entrainment (p. 390) &rarr; 14.5 Circadian Sleep Cycles
+    - Genetics of Circadian Rhythms (p. 391) &rarr; 14.5 Circadian Sleep Cycles
+- **Four Areas of the Brain Involved in Sleep** (p. 391) &rarr; 14.6 Four Areas of the Brain Involved in Sleep
+    - Two Areas of the Hypothalamus Involved in Sleep (p. 391) &rarr; 14.6 Four Areas of the Brain Involved in Sleep
+- **The Case of Constantin von Economo, the Insightful Neurologist** (p. 392) &rarr; 14.6 Four Areas of the Brain Involved in Sleep
+    - Reticular Formation and Sleep (p. 392) &rarr; 14.6 Four Areas of the Brain Involved in Sleep
+    - Reticular REM-Sleep Nuclei (p. 393) &rarr; 14.6 Four Areas of the Brain Involved in Sleep
+- **Drugs That Affect Sleep** (p. 395) &rarr; 14.7 Drugs That Affect Sleep
+    - Hypnotic Drugs (p. 395) &rarr; 14.7 Drugs That Affect Sleep
+    - Antihypnotic Drugs (p. 395) &rarr; 14.7 Drugs That Affect Sleep
+    - Melatonin (p. 395) &rarr; 14.7 Drugs That Affect Sleep
+- **Sleep Disorders** (p. 396) &rarr; 14.8 Sleep Disorders
+    - Insomnia (p. 397) &rarr; 14.8 Sleep Disorders
+- **Mr. B., the Case of Iatrogenic Insomnia** (p. 397) &rarr; 14.8 Sleep Disorders
+    - Hypersomnia (p. 398) &rarr; 14.8 Sleep Disorders
+    - REM-Sleep-Related Disorders (p. 399) &rarr; 14.8 Sleep Disorders
+- **The Case of the Sleeper Who Ran Over Tackle** (p. 399) &rarr; 14.8 Sleep Disorders
+- **Effects of Long-Term Sleep Reduction** (p. 399) &rarr; 14.9 Effects of Long-Term Sleep Reduction
+    - Differences between Short and Long Sleepers (p. 399) &rarr; 14.9 Effects of Long-Term Sleep Reduction
+    - Long-Term Reduction of Nightly Sleep (p. 400) &rarr; 14.9 Effects of Long-Term Sleep Reduction
+    - Long-Term Sleep Reduction by Napping (p. 400) &rarr; 14.9 Effects of Long-Term Sleep Reduction
+    - Effects of Shorter Sleep Times on Health (p. 401) &rarr; 14.9 Effects of Long-Term Sleep Reduction
+    - Long-Term Sleep Reduction: A Personal Case Study (p. 401) &rarr; 14.9 Effects of Long-Term Sleep Reduction
+- **The Case of the Author Who Reduced His Sleep** (p. 401) &rarr; 14.9 Effects of Long-Term Sleep Reduction
+
+## Chapter 15: Drug Use, Drug Addiction, and the Brain's Reward Circuits
+
+- **The Case of the Drugged High School Teachers** (p. 406) &rarr; The Case of the Drugged High School Teachers
+- **Basic Principles of Drug Action** (p. 406) &rarr; 15.1 Basic Principles of Drug Action
+    - Drug Administration, Absorption, and Penetration of the Central Nervous System (p. 406) &rarr; 15.1 Basic Principles of Drug Action
+        - Oral Ingestion (p. 406) &rarr; 15.1 Basic Principles of Drug Action
+        - Injection (p. 406) &rarr; 15.1 Basic Principles of Drug Action
+        - Inhalation (p. 406) &rarr; 15.1 Basic Principles of Drug Action
+        - Absorption through Mucous Membranes (p. 406) &rarr; 15.1 Basic Principles of Drug Action
+    - Drug Action, Metabolism, and Elimination (p. 406) &rarr; 15.1 Basic Principles of Drug Action
+        - Drug Penetration of the Central Nervous System (p. 406) &rarr; 15.1 Basic Principles of Drug Action
+        - Mechanisms of Drug Action (p. 406) &rarr; 15.1 Basic Principles of Drug Action
+        - Drug Metabolism and Elimination (p. 407) &rarr; 15.1 Basic Principles of Drug Action
+    - Drug Tolerance, Drug Withdrawal Effects, and Physical Dependence (p. 407) &rarr; 15.1 Basic Principles of Drug Action
+        - Drug Tolerance (p. 407) &rarr; 15.1 Basic Principles of Drug Action
+        - Drug Withdrawal Effects and Physical Dependence (p. 407) &rarr; 15.1 Basic Principles of Drug Action
+    - Drug Addiction: What Is It? (p. 408) &rarr; 15.1 Basic Principles of Drug Action
+- **Role of Learning in Drug Tolerance** (p. 409) &rarr; 15.2 Role of Learning in Drug Tolerance
+    - Contingent Drug Tolerance (p. 409) &rarr; 15.2 Role of Learning in Drug Tolerance
+    - Conditioned Drug Tolerance (p. 409) &rarr; 15.2 Role of Learning in Drug Tolerance
+        - Thinking about Drug Conditioning (p. 411) &rarr; 15.2 Role of Learning in Drug Tolerance
+- **Five Commonly Used Drugs** (p. 411) &rarr; 15.3 Five Commonly Used Drugs
+    - Nicotine (p. 411) &rarr; 15.3 Five Commonly Used Drugs
+        - Tobacco Smoking (p. 412) &rarr; 15.3 Five Commonly Used Drugs
+        - Nicotine Vaping (p. 412) &rarr; 15.3 Five Commonly Used Drugs
+        - Addiction and Nicotine (p. 412) &rarr; 15.3 Five Commonly Used Drugs
+    - Alcohol (p. 413) &rarr; 15.3 Five Commonly Used Drugs
+    - Marijuana (p. 414) &rarr; 15.3 Five Commonly Used Drugs
+    - Cocaine and Other Stimulants (p. 417) &rarr; 15.3 Five Commonly Used Drugs
+    - The Opioids: Heroin and Morphine (p. 418) &rarr; 15.3 Five Commonly Used Drugs
+- **Comparing the Health Hazards of Commonly Used Drugs** (p. 420) &rarr; 15.4 Comparing the Health Hazards of Commonly Used Drugs
+    - Interpreting Studies of the Health Hazards of Drugs (p. 420) &rarr; 15.4 Comparing the Health Hazards of Commonly Used Drugs
+    - Comparison of the Hazards of Nicotine, Alcohol, Marijuana, Cocaine, and Heroin (p. 421) &rarr; 15.4 Comparing the Health Hazards of Commonly Used Drugs
+- **Early Biopsychological Research on Addiction** (p. 422) &rarr; 15.5 Early Biopsychological Research on Addiction
+    - Physical-Dependence and Positive-Incentive Perspectives of Addiction (p. 422) &rarr; 15.5 Early Biopsychological Research on Addiction
+    - Intracranial Self-Stimulation and the Mesotelencephalic Dopamine System (p. 423) &rarr; 15.5 Early Biopsychological Research on Addiction
+    - Early Evidence of the Involvement of Dopamine in Drug Addiction (p. 424) &rarr; 15.5 Early Biopsychological Research on Addiction
+    - Nucleus Accumbens and Drug Addiction (p. 425) &rarr; 15.5 Early Biopsychological Research on Addiction
+- **Current Approaches to the Mechanisms of Addiction** (p. 425) &rarr; 15.6 Current Approaches to the Mechanisms of Addiction
+    - Three Stages in the Development of an Addiction (p. 426) &rarr; 15.6 Current Approaches to the Mechanisms of Addiction
+        - Initial Drug Taking (p. 426) &rarr; 15.6 Current Approaches to the Mechanisms of Addiction
+        - Habitual Drug Taking (p. 426) &rarr; 15.6 Current Approaches to the Mechanisms of Addiction
+        - Drug Craving and Relapse (p. 427) &rarr; 15.6 Current Approaches to the Mechanisms of Addiction
+    - Current Concerns about the Drug Self-Administration Paradigm (p. 428) &rarr; 15.6 Current Approaches to the Mechanisms of Addiction
+        - Unnatural Housing and Testing Conditions (p. 429) &rarr; 15.6 Current Approaches to the Mechanisms of Addiction
+        - Excessive Focus on Stimulants (p. 429) &rarr; 15.6 Current Approaches to the Mechanisms of Addiction
+    - A Noteworthy Case of Addiction (p. 429) &rarr; 15.6 Current Approaches to the Mechanisms of Addiction
+- **The Case of Sigmund Freud** (p. 429) &rarr; 15.6 Current Approaches to the Mechanisms of Addiction
+
+## Chapter 16: Lateralization, Language, and the Split Brain
+
+- **Cerebral Lateralization of Function: Introduction** (p. 434) &rarr; 16.1 Cerebral Lateralisation of Function: Introduction
+    - Discovery of the Specific Contributions of Left-Hemisphere Damage to Aphasia and Apraxia (p. 434) &rarr; 16.1 Cerebral Lateralisation of Function: Introduction
+    - Tests of Cerebral Lateralization (p. 434) &rarr; 16.1 Cerebral Lateralisation of Function: Introduction
+        - Sodium Amytal Test (p. 434) &rarr; 16.1 Cerebral Lateralisation of Function: Introduction
+        - Dichotic Listening Test (p. 435) &rarr; 16.1 Cerebral Lateralisation of Function: Introduction
+        - Functional Brain Imaging (p. 435) &rarr; 16.1 Cerebral Lateralisation of Function: Introduction
+    - Discovery of the Relation Between Speech Laterality and Handedness (p. 435) &rarr; 16.1 Cerebral Lateralisation of Function: Introduction
+    - Sex Differences in Brain Lateralization (p. 435) &rarr; 16.1 Cerebral Lateralisation of Function: Introduction
+- **The Split Brain** (p. 436) &rarr; 16.2 The Split Brain
+    - Groundbreaking Experiment of Myers and Sperry (p. 436) &rarr; 16.2 The Split Brain
+    - Commissurotomy in Humans with Epilepsy (p. 438) &rarr; 16.2 The Split Brain
+    - Evidence That the Hemispheres of Split-Brain Patients Can Function Independently (p. 439) &rarr; 16.2 The Split Brain
+    - Cross-Cuing (p. 440) &rarr; 16.2 The Split Brain
+    - Doing Two Things at Once (p. 440) &rarr; 16.2 The Split Brain
+    - Dual Mental Functioning and Conflict in Split-Brain Patients (p. 441) &rarr; 16.2 The Split Brain
+- **The Case of Peter, the Split-Brain Patient Tormented by Conflict** (p. 441) &rarr; 16.2 The Split Brain
+    - Independence of Split Hemispheres: Current Perspective (p. 442) &rarr; 16.2 The Split Brain
+- **Differences Between Left and Right Hemispheres** (p. 442) &rarr; 16.3 Differences Between Left and Right Hemispheres
+    - Examples of Cerebral Lateralization of Function (p. 443) &rarr; 16.3 Differences Between Left and Right Hemispheres
+        - Superiority of the Left Hemisphere in Controlling Ipsilateral Movement (p. 443) &rarr; 16.3 Differences Between Left and Right Hemispheres
+        - Superiority of the Right Hemisphere in Spatial Ability (p. 443) &rarr; 16.3 Differences Between Left and Right Hemispheres
+        - Specialization of the Right Hemisphere for Emotion (p. 443) &rarr; 16.3 Differences Between Left and Right Hemispheres
+        - Superior Musical Ability of the Right Hemisphere (p. 444) &rarr; 16.3 Differences Between Left and Right Hemispheres
+        - Hemispheric Differences in Memory (p. 444) &rarr; 16.3 Differences Between Left and Right Hemispheres
+    - What Is Lateralized? Broad Clusters of Abilities or Individual Cognitive Processes? (p. 444) &rarr; 16.3 Differences Between Left and Right Hemispheres
+    - Anatomical Asymmetries of the Brain (p. 444) &rarr; 16.3 Differences Between Left and Right Hemispheres
+- **Evolution of Cerebral Lateralization and Language** (p. 446) &rarr; 16.4 Evolution of Cerebral Lateralisation and Language
+    - Theories of the Evolution of Cerebral Lateralization (p. 446) &rarr; 16.4 Evolution of Cerebral Lateralisation and Language
+        - Analytic–Synthetic Theory (p. 446) &rarr; 16.4 Evolution of Cerebral Lateralisation and Language
+        - Motor Theory (p. 446) &rarr; 16.4 Evolution of Cerebral Lateralisation and Language
+        - Linguistic Theory (p. 446) &rarr; 16.4 Evolution of Cerebral Lateralisation and Language
+- **The Case of W.L., the Man Who Experienced Aphasia for Sign Language** (p. 446) &rarr; 16.4 Evolution of Cerebral Lateralisation and Language
+    - When Did Cerebral Lateralization Evolve? (p. 446) &rarr; 16.4 Evolution of Cerebral Lateralisation and Language
+    - Evolution of Human Language (p. 447) &rarr; 16.4 Evolution of Cerebral Lateralisation and Language
+        - Vocal Communication in Nonhuman Primates (p. 447) &rarr; 16.4 Evolution of Cerebral Lateralisation and Language
+        - Motor Theory of Speech Perception (p. 447) &rarr; 16.4 Evolution of Cerebral Lateralisation and Language
+        - Gestural Language (p. 448) &rarr; 16.4 Evolution of Cerebral Lateralisation and Language
+- **Cortical Localization of Language: Wernicke-Geschwind Model** (p. 449) &rarr; 16.5 Cortical Localisation of Language: The Wernicke-Geschwind Model
+    - Historical Antecedents of the Wernicke-Geschwind Model (p. 449) &rarr; 16.5 Cortical Localisation of Language: The Wernicke-Geschwind Model
+    - The Wernicke-Geschwind Model (p. 450) &rarr; 16.5 Cortical Localisation of Language: The Wernicke-Geschwind Model
+- **Wernicke-Geschwind Model: The Evidence** (p. 451) &rarr; 16.6 The Wernicke-Geschwind Model: The Evidence
+    - Effects of Cortical Damage and Brain Stimulation on Language Abilities (p. 451) &rarr; 16.6 The Wernicke-Geschwind Model: The Evidence
+        - Evidence from Studies of the Effects of Cortical Damage (p. 452) &rarr; 16.6 The Wernicke-Geschwind Model: The Evidence
+        - Evidence from Structural Neuroimaging Studies (p. 453) &rarr; 16.6 The Wernicke-Geschwind Model: The Evidence
+        - Evidence from Studies of Electrical Stimulation of the Cortex (p. 453) &rarr; 16.6 The Wernicke-Geschwind Model: The Evidence
+    - Current Status of the Wernicke-Geschwind Model (p. 455) &rarr; 16.6 The Wernicke-Geschwind Model: The Evidence
+- **Cognitive Neuroscience of Language** (p. 455) &rarr; 16.7 Cognitive Neuroscience of Language
+    - Three Premises That Define the Cognitive Neuroscience Approach to Language (p. 455) &rarr; 16.7 Cognitive Neuroscience of Language
+    - Functional Brain Imaging and the Localization of Language (p. 456) &rarr; 16.7 Cognitive Neuroscience of Language
+        - Bavelier’s Fmri Study of Reading (p. 456) &rarr; 16.7 Cognitive Neuroscience of Language
+        - Damasio’s Pet Study of Naming (p. 457) &rarr; 16.7 Cognitive Neuroscience of Language
+- **Cognitive Neuroscience of Dyslexia** (p. 457) &rarr; 16.8 Cognitive Neuroscience of Dyslexia
+    - Developmental Dyslexia: Causes and Neural Mechanisms (p. 458) &rarr; 16.8 Cognitive Neuroscience of Dyslexia
+    - Cognitive Neuroscience of Deep and Surface Dyslexia (p. 458) &rarr; 16.8 Cognitive Neuroscience of Dyslexia
+- **The Case of N.I., the Woman Who Read with Her Right Hemisphere** (p. 459) &rarr; 16.8 Cognitive Neuroscience of Dyslexia
+
+## Chapter 17: Biopsychology of Emotion, Stress, and Health
+
+- **Biopsychology of Emotion: Introduction** (p. 462) &rarr; 17.1 Biopsychology of Emotion: Introduction
+    - Early Landmarks in the Biopsychological Investigation of Emotion (p. 462) &rarr; 17.1 Biopsychology of Emotion: Introduction
+- **The Mind-Blowing Case of Phineas Gage** (p. 462) &rarr; The Mind-Blowing Case of Phineas Gage
+    - Darwin’s Theory of the Evolution of Emotion (p. 463) &rarr; 17.1 Biopsychology of Emotion: Introduction
+    - James-Lange and Cannon-Bard Theories (p. 464) &rarr; 17.1 Biopsychology of Emotion: Introduction
+    - Sham Rage (p. 464) &rarr; 17.1 Biopsychology of Emotion: Introduction
+    - Limbic System and Emotion (p. 465) &rarr; 17.1 Biopsychology of Emotion: Introduction
+    - Klüver-Bucy Syndrome (p. 465) &rarr; 17.1 Biopsychology of Emotion: Introduction
+- **A Human Case of Klüver-Bucy Syndrome** (p. 466) &rarr; 17.1 Biopsychology of Emotion: Introduction
+    - Emotions and the Autonomic Nervous System (p. 466) &rarr; 17.1 Biopsychology of Emotion: Introduction
+        - Emotional Specificity of the Autonomic Nervous System (p. 466) &rarr; 17.1 Biopsychology of Emotion: Introduction
+        - Polygraphy (p. 466) &rarr; 17.1 Biopsychology of Emotion: Introduction
+    - Emotions and Facial Expression (p. 467) &rarr; 17.1 Biopsychology of Emotion: Introduction
+        - Universality of Facial Expression (p. 467) &rarr; 17.1 Biopsychology of Emotion: Introduction
+        - Primary Facial Expressions (p. 467) &rarr; 17.1 Biopsychology of Emotion: Introduction
+        - Facial Feedback Hypothesis (p. 467) &rarr; 17.1 Biopsychology of Emotion: Introduction
+        - Voluntary Control of Facial Expression (p. 468) &rarr; 17.1 Biopsychology of Emotion: Introduction
+        - Facial Expressions: Current Perspective (p. 469) &rarr; 17.1 Biopsychology of Emotion: Introduction
+- **Fear, Defense, and Aggression** (p. 469) &rarr; 17.2 Fear, Defence, and Aggression
+    - Types of Aggressive and Defensive Behaviors (p. 470) &rarr; 17.2 Fear, Defence, and Aggression
+    - Aggression and Testosterone (p. 471) &rarr; 17.2 Fear, Defence, and Aggression
+- **Neural Mechanisms of Fear Conditioning** (p. 472) &rarr; 17.3 Neural Mechanisms of Fear Conditioning
+    - Amygdala and Fear Conditioning (p. 472) &rarr; 17.3 Neural Mechanisms of Fear Conditioning
+    - Contextual Fear Conditioning and the Hippocampus (p. 472) &rarr; 17.3 Neural Mechanisms of Fear Conditioning
+    - Amygdala Complex and Fear Conditioning (p. 473) &rarr; 17.3 Neural Mechanisms of Fear Conditioning
+- **Brain Mechanisms of Human Emotion** (p. 474) &rarr; 17.4 Brain Mechanisms of Human Emotion
+    - Cognitive Neuroscience of Emotion (p. 474) &rarr; 17.4 Brain Mechanisms of Human Emotion
+    - Amygdala and Human Emotion (p. 475) &rarr; 17.4 Brain Mechanisms of Human Emotion
+- **The Case of S.P., the Woman Who Couldn’t Perceive Fear** (p. 475) &rarr; 17.4 Brain Mechanisms of Human Emotion
+    - Medial Prefrontal Lobes and Human Emotion (p. 475) &rarr; 17.4 Brain Mechanisms of Human Emotion
+    - Lateralization of Emotion (p. 476) &rarr; 17.4 Brain Mechanisms of Human Emotion
+    - Neural Mechanisms of Human Emotion: Current Perspectives (p. 477) &rarr; 17.4 Brain Mechanisms of Human Emotion
+- **Stress and Health** (p. 477) &rarr; 17.5 Stress and Health
+    - The Stress Response (p. 477) &rarr; 17.5 Stress and Health
+    - Animal Models of Stress (p. 478) &rarr; 17.5 Stress and Health
+    - Psychosomatic Disorders: The Case of Gastric Ulcers (p. 478) &rarr; 17.5 Stress and Health
+    - Psychoneuroimmunology: Stress, the Immune System, and the Brain (p. 479) &rarr; 17.5 Stress and Health
+        - Innate Immune System (p. 479) &rarr; 17.5 Stress and Health
+        - Adaptive Immune System (p. 479) &rarr; 17.5 Stress and Health
+        - What Effect does Stress have on Immune Function: Disruptive or Beneficial? (p. 480) &rarr; 17.5 Stress and Health
+        - How does Stress Influence Immune Function? (p. 480) &rarr; 17.5 Stress and Health
+        - Does Stress Affect Susceptibility to Infectious Disease? (p. 481) &rarr; 17.5 Stress and Health
+    - Early Experience of Stress (p. 481) &rarr; 17.5 Stress and Health
+    - Stress and the Hippocampus (p. 482) &rarr; 17.5 Stress and Health
+- **The Case of Charles Whitman, the Texas Tower Sniper** (p. 482) &rarr; Conclusion: The Case of Charles Whitman, the Texas Tower Sniper
+
+## Chapter 18: Biopsychology of Psychiatric Disorders
+
+- **Schizophrenia** (p. 486) &rarr; 18.1 Schizophrenia
+- **Schizophrenia: The Case of Lena** (p. 486) &rarr; 18.1 Schizophrenia
+    - What Is Schizophrenia? (p. 486) &rarr; 18.1 Schizophrenia
+    - Discovery of the First Antipsychotic Drugs (p. 487) &rarr; 18.1 Schizophrenia
+    - The Dopamine Theory of Schizophrenia (p. 487) &rarr; 18.1 Schizophrenia
+    - Schizophrenia: Beyond the Dopamine Theory (p. 489) &rarr; 18.1 Schizophrenia
+        - Atypical Antipsychotics (p. 489) &rarr; 18.1 Schizophrenia
+        - Renewed Interest in Hallucinogenic Drugs (p. 489) &rarr; 18.1 Schizophrenia
+    - Genetic and Epigenetic Mechanisms of Schizophrenia (p. 490) &rarr; 18.1 Schizophrenia
+    - Neural Bases of Schizophrenia (p. 490) &rarr; 18.1 Schizophrenia
+- **Depressive Disorders** (p. 491) &rarr; 18.2 Depressive Disorders
+    - What Are Depressive Disorders? (p. 491) &rarr; 18.2 Depressive Disorders
+- **The Case of S.B., the Depressed Biopsychology Student** (p. 491) &rarr; 18.2 Depressive Disorders
+    - Antidepressant Drugs (p. 492) &rarr; 18.2 Depressive Disorders
+        - Monoamine Oxidase Inhibitors (p. 492) &rarr; 18.2 Depressive Disorders
+        - Tricyclic Antidepressants (p. 492) &rarr; 18.2 Depressive Disorders
+        - Selective Monoamine-Reuptake Inhibitors (p. 492) &rarr; 18.2 Depressive Disorders
+        - Atypical Antidepressants (p. 493) &rarr; 18.2 Depressive Disorders
+        - Nmda-Receptor Antagonists (p. 493) &rarr; 18.2 Depressive Disorders
+        - Effectiveness of Drugs in the Treatment of Depressive Disorders (p. 493) &rarr; 18.2 Depressive Disorders
+    - Brain Stimulation to Treat Depression (p. 494) &rarr; 18.2 Depressive Disorders
+        - Repetitive Transcranial Magnetic Stimulation (p. 494) &rarr; 18.2 Depressive Disorders
+        - Deep Brain Stimulation (p. 494) &rarr; 18.2 Depressive Disorders
+    - Theories of Depression (p. 495) &rarr; 18.2 Depressive Disorders
+        - Monoamine Theory of Depression (p. 495) &rarr; 18.2 Depressive Disorders
+        - Neuroplasticity Theory of Depression (p. 495) &rarr; 18.2 Depressive Disorders
+    - Genetic and Epigenetic Mechanisms of Depression (p. 495) &rarr; 18.2 Depressive Disorders
+    - Neural Bases of Depression (p. 496) &rarr; 18.2 Depressive Disorders
+- **Bipolar Disorder** (p. 496) &rarr; 18.3 Bipolar Disorder
+    - What Is Bipolar Disorder? (p. 496) &rarr; 18.3 Bipolar Disorder
+- **The Case of S.B. Revisited: The Biopsychology Student with Bipolar Disorder** (p. 496) &rarr; 18.3 Bipolar Disorder
+    - Mood Stabilizers (p. 497) &rarr; 18.3 Bipolar Disorder
+    - Theories of Bipolar Disorder (p. 498) &rarr; 18.3 Bipolar Disorder
+    - Genetic and Epigenetic Mechanisms of Bipolar Disorder (p. 498) &rarr; 18.3 Bipolar Disorder
+    - Neural Bases of Bipolar Disorder (p. 498) &rarr; 18.3 Bipolar Disorder
+- **Anxiety Disorders** (p. 499) &rarr; 18.4 Anxiety Disorders
+- **The Case of M.R., the Woman Who Was Afraid to Go Out** (p. 499) &rarr; 18.4 Anxiety Disorders
+    - Four Anxiety Disorders (p. 499) &rarr; 18.4 Anxiety Disorders
+    - Pharmacological Treatment of Anxiety Disorders (p. 499) &rarr; 18.4 Anxiety Disorders
+        - Benzodiazepines (p. 499) &rarr; 18.4 Anxiety Disorders
+        - Antidepressant Drugs (p. 500) &rarr; 18.4 Anxiety Disorders
+        - Pregabalin (p. 500) &rarr; 18.4 Anxiety Disorders
+    - Animal Models of Anxiety Disorders (p. 500) &rarr; 18.4 Anxiety Disorders
+    - Genetic and Epigenetic Mechanisms of Anxiety Disorders (p. 500) &rarr; 18.4 Anxiety Disorders
+    - Neural Bases of Anxiety Disorders (p. 501) &rarr; 18.4 Anxiety Disorders
+- **Tourette’s Disorder** (p. 501) &rarr; 18.5 Tourette's Disorder
+- **The Case of R.G.—Barking Like a Dog** (p. 501) &rarr; 18.5 Tourette's Disorder
+    - What Is Tourette’s Disorder? (p. 501) &rarr; 18.5 Tourette's Disorder
+    - Pharmacological Treatment of Tourette’s Disorder (p. 502) &rarr; 18.5 Tourette's Disorder
+    - Genetic and Epigenetic Mechanisms of Tourette’s Disorder (p. 503) &rarr; 18.5 Tourette's Disorder
+    - Neural Bases of Tourette’s Disorder (p. 503) &rarr; 18.5 Tourette's Disorder
+- **The Case of P.H., the Neuroscientist with Tourette’s Disorder** (p. 503) &rarr; 18.5 Tourette's Disorder
+- **Clinical Trials: Development of New Psychotherapeutic Drugs** (p. 503) &rarr; 18.6 Clinical Trials: Development of New Psychotherapeutic Drugs
+    - Clinical Trials: The Three Phases (p. 504) &rarr; 18.6 Clinical Trials: Development of New Psychotherapeutic Drugs
+        - Phase 1: Screening for Safety (p. 504) &rarr; 18.6 Clinical Trials: Development of New Psychotherapeutic Drugs
+        - Phase 2: Establishing the Testing Protocol (p. 504) &rarr; 18.6 Clinical Trials: Development of New Psychotherapeutic Drugs
+        - Phase 3: Final Testing (p. 505) &rarr; 18.6 Clinical Trials: Development of New Psychotherapeutic Drugs
+    - Controversial Aspects of Clinical Trials (p. 505) &rarr; 18.6 Clinical Trials: Development of New Psychotherapeutic Drugs
+        - Requirement for Double-Blind Design and Placebo Controls (p. 505) &rarr; 18.6 Clinical Trials: Development of New Psychotherapeutic Drugs
+        - The need for Active Placebos (p. 505) &rarr; 18.6 Clinical Trials: Development of New Psychotherapeutic Drugs
+        - Length of Time Required (p. 505) &rarr; 18.6 Clinical Trials: Development of New Psychotherapeutic Drugs
+        - Financial Issues (p. 505) &rarr; 18.6 Clinical Trials: Development of New Psychotherapeutic Drugs
+        - Targets of Psychopharmacology (p. 506) &rarr; 18.6 Clinical Trials: Development of New Psychotherapeutic Drugs
+        - Lack of Diversity (p. 506) &rarr; 18.6 Clinical Trials: Development of New Psychotherapeutic Drugs
+    - Effectiveness of Clinical Trials (p. 506) &rarr; 18.6 Clinical Trials: Development of New Psychotherapeutic Drugs
+- **Conclusion of the Case of S.B.: The Biopsychology  Student Who Took Control** (p. 507) &rarr; 18.6 Clinical Trials: Development of New Psychotherapeutic Drugs

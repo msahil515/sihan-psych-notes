@@ -1,0 +1,108 @@
+{
+ "_note": "Hand-checked passages (2026-11-21) for topics the rewrite words differently from Pinel's heading, or whose key words first turn up outside the section that teaches them. pinel_coverage.py checks each passage word for word against the chapter and points the topic at that passage's section.",
+ "2.2": {
+  "quote": "This philosophy became known as Cartesian dualism"
+ },
+ "2.5": {
+  "quote": "Why the physiological-or-psychological dichotomy fails"
+ },
+ "2.40": {
+  "quote": "The first newer approach uses twins to study epigenetics in humans"
+ },
+ "5.3": {
+  "quote": "Contrast X-rays and cerebral angiography"
+ },
+ "5.6": {
+  "quote": "Positron emission tomography (PET)"
+ },
+ "5.51": {
+  "quote": "Green fluorescent protein (GFP) glows bright green when exposed to blue light"
+ },
+ "7.26": {
+  "quote": "Most ventral posterior neurons project to primary somatosensory cortex (SI)"
+ },
+ "9.33": {
+  "quote": "S.D., the self-advocate, wrote their own account"
+ },
+ "11.3": {
+  "quote": "Formal assessment of H.M.'s anterograde amnesia: the five tests"
+ },
+ "11.15": {
+  "quote": "Effects of global cerebral ischaemia on the hippocampus and memory: the case of R.B."
+ },
+ "11.28": {
+  "quote": "The rat version: David Mumby and the Mumby box"
+ },
+ "12.13": {
+  "quote": "12.3 What, When, and How Much We Eat"
+ },
+ "12.29": {
+  "quote": "lesion experiments on rats seemed to show that eating is controlled by two hypothalamic regions"
+ },
+ "12.36": {
+  "quote": "Case of Miss A. (Martin et al., 1998)"
+ },
+ "12.50": {
+  "quote": "If the set-point model were correct, trying to change your body weight would be futile"
+ },
+ "12.65": {
+  "quote": "Meals consumed by a person with anorexia may produce a variety of conditioned taste aversions that reduce the motivation to eat"
+ },
+ "13.16": {
+  "quote": "Non-hormonal chemical signals. Circulating chemicals that are not hormones can regulate hormone levels too"
+ },
+ "15.3": {
+  "quote": "The way a drug enters the body matters because it sets how fast the drug gets to the places where it acts"
+ },
+ "15.9": {
+  "quote": "A drug in the bloodstream reaches the blood vessels of the CNS, where the blood-brain barrier"
+ },
+ "16.39": {
+  "quote": "Broca's hypothesis: programmes of articulation"
+ },
+ "1.16": {
+  "quote": "Quasiexperimental studies"
+ },
+ "6.25": {
+  "quote": "Contextual influences: receptive fields are plastic"
+ },
+ "13.15": {
+  "quote": "2. Hormonal signals. Hormones also influence hormone release"
+ },
+ "16.2": {
+  "quote": "Hugo-Karl Liepmann: apraxia is also a left-hemisphere matter"
+ },
+ "16.54": {
+  "quote": "Surface dyslexia"
+ },
+ "12.63": {
+  "quote": "From the scientist's perspective, treat them as variations of one disorder"
+ },
+ "1.3": {
+  "quote": "Thinking creatively"
+ },
+ "1.4": {
+  "quote": "Clinical implications"
+ },
+ "2.9": {
+  "quote": "Why the nature-or-nurture dichotomy fails"
+ },
+ "2.26": {
+  "quote": "Mendel's experiment on seed colour"
+ },
+ "2.33": {
+  "quote": "The rise of epigenetics"
+ },
+ "12.21": {
+  "quote": "How much we eat: satiety signals and nutritive density"
+ },
+ "14.24": {
+  "quote": "14.3 Why Do We Sleep, and Why Do We Sleep When We Do?"
+ },
+ "15.20": {
+  "quote": "15.3 Five Commonly Used Drugs"
+ },
+ "18.20": {
+  "quote": "How effective are antidepressants?"
+ }
+}

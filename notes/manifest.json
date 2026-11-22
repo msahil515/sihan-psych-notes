@@ -7366,6 +7366,11 @@
             "page": 508
           }
         ]
+      },
+      {
+        "num": "✓",
+        "title": "Coverage check: every Pinel topic",
+        "slug": "ch19-coverage-check"
       }
     ]
   },

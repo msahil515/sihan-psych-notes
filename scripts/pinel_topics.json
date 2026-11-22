@@ -1,0 +1,7242 @@
+[
+ {
+  "id": "1.1",
+  "ch": 1,
+  "level": 3,
+  "title": "The Case of Jimmie G., the Man Frozen in Time",
+  "page": 28,
+  "section": ""
+ },
+ {
+  "id": "1.2",
+  "ch": 1,
+  "level": 4,
+  "title": "Four Major Themes of This Text",
+  "page": 28,
+  "section": ""
+ },
+ {
+  "id": "1.3",
+  "ch": 1,
+  "level": 5,
+  "title": "Thinking Creatively about Biopsychology",
+  "page": 28,
+  "section": ""
+ },
+ {
+  "id": "1.4",
+  "ch": 1,
+  "level": 5,
+  "title": "Clinical Implications",
+  "page": 28,
+  "section": ""
+ },
+ {
+  "id": "1.5",
+  "ch": 1,
+  "level": 5,
+  "title": "The Evolutionary Perspective",
+  "page": 28,
+  "section": ""
+ },
+ {
+  "id": "1.6",
+  "ch": 1,
+  "level": 5,
+  "title": "Neuroplasticity",
+  "page": 28,
+  "section": ""
+ },
+ {
+  "id": "1.7",
+  "ch": 1,
+  "level": 4,
+  "title": "Emerging Themes of This Text",
+  "page": 29,
+  "section": ""
+ },
+ {
+  "id": "1.8",
+  "ch": 1,
+  "level": 5,
+  "title": "Thinking about Epigenetics",
+  "page": 29,
+  "section": ""
+ },
+ {
+  "id": "1.9",
+  "ch": 1,
+  "level": 5,
+  "title": "Consciousness",
+  "page": 29,
+  "section": ""
+ },
+ {
+  "id": "1.10",
+  "ch": 1,
+  "level": 3,
+  "title": "What Is Biopsychology?",
+  "page": 29,
+  "section": "What Is Biopsychology?"
+ },
+ {
+  "id": "1.11",
+  "ch": 1,
+  "level": 4,
+  "title": "Defining Biopsychology",
+  "page": 29,
+  "section": "What Is Biopsychology?"
+ },
+ {
+  "id": "1.12",
+  "ch": 1,
+  "level": 4,
+  "title": "What Are the Origins of Biopsychology?",
+  "page": 29,
+  "section": "What Is Biopsychology?"
+ },
+ {
+  "id": "1.13",
+  "ch": 1,
+  "level": 4,
+  "title": "How Is Biopsychology Related to the Other Disciplines of Neuroscience?",
+  "page": 30,
+  "section": "What Is Biopsychology?"
+ },
+ {
+  "id": "1.14",
+  "ch": 1,
+  "level": 3,
+  "title": "What Types of Research Characterize the Biopsychological Approach?",
+  "page": 30,
+  "section": "What Types of Research Characterize the Biopsychological Approach?"
+ },
+ {
+  "id": "1.15",
+  "ch": 1,
+  "level": 4,
+  "title": "Human and Nonhuman Subjects",
+  "page": 30,
+  "section": "What Types of Research Characterize the Biopsychological Approach?"
+ },
+ {
+  "id": "1.16",
+  "ch": 1,
+  "level": 4,
+  "title": "Experiments and Nonexperiments",
+  "page": 31,
+  "section": "What Types of Research Characterize the Biopsychological Approach?"
+ },
+ {
+  "id": "1.17",
+  "ch": 1,
+  "level": 5,
+  "title": "Experiments",
+  "page": 31,
+  "section": "What Types of Research Characterize the Biopsychological Approach?"
+ },
+ {
+  "id": "1.18",
+  "ch": 1,
+  "level": 5,
+  "title": "Quasiexperimental Studies",
+  "page": 32,
+  "section": "What Types of Research Characterize the Biopsychological Approach?"
+ },
+ {
+  "id": "1.19",
+  "ch": 1,
+  "level": 5,
+  "title": "Case Studies",
+  "page": 33,
+  "section": "What Types of Research Characterize the Biopsychological Approach?"
+ },
+ {
+  "id": "1.20",
+  "ch": 1,
+  "level": 4,
+  "title": "Pure and Applied Research",
+  "page": 33,
+  "section": "What Types of Research Characterize the Biopsychological Approach?"
+ },
+ {
+  "id": "1.21",
+  "ch": 1,
+  "level": 3,
+  "title": "What Are the Divisions of Biopsychology?",
+  "page": 34,
+  "section": "What Are the Divisions of Biopsychology?"
+ },
+ {
+  "id": "1.22",
+  "ch": 1,
+  "level": 4,
+  "title": "Physiological Psychology",
+  "page": 35,
+  "section": "What Are the Divisions of Biopsychology?"
+ },
+ {
+  "id": "1.23",
+  "ch": 1,
+  "level": 4,
+  "title": "Psychopharmacology",
+  "page": 35,
+  "section": "What Are the Divisions of Biopsychology?"
+ },
+ {
+  "id": "1.24",
+  "ch": 1,
+  "level": 4,
+  "title": "Neuropsychology",
+  "page": 35,
+  "section": "What Are the Divisions of Biopsychology?"
+ },
+ {
+  "id": "1.25",
+  "ch": 1,
+  "level": 3,
+  "title": "The Case of Mr. R., the Student with a Brain Injury Who Switched to Architecture",
+  "page": 35,
+  "section": "What Are the Divisions of Biopsychology?"
+ },
+ {
+  "id": "1.26",
+  "ch": 1,
+  "level": 4,
+  "title": "Psychophysiology",
+  "page": 36,
+  "section": "What Are the Divisions of Biopsychology?"
+ },
+ {
+  "id": "1.27",
+  "ch": 1,
+  "level": 4,
+  "title": "Cognitive Neuroscience",
+  "page": 36,
+  "section": "What Are the Divisions of Biopsychology?"
+ },
+ {
+  "id": "1.28",
+  "ch": 1,
+  "level": 4,
+  "title": "Comparative Psychology",
+  "page": 37,
+  "section": "What Are the Divisions of Biopsychology?"
+ },
+ {
+  "id": "1.29",
+  "ch": 1,
+  "level": 3,
+  "title": "How Do Biopsychologists Conduct Their Work?",
+  "page": 38,
+  "section": "How Do Biopsychologists Conduct Their Work?"
+ },
+ {
+  "id": "1.30",
+  "ch": 1,
+  "level": 4,
+  "title": "Converging Operations: How Do Biopsychologists Work Together?",
+  "page": 38,
+  "section": "How Do Biopsychologists Conduct Their Work?"
+ },
+ {
+  "id": "1.31",
+  "ch": 1,
+  "level": 4,
+  "title": "Scientific Inference: How Do Biopsychologists Study the Unobservable Workings of the Brain?",
+  "page": 39,
+  "section": "How Do Biopsychologists Conduct Their Work?"
+ },
+ {
+  "id": "1.32",
+  "ch": 1,
+  "level": 3,
+  "title": "Thinking Critically about Biopsychological Claims",
+  "page": 40,
+  "section": "Thinking Critically about Biopsychological Claims"
+ },
+ {
+  "id": "1.33",
+  "ch": 1,
+  "level": 4,
+  "title": "Evaluating Biopsychological Claims",
+  "page": 41,
+  "section": "Thinking Critically about Biopsychological Claims"
+ },
+ {
+  "id": "1.34",
+  "ch": 1,
+  "level": 3,
+  "title": "Case 1: José and the Bull",
+  "page": 41,
+  "section": "Thinking Critically about Biopsychological Claims"
+ },
+ {
+  "id": "1.35",
+  "ch": 1,
+  "level": 3,
+  "title": "Case 2: Two Chimpanzees, Moniz, and the Prefrontal Lobotomy",
+  "page": 41,
+  "section": "Thinking Critically about Biopsychological Claims"
+ },
+ {
+  "id": "2.1",
+  "ch": 2,
+  "level": 3,
+  "title": "Thinking about the Biology of Behavior: From Dichotomies to Interactions",
+  "page": 46,
+  "section": "Thinking about the Biology of Behavior: From Dichotomies to Interactions"
+ },
+ {
+  "id": "2.2",
+  "ch": 2,
+  "level": 4,
+  "title": "The Origins of Dichotomous Thinking",
+  "page": 46,
+  "section": "Thinking about the Biology of Behavior: From Dichotomies to Interactions"
+ },
+ {
+  "id": "2.3",
+  "ch": 2,
+  "level": 5,
+  "title": "Is it Physiological, or is it Psychological?",
+  "page": 46,
+  "section": "Thinking about the Biology of Behavior: From Dichotomies to Interactions"
+ },
+ {
+  "id": "2.4",
+  "ch": 2,
+  "level": 5,
+  "title": "Is it Inherited, or is it Learned?",
+  "page": 47,
+  "section": "Thinking about the Biology of Behavior: From Dichotomies to Interactions"
+ },
+ {
+  "id": "2.5",
+  "ch": 2,
+  "level": 4,
+  "title": "Problems with Thinking about the Biology of Behavior in Terms of Traditional Dichotomies",
+  "page": 47,
+  "section": "Thinking about the Biology of Behavior: From Dichotomies to Interactions"
+ },
+ {
+  "id": "2.6",
+  "ch": 2,
+  "level": 5,
+  "title": "Physiological-or-Psychological Thinking Runs into Difficulty",
+  "page": 47,
+  "section": "Thinking about the Biology of Behavior: From Dichotomies to Interactions"
+ },
+ {
+  "id": "2.7",
+  "ch": 2,
+  "level": 3,
+  "title": "The Case of the Man Who Fell Out of Bed",
+  "page": 48,
+  "section": "Thinking about the Biology of Behavior: From Dichotomies to Interactions"
+ },
+ {
+  "id": "2.8",
+  "ch": 2,
+  "level": 3,
+  "title": "The Case of the Chimps with Mirrors",
+  "page": 48,
+  "section": "Thinking about the Biology of Behavior: From Dichotomies to Interactions"
+ },
+ {
+  "id": "2.9",
+  "ch": 2,
+  "level": 4,
+  "title": "Nature-or-Nurture Thinking Runs into Difficulty",
+  "page": 49,
+  "section": "Thinking about the Biology of Behavior: From Dichotomies to Interactions"
+ },
+ {
+  "id": "2.10",
+  "ch": 2,
+  "level": 3,
+  "title": "The Case of the Thinking Student",
+  "page": 49,
+  "section": "Thinking about the Biology of Behavior: From Dichotomies to Interactions"
+ },
+ {
+  "id": "2.11",
+  "ch": 2,
+  "level": 4,
+  "title": "A Model of the Biology of Behavior",
+  "page": 49,
+  "section": "Thinking about the Biology of Behavior: From Dichotomies to Interactions"
+ },
+ {
+  "id": "2.12",
+  "ch": 2,
+  "level": 3,
+  "title": "Human Evolution",
+  "page": 50,
+  "section": "Human Evolution"
+ },
+ {
+  "id": "2.13",
+  "ch": 2,
+  "level": 4,
+  "title": "Darwin’s Theory of Evolution",
+  "page": 50,
+  "section": "Human Evolution"
+ },
+ {
+  "id": "2.14",
+  "ch": 2,
+  "level": 4,
+  "title": "Evolution and Behavior",
+  "page": 52,
+  "section": "Human Evolution"
+ },
+ {
+  "id": "2.15",
+  "ch": 2,
+  "level": 5,
+  "title": "Social Dominance",
+  "page": 52,
+  "section": "Human Evolution"
+ },
+ {
+  "id": "2.16",
+  "ch": 2,
+  "level": 5,
+  "title": "Courtship Display",
+  "page": 52,
+  "section": "Human Evolution"
+ },
+ {
+  "id": "2.17",
+  "ch": 2,
+  "level": 4,
+  "title": "Course of Human Evolution",
+  "page": 53,
+  "section": "Human Evolution"
+ },
+ {
+  "id": "2.18",
+  "ch": 2,
+  "level": 5,
+  "title": "Evolution of Vertebrates",
+  "page": 53,
+  "section": "Human Evolution"
+ },
+ {
+  "id": "2.19",
+  "ch": 2,
+  "level": 5,
+  "title": "Evolution of Amphibians",
+  "page": 53,
+  "section": "Human Evolution"
+ },
+ {
+  "id": "2.20",
+  "ch": 2,
+  "level": 5,
+  "title": "Evolution of Reptiles",
+  "page": 53,
+  "section": "Human Evolution"
+ },
+ {
+  "id": "2.21",
+  "ch": 2,
+  "level": 5,
+  "title": "Evolution of Mammals",
+  "page": 53,
+  "section": "Human Evolution"
+ },
+ {
+  "id": "2.22",
+  "ch": 2,
+  "level": 5,
+  "title": "Emergence of Humankind",
+  "page": 54,
+  "section": "Human Evolution"
+ },
+ {
+  "id": "2.23",
+  "ch": 2,
+  "level": 4,
+  "title": "Thinking about Human Evolution",
+  "page": 55,
+  "section": "Human Evolution"
+ },
+ {
+  "id": "2.24",
+  "ch": 2,
+  "level": 4,
+  "title": "Evolution of the Human Brain",
+  "page": 57,
+  "section": "Human Evolution"
+ },
+ {
+  "id": "2.25",
+  "ch": 2,
+  "level": 3,
+  "title": "Fundamental Genetics",
+  "page": 59,
+  "section": "Fundamental Genetics"
+ },
+ {
+  "id": "2.26",
+  "ch": 2,
+  "level": 4,
+  "title": "Mendelian Genetics",
+  "page": 59,
+  "section": "Fundamental Genetics"
+ },
+ {
+  "id": "2.27",
+  "ch": 2,
+  "level": 4,
+  "title": "Chromosomes",
+  "page": 60,
+  "section": "Fundamental Genetics"
+ },
+ {
+  "id": "2.28",
+  "ch": 2,
+  "level": 5,
+  "title": "Reproduction and Recombination",
+  "page": 60,
+  "section": "Fundamental Genetics"
+ },
+ {
+  "id": "2.29",
+  "ch": 2,
+  "level": 5,
+  "title": "Structure and Replication",
+  "page": 61,
+  "section": "Fundamental Genetics"
+ },
+ {
+  "id": "2.30",
+  "ch": 2,
+  "level": 5,
+  "title": "Sex Chromosomes and Sex-Linked Traits",
+  "page": 62,
+  "section": "Fundamental Genetics"
+ },
+ {
+  "id": "2.31",
+  "ch": 2,
+  "level": 4,
+  "title": "Genetic Code and Gene Expression",
+  "page": 62,
+  "section": "Fundamental Genetics"
+ },
+ {
+  "id": "2.32",
+  "ch": 2,
+  "level": 4,
+  "title": "Human Genome Project",
+  "page": 64,
+  "section": "Fundamental Genetics"
+ },
+ {
+  "id": "2.33",
+  "ch": 2,
+  "level": 4,
+  "title": "Modern Genetics: Growth of Epigenetics",
+  "page": 64,
+  "section": "Fundamental Genetics"
+ },
+ {
+  "id": "2.34",
+  "ch": 2,
+  "level": 3,
+  "title": "Epigenetics of Behavioral Development: Interaction of Genetic Factors and Experience",
+  "page": 67,
+  "section": "Epigenetics of Behavioral Development: Interaction of Genetic Factors and Experience"
+ },
+ {
+  "id": "2.35",
+  "ch": 2,
+  "level": 4,
+  "title": "Selective Breeding of “Maze-Bright” and “Maze-Dull” Rats",
+  "page": 67,
+  "section": "Epigenetics of Behavioral Development: Interaction of Genetic Factors and Experience"
+ },
+ {
+  "id": "2.36",
+  "ch": 2,
+  "level": 4,
+  "title": "Phenylketonuria: A Single-Gene Metabolic Disorder",
+  "page": 68,
+  "section": "Epigenetics of Behavioral Development: Interaction of Genetic Factors and Experience"
+ },
+ {
+  "id": "2.37",
+  "ch": 2,
+  "level": 3,
+  "title": "Genetics of Human Psychological Differences",
+  "page": 69,
+  "section": "Genetics of Human Psychological Differences"
+ },
+ {
+  "id": "2.38",
+  "ch": 2,
+  "level": 4,
+  "title": "Development of Individuals versus Development of Differences among Individuals",
+  "page": 69,
+  "section": "Genetics of Human Psychological Differences"
+ },
+ {
+  "id": "2.39",
+  "ch": 2,
+  "level": 4,
+  "title": "Heritability Estimates: Minnesota Study of Twins Reared Apart",
+  "page": 69,
+  "section": "Genetics of Human Psychological Differences"
+ },
+ {
+  "id": "2.40",
+  "ch": 2,
+  "level": 4,
+  "title": "A Look into the Future: Two Kinds of Twin Studies",
+  "page": 70,
+  "section": "Genetics of Human Psychological Differences"
+ },
+ {
+  "id": "2.41",
+  "ch": 2,
+  "level": 5,
+  "title": "Twin Studies of Epigenetic Effects",
+  "page": 6,
+  "section": "Genetics of Human Psychological Differences"
+ },
+ {
+  "id": "2.42",
+  "ch": 2,
+  "level": 5,
+  "title": "Twin Studies of the Effects of Experience on Heritability",
+  "page": 6,
+  "section": "Genetics of Human Psychological Differences"
+ },
+ {
+  "id": "3.1",
+  "ch": 3,
+  "level": 3,
+  "title": "General Layout of the Nervous System",
+  "page": 74,
+  "section": "General Layout of the Nervous System"
+ },
+ {
+  "id": "3.2",
+  "ch": 3,
+  "level": 4,
+  "title": "Divisions of the Nervous System",
+  "page": 74,
+  "section": "General Layout of the Nervous System"
+ },
+ {
+  "id": "3.3",
+  "ch": 3,
+  "level": 4,
+  "title": "Meninges",
+  "page": 75,
+  "section": "General Layout of the Nervous System"
+ },
+ {
+  "id": "3.4",
+  "ch": 3,
+  "level": 4,
+  "title": "Ventricles and Cerebrospinal Fluid",
+  "page": 76,
+  "section": "General Layout of the Nervous System"
+ },
+ {
+  "id": "3.5",
+  "ch": 3,
+  "level": 4,
+  "title": "Blood–Brain Barrier",
+  "page": 77,
+  "section": "General Layout of the Nervous System"
+ },
+ {
+  "id": "3.6",
+  "ch": 3,
+  "level": 3,
+  "title": "Cells of the Nervous System",
+  "page": 78,
+  "section": "Cells of the Nervous System"
+ },
+ {
+  "id": "3.7",
+  "ch": 3,
+  "level": 4,
+  "title": "Anatomy of Neurons",
+  "page": 78,
+  "section": "Cells of the Nervous System"
+ },
+ {
+  "id": "3.8",
+  "ch": 3,
+  "level": 5,
+  "title": "Neuron Cell Membrane",
+  "page": 78,
+  "section": "Cells of the Nervous System"
+ },
+ {
+  "id": "3.9",
+  "ch": 3,
+  "level": 5,
+  "title": "Classes of Neurons",
+  "page": 78,
+  "section": "Cells of the Nervous System"
+ },
+ {
+  "id": "3.10",
+  "ch": 3,
+  "level": 5,
+  "title": "Neurons and Neuroanatomical Structure",
+  "page": 79,
+  "section": "Cells of the Nervous System"
+ },
+ {
+  "id": "3.11",
+  "ch": 3,
+  "level": 4,
+  "title": "Glia: The Forgotten Cells",
+  "page": 81,
+  "section": "Cells of the Nervous System"
+ },
+ {
+  "id": "3.12",
+  "ch": 3,
+  "level": 3,
+  "title": "Neuroanatomical Techniques and Directions",
+  "page": 83,
+  "section": "Neuroanatomical Techniques and Directions"
+ },
+ {
+  "id": "3.13",
+  "ch": 3,
+  "level": 4,
+  "title": "Neuroanatomical Techniques",
+  "page": 83,
+  "section": "Neuroanatomical Techniques and Directions"
+ },
+ {
+  "id": "3.14",
+  "ch": 3,
+  "level": 5,
+  "title": "Golgi Stain",
+  "page": 83,
+  "section": "Neuroanatomical Techniques and Directions"
+ },
+ {
+  "id": "3.15",
+  "ch": 3,
+  "level": 5,
+  "title": "Nissl Stain",
+  "page": 83,
+  "section": "Neuroanatomical Techniques and Directions"
+ },
+ {
+  "id": "3.16",
+  "ch": 3,
+  "level": 5,
+  "title": "Electron Microscopy",
+  "page": 83,
+  "section": "Neuroanatomical Techniques and Directions"
+ },
+ {
+  "id": "3.17",
+  "ch": 3,
+  "level": 5,
+  "title": "Neuroanatomical Tracing Techniques",
+  "page": 84,
+  "section": "Neuroanatomical Techniques and Directions"
+ },
+ {
+  "id": "3.18",
+  "ch": 3,
+  "level": 4,
+  "title": "Directions in the Vertebrate Nervous System",
+  "page": 85,
+  "section": "Neuroanatomical Techniques and Directions"
+ },
+ {
+  "id": "3.19",
+  "ch": 3,
+  "level": 3,
+  "title": "Anatomy of the Central Nervous System",
+  "page": 87,
+  "section": "Anatomy of the Central Nervous System"
+ },
+ {
+  "id": "3.20",
+  "ch": 3,
+  "level": 4,
+  "title": "Spinal Cord",
+  "page": 87,
+  "section": "Anatomy of the Central Nervous System"
+ },
+ {
+  "id": "3.21",
+  "ch": 3,
+  "level": 4,
+  "title": "Five Major Divisions of the Brain",
+  "page": 87,
+  "section": "Anatomy of the Central Nervous System"
+ },
+ {
+  "id": "3.22",
+  "ch": 3,
+  "level": 4,
+  "title": "Myelencephalon",
+  "page": 88,
+  "section": "Anatomy of the Central Nervous System"
+ },
+ {
+  "id": "3.23",
+  "ch": 3,
+  "level": 4,
+  "title": "Metencephalon",
+  "page": 88,
+  "section": "Anatomy of the Central Nervous System"
+ },
+ {
+  "id": "3.24",
+  "ch": 3,
+  "level": 4,
+  "title": "Mesencephalon",
+  "page": 89,
+  "section": "Anatomy of the Central Nervous System"
+ },
+ {
+  "id": "3.25",
+  "ch": 3,
+  "level": 4,
+  "title": "Diencephalon",
+  "page": 89,
+  "section": "Anatomy of the Central Nervous System"
+ },
+ {
+  "id": "3.26",
+  "ch": 3,
+  "level": 4,
+  "title": "Telencephalon",
+  "page": 91,
+  "section": "Anatomy of the Central Nervous System"
+ },
+ {
+  "id": "3.27",
+  "ch": 3,
+  "level": 5,
+  "title": "Cerebral Cortex",
+  "page": 91,
+  "section": "Anatomy of the Central Nervous System"
+ },
+ {
+  "id": "3.28",
+  "ch": 3,
+  "level": 4,
+  "title": "Limbic System and the Basal Ganglia",
+  "page": 93,
+  "section": "Anatomy of the Central Nervous System"
+ },
+ {
+  "id": "4.1",
+  "ch": 4,
+  "level": 3,
+  "title": "The Lizard: A Case of Parkinson’s Disease",
+  "page": 99,
+  "section": "Anatomy of the Central Nervous System"
+ },
+ {
+  "id": "4.2",
+  "ch": 4,
+  "level": 3,
+  "title": "Resting Membrane Potential",
+  "page": 100,
+  "section": "Resting Membrane Potential"
+ },
+ {
+  "id": "4.3",
+  "ch": 4,
+  "level": 4,
+  "title": "Recording the Membrane Potential",
+  "page": 100,
+  "section": "Resting Membrane Potential"
+ },
+ {
+  "id": "4.4",
+  "ch": 4,
+  "level": 4,
+  "title": "Ionic Basis of the Resting Potential",
+  "page": 100,
+  "section": "Resting Membrane Potential"
+ },
+ {
+  "id": "4.5",
+  "ch": 4,
+  "level": 3,
+  "title": "Generation, Conduction, and Integration of Postsynaptic Potentials",
+  "page": 101,
+  "section": "Generation, Conduction, and Integration of Postsynaptic Potentials"
+ },
+ {
+  "id": "4.6",
+  "ch": 4,
+  "level": 4,
+  "title": "Generation and Conduction of Postsynaptic Potentials",
+  "page": 101,
+  "section": "Generation, Conduction, and Integration of Postsynaptic Potentials"
+ },
+ {
+  "id": "4.7",
+  "ch": 4,
+  "level": 4,
+  "title": "Integration of Postsynaptic Potentials and Generation of Action Potentials",
+  "page": 102,
+  "section": "Generation, Conduction, and Integration of Postsynaptic Potentials"
+ },
+ {
+  "id": "4.8",
+  "ch": 4,
+  "level": 3,
+  "title": "Conduction of Action Potentials",
+  "page": 105,
+  "section": "Conduction of Action Potentials"
+ },
+ {
+  "id": "4.9",
+  "ch": 4,
+  "level": 4,
+  "title": "Ionic Basis of Action Potentials",
+  "page": 105,
+  "section": "Conduction of Action Potentials"
+ },
+ {
+  "id": "4.10",
+  "ch": 4,
+  "level": 4,
+  "title": "Refractory Periods",
+  "page": 106,
+  "section": "Conduction of Action Potentials"
+ },
+ {
+  "id": "4.11",
+  "ch": 4,
+  "level": 4,
+  "title": "Axonal Conduction of Action Potentials",
+  "page": 106,
+  "section": "Conduction of Action Potentials"
+ },
+ {
+  "id": "4.12",
+  "ch": 4,
+  "level": 5,
+  "title": "Conduction in Myelinated Axons",
+  "page": 106,
+  "section": "Conduction of Action Potentials"
+ },
+ {
+  "id": "4.13",
+  "ch": 4,
+  "level": 5,
+  "title": "The Velocity of Axonal Conduction",
+  "page": 107,
+  "section": "Conduction of Action Potentials"
+ },
+ {
+  "id": "4.14",
+  "ch": 4,
+  "level": 5,
+  "title": "Conduction in Neurons without Axons",
+  "page": 107,
+  "section": "Conduction of Action Potentials"
+ },
+ {
+  "id": "4.15",
+  "ch": 4,
+  "level": 4,
+  "title": "The Hodgkin-Huxley Model in Perspective",
+  "page": 107,
+  "section": "Conduction of Action Potentials"
+ },
+ {
+  "id": "4.16",
+  "ch": 4,
+  "level": 3,
+  "title": "Synaptic Transmission: From Electrical Signals to Chemical Signals",
+  "page": 108,
+  "section": "Synaptic Transmission: From Electrical Signals to Chemical Signals"
+ },
+ {
+  "id": "4.17",
+  "ch": 4,
+  "level": 4,
+  "title": "Structure of Synapses",
+  "page": 108,
+  "section": "Synaptic Transmission: From Electrical Signals to Chemical Signals"
+ },
+ {
+  "id": "4.18",
+  "ch": 4,
+  "level": 4,
+  "title": "Synthesis, Packaging, and Transport of Neurotransmitter Molecules",
+  "page": 110,
+  "section": "Synaptic Transmission: From Electrical Signals to Chemical Signals"
+ },
+ {
+  "id": "4.19",
+  "ch": 4,
+  "level": 4,
+  "title": "Release of Neurotransmitter Molecules",
+  "page": 110,
+  "section": "Synaptic Transmission: From Electrical Signals to Chemical Signals"
+ },
+ {
+  "id": "4.20",
+  "ch": 4,
+  "level": 4,
+  "title": "Activation of Receptors by Neurotransmitter Molecules",
+  "page": 110,
+  "section": "Synaptic Transmission: From Electrical Signals to Chemical Signals"
+ },
+ {
+  "id": "4.21",
+  "ch": 4,
+  "level": 4,
+  "title": "Reuptake, Enzymatic Degradation, and Recycling",
+  "page": 112,
+  "section": "Synaptic Transmission: From Electrical Signals to Chemical Signals"
+ },
+ {
+  "id": "4.22",
+  "ch": 4,
+  "level": 4,
+  "title": "Glia, Gap Junctions, and Synaptic Transmission",
+  "page": 113,
+  "section": "Synaptic Transmission: From Electrical Signals to Chemical Signals"
+ },
+ {
+  "id": "4.23",
+  "ch": 4,
+  "level": 3,
+  "title": "Neurotransmitters",
+  "page": 115,
+  "section": "Neurotransmitters"
+ },
+ {
+  "id": "4.24",
+  "ch": 4,
+  "level": 4,
+  "title": "Overview of the Neurotransmitter Classes",
+  "page": 115,
+  "section": "Neurotransmitters"
+ },
+ {
+  "id": "4.25",
+  "ch": 4,
+  "level": 4,
+  "title": "The Roles and Functions of Neurotransmitters",
+  "page": 115,
+  "section": "Neurotransmitters"
+ },
+ {
+  "id": "4.26",
+  "ch": 4,
+  "level": 5,
+  "title": "Amino Acid Neurotransmitters",
+  "page": 115,
+  "section": "Neurotransmitters"
+ },
+ {
+  "id": "4.27",
+  "ch": 4,
+  "level": 5,
+  "title": "Monoamine Neurotransmitters",
+  "page": 115,
+  "section": "Neurotransmitters"
+ },
+ {
+  "id": "4.28",
+  "ch": 4,
+  "level": 5,
+  "title": "Acetylcholine",
+  "page": 115,
+  "section": "Neurotransmitters"
+ },
+ {
+  "id": "4.29",
+  "ch": 4,
+  "level": 5,
+  "title": "Unconventional Neurotransmitters",
+  "page": 115,
+  "section": "Neurotransmitters"
+ },
+ {
+  "id": "4.30",
+  "ch": 4,
+  "level": 5,
+  "title": "Neuropeptides",
+  "page": 117,
+  "section": "Neurotransmitters"
+ },
+ {
+  "id": "4.31",
+  "ch": 4,
+  "level": 3,
+  "title": "Pharmacology of Synaptic Transmission and Behavior",
+  "page": 117,
+  "section": "Pharmacology of Synaptic Transmission and Behavior"
+ },
+ {
+  "id": "4.32",
+  "ch": 4,
+  "level": 4,
+  "title": "How Drugs Influence Synaptic Transmission",
+  "page": 117,
+  "section": "Pharmacology of Synaptic Transmission and Behavior"
+ },
+ {
+  "id": "4.33",
+  "ch": 4,
+  "level": 4,
+  "title": "Behavioral Pharmacology: Three Influential Lines of Research",
+  "page": 118,
+  "section": "Pharmacology of Synaptic Transmission and Behavior"
+ },
+ {
+  "id": "4.34",
+  "ch": 4,
+  "level": 5,
+  "title": "Wrinkles and Darts: Discovery of Receptor Subtypes",
+  "page": 118,
+  "section": "Pharmacology of Synaptic Transmission and Behavior"
+ },
+ {
+  "id": "4.35",
+  "ch": 4,
+  "level": 5,
+  "title": "Pleasure and Pain: Discovery of Endogenous Opioids",
+  "page": 120,
+  "section": "Pharmacology of Synaptic Transmission and Behavior"
+ },
+ {
+  "id": "4.36",
+  "ch": 4,
+  "level": 5,
+  "title": "Tremors and Mental Illness: Discovery of Antipsychotic Drugs",
+  "page": 120,
+  "section": "Pharmacology of Synaptic Transmission and Behavior"
+ },
+ {
+  "id": "5.1",
+  "ch": 5,
+  "level": 3,
+  "title": "The Ironic Case of Professor P.",
+  "page": 124,
+  "section": "Pharmacology of Synaptic Transmission and Behavior"
+ },
+ {
+  "id": "5.2",
+  "ch": 5,
+  "level": 3,
+  "title": "Methods of Visualizing and Stimulating the Living Human Brain",
+  "page": 124,
+  "section": "Methods of Visualizing and Stimulating the Living Human Brain"
+ },
+ {
+  "id": "5.3",
+  "ch": 5,
+  "level": 4,
+  "title": "X-Ray-Based Techniques",
+  "page": 125,
+  "section": "Methods of Visualizing and Stimulating the Living Human Brain"
+ },
+ {
+  "id": "5.4",
+  "ch": 5,
+  "level": 5,
+  "title": "Contrast X-Rays",
+  "page": 125,
+  "section": "Methods of Visualizing and Stimulating the Living Human Brain"
+ },
+ {
+  "id": "5.5",
+  "ch": 5,
+  "level": 5,
+  "title": "Computed Tomography",
+  "page": 125,
+  "section": "Methods of Visualizing and Stimulating the Living Human Brain"
+ },
+ {
+  "id": "5.6",
+  "ch": 5,
+  "level": 4,
+  "title": "Radioactivity-Based Techniques",
+  "page": 126,
+  "section": "Methods of Visualizing and Stimulating the Living Human Brain"
+ },
+ {
+  "id": "5.7",
+  "ch": 5,
+  "level": 4,
+  "title": "Magnetic-Field-Based Techniques",
+  "page": 126,
+  "section": "Methods of Visualizing and Stimulating the Living Human Brain"
+ },
+ {
+  "id": "5.8",
+  "ch": 5,
+  "level": 5,
+  "title": "Magnetic Resonance Imaging",
+  "page": 126,
+  "section": "Methods of Visualizing and Stimulating the Living Human Brain"
+ },
+ {
+  "id": "5.9",
+  "ch": 5,
+  "level": 5,
+  "title": "Diffusion Tensor MRI",
+  "page": 127,
+  "section": "Methods of Visualizing and Stimulating the Living Human Brain"
+ },
+ {
+  "id": "5.10",
+  "ch": 5,
+  "level": 5,
+  "title": "Functional MRI",
+  "page": 127,
+  "section": "Methods of Visualizing and Stimulating the Living Human Brain"
+ },
+ {
+  "id": "5.11",
+  "ch": 5,
+  "level": 4,
+  "title": "Ultrasound-Based Techniques",
+  "page": 128,
+  "section": "Methods of Visualizing and Stimulating the Living Human Brain"
+ },
+ {
+  "id": "5.12",
+  "ch": 5,
+  "level": 4,
+  "title": "Transcranial Stimulation",
+  "page": 128,
+  "section": "Methods of Visualizing and Stimulating the Living Human Brain"
+ },
+ {
+  "id": "5.13",
+  "ch": 5,
+  "level": 3,
+  "title": "Recording Human Psychophysiological Activity",
+  "page": 129,
+  "section": "Recording Human Psychophysiological Activity"
+ },
+ {
+  "id": "5.14",
+  "ch": 5,
+  "level": 4,
+  "title": "Psychophysiological Measures of Brain Activity",
+  "page": 129,
+  "section": "Recording Human Psychophysiological Activity"
+ },
+ {
+  "id": "5.15",
+  "ch": 5,
+  "level": 5,
+  "title": "Scalp Electroencephalography",
+  "page": 129,
+  "section": "Recording Human Psychophysiological Activity"
+ },
+ {
+  "id": "5.16",
+  "ch": 5,
+  "level": 5,
+  "title": "Magnetoencephalography",
+  "page": 131,
+  "section": "Recording Human Psychophysiological Activity"
+ },
+ {
+  "id": "5.17",
+  "ch": 5,
+  "level": 4,
+  "title": "Psychophysiological Measures of Somatic Nervous System Activity",
+  "page": 131,
+  "section": "Recording Human Psychophysiological Activity"
+ },
+ {
+  "id": "5.18",
+  "ch": 5,
+  "level": 5,
+  "title": "Muscle Tension",
+  "page": 131,
+  "section": "Recording Human Psychophysiological Activity"
+ },
+ {
+  "id": "5.19",
+  "ch": 5,
+  "level": 5,
+  "title": "Eye Movement",
+  "page": 131,
+  "section": "Recording Human Psychophysiological Activity"
+ },
+ {
+  "id": "5.20",
+  "ch": 5,
+  "level": 4,
+  "title": "Psychophysiological Measures of Autonomic Nervous System Activity",
+  "page": 132,
+  "section": "Recording Human Psychophysiological Activity"
+ },
+ {
+  "id": "5.21",
+  "ch": 5,
+  "level": 5,
+  "title": "Skin Conductance",
+  "page": 132,
+  "section": "Recording Human Psychophysiological Activity"
+ },
+ {
+  "id": "5.22",
+  "ch": 5,
+  "level": 5,
+  "title": "Cardiovascular Activity",
+  "page": 132,
+  "section": "Recording Human Psychophysiological Activity"
+ },
+ {
+  "id": "5.23",
+  "ch": 5,
+  "level": 3,
+  "title": "Invasive Physiological Research Methods",
+  "page": 133,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.24",
+  "ch": 5,
+  "level": 4,
+  "title": "Stereotaxic Surgery",
+  "page": 133,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.25",
+  "ch": 5,
+  "level": 4,
+  "title": "Lesion Methods",
+  "page": 134,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.26",
+  "ch": 5,
+  "level": 5,
+  "title": "Aspiration Lesions",
+  "page": 134,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.27",
+  "ch": 5,
+  "level": 5,
+  "title": "Radio-Frequency Lesions",
+  "page": 134,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.28",
+  "ch": 5,
+  "level": 5,
+  "title": "Knife Cuts",
+  "page": 134,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.29",
+  "ch": 5,
+  "level": 5,
+  "title": "Reversible Lesions",
+  "page": 134,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.30",
+  "ch": 5,
+  "level": 5,
+  "title": "Interpreting Lesion Effects",
+  "page": 134,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.31",
+  "ch": 5,
+  "level": 5,
+  "title": "Bilateral and Unilateral Lesions",
+  "page": 135,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.32",
+  "ch": 5,
+  "level": 4,
+  "title": "Electrical Stimulation",
+  "page": 135,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.33",
+  "ch": 5,
+  "level": 4,
+  "title": "Invasive Electrophysiological Recording Methods",
+  "page": 135,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.34",
+  "ch": 5,
+  "level": 5,
+  "title": "Intracellular Unit Recording",
+  "page": 135,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.35",
+  "ch": 5,
+  "level": 5,
+  "title": "Extracellular Unit Recording",
+  "page": 135,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.36",
+  "ch": 5,
+  "level": 5,
+  "title": "Multiple-Unit Recording",
+  "page": 136,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.37",
+  "ch": 5,
+  "level": 5,
+  "title": "Invasive Eeg Recording",
+  "page": 136,
+  "section": "Invasive Physiological Research Methods"
+ },
+ {
+  "id": "5.38",
+  "ch": 5,
+  "level": 3,
+  "title": "Pharmacological Research Methods",
+  "page": 136,
+  "section": "Pharmacological Research Methods"
+ },
+ {
+  "id": "5.39",
+  "ch": 5,
+  "level": 4,
+  "title": "Routes of Drug Administration",
+  "page": 137,
+  "section": "Pharmacological Research Methods"
+ },
+ {
+  "id": "5.40",
+  "ch": 5,
+  "level": 4,
+  "title": "Selective Chemical Lesions",
+  "page": 137,
+  "section": "Pharmacological Research Methods"
+ },
+ {
+  "id": "5.41",
+  "ch": 5,
+  "level": 4,
+  "title": "Measuring Chemical Activity of the Brain",
+  "page": 137,
+  "section": "Pharmacological Research Methods"
+ },
+ {
+  "id": "5.42",
+  "ch": 5,
+  "level": 5,
+  "title": "2-Deoxyglucose Technique",
+  "page": 137,
+  "section": "Pharmacological Research Methods"
+ },
+ {
+  "id": "5.43",
+  "ch": 5,
+  "level": 5,
+  "title": "Cerebral Dialysis",
+  "page": 137,
+  "section": "Pharmacological Research Methods"
+ },
+ {
+  "id": "5.44",
+  "ch": 5,
+  "level": 4,
+  "title": "Locating Neurotransmitters and Receptors in the Brain",
+  "page": 138,
+  "section": "Pharmacological Research Methods"
+ },
+ {
+  "id": "5.45",
+  "ch": 5,
+  "level": 5,
+  "title": "Immunocytochemistry",
+  "page": 138,
+  "section": "Pharmacological Research Methods"
+ },
+ {
+  "id": "5.46",
+  "ch": 5,
+  "level": 5,
+  "title": "In Situ Hybridization",
+  "page": 138,
+  "section": "Pharmacological Research Methods"
+ },
+ {
+  "id": "5.47",
+  "ch": 5,
+  "level": 3,
+  "title": "Genetic Methods",
+  "page": 138,
+  "section": "Genetic Methods"
+ },
+ {
+  "id": "5.48",
+  "ch": 5,
+  "level": 4,
+  "title": "Gene Knockout Techniques",
+  "page": 139,
+  "section": "Genetic Methods"
+ },
+ {
+  "id": "5.49",
+  "ch": 5,
+  "level": 4,
+  "title": "Gene Knockin Techniques",
+  "page": 139,
+  "section": "Genetic Methods"
+ },
+ {
+  "id": "5.50",
+  "ch": 5,
+  "level": 4,
+  "title": "Gene Editing Techniques",
+  "page": 139,
+  "section": "Genetic Methods"
+ },
+ {
+  "id": "5.51",
+  "ch": 5,
+  "level": 4,
+  "title": "Fantastic Fluorescence and the Brainbow",
+  "page": 140,
+  "section": "Genetic Methods"
+ },
+ {
+  "id": "5.52",
+  "ch": 5,
+  "level": 4,
+  "title": "Optogenetics: A Neural Light Switch",
+  "page": 140,
+  "section": "Genetic Methods"
+ },
+ {
+  "id": "5.53",
+  "ch": 5,
+  "level": 3,
+  "title": "Neuropsychological Testing",
+  "page": 142,
+  "section": "Neuropsychological Testing"
+ },
+ {
+  "id": "5.54",
+  "ch": 5,
+  "level": 4,
+  "title": "Modern Approach to Neuropsychological Testing",
+  "page": 142,
+  "section": "Neuropsychological Testing"
+ },
+ {
+  "id": "5.55",
+  "ch": 5,
+  "level": 5,
+  "title": "The Single-Test Approach",
+  "page": 142,
+  "section": "Neuropsychological Testing"
+ },
+ {
+  "id": "5.56",
+  "ch": 5,
+  "level": 5,
+  "title": "The Standardized-Test-Battery Approach",
+  "page": 142,
+  "section": "Neuropsychological Testing"
+ },
+ {
+  "id": "5.57",
+  "ch": 5,
+  "level": 5,
+  "title": "The Customized-Test-Battery Approach",
+  "page": 143,
+  "section": "Neuropsychological Testing"
+ },
+ {
+  "id": "5.58",
+  "ch": 5,
+  "level": 4,
+  "title": "Tests of the Common Neuropsychological Test Battery",
+  "page": 143,
+  "section": "Neuropsychological Testing"
+ },
+ {
+  "id": "5.59",
+  "ch": 5,
+  "level": 5,
+  "title": "Intelligence",
+  "page": 143,
+  "section": "Neuropsychological Testing"
+ },
+ {
+  "id": "5.60",
+  "ch": 5,
+  "level": 5,
+  "title": "Memory",
+  "page": 143,
+  "section": "Neuropsychological Testing"
+ },
+ {
+  "id": "5.61",
+  "ch": 5,
+  "level": 5,
+  "title": "Language",
+  "page": 143,
+  "section": "Neuropsychological Testing"
+ },
+ {
+  "id": "5.62",
+  "ch": 5,
+  "level": 5,
+  "title": "Language Lateralization",
+  "page": 144,
+  "section": "Neuropsychological Testing"
+ },
+ {
+  "id": "5.63",
+  "ch": 5,
+  "level": 4,
+  "title": "Tests of Specific Neuropsychological Function",
+  "page": 144,
+  "section": "Neuropsychological Testing"
+ },
+ {
+  "id": "5.64",
+  "ch": 5,
+  "level": 5,
+  "title": "Memory",
+  "page": 144,
+  "section": "Neuropsychological Testing"
+ },
+ {
+  "id": "5.65",
+  "ch": 5,
+  "level": 5,
+  "title": "Language",
+  "page": 144,
+  "section": "Neuropsychological Testing"
+ },
+ {
+  "id": "5.66",
+  "ch": 5,
+  "level": 3,
+  "title": "Behavioral Methods of Cognitive Neuroscience",
+  "page": 145,
+  "section": "Behavioral Methods of Cognitive Neuroscience"
+ },
+ {
+  "id": "5.67",
+  "ch": 5,
+  "level": 3,
+  "title": "The Case of the Vegetative Patient",
+  "page": 145,
+  "section": "Behavioral Methods of Cognitive Neuroscience"
+ },
+ {
+  "id": "5.68",
+  "ch": 5,
+  "level": 4,
+  "title": "Paired-Image Subtraction Technique",
+  "page": 145,
+  "section": "Behavioral Methods of Cognitive Neuroscience"
+ },
+ {
+  "id": "5.69",
+  "ch": 5,
+  "level": 4,
+  "title": "Default Mode Network",
+  "page": 146,
+  "section": "Behavioral Methods of Cognitive Neuroscience"
+ },
+ {
+  "id": "5.70",
+  "ch": 5,
+  "level": 4,
+  "title": "Mean Difference Images",
+  "page": 146,
+  "section": "Behavioral Methods of Cognitive Neuroscience"
+ },
+ {
+  "id": "5.71",
+  "ch": 5,
+  "level": 4,
+  "title": "Functional Connectivity",
+  "page": 147,
+  "section": "Behavioral Methods of Cognitive Neuroscience"
+ },
+ {
+  "id": "5.72",
+  "ch": 5,
+  "level": 3,
+  "title": "Biopsychological Paradigms of Animal Behavior",
+  "page": 147,
+  "section": "Biopsychological Paradigms of Animal Behavior"
+ },
+ {
+  "id": "5.73",
+  "ch": 5,
+  "level": 4,
+  "title": "Paradigms for the Assessment of Species-Common Behaviors",
+  "page": 147,
+  "section": "Biopsychological Paradigms of Animal Behavior"
+ },
+ {
+  "id": "5.74",
+  "ch": 5,
+  "level": 5,
+  "title": "Open-Field Test",
+  "page": 147,
+  "section": "Biopsychological Paradigms of Animal Behavior"
+ },
+ {
+  "id": "5.75",
+  "ch": 5,
+  "level": 5,
+  "title": "Tests of Aggressive and Defensive Behavior",
+  "page": 147,
+  "section": "Biopsychological Paradigms of Animal Behavior"
+ },
+ {
+  "id": "5.76",
+  "ch": 5,
+  "level": 5,
+  "title": "Tests of Sexual Behavior",
+  "page": 147,
+  "section": "Biopsychological Paradigms of Animal Behavior"
+ },
+ {
+  "id": "5.77",
+  "ch": 5,
+  "level": 4,
+  "title": "Traditional Conditioning Paradigms",
+  "page": 148,
+  "section": "Biopsychological Paradigms of Animal Behavior"
+ },
+ {
+  "id": "5.78",
+  "ch": 5,
+  "level": 4,
+  "title": "Seminatural Animal Learning Paradigms",
+  "page": 148,
+  "section": "Biopsychological Paradigms of Animal Behavior"
+ },
+ {
+  "id": "5.79",
+  "ch": 5,
+  "level": 5,
+  "title": "Conditioned Taste Aversion",
+  "page": 148,
+  "section": "Biopsychological Paradigms of Animal Behavior"
+ },
+ {
+  "id": "5.80",
+  "ch": 5,
+  "level": 5,
+  "title": "Radial Arm Maze",
+  "page": 149,
+  "section": "Biopsychological Paradigms of Animal Behavior"
+ },
+ {
+  "id": "5.81",
+  "ch": 5,
+  "level": 5,
+  "title": "Morris Water Maze",
+  "page": 149,
+  "section": "Biopsychological Paradigms of Animal Behavior"
+ },
+ {
+  "id": "5.82",
+  "ch": 5,
+  "level": 5,
+  "title": "Conditioned Defensive Burying",
+  "page": 149,
+  "section": "Biopsychological Paradigms of Animal Behavior"
+ },
+ {
+  "id": "5.83",
+  "ch": 5,
+  "level": 4,
+  "title": "Thinking Creatively About Biopsychological Research",
+  "page": 149,
+  "section": "Biopsychological Paradigms of Animal Behavior"
+ },
+ {
+  "id": "6.1",
+  "ch": 6,
+  "level": 3,
+  "title": "The Case of Mrs. Richards: Fortification Illusions and the Astronomer",
+  "page": 154,
+  "section": "Biopsychological Paradigms of Animal Behavior"
+ },
+ {
+  "id": "6.2",
+  "ch": 6,
+  "level": 3,
+  "title": "Light Enters the Eye and Reaches the Retina",
+  "page": 155,
+  "section": "Light Enters the Eye and Reaches the Retina"
+ },
+ {
+  "id": "6.3",
+  "ch": 6,
+  "level": 4,
+  "title": "Pupil and Lens",
+  "page": 155,
+  "section": "Light Enters the Eye and Reaches the Retina"
+ },
+ {
+  "id": "6.4",
+  "ch": 6,
+  "level": 4,
+  "title": "Eye Position and Binocular Disparity",
+  "page": 156,
+  "section": "Light Enters the Eye and Reaches the Retina"
+ },
+ {
+  "id": "6.5",
+  "ch": 6,
+  "level": 3,
+  "title": "The Retina and Translation of Light into Neural Signals",
+  "page": 158,
+  "section": "The Retina and Translation of Light into Neural Signals"
+ },
+ {
+  "id": "6.6",
+  "ch": 6,
+  "level": 4,
+  "title": "Structure of the Retina",
+  "page": 158,
+  "section": "The Retina and Translation of Light into Neural Signals"
+ },
+ {
+  "id": "6.7",
+  "ch": 6,
+  "level": 4,
+  "title": "Cone and Rod Vision",
+  "page": 159,
+  "section": "The Retina and Translation of Light into Neural Signals"
+ },
+ {
+  "id": "6.8",
+  "ch": 6,
+  "level": 4,
+  "title": "Spectral Sensitivity",
+  "page": 161,
+  "section": "The Retina and Translation of Light into Neural Signals"
+ },
+ {
+  "id": "6.9",
+  "ch": 6,
+  "level": 4,
+  "title": "Eye Movement",
+  "page": 162,
+  "section": "The Retina and Translation of Light into Neural Signals"
+ },
+ {
+  "id": "6.10",
+  "ch": 6,
+  "level": 4,
+  "title": "Visual Transduction: The Conversion of Light to Neural Signals",
+  "page": 163,
+  "section": "The Retina and Translation of Light into Neural Signals"
+ },
+ {
+  "id": "6.11",
+  "ch": 6,
+  "level": 3,
+  "title": "From Retina to Primary Visual Cortex",
+  "page": 164,
+  "section": "From Retina to Primary Visual Cortex"
+ },
+ {
+  "id": "6.12",
+  "ch": 6,
+  "level": 4,
+  "title": "Retina-Geniculate-Striate System",
+  "page": 164,
+  "section": "From Retina to Primary Visual Cortex"
+ },
+ {
+  "id": "6.13",
+  "ch": 6,
+  "level": 4,
+  "title": "Retinotopic Organization",
+  "page": 165,
+  "section": "From Retina to Primary Visual Cortex"
+ },
+ {
+  "id": "6.14",
+  "ch": 6,
+  "level": 4,
+  "title": "The M and P Channels",
+  "page": 165,
+  "section": "From Retina to Primary Visual Cortex"
+ },
+ {
+  "id": "6.15",
+  "ch": 6,
+  "level": 3,
+  "title": "Seeing Edges",
+  "page": 166,
+  "section": "Seeing Edges"
+ },
+ {
+  "id": "6.16",
+  "ch": 6,
+  "level": 4,
+  "title": "Contrast Enhancement",
+  "page": 166,
+  "section": "Seeing Edges"
+ },
+ {
+  "id": "6.17",
+  "ch": 6,
+  "level": 4,
+  "title": "Receptive Fields of Visual Neurons: Hubel & Wiesel",
+  "page": 167,
+  "section": "Seeing Edges"
+ },
+ {
+  "id": "6.18",
+  "ch": 6,
+  "level": 4,
+  "title": "Receptive Fields of the Retina-Geniculate-Striate System: Hubel & Wiesel",
+  "page": 167,
+  "section": "Seeing Edges"
+ },
+ {
+  "id": "6.19",
+  "ch": 6,
+  "level": 4,
+  "title": "Receptive Fields of Primary Visual Cortex Neurons: Hubel & Wiesel",
+  "page": 168,
+  "section": "Seeing Edges"
+ },
+ {
+  "id": "6.20",
+  "ch": 6,
+  "level": 5,
+  "title": "Simple Striate Cells",
+  "page": 169,
+  "section": "Seeing Edges"
+ },
+ {
+  "id": "6.21",
+  "ch": 6,
+  "level": 5,
+  "title": "Complex Striate Cells",
+  "page": 169,
+  "section": "Seeing Edges"
+ },
+ {
+  "id": "6.22",
+  "ch": 6,
+  "level": 5,
+  "title": "Binocular Complex Striate Cells",
+  "page": 169,
+  "section": "Seeing Edges"
+ },
+ {
+  "id": "6.23",
+  "ch": 6,
+  "level": 4,
+  "title": "Organization of Primary Visual Cortex: Hubel & Wiesel’s Findings",
+  "page": 169,
+  "section": "Seeing Edges"
+ },
+ {
+  "id": "6.24",
+  "ch": 6,
+  "level": 3,
+  "title": "The Case of Mrs. Richards, Revisited",
+  "page": 170,
+  "section": "Seeing Edges"
+ },
+ {
+  "id": "6.25",
+  "ch": 6,
+  "level": 4,
+  "title": "Changing Concept of the Characteristics of Visual Receptive Fields",
+  "page": 170,
+  "section": "Seeing Edges"
+ },
+ {
+  "id": "6.26",
+  "ch": 6,
+  "level": 5,
+  "title": "Retinal Ganglion Cells",
+  "page": 170,
+  "section": "Seeing Edges"
+ },
+ {
+  "id": "6.27",
+  "ch": 6,
+  "level": 5,
+  "title": "Lateral Geniculate Cells",
+  "page": 170,
+  "section": "Seeing Edges"
+ },
+ {
+  "id": "6.28",
+  "ch": 6,
+  "level": 4,
+  "title": "Changing Concept of Visual Receptive Fields: Contextual Influences in Visual Processing",
+  "page": 170,
+  "section": "Seeing Edges"
+ },
+ {
+  "id": "6.29",
+  "ch": 6,
+  "level": 3,
+  "title": "Seeing Color",
+  "page": 171,
+  "section": "Seeing Color"
+ },
+ {
+  "id": "6.30",
+  "ch": 6,
+  "level": 4,
+  "title": "Component and Opponent Processing",
+  "page": 171,
+  "section": "Seeing Color"
+ },
+ {
+  "id": "6.31",
+  "ch": 6,
+  "level": 4,
+  "title": "Color Constancy and the Retinex Theory",
+  "page": 173,
+  "section": "Seeing Color"
+ },
+ {
+  "id": "6.32",
+  "ch": 6,
+  "level": 3,
+  "title": "Cortical Mechanisms of Vision and Conscious Awareness",
+  "page": 174,
+  "section": "Cortical Mechanisms of Vision and Conscious Awareness"
+ },
+ {
+  "id": "6.33",
+  "ch": 6,
+  "level": 4,
+  "title": "Three Different Classes of Visual Cortex",
+  "page": 175,
+  "section": "Cortical Mechanisms of Vision and Conscious Awareness"
+ },
+ {
+  "id": "6.34",
+  "ch": 6,
+  "level": 4,
+  "title": "Damage to Primary Visual Cortex: Scotomas and Completion",
+  "page": 175,
+  "section": "Cortical Mechanisms of Vision and Conscious Awareness"
+ },
+ {
+  "id": "6.35",
+  "ch": 6,
+  "level": 3,
+  "title": "The Physiological Psychologist Who Made Faces Disappear",
+  "page": 176,
+  "section": "The Physiological Psychologist Who Made Faces Disappear"
+ },
+ {
+  "id": "6.36",
+  "ch": 6,
+  "level": 3,
+  "title": "The Case of D.B., the Man Confused by His Own Blindsight",
+  "page": 176,
+  "section": "The Physiological Psychologist Who Made Faces Disappear"
+ },
+ {
+  "id": "6.37",
+  "ch": 6,
+  "level": 4,
+  "title": "Functional Areas of Secondary and Association Visual Cortex",
+  "page": 177,
+  "section": "The Physiological Psychologist Who Made Faces Disappear"
+ },
+ {
+  "id": "6.38",
+  "ch": 6,
+  "level": 4,
+  "title": "Dorsal and Ventral Streams",
+  "page": 177,
+  "section": "The Physiological Psychologist Who Made Faces Disappear"
+ },
+ {
+  "id": "6.39",
+  "ch": 6,
+  "level": 3,
+  "title": "D.F., the Woman Who Could Grasp Objects She Did Not Consciously See",
+  "page": 179,
+  "section": "D.F., the Woman Who Could Grasp Objects She Did Not Consciously See"
+ },
+ {
+  "id": "6.40",
+  "ch": 6,
+  "level": 3,
+  "title": "A.T., the Woman Who Could Not Accurately Grasp Unfamiliar Objects That She Saw",
+  "page": 179,
+  "section": "A.T., the Woman Who Could Not Accurately Grasp Unfamiliar Objects That She Saw"
+ },
+ {
+  "id": "6.41",
+  "ch": 6,
+  "level": 4,
+  "title": "Prosopagnosia",
+  "page": 180,
+  "section": "A.T., the Woman Who Could Not Accurately Grasp Unfamiliar Objects That She Saw"
+ },
+ {
+  "id": "6.42",
+  "ch": 6,
+  "level": 5,
+  "title": "Is Prosopagnosia Specific to Faces?",
+  "page": 180,
+  "section": "A.T., the Woman Who Could Not Accurately Grasp Unfamiliar Objects That She Saw"
+ },
+ {
+  "id": "6.43",
+  "ch": 6,
+  "level": 3,
+  "title": "R.P., a Typical Prosopagnosic",
+  "page": 180,
+  "section": "R.P., a Typical Prosopagnosic"
+ },
+ {
+  "id": "6.44",
+  "ch": 6,
+  "level": 4,
+  "title": "What Brain Pathology is Associated with Prosopagnosia?",
+  "page": 180,
+  "section": "R.P., a Typical Prosopagnosic"
+ },
+ {
+  "id": "6.45",
+  "ch": 6,
+  "level": 4,
+  "title": "Can Prosopagnosics Perceive Faces in the Absence of Conscious Awareness?",
+  "page": 181,
+  "section": "R.P., a Typical Prosopagnosic"
+ },
+ {
+  "id": "6.46",
+  "ch": 6,
+  "level": 4,
+  "title": "Akinetopsia",
+  "page": 181,
+  "section": "R.P., a Typical Prosopagnosic"
+ },
+ {
+  "id": "6.47",
+  "ch": 6,
+  "level": 3,
+  "title": "Two Cases of Drug-Induced Akinetopsia",
+  "page": 181,
+  "section": "R.P., a Typical Prosopagnosic"
+ },
+ {
+  "id": "7.1",
+  "ch": 7,
+  "level": 3,
+  "title": "The Case of the Man Who Could See Only One Thing at a Time",
+  "page": 186,
+  "section": "R.P., a Typical Prosopagnosic"
+ },
+ {
+  "id": "7.2",
+  "ch": 7,
+  "level": 3,
+  "title": "Principles of Sensory System Organization",
+  "page": 186,
+  "section": "Principles of Sensory System Organization"
+ },
+ {
+  "id": "7.3",
+  "ch": 7,
+  "level": 4,
+  "title": "Types of Sensory Areas of Cortex",
+  "page": 186,
+  "section": "Principles of Sensory System Organization"
+ },
+ {
+  "id": "7.4",
+  "ch": 7,
+  "level": 4,
+  "title": "Features of Sensory System Organization",
+  "page": 186,
+  "section": "Principles of Sensory System Organization"
+ },
+ {
+  "id": "7.5",
+  "ch": 7,
+  "level": 3,
+  "title": "Case of the Man Who Mistook His Wife for a Hat",
+  "page": 187,
+  "section": "Principles of Sensory System Organization"
+ },
+ {
+  "id": "7.6",
+  "ch": 7,
+  "level": 4,
+  "title": "Functional Segregation",
+  "page": 187,
+  "section": "Principles of Sensory System Organization"
+ },
+ {
+  "id": "7.7",
+  "ch": 7,
+  "level": 4,
+  "title": "Parallel Processing",
+  "page": 187,
+  "section": "Principles of Sensory System Organization"
+ },
+ {
+  "id": "7.8",
+  "ch": 7,
+  "level": 4,
+  "title": "Summary Model of Sensory System Organization",
+  "page": 187,
+  "section": "Principles of Sensory System Organization"
+ },
+ {
+  "id": "7.9",
+  "ch": 7,
+  "level": 3,
+  "title": "Auditory System",
+  "page": 188,
+  "section": "Auditory System"
+ },
+ {
+  "id": "7.10",
+  "ch": 7,
+  "level": 4,
+  "title": "Physical and Perceptual Dimensions of Sound",
+  "page": 188,
+  "section": "Auditory System"
+ },
+ {
+  "id": "7.11",
+  "ch": 7,
+  "level": 4,
+  "title": "The Ear",
+  "page": 189,
+  "section": "Auditory System"
+ },
+ {
+  "id": "7.12",
+  "ch": 7,
+  "level": 4,
+  "title": "From the Ear to the Primary Auditory Cortex",
+  "page": 190,
+  "section": "Auditory System"
+ },
+ {
+  "id": "7.13",
+  "ch": 7,
+  "level": 4,
+  "title": "Auditory Cortex",
+  "page": 190,
+  "section": "Auditory System"
+ },
+ {
+  "id": "7.14",
+  "ch": 7,
+  "level": 5,
+  "title": "Organization of Primate Auditory Cortex",
+  "page": 191,
+  "section": "Auditory System"
+ },
+ {
+  "id": "7.15",
+  "ch": 7,
+  "level": 5,
+  "title": "What Sounds Should be used to Study auditory Cortex?",
+  "page": 191,
+  "section": "Auditory System"
+ },
+ {
+  "id": "7.16",
+  "ch": 7,
+  "level": 5,
+  "title": "What Analyses does the Auditory Cortex Perform?",
+  "page": 192,
+  "section": "Auditory System"
+ },
+ {
+  "id": "7.17",
+  "ch": 7,
+  "level": 5,
+  "title": "Two Streams of Auditory Cortex",
+  "page": 192,
+  "section": "Auditory System"
+ },
+ {
+  "id": "7.18",
+  "ch": 7,
+  "level": 5,
+  "title": "Auditory–Visual Interactions",
+  "page": 192,
+  "section": "Auditory System"
+ },
+ {
+  "id": "7.19",
+  "ch": 7,
+  "level": 5,
+  "title": "Where does the Perception of Pitch Occur?",
+  "page": 192,
+  "section": "Auditory System"
+ },
+ {
+  "id": "7.20",
+  "ch": 7,
+  "level": 4,
+  "title": "Effects of Damage to the Auditory System",
+  "page": 193,
+  "section": "Auditory System"
+ },
+ {
+  "id": "7.21",
+  "ch": 7,
+  "level": 5,
+  "title": "Auditory Cortex Damage",
+  "page": 193,
+  "section": "Auditory System"
+ },
+ {
+  "id": "7.22",
+  "ch": 7,
+  "level": 5,
+  "title": "Deafness in Humans",
+  "page": 193,
+  "section": "Auditory System"
+ },
+ {
+  "id": "7.23",
+  "ch": 7,
+  "level": 3,
+  "title": "Somatosensory System: Touch and Pain",
+  "page": 195,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.24",
+  "ch": 7,
+  "level": 4,
+  "title": "Cutaneous Receptors",
+  "page": 195,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.25",
+  "ch": 7,
+  "level": 4,
+  "title": "Two Major Somatosensory Pathways",
+  "page": 195,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.26",
+  "ch": 7,
+  "level": 4,
+  "title": "Cortical Areas of Somatosensation",
+  "page": 196,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.27",
+  "ch": 7,
+  "level": 5,
+  "title": "Effects of Damage to the Primary Somatosensory Cortex",
+  "page": 198,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.28",
+  "ch": 7,
+  "level": 4,
+  "title": "Somatosensory System and Association Cortex",
+  "page": 199,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.29",
+  "ch": 7,
+  "level": 3,
+  "title": "The Case of W.M., Who Reduced His Scotoma with His Hand",
+  "page": 199,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.30",
+  "ch": 7,
+  "level": 4,
+  "title": "Somatosensory Agnosias",
+  "page": 199,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.31",
+  "ch": 7,
+  "level": 3,
+  "title": "The Case of Aunt Betty, Who Lost Half of Her Body",
+  "page": 199,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.32",
+  "ch": 7,
+  "level": 4,
+  "title": "Rubber-Hand Illusion",
+  "page": 200,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.33",
+  "ch": 7,
+  "level": 4,
+  "title": "Perception of Pain",
+  "page": 200,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.34",
+  "ch": 7,
+  "level": 5,
+  "title": "Pain is Adaptive",
+  "page": 200,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.35",
+  "ch": 7,
+  "level": 3,
+  "title": "The Case of Miss C., the Woman Who Felt No Pain",
+  "page": 200,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.36",
+  "ch": 7,
+  "level": 4,
+  "title": "Pain has no Clear Cortical Representation",
+  "page": 201,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.37",
+  "ch": 7,
+  "level": 4,
+  "title": "Pain is Modulated by Cognition and Emotion",
+  "page": 201,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.38",
+  "ch": 7,
+  "level": 4,
+  "title": "Neuropathic Pain",
+  "page": 202,
+  "section": "Somatosensory System: Touch and Pain"
+ },
+ {
+  "id": "7.39",
+  "ch": 7,
+  "level": 3,
+  "title": "Chemical Senses: Smell and Taste",
+  "page": 203,
+  "section": "Chemical Senses: Smell and Taste"
+ },
+ {
+  "id": "7.40",
+  "ch": 7,
+  "level": 4,
+  "title": "Adaptive Roles of the Chemical Senses",
+  "page": 203,
+  "section": "Chemical Senses: Smell and Taste"
+ },
+ {
+  "id": "7.41",
+  "ch": 7,
+  "level": 4,
+  "title": "Olfactory System",
+  "page": 203,
+  "section": "Chemical Senses: Smell and Taste"
+ },
+ {
+  "id": "7.42",
+  "ch": 7,
+  "level": 4,
+  "title": "Gustatory System",
+  "page": 205,
+  "section": "Chemical Senses: Smell and Taste"
+ },
+ {
+  "id": "7.43",
+  "ch": 7,
+  "level": 4,
+  "title": "Brain Damage and the Chemical Senses",
+  "page": 206,
+  "section": "Chemical Senses: Smell and Taste"
+ },
+ {
+  "id": "7.44",
+  "ch": 7,
+  "level": 3,
+  "title": "Perception",
+  "page": 207,
+  "section": "Perception"
+ },
+ {
+  "id": "7.45",
+  "ch": 7,
+  "level": 4,
+  "title": "Role of Prior Experience in Perception",
+  "page": 207,
+  "section": "Perception"
+ },
+ {
+  "id": "7.46",
+  "ch": 7,
+  "level": 4,
+  "title": "Perceptual Decision Making",
+  "page": 207,
+  "section": "Perception"
+ },
+ {
+  "id": "7.47",
+  "ch": 7,
+  "level": 4,
+  "title": "The Binding Problem",
+  "page": 208,
+  "section": "Perception"
+ },
+ {
+  "id": "7.48",
+  "ch": 7,
+  "level": 3,
+  "title": "Selective Attention",
+  "page": 209,
+  "section": "Selective Attention"
+ },
+ {
+  "id": "7.49",
+  "ch": 7,
+  "level": 4,
+  "title": "Characteristics of Selective Attention",
+  "page": 209,
+  "section": "Selective Attention"
+ },
+ {
+  "id": "7.50",
+  "ch": 7,
+  "level": 4,
+  "title": "Change Blindness",
+  "page": 210,
+  "section": "Selective Attention"
+ },
+ {
+  "id": "7.51",
+  "ch": 7,
+  "level": 4,
+  "title": "Neural Mechanisms of Attention",
+  "page": 211,
+  "section": "Selective Attention"
+ },
+ {
+  "id": "7.52",
+  "ch": 7,
+  "level": 4,
+  "title": "Simultanagnosia",
+  "page": 211,
+  "section": "Selective Attention"
+ },
+ {
+  "id": "8.1",
+  "ch": 8,
+  "level": 3,
+  "title": "The Case of Rhonelle, the Dexterous Cashier",
+  "page": 215,
+  "section": "Selective Attention"
+ },
+ {
+  "id": "8.2",
+  "ch": 8,
+  "level": 3,
+  "title": "Three Principles of Sensorimotor Function",
+  "page": 215,
+  "section": "Three Principles of Sensorimotor Function"
+ },
+ {
+  "id": "8.3",
+  "ch": 8,
+  "level": 4,
+  "title": "The Sensorimotor System Is Hierarchically Organized",
+  "page": 215,
+  "section": "Three Principles of Sensorimotor Function"
+ },
+ {
+  "id": "8.4",
+  "ch": 8,
+  "level": 4,
+  "title": "Motor Output Is Guided by Sensory Input",
+  "page": 216,
+  "section": "Three Principles of Sensorimotor Function"
+ },
+ {
+  "id": "8.5",
+  "ch": 8,
+  "level": 3,
+  "title": "The Case of G.O., the Man with Too Little Feedback",
+  "page": 216,
+  "section": "Three Principles of Sensorimotor Function"
+ },
+ {
+  "id": "8.6",
+  "ch": 8,
+  "level": 4,
+  "title": "Learning Changes the Nature and Locus of Sensorimotor Control",
+  "page": 216,
+  "section": "Three Principles of Sensorimotor Function"
+ },
+ {
+  "id": "8.7",
+  "ch": 8,
+  "level": 4,
+  "title": "General Model of Sensorimotor System Function",
+  "page": 216,
+  "section": "Three Principles of Sensorimotor Function"
+ },
+ {
+  "id": "8.8",
+  "ch": 8,
+  "level": 3,
+  "title": "Sensorimotor Association Cortex",
+  "page": 217,
+  "section": "Sensorimotor Association Cortex"
+ },
+ {
+  "id": "8.9",
+  "ch": 8,
+  "level": 4,
+  "title": "Posterior Parietal Association Cortex",
+  "page": 217,
+  "section": "Sensorimotor Association Cortex"
+ },
+ {
+  "id": "8.10",
+  "ch": 8,
+  "level": 3,
+  "title": "The Case of Mrs. S., the Woman Who Turned in Circles",
+  "page": 218,
+  "section": "Sensorimotor Association Cortex"
+ },
+ {
+  "id": "8.11",
+  "ch": 8,
+  "level": 4,
+  "title": "Dorsolateral Prefrontal Association Cortex",
+  "page": 219,
+  "section": "Sensorimotor Association Cortex"
+ },
+ {
+  "id": "8.12",
+  "ch": 8,
+  "level": 3,
+  "title": "Secondary Motor Cortex",
+  "page": 220,
+  "section": "Secondary Motor Cortex"
+ },
+ {
+  "id": "8.13",
+  "ch": 8,
+  "level": 4,
+  "title": "Identifying the Areas of Secondary Motor Cortex",
+  "page": 220,
+  "section": "Secondary Motor Cortex"
+ },
+ {
+  "id": "8.14",
+  "ch": 8,
+  "level": 4,
+  "title": "Mirror Neurons",
+  "page": 220,
+  "section": "Secondary Motor Cortex"
+ },
+ {
+  "id": "8.15",
+  "ch": 8,
+  "level": 3,
+  "title": "Primary Motor Cortex",
+  "page": 222,
+  "section": "Primary Motor Cortex"
+ },
+ {
+  "id": "8.16",
+  "ch": 8,
+  "level": 4,
+  "title": "Conventional View of Primary Motor Cortex Function",
+  "page": 222,
+  "section": "Primary Motor Cortex"
+ },
+ {
+  "id": "8.17",
+  "ch": 8,
+  "level": 4,
+  "title": "Current View of Primary Motor Cortex Function",
+  "page": 223,
+  "section": "Primary Motor Cortex"
+ },
+ {
+  "id": "8.18",
+  "ch": 8,
+  "level": 3,
+  "title": "Belle: The Monkey That Controlled a Robot with Her Mind",
+  "page": 223,
+  "section": "Belle: The Monkey That Controlled a Robot with Her Mind"
+ },
+ {
+  "id": "8.19",
+  "ch": 8,
+  "level": 4,
+  "title": "Effects of Primary Motor Cortex Lesions",
+  "page": 224,
+  "section": "Belle: The Monkey That Controlled a Robot with Her Mind"
+ },
+ {
+  "id": "8.20",
+  "ch": 8,
+  "level": 3,
+  "title": "Cerebellum and Basal Ganglia",
+  "page": 224,
+  "section": "Cerebellum and Basal Ganglia"
+ },
+ {
+  "id": "8.21",
+  "ch": 8,
+  "level": 4,
+  "title": "Cerebellum",
+  "page": 224,
+  "section": "Cerebellum and Basal Ganglia"
+ },
+ {
+  "id": "8.22",
+  "ch": 8,
+  "level": 4,
+  "title": "Basal Ganglia",
+  "page": 224,
+  "section": "Cerebellum and Basal Ganglia"
+ },
+ {
+  "id": "8.23",
+  "ch": 8,
+  "level": 3,
+  "title": "Descending Motor Pathways",
+  "page": 225,
+  "section": "Descending Motor Pathways"
+ },
+ {
+  "id": "8.24",
+  "ch": 8,
+  "level": 4,
+  "title": "The Two Dorsolateral Motor Pathways and the Two Ventromedial Motor Pathways",
+  "page": 226,
+  "section": "Descending Motor Pathways"
+ },
+ {
+  "id": "8.25",
+  "ch": 8,
+  "level": 3,
+  "title": "Sensorimotor Spinal Circuits",
+  "page": 226,
+  "section": "Sensorimotor Spinal Circuits"
+ },
+ {
+  "id": "8.26",
+  "ch": 8,
+  "level": 4,
+  "title": "Muscles",
+  "page": 226,
+  "section": "Sensorimotor Spinal Circuits"
+ },
+ {
+  "id": "8.27",
+  "ch": 8,
+  "level": 4,
+  "title": "Receptor Organs of Tendons and Muscles",
+  "page": 227,
+  "section": "Sensorimotor Spinal Circuits"
+ },
+ {
+  "id": "8.28",
+  "ch": 8,
+  "level": 4,
+  "title": "Stretch Reflex",
+  "page": 228,
+  "section": "Sensorimotor Spinal Circuits"
+ },
+ {
+  "id": "8.29",
+  "ch": 8,
+  "level": 4,
+  "title": "Withdrawal Reflex",
+  "page": 229,
+  "section": "Sensorimotor Spinal Circuits"
+ },
+ {
+  "id": "8.30",
+  "ch": 8,
+  "level": 4,
+  "title": "Reciprocal Innervation",
+  "page": 229,
+  "section": "Sensorimotor Spinal Circuits"
+ },
+ {
+  "id": "8.31",
+  "ch": 8,
+  "level": 4,
+  "title": "Recurrent Collateral Inhibition",
+  "page": 231,
+  "section": "Sensorimotor Spinal Circuits"
+ },
+ {
+  "id": "8.32",
+  "ch": 8,
+  "level": 4,
+  "title": "Walking: A Complex Sensorimotor Reflex",
+  "page": 231,
+  "section": "Sensorimotor Spinal Circuits"
+ },
+ {
+  "id": "8.33",
+  "ch": 8,
+  "level": 3,
+  "title": "Central Sensorimotor Programs and Learning",
+  "page": 232,
+  "section": "Central Sensorimotor Programs and Learning"
+ },
+ {
+  "id": "8.34",
+  "ch": 8,
+  "level": 4,
+  "title": "A Hierarchy of Central Sensorimotor Programs",
+  "page": 232,
+  "section": "Central Sensorimotor Programs and Learning"
+ },
+ {
+  "id": "8.35",
+  "ch": 8,
+  "level": 4,
+  "title": "Characteristics of Central Sensorimotor Programs",
+  "page": 232,
+  "section": "Central Sensorimotor Programs and Learning"
+ },
+ {
+  "id": "8.36",
+  "ch": 8,
+  "level": 5,
+  "title": "Central Sensorimotor Programs are Capable of Motor Equivalence",
+  "page": 232,
+  "section": "Central Sensorimotor Programs and Learning"
+ },
+ {
+  "id": "8.37",
+  "ch": 8,
+  "level": 5,
+  "title": "Sensory Information that Controls Central Sensorimotor Programs is not Necessarily Conscious",
+  "page": 232,
+  "section": "Central Sensorimotor Programs and Learning"
+ },
+ {
+  "id": "8.38",
+  "ch": 8,
+  "level": 5,
+  "title": "Central Sensorimotor Programs can Develop without Practice",
+  "page": 233,
+  "section": "Central Sensorimotor Programs and Learning"
+ },
+ {
+  "id": "8.39",
+  "ch": 8,
+  "level": 5,
+  "title": "Practice can Create Central Sensorimotor Programs",
+  "page": 233,
+  "section": "Central Sensorimotor Programs and Learning"
+ },
+ {
+  "id": "8.40",
+  "ch": 8,
+  "level": 4,
+  "title": "Functional Brain Imaging of Sensorimotor Learning",
+  "page": 234,
+  "section": "Central Sensorimotor Programs and Learning"
+ },
+ {
+  "id": "8.41",
+  "ch": 8,
+  "level": 4,
+  "title": "Neuroplasticity Associated with Sensorimotor Learning",
+  "page": 235,
+  "section": "Central Sensorimotor Programs and Learning"
+ },
+ {
+  "id": "8.42",
+  "ch": 8,
+  "level": 3,
+  "title": "The Case of Rhonelle, Revisited",
+  "page": 235,
+  "section": "Central Sensorimotor Programs and Learning"
+ },
+ {
+  "id": "9.1",
+  "ch": 9,
+  "level": 3,
+  "title": "The Case of Genie",
+  "page": 239,
+  "section": "Central Sensorimotor Programs and Learning"
+ },
+ {
+  "id": "9.2",
+  "ch": 9,
+  "level": 3,
+  "title": "Five Phases of Early Neurodevelopment",
+  "page": 239,
+  "section": "Five Phases of Early Neurodevelopment"
+ },
+ {
+  "id": "9.3",
+  "ch": 9,
+  "level": 4,
+  "title": "Stem Cells and Neurodevelopment",
+  "page": 239,
+  "section": "Five Phases of Early Neurodevelopment"
+ },
+ {
+  "id": "9.4",
+  "ch": 9,
+  "level": 4,
+  "title": "Induction of the Neural Plate",
+  "page": 240,
+  "section": "Five Phases of Early Neurodevelopment"
+ },
+ {
+  "id": "9.5",
+  "ch": 9,
+  "level": 4,
+  "title": "Neural Proliferation",
+  "page": 241,
+  "section": "Five Phases of Early Neurodevelopment"
+ },
+ {
+  "id": "9.6",
+  "ch": 9,
+  "level": 4,
+  "title": "Migration and Aggregation",
+  "page": 241,
+  "section": "Five Phases of Early Neurodevelopment"
+ },
+ {
+  "id": "9.7",
+  "ch": 9,
+  "level": 5,
+  "title": "Migration",
+  "page": 241,
+  "section": "Five Phases of Early Neurodevelopment"
+ },
+ {
+  "id": "9.8",
+  "ch": 9,
+  "level": 5,
+  "title": "Aggregation",
+  "page": 243,
+  "section": "Five Phases of Early Neurodevelopment"
+ },
+ {
+  "id": "9.9",
+  "ch": 9,
+  "level": 4,
+  "title": "Axon Growth and Synapse Formation",
+  "page": 243,
+  "section": "Five Phases of Early Neurodevelopment"
+ },
+ {
+  "id": "9.10",
+  "ch": 9,
+  "level": 5,
+  "title": "Axon Growth",
+  "page": 243,
+  "section": "Five Phases of Early Neurodevelopment"
+ },
+ {
+  "id": "9.11",
+  "ch": 9,
+  "level": 5,
+  "title": "Synapse Formation",
+  "page": 245,
+  "section": "Five Phases of Early Neurodevelopment"
+ },
+ {
+  "id": "9.12",
+  "ch": 9,
+  "level": 4,
+  "title": "Neuron Death and Synapse Rearrangement",
+  "page": 246,
+  "section": "Five Phases of Early Neurodevelopment"
+ },
+ {
+  "id": "9.13",
+  "ch": 9,
+  "level": 5,
+  "title": "Synapse Rearrangement",
+  "page": 247,
+  "section": "Five Phases of Early Neurodevelopment"
+ },
+ {
+  "id": "9.14",
+  "ch": 9,
+  "level": 3,
+  "title": "Early Cerebral Development in Humans",
+  "page": 247,
+  "section": "Early Cerebral Development in Humans"
+ },
+ {
+  "id": "9.15",
+  "ch": 9,
+  "level": 4,
+  "title": "Prenatal Growth of the Human Brain",
+  "page": 248,
+  "section": "Early Cerebral Development in Humans"
+ },
+ {
+  "id": "9.16",
+  "ch": 9,
+  "level": 4,
+  "title": "Postnatal Growth of the Human Brain",
+  "page": 248,
+  "section": "Early Cerebral Development in Humans"
+ },
+ {
+  "id": "9.17",
+  "ch": 9,
+  "level": 4,
+  "title": "Development of the Prefrontal Cortex",
+  "page": 249,
+  "section": "Early Cerebral Development in Humans"
+ },
+ {
+  "id": "9.18",
+  "ch": 9,
+  "level": 3,
+  "title": "Effects of Experience on Postnatal Development of Neural Circuits",
+  "page": 249,
+  "section": "Effects of Experience on Postnatal Development of Neural Circuits"
+ },
+ {
+  "id": "9.19",
+  "ch": 9,
+  "level": 4,
+  "title": "Critical Periods vs. Sensitive Periods",
+  "page": 249,
+  "section": "Effects of Experience on Postnatal Development of Neural Circuits"
+ },
+ {
+  "id": "9.20",
+  "ch": 9,
+  "level": 4,
+  "title": "Early Studies of Experience and Neurodevelopment: Deprivation and Enrichment",
+  "page": 250,
+  "section": "Effects of Experience on Postnatal Development of Neural Circuits"
+ },
+ {
+  "id": "9.21",
+  "ch": 9,
+  "level": 4,
+  "title": "Experience and Neurodevelopment",
+  "page": 250,
+  "section": "Effects of Experience on Postnatal Development of Neural Circuits"
+ },
+ {
+  "id": "9.22",
+  "ch": 9,
+  "level": 5,
+  "title": "Ocular Dominance Columns",
+  "page": 250,
+  "section": "Effects of Experience on Postnatal Development of Neural Circuits"
+ },
+ {
+  "id": "9.23",
+  "ch": 9,
+  "level": 5,
+  "title": "Topographic Sensory Cortex Maps",
+  "page": 251,
+  "section": "Effects of Experience on Postnatal Development of Neural Circuits"
+ },
+ {
+  "id": "9.24",
+  "ch": 9,
+  "level": 3,
+  "title": "Neuroplasticity in Adults",
+  "page": 251,
+  "section": "Neuroplasticity in Adults"
+ },
+ {
+  "id": "9.25",
+  "ch": 9,
+  "level": 4,
+  "title": "Neurogenesis in Adult Mammals",
+  "page": 251,
+  "section": "Neuroplasticity in Adults"
+ },
+ {
+  "id": "9.26",
+  "ch": 9,
+  "level": 5,
+  "title": "Effects of Experience on Adult Neurogenesis",
+  "page": 252,
+  "section": "Neuroplasticity in Adults"
+ },
+ {
+  "id": "9.27",
+  "ch": 9,
+  "level": 5,
+  "title": "Functions of Newly Born Neurons in the Adult Brain",
+  "page": 252,
+  "section": "Neuroplasticity in Adults"
+ },
+ {
+  "id": "9.28",
+  "ch": 9,
+  "level": 4,
+  "title": "Effects of Experience on the Reorganization of the Adult Cortex",
+  "page": 253,
+  "section": "Neuroplasticity in Adults"
+ },
+ {
+  "id": "9.29",
+  "ch": 9,
+  "level": 3,
+  "title": "Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome",
+  "page": 253,
+  "section": "Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome"
+ },
+ {
+  "id": "9.30",
+  "ch": 9,
+  "level": 4,
+  "title": "Autism Spectrum Disorder",
+  "page": 254,
+  "section": "Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome"
+ },
+ {
+  "id": "9.31",
+  "ch": 9,
+  "level": 5,
+  "title": "ASD is a Heterogeneous Disorder",
+  "page": 254,
+  "section": "Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome"
+ },
+ {
+  "id": "9.32",
+  "ch": 9,
+  "level": 3,
+  "title": "The Case of Alex: Are You Ready to Rock?",
+  "page": 254,
+  "section": "Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome"
+ },
+ {
+  "id": "9.33",
+  "ch": 9,
+  "level": 3,
+  "title": "The Case of S.D.: The Self-Advocate",
+  "page": 254,
+  "section": "Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome"
+ },
+ {
+  "id": "9.34",
+  "ch": 9,
+  "level": 4,
+  "title": "ASD Savants",
+  "page": 255,
+  "section": "Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome"
+ },
+ {
+  "id": "9.35",
+  "ch": 9,
+  "level": 3,
+  "title": "Cases of Amazing Savant Abilities",
+  "page": 255,
+  "section": "Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome"
+ },
+ {
+  "id": "9.36",
+  "ch": 9,
+  "level": 4,
+  "title": "Genetic Mechanisms of ASD",
+  "page": 255,
+  "section": "Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome"
+ },
+ {
+  "id": "9.37",
+  "ch": 9,
+  "level": 4,
+  "title": "Neural Mechanisms of ASD",
+  "page": 255,
+  "section": "Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome"
+ },
+ {
+  "id": "9.38",
+  "ch": 9,
+  "level": 4,
+  "title": "Williams Syndrome",
+  "page": 256,
+  "section": "Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome"
+ },
+ {
+  "id": "9.39",
+  "ch": 9,
+  "level": 3,
+  "title": "The Case of Anne Louise McGarrah: Uneven Abilities",
+  "page": 256,
+  "section": "Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome"
+ },
+ {
+  "id": "9.40",
+  "ch": 9,
+  "level": 4,
+  "title": "Epilogue",
+  "page": 257,
+  "section": "Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome"
+ },
+ {
+  "id": "10.1",
+  "ch": 10,
+  "level": 3,
+  "title": "The Ironic Case of Professor P.",
+  "page": 260,
+  "section": "Atypical Neurodevelopment: Autism Spectrum Disorder and Williams Syndrome"
+ },
+ {
+  "id": "10.2",
+  "ch": 10,
+  "level": 3,
+  "title": "Causes of Brain Damage",
+  "page": 261,
+  "section": "Causes of Brain Damage"
+ },
+ {
+  "id": "10.3",
+  "ch": 10,
+  "level": 4,
+  "title": "Brain Tumors",
+  "page": 261,
+  "section": "Causes of Brain Damage"
+ },
+ {
+  "id": "10.4",
+  "ch": 10,
+  "level": 4,
+  "title": "Strokes",
+  "page": 262,
+  "section": "Causes of Brain Damage"
+ },
+ {
+  "id": "10.5",
+  "ch": 10,
+  "level": 5,
+  "title": "Cerebral Hemorrhage",
+  "page": 252,
+  "section": "Causes of Brain Damage"
+ },
+ {
+  "id": "10.6",
+  "ch": 10,
+  "level": 5,
+  "title": "Cerebral Ischemia",
+  "page": 263,
+  "section": "Causes of Brain Damage"
+ },
+ {
+  "id": "10.7",
+  "ch": 10,
+  "level": 4,
+  "title": "Traumatic Brain Injuries",
+  "page": 263,
+  "section": "Causes of Brain Damage"
+ },
+ {
+  "id": "10.8",
+  "ch": 10,
+  "level": 3,
+  "title": "The Case of Junior Seau",
+  "page": 265,
+  "section": "Causes of Brain Damage"
+ },
+ {
+  "id": "10.9",
+  "ch": 10,
+  "level": 4,
+  "title": "Infections of the Brain",
+  "page": 265,
+  "section": "Causes of Brain Damage"
+ },
+ {
+  "id": "10.10",
+  "ch": 10,
+  "level": 5,
+  "title": "Bacterial Infections",
+  "page": 265,
+  "section": "Causes of Brain Damage"
+ },
+ {
+  "id": "10.11",
+  "ch": 10,
+  "level": 5,
+  "title": "Viral Infections",
+  "page": 265,
+  "section": "Causes of Brain Damage"
+ },
+ {
+  "id": "10.12",
+  "ch": 10,
+  "level": 4,
+  "title": "Neurotoxins",
+  "page": 266,
+  "section": "Causes of Brain Damage"
+ },
+ {
+  "id": "10.13",
+  "ch": 10,
+  "level": 4,
+  "title": "Genetic Factors",
+  "page": 266,
+  "section": "Causes of Brain Damage"
+ },
+ {
+  "id": "10.14",
+  "ch": 10,
+  "level": 4,
+  "title": "Programmed Cell Death",
+  "page": 266,
+  "section": "Causes of Brain Damage"
+ },
+ {
+  "id": "10.15",
+  "ch": 10,
+  "level": 3,
+  "title": "Neurological Diseases",
+  "page": 267,
+  "section": "Neurological Diseases"
+ },
+ {
+  "id": "10.16",
+  "ch": 10,
+  "level": 4,
+  "title": "Epilepsy",
+  "page": 267,
+  "section": "Neurological Diseases"
+ },
+ {
+  "id": "10.17",
+  "ch": 10,
+  "level": 5,
+  "title": "Focal Seizures",
+  "page": 268,
+  "section": "Neurological Diseases"
+ },
+ {
+  "id": "10.18",
+  "ch": 10,
+  "level": 3,
+  "title": "The Subtlety of Complex Seizures: Two Cases",
+  "page": 268,
+  "section": "Neurological Diseases"
+ },
+ {
+  "id": "10.19",
+  "ch": 10,
+  "level": 4,
+  "title": "Generalized Seizures",
+  "page": 268,
+  "section": "Neurological Diseases"
+ },
+ {
+  "id": "10.20",
+  "ch": 10,
+  "level": 4,
+  "title": "Parkinson’s Disease",
+  "page": 269,
+  "section": "Neurological Diseases"
+ },
+ {
+  "id": "10.21",
+  "ch": 10,
+  "level": 4,
+  "title": "Huntington’s Disease",
+  "page": 270,
+  "section": "Neurological Diseases"
+ },
+ {
+  "id": "10.22",
+  "ch": 10,
+  "level": 4,
+  "title": "Multiple Sclerosis",
+  "page": 271,
+  "section": "Neurological Diseases"
+ },
+ {
+  "id": "10.23",
+  "ch": 10,
+  "level": 4,
+  "title": "Alzheimer’s Disease",
+  "page": 272,
+  "section": "Neurological Diseases"
+ },
+ {
+  "id": "10.24",
+  "ch": 10,
+  "level": 3,
+  "title": "Animal Models of Human Neurological Diseases",
+  "page": 275,
+  "section": "Animal Models of Human Neurological Diseases"
+ },
+ {
+  "id": "10.25",
+  "ch": 10,
+  "level": 4,
+  "title": "Kindling Model of Epilepsy",
+  "page": 275,
+  "section": "Animal Models of Human Neurological Diseases"
+ },
+ {
+  "id": "10.26",
+  "ch": 10,
+  "level": 4,
+  "title": "MPTP Model of Parkinson’s Disease",
+  "page": 276,
+  "section": "Animal Models of Human Neurological Diseases"
+ },
+ {
+  "id": "10.27",
+  "ch": 10,
+  "level": 3,
+  "title": "The Case of the Frozen Drug Users",
+  "page": 276,
+  "section": "Animal Models of Human Neurological Diseases"
+ },
+ {
+  "id": "10.28",
+  "ch": 10,
+  "level": 3,
+  "title": "Responses to Nervous System Damage: Degeneration, Regeneration, Reorganization, and Recovery",
+  "page": 276,
+  "section": "Responses to Nervous System Damage: Degeneration, Regeneration, Reorganization, and Recovery"
+ },
+ {
+  "id": "10.29",
+  "ch": 10,
+  "level": 4,
+  "title": "Neural Degeneration",
+  "page": 276,
+  "section": "Responses to Nervous System Damage: Degeneration, Regeneration, Reorganization, and Recovery"
+ },
+ {
+  "id": "10.30",
+  "ch": 10,
+  "level": 4,
+  "title": "Neural Regeneration",
+  "page": 277,
+  "section": "Responses to Nervous System Damage: Degeneration, Regeneration, Reorganization, and Recovery"
+ },
+ {
+  "id": "10.31",
+  "ch": 10,
+  "level": 4,
+  "title": "Neural Reorganization",
+  "page": 279,
+  "section": "Responses to Nervous System Damage: Degeneration, Regeneration, Reorganization, and Recovery"
+ },
+ {
+  "id": "10.32",
+  "ch": 10,
+  "level": 5,
+  "title": "Cortical Reorganization Following Damage in Laboratory Animals",
+  "page": 279,
+  "section": "Responses to Nervous System Damage: Degeneration, Regeneration, Reorganization, and Recovery"
+ },
+ {
+  "id": "10.33",
+  "ch": 10,
+  "level": 5,
+  "title": "Cortical Reorganization Following Damage in Humans",
+  "page": 279,
+  "section": "Responses to Nervous System Damage: Degeneration, Regeneration, Reorganization, and Recovery"
+ },
+ {
+  "id": "10.34",
+  "ch": 10,
+  "level": 5,
+  "title": "Mechanisms of Neural Reorganization",
+  "page": 280,
+  "section": "Responses to Nervous System Damage: Degeneration, Regeneration, Reorganization, and Recovery"
+ },
+ {
+  "id": "10.35",
+  "ch": 10,
+  "level": 4,
+  "title": "Recovery of Function after CNS Damage",
+  "page": 281,
+  "section": "Responses to Nervous System Damage: Degeneration, Regeneration, Reorganization, and Recovery"
+ },
+ {
+  "id": "10.36",
+  "ch": 10,
+  "level": 3,
+  "title": "Neuroplasticity and the Treatment of CNS Damage",
+  "page": 281,
+  "section": "Neuroplasticity and the Treatment of CNS Damage"
+ },
+ {
+  "id": "10.37",
+  "ch": 10,
+  "level": 4,
+  "title": "Neurotransplantation as a Treatment for CNS Damage: Early Research",
+  "page": 282,
+  "section": "Neuroplasticity and the Treatment of CNS Damage"
+ },
+ {
+  "id": "10.38",
+  "ch": 10,
+  "level": 3,
+  "title": "The Case of Roberto Garcia d’Orta: The Lizard Gets an Autotransplant",
+  "page": 282,
+  "section": "Neuroplasticity and the Treatment of CNS Damage"
+ },
+ {
+  "id": "10.39",
+  "ch": 10,
+  "level": 4,
+  "title": "Modern Research on Neurotransplantation",
+  "page": 283,
+  "section": "Neuroplasticity and the Treatment of CNS Damage"
+ },
+ {
+  "id": "10.40",
+  "ch": 10,
+  "level": 4,
+  "title": "Promoting Recovery from CNS Damage by Rehabilitative Training",
+  "page": 283,
+  "section": "Neuroplasticity and the Treatment of CNS Damage"
+ },
+ {
+  "id": "10.41",
+  "ch": 10,
+  "level": 5,
+  "title": "Treating Strokes",
+  "page": 283,
+  "section": "Neuroplasticity and the Treatment of CNS Damage"
+ },
+ {
+  "id": "10.42",
+  "ch": 10,
+  "level": 5,
+  "title": "Treating Spinal Injury",
+  "page": 284,
+  "section": "Neuroplasticity and the Treatment of CNS Damage"
+ },
+ {
+  "id": "10.43",
+  "ch": 10,
+  "level": 5,
+  "title": "Benefits of Cognitive and Physical Exercise",
+  "page": 284,
+  "section": "Neuroplasticity and the Treatment of CNS Damage"
+ },
+ {
+  "id": "10.44",
+  "ch": 10,
+  "level": 5,
+  "title": "Treating Phantom Limbs",
+  "page": 284,
+  "section": "Neuroplasticity and the Treatment of CNS Damage"
+ },
+ {
+  "id": "10.45",
+  "ch": 10,
+  "level": 3,
+  "title": "Cases of Carlos and Philip: Phantom Limbs and Ramachandran",
+  "page": 285,
+  "section": "Neuroplasticity and the Treatment of CNS Damage"
+ },
+ {
+  "id": "10.46",
+  "ch": 10,
+  "level": 3,
+  "title": "The Ironic Case of Professor P.: Recovery",
+  "page": 285,
+  "section": "Neuroplasticity and the Treatment of CNS Damage"
+ },
+ {
+  "id": "11.1",
+  "ch": 11,
+  "level": 3,
+  "title": "Amnesic Effects of Bilateral Medial Temporal Lobectomy",
+  "page": 290,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.2",
+  "ch": 11,
+  "level": 3,
+  "title": "The Case of H.M., the Man Who Changed the Study of Memory",
+  "page": 290,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.3",
+  "ch": 11,
+  "level": 4,
+  "title": "Formal Assessment of H.M.’s Anterograde Amnesia: Discovery of Unconscious Memories",
+  "page": 291,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.4",
+  "ch": 11,
+  "level": 5,
+  "title": "Digit-Span + 1 Test",
+  "page": 291,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.5",
+  "ch": 11,
+  "level": 5,
+  "title": "Block-Tapping Test",
+  "page": 291,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.6",
+  "ch": 11,
+  "level": 5,
+  "title": "Mirror-Drawing Test",
+  "page": 291,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.7",
+  "ch": 11,
+  "level": 5,
+  "title": "Incomplete-Pictures Test",
+  "page": 292,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.8",
+  "ch": 11,
+  "level": 5,
+  "title": "Pavlovian Conditioning",
+  "page": 292,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.9",
+  "ch": 11,
+  "level": 4,
+  "title": "Three Major Scientific Contributions of H.M.’s Case",
+  "page": 292,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.10",
+  "ch": 11,
+  "level": 4,
+  "title": "Medial Temporal Lobe Amnesia",
+  "page": 293,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.11",
+  "ch": 11,
+  "level": 4,
+  "title": "Semantic and Episodic Memories",
+  "page": 293,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.12",
+  "ch": 11,
+  "level": 3,
+  "title": "The Case of K.C., the Man Who Can’t Time Travel",
+  "page": 294,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.13",
+  "ch": 11,
+  "level": 3,
+  "title": "The Case of the Clever Neuropsychologist: Spotting Episodic  Memory Deficits",
+  "page": 294,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.14",
+  "ch": 11,
+  "level": 4,
+  "title": "Effects of Global Cerebral Ischemia on the Hippocampus and Memory",
+  "page": 295,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.15",
+  "ch": 11,
+  "level": 3,
+  "title": "The Case of R.B., Product of a Bungled Operation",
+  "page": 295,
+  "section": "Amnesic Effects of Bilateral Medial Temporal Lobectomy"
+ },
+ {
+  "id": "11.16",
+  "ch": 11,
+  "level": 3,
+  "title": "Amnesias of Korsakoff’s Syndrome and Alzheimer’s Disease",
+  "page": 296,
+  "section": "Amnesias of Korsakoff’s Syndrome and Alzheimer’s Disease"
+ },
+ {
+  "id": "11.17",
+  "ch": 11,
+  "level": 4,
+  "title": "Amnesia of Korsakoff’s Syndrome",
+  "page": 296,
+  "section": "Amnesias of Korsakoff’s Syndrome and Alzheimer’s Disease"
+ },
+ {
+  "id": "11.18",
+  "ch": 11,
+  "level": 3,
+  "title": "The Up-Your-Nose Case of N.A.",
+  "page": 296,
+  "section": "Amnesias of Korsakoff’s Syndrome and Alzheimer’s Disease"
+ },
+ {
+  "id": "11.19",
+  "ch": 11,
+  "level": 4,
+  "title": "Amnesia of Alzheimer’s Disease",
+  "page": 296,
+  "section": "Amnesias of Korsakoff’s Syndrome and Alzheimer’s Disease"
+ },
+ {
+  "id": "11.20",
+  "ch": 11,
+  "level": 3,
+  "title": "Amnesia after Traumatic Brain Injury: Evidence for Consolidation",
+  "page": 297,
+  "section": "Amnesia after Traumatic Brain Injury: Evidence for Consolidation"
+ },
+ {
+  "id": "11.21",
+  "ch": 11,
+  "level": 4,
+  "title": "Posttraumatic Amnesia",
+  "page": 297,
+  "section": "Amnesia after Traumatic Brain Injury: Evidence for Consolidation"
+ },
+ {
+  "id": "11.22",
+  "ch": 11,
+  "level": 4,
+  "title": "Gradients of Retrograde Amnesia and Memory Consolidation",
+  "page": 297,
+  "section": "Amnesia after Traumatic Brain Injury: Evidence for Consolidation"
+ },
+ {
+  "id": "11.23",
+  "ch": 11,
+  "level": 5,
+  "title": "Hippocampus and Consolidation",
+  "page": 298,
+  "section": "Amnesia after Traumatic Brain Injury: Evidence for Consolidation"
+ },
+ {
+  "id": "11.24",
+  "ch": 11,
+  "level": 5,
+  "title": "Reconsolidation",
+  "page": 299,
+  "section": "Amnesia after Traumatic Brain Injury: Evidence for Consolidation"
+ },
+ {
+  "id": "11.25",
+  "ch": 11,
+  "level": 3,
+  "title": "Evolving Perspective of the Role of the Hippocampus in Memory",
+  "page": 299,
+  "section": "Evolving Perspective of the Role of the Hippocampus in Memory"
+ },
+ {
+  "id": "11.26",
+  "ch": 11,
+  "level": 4,
+  "title": "Animal Models of Object-Recognition Amnesia: The Delayed Nonmatching-to-Sample Test",
+  "page": 300,
+  "section": "Evolving Perspective of the Role of the Hippocampus in Memory"
+ },
+ {
+  "id": "11.27",
+  "ch": 11,
+  "level": 5,
+  "title": "Monkey Version of the Delayed Nonmatching-to-Sample Test",
+  "page": 300,
+  "section": "Evolving Perspective of the Role of the Hippocampus in Memory"
+ },
+ {
+  "id": "11.28",
+  "ch": 11,
+  "level": 5,
+  "title": "Rat Version of the Delayed Non-Matching-to-Sample Test",
+  "page": 301,
+  "section": "Evolving Perspective of the Role of the Hippocampus in Memory"
+ },
+ {
+  "id": "11.29",
+  "ch": 11,
+  "level": 4,
+  "title": "Neuroanatomical Basis of the Object-Recognition Deficits Resulting from Bilateral Medial Temporal Lobectomy",
+  "page": 303,
+  "section": "Evolving Perspective of the Role of the Hippocampus in Memory"
+ },
+ {
+  "id": "11.30",
+  "ch": 11,
+  "level": 3,
+  "title": "Neurons of the Medial Temporal Lobes and Memory",
+  "page": 304,
+  "section": "Neurons of the Medial Temporal Lobes and Memory"
+ },
+ {
+  "id": "11.31",
+  "ch": 11,
+  "level": 4,
+  "title": "Morris Water Maze Test",
+  "page": 304,
+  "section": "Neurons of the Medial Temporal Lobes and Memory"
+ },
+ {
+  "id": "11.32",
+  "ch": 11,
+  "level": 4,
+  "title": "Radial Arm Maze Test",
+  "page": 304,
+  "section": "Neurons of the Medial Temporal Lobes and Memory"
+ },
+ {
+  "id": "11.33",
+  "ch": 11,
+  "level": 4,
+  "title": "Hippocampal Place Cells and Entorhinal Grid Cells",
+  "page": 305,
+  "section": "Neurons of the Medial Temporal Lobes and Memory"
+ },
+ {
+  "id": "11.34",
+  "ch": 11,
+  "level": 5,
+  "title": "The Hippocampus as a Cognitive Map",
+  "page": 306,
+  "section": "Neurons of the Medial Temporal Lobes and Memory"
+ },
+ {
+  "id": "11.35",
+  "ch": 11,
+  "level": 4,
+  "title": "Jennifer Aniston Neurons: Concept Cells",
+  "page": 306,
+  "section": "Neurons of the Medial Temporal Lobes and Memory"
+ },
+ {
+  "id": "11.36",
+  "ch": 11,
+  "level": 4,
+  "title": "Engram Cells",
+  "page": 307,
+  "section": "Neurons of the Medial Temporal Lobes and Memory"
+ },
+ {
+  "id": "11.37",
+  "ch": 11,
+  "level": 3,
+  "title": "Where Are Memories Stored?",
+  "page": 307,
+  "section": "Where Are Memories Stored?"
+ },
+ {
+  "id": "11.38",
+  "ch": 11,
+  "level": 4,
+  "title": "Five Brain Areas Implicated in Memory",
+  "page": 307,
+  "section": "Where Are Memories Stored?"
+ },
+ {
+  "id": "11.39",
+  "ch": 11,
+  "level": 5,
+  "title": "Inferotemporal Cortex",
+  "page": 307,
+  "section": "Where Are Memories Stored?"
+ },
+ {
+  "id": "11.40",
+  "ch": 11,
+  "level": 5,
+  "title": "Amygdala",
+  "page": 308,
+  "section": "Where Are Memories Stored?"
+ },
+ {
+  "id": "11.41",
+  "ch": 11,
+  "level": 5,
+  "title": "Prefrontal Cortex",
+  "page": 308,
+  "section": "Where Are Memories Stored?"
+ },
+ {
+  "id": "11.42",
+  "ch": 11,
+  "level": 3,
+  "title": "The Case of the Cook Who Couldn’t",
+  "page": 309,
+  "section": "Where Are Memories Stored?"
+ },
+ {
+  "id": "11.43",
+  "ch": 11,
+  "level": 4,
+  "title": "Cerebellum and Striatum",
+  "page": 309,
+  "section": "Where Are Memories Stored?"
+ },
+ {
+  "id": "11.44",
+  "ch": 11,
+  "level": 3,
+  "title": "Cellular Mechanisms of Learning and Memory",
+  "page": 310,
+  "section": "Cellular Mechanisms of Learning and Memory"
+ },
+ {
+  "id": "11.45",
+  "ch": 11,
+  "level": 4,
+  "title": "Synaptic Mechanisms of Learning and Memory: Long-Term Potentiation",
+  "page": 310,
+  "section": "Cellular Mechanisms of Learning and Memory"
+ },
+ {
+  "id": "11.46",
+  "ch": 11,
+  "level": 4,
+  "title": "Induction of LTP: Learning",
+  "page": 312,
+  "section": "Cellular Mechanisms of Learning and Memory"
+ },
+ {
+  "id": "11.47",
+  "ch": 11,
+  "level": 4,
+  "title": "Maintenance and Expression of LTP: Storage and Recall",
+  "page": 313,
+  "section": "Cellular Mechanisms of Learning and Memory"
+ },
+ {
+  "id": "11.48",
+  "ch": 11,
+  "level": 4,
+  "title": "Variability of LTP",
+  "page": 313,
+  "section": "Cellular Mechanisms of Learning and Memory"
+ },
+ {
+  "id": "11.49",
+  "ch": 11,
+  "level": 4,
+  "title": "Nonsynaptic Mechanisms of Learning and Memory",
+  "page": 314,
+  "section": "Cellular Mechanisms of Learning and Memory"
+ },
+ {
+  "id": "11.50",
+  "ch": 11,
+  "level": 3,
+  "title": "Conclusion: Biopsychology of Memory and You",
+  "page": 314,
+  "section": "Conclusion: Biopsychology of Memory and You"
+ },
+ {
+  "id": "11.51",
+  "ch": 11,
+  "level": 4,
+  "title": "Infantile Amnesia",
+  "page": 314,
+  "section": "Conclusion: Biopsychology of Memory and You"
+ },
+ {
+  "id": "11.52",
+  "ch": 11,
+  "level": 4,
+  "title": "Smart Drugs: Do They Work?",
+  "page": 314,
+  "section": "Conclusion: Biopsychology of Memory and You"
+ },
+ {
+  "id": "11.53",
+  "ch": 11,
+  "level": 4,
+  "title": "Posttraumatic Amnesia and Episodic Memory",
+  "page": 315,
+  "section": "Conclusion: Biopsychology of Memory and You"
+ },
+ {
+  "id": "11.54",
+  "ch": 11,
+  "level": 3,
+  "title": "The Case of R.M., the Biopsychologist Who Remembered H.M.",
+  "page": 315,
+  "section": "Conclusion: Biopsychology of Memory and You"
+ },
+ {
+  "id": "12.1",
+  "ch": 12,
+  "level": 3,
+  "title": "The Case of the Man Who Forgot Not to Eat",
+  "page": 319,
+  "section": "Conclusion: Biopsychology of Memory and You"
+ },
+ {
+  "id": "12.2",
+  "ch": 12,
+  "level": 3,
+  "title": "Digestion, Energy Storage, and Energy Utilization",
+  "page": 319,
+  "section": "Digestion, Energy Storage, and Energy Utilization"
+ },
+ {
+  "id": "12.3",
+  "ch": 12,
+  "level": 4,
+  "title": "Digestion and Energy Storage in the Body",
+  "page": 319,
+  "section": "Digestion, Energy Storage, and Energy Utilization"
+ },
+ {
+  "id": "12.4",
+  "ch": 12,
+  "level": 5,
+  "title": "Digestion",
+  "page": 319,
+  "section": "Digestion, Energy Storage, and Energy Utilization"
+ },
+ {
+  "id": "12.5",
+  "ch": 12,
+  "level": 5,
+  "title": "Energy Storage in the Body",
+  "page": 319,
+  "section": "Digestion, Energy Storage, and Energy Utilization"
+ },
+ {
+  "id": "12.6",
+  "ch": 12,
+  "level": 4,
+  "title": "Three Phases of Energy Metabolism",
+  "page": 320,
+  "section": "Digestion, Energy Storage, and Energy Utilization"
+ },
+ {
+  "id": "12.7",
+  "ch": 12,
+  "level": 3,
+  "title": "Theories of Hunger and Eating: Set Points versus Positive Incentives",
+  "page": 321,
+  "section": "Theories of Hunger and Eating: Set Points versus Positive Incentives"
+ },
+ {
+  "id": "12.8",
+  "ch": 12,
+  "level": 4,
+  "title": "Set-Point Assumption",
+  "page": 321,
+  "section": "Theories of Hunger and Eating: Set Points versus Positive Incentives"
+ },
+ {
+  "id": "12.9",
+  "ch": 12,
+  "level": 5,
+  "title": "Glucostatic Theory",
+  "page": 323,
+  "section": "Theories of Hunger and Eating: Set Points versus Positive Incentives"
+ },
+ {
+  "id": "12.10",
+  "ch": 12,
+  "level": 5,
+  "title": "Lipostatic Theory",
+  "page": 323,
+  "section": "Theories of Hunger and Eating: Set Points versus Positive Incentives"
+ },
+ {
+  "id": "12.11",
+  "ch": 12,
+  "level": 5,
+  "title": "Problems with Set-Point Theories of Hunger and Eating",
+  "page": 323,
+  "section": "Theories of Hunger and Eating: Set Points versus Positive Incentives"
+ },
+ {
+  "id": "12.12",
+  "ch": 12,
+  "level": 4,
+  "title": "Positive-Incentive Perspective",
+  "page": 324,
+  "section": "Theories of Hunger and Eating: Set Points versus Positive Incentives"
+ },
+ {
+  "id": "12.13",
+  "ch": 12,
+  "level": 3,
+  "title": "Factors That Determine What, When, and How Much We Eat",
+  "page": 324,
+  "section": "Factors That Determine What, When, and How Much We Eat"
+ },
+ {
+  "id": "12.14",
+  "ch": 12,
+  "level": 4,
+  "title": "Factors That Influence What We Eat",
+  "page": 324,
+  "section": "Factors That Determine What, When, and How Much We Eat"
+ },
+ {
+  "id": "12.15",
+  "ch": 12,
+  "level": 5,
+  "title": "Learned Taste Preferences and Aversions",
+  "page": 324,
+  "section": "Factors That Determine What, When, and How Much We Eat"
+ },
+ {
+  "id": "12.16",
+  "ch": 12,
+  "level": 5,
+  "title": "Learning to Eat Vitamins and Minerals",
+  "page": 325,
+  "section": "Factors That Determine What, When, and How Much We Eat"
+ },
+ {
+  "id": "12.17",
+  "ch": 12,
+  "level": 4,
+  "title": "Factors That Influence When We Eat",
+  "page": 325,
+  "section": "Factors That Determine What, When, and How Much We Eat"
+ },
+ {
+  "id": "12.18",
+  "ch": 12,
+  "level": 5,
+  "title": "Premeal Hunger",
+  "page": 325,
+  "section": "Factors That Determine What, When, and How Much We Eat"
+ },
+ {
+  "id": "12.19",
+  "ch": 12,
+  "level": 5,
+  "title": "Pavlovian Conditioning of Hunger",
+  "page": 325,
+  "section": "Factors That Determine What, When, and How Much We Eat"
+ },
+ {
+  "id": "12.20",
+  "ch": 12,
+  "level": 4,
+  "title": "Factors That Influence How Much We Eat",
+  "page": 325,
+  "section": "Factors That Determine What, When, and How Much We Eat"
+ },
+ {
+  "id": "12.21",
+  "ch": 12,
+  "level": 5,
+  "title": "Satiety Signals",
+  "page": 326,
+  "section": "Factors That Determine What, When, and How Much We Eat"
+ },
+ {
+  "id": "12.22",
+  "ch": 12,
+  "level": 5,
+  "title": "Sham Eating",
+  "page": 326,
+  "section": "Factors That Determine What, When, and How Much We Eat"
+ },
+ {
+  "id": "12.23",
+  "ch": 12,
+  "level": 5,
+  "title": "Appetizer Effect and Satiety",
+  "page": 326,
+  "section": "Factors That Determine What, When, and How Much We Eat"
+ },
+ {
+  "id": "12.24",
+  "ch": 12,
+  "level": 5,
+  "title": "Serving Size and Satiety",
+  "page": 326,
+  "section": "Factors That Determine What, When, and How Much We Eat"
+ },
+ {
+  "id": "12.25",
+  "ch": 12,
+  "level": 5,
+  "title": "Social Influences and Satiety",
+  "page": 326,
+  "section": "Factors That Determine What, When, and How Much We Eat"
+ },
+ {
+  "id": "12.26",
+  "ch": 12,
+  "level": 5,
+  "title": "Sensory-Specific Satiety",
+  "page": 326,
+  "section": "Factors That Determine What, When, and How Much We Eat"
+ },
+ {
+  "id": "12.27",
+  "ch": 12,
+  "level": 3,
+  "title": "Physiological Research on Hunger and Satiety",
+  "page": 328,
+  "section": "Physiological Research on Hunger and Satiety"
+ },
+ {
+  "id": "12.28",
+  "ch": 12,
+  "level": 4,
+  "title": "Role of Blood Glucose Levels in Hunger and Satiety",
+  "page": 328,
+  "section": "Physiological Research on Hunger and Satiety"
+ },
+ {
+  "id": "12.29",
+  "ch": 12,
+  "level": 4,
+  "title": "Evolution of Research on the Role of Hypothalamic Nuclei in Hunger and Satiety",
+  "page": 328,
+  "section": "Physiological Research on Hunger and Satiety"
+ },
+ {
+  "id": "12.30",
+  "ch": 12,
+  "level": 5,
+  "title": "The Myth of Hypothalamic Hunger and Satiety Centers",
+  "page": 328,
+  "section": "Physiological Research on Hunger and Satiety"
+ },
+ {
+  "id": "12.31",
+  "ch": 12,
+  "level": 5,
+  "title": "Modern Research on the Role of Hypothalamic Nuclei in Hunger and Satiety",
+  "page": 329,
+  "section": "Physiological Research on Hunger and Satiety"
+ },
+ {
+  "id": "12.32",
+  "ch": 12,
+  "level": 4,
+  "title": "Role of the Gastrointestinal Tract in Satiety",
+  "page": 329,
+  "section": "Physiological Research on Hunger and Satiety"
+ },
+ {
+  "id": "12.33",
+  "ch": 12,
+  "level": 4,
+  "title": "Hypothalamic Circuits, Peptides, and the Gut",
+  "page": 331,
+  "section": "Physiological Research on Hunger and Satiety"
+ },
+ {
+  "id": "12.34",
+  "ch": 12,
+  "level": 4,
+  "title": "Serotonin and Satiety",
+  "page": 331,
+  "section": "Physiological Research on Hunger and Satiety"
+ },
+ {
+  "id": "12.35",
+  "ch": 12,
+  "level": 4,
+  "title": "Prader-Willi Syndrome: Patients with Insatiable Hunger",
+  "page": 332,
+  "section": "Physiological Research on Hunger and Satiety"
+ },
+ {
+  "id": "12.36",
+  "ch": 12,
+  "level": 3,
+  "title": "Prader-Willi Syndrome: The Case of Miss A.",
+  "page": 332,
+  "section": "Physiological Research on Hunger and Satiety"
+ },
+ {
+  "id": "12.37",
+  "ch": 12,
+  "level": 3,
+  "title": "Body-Weight Regulation: Set Points versus Settling Points",
+  "page": 332,
+  "section": "Body-Weight Regulation: Set Points versus Settling Points"
+ },
+ {
+  "id": "12.38",
+  "ch": 12,
+  "level": 4,
+  "title": "Set-Point Assumptions about Body Weight and Eating",
+  "page": 332,
+  "section": "Body-Weight Regulation: Set Points versus Settling Points"
+ },
+ {
+  "id": "12.39",
+  "ch": 12,
+  "level": 5,
+  "title": "Variability of Body Weight",
+  "page": 332,
+  "section": "Body-Weight Regulation: Set Points versus Settling Points"
+ },
+ {
+  "id": "12.40",
+  "ch": 12,
+  "level": 5,
+  "title": "Set Points and Health",
+  "page": 332,
+  "section": "Body-Weight Regulation: Set Points versus Settling Points"
+ },
+ {
+  "id": "12.41",
+  "ch": 12,
+  "level": 5,
+  "title": "Regulation of Body Weight by Changes in the Efficiency of Energy Utilization",
+  "page": 333,
+  "section": "Body-Weight Regulation: Set Points versus Settling Points"
+ },
+ {
+  "id": "12.42",
+  "ch": 12,
+  "level": 4,
+  "title": "Set Points and Settling Points in Weight Control",
+  "page": 334,
+  "section": "Body-Weight Regulation: Set Points versus Settling Points"
+ },
+ {
+  "id": "12.43",
+  "ch": 12,
+  "level": 3,
+  "title": "Human Overeating: Causes, Mechanisms, and Treatments",
+  "page": 336,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.44",
+  "ch": 12,
+  "level": 4,
+  "title": "Overeating: Who Needs to Be Concerned?",
+  "page": 336,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.45",
+  "ch": 12,
+  "level": 4,
+  "title": "Overeating: Why Is There An Epidemic?",
+  "page": 336,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.46",
+  "ch": 12,
+  "level": 4,
+  "title": "Why Do Some People Gain Weight from Overeating While Others Do Not?",
+  "page": 337,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.47",
+  "ch": 12,
+  "level": 5,
+  "title": "Differences in Energy Expenditure",
+  "page": 337,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.48",
+  "ch": 12,
+  "level": 5,
+  "title": "Differences in Gut Microbiome Composition",
+  "page": 337,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.49",
+  "ch": 12,
+  "level": 5,
+  "title": "Genetic and Epigenetic Factors",
+  "page": 337,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.50",
+  "ch": 12,
+  "level": 4,
+  "title": "Why Are Weight-Loss Programs Often Ineffective?",
+  "page": 338,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.51",
+  "ch": 12,
+  "level": 4,
+  "title": "Leptin and the Regulation of Body Fat",
+  "page": 338,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.52",
+  "ch": 12,
+  "level": 5,
+  "title": "The Discovery of Leptin",
+  "page": 339,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.53",
+  "ch": 12,
+  "level": 5,
+  "title": "Leptin, Insulin, and the Arcuate Melanocortin System",
+  "page": 339,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.54",
+  "ch": 12,
+  "level": 5,
+  "title": "Leptin as a Treatment for High Body-Fat Levels in Humans",
+  "page": 339,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.55",
+  "ch": 12,
+  "level": 3,
+  "title": "The Case of the Child with No Leptin",
+  "page": 340,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.56",
+  "ch": 12,
+  "level": 4,
+  "title": "Treatment of Overeating and High Body-Fat Levels",
+  "page": 340,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.57",
+  "ch": 12,
+  "level": 5,
+  "title": "Serotonergic Agonists",
+  "page": 340,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.58",
+  "ch": 12,
+  "level": 5,
+  "title": "Gastric Surgery",
+  "page": 340,
+  "section": "Human Overeating: Causes, Mechanisms, and Treatments"
+ },
+ {
+  "id": "12.59",
+  "ch": 12,
+  "level": 3,
+  "title": "Anorexia and Bulimia Nervosa",
+  "page": 341,
+  "section": "Anorexia and Bulimia Nervosa"
+ },
+ {
+  "id": "12.60",
+  "ch": 12,
+  "level": 4,
+  "title": "Anorexia and Bulimia Nervosa",
+  "page": 341,
+  "section": "Anorexia and Bulimia Nervosa"
+ },
+ {
+  "id": "12.61",
+  "ch": 12,
+  "level": 5,
+  "title": "Anorexia Nervosa",
+  "page": 341,
+  "section": "Anorexia and Bulimia Nervosa"
+ },
+ {
+  "id": "12.62",
+  "ch": 12,
+  "level": 5,
+  "title": "Bulimia Nervosa",
+  "page": 341,
+  "section": "Anorexia and Bulimia Nervosa"
+ },
+ {
+  "id": "12.63",
+  "ch": 12,
+  "level": 4,
+  "title": "Relation between Anorexia and Bulimia",
+  "page": 341,
+  "section": "Anorexia and Bulimia Nervosa"
+ },
+ {
+  "id": "12.64",
+  "ch": 12,
+  "level": 4,
+  "title": "Anorexia and Positive Incentives",
+  "page": 342,
+  "section": "Anorexia and Bulimia Nervosa"
+ },
+ {
+  "id": "12.65",
+  "ch": 12,
+  "level": 4,
+  "title": "Anorexia Nervosa: A Hypothesis",
+  "page": 342,
+  "section": "Anorexia and Bulimia Nervosa"
+ },
+ {
+  "id": "12.66",
+  "ch": 12,
+  "level": 3,
+  "title": "The Case of the Student with Anorexia",
+  "page": 343,
+  "section": "Anorexia and Bulimia Nervosa"
+ },
+ {
+  "id": "13.1",
+  "ch": 13,
+  "level": 3,
+  "title": "Men-are-Men-and-Women-are-Women Assumption",
+  "page": 347,
+  "section": "Men-are-Men-and-Women-are-Women Assumption"
+ },
+ {
+  "id": "13.2",
+  "ch": 13,
+  "level": 3,
+  "title": "Developmental and Activational Effects of Sex Hormones",
+  "page": 347,
+  "section": "Developmental and Activational Effects of Sex Hormones"
+ },
+ {
+  "id": "13.3",
+  "ch": 13,
+  "level": 3,
+  "title": "Neuroendocrine System",
+  "page": 347,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.4",
+  "ch": 13,
+  "level": 4,
+  "title": "Glands",
+  "page": 347,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.5",
+  "ch": 13,
+  "level": 5,
+  "title": "Gonads",
+  "page": 348,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.6",
+  "ch": 13,
+  "level": 4,
+  "title": "Hormones",
+  "page": 348,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.7",
+  "ch": 13,
+  "level": 5,
+  "title": "Sex Steroids",
+  "page": 348,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.8",
+  "ch": 13,
+  "level": 4,
+  "title": "The Pituitary",
+  "page": 349,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.9",
+  "ch": 13,
+  "level": 5,
+  "title": "Female Gonadal Hormone Levels are Cyclic; Male Gonadal Hormone Levels are Steady",
+  "page": 349,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.10",
+  "ch": 13,
+  "level": 4,
+  "title": "Control of the Pituitary",
+  "page": 349,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.11",
+  "ch": 13,
+  "level": 5,
+  "title": "Control of the Anterior and Posterior Pituitary by the Hypothalamus",
+  "page": 350,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.12",
+  "ch": 13,
+  "level": 4,
+  "title": "Discovery of Hypothalamic Releasing Hormones",
+  "page": 350,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.13",
+  "ch": 13,
+  "level": 4,
+  "title": "Regulation of Hormone Levels",
+  "page": 351,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.14",
+  "ch": 13,
+  "level": 5,
+  "title": "Regulation by Neural Signals",
+  "page": 351,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.15",
+  "ch": 13,
+  "level": 5,
+  "title": "Regulation by Hormonal Signals",
+  "page": 351,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.16",
+  "ch": 13,
+  "level": 5,
+  "title": "Regulation by Nonhormonal Chemicals",
+  "page": 352,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.17",
+  "ch": 13,
+  "level": 5,
+  "title": "Pulsatile Hormone Release",
+  "page": 352,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.18",
+  "ch": 13,
+  "level": 4,
+  "title": "Summary Model of Gonadal Endocrine Regulation",
+  "page": 352,
+  "section": "Neuroendocrine System"
+ },
+ {
+  "id": "13.19",
+  "ch": 13,
+  "level": 3,
+  "title": "Hormones and Sexual Development of the Body",
+  "page": 352,
+  "section": "Hormones and Sexual Development of the Body"
+ },
+ {
+  "id": "13.20",
+  "ch": 13,
+  "level": 4,
+  "title": "Sexual Differentiation",
+  "page": 352,
+  "section": "Hormones and Sexual Development of the Body"
+ },
+ {
+  "id": "13.21",
+  "ch": 13,
+  "level": 5,
+  "title": "Fetal Hormones and Development of Reproductive Organs",
+  "page": 353,
+  "section": "Hormones and Sexual Development of the Body"
+ },
+ {
+  "id": "13.22",
+  "ch": 13,
+  "level": 5,
+  "title": "Internal Reproductive Ducts",
+  "page": 353,
+  "section": "Hormones and Sexual Development of the Body"
+ },
+ {
+  "id": "13.23",
+  "ch": 13,
+  "level": 5,
+  "title": "External Reproductive Organs",
+  "page": 354,
+  "section": "Hormones and Sexual Development of the Body"
+ },
+ {
+  "id": "13.24",
+  "ch": 13,
+  "level": 4,
+  "title": "Puberty: Hormones and Development of Secondary Sex Characteristics",
+  "page": 354,
+  "section": "Hormones and Sexual Development of the Body"
+ },
+ {
+  "id": "13.25",
+  "ch": 13,
+  "level": 3,
+  "title": "Sexual Development of Brain and Behavior",
+  "page": 355,
+  "section": "Sexual Development of Brain and Behavior"
+ },
+ {
+  "id": "13.26",
+  "ch": 13,
+  "level": 4,
+  "title": "Sex Differences in the Brain",
+  "page": 356,
+  "section": "Sexual Development of Brain and Behavior"
+ },
+ {
+  "id": "13.27",
+  "ch": 13,
+  "level": 5,
+  "title": "First Discovery of a Sex Difference in Mammalian Brain Function",
+  "page": 356,
+  "section": "Sexual Development of Brain and Behavior"
+ },
+ {
+  "id": "13.28",
+  "ch": 13,
+  "level": 5,
+  "title": "Aromatization Hypothesis",
+  "page": 356,
+  "section": "Sexual Development of Brain and Behavior"
+ },
+ {
+  "id": "13.29",
+  "ch": 13,
+  "level": 5,
+  "title": "Sex Differences in the Brain: The Modern Perspective",
+  "page": 357,
+  "section": "Sexual Development of Brain and Behavior"
+ },
+ {
+  "id": "13.30",
+  "ch": 13,
+  "level": 4,
+  "title": "Development of Sex Differences in Behavior",
+  "page": 357,
+  "section": "Sexual Development of Brain and Behavior"
+ },
+ {
+  "id": "13.31",
+  "ch": 13,
+  "level": 5,
+  "title": "Development of Reproductive Behaviors in Laboratory Animals",
+  "page": 358,
+  "section": "Sexual Development of Brain and Behavior"
+ },
+ {
+  "id": "13.32",
+  "ch": 13,
+  "level": 5,
+  "title": "Development of Sex Differences in the Behavior of Humans",
+  "page": 358,
+  "section": "Sexual Development of Brain and Behavior"
+ },
+ {
+  "id": "13.33",
+  "ch": 13,
+  "level": 3,
+  "title": "Three Cases of Exceptional Human Sexual Development",
+  "page": 359,
+  "section": "Sexual Development of Brain and Behavior"
+ },
+ {
+  "id": "13.34",
+  "ch": 13,
+  "level": 4,
+  "title": "Exceptional Cases of Human Sexual Development",
+  "page": 360,
+  "section": "Sexual Development of Brain and Behavior"
+ },
+ {
+  "id": "13.35",
+  "ch": 13,
+  "level": 3,
+  "title": "The Case of Anne S., the Woman with Testes",
+  "page": 360,
+  "section": "Sexual Development of Brain and Behavior"
+ },
+ {
+  "id": "13.36",
+  "ch": 13,
+  "level": 3,
+  "title": "The Case of the Little Girl Who Grew into a Boy",
+  "page": 360,
+  "section": "Sexual Development of Brain and Behavior"
+ },
+ {
+  "id": "13.37",
+  "ch": 13,
+  "level": 3,
+  "title": "The Case of the Twin Who Lost His Penis",
+  "page": 361,
+  "section": "Sexual Development of Brain and Behavior"
+ },
+ {
+  "id": "13.38",
+  "ch": 13,
+  "level": 4,
+  "title": "Do the Exceptional Cases Prove the Rule?",
+  "page": 362,
+  "section": "Sexual Development of Brain and Behavior"
+ },
+ {
+  "id": "13.39",
+  "ch": 13,
+  "level": 3,
+  "title": "Effects of Gonadal Hormones on Adults",
+  "page": 362,
+  "section": "Effects of Gonadal Hormones on Adults"
+ },
+ {
+  "id": "13.40",
+  "ch": 13,
+  "level": 4,
+  "title": "Male Sexual Behavior and Gonadal Hormones",
+  "page": 362,
+  "section": "Effects of Gonadal Hormones on Adults"
+ },
+ {
+  "id": "13.41",
+  "ch": 13,
+  "level": 3,
+  "title": "The Case of the Man Who Lost and Regained His Manhood",
+  "page": 363,
+  "section": "Effects of Gonadal Hormones on Adults"
+ },
+ {
+  "id": "13.42",
+  "ch": 13,
+  "level": 4,
+  "title": "Female Sexual Behavior and Gonadal Hormones",
+  "page": 363,
+  "section": "Effects of Gonadal Hormones on Adults"
+ },
+ {
+  "id": "13.43",
+  "ch": 13,
+  "level": 4,
+  "title": "Anabolic Steroid Abuse",
+  "page": 364,
+  "section": "Effects of Gonadal Hormones on Adults"
+ },
+ {
+  "id": "13.44",
+  "ch": 13,
+  "level": 3,
+  "title": "Brain Mechanisms of Sexual Behavior",
+  "page": 365,
+  "section": "Brain Mechanisms of Sexual Behavior"
+ },
+ {
+  "id": "13.45",
+  "ch": 13,
+  "level": 4,
+  "title": "Four Brain Structures Associated with Sexual Activity",
+  "page": 365,
+  "section": "Brain Mechanisms of Sexual Behavior"
+ },
+ {
+  "id": "13.46",
+  "ch": 13,
+  "level": 5,
+  "title": "Cortex and Sexual Activity",
+  "page": 366,
+  "section": "Brain Mechanisms of Sexual Behavior"
+ },
+ {
+  "id": "13.47",
+  "ch": 13,
+  "level": 5,
+  "title": "Hypothalamus and Sexual Activity",
+  "page": 366,
+  "section": "Brain Mechanisms of Sexual Behavior"
+ },
+ {
+  "id": "13.48",
+  "ch": 13,
+  "level": 5,
+  "title": "Amygdala and Sexual Activity",
+  "page": 367,
+  "section": "Brain Mechanisms of Sexual Behavior"
+ },
+ {
+  "id": "13.49",
+  "ch": 13,
+  "level": 5,
+  "title": "Ventral Striatum and Sexual Activity",
+  "page": 367,
+  "section": "Brain Mechanisms of Sexual Behavior"
+ },
+ {
+  "id": "13.50",
+  "ch": 13,
+  "level": 3,
+  "title": "Sexual Orientation and Gender Identity",
+  "page": 368,
+  "section": "Sexual Orientation and Gender Identity"
+ },
+ {
+  "id": "13.51",
+  "ch": 13,
+  "level": 4,
+  "title": "Sexual Orientation",
+  "page": 368,
+  "section": "Sexual Orientation and Gender Identity"
+ },
+ {
+  "id": "13.52",
+  "ch": 13,
+  "level": 5,
+  "title": "Sexual Orientation and Genes",
+  "page": 368,
+  "section": "Sexual Orientation and Gender Identity"
+ },
+ {
+  "id": "13.53",
+  "ch": 13,
+  "level": 5,
+  "title": "Sexual Orientation and Early Hormones",
+  "page": 368,
+  "section": "Sexual Orientation and Gender Identity"
+ },
+ {
+  "id": "13.54",
+  "ch": 13,
+  "level": 4,
+  "title": "What Triggers the Development of Sexual Attraction?",
+  "page": 369,
+  "section": "Sexual Orientation and Gender Identity"
+ },
+ {
+  "id": "13.55",
+  "ch": 13,
+  "level": 4,
+  "title": "What Differences in the Brain Can Account for Differences in Sexual Attraction?",
+  "page": 369,
+  "section": "Sexual Orientation and Gender Identity"
+ },
+ {
+  "id": "13.56",
+  "ch": 13,
+  "level": 4,
+  "title": "Gender Identity",
+  "page": 369,
+  "section": "Sexual Orientation and Gender Identity"
+ },
+ {
+  "id": "13.57",
+  "ch": 13,
+  "level": 4,
+  "title": "Independence of Sexual Orientation and Gender Identity",
+  "page": 369,
+  "section": "Sexual Orientation and Gender Identity"
+ },
+ {
+  "id": "14.1",
+  "ch": 14,
+  "level": 3,
+  "title": "The Case of the Woman Who Wouldn’t Sleep",
+  "page": 375,
+  "section": "Sexual Orientation and Gender Identity"
+ },
+ {
+  "id": "14.2",
+  "ch": 14,
+  "level": 3,
+  "title": "Stages of Sleep",
+  "page": 375,
+  "section": "Stages of Sleep"
+ },
+ {
+  "id": "14.3",
+  "ch": 14,
+  "level": 4,
+  "title": "Three Standard Psychophysiological Measures of Sleep",
+  "page": 375,
+  "section": "Stages of Sleep"
+ },
+ {
+  "id": "14.4",
+  "ch": 14,
+  "level": 4,
+  "title": "Three Stages of Sleep EEG",
+  "page": 375,
+  "section": "Stages of Sleep"
+ },
+ {
+  "id": "14.5",
+  "ch": 14,
+  "level": 3,
+  "title": "Dreaming",
+  "page": 377,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.6",
+  "ch": 14,
+  "level": 4,
+  "title": "Discovery of the Relationship between REM Sleep and Dreaming",
+  "page": 377,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.7",
+  "ch": 14,
+  "level": 4,
+  "title": "Testing Common Beliefs About Dreaming",
+  "page": 377,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.8",
+  "ch": 14,
+  "level": 5,
+  "title": "External Stimuli and Dreams",
+  "page": 377,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.9",
+  "ch": 14,
+  "level": 5,
+  "title": "Dream Duration",
+  "page": 377,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.10",
+  "ch": 14,
+  "level": 5,
+  "title": "People who don’t Dream",
+  "page": 377,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.11",
+  "ch": 14,
+  "level": 5,
+  "title": "Sexual Content in Dreams",
+  "page": 377,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.12",
+  "ch": 14,
+  "level": 5,
+  "title": "Sleeptalking and Sleepwalking",
+  "page": 378,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.13",
+  "ch": 14,
+  "level": 4,
+  "title": "Does REM Sleep = Dreaming?",
+  "page": 378,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.14",
+  "ch": 14,
+  "level": 4,
+  "title": "Lucid Dreaming",
+  "page": 378,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.15",
+  "ch": 14,
+  "level": 3,
+  "title": "The Case of the Levitating Teenager",
+  "page": 378,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.16",
+  "ch": 14,
+  "level": 3,
+  "title": "The Case of the Artistic Dreamer",
+  "page": 378,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.17",
+  "ch": 14,
+  "level": 3,
+  "title": "The Case of the Bored Lucid Dreamer",
+  "page": 379,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.18",
+  "ch": 14,
+  "level": 4,
+  "title": "Why Do We Dream What We Do?",
+  "page": 379,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.19",
+  "ch": 14,
+  "level": 4,
+  "title": "Why Do We Dream?",
+  "page": 380,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.20",
+  "ch": 14,
+  "level": 5,
+  "title": "Hobson’s Activation-Synthesis Hypothesis",
+  "page": 380,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.21",
+  "ch": 14,
+  "level": 5,
+  "title": "Revonsuo’s Evolutionary Theory of Dreams",
+  "page": 380,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.22",
+  "ch": 14,
+  "level": 5,
+  "title": "Hobson’s Protoconsciousness Hypothesis",
+  "page": 380,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.23",
+  "ch": 14,
+  "level": 4,
+  "title": "The Dreaming Brain",
+  "page": 381,
+  "section": "Dreaming"
+ },
+ {
+  "id": "14.24",
+  "ch": 14,
+  "level": 3,
+  "title": "Why Do We Sleep, and Why Do We Sleep When We Do?",
+  "page": 382,
+  "section": "Why Do We Sleep, and Why Do We Sleep When We Do?"
+ },
+ {
+  "id": "14.25",
+  "ch": 14,
+  "level": 4,
+  "title": "Two Kinds of Theories of Sleep",
+  "page": 382,
+  "section": "Why Do We Sleep, and Why Do We Sleep When We Do?"
+ },
+ {
+  "id": "14.26",
+  "ch": 14,
+  "level": 4,
+  "title": "Comparative Analysis of Sleep",
+  "page": 382,
+  "section": "Why Do We Sleep, and Why Do We Sleep When We Do?"
+ },
+ {
+  "id": "14.27",
+  "ch": 14,
+  "level": 3,
+  "title": "Effects of Sleep Deprivation",
+  "page": 383,
+  "section": "Effects of Sleep Deprivation"
+ },
+ {
+  "id": "14.28",
+  "ch": 14,
+  "level": 4,
+  "title": "Interpretation of the Effects of Sleep Deprivation: The Stress Problem",
+  "page": 384,
+  "section": "Effects of Sleep Deprivation"
+ },
+ {
+  "id": "14.29",
+  "ch": 14,
+  "level": 4,
+  "title": "Predictions of Recuperation Theories about Sleep Deprivation",
+  "page": 384,
+  "section": "Effects of Sleep Deprivation"
+ },
+ {
+  "id": "14.30",
+  "ch": 14,
+  "level": 4,
+  "title": "Two Classic Sleep-Deprivation Case Studies",
+  "page": 384,
+  "section": "Effects of Sleep Deprivation"
+ },
+ {
+  "id": "14.31",
+  "ch": 14,
+  "level": 3,
+  "title": "The Case of the Sleep-Deprived Students",
+  "page": 384,
+  "section": "Effects of Sleep Deprivation"
+ },
+ {
+  "id": "14.32",
+  "ch": 14,
+  "level": 3,
+  "title": "The Case of Randy Gardner",
+  "page": 384,
+  "section": "Effects of Sleep Deprivation"
+ },
+ {
+  "id": "14.33",
+  "ch": 14,
+  "level": 4,
+  "title": "Studies of Sleep Deprivation in Humans",
+  "page": 385,
+  "section": "Effects of Sleep Deprivation"
+ },
+ {
+  "id": "14.34",
+  "ch": 14,
+  "level": 4,
+  "title": "Sleep-Deprivation Studies of Laboratory Animals",
+  "page": 386,
+  "section": "Effects of Sleep Deprivation"
+ },
+ {
+  "id": "14.35",
+  "ch": 14,
+  "level": 4,
+  "title": "REM-Sleep Deprivation",
+  "page": 386,
+  "section": "Effects of Sleep Deprivation"
+ },
+ {
+  "id": "14.36",
+  "ch": 14,
+  "level": 4,
+  "title": "Sleep Deprivation Increases the Efficiency of Sleep",
+  "page": 388,
+  "section": "Effects of Sleep Deprivation"
+ },
+ {
+  "id": "14.37",
+  "ch": 14,
+  "level": 3,
+  "title": "Circadian Sleep Cycles",
+  "page": 389,
+  "section": "Circadian Sleep Cycles"
+ },
+ {
+  "id": "14.38",
+  "ch": 14,
+  "level": 4,
+  "title": "Circadian Rhythms",
+  "page": 389,
+  "section": "Circadian Sleep Cycles"
+ },
+ {
+  "id": "14.39",
+  "ch": 14,
+  "level": 4,
+  "title": "Free-Running Circadian Sleep–Wake Cycles",
+  "page": 389,
+  "section": "Circadian Sleep Cycles"
+ },
+ {
+  "id": "14.40",
+  "ch": 14,
+  "level": 4,
+  "title": "Jet Lag and Shift Work",
+  "page": 390,
+  "section": "Circadian Sleep Cycles"
+ },
+ {
+  "id": "14.41",
+  "ch": 14,
+  "level": 4,
+  "title": "A Circadian Clock in the Suprachiasmatic Nuclei",
+  "page": 390,
+  "section": "Circadian Sleep Cycles"
+ },
+ {
+  "id": "14.42",
+  "ch": 14,
+  "level": 4,
+  "title": "Neural Mechanisms of Entrainment",
+  "page": 391,
+  "section": "Circadian Sleep Cycles"
+ },
+ {
+  "id": "14.43",
+  "ch": 14,
+  "level": 4,
+  "title": "Genetics of Circadian Rhythms",
+  "page": 392,
+  "section": "Circadian Sleep Cycles"
+ },
+ {
+  "id": "14.44",
+  "ch": 14,
+  "level": 3,
+  "title": "Four Areas of the Brain Involved in Sleep",
+  "page": 392,
+  "section": "Four Areas of the Brain Involved in Sleep"
+ },
+ {
+  "id": "14.45",
+  "ch": 14,
+  "level": 4,
+  "title": "Two Areas of the Hypothalamus Involved in Sleep",
+  "page": 392,
+  "section": "Four Areas of the Brain Involved in Sleep"
+ },
+ {
+  "id": "14.46",
+  "ch": 14,
+  "level": 3,
+  "title": "The Case of Constantin von Economo, the Insightful Neurologist",
+  "page": 393,
+  "section": "Four Areas of the Brain Involved in Sleep"
+ },
+ {
+  "id": "14.47",
+  "ch": 14,
+  "level": 4,
+  "title": "Reticular Formation and Sleep",
+  "page": 393,
+  "section": "Four Areas of the Brain Involved in Sleep"
+ },
+ {
+  "id": "14.48",
+  "ch": 14,
+  "level": 4,
+  "title": "Reticular REM-Sleep Nuclei",
+  "page": 394,
+  "section": "Four Areas of the Brain Involved in Sleep"
+ },
+ {
+  "id": "14.49",
+  "ch": 14,
+  "level": 3,
+  "title": "Drugs That Affect Sleep",
+  "page": 396,
+  "section": "Drugs That Affect Sleep"
+ },
+ {
+  "id": "14.50",
+  "ch": 14,
+  "level": 4,
+  "title": "Hypnotic Drugs",
+  "page": 396,
+  "section": "Drugs That Affect Sleep"
+ },
+ {
+  "id": "14.51",
+  "ch": 14,
+  "level": 4,
+  "title": "Antihypnotic Drugs",
+  "page": 396,
+  "section": "Drugs That Affect Sleep"
+ },
+ {
+  "id": "14.52",
+  "ch": 14,
+  "level": 4,
+  "title": "Melatonin",
+  "page": 396,
+  "section": "Drugs That Affect Sleep"
+ },
+ {
+  "id": "14.53",
+  "ch": 14,
+  "level": 3,
+  "title": "Sleep Disorders",
+  "page": 397,
+  "section": "Sleep Disorders"
+ },
+ {
+  "id": "14.54",
+  "ch": 14,
+  "level": 4,
+  "title": "Insomnia",
+  "page": 398,
+  "section": "Sleep Disorders"
+ },
+ {
+  "id": "14.55",
+  "ch": 14,
+  "level": 3,
+  "title": "Mr. B., the Case of Iatrogenic Insomnia",
+  "page": 398,
+  "section": "Sleep Disorders"
+ },
+ {
+  "id": "14.56",
+  "ch": 14,
+  "level": 4,
+  "title": "Hypersomnia",
+  "page": 399,
+  "section": "Sleep Disorders"
+ },
+ {
+  "id": "14.57",
+  "ch": 14,
+  "level": 4,
+  "title": "REM-Sleep-Related Disorders",
+  "page": 400,
+  "section": "Sleep Disorders"
+ },
+ {
+  "id": "14.58",
+  "ch": 14,
+  "level": 3,
+  "title": "The Case of the Sleeper Who Ran Over Tackle",
+  "page": 400,
+  "section": "Sleep Disorders"
+ },
+ {
+  "id": "14.59",
+  "ch": 14,
+  "level": 3,
+  "title": "Effects of Long-Term Sleep Reduction",
+  "page": 400,
+  "section": "Effects of Long-Term Sleep Reduction"
+ },
+ {
+  "id": "14.60",
+  "ch": 14,
+  "level": 4,
+  "title": "Differences between Short and Long Sleepers",
+  "page": 400,
+  "section": "Effects of Long-Term Sleep Reduction"
+ },
+ {
+  "id": "14.61",
+  "ch": 14,
+  "level": 4,
+  "title": "Long-Term Reduction of Nightly Sleep",
+  "page": 401,
+  "section": "Effects of Long-Term Sleep Reduction"
+ },
+ {
+  "id": "14.62",
+  "ch": 14,
+  "level": 4,
+  "title": "Long-Term Sleep Reduction by Napping",
+  "page": 401,
+  "section": "Effects of Long-Term Sleep Reduction"
+ },
+ {
+  "id": "14.63",
+  "ch": 14,
+  "level": 4,
+  "title": "Effects of Shorter Sleep Times on Health",
+  "page": 402,
+  "section": "Effects of Long-Term Sleep Reduction"
+ },
+ {
+  "id": "14.64",
+  "ch": 14,
+  "level": 4,
+  "title": "Long-Term Sleep Reduction: A Personal Case Study",
+  "page": 402,
+  "section": "Effects of Long-Term Sleep Reduction"
+ },
+ {
+  "id": "14.65",
+  "ch": 14,
+  "level": 3,
+  "title": "The Case of the Author Who Reduced His Sleep",
+  "page": 402,
+  "section": "Effects of Long-Term Sleep Reduction"
+ },
+ {
+  "id": "15.1",
+  "ch": 15,
+  "level": 3,
+  "title": "The Case of the Drugged High School Teachers",
+  "page": 407,
+  "section": "Effects of Long-Term Sleep Reduction"
+ },
+ {
+  "id": "15.2",
+  "ch": 15,
+  "level": 3,
+  "title": "Basic Principles of Drug Action",
+  "page": 407,
+  "section": "Basic Principles of Drug Action"
+ },
+ {
+  "id": "15.3",
+  "ch": 15,
+  "level": 4,
+  "title": "Drug Administration, Absorption, and Penetration of the Central Nervous System",
+  "page": 407,
+  "section": "Basic Principles of Drug Action"
+ },
+ {
+  "id": "15.4",
+  "ch": 15,
+  "level": 5,
+  "title": "Oral Ingestion",
+  "page": 407,
+  "section": "Basic Principles of Drug Action"
+ },
+ {
+  "id": "15.5",
+  "ch": 15,
+  "level": 5,
+  "title": "Injection",
+  "page": 407,
+  "section": "Basic Principles of Drug Action"
+ },
+ {
+  "id": "15.6",
+  "ch": 15,
+  "level": 5,
+  "title": "Inhalation",
+  "page": 407,
+  "section": "Basic Principles of Drug Action"
+ },
+ {
+  "id": "15.7",
+  "ch": 15,
+  "level": 5,
+  "title": "Absorption through Mucous Membranes",
+  "page": 407,
+  "section": "Basic Principles of Drug Action"
+ },
+ {
+  "id": "15.8",
+  "ch": 15,
+  "level": 4,
+  "title": "Drug Action, Metabolism, and Elimination",
+  "page": 407,
+  "section": "Basic Principles of Drug Action"
+ },
+ {
+  "id": "15.9",
+  "ch": 15,
+  "level": 5,
+  "title": "Drug Penetration of the Central Nervous System",
+  "page": 407,
+  "section": "Basic Principles of Drug Action"
+ },
+ {
+  "id": "15.10",
+  "ch": 15,
+  "level": 5,
+  "title": "Mechanisms of Drug Action",
+  "page": 407,
+  "section": "Basic Principles of Drug Action"
+ },
+ {
+  "id": "15.11",
+  "ch": 15,
+  "level": 5,
+  "title": "Drug Metabolism and Elimination",
+  "page": 408,
+  "section": "Basic Principles of Drug Action"
+ },
+ {
+  "id": "15.12",
+  "ch": 15,
+  "level": 4,
+  "title": "Drug Tolerance, Drug Withdrawal Effects, and Physical Dependence",
+  "page": 408,
+  "section": "Basic Principles of Drug Action"
+ },
+ {
+  "id": "15.13",
+  "ch": 15,
+  "level": 5,
+  "title": "Drug Tolerance",
+  "page": 408,
+  "section": "Basic Principles of Drug Action"
+ },
+ {
+  "id": "15.14",
+  "ch": 15,
+  "level": 5,
+  "title": "Drug Withdrawal Effects and Physical Dependence",
+  "page": 408,
+  "section": "Basic Principles of Drug Action"
+ },
+ {
+  "id": "15.15",
+  "ch": 15,
+  "level": 4,
+  "title": "Drug Addiction: What Is It?",
+  "page": 409,
+  "section": "Basic Principles of Drug Action"
+ },
+ {
+  "id": "15.16",
+  "ch": 15,
+  "level": 3,
+  "title": "Role of Learning in Drug Tolerance",
+  "page": 410,
+  "section": "Role of Learning in Drug Tolerance"
+ },
+ {
+  "id": "15.17",
+  "ch": 15,
+  "level": 4,
+  "title": "Contingent Drug Tolerance",
+  "page": 410,
+  "section": "Role of Learning in Drug Tolerance"
+ },
+ {
+  "id": "15.18",
+  "ch": 15,
+  "level": 4,
+  "title": "Conditioned Drug Tolerance",
+  "page": 410,
+  "section": "Role of Learning in Drug Tolerance"
+ },
+ {
+  "id": "15.19",
+  "ch": 15,
+  "level": 5,
+  "title": "Thinking about Drug Conditioning",
+  "page": 412,
+  "section": "Role of Learning in Drug Tolerance"
+ },
+ {
+  "id": "15.20",
+  "ch": 15,
+  "level": 3,
+  "title": "Five Commonly Used Drugs",
+  "page": 412,
+  "section": "Five Commonly Used Drugs"
+ },
+ {
+  "id": "15.21",
+  "ch": 15,
+  "level": 4,
+  "title": "Nicotine",
+  "page": 412,
+  "section": "Five Commonly Used Drugs"
+ },
+ {
+  "id": "15.22",
+  "ch": 15,
+  "level": 5,
+  "title": "Tobacco Smoking",
+  "page": 413,
+  "section": "Five Commonly Used Drugs"
+ },
+ {
+  "id": "15.23",
+  "ch": 15,
+  "level": 5,
+  "title": "Nicotine Vaping",
+  "page": 413,
+  "section": "Five Commonly Used Drugs"
+ },
+ {
+  "id": "15.24",
+  "ch": 15,
+  "level": 5,
+  "title": "Addiction and Nicotine",
+  "page": 413,
+  "section": "Five Commonly Used Drugs"
+ },
+ {
+  "id": "15.25",
+  "ch": 15,
+  "level": 4,
+  "title": "Alcohol",
+  "page": 414,
+  "section": "Five Commonly Used Drugs"
+ },
+ {
+  "id": "15.26",
+  "ch": 15,
+  "level": 4,
+  "title": "Marijuana",
+  "page": 415,
+  "section": "Five Commonly Used Drugs"
+ },
+ {
+  "id": "15.27",
+  "ch": 15,
+  "level": 4,
+  "title": "Cocaine and Other Stimulants",
+  "page": 418,
+  "section": "Five Commonly Used Drugs"
+ },
+ {
+  "id": "15.28",
+  "ch": 15,
+  "level": 4,
+  "title": "The Opioids: Heroin and Morphine",
+  "page": 419,
+  "section": "Five Commonly Used Drugs"
+ },
+ {
+  "id": "15.29",
+  "ch": 15,
+  "level": 3,
+  "title": "Comparing the Health Hazards of Commonly Used Drugs",
+  "page": 421,
+  "section": "Comparing the Health Hazards of Commonly Used Drugs"
+ },
+ {
+  "id": "15.30",
+  "ch": 15,
+  "level": 4,
+  "title": "Interpreting Studies of the Health Hazards of Drugs",
+  "page": 421,
+  "section": "Comparing the Health Hazards of Commonly Used Drugs"
+ },
+ {
+  "id": "15.31",
+  "ch": 15,
+  "level": 4,
+  "title": "Comparison of the Hazards of Nicotine, Alcohol, Marijuana, Cocaine, and Heroin",
+  "page": 422,
+  "section": "Comparing the Health Hazards of Commonly Used Drugs"
+ },
+ {
+  "id": "15.32",
+  "ch": 15,
+  "level": 3,
+  "title": "Early Biopsychological Research on Addiction",
+  "page": 423,
+  "section": "Early Biopsychological Research on Addiction"
+ },
+ {
+  "id": "15.33",
+  "ch": 15,
+  "level": 4,
+  "title": "Physical-Dependence and Positive-Incentive Perspectives of Addiction",
+  "page": 423,
+  "section": "Early Biopsychological Research on Addiction"
+ },
+ {
+  "id": "15.34",
+  "ch": 15,
+  "level": 4,
+  "title": "Intracranial Self-Stimulation and the Mesotelencephalic Dopamine System",
+  "page": 424,
+  "section": "Early Biopsychological Research on Addiction"
+ },
+ {
+  "id": "15.35",
+  "ch": 15,
+  "level": 4,
+  "title": "Early Evidence of the Involvement of Dopamine in Drug Addiction",
+  "page": 425,
+  "section": "Early Biopsychological Research on Addiction"
+ },
+ {
+  "id": "15.36",
+  "ch": 15,
+  "level": 4,
+  "title": "Nucleus Accumbens and Drug Addiction",
+  "page": 426,
+  "section": "Early Biopsychological Research on Addiction"
+ },
+ {
+  "id": "15.37",
+  "ch": 15,
+  "level": 3,
+  "title": "Current Approaches to the Mechanisms of Addiction",
+  "page": 426,
+  "section": "Current Approaches to the Mechanisms of Addiction"
+ },
+ {
+  "id": "15.38",
+  "ch": 15,
+  "level": 4,
+  "title": "Three Stages in the Development of an Addiction",
+  "page": 427,
+  "section": "Current Approaches to the Mechanisms of Addiction"
+ },
+ {
+  "id": "15.39",
+  "ch": 15,
+  "level": 5,
+  "title": "Initial Drug Taking",
+  "page": 427,
+  "section": "Current Approaches to the Mechanisms of Addiction"
+ },
+ {
+  "id": "15.40",
+  "ch": 15,
+  "level": 5,
+  "title": "Habitual Drug Taking",
+  "page": 427,
+  "section": "Current Approaches to the Mechanisms of Addiction"
+ },
+ {
+  "id": "15.41",
+  "ch": 15,
+  "level": 5,
+  "title": "Drug Craving and Relapse",
+  "page": 428,
+  "section": "Current Approaches to the Mechanisms of Addiction"
+ },
+ {
+  "id": "15.42",
+  "ch": 15,
+  "level": 4,
+  "title": "Current Concerns about the Drug Self-Administration Paradigm",
+  "page": 429,
+  "section": "Current Approaches to the Mechanisms of Addiction"
+ },
+ {
+  "id": "15.43",
+  "ch": 15,
+  "level": 5,
+  "title": "Unnatural Housing and Testing Conditions",
+  "page": 430,
+  "section": "Current Approaches to the Mechanisms of Addiction"
+ },
+ {
+  "id": "15.44",
+  "ch": 15,
+  "level": 5,
+  "title": "Excessive Focus on Stimulants",
+  "page": 430,
+  "section": "Current Approaches to the Mechanisms of Addiction"
+ },
+ {
+  "id": "15.45",
+  "ch": 15,
+  "level": 4,
+  "title": "A Noteworthy Case of Addiction",
+  "page": 430,
+  "section": "Current Approaches to the Mechanisms of Addiction"
+ },
+ {
+  "id": "15.46",
+  "ch": 15,
+  "level": 3,
+  "title": "The Case of Sigmund Freud",
+  "page": 430,
+  "section": "Current Approaches to the Mechanisms of Addiction"
+ },
+ {
+  "id": "16.1",
+  "ch": 16,
+  "level": 3,
+  "title": "Cerebral Lateralization of Function: Introduction",
+  "page": 435,
+  "section": "Cerebral Lateralization of Function: Introduction"
+ },
+ {
+  "id": "16.2",
+  "ch": 16,
+  "level": 4,
+  "title": "Discovery of the Specific Contributions of Left-Hemisphere Damage to Aphasia and Apraxia",
+  "page": 435,
+  "section": "Cerebral Lateralization of Function: Introduction"
+ },
+ {
+  "id": "16.3",
+  "ch": 16,
+  "level": 4,
+  "title": "Tests of Cerebral Lateralization",
+  "page": 435,
+  "section": "Cerebral Lateralization of Function: Introduction"
+ },
+ {
+  "id": "16.4",
+  "ch": 16,
+  "level": 5,
+  "title": "Sodium Amytal Test",
+  "page": 435,
+  "section": "Cerebral Lateralization of Function: Introduction"
+ },
+ {
+  "id": "16.5",
+  "ch": 16,
+  "level": 5,
+  "title": "Dichotic Listening Test",
+  "page": 436,
+  "section": "Cerebral Lateralization of Function: Introduction"
+ },
+ {
+  "id": "16.6",
+  "ch": 16,
+  "level": 5,
+  "title": "Functional Brain Imaging",
+  "page": 436,
+  "section": "Cerebral Lateralization of Function: Introduction"
+ },
+ {
+  "id": "16.7",
+  "ch": 16,
+  "level": 4,
+  "title": "Discovery of the Relation Between Speech Laterality and Handedness",
+  "page": 436,
+  "section": "Cerebral Lateralization of Function: Introduction"
+ },
+ {
+  "id": "16.8",
+  "ch": 16,
+  "level": 4,
+  "title": "Sex Differences in Brain Lateralization",
+  "page": 436,
+  "section": "Cerebral Lateralization of Function: Introduction"
+ },
+ {
+  "id": "16.9",
+  "ch": 16,
+  "level": 3,
+  "title": "The Split Brain",
+  "page": 437,
+  "section": "The Split Brain"
+ },
+ {
+  "id": "16.10",
+  "ch": 16,
+  "level": 4,
+  "title": "Groundbreaking Experiment of Myers and Sperry",
+  "page": 437,
+  "section": "The Split Brain"
+ },
+ {
+  "id": "16.11",
+  "ch": 16,
+  "level": 4,
+  "title": "Commissurotomy in Humans with Epilepsy",
+  "page": 439,
+  "section": "The Split Brain"
+ },
+ {
+  "id": "16.12",
+  "ch": 16,
+  "level": 4,
+  "title": "Evidence That the Hemispheres of Split-Brain Patients Can Function Independently",
+  "page": 440,
+  "section": "The Split Brain"
+ },
+ {
+  "id": "16.13",
+  "ch": 16,
+  "level": 4,
+  "title": "Cross-Cuing",
+  "page": 441,
+  "section": "The Split Brain"
+ },
+ {
+  "id": "16.14",
+  "ch": 16,
+  "level": 4,
+  "title": "Doing Two Things at Once",
+  "page": 441,
+  "section": "The Split Brain"
+ },
+ {
+  "id": "16.15",
+  "ch": 16,
+  "level": 4,
+  "title": "Dual Mental Functioning and Conflict in Split-Brain Patients",
+  "page": 442,
+  "section": "The Split Brain"
+ },
+ {
+  "id": "16.16",
+  "ch": 16,
+  "level": 3,
+  "title": "The Case of Peter, the Split-Brain Patient Tormented by Conflict",
+  "page": 442,
+  "section": "The Split Brain"
+ },
+ {
+  "id": "16.17",
+  "ch": 16,
+  "level": 4,
+  "title": "Independence of Split Hemispheres: Current Perspective",
+  "page": 443,
+  "section": "The Split Brain"
+ },
+ {
+  "id": "16.18",
+  "ch": 16,
+  "level": 3,
+  "title": "Differences Between Left and Right Hemispheres",
+  "page": 443,
+  "section": "Differences Between Left and Right Hemispheres"
+ },
+ {
+  "id": "16.19",
+  "ch": 16,
+  "level": 4,
+  "title": "Examples of Cerebral Lateralization of Function",
+  "page": 444,
+  "section": "Differences Between Left and Right Hemispheres"
+ },
+ {
+  "id": "16.20",
+  "ch": 16,
+  "level": 5,
+  "title": "Superiority of the Left Hemisphere in Controlling Ipsilateral Movement",
+  "page": 444,
+  "section": "Differences Between Left and Right Hemispheres"
+ },
+ {
+  "id": "16.21",
+  "ch": 16,
+  "level": 5,
+  "title": "Superiority of the Right Hemisphere in Spatial Ability",
+  "page": 444,
+  "section": "Differences Between Left and Right Hemispheres"
+ },
+ {
+  "id": "16.22",
+  "ch": 16,
+  "level": 5,
+  "title": "Specialization of the Right Hemisphere for Emotion",
+  "page": 444,
+  "section": "Differences Between Left and Right Hemispheres"
+ },
+ {
+  "id": "16.23",
+  "ch": 16,
+  "level": 5,
+  "title": "Superior Musical Ability of the Right Hemisphere",
+  "page": 445,
+  "section": "Differences Between Left and Right Hemispheres"
+ },
+ {
+  "id": "16.24",
+  "ch": 16,
+  "level": 5,
+  "title": "Hemispheric Differences in Memory",
+  "page": 445,
+  "section": "Differences Between Left and Right Hemispheres"
+ },
+ {
+  "id": "16.25",
+  "ch": 16,
+  "level": 4,
+  "title": "What Is Lateralized? Broad Clusters of Abilities or Individual Cognitive Processes?",
+  "page": 445,
+  "section": "Differences Between Left and Right Hemispheres"
+ },
+ {
+  "id": "16.26",
+  "ch": 16,
+  "level": 4,
+  "title": "Anatomical Asymmetries of the Brain",
+  "page": 445,
+  "section": "Differences Between Left and Right Hemispheres"
+ },
+ {
+  "id": "16.27",
+  "ch": 16,
+  "level": 3,
+  "title": "Evolution of Cerebral Lateralization and Language",
+  "page": 447,
+  "section": "Evolution of Cerebral Lateralization and Language"
+ },
+ {
+  "id": "16.28",
+  "ch": 16,
+  "level": 4,
+  "title": "Theories of the Evolution of Cerebral Lateralization",
+  "page": 447,
+  "section": "Evolution of Cerebral Lateralization and Language"
+ },
+ {
+  "id": "16.29",
+  "ch": 16,
+  "level": 5,
+  "title": "Analytic–Synthetic Theory",
+  "page": 447,
+  "section": "Evolution of Cerebral Lateralization and Language"
+ },
+ {
+  "id": "16.30",
+  "ch": 16,
+  "level": 5,
+  "title": "Motor Theory",
+  "page": 447,
+  "section": "Evolution of Cerebral Lateralization and Language"
+ },
+ {
+  "id": "16.31",
+  "ch": 16,
+  "level": 5,
+  "title": "Linguistic Theory",
+  "page": 447,
+  "section": "Evolution of Cerebral Lateralization and Language"
+ },
+ {
+  "id": "16.32",
+  "ch": 16,
+  "level": 3,
+  "title": "The Case of W.L., the Man Who Experienced Aphasia for Sign Language",
+  "page": 447,
+  "section": "Evolution of Cerebral Lateralization and Language"
+ },
+ {
+  "id": "16.33",
+  "ch": 16,
+  "level": 4,
+  "title": "When Did Cerebral Lateralization Evolve?",
+  "page": 447,
+  "section": "Evolution of Cerebral Lateralization and Language"
+ },
+ {
+  "id": "16.34",
+  "ch": 16,
+  "level": 4,
+  "title": "Evolution of Human Language",
+  "page": 448,
+  "section": "Evolution of Cerebral Lateralization and Language"
+ },
+ {
+  "id": "16.35",
+  "ch": 16,
+  "level": 5,
+  "title": "Vocal Communication in Nonhuman Primates",
+  "page": 448,
+  "section": "Evolution of Cerebral Lateralization and Language"
+ },
+ {
+  "id": "16.36",
+  "ch": 16,
+  "level": 5,
+  "title": "Motor Theory of Speech Perception",
+  "page": 448,
+  "section": "Evolution of Cerebral Lateralization and Language"
+ },
+ {
+  "id": "16.37",
+  "ch": 16,
+  "level": 5,
+  "title": "Gestural Language",
+  "page": 449,
+  "section": "Evolution of Cerebral Lateralization and Language"
+ },
+ {
+  "id": "16.38",
+  "ch": 16,
+  "level": 3,
+  "title": "Cortical Localization of Language: Wernicke-Geschwind Model",
+  "page": 450,
+  "section": "Cortical Localization of Language: Wernicke-Geschwind Model"
+ },
+ {
+  "id": "16.39",
+  "ch": 16,
+  "level": 4,
+  "title": "Historical Antecedents of the Wernicke-Geschwind Model",
+  "page": 450,
+  "section": "Cortical Localization of Language: Wernicke-Geschwind Model"
+ },
+ {
+  "id": "16.40",
+  "ch": 16,
+  "level": 4,
+  "title": "The Wernicke-Geschwind Model",
+  "page": 451,
+  "section": "Cortical Localization of Language: Wernicke-Geschwind Model"
+ },
+ {
+  "id": "16.41",
+  "ch": 16,
+  "level": 3,
+  "title": "Wernicke-Geschwind Model: The Evidence",
+  "page": 452,
+  "section": "Wernicke-Geschwind Model: The Evidence"
+ },
+ {
+  "id": "16.42",
+  "ch": 16,
+  "level": 4,
+  "title": "Effects of Cortical Damage and Brain Stimulation on Language Abilities",
+  "page": 452,
+  "section": "Wernicke-Geschwind Model: The Evidence"
+ },
+ {
+  "id": "16.43",
+  "ch": 16,
+  "level": 5,
+  "title": "Evidence from Studies of the Effects of Cortical Damage",
+  "page": 453,
+  "section": "Wernicke-Geschwind Model: The Evidence"
+ },
+ {
+  "id": "16.44",
+  "ch": 16,
+  "level": 5,
+  "title": "Evidence from Structural Neuroimaging Studies",
+  "page": 454,
+  "section": "Wernicke-Geschwind Model: The Evidence"
+ },
+ {
+  "id": "16.45",
+  "ch": 16,
+  "level": 5,
+  "title": "Evidence from Studies of Electrical Stimulation of the Cortex",
+  "page": 454,
+  "section": "Wernicke-Geschwind Model: The Evidence"
+ },
+ {
+  "id": "16.46",
+  "ch": 16,
+  "level": 4,
+  "title": "Current Status of the Wernicke-Geschwind Model",
+  "page": 456,
+  "section": "Wernicke-Geschwind Model: The Evidence"
+ },
+ {
+  "id": "16.47",
+  "ch": 16,
+  "level": 3,
+  "title": "Cognitive Neuroscience of Language",
+  "page": 456,
+  "section": "Cognitive Neuroscience of Language"
+ },
+ {
+  "id": "16.48",
+  "ch": 16,
+  "level": 4,
+  "title": "Three Premises That Define the Cognitive Neuroscience Approach to Language",
+  "page": 456,
+  "section": "Cognitive Neuroscience of Language"
+ },
+ {
+  "id": "16.49",
+  "ch": 16,
+  "level": 4,
+  "title": "Functional Brain Imaging and the Localization of Language",
+  "page": 457,
+  "section": "Cognitive Neuroscience of Language"
+ },
+ {
+  "id": "16.50",
+  "ch": 16,
+  "level": 5,
+  "title": "Bavelier’s Fmri Study of Reading",
+  "page": 457,
+  "section": "Cognitive Neuroscience of Language"
+ },
+ {
+  "id": "16.51",
+  "ch": 16,
+  "level": 5,
+  "title": "Damasio’s Pet Study of Naming",
+  "page": 458,
+  "section": "Cognitive Neuroscience of Language"
+ },
+ {
+  "id": "16.52",
+  "ch": 16,
+  "level": 3,
+  "title": "Cognitive Neuroscience of Dyslexia",
+  "page": 458,
+  "section": "Cognitive Neuroscience of Dyslexia"
+ },
+ {
+  "id": "16.53",
+  "ch": 16,
+  "level": 4,
+  "title": "Developmental Dyslexia: Causes and Neural Mechanisms",
+  "page": 459,
+  "section": "Cognitive Neuroscience of Dyslexia"
+ },
+ {
+  "id": "16.54",
+  "ch": 16,
+  "level": 4,
+  "title": "Cognitive Neuroscience of Deep and Surface Dyslexia",
+  "page": 459,
+  "section": "Cognitive Neuroscience of Dyslexia"
+ },
+ {
+  "id": "16.55",
+  "ch": 16,
+  "level": 3,
+  "title": "The Case of N.I., the Woman Who Read with Her Right Hemisphere",
+  "page": 460,
+  "section": "Cognitive Neuroscience of Dyslexia"
+ },
+ {
+  "id": "17.1",
+  "ch": 17,
+  "level": 3,
+  "title": "Biopsychology of Emotion: Introduction",
+  "page": 463,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.2",
+  "ch": 17,
+  "level": 4,
+  "title": "Early Landmarks in the Biopsychological Investigation of Emotion",
+  "page": 463,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.3",
+  "ch": 17,
+  "level": 3,
+  "title": "The Mind-Blowing Case of Phineas Gage",
+  "page": 463,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.4",
+  "ch": 17,
+  "level": 4,
+  "title": "Darwin’s Theory of the Evolution of Emotion",
+  "page": 464,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.5",
+  "ch": 17,
+  "level": 4,
+  "title": "James-Lange and Cannon-Bard Theories",
+  "page": 465,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.6",
+  "ch": 17,
+  "level": 4,
+  "title": "Sham Rage",
+  "page": 465,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.7",
+  "ch": 17,
+  "level": 4,
+  "title": "Limbic System and Emotion",
+  "page": 466,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.8",
+  "ch": 17,
+  "level": 4,
+  "title": "Klüver-Bucy Syndrome",
+  "page": 466,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.9",
+  "ch": 17,
+  "level": 3,
+  "title": "A Human Case of Klüver-Bucy Syndrome",
+  "page": 467,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.10",
+  "ch": 17,
+  "level": 4,
+  "title": "Emotions and the Autonomic Nervous System",
+  "page": 467,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.11",
+  "ch": 17,
+  "level": 5,
+  "title": "Emotional Specificity of the Autonomic Nervous System",
+  "page": 467,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.12",
+  "ch": 17,
+  "level": 5,
+  "title": "Polygraphy",
+  "page": 467,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.13",
+  "ch": 17,
+  "level": 4,
+  "title": "Emotions and Facial Expression",
+  "page": 468,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.14",
+  "ch": 17,
+  "level": 5,
+  "title": "Universality of Facial Expression",
+  "page": 468,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.15",
+  "ch": 17,
+  "level": 5,
+  "title": "Primary Facial Expressions",
+  "page": 468,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.16",
+  "ch": 17,
+  "level": 5,
+  "title": "Facial Feedback Hypothesis",
+  "page": 468,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.17",
+  "ch": 17,
+  "level": 5,
+  "title": "Voluntary Control of Facial Expression",
+  "page": 469,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.18",
+  "ch": 17,
+  "level": 5,
+  "title": "Facial Expressions: Current Perspective",
+  "page": 470,
+  "section": "Biopsychology of Emotion: Introduction"
+ },
+ {
+  "id": "17.19",
+  "ch": 17,
+  "level": 3,
+  "title": "Fear, Defense, and Aggression",
+  "page": 470,
+  "section": "Fear, Defense, and Aggression"
+ },
+ {
+  "id": "17.20",
+  "ch": 17,
+  "level": 4,
+  "title": "Types of Aggressive and Defensive Behaviors",
+  "page": 471,
+  "section": "Fear, Defense, and Aggression"
+ },
+ {
+  "id": "17.21",
+  "ch": 17,
+  "level": 4,
+  "title": "Aggression and Testosterone",
+  "page": 472,
+  "section": "Fear, Defense, and Aggression"
+ },
+ {
+  "id": "17.22",
+  "ch": 17,
+  "level": 3,
+  "title": "Neural Mechanisms of Fear Conditioning",
+  "page": 473,
+  "section": "Neural Mechanisms of Fear Conditioning"
+ },
+ {
+  "id": "17.23",
+  "ch": 17,
+  "level": 4,
+  "title": "Amygdala and Fear Conditioning",
+  "page": 473,
+  "section": "Neural Mechanisms of Fear Conditioning"
+ },
+ {
+  "id": "17.24",
+  "ch": 17,
+  "level": 4,
+  "title": "Contextual Fear Conditioning and the Hippocampus",
+  "page": 473,
+  "section": "Neural Mechanisms of Fear Conditioning"
+ },
+ {
+  "id": "17.25",
+  "ch": 17,
+  "level": 4,
+  "title": "Amygdala Complex and Fear Conditioning",
+  "page": 474,
+  "section": "Neural Mechanisms of Fear Conditioning"
+ },
+ {
+  "id": "17.26",
+  "ch": 17,
+  "level": 3,
+  "title": "Brain Mechanisms of Human Emotion",
+  "page": 475,
+  "section": "Brain Mechanisms of Human Emotion"
+ },
+ {
+  "id": "17.27",
+  "ch": 17,
+  "level": 4,
+  "title": "Cognitive Neuroscience of Emotion",
+  "page": 475,
+  "section": "Brain Mechanisms of Human Emotion"
+ },
+ {
+  "id": "17.28",
+  "ch": 17,
+  "level": 4,
+  "title": "Amygdala and Human Emotion",
+  "page": 476,
+  "section": "Brain Mechanisms of Human Emotion"
+ },
+ {
+  "id": "17.29",
+  "ch": 17,
+  "level": 3,
+  "title": "The Case of S.P., the Woman Who Couldn’t Perceive Fear",
+  "page": 476,
+  "section": "Brain Mechanisms of Human Emotion"
+ },
+ {
+  "id": "17.30",
+  "ch": 17,
+  "level": 4,
+  "title": "Medial Prefrontal Lobes and Human Emotion",
+  "page": 476,
+  "section": "Brain Mechanisms of Human Emotion"
+ },
+ {
+  "id": "17.31",
+  "ch": 17,
+  "level": 4,
+  "title": "Lateralization of Emotion",
+  "page": 477,
+  "section": "Brain Mechanisms of Human Emotion"
+ },
+ {
+  "id": "17.32",
+  "ch": 17,
+  "level": 4,
+  "title": "Neural Mechanisms of Human Emotion: Current Perspectives",
+  "page": 478,
+  "section": "Brain Mechanisms of Human Emotion"
+ },
+ {
+  "id": "17.33",
+  "ch": 17,
+  "level": 3,
+  "title": "Stress and Health",
+  "page": 478,
+  "section": "Stress and Health"
+ },
+ {
+  "id": "17.34",
+  "ch": 17,
+  "level": 4,
+  "title": "The Stress Response",
+  "page": 478,
+  "section": "Stress and Health"
+ },
+ {
+  "id": "17.35",
+  "ch": 17,
+  "level": 4,
+  "title": "Animal Models of Stress",
+  "page": 479,
+  "section": "Stress and Health"
+ },
+ {
+  "id": "17.36",
+  "ch": 17,
+  "level": 4,
+  "title": "Psychosomatic Disorders: The Case of Gastric Ulcers",
+  "page": 479,
+  "section": "Stress and Health"
+ },
+ {
+  "id": "17.37",
+  "ch": 17,
+  "level": 4,
+  "title": "Psychoneuroimmunology: Stress, the Immune System, and the Brain",
+  "page": 480,
+  "section": "Stress and Health"
+ },
+ {
+  "id": "17.38",
+  "ch": 17,
+  "level": 5,
+  "title": "Innate Immune System",
+  "page": 480,
+  "section": "Stress and Health"
+ },
+ {
+  "id": "17.39",
+  "ch": 17,
+  "level": 5,
+  "title": "Adaptive Immune System",
+  "page": 480,
+  "section": "Stress and Health"
+ },
+ {
+  "id": "17.40",
+  "ch": 17,
+  "level": 5,
+  "title": "What Effect does Stress have on Immune Function: Disruptive or Beneficial?",
+  "page": 481,
+  "section": "Stress and Health"
+ },
+ {
+  "id": "17.41",
+  "ch": 17,
+  "level": 5,
+  "title": "How does Stress Influence Immune Function?",
+  "page": 481,
+  "section": "Stress and Health"
+ },
+ {
+  "id": "17.42",
+  "ch": 17,
+  "level": 5,
+  "title": "Does Stress Affect Susceptibility to Infectious Disease?",
+  "page": 482,
+  "section": "Stress and Health"
+ },
+ {
+  "id": "17.43",
+  "ch": 17,
+  "level": 4,
+  "title": "Early Experience of Stress",
+  "page": 482,
+  "section": "Stress and Health"
+ },
+ {
+  "id": "17.44",
+  "ch": 17,
+  "level": 4,
+  "title": "Stress and the Hippocampus",
+  "page": 483,
+  "section": "Stress and Health"
+ },
+ {
+  "id": "17.45",
+  "ch": 17,
+  "level": 3,
+  "title": "The Case of Charles Whitman, the Texas Tower Sniper",
+  "page": 483,
+  "section": "Stress and Health"
+ },
+ {
+  "id": "18.1",
+  "ch": 18,
+  "level": 3,
+  "title": "Schizophrenia",
+  "page": 487,
+  "section": "Schizophrenia"
+ },
+ {
+  "id": "18.2",
+  "ch": 18,
+  "level": 3,
+  "title": "Schizophrenia: The Case of Lena",
+  "page": 487,
+  "section": "Schizophrenia"
+ },
+ {
+  "id": "18.3",
+  "ch": 18,
+  "level": 4,
+  "title": "What Is Schizophrenia?",
+  "page": 487,
+  "section": "Schizophrenia"
+ },
+ {
+  "id": "18.4",
+  "ch": 18,
+  "level": 4,
+  "title": "Discovery of the First Antipsychotic Drugs",
+  "page": 488,
+  "section": "Schizophrenia"
+ },
+ {
+  "id": "18.5",
+  "ch": 18,
+  "level": 4,
+  "title": "The Dopamine Theory of Schizophrenia",
+  "page": 488,
+  "section": "Schizophrenia"
+ },
+ {
+  "id": "18.6",
+  "ch": 18,
+  "level": 4,
+  "title": "Schizophrenia: Beyond the Dopamine Theory",
+  "page": 490,
+  "section": "Schizophrenia"
+ },
+ {
+  "id": "18.7",
+  "ch": 18,
+  "level": 5,
+  "title": "Atypical Antipsychotics",
+  "page": 490,
+  "section": "Schizophrenia"
+ },
+ {
+  "id": "18.8",
+  "ch": 18,
+  "level": 5,
+  "title": "Renewed Interest in Hallucinogenic Drugs",
+  "page": 490,
+  "section": "Schizophrenia"
+ },
+ {
+  "id": "18.9",
+  "ch": 18,
+  "level": 4,
+  "title": "Genetic and Epigenetic Mechanisms of Schizophrenia",
+  "page": 491,
+  "section": "Schizophrenia"
+ },
+ {
+  "id": "18.10",
+  "ch": 18,
+  "level": 4,
+  "title": "Neural Bases of Schizophrenia",
+  "page": 491,
+  "section": "Schizophrenia"
+ },
+ {
+  "id": "18.11",
+  "ch": 18,
+  "level": 3,
+  "title": "Depressive Disorders",
+  "page": 492,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.12",
+  "ch": 18,
+  "level": 4,
+  "title": "What Are Depressive Disorders?",
+  "page": 492,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.13",
+  "ch": 18,
+  "level": 3,
+  "title": "The Case of S.B., the Depressed Biopsychology Student",
+  "page": 492,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.14",
+  "ch": 18,
+  "level": 4,
+  "title": "Antidepressant Drugs",
+  "page": 493,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.15",
+  "ch": 18,
+  "level": 5,
+  "title": "Monoamine Oxidase Inhibitors",
+  "page": 493,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.16",
+  "ch": 18,
+  "level": 5,
+  "title": "Tricyclic Antidepressants",
+  "page": 493,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.17",
+  "ch": 18,
+  "level": 5,
+  "title": "Selective Monoamine-Reuptake Inhibitors",
+  "page": 493,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.18",
+  "ch": 18,
+  "level": 5,
+  "title": "Atypical Antidepressants",
+  "page": 494,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.19",
+  "ch": 18,
+  "level": 5,
+  "title": "Nmda-Receptor Antagonists",
+  "page": 494,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.20",
+  "ch": 18,
+  "level": 5,
+  "title": "Effectiveness of Drugs in the Treatment of Depressive Disorders",
+  "page": 494,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.21",
+  "ch": 18,
+  "level": 4,
+  "title": "Brain Stimulation to Treat Depression",
+  "page": 495,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.22",
+  "ch": 18,
+  "level": 5,
+  "title": "Repetitive Transcranial Magnetic Stimulation",
+  "page": 495,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.23",
+  "ch": 18,
+  "level": 5,
+  "title": "Deep Brain Stimulation",
+  "page": 495,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.24",
+  "ch": 18,
+  "level": 4,
+  "title": "Theories of Depression",
+  "page": 496,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.25",
+  "ch": 18,
+  "level": 5,
+  "title": "Monoamine Theory of Depression",
+  "page": 496,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.26",
+  "ch": 18,
+  "level": 5,
+  "title": "Neuroplasticity Theory of Depression",
+  "page": 496,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.27",
+  "ch": 18,
+  "level": 4,
+  "title": "Genetic and Epigenetic Mechanisms of Depression",
+  "page": 496,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.28",
+  "ch": 18,
+  "level": 4,
+  "title": "Neural Bases of Depression",
+  "page": 497,
+  "section": "Depressive Disorders"
+ },
+ {
+  "id": "18.29",
+  "ch": 18,
+  "level": 3,
+  "title": "Bipolar Disorder",
+  "page": 497,
+  "section": "Bipolar Disorder"
+ },
+ {
+  "id": "18.30",
+  "ch": 18,
+  "level": 4,
+  "title": "What Is Bipolar Disorder?",
+  "page": 497,
+  "section": "Bipolar Disorder"
+ },
+ {
+  "id": "18.31",
+  "ch": 18,
+  "level": 3,
+  "title": "The Case of S.B. Revisited: The Biopsychology Student with Bipolar Disorder",
+  "page": 497,
+  "section": "Bipolar Disorder"
+ },
+ {
+  "id": "18.32",
+  "ch": 18,
+  "level": 4,
+  "title": "Mood Stabilizers",
+  "page": 498,
+  "section": "Bipolar Disorder"
+ },
+ {
+  "id": "18.33",
+  "ch": 18,
+  "level": 4,
+  "title": "Theories of Bipolar Disorder",
+  "page": 499,
+  "section": "Bipolar Disorder"
+ },
+ {
+  "id": "18.34",
+  "ch": 18,
+  "level": 4,
+  "title": "Genetic and Epigenetic Mechanisms of Bipolar Disorder",
+  "page": 499,
+  "section": "Bipolar Disorder"
+ },
+ {
+  "id": "18.35",
+  "ch": 18,
+  "level": 4,
+  "title": "Neural Bases of Bipolar Disorder",
+  "page": 499,
+  "section": "Bipolar Disorder"
+ },
+ {
+  "id": "18.36",
+  "ch": 18,
+  "level": 3,
+  "title": "Anxiety Disorders",
+  "page": 500,
+  "section": "Anxiety Disorders"
+ },
+ {
+  "id": "18.37",
+  "ch": 18,
+  "level": 3,
+  "title": "The Case of M.R., the Woman Who Was Afraid to Go Out",
+  "page": 500,
+  "section": "Anxiety Disorders"
+ },
+ {
+  "id": "18.38",
+  "ch": 18,
+  "level": 4,
+  "title": "Four Anxiety Disorders",
+  "page": 500,
+  "section": "Anxiety Disorders"
+ },
+ {
+  "id": "18.39",
+  "ch": 18,
+  "level": 4,
+  "title": "Pharmacological Treatment of Anxiety Disorders",
+  "page": 500,
+  "section": "Anxiety Disorders"
+ },
+ {
+  "id": "18.40",
+  "ch": 18,
+  "level": 5,
+  "title": "Benzodiazepines",
+  "page": 500,
+  "section": "Anxiety Disorders"
+ },
+ {
+  "id": "18.41",
+  "ch": 18,
+  "level": 5,
+  "title": "Antidepressant Drugs",
+  "page": 501,
+  "section": "Anxiety Disorders"
+ },
+ {
+  "id": "18.42",
+  "ch": 18,
+  "level": 5,
+  "title": "Pregabalin",
+  "page": 501,
+  "section": "Anxiety Disorders"
+ },
+ {
+  "id": "18.43",
+  "ch": 18,
+  "level": 4,
+  "title": "Animal Models of Anxiety Disorders",
+  "page": 501,
+  "section": "Anxiety Disorders"
+ },
+ {
+  "id": "18.44",
+  "ch": 18,
+  "level": 4,
+  "title": "Genetic and Epigenetic Mechanisms of Anxiety Disorders",
+  "page": 501,
+  "section": "Anxiety Disorders"
+ },
+ {
+  "id": "18.45",
+  "ch": 18,
+  "level": 4,
+  "title": "Neural Bases of Anxiety Disorders",
+  "page": 502,
+  "section": "Anxiety Disorders"
+ },
+ {
+  "id": "18.46",
+  "ch": 18,
+  "level": 3,
+  "title": "Tourette’s Disorder",
+  "page": 502,
+  "section": "Tourette’s Disorder"
+ },
+ {
+  "id": "18.47",
+  "ch": 18,
+  "level": 3,
+  "title": "The Case of R.G.—Barking Like a Dog",
+  "page": 502,
+  "section": "Tourette’s Disorder"
+ },
+ {
+  "id": "18.48",
+  "ch": 18,
+  "level": 4,
+  "title": "What Is Tourette’s Disorder?",
+  "page": 502,
+  "section": "Tourette’s Disorder"
+ },
+ {
+  "id": "18.49",
+  "ch": 18,
+  "level": 4,
+  "title": "Pharmacological Treatment of Tourette’s Disorder",
+  "page": 503,
+  "section": "Tourette’s Disorder"
+ },
+ {
+  "id": "18.50",
+  "ch": 18,
+  "level": 4,
+  "title": "Genetic and Epigenetic Mechanisms of Tourette’s Disorder",
+  "page": 504,
+  "section": "Tourette’s Disorder"
+ },
+ {
+  "id": "18.51",
+  "ch": 18,
+  "level": 4,
+  "title": "Neural Bases of Tourette’s Disorder",
+  "page": 504,
+  "section": "Tourette’s Disorder"
+ },
+ {
+  "id": "18.52",
+  "ch": 18,
+  "level": 3,
+  "title": "The Case of P.H., the Neuroscientist with Tourette’s Disorder",
+  "page": 504,
+  "section": "Tourette’s Disorder"
+ },
+ {
+  "id": "18.53",
+  "ch": 18,
+  "level": 3,
+  "title": "Clinical Trials: Development of New Psychotherapeutic Drugs",
+  "page": 504,
+  "section": "Clinical Trials: Development of New Psychotherapeutic Drugs"
+ },
+ {
+  "id": "18.54",
+  "ch": 18,
+  "level": 4,
+  "title": "Clinical Trials: The Three Phases",
+  "page": 505,
+  "section": "Clinical Trials: Development of New Psychotherapeutic Drugs"
+ },
+ {
+  "id": "18.55",
+  "ch": 18,
+  "level": 5,
+  "title": "Phase 1: Screening for Safety",
+  "page": 505,
+  "section": "Clinical Trials: Development of New Psychotherapeutic Drugs"
+ },
+ {
+  "id": "18.56",
+  "ch": 18,
+  "level": 5,
+  "title": "Phase 2: Establishing the Testing Protocol",
+  "page": 505,
+  "section": "Clinical Trials: Development of New Psychotherapeutic Drugs"
+ },
+ {
+  "id": "18.57",
+  "ch": 18,
+  "level": 5,
+  "title": "Phase 3: Final Testing",
+  "page": 506,
+  "section": "Clinical Trials: Development of New Psychotherapeutic Drugs"
+ },
+ {
+  "id": "18.58",
+  "ch": 18,
+  "level": 4,
+  "title": "Controversial Aspects of Clinical Trials",
+  "page": 506,
+  "section": "Clinical Trials: Development of New Psychotherapeutic Drugs"
+ },
+ {
+  "id": "18.59",
+  "ch": 18,
+  "level": 5,
+  "title": "Requirement for Double-Blind Design and Placebo Controls",
+  "page": 506,
+  "section": "Clinical Trials: Development of New Psychotherapeutic Drugs"
+ },
+ {
+  "id": "18.60",
+  "ch": 18,
+  "level": 5,
+  "title": "The need for Active Placebos",
+  "page": 506,
+  "section": "Clinical Trials: Development of New Psychotherapeutic Drugs"
+ },
+ {
+  "id": "18.61",
+  "ch": 18,
+  "level": 5,
+  "title": "Length of Time Required",
+  "page": 506,
+  "section": "Clinical Trials: Development of New Psychotherapeutic Drugs"
+ },
+ {
+  "id": "18.62",
+  "ch": 18,
+  "level": 5,
+  "title": "Financial Issues",
+  "page": 506,
+  "section": "Clinical Trials: Development of New Psychotherapeutic Drugs"
+ },
+ {
+  "id": "18.63",
+  "ch": 18,
+  "level": 5,
+  "title": "Targets of Psychopharmacology",
+  "page": 507,
+  "section": "Clinical Trials: Development of New Psychotherapeutic Drugs"
+ },
+ {
+  "id": "18.64",
+  "ch": 18,
+  "level": 5,
+  "title": "Lack of Diversity",
+  "page": 507,
+  "section": "Clinical Trials: Development of New Psychotherapeutic Drugs"
+ },
+ {
+  "id": "18.65",
+  "ch": 18,
+  "level": 4,
+  "title": "Effectiveness of Clinical Trials",
+  "page": 507,
+  "section": "Clinical Trials: Development of New Psychotherapeutic Drugs"
+ },
+ {
+  "id": "18.66",
+  "ch": 18,
+  "level": 3,
+  "title": "Conclusion of the Case of S.B.: The Biopsychology  Student Who Took Control",
+  "page": 508,
+  "section": "Clinical Trials: Development of New Psychotherapeutic Drugs"
+ }
+]
