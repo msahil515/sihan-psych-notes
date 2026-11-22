@@ -350,6 +350,11 @@ The book's Table 16.1 lists abilities that display **some degree** of lateralisa
 
 Exam-friendly cells: **Braille** (right, a tactile pattern), **arithmetic** (left) versus **geometry** (right), and the **emotional content** of language (right).
 
+<div class="fig">
+<a class="figzoom" href="figs/t_16_1.jpg" target="_blank" rel="noopener"><img src="figs/t_16_1.jpg" loading="lazy" alt="Pinel Table 16.1: left-hemisphere dominance for words, letters, language sounds, complex and ipsilateral movement, verbal memory, speech, reading, writing and arithmetic; right-hemisphere dominance for faces, music, Braille, nonverbal memory, emotional content and spatial abilities such as mental rotation, geometry, direction and distance"></a>
+<p class="cap"><b>Abilities that display some degree of cerebral lateralisation.</b> Pinel &amp; Barnes, 11th ed. &middot; Table 16.1</p>
+</div>
+
 ### Superiority of the left hemisphere in controlling ipsilateral movement
 
 An unexpected left-hemisphere specialisation came from **functional imaging**. When complex, cognitively driven movements are made by **one hand**, most activation is in the **contralateral** hemisphere, as expected. But some activation also appears in the **ipsilateral** hemisphere, and these ipsilateral effects are **substantially greater in the left hemisphere than in the right** (Bundy & Leuthardt, 2019; Hervé et al., 2013). In other words, the left hemisphere participates in controlling the **left** hand more than the right hemisphere participates in controlling the right hand.
