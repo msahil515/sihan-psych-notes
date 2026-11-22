@@ -7397,9 +7397,369 @@
     "pages": 652,
     "chapters": [
       {
-        "num": 1,
+        "num": 6,
+        "title": "Chapter 6: Learning, Memory and Forgetting",
+        "slug": "ch06-learning-memory-and-forgetting",
+        "part": "Part II Memory (full depth)",
+        "sections": [
+          {
+            "level": 2,
+            "title": "6.1 Introduction"
+          },
+          {
+            "level": 2,
+            "title": "6.2 Architecture of Memory"
+          },
+          {
+            "level": 2,
+            "title": "6.3 Working Memory"
+          },
+          {
+            "level": 2,
+            "title": "6.4 Working Memory Capacity"
+          },
+          {
+            "level": 2,
+            "title": "6.5 Levels of Processing"
+          },
+          {
+            "level": 2,
+            "title": "6.6 Learning Through Retrieval"
+          },
+          {
+            "level": 2,
+            "title": "6.7 Implicit Learning"
+          },
+          {
+            "level": 2,
+            "title": "6.8 Forgetting from Long-Term Memory"
+          },
+          {
+            "level": 2,
+            "title": "How the chapter fits together"
+          },
+          {
+            "level": 2,
+            "title": "Worked example"
+          },
+          {
+            "level": 2,
+            "title": "MCQ traps"
+          },
+          {
+            "level": 2,
+            "title": "Key terms"
+          },
+          {
+            "level": 2,
+            "title": "Likely exam points"
+          }
+        ]
+      },
+      {
+        "num": 7,
+        "title": "Chapter 7: Long-Term Memory Systems",
+        "slug": "ch07-long-term-memory-systems",
+        "part": "Part II Memory (full depth)",
+        "sections": [
+          {
+            "level": 2,
+            "title": "7.1 Introduction"
+          },
+          {
+            "level": 2,
+            "title": "7.2 Declarative Memory"
+          },
+          {
+            "level": 2,
+            "title": "7.3 Episodic Memory"
+          },
+          {
+            "level": 2,
+            "title": "7.4 Semantic Memory"
+          },
+          {
+            "level": 2,
+            "title": "7.5 Non-declarative Memory"
+          },
+          {
+            "level": 2,
+            "title": "7.6 Beyond Declarative and Non-declarative Memory"
+          },
+          {
+            "level": 2,
+            "title": "How the chapter fits together"
+          },
+          {
+            "level": 2,
+            "title": "Worked example"
+          },
+          {
+            "level": 2,
+            "title": "MCQ traps"
+          },
+          {
+            "level": 2,
+            "title": "Key terms"
+          },
+          {
+            "level": 2,
+            "title": "Likely exam points"
+          }
+        ]
+      },
+      {
+        "num": 8,
+        "title": "Chapter 8: Everyday Memory",
+        "slug": "ch08-everyday-memory",
+        "part": "Part II Memory (full depth)",
+        "sections": [
+          {
+            "level": 2,
+            "title": "8.1 Introduction"
+          },
+          {
+            "level": 2,
+            "title": "8.2 Autobiographical Memory: Introduction"
+          },
+          {
+            "level": 2,
+            "title": "8.3 Memories Across the Lifetime"
+          },
+          {
+            "level": 2,
+            "title": "8.4 Theoretical Approaches to Autobiographical Memory"
+          },
+          {
+            "level": 2,
+            "title": "8.5 Eyewitness Testimony"
+          },
+          {
+            "level": 2,
+            "title": "8.6 Enhancing Eyewitness Memory"
+          },
+          {
+            "level": 2,
+            "title": "8.7 Prospective Memory"
+          },
+          {
+            "level": 2,
+            "title": "8.8 Theoretical Perspectives on Prospective Memory"
+          },
+          {
+            "level": 2,
+            "title": "How the chapter fits together"
+          },
+          {
+            "level": 2,
+            "title": "Worked example"
+          },
+          {
+            "level": 2,
+            "title": "MCQ traps"
+          },
+          {
+            "level": 2,
+            "title": "Key terms"
+          },
+          {
+            "level": 2,
+            "title": "Likely exam points"
+          }
+        ]
+      },
+      {
+        "num": 9,
+        "title": "Chapter 9: Reading and Speech Perception",
+        "slug": "ch09-reading-and-speech-perception",
+        "part": "Part III Language (full depth)",
+        "sections": [
+          {
+            "level": 2,
+            "title": "9.1 Part III Opener: Language, Innateness and Thought"
+          },
+          {
+            "level": 2,
+            "title": "9.2 Introduction: Reading Versus Listening"
+          },
+          {
+            "level": 2,
+            "title": "9.3 Reading: Introduction"
+          },
+          {
+            "level": 2,
+            "title": "9.4 Word Recognition"
+          },
+          {
+            "level": 2,
+            "title": "9.5 Reading Aloud"
+          },
+          {
+            "level": 2,
+            "title": "9.6 Reading: Eye-Movement Research"
+          },
+          {
+            "level": 2,
+            "title": "9.7 Speech Perception: Introduction"
+          },
+          {
+            "level": 2,
+            "title": "9.8 Listening to Speech"
+          },
+          {
+            "level": 2,
+            "title": "9.9 Context Effects"
+          },
+          {
+            "level": 2,
+            "title": "9.10 Theories of Speech Perception"
+          },
+          {
+            "level": 2,
+            "title": "9.11 Cognitive Neuropsychology"
+          },
+          {
+            "level": 2,
+            "title": "How the chapter fits together"
+          },
+          {
+            "level": 2,
+            "title": "Worked example"
+          },
+          {
+            "level": 2,
+            "title": "MCQ traps"
+          },
+          {
+            "level": 2,
+            "title": "Key terms"
+          },
+          {
+            "level": 2,
+            "title": "Likely exam points"
+          }
+        ]
+      },
+      {
+        "num": 10,
+        "title": "Chapter 10: Language Comprehension",
+        "slug": "ch10-language-comprehension",
+        "part": "Part III Language (full depth)",
+        "sections": [
+          {
+            "level": 2,
+            "title": "10.1 Introduction"
+          },
+          {
+            "level": 2,
+            "title": "10.2 Parsing: Overview"
+          },
+          {
+            "level": 2,
+            "title": "10.3 Models of Parsing"
+          },
+          {
+            "level": 2,
+            "title": "10.4 Pragmatics"
+          },
+          {
+            "level": 2,
+            "title": "10.5 Individual Differences: Working Memory Capacity"
+          },
+          {
+            "level": 2,
+            "title": "10.6 Discourse Processing: Inferences"
+          },
+          {
+            "level": 2,
+            "title": "10.7 Discourse Comprehension: Theoretical Approaches"
+          },
+          {
+            "level": 2,
+            "title": "How the chapter fits together"
+          },
+          {
+            "level": 2,
+            "title": "Worked example"
+          },
+          {
+            "level": 2,
+            "title": "MCQ traps"
+          },
+          {
+            "level": 2,
+            "title": "Key terms"
+          },
+          {
+            "level": 2,
+            "title": "Likely exam points"
+          }
+        ]
+      },
+      {
+        "num": 11,
+        "title": "Chapter 11: Language Production",
+        "slug": "ch11-language-production",
+        "part": "Part III Language (full depth)",
+        "sections": [
+          {
+            "level": 2,
+            "title": "11.1 Introduction"
+          },
+          {
+            "level": 2,
+            "title": "11.2 Speech Planning"
+          },
+          {
+            "level": 2,
+            "title": "11.3 Speech Errors"
+          },
+          {
+            "level": 2,
+            "title": "11.4 Theories of Speech Production"
+          },
+          {
+            "level": 2,
+            "title": "11.5 Cognitive Neuropsychology: Speech Production"
+          },
+          {
+            "level": 2,
+            "title": "11.6 Speech as Communication"
+          },
+          {
+            "level": 2,
+            "title": "11.7 Writing: The Main Processes"
+          },
+          {
+            "level": 2,
+            "title": "11.8 Spelling"
+          },
+          {
+            "level": 2,
+            "title": "How the chapter fits together"
+          },
+          {
+            "level": 2,
+            "title": "Worked example"
+          },
+          {
+            "level": 2,
+            "title": "MCQ traps"
+          },
+          {
+            "level": 2,
+            "title": "Key terms"
+          },
+          {
+            "level": 2,
+            "title": "Likely exam points"
+          }
+        ]
+      },
+      {
+        "num": "Q1",
         "title": "Ch 1: Approaches to Human Cognition",
-        "slug": "ch01-approaches-to-human-cognition",
+        "slug": "ch-quick-1-approaches-to-human-cognition",
         "sections": [
           {
             "level": 2,
@@ -7433,12 +7793,13 @@
             "level": 2,
             "title": "Likely Exam Points"
           }
-        ]
+        ],
+        "part": "Quick notes: the whole book in 6 short chapters"
       },
       {
-        "num": 2,
+        "num": "Q2",
         "title": "Ch 2: Visual Perception & Attention",
-        "slug": "ch02-visual-perception-and-attention",
+        "slug": "ch-quick-2-visual-perception-and-attention",
         "sections": [
           {
             "level": 2,
@@ -7520,12 +7881,13 @@
             "level": 2,
             "title": "Likely Exam Points"
           }
-        ]
+        ],
+        "part": "Quick notes: the whole book in 6 short chapters"
       },
       {
-        "num": 3,
+        "num": "Q3",
         "title": "Ch 3: Memory: Systems, Working Memory & Forgetting",
-        "slug": "ch03-memory",
+        "slug": "ch-quick-3-memory",
         "sections": [
           {
             "level": 2,
@@ -7575,12 +7937,13 @@
             "level": 2,
             "title": "Likely Exam Points"
           }
-        ]
+        ],
+        "part": "Quick notes: the whole book in 6 short chapters"
       },
       {
-        "num": 4,
+        "num": "Q4",
         "title": "Ch 4: Language: Reading, Comprehension & Production",
-        "slug": "ch04-language",
+        "slug": "ch-quick-4-language",
         "sections": [
           {
             "level": 2,
@@ -7674,12 +8037,13 @@
             "level": 2,
             "title": "Likely Exam Points"
           }
-        ]
+        ],
+        "part": "Quick notes: the whole book in 6 short chapters"
       },
       {
-        "num": 5,
+        "num": "Q5",
         "title": "Ch 5: Thinking, Reasoning & Decision Making",
-        "slug": "ch05-thinking-reasoning-and-decision-making",
+        "slug": "ch-quick-5-thinking-reasoning-and-decision-making",
         "sections": [
           {
             "level": 2,
@@ -7737,12 +8101,13 @@
             "level": 2,
             "title": "Likely Exam Points"
           }
-        ]
+        ],
+        "part": "Quick notes: the whole book in 6 short chapters"
       },
       {
-        "num": 6,
+        "num": "Q6",
         "title": "Ch 6: Cognition, Emotion & Consciousness",
-        "slug": "ch06-cognition-emotion-and-consciousness",
+        "slug": "ch-quick-6-cognition-emotion-and-consciousness",
         "sections": [
           {
             "level": 2,
@@ -7780,7 +8145,8 @@
             "level": 2,
             "title": "Likely Exam Points"
           }
-        ]
+        ],
+        "part": "Quick notes: the whole book in 6 short chapters"
       }
     ]
   },
