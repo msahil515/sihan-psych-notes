@@ -185,6 +185,87 @@ body{background:var(--body-grad)}
 .reader .fig .cap{font-family:var(--sans);margin:12px 2px 8px;font-size:13px;line-height:1.55;color:var(--muted);text-align:center}
 .reader .fig .cap b{color:var(--ink2);font-weight:680}
 
+/* ---- books copied from the prep site's Library (Stats, DSM-5-TR, Psycho Didi, RML, SGT) ----
+   Their chapters keep the Library's box vocabulary; mapped here onto this app's tokens. */
+.nb{--panel-2:var(--panel2);--border:var(--line2);--text:var(--ink-strong);--good:#2f7d46;--bad:#c0392b;
+  --c-why:#8a4e0f;--c-founder:#0f766e;--c-nimhans:#6d28d9;--c-def:#8a6d3b}
+html[data-theme="dark"] .nb{--good:#6fcf8f;--bad:#f2867b;--c-why:#e8a85a;--c-founder:#4fd1c5;--c-nimhans:#b79cff;--c-def:#d6b46e}
+.nb .subtitle{color:var(--muted);font-size:.85em;margin-top:-6px}
+.nb .lede,.nb p.lead{color:var(--ink2);background:var(--panel-2);border:1px solid var(--border);border-radius:8px;padding:14px 18px;margin:18px 0}
+.nb .chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px;font-family:var(--sans);font-size:.72em;line-height:1.5}
+.nb .chip{background:var(--panel-2);border:1px solid var(--border);border-radius:20px;padding:4px 12px;color:var(--ink2)}
+.nb .chip b{color:var(--text)}
+.nb .focus,.nb .pd-figs-note{border-left:3px solid var(--accent);background:var(--accent-soft);padding:10px 16px;margin:16px 0;border-radius:0 6px 6px 0;font-size:.88em}
+.nb .warn{border-left:3px solid #c2701a;background:rgba(194,112,26,.09);padding:10px 16px;margin:16px 0;border-radius:0 6px 6px 0;font-size:.88em}
+.nb .warn b,.nb .why b{color:var(--c-why)}
+.nb h2 .cn{display:inline-block;min-width:1.6em;color:var(--muted);font-weight:400}
+.nb table.t{font-family:var(--sans);font-size:.8em}
+.nb table.t td.bad{background:rgba(248,81,73,.08)}
+.nb .rule,.nb .trap,.nb .why,.nb .founder,.nb .nimhans{padding:9px 13px;margin:11px 0;border-radius:4px;font-size:.86em;line-height:1.65}
+.nb .rule{background:rgba(63,185,80,.09);border-left:3px solid var(--good)}
+.nb .rule b{color:var(--good)}
+.nb .trap{background:rgba(248,81,73,.09);border-left:3px solid var(--bad)}
+.nb .trap b{color:var(--bad)}
+.nb .why{background:rgba(210,153,34,.11);border-left:3px solid #c2701a}
+.nb .founder{background:rgba(15,118,110,.09);border-left:3px solid #0f766e}
+.nb .founder b{color:var(--c-founder)}
+.nb .nimhans{background:rgba(124,58,237,.09);border-left:3px solid #7c3aed}
+.nb .nimhans b{color:var(--c-nimhans)}
+.nb .recap{background:var(--panel-2);border:1px solid var(--border);border-radius:8px;padding:12px 14px;margin:18px 0 6px;font-size:.86em}
+.nb .recap b{color:var(--accent)}
+.nb .eg{font-style:italic;color:var(--muted)}
+.nb ol.steps li,.nb ul.tight li{margin:6px 0}
+.nb figure.dia{margin:24px 0;padding:14px 10px 10px;background:var(--panel-2);border:1px solid var(--border);border-radius:10px}
+.nb figure.dia svg{display:block;width:100%;height:auto}
+.nb figure.dia figcaption{margin-top:10px;padding:0 8px;font-family:var(--sans);font-size:.72em;line-height:1.55;color:var(--muted);text-align:center}
+.nb .callout{border:1px solid var(--border);border-left:4px solid var(--muted);background:var(--panel-2);border-radius:0 8px 8px 0;padding:12px 18px;margin:18px 0}
+.nb .callout .co-h{font-family:var(--sans);font-size:.65em;font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px}
+.nb .callout p:first-of-type{margin-top:0}
+.nb .callout p:last-child{margin-bottom:0}
+.nb .callout.key{border-left-color:var(--good);background:rgba(47,125,70,.07)}
+.nb .callout.key .co-h{color:var(--good)}
+.nb .callout.trap{border-left-color:var(--bad);background:rgba(192,57,43,.06)}
+.nb .callout.trap .co-h{color:var(--bad)}
+.nb .callout.tip{border-left-color:var(--accent);background:var(--accent-soft)}
+.nb .callout.tip .co-h{color:var(--accent)}
+.nb .callout.def{border-left-color:var(--c-def);background:rgba(138,109,59,.07)}
+.nb .callout.def .co-h{color:var(--c-def)}
+.nb .chapnote{font-family:var(--sans);font-size:.8em;line-height:1.7;color:var(--ink2);border-left:3px solid var(--border);padding:4px 0 4px 14px;margin:0 0 18px}
+.nb .dx{border:1px solid var(--border);border-radius:10px;padding:16px 20px 14px;margin:22px 0;background:var(--panel-2)}
+.nb .dx>h3{margin:0 0 10px;font-size:1.12em;border:0;padding:0}
+.nb .dx .code{font-family:var(--sans);font-size:.62em;font-weight:600;letter-spacing:.03em;color:var(--muted);border:1px solid var(--border);border-radius:20px;padding:2px 9px;margin-left:8px;white-space:nowrap;vertical-align:middle}
+.nb .dx .plain{margin:0 0 12px}
+.nb .dx ul.crit{margin:0 0 12px;padding-left:22px}
+.nb .dx ul.crit>li{margin:5px 0;line-height:1.6}
+.nb .dx .row{font-family:var(--sans);font-size:.78em;line-height:1.65;margin:9px 0 0;padding:9px 13px;border-radius:0 6px 6px 0;border-left:3px solid var(--muted);background:rgba(120,120,120,.05)}
+.nb .dx .row b.lbl{display:inline-block;font-size:.8em;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-right:7px}
+.nb .dx .row.nums{border-left-color:var(--c-def);background:rgba(138,109,59,.07)}
+.nb .dx .row.nums b.lbl{color:var(--c-def)}
+.nb .dx .row.cm{border-left-color:var(--accent);background:var(--accent-soft)}
+.nb .dx .row.cm b.lbl{color:var(--accent)}
+.nb .dx .row.dd{border-left-color:var(--bad);background:rgba(192,57,43,.06)}
+.nb .dx .row.dd b.lbl{color:var(--bad)}
+.nb .dx .row.icd{border-left-color:var(--good);background:rgba(47,125,70,.06)}
+.nb .dx .row.icd b.lbl{color:var(--good)}
+.nb .dx .row.course{border-left-color:#0f766e;background:rgba(15,118,110,.06)}
+.nb .dx .row.course b.lbl{color:var(--c-founder)}
+.nb .dx .row.chg{border-left-color:#7c3aed;background:rgba(124,58,237,.06)}
+.nb .dx .row.chg b.lbl{color:var(--c-nimhans)}
+.nb .bfigs{display:flex;flex-wrap:wrap;align-items:flex-start;gap:18px;margin:18px 0 26px}
+.nb .bfig{flex:1 1 100%;min-width:0;margin:0;background:var(--panel-2);border:1px solid var(--border);border-radius:8px;padding:10px}
+.nb .bfig a{display:block;cursor:zoom-in}
+.nb .bfig img{display:block;width:100%;height:auto;margin:0 auto;border-radius:4px;background:#fff}
+.nb .bfig figcaption{font-family:var(--sans);font-size:.72em;line-height:1.55;color:var(--ink2);margin-top:8px}
+.nb .bfig figcaption b{color:var(--text);font-weight:700}
+.nb .bfig figcaption span{display:block;margin-top:3px;font-size:.9em;letter-spacing:.03em;color:var(--muted)}
+.nb .pd-off a{display:none}
+.nb .pd-off figcaption{margin-top:0}
+.nb .pd-off figcaption::after{content:"This diagram loads the first time you open it with internet, then it stays offline.";display:block;margin-top:4px;color:var(--muted)}
+/* paged reader: a figure can't split across a page, so it scales to fit one */
+.openbook .art .nb figure.dia,.openbook .art .nb .bfig{break-inside:avoid;-webkit-column-break-inside:avoid}
+.openbook .art .nb figure.dia svg{max-height:var(--pg-imgmax,80%)}
+.openbook .art .nb .bfig img{max-width:100% !important;max-height:var(--pg-imgmax,80%);width:auto;margin:0 auto}  /* beats the inline natural-size cap */
+
 /* prev / next */
 .pn{display:flex;gap:12px;margin-top:46px;padding-top:24px;border-top:1px solid var(--line);font-family:var(--sans)}
 .pn a{flex:1;display:flex;flex-direction:column;gap:3px;padding:13px 16px;border:1px solid var(--line2);border-radius:12px;
@@ -508,7 +589,12 @@ const DATA = __PAYLOAD__;
 const THEME={
   "schultz-personality":{c:"167,139,250",cl:"124,93,230",ic:"🧩"},
   "baron-social-psychology":{c:"45,212,191",cl:"13,148,136",ic:"👥"},
-  "pinel-biopsychology":{c:"251,191,114",cl:"176,116,18",ic:"🧠"}
+  "pinel-biopsychology":{c:"251,191,114",cl:"176,116,18",ic:"🧠"},
+  "statistics-research":{c:"96,165,250",cl:"37,99,235",ic:"📊"},
+  "dsm5tr-exam-cut":{c:"248,113,113",cl:"185,28,28",ic:"📕"},
+  "psycho-didi":{c:"244,114,182",cl:"190,24,93",ic:"📝"},
+  "rml-study-material":{c:"163,230,53",cl:"77,124,15",ic:"🏛️"},
+  "sgt-study-material":{c:"251,146,60",cl:"194,65,12",ic:"🎓"}
 };
 const FALLBACK={c:"91,156,255",cl:"61,111,208",ic:"📘"};
 const meta=k=>THEME[k]||FALLBACK;
@@ -522,6 +608,7 @@ const view=document.getElementById('view'), nav=document.getElementById('nav'),
       main=document.getElementById('main'), tt=document.getElementById('tt'),
       progress=document.querySelector('#progress>i');
 const setTitle=t=>{if(tt)tt.textContent=t;};
+q.placeholder=`Search all ${DATA.docs.length} chapters…`;q2.placeholder=`Search ${DATA.docs.length} chapters…`;
 const menu=document.getElementById('menu'), overlay=document.getElementById('overlay');
 let activeBook="all", current=null;
 // ---- book-reader (2-up / 1-up spread) state ----

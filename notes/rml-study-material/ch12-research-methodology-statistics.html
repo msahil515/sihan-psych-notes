@@ -1,0 +1,457 @@
+<div class="nfe-article nb">
+<div class="why"><b>From scratch:</b> Research is a systematic, self-correcting way of answering a question so that the answer does not depend on who is asking. In clinical psychology we want to know things like "does <b>cognitive behavioural therapy</b> reduce depression more than a waitlist?" To answer that credibly we must define our terms precisely, design a fair comparison, sample people properly, measure carefully, and then use statistics to decide whether what we saw is real or just chance. This section builds that whole machine, piece by piece.</div>
+
+<h3>1. The research process &amp; variables</h3>
+<p>A <b>variable</b> is anything that can take different values. The <b>independent variable (IV)</b> is what the researcher manipulates or groups by (the presumed cause); the <b>dependent variable (DV)</b> is what is measured (the presumed effect). <span class="eg">Therapy type is the IV; depression score is the DV.</span></p>
+<ul>
+<li><b>Extraneous variable</b>, any variable other than the IV that could affect the DV. If it is not controlled it becomes a <b>confounding variable</b>: it varies <i>systematically</i> with the IV, so you cannot tell whether the IV or the confound caused the effect. <span class="eg">If everyone in the therapy group is also younger, age confounds the result.</span></li>
+<li><b>Moderator</b>, a variable that changes the <i>strength or direction</i> of the IV–DV relationship (an interaction; "for whom / when" the effect holds). <span class="eg">Therapy works better for mild than severe cases: severity moderates.</span></li>
+<li><b>Mediator</b>, a variable that explains <i>how</i> the IV affects the DV; it sits in the causal chain IV → mediator → DV. <span class="eg">Therapy reduces depression by first changing negative thoughts.</span></li>
+</ul>
+<div class="rule"><b>Key.</b> Moderator = <i>when/for whom</i> (interaction). Mediator = <i>how/why</i> (mechanism, in the middle).</div>
+<p>An <b>operational definition</b> states a variable in terms of the exact operations used to measure it, making it observable and repeatable. <span class="eg">"Depression = score on the Beck Depression Inventory."</span></p>
+
+<h4>Hypotheses</h4>
+<p>The <b>null hypothesis (H0)</b> states there is <i>no</i> effect or difference (any observed difference is chance). The <b>alternative hypothesis (H1)</b> states there <i>is</i> an effect. A <b>non-directional / two-tailed</b> H1 predicts a difference in either direction (μ1 ≠ μ2). A <b>directional / one-tailed</b> H1 predicts the direction (μ1 &gt; μ2). We never "prove" H1; we <b>reject or fail to reject H0</b>.</p>
+
+<h3>2. Research designs</h3>
+<ul>
+<li><b>True (experimental) design</b>, the researcher manipulates the IV <i>and</i> uses <b>random assignment</b> to conditions. Only this design supports strong causal claims.</li>
+<li><b>Quasi-experimental design</b>, an IV is compared across pre-existing groups with <i>no</i> random assignment. <span class="eg">Comparing two intact hospital wards.</span> Weaker causal inference (selection confounds).</li>
+<li><b>Correlational design</b>, no manipulation; two measured variables are related. Establishes association, <i>not</i> causation.</li>
+<li><b>Descriptive / survey design</b>, describes a population's characteristics without testing relationships.</li>
+<li><b>Case study</b>, intensive study of one individual/unit; rich detail, poor generalisability.</li>
+<li><b>Longitudinal</b>, same people followed over time (tracks change, but attrition and cost). <b>Cross-sectional</b>, different age/cohort groups measured once (fast, but cohort effects confound age).</li>
+</ul>
+<h4>Between vs within subjects</h4>
+<p><b>Between-subjects</b>: different participants in each condition (no carry-over, but individual differences add noise). <b>Within-subjects (repeated measures)</b>: same participants in all conditions (controls individual differences, more power, but risks <b>order/carry-over effects</b>).</p>
+<div class="rule"><b>Key.</b> Control of confounds: <b>randomization</b> (random assignment spreads unknown confounds evenly across groups), <b>counterbalancing</b> (varying the order of conditions to cancel order effects in within-subjects designs), and <b>matching</b> (pairing participants on a key variable so groups are equated on it).</div>
+
+<h3>3. Sampling</h3>
+<p><b>Probability sampling</b>, every unit has a known, non-zero chance of selection, so results generalise and sampling error can be estimated.</p>
+<ul>
+<li><b>Simple random</b>, every member equally likely (lottery).</li>
+<li><b>Systematic</b>, every k-th member from a list after a random start.</li>
+<li><b>Stratified</b>, divide the population into strata (e.g. sex) and sample randomly <i>within</i> each; ensures representation.</li>
+<li><b>Cluster</b>, divide into naturally occurring clusters (e.g. hospitals), randomly select whole clusters.</li>
+<li><b>Multistage</b>, sampling in nested stages (states → districts → clinics → patients).</li>
+</ul>
+<p><b>Non-probability sampling</b>, selection chances unknown; cheaper but biased.</p>
+<ul>
+<li><b>Convenience</b>, whoever is available.</li>
+<li><b>Purposive</b>, deliberately chosen for a characteristic (expert judgement).</li>
+<li><b>Quota</b>, fill preset counts per subgroup, non-randomly (the non-random cousin of stratified).</li>
+<li><b>Snowball</b>, participants refer others (for hidden populations).</li>
+</ul>
+<div class="trap"><b>Trap:</b> Stratified vs cluster: in <b>stratified</b> you sample from <i>every</i> stratum and want them internally homogeneous; in <b>cluster</b> you sample only <i>some</i> clusters, each meant to mirror the whole. Quota = non-probability version of stratified.</div>
+
+<h3>4. Measurement, scales</h3>
+<p>The scale of a variable decides which statistics are legitimate.</p>
+<table class="t">
+<tr><th>Scale</th><th>Property</th><th>Example</th><th>Central tendency</th><th>Stats allowed</th></tr>
+<tr><td><b>Nominal</b></td><td>Categories only, no order</td><td>Diagnosis, sex</td><td><b>Mode</b></td><td>Frequencies, <b>chi-square</b></td></tr>
+<tr><td><b>Ordinal</b></td><td>Ordered, unequal/unknown intervals</td><td>Rank, Likert (strict view)</td><td><b>Median</b></td><td>Non-parametric, <b>Spearman's rho</b></td></tr>
+<tr><td><b>Interval</b></td><td>Equal intervals, no true zero</td><td>IQ, temperature °C</td><td><b>Mean</b></td><td>Parametric (t, ANOVA, Pearson)</td></tr>
+<tr><td><b>Ratio</b></td><td>Equal intervals + true zero</td><td>Reaction time, weight</td><td><b>Mean</b> (geometric too)</td><td>All, including ratios</td></tr>
+</table>
+<div class="rule"><b>Key.</b> Mnemonic <b>NOIR</b> (Nominal, Ordinal, Interval, Ratio). A true zero means "none of the quantity", 0 kg = no weight (ratio), but 0 °C is not no temperature (interval).</div>
+
+<h3>5. Descriptive statistics</h3>
+<p><b>Central tendency:</b> the <b>mean</b> (arithmetic average) suits symmetric interval/ratio data but is pulled by outliers; the <b>median</b> (middle value) is robust and preferred for skewed data or ordinal scales; the <b>mode</b> (most frequent value) is the only option for nominal data.</p>
+<p><b>Dispersion:</b> the <b>range</b> (max − min) is crude; the <b>variance</b> is the mean of squared deviations from the mean; the <b>standard deviation (SD)</b> is the square root of variance, back in the original units and the most used spread measure.</p>
+<h4>The normal distribution</h4>
+<p>The <b>normal distribution</b> is a symmetric, bell-shaped curve where mean = median = mode. Under the <b>empirical rule</b>, about <b>68%</b> of scores fall within ±1 SD, <b>95%</b> within ±2 SD (±1.96 exactly), and <b>99.7%</b> within ±3 SD of the mean. Many parametric tests assume it.</p>
+<p><b>Skewness</b> measures asymmetry: <i>positive (right) skew</i> has a long right tail (mean &gt; median), <i>negative (left) skew</i> a long left tail (mean &lt; median). <b>Kurtosis</b> measures tailedness/peakedness: <i>leptokurtic</i> = tall, heavy tails; <i>platykurtic</i> = flat, thin tails; <i>mesokurtic</i> = normal.</p>
+<div class="trap"><b>Trap:</b> In a positively skewed distribution the order is Mode &lt; Median &lt; Mean (the mean chases the tail). Report the <b>median</b> for skewed income-type data.</div>
+
+<h3>6. Reliability &amp; validity of measurement</h3>
+<p><b>Reliability</b> = consistency of measurement (test–retest, internal consistency via <b>Cronbach's alpha</b>, inter-rater); <b>validity</b> = whether it measures what it claims (content, criterion, construct). A test can be reliable but not valid (consistently wrong), but not valid without being reliable. (See the Assessment section for full detail.)</p>
+
+<h3>7. Inferential statistics, the logic</h3>
+<p>We study a sample but want to speak about a <b>population</b>. The <b>sampling distribution</b> is the distribution of a statistic (e.g. the mean) over all possible samples; its spread is the <b>standard error (SE)</b> = SD ÷ √n. Larger samples shrink the SE, giving more precise estimates. A <b>confidence interval (CI)</b> gives a range that would capture the true parameter in, say, 95% of repeated samples.</p>
+<p><b>Significance testing:</b> assume H0 is true, compute how surprising the data are under it. The <b>p-value</b> is the probability of results at least as extreme as observed <i>if H0 were true</i>. If p &lt; <b>alpha (α)</b> (the pre-set threshold, usually .05), we reject H0 and call the result "statistically significant."</p>
+<table class="t">
+<tr><th></th><th>H0 is really TRUE</th><th>H0 is really FALSE</th></tr>
+<tr><td><b>Reject H0</b></td><td><b>Type I error (α)</b>, false positive</td><td>Correct (<b>power</b>, 1−β)</td></tr>
+<tr><td><b>Fail to reject H0</b></td><td>Correct (1−α)</td><td><b>Type II error (β)</b>, false negative</td></tr>
+</table>
+<div class="rule"><b>Key.</b> <b>Type I error</b> = rejecting a <i>true</i> null = seeing an effect that isn't there (false positive), probability α. <b>Type II error</b> = failing to reject a <i>false</i> null = missing a real effect (false negative), probability β. <b>Statistical power</b> = 1 − β = the probability of detecting a real effect; it rises with larger n, larger effect, and higher α. <b>Effect size</b> (e.g. <b>Cohen's d</b> = mean difference ÷ pooled SD; d ≈ 0.2 small, 0.5 medium, 0.8 large) reports the <i>magnitude</i> of an effect, independent of sample size, unlike the p-value.</div>
+<div class="trap"><b>Trap:</b> "Convict an innocent person" = Type I; "let a guilty person go free" = Type II. A tiny p-value does NOT mean a big effect: with huge n, trivial effects become "significant", always read the effect size.</div>
+
+<h3>8. The statistical tests</h3>
+<p><b>Parametric tests</b> assume interval/ratio data, normality, and (often) homogeneity of variance.</p>
+<ul>
+<li><b>t-test</b> compares means: <b>one-sample</b> (sample vs known value), <b>independent-samples</b> (two separate groups), <b>paired/dependent</b> (same group twice or matched pairs).</li>
+<li><b>ANOVA (analysis of variance)</b> compares means of <b>three or more</b> groups using the <b>F ratio</b> (between-group variance ÷ within-group variance). <b>One-way</b> = one IV; <b>factorial</b> = two+ IVs (tests interactions); <b>repeated-measures</b> = within-subjects.</li>
+<li><b>ANCOVA (analysis of covariance)</b> = ANOVA that statistically removes the effect of a continuous covariate (e.g. adjusting post-scores for pre-scores).</li>
+<li><b>Pearson's r</b>, linear correlation between two interval/ratio variables (−1 to +1). <b>Regression</b> predicts a DV from one (simple) or more (multiple) predictors, giving a line Y = a + bX.</li>
+</ul>
+<p><b>Non-parametric tests</b> are used for nominal/ordinal data, small samples, or violated assumptions.</p>
+<ul>
+<li><b>Chi-square (χ²)</b>, association between categorical variables (goodness-of-fit or independence).</li>
+<li><b>Mann-Whitney U</b>, two independent groups (non-parametric independent t).</li>
+<li><b>Wilcoxon signed-rank</b>, two related/paired conditions (non-parametric paired t).</li>
+<li><b>Kruskal-Wallis</b>, three+ independent groups (non-parametric one-way ANOVA).</li>
+<li><b>Friedman</b>, three+ related conditions (non-parametric repeated-measures ANOVA).</li>
+<li><b>Spearman's rho</b>, correlation of ranked/ordinal data.</li>
+</ul>
+
+<h3>9. Which test when, decision table</h3>
+<table class="t">
+<tr><th>Question / design</th><th>DV data</th><th>Parametric test</th><th>Non-parametric equivalent</th></tr>
+<tr><td>One group vs a known value</td><td>Interval/ratio</td><td><b>One-sample t-test</b></td><td>Wilcoxon signed-rank (vs median)</td></tr>
+<tr><td>Two independent groups</td><td>Interval/ratio</td><td><b>Independent t-test</b></td><td><b>Mann-Whitney U</b></td></tr>
+<tr><td>Two related/paired conditions</td><td>Interval/ratio</td><td><b>Paired t-test</b></td><td><b>Wilcoxon signed-rank</b></td></tr>
+<tr><td>3+ independent groups, one IV</td><td>Interval/ratio</td><td><b>One-way ANOVA</b></td><td><b>Kruskal-Wallis</b></td></tr>
+<tr><td>3+ related conditions</td><td>Interval/ratio</td><td><b>Repeated-measures ANOVA</b></td><td><b>Friedman</b></td></tr>
+<tr><td>2+ IVs (interaction)</td><td>Interval/ratio</td><td><b>Factorial ANOVA</b></td><td>&ndash;</td></tr>
+<tr><td>Compare means, adjust for covariate</td><td>Interval/ratio</td><td><b>ANCOVA</b></td><td>&ndash;</td></tr>
+<tr><td>Relationship between two variables</td><td>Interval/ratio</td><td><b>Pearson's r</b> / regression</td><td><b>Spearman's rho</b></td></tr>
+<tr><td>Association of two categories</td><td>Nominal/counts</td><td>&ndash;</td><td><b>Chi-square</b></td></tr>
+</table>
+<div class="nimhans"><b>RML tilt:</b> This domain is "pure points", expect crisp definitional items. High-yield: Type I vs Type II error (with the false-positive/false-negative labels), moderator vs mediator, scale-of-measurement → permitted statistic, mean vs median under skew, and matching each parametric test to its non-parametric twin. Memorise the decision table and the NOIR mnemonic cold.</div>
+
+<div class="recap"><b>Recap:</b> Define variables and operationalise them; set H0 (no effect) vs H1 (directional = one-tailed). Choose a design (true experiment with randomization is the causal gold standard) and a sampling method (probability generalises; non-probability is convenient but biased). The measurement scale (NOIR) fixes your central-tendency and test options. Describe data with mean/median/mode + SD and read skew/kurtosis. Infer via the sampling distribution, standard error, and CIs; reject H0 when p &lt; α, guarding against Type I (false positive) and Type II (false negative) errors, and always report power and effect size (Cohen's d). Finally, pick the test from the DATA/DESIGN → TEST table, swapping in the non-parametric equivalent when parametric assumptions fail.</div>
+
+
+
+<h3>10. Qualitative Research Methods</h3>
+
+<p>The statistics you have met so far belong to the <b>quantitative</b> tradition: it measures variables as numbers, tests hypotheses, and prizes large samples that let findings generalise. <b>Qualitative research</b> asks a different kind of question. Instead of "how much" or "how many", it asks "what is this experience like" and "how do people make meaning". It works with words, images and observations rather than numbers, uses small purposive samples, and builds understanding from the ground up.</p>
+
+<div class="why"><b>From scratch:</b> Quantitative research is usually <b>deductive</b> (start with a theory, deduce a hypothesis, test it) and aims for objectivity and generalisation. Qualitative research is usually <b>inductive</b> (start with data, build a theory upward) and aims for depth, context and the participant's own point of view. Neither is "better"; they answer different questions.</div>
+
+<h4>The main qualitative designs</h4>
+<ul class="tight">
+<li><b>Grounded theory</b> (Barney Glaser &amp; Anselm Strauss, 1967): builds a theory <i>grounded</i> in the data itself through constant comparison and <b>coding</b> (open &rarr; axial &rarr; selective), collecting data until <b>theoretical saturation</b> (no new categories emerge).</li>
+<li><b>Phenomenology</b> (rooted in Edmund Husserl): describes the <b>lived experience</b> of a phenomenon from the first-person view; the researcher <b>brackets</b> (sets aside) prior assumptions. Interpretative Phenomenological Analysis (IPA; Jonathan Smith, 1996) is a common clinical variant.</li>
+<li><b>Case study</b>: an intensive, holistic study of a single unit (person, family, institution, event) using many sources; strong on depth, weak on generalisation.</li>
+<li><b>Ethnography</b>: immersion in a culture or group over time, often by <b>participant observation</b>, to describe it from the insider (emic) view.</li>
+<li><b>Narrative analysis</b>: studies the stories people tell to understand how they construct identity and meaning over time.</li>
+</ul>
+
+<h4>Ways to gather and analyse qualitative data</h4>
+<ul class="tight">
+<li><b>Interviews</b>: structured, semi-structured (fixed core questions plus probes, the clinical workhorse), or unstructured.</li>
+<li><b>Focus groups</b>: a moderated group discussion (usually 6 to 10 people) that harvests interaction and shared meaning, not just individual answers.</li>
+<li><b>Thematic analysis</b>: identifies, analyses and reports patterns (themes) across a data set; flexible and widely used (Braun &amp; Clarke).</li>
+<li><b>Content analysis</b>: systematically codes text into categories; can be quantitative (counting code frequencies) or qualitative.</li>
+</ul>
+
+<div class="rule"><b>Key.</b> Trustworthiness is the qualitative answer to reliability and validity. Its four criteria: <b>credibility</b> (are the findings believable, checked via member checking and triangulation), <b>transferability</b> (do they apply to other contexts, aided by thick description), <b>dependability</b> (are they consistent over time), and <b>confirmability</b> (do they reflect the participants, not the researcher's bias).</div>
+
+<p><b>Mixed-methods designs</b> deliberately combine both traditions. Common types: <span class="eg">explanatory sequential (quantitative first, then qualitative to explain it)</span>, <span class="eg">exploratory sequential (qualitative first to build an instrument, then quantitative)</span>, and <span class="eg">convergent parallel (both at once, then compare)</span>. Triangulation across methods strengthens confidence in a finding.</p>
+
+<div class="trap"><b>Trap:</b> Do not equate "qualitative" with "no analysis" or "just anecdote". Rigorous qualitative work has explicit sampling, coding and audit trails. Also, a large sample is not a goal in qualitative work; saturation, not size, decides when to stop.</div>
+
+<h3>11. Correlation in Depth</h3>
+
+<p>A <b>correlation coefficient</b> summarises the strength and direction of a relationship between two variables in a single number between &minus;1 and +1. Zero means no linear relationship; the sign gives direction; the absolute value gives strength.</p>
+
+<table class="t">
+<tr><th>Coefficient</th><th>Use it when</th><th>Both variables are</th></tr>
+<tr><td>Pearson product-moment (r)</td><td>Linear relation, normal data</td><td>Continuous (interval/ratio)</td></tr>
+<tr><td>Spearman's rank (rho)</td><td>Monotonic relation, ranked or non-normal data</td><td>Ordinal (or ranked)</td></tr>
+<tr><td>Point-biserial</td><td>One true dichotomy vs one continuous</td><td>One dichotomous, one continuous</td></tr>
+<tr><td>Phi coefficient</td><td>2&times;2 table of two true dichotomies</td><td>Both dichotomous</td></tr>
+</table>
+
+<div class="rule"><b>Key.</b> The <b>coefficient of determination</b> is r squared: it is the proportion of variance in one variable explained by the other. If r = 0.60, then r squared = 0.36, so 36 percent of the variance is shared. This is why a "moderate" r of 0.5 explains only a quarter of the variance.</div>
+
+<div class="trap"><b>Trap:</b> <b>Correlation is not causation.</b> A correlation can arise from A causing B, B causing A, a third (confounding) variable causing both, or coincidence. Correlation also detects only <i>linear</i> (Pearson) or <i>monotonic</i> (Spearman) trends; a strong curved relationship can still give r near zero.</div>
+
+<h3>12. Analysis of Variance (ANOVA) in Depth</h3>
+
+<div class="why"><b>From scratch:</b> A t-test compares two means. If you have three groups and run three separate t-tests, each at alpha = 0.05, the chance of at least one false positive across the set (the <b>familywise error rate</b>) climbs well above 5 percent. ANOVA compares all the means in one test at a controlled alpha, which is why it is preferred over multiple t-tests.</p></div>
+
+<p>ANOVA works by partitioning the total variance into <b>between-groups variance</b> (differences among the group means, the "signal") and <b>within-groups variance</b> (variability inside each group, the "noise"). The <b>F-ratio</b> is their quotient (between / within). A large F means the group differences are large relative to random noise, pointing to a real effect.</p>
+
+<h4>The family of ANOVA designs</h4>
+<ul class="tight">
+<li><b>One-way ANOVA</b>: one independent variable (factor) with three or more levels.</li>
+<li><b>Two-way ANOVA</b>: two factors at once. It yields two <b>main effects</b> (the effect of each factor alone) and an <b>interaction</b> (does the effect of one factor depend on the level of the other).</li>
+<li><b>Repeated-measures ANOVA</b>: the same participants measured under every condition (the within-subjects analogue), which controls individual differences.</li>
+<li><b>ANCOVA</b> (analysis of covariance): ANOVA that statistically removes the effect of a continuous nuisance variable (a covariate) before comparing means.</li>
+<li><b>MANOVA</b> (multivariate ANOVA): two or more dependent variables tested together.</li>
+</ul>
+
+<div class="rule"><b>Key.</b> A significant ANOVA tells you the means differ <i>somewhere</i>, not <i>where</i>. <b>Post-hoc tests</b> locate the specific pairs: <b>Tukey's HSD</b> (honestly significant difference, balanced designs), <b>Scheffe</b> (conservative, flexible for complex comparisons), and <b>Bonferroni</b> (divides alpha by the number of comparisons to hold familywise error).</div>
+
+<h3>13. Non-parametric Tests in Depth</h3>
+
+<div class="why"><b>From scratch:</b> Parametric tests assume the data are roughly normal, measured on an interval/ratio scale, with reasonably equal variances. When those assumptions fail (small samples, skewed data, ordinal or ranked scores, outliers), you switch to a <b>non-parametric</b> test, which usually works on ranks rather than raw values. Non-parametric tests are more robust but have slightly less power when the parametric assumptions actually hold.</p></div>
+
+<p>The simplest way to learn them is as the twin of a parametric test.</p>
+
+<table class="t">
+<tr><th>Non-parametric test</th><th>Parametric twin</th><th>Situation</th></tr>
+<tr><td>Mann-Whitney U</td><td>Independent-samples t-test</td><td>Two independent groups</td></tr>
+<tr><td>Wilcoxon signed-rank</td><td>Paired-samples t-test</td><td>Two related/matched conditions</td></tr>
+<tr><td>Kruskal-Wallis H</td><td>One-way ANOVA</td><td>Three or more independent groups</td></tr>
+<tr><td>Friedman</td><td>Repeated-measures ANOVA</td><td>Three or more related conditions</td></tr>
+<tr><td>Sign test</td><td>Paired-samples t-test (weaker)</td><td>Direction of paired change only</td></tr>
+<tr><td>Chi-square</td><td>&ndash;</td><td>Frequencies/counts of categories</td></tr>
+</table>
+
+<p><b>Chi-square</b> comes in two forms: <b>goodness-of-fit</b> (does one categorical variable's observed distribution match an expected one) and <b>test of independence</b> (are two categorical variables associated, using a contingency table). It compares observed with expected frequencies.</p>
+
+<div class="trap"><b>Trap:</b> The assumption that forces the switch is usually about the <i>data</i> (measurement level, normality), not the sample size alone. A large sample of ordinal data (for example, Likert ranks) still calls for a rank-based test such as Mann-Whitney, not a t-test.</div>
+
+<h3>14. Regression and Multivariate Methods</h3>
+
+<p>Correlation asks whether two variables move together; <b>regression</b> goes further and lets you <b>predict</b> one variable from another. <b>Simple linear regression</b> fits a straight line, the <b>regression line</b>, of the form Y = a + bX, where <b>a</b> is the intercept and <b>b</b> is the slope (how much Y changes per unit of X). The line is placed to minimise the squared distances of the points from it (the <b>least squares</b> criterion).</p>
+
+<ul class="tight">
+<li><b>Multiple regression</b>: predicts one outcome from several predictors at once (Y = a + b1X1 + b2X2 + ...), and reports how much variance the whole set explains (R squared).</li>
+<li><b>Factor analysis</b>: a data-reduction method that finds a small number of underlying <b>factors</b> (latent dimensions) behind many correlated items; central to test construction (for example, identifying the factors behind an intelligence or personality scale).</li>
+</ul>
+
+<div class="nimhans"><b>RML tilt:</b> Expect one-liners that pair a purpose with a method: prediction &rarr; regression; data reduction / test construction &rarr; factor analysis; theory built from data &rarr; grounded theory. Know that r squared and R squared both mean "variance explained".</div>
+
+<h3>15. Effect Size, Power, Confidence Intervals and Meta-analysis</h3>
+
+<p>A p-value tells you <i>whether</i> an effect is likely real; it does not tell you <i>how big</i> it is. <b>Effect size</b> answers the size question. Common measures: <b>Cohen's d</b> (a standardised mean difference, roughly 0.2 small, 0.5 medium, 0.8 large) and <b>eta squared</b> for ANOVA. Because a huge sample can make a trivial difference "significant", effect size is essential for judging practical importance.</p>
+
+<ul class="tight">
+<li><b>Statistical power</b> is the probability of detecting an effect that is truly there (1 &minus; beta). It rises with larger sample size, larger effect size and larger alpha. Convention targets power of at least 0.80.</li>
+<li><b>Sample-size (power) analysis</b> uses effect size, alpha and desired power to work out how many participants a study needs before it begins.</li>
+<li><b>Confidence intervals</b> give a range that would contain the true population value in a stated percentage (usually 95 percent) of repeated studies; a narrow interval means a more precise estimate.</li>
+<li><b>Meta-analysis</b> statistically combines effect sizes from many studies into a single pooled estimate, giving greater power and a view of the overall evidence.</li>
+</ul>
+
+<h3>16. Research Ethics</h3>
+
+<div class="founder"><b>Who &rarr; what:</b> <b>Nuremberg Code</b> (1947): the first international code, born from Nazi medical trials, establishing voluntary consent as essential. <b>Declaration of Helsinki</b> (World Medical Association, 1964): ethical principles for medical research on humans. <b>Belmont Report</b> (USA, 1979): named the three core principles, <b>respect for persons</b>, <b>beneficence</b> and <b>justice</b>.</div>
+
+<p>Every study with human participants must protect them. The core safeguards:</p>
+<ul class="tight">
+<li><b>Informed consent</b>: participants freely agree after being told the purpose, procedures, risks and their right to withdraw at any time.</li>
+<li><b>Institutional ethics committee / Institutional Review Board (IRB)</b>: an independent body that reviews and approves the protocol before data collection begins.</li>
+<li><b>Debriefing</b>: after the study, telling participants its true purpose and correcting any misunderstanding.</li>
+<li><b>Deception</b>: withholding or misstating information; permitted only when unavoidable, minimally harmful, approved by the committee, and followed by debriefing.</li>
+<li><b>Confidentiality and anonymity</b>: protecting participants' data and identity.</li>
+<li><b>Plagiarism</b>: presenting another's words or ideas as your own; a serious breach of research integrity, avoided by proper citation.</li>
+</ul>
+
+<div class="rule"><b>Key.</b> In India, the two codes to name are the <b>APA Ethics Code</b> (American Psychological Association, the standard psychology reference) and the <b>ICMR</b> (Indian Council of Medical Research) National Ethical Guidelines for biomedical and health research on human participants.</div>
+
+<div class="recap"><b>Recap:</b> Qualitative work seeks meaning and depth (grounded theory, phenomenology, thematic analysis) judged by trustworthiness. Correlation (Pearson, Spearman, point-biserial, phi) gives relationship and r squared is variance shared, never causation. ANOVA beats multiple t-tests by controlling familywise error, yields an F-ratio, and uses post-hoc tests to locate differences. Every parametric test has a rank-based non-parametric twin for when assumptions fail. Regression predicts; factor analysis reduces. Effect size, power and confidence intervals qualify the p-value; meta-analysis pools across studies. Ethics rests on consent, committee review and the Nuremberg, Helsinki and Belmont lineage.</div>
+
+
+
+
+
+<h3>17. Factorial and Repeated-Measures Designs Unpacked</h3>
+
+<div class="why"><b>From scratch:</b> A "design" is just the recipe for who gets what, in what order, and how many times you measure them. Two decisions define almost every experiment: (1) does each participant see only one condition (between-subjects) or every condition (within-subjects), and (2) how many independent variables (IVs, also called factors) are you manipulating at once. Get these two axes clear and the whole zoo of design names becomes readable.</div>
+
+<h4>Between-subjects vs within-subjects, weighed properly</h4>
+<p>In a <b>between-subjects</b> (independent-groups) design, separate people form each condition, so no one is compared to themselves. Its strength is that there are no carry-over effects: seeing condition A cannot contaminate condition B because no one sees both. Its cost is that individual differences (some people are just faster, smarter, calmer) fall into the error term, so you need larger samples to detect an effect. In a <b>within-subjects</b> (repeated-measures) design, the same people pass through every condition. Because each person is their own control, individual differences are removed from the error term, making the design far more <i>powerful</i> (it detects smaller effects with fewer people). The price is <b>order effects</b>: practice, fatigue, and carry-over.</p>
+
+<div class="rule"><b>Rule:</b> Repeated-measures buys statistical power by using each participant as their own baseline, but it owes a debt called order effects. You repay that debt with counterbalancing.</div>
+
+<h4>Counterbalancing and the Latin square</h4>
+<p><b>Counterbalancing</b> means varying the order in which conditions are presented so that order effects cancel out across the sample rather than piling onto one condition. <i>Complete</i> counterbalancing uses every possible order; with 3 conditions that is 3! = 6 orders, but with 5 conditions it is 120, which is impractical. A <b>Latin square</b> is the economical fix: a square arrangement in which each condition appears exactly once in each position (first, second, third...). <span class="eg">Example: with conditions A, B, C, one Latin square is ABC / BCA / CAB. Each of A, B, C sits in position 1 once, position 2 once, position 3 once, so no condition is systematically advantaged.</span></p>
+
+<h4>Matched-pairs design</h4>
+<p>A <b>matched-pairs</b> design is a compromise. You cannot use the same person twice (maybe the task can only be done once), so you pair participants who are similar on a nuisance variable (say IQ or age), then randomly assign one of each pair to each condition. It approximates the error-reduction of within-subjects without the order effects, but matching is only as good as the variable you match on, and you can never match on everything.</p>
+
+<h4>Factorial designs: main effects and interactions</h4>
+<p>A <b>factorial design</b> manipulates two or more IVs simultaneously so you can study not just each one but how they combine. The notation counts levels: a <b>2x2</b> has two factors each with two levels (four cells total); a 2x3 has one two-level and one three-level factor (six cells). The pay-off is the <b>interaction</b>.</p>
+<p>A <b>main effect</b> is the effect of one factor averaged across the levels of the other. An <b>interaction</b> exists when the effect of one factor <i>depends on</i> the level of the other. <span class="eg">Example: Factor A = caffeine (yes/no), Factor B = sleep (rested/deprived). If caffeine helps performance a lot when deprived but does nothing when rested, that is an interaction: the caffeine effect changes depending on sleep. On a graph, non-parallel lines signal an interaction; parallel lines signal none.</span></p>
+<div class="trap"><b>Trap:</b> A significant interaction outranks the main effects. If A and B interact, reporting "the main effect of caffeine was significant" is misleading, because caffeine's effect is not one number, it flips with sleep. Always interpret interactions first, then qualify the main effects.</div>
+
+<h4>Quasi-experimental and single-subject designs</h4>
+<p>A <b>quasi-experiment</b> looks like an experiment but lacks true random assignment, usually because the grouping variable is pre-existing (gender, diagnosis, school attended). You can compare groups, but you cannot claim the groups were equivalent to begin with, so causal claims are weaker. <b>Single-subject (single-case) designs</b> study one participant intensively across time. In an <b>ABAB (reversal) design</b>, A is baseline, B is treatment; you introduce, withdraw, and reintroduce treatment. If behaviour tracks the on/off pattern, the treatment is likely causal. A <b>multiple-baseline design</b> staggers the start of treatment across several behaviours, people, or settings; when each one changes only after treatment reaches it, coincidence becomes an implausible explanation. Multiple-baseline is preferred when a behaviour cannot ethically or practically be reversed (you cannot un-teach reading).</p>
+
+<div class="nimhans"><b>RML tilt:</b> Expect an item that gives a scenario ("researcher withdrew and reintroduced the reward") and asks for the design name (ABAB reversal), or shows crossing lines on a graph and asks what they indicate (an interaction).</div>
+
+
+<h3>18. Threats to Validity (Campbell and Stanley)</h3>
+
+<div class="founder"><b>Who &rarr; what:</b> Donald Campbell and Julian Stanley (1963) gave psychology its master checklist of ways an experiment can fool you, splitting them into threats to <i>internal</i> validity (did the IV really cause the change?) and <i>external</i> validity (does the finding generalise beyond this study?).</div>
+
+<h4>Internal validity: eight classic threats</h4>
+<p><b>Internal validity</b> is the degree to which you can attribute the outcome to your IV rather than to something else. The classic threats:</p>
+<ul>
+<li><b>History:</b> an outside event happens between pre- and post-test (a news story, a policy change) and affects the outcome.</li>
+<li><b>Maturation:</b> participants simply change over time (grow older, tired, hungrier, more skilled) independent of treatment.</li>
+<li><b>Testing:</b> taking the pre-test itself changes performance on the post-test (practice, sensitisation).</li>
+<li><b>Instrumentation:</b> the measuring tool drifts, a rater gets stricter, or a scale is recalibrated between measurements.</li>
+<li><b>Statistical regression to the mean (Francis Galton):</b> extreme scorers selected at pre-test tend to drift back toward average on retest simply because extremes contain measurement error. <span class="eg">Example: pick the 20 most depressed people, retest a week later, and their average will improve even with no treatment, because part of their extreme score was random bad-day noise.</span></li>
+<li><b>Selection:</b> the groups differed before the study began (common when assignment is not random).</li>
+<li><b>Attrition (mortality):</b> participants drop out non-randomly, so the surviving sample is no longer comparable.</li>
+<li><b>Selection interactions:</b> selection can combine with maturation or history so groups change at different rates.</li>
+</ul>
+<div class="rule"><b>Rule:</b> Random assignment to conditions is the single strongest defence against most internal-validity threats, because it makes the groups probabilistically equivalent on everything, measured and unmeasured, before treatment.</div>
+
+<h4>External, construct, and statistical-conclusion validity</h4>
+<p><b>External validity</b> asks whether results generalise across populations, settings, and times. Its main enemies are non-representative samples (over-reliance on undergraduates), artificial lab settings, and interaction of testing with treatment. <b>Construct validity</b> asks whether the operations actually capture the abstract concept: does your button-press "aggression" task really measure aggression, or just reaction speed? <b>Statistical-conclusion validity</b> asks whether the statistical inferences are sound: was power adequate, were assumptions met, was the effect size honestly reported, were there fishing/multiple-comparison problems?</p>
+<div class="trap"><b>Trap:</b> Internal and external validity often trade off. Tightly controlled lab studies maximise internal validity but can sacrifice external validity (real-world generalisation), and vice versa for field studies. There is rarely a design that maximises both at once.</div>
+
+
+<h3>19. Sampling Methods in Full</h3>
+
+<div class="why"><b>From scratch:</b> A <b>population</b> is everyone you want conclusions about; a <b>sample</b> is the subset you actually study. The whole game of inferential statistics rests on the sample being a fair miniature of the population. How you draw it decides whether that assumption is credible.</div>
+
+<h4>Probability sampling (every unit has a known, non-zero chance)</h4>
+<ul>
+<li><b>Simple random sampling:</b> every member has an equal chance; like drawing names from a hat or using a random-number generator. Gold standard for representativeness, but needs a complete list (sampling frame).</li>
+<li><b>Systematic sampling:</b> pick every k-th unit from a list after a random start (k = population size / sample size). Easy, but dangerous if the list has a hidden periodic pattern that lines up with k.</li>
+<li><b>Stratified sampling:</b> divide the population into meaningful strata (say age bands or gender) and sample <i>within</i> each, often proportionally. This guarantees each subgroup is represented and typically reduces sampling error relative to simple random.</li>
+<li><b>Cluster sampling:</b> divide the population into naturally occurring clusters (schools, city blocks), randomly select whole clusters, and study everyone in the chosen clusters. Cheaper when the population is geographically spread, but usually less precise than stratified.</li>
+<li><b>Multistage sampling:</b> combine the above in stages: randomly select states, then districts within states, then schools within districts, then students. Used for large national surveys.</li>
+</ul>
+<div class="rule"><b>Rule:</b> Stratified sampling divides <i>then samples within every group</i> (all strata contribute). Cluster sampling divides <i>then samples whole groups</i> (only chosen clusters contribute). This one distinction is the most-tested sampling point.</div>
+
+<h4>Non-probability sampling (chance of selection is unknown)</h4>
+<ul>
+<li><b>Convenience sampling:</b> whoever is easy to reach (the psychology class down the hall). Fast, cheap, but prone to bias.</li>
+<li><b>Purposive (judgmental) sampling:</b> the researcher deliberately picks cases that fit a purpose (expert informants, typical cases).</li>
+<li><b>Quota sampling:</b> the non-probability cousin of stratified sampling; you fill fixed quotas for subgroups but select within each quota non-randomly.</li>
+<li><b>Snowball sampling:</b> existing participants recruit others from their network; essential for hidden or hard-to-reach populations (people who use illicit drugs, undocumented workers).</li>
+</ul>
+
+<h4>Sampling error and sample-size logic</h4>
+<p><b>Sampling error</b> is the natural discrepancy between a sample statistic and the true population value, arising purely because you measured a subset. It is not a mistake; it shrinks as sample size grows. Note it differs from <b>sampling bias</b>, which is a systematic tilt from a bad method and does <i>not</i> shrink with size. Larger samples give more precise estimates (narrower confidence intervals) and more power, but with diminishing returns, because precision improves with the square root of n, not n itself. Quadrupling the sample only halves the standard error.</p>
+<div class="nimhans"><b>RML tilt:</b> A stem describing "divided the city into wards, randomly chose five wards, surveyed everyone in them" is cluster sampling; "recruited through friends of friends" is snowball; "every 10th patient file" is systematic.</div>
+
+
+<h3>20. Describing a Distribution: Shape, Spread, and Position</h3>
+
+<h4>Choosing a measure of central tendency</h4>
+<p>The <b>mean</b> (arithmetic average) uses every value and is preferred for symmetric, interval/ratio data, but it is dragged toward outliers. The <b>median</b> (middle value) ignores the size of extremes and is the honest choice for <i>skewed</i> data (income, reaction times) or ordinal data. The <b>mode</b> (most frequent value) is the only option for nominal data (most common blood type) and can flag bimodality.</p>
+<div class="rule"><b>Rule:</b> For a skewed distribution, report the median. The mean gets pulled toward the long tail, so in a positively skewed income distribution mean &gt; median, and reporting the mean alone flatters the "typical" person.</div>
+
+<h4>Measures of dispersion</h4>
+<p>The <b>range</b> (max minus min) is crude and outlier-driven. The <b>interquartile range (IQR)</b> is the spread of the middle 50% (third quartile minus first quartile) and is robust to outliers, pairing naturally with the median. The <b>variance</b> is the average of squared deviations from the mean (why square? so positive and negative deviations do not cancel, and so larger deviations count more). The <b>standard deviation (SD)</b> is the square root of variance, returning to the original units, which is why it is the everyday measure of spread.</p>
+
+<div class="why"><b>From scratch:</b> Deviation means "distance from the mean". Add up those distances raw and they cancel to zero. Square them first, average, and you get variance; take the square root and you are back in the original units as the SD. So SD is, loosely, the typical distance of a score from the mean.</div>
+
+<h4>Skewness and kurtosis</h4>
+<p><b>Skewness</b> measures asymmetry. <i>Positive (right) skew</i> has a long right tail (mean pulled above median); <i>negative (left) skew</i> has a long left tail (mean pulled below median). <b>Kurtosis</b> measures tail-heaviness and peakedness: <i>leptokurtic</i> distributions are tall and heavy-tailed, <i>platykurtic</i> are flat and thin-tailed, and the normal curve is <i>mesokurtic</i>.</p>
+
+<h4>The normal curve, z-scores, and percentiles</h4>
+<p>The <b>normal distribution</b> is symmetric, bell-shaped, and defined fully by its mean and SD, with mean = median = mode at the centre. Its key property is the <b>empirical (68-95-99.7) rule</b>: about 68% of scores fall within 1 SD of the mean, about 95% within 2 SD, and about 99.7% within 3 SD. A <b>z-score</b> restates any raw score as "how many SDs above or below the mean": z = (score minus mean) divided by SD. This standardisation lets you compare scores from different scales. A <b>percentile</b> is the percentage of the distribution falling at or below a score; the 84th percentile corresponds roughly to z = +1 in a normal curve.</p>
+<span class="eg">Example: a test with mean 50, SD 10. A raw score of 70 has z = (70 minus 50)/10 = +2, so it beats about 97.7% of scores (it sits at roughly the 98th percentile).</span>
+
+
+<h3>21. From Sample to Population: The Sampling Distribution</h3>
+
+<div class="why"><b>From scratch:</b> Imagine drawing thousands of samples of the same size from a population, computing the mean of each, and plotting those means. That plot is the <b>sampling distribution of the mean</b>. It is not the distribution of individual scores; it is the distribution of a <i>statistic</i>. Understanding this imaginary distribution is the hinge on which all inferential testing turns.</div>
+
+<h4>The central limit theorem and the standard error</h4>
+<p>The <b>central limit theorem (CLT)</b> states that as sample size increases, the sampling distribution of the mean approaches a normal shape <i>regardless of the shape of the parent population</i>, and it centres on the true population mean. This is why we can use normal-based tests even on non-normal raw data, provided n is reasonably large (a common rule of thumb is n of at least 30). The spread of this sampling distribution is the <b>standard error of the mean (SE)</b>, equal to the SD divided by the square root of n. The SE is how much sample means typically bounce around the true mean; it shrinks as n grows, which is precisely why bigger samples give more trustworthy estimates.</p>
+<div class="trap"><b>Trap:</b> Do not confuse SD with SE. SD describes variability among individual scores; SE describes variability among sample means. SE is always the smaller of the two and gets smaller with larger samples, whereas SD does not systematically shrink with n.</div>
+
+
+<h3>22. The Logic of Hypothesis Testing, Sharpened</h3>
+
+<h4>Null and alternative, tails, and alpha</h4>
+<p>The <b>null hypothesis (H0)</b> states there is no effect or no difference; the <b>alternative hypothesis (H1)</b> states there is one. We never "prove" H1; we either reject or fail to reject H0, always keeping the possibility of error. A <b>two-tailed</b> test asks "is there a difference in either direction?"; a <b>one-tailed</b> test asks a directional question ("is the treatment group higher?") and concentrates all the rejection region in one tail, giving more power in that direction but none in the other. <b>Alpha</b> is the significance level you set in advance (conventionally 0.05), the risk of a false alarm you are willing to tolerate.</p>
+
+<h4>p-value, the two errors, power, and effect size</h4>
+<p>The <b>p-value</b> is the probability of obtaining a result at least as extreme as observed <i>if the null were true</i>. If p is less than alpha, you reject H0. A <b>Type I error</b> is rejecting a true null (a false positive; its probability is alpha). A <b>Type II error</b> is failing to reject a false null (a false negative; its probability is beta). <b>Statistical power</b> is 1 minus beta: the probability of correctly detecting a real effect. Power rises with larger samples, larger true effects, higher alpha, and lower variability.</p>
+
+<div class="trap"><b>Trap:</b> The p-value is <i>not</i> the probability that the null is true, and it is not the probability your finding was due to chance. It is a conditional probability computed <i>assuming</i> the null is true. Statistical significance also does not equal practical importance, which is why effect size matters.</div>
+
+<h4>Effect size and confidence intervals</h4>
+<p><b>Effect size</b> quantifies how big an effect is, independent of sample size. <b>Cohen's d</b> expresses a mean difference in SD units (roughly 0.2 small, 0.5 medium, 0.8 large). <b>Eta-squared</b> is used in ANOVA and gives the proportion of variance in the outcome explained by the factor. A <b>confidence interval (CI)</b> gives a range of plausible values for the true parameter; a 95% CI means that if we repeated the study endlessly, about 95% of such intervals would capture the true value. A 95% CI for a difference that excludes zero corresponds to a significant result at alpha 0.05.</p>
+
+
+<h3>23. Parametric Tests: What Each One Is For</h3>
+
+<div class="why"><b>From scratch:</b> "Parametric" tests assume the data come from a distribution with estimable parameters (usually normal), assume interval/ratio measurement, and (for group comparisons) assume roughly equal variances (homogeneity of variance). Meet the assumptions and they are the most powerful tools available.</div>
+
+<h4>z-test and the three t-tests</h4>
+<p>A <b>z-test</b> compares a sample mean to a population mean when the population SD is known (rare in practice). The <b>t-tests</b> handle the common case where the population SD is unknown and estimated from the sample:</p>
+<ul>
+<li><b>One-sample t:</b> compares one sample mean to a known or hypothesised value.</li>
+<li><b>Independent-samples t:</b> compares the means of two <i>separate</i> groups (between-subjects).</li>
+<li><b>Paired-samples (dependent) t:</b> compares two related measurements (before/after on the same people, or matched pairs).</li>
+</ul>
+
+<h4>The ANOVA family and post-hoc tests</h4>
+<p>When you compare <i>three or more</i> means, running many t-tests inflates the Type I error rate, so we use <b>analysis of variance (ANOVA)</b>, which yields an F-ratio (between-groups variance divided by within-groups variance). A significant F says "at least one group differs" but not which. <b>One-way ANOVA</b> has one factor; <b>two-way ANOVA</b> has two factors and can reveal an interaction; <b>repeated-measures ANOVA</b> is the within-subjects version; <b>ANCOVA</b> adds a covariate to statistically remove a nuisance variable's influence; <b>MANOVA</b> handles multiple dependent variables at once. To locate which groups differ after a significant F, use <b>post-hoc tests</b>: <i>Tukey's HSD</i> (all pairwise comparisons, good balance), <i>Scheffe</i> (most conservative, flexible for complex comparisons), and <i>Bonferroni</i> (divides alpha by the number of comparisons, simple and strict).</p>
+<div class="trap"><b>Trap:</b> Never run multiple t-tests instead of an ANOVA to compare 4 groups. With 4 groups there are 6 pairwise tests, and at alpha 0.05 each, the chance of at least one false positive climbs well above 5%. ANOVA controls this family-wise error.</div>
+
+
+<h3>24. Non-parametric Tests and Their Parametric Partners</h3>
+
+<div class="why"><b>From scratch:</b> When data are ordinal, badly skewed, or assumptions fail, non-parametric tests step in. They typically work on <i>ranks</i> rather than raw values, so outliers matter less. The trade-off is slightly lower power when parametric assumptions are actually met.</div>
+
+<table class="t">
+<thead><tr><th>Parametric test</th><th>Non-parametric partner</th><th>Use for</th></tr></thead>
+<tbody>
+<tr><td>Independent-samples t</td><td>Mann-Whitney U</td><td>Two independent groups</td></tr>
+<tr><td>Paired-samples t</td><td>Wilcoxon signed-rank</td><td>Two related measures</td></tr>
+<tr><td>One-way ANOVA</td><td>Kruskal-Wallis H</td><td>Three or more independent groups</td></tr>
+<tr><td>Repeated-measures ANOVA</td><td>Friedman test</td><td>Three or more related measures</td></tr>
+<tr><td>(binary before/after)</td><td>Sign test</td><td>Direction of change only</td></tr>
+</tbody>
+</table>
+
+<h4>Chi-square: two distinct uses</h4>
+<p><b>Chi-square</b> works on frequencies (counts) of categorical data. The <b>goodness-of-fit</b> version tests whether one categorical variable's observed frequencies match expected frequencies (are births evenly spread across weekdays?). The <b>test of independence</b> uses a contingency table to ask whether two categorical variables are associated (is smoking status related to diagnosis?). Both compare observed to expected counts; the larger the gap, the larger chi-square.</p>
+<div class="nimhans"><b>RML tilt:</b> A stem giving a 2x2 table of counts and asking which test applies is almost always chi-square test of independence. If the data are ranks of two independent groups, it is Mann-Whitney U.</div>
+
+
+<h3>25. Correlation and Regression, Deepened</h3>
+
+<h4>Choosing the right correlation coefficient</h4>
+<ul>
+<li><b>Pearson r:</b> two continuous, linear, normally distributed variables. Ranges from minus 1 to plus 1.</li>
+<li><b>Spearman rho:</b> the rank-based version, for ordinal data or monotonic-but-nonlinear relationships; robust to outliers.</li>
+<li><b>Point-biserial:</b> one continuous and one genuinely dichotomous variable (male/female vs a test score). If the two groups are cut from a continuous score (pass/fail), use biserial instead.</li>
+<li><b>Phi coefficient:</b> two dichotomous variables (a 2x2 association).</li>
+</ul>
+<div class="trap"><b>Trap:</b> Correlation is not causation, and r only detects <i>linear</i> relationships. A strong curved (U-shaped) relationship can produce r near zero. Always look at the scatterplot.</div>
+
+<h4>Partial correlation, regression, and r-squared</h4>
+<p><b>Partial correlation</b> measures the relationship between two variables while statistically holding a third constant, revealing whether an association survives once a confound is removed. <b>Simple regression</b> predicts an outcome from one predictor via a best-fit line (least squares minimises the summed squared vertical distances of points from the line). <b>Multiple regression</b> uses several predictors at once and reports each predictor's unique contribution while controlling the others. The <b>coefficient of determination (r-squared)</b> is the proportion of variance in the outcome explained by the predictor(s). <span class="eg">Example: if r = 0.6, then r-squared = 0.36, so 36% of the variance in the outcome is accounted for, and 64% remains unexplained.</span></p>
+
+<h4>Factor analysis and reliability as statistics</h4>
+<p><b>Factor analysis</b> reduces many observed variables to a few underlying latent factors by exploiting their intercorrelations. <b>Exploratory factor analysis (EFA)</b> discovers structure with no prior model, letting the data suggest how many factors exist. <b>Confirmatory factor analysis (CFA)</b> tests a pre-specified model, asking whether the hypothesised factor structure fits the data. Reliability coefficients are themselves statistics: <b>Cronbach's alpha</b> summarises internal consistency (how well a set of items hang together, alpha above about 0.7 is acceptable), and a <b>test-retest</b> reliability coefficient is just a correlation between two administrations.</p>
+
+
+<h3>26. Qualitative Methods, Trustworthiness, and Mixed Designs</h3>
+
+<div class="founder"><b>Who &rarr; what:</b> Barney Glaser and Anselm Strauss founded <i>grounded theory</i>; Virginia Braun and Victoria Clarke codified <i>thematic analysis</i>; Egon Guba and Yvonna Lincoln gave qualitative work its quality criteria (<i>trustworthiness</i>).</div>
+
+<h4>The main qualitative traditions</h4>
+<ul>
+<li><b>Grounded theory (Glaser and Strauss):</b> builds theory <i>from</i> the data through iterative coding (open, axial, selective) and constant comparison, sampling until <i>theoretical saturation</i> (no new categories emerge).</li>
+<li><b>Phenomenology:</b> studies the lived, subjective experience of a phenomenon, aiming to capture its essence (rooted in Husserl).</li>
+<li><b>Ethnography:</b> immerses the researcher in a culture or group over time, relying on participant observation and field notes.</li>
+<li><b>Case study:</b> an in-depth examination of a single bounded unit (a person, clinic, event) using multiple data sources.</li>
+<li><b>Narrative research:</b> analyses the stories people tell to understand how they make meaning of their lives.</li>
+</ul>
+
+<h4>Analysing qualitative data</h4>
+<p><b>Thematic analysis (Braun and Clarke)</b> is a flexible six-phase method: familiarisation, generating initial codes, searching for themes, reviewing themes, defining and naming themes, and writing up. <b>Content analysis</b> systematically codes and often <i>counts</i> the occurrence of categories in text, so it can straddle qualitative and quantitative aims. The distinction to hold: thematic analysis seeks patterns of meaning; content analysis often quantifies manifest content.</p>
+
+<h4>Trustworthiness (Lincoln and Guba)</h4>
+<p>Because qualitative work cannot use reliability and validity in the quantitative sense, Lincoln and Guba proposed four parallel criteria:</p>
+<ul>
+<li><b>Credibility</b> (parallels internal validity): are the findings believable? Achieved through triangulation, member checking, prolonged engagement.</li>
+<li><b>Transferability</b> (parallels external validity): can findings apply elsewhere? Supported by rich, thick description so readers judge fit.</li>
+<li><b>Dependability</b> (parallels reliability): would the process be consistent if repeated? Supported by an audit trail.</li>
+<li><b>Confirmability</b> (parallels objectivity): are findings grounded in data, not researcher bias? Supported by reflexivity and audit.</li>
+</ul>
+
+<h4>Mixed methods</h4>
+<p><b>Mixed-methods research</b> combines qualitative and quantitative approaches in one study to exploit the strengths of each: numbers for breadth and generalisation, words for depth and meaning. Common structures include <i>explanatory sequential</i> (quantitative first, then qualitative to explain it) and <i>exploratory sequential</i> (qualitative first to generate items, then quantitative to test them).</p>
+<div class="nimhans"><b>RML tilt:</b> Match-the-founder items are common: grounded theory to Glaser and Strauss, thematic analysis to Braun and Clarke, trustworthiness criteria to Lincoln and Guba.</div>
+
+
+<h3>27. Research Ethics and APA Reporting</h3>
+
+<h4>Core ethical safeguards</h4>
+<p><b>Informed consent</b> requires that participants agree voluntarily after being told the study's nature, risks, and their right to withdraw at any time without penalty. <b>Deception</b> is permitted only when necessary and when no less-deceptive alternative exists, and it must be followed by <b>debriefing</b>, a full explanation afterward that reveals any deception and restores the participant's understanding and wellbeing. An <b>Institutional Review Board (IRB)</b> or ethics committee reviews and approves the protocol before data collection to protect participants. Additional pillars are confidentiality/anonymity, protection from harm, and honest handling of data. <b>Plagiarism</b> (presenting others' work or ideas as your own) and data fabrication are the gravest integrity violations.</p>
+
+<h4>APA style and report structure</h4>
+<p>The standard empirical report follows a fixed skeleton: <b>Title page, Abstract, Introduction</b> (the literature review and hypotheses, which does not carry the heading "Introduction"), <b>Method</b> (participants, materials, procedure, in enough detail to replicate), <b>Results</b> (the statistics, tables, and figures with no interpretation), <b>Discussion</b> (interpretation, limitations, implications), and <b>References</b>. APA in-text citation is <i>author-date</i> (Sharma, 2021), and the reference list is alphabetical by author surname.</p>
+<div class="rule"><b>Rule:</b> Results states <i>what</i> you found (the numbers); Discussion states <i>what it means</i>. Putting interpretation in Results, or new statistics in Discussion, is a classic marking penalty and a favourite exam distinction.</div>
+
+<div class="recap">Big picture: your <b>design</b> (between vs within, factorial, quasi, single-subject) decides what causal claims are defensible and which validity threats loom. Your <b>sampling</b> decides who the conclusions cover. <b>Descriptive stats</b> summarise the sample; the <b>sampling distribution</b> and <b>CLT</b> bridge to the population; <b>hypothesis testing</b> quantifies your risk of being wrong (Type I vs Type II), tempered by <b>effect size</b> and <b>confidence intervals</b>. Pick the <b>test</b> by matching measurement level, number of groups, and independence to the decision table, choosing non-parametric partners when assumptions fail. For non-numeric questions, <b>qualitative traditions</b> plus Lincoln and Guba's trustworthiness apply, and everything runs on an ethical, APA-reported spine.</div>
+</div>

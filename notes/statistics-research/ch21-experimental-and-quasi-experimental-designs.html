@@ -1,0 +1,855 @@
+<div class="nfe-article nb">
+<p>A research design is the plan that decides who is studied, what is done to them, when they are measured and what they are compared with. Section 19 listed the threats that can make a conclusion wrong; this section ranks the designs by how many of those threats each one rules out, from the true experiment (a causal claim), through the quasi-experiment (a cautious one), down to the pre-experimental designs (mostly none). Section 21 covers designs that manipulate nothing.</p>
+
+<h3>20.1 What makes an experiment</h3>
+
+<ol class="steps">
+  <li><b>Manipulation.</b> The researcher deliberately changes the independent variable (IV): CBT for some patients and not others. A variable you merely measure (gender, diagnosis, childhood trauma) is not manipulated, and a study built on it is not an experiment however controlled it looks.</li>
+  <li><b>Control.</b> Everything except the IV is held constant or balanced: same assessor, instructions and timing, and a <b>control group</b> treated identically except that it does not receive the IV (the <b>experimental group</b> does).</li>
+  <li><b>Random assignment.</b> Every participant has an equal chance of landing in any condition, decided by a random process, not by the researcher, clinician or participant. It balances the groups on <i>every</i> variable at once, including ones nobody thought of, so any remaining difference is chance, which is exactly what the significance test (section 8) allows for.</li>
+</ol>
+
+<div class="trap"><b>Random assignment is not random sampling.</b> Random <i>sampling</i> (section 7.2) decides who gets <i>into</i> the study and protects <b>external</b> validity. Random <i>assignment</i> decides which <i>condition</i> each person goes to and protects <b>internal</b> validity. Most clinical trials randomly assign a convenience sample: strong internal, limited external validity. A survey can have a perfect random sample and no assignment at all.</div>
+
+<div class="founder"><b>Ronald A. Fisher</b> built the logic of the modern experiment at the Rothamsted agricultural station and set it out in <i>The Design of Experiments</i> (1935). His three principles are asked by name: <b>randomisation</b>, <b>replication</b> (several units per treatment, so that error can be estimated) and <b>local control</b> (grouping similar units into blocks to remove their differences from error). The randomised block, Latin square and factorial designs below are all his.</div>
+
+<h3>20.2 What a causal claim needs: three criteria, Mill's methods and MAXMINCON</h3>
+
+<p>Three conditions must hold before you can say X causes Y. They go back to <b>John Stuart Mill</b>'s <i>A System of Logic</i> (1843) and are stated the same way in modern texts such as William R. Shadish, Thomas D. Cook and Donald T. Campbell (2002).</p>
+
+<table class="t">
+<tr><th>Criterion</th><th>Meaning</th><th>How an experiment secures it</th></tr>
+<tr><td><b>1. Covariation</b></td><td>X and Y vary together</td><td>The groups differ significantly on the DV</td></tr>
+<tr><td><b>2. Temporal precedence</b></td><td>The cause comes before the effect</td><td>X is applied first and Y measured afterwards, so the order is known by construction</td></tr>
+<tr><td><b>3. Elimination of alternative explanations</b> (non-spuriousness)</td><td>No third variable or artefact could produce the covariation</td><td>Random assignment plus a control group removes the threats of section 19</td></tr>
+</table>
+<p>A correlational study can meet the first, sometimes the second, rarely the third; that gap is why correlation does not imply causation (section 12.1).</p>
+
+<p><b>Mill's methods of induction.</b> Of Mill's five methods, two are the logic of all design. The <b>method of agreement</b>: if every case showing the effect shares only one circumstance, that circumstance is probably the cause (weak, because the shared factor may not be the only one). The <b>method of difference</b>: if a case with the effect and a case without it differ in only one circumstance, that circumstance is the cause. <b>This is the logic of the experiment</b>: experimental and control groups made identical except for X. The other three are the <b>joint method</b> of agreement and difference, the <b>method of residues</b> (subtract the effects of known causes; what remains belongs to the remaining cause) and the <b>method of concomitant variation</b> (Y changes in degree whenever X does), which is the logic of correlation.</p>
+
+<p><b>Kerlinger's MAXMINCON.</b> <b>Fred N. Kerlinger</b>, in <i>Foundations of Behavioral Research</i> (1964), reduced the purpose of design to the control of variance, in one acronym (Indian guides also write Max-Min-Con or Max-Kon-Min).</p>
+<table class="t">
+<tr><th>Instruction</th><th>Which variance</th><th>How</th></tr>
+<tr><td><b>MAXimise</b></td><td><b>Systematic (experimental)</b> variance produced by the IV; Indian texts call it <b>primary</b> variance</td><td>Make the levels of the IV as different as possible (a full course of CBT, not one session); deliver it well</td></tr>
+<tr><td><b>MINimise</b></td><td><b>Error</b> variance: individual differences and measurement error</td><td>Reliable measures (section 15.2), standardised procedures, within-subjects or blocked designs</td></tr>
+<tr><td><b>CONtrol</b></td><td><b>Extraneous</b> systematic variance from other variables; also called <b>secondary</b> variance</td><td>Randomisation, elimination (hold constant), matching, building the variable in as a factor or block, ANCOVA (section 11.2)</td></tr>
+</table>
+<div class="why"><b>It is the F ratio in words.</b> F = between-groups variance / within-groups variance (section 10.1). Maximising systematic variance enlarges the numerator, minimising error shrinks the denominator, and controlling extraneous variance stops a confound impersonating the treatment in the numerator. In the item "maximisation of ____, minimisation of ____, control of ____ variance", the answer is <b>primary, error, secondary</b>.</div>
+
+<h3>20.3 Reading and writing Campbell and Stanley's notation</h3>
+
+<p><b>Donald T. Campbell and Julian C. Stanley</b> wrote "Experimental and quasi-experimental designs for research on teaching" as a chapter of N. L. Gage's <i>Handbook of Research on Teaching</i> (1963), reprinted as a book in 1966. They described <b>16 designs</b> (3 pre-experimental, 3 true experimental, 10 quasi-experimental) and rated each against <b>8 threats to internal validity</b> and <b>4 to external validity</b> (section 19), using a compact notation.</p>
+
+<div class="rule"><b>X</b> = exposure to the treatment; a blank where X would be = no treatment (different treatments: X&#8321;, X&#8322;).<br>
+<b>O</b> = an observation or measurement of the DV, numbered O&#8321;, O&#8322; ...<br>
+<b>R</b> = random assignment, written at the start of each row.<br>
+<b>Each row</b> is one group; <b>left to right</b> is time; symbols in the <b>same vertical column</b> happen at the same time.<br>
+<b>A dashed line</b> between rows = groups <i>not</i> equated by randomisation (intact groups). Later authors write <b>NR</b> at the start of such rows, and <b>C</b> for assignment by a cut-off score.</div>
+
+<p><span class="eg">"Thirty inpatients with schizophrenia are randomly split; both groups are rated on the PANSS; one receives eight weeks of social skills training; both are rated again"</span> is written R O&#8321; X O&#8322; over R O&#8323; O&#8324;, the pretest-posttest control group design. If ward A got the training and ward B did not, the R's disappear and a dashed line separates the rows. To place any design, ask in order: is there an R, is there a row without X, and is there an O before X?</p>
+
+<figure class="dia">
+<svg viewBox="0 0 940 818" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<text x="22.0" y="34.0" font-size="14" fill="var(--muted)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Design (Campbell &amp; Stanley number)</text>
+<text x="330.0" y="34.0" font-size="14" fill="var(--muted)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Notation: time runs left to right</text>
+<text x="712.0" y="34.0" font-size="14" fill="var(--muted)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">What it buys you</text>
+<line x1="16.0" y1="44.0" x2="924.0" y2="44.0" stroke="var(--border)" stroke-width="1"/>
+<rect x="14.0" y="58.0" width="912.0" height="196.0" rx="8" fill="var(--bad)" fill-opacity="0.07" stroke="var(--bad)" stroke-width="1" stroke-opacity="0.35"/>
+<text x="26.0" y="79.0" font-size="14.5" fill="var(--bad)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">PRE-EXPERIMENTAL: no random assignment, little or no comparison</text>
+<text x="36.0" y="112.0" font-size="15" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">1  One-shot case study</text>
+<text x="712.0" y="112.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">Nothing to compare with</text>
+<rect x="478.0" y="95.0" width="24.0" height="24.0" rx="5" fill="#c2701a" fill-opacity="0.16" stroke="none" stroke-width="1"/>
+<text x="490.0" y="112.0" font-size="17" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">X</text>
+<text x="560.0" y="112.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="36.0" y="162.0" font-size="15" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">2  One-group pretest-posttest</text>
+<text x="712.0" y="162.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">No control group: history,</text>
+<text x="712.0" y="180.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">maturation, testing remain</text>
+<text x="420.0" y="162.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<rect x="478.0" y="145.0" width="24.0" height="24.0" rx="5" fill="#c2701a" fill-opacity="0.16" stroke="none" stroke-width="1"/>
+<text x="490.0" y="162.0" font-size="17" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">X</text>
+<text x="560.0" y="162.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="36.0" y="212.0" font-size="15" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">3  Static-group comparison</text>
+<text x="36.0" y="230.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">intact groups, no pretest</text>
+<text x="712.0" y="212.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">Groups may differ from</text>
+<text x="712.0" y="230.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">the start (selection)</text>
+<rect x="478.0" y="195.0" width="24.0" height="24.0" rx="5" fill="#c2701a" fill-opacity="0.16" stroke="none" stroke-width="1"/>
+<text x="490.0" y="212.0" font-size="17" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">X</text>
+<text x="560.0" y="212.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="560.0" y="239.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<line x1="332.0" y1="221.0" x2="578.0" y2="221.0" stroke="var(--text)" stroke-width="1.4" stroke-dasharray="6 4"/>
+<rect x="14.0" y="266.0" width="912.0" height="262.0" rx="8" fill="var(--good)" fill-opacity="0.07" stroke="var(--good)" stroke-width="1" stroke-opacity="0.35"/>
+<text x="26.0" y="287.0" font-size="14.5" fill="var(--good)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">TRUE EXPERIMENTAL: random assignment (R) makes the groups equivalent</text>
+<text x="36.0" y="320.0" font-size="15" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">4  Pretest-posttest control</text>
+<text x="36.0" y="338.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">group design</text>
+<text x="712.0" y="320.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">Controls all 8 internal threats;</text>
+<text x="712.0" y="338.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">pretest may sensitise</text>
+<text x="350.0" y="320.0" font-size="17" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">R</text>
+<text x="420.0" y="320.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<rect x="478.0" y="303.0" width="24.0" height="24.0" rx="5" fill="#c2701a" fill-opacity="0.16" stroke="none" stroke-width="1"/>
+<text x="490.0" y="320.0" font-size="17" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">X</text>
+<text x="560.0" y="320.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="350.0" y="347.0" font-size="17" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">R</text>
+<text x="420.0" y="347.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="560.0" y="347.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="36.0" y="384.0" font-size="15" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">5  Solomon four-group</text>
+<text x="36.0" y="402.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">Richard L. Solomon (1949)</text>
+<text x="712.0" y="384.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">Design 4 + design 6 together:</text>
+<text x="712.0" y="402.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">measures pretest sensitisation</text>
+<text x="350.0" y="384.0" font-size="17" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">R</text>
+<text x="420.0" y="384.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<rect x="478.0" y="367.0" width="24.0" height="24.0" rx="5" fill="#c2701a" fill-opacity="0.16" stroke="none" stroke-width="1"/>
+<text x="490.0" y="384.0" font-size="17" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">X</text>
+<text x="560.0" y="384.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="350.0" y="411.0" font-size="17" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">R</text>
+<text x="420.0" y="411.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="560.0" y="411.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="350.0" y="438.0" font-size="17" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">R</text>
+<rect x="478.0" y="421.0" width="24.0" height="24.0" rx="5" fill="#c2701a" fill-opacity="0.16" stroke="none" stroke-width="1"/>
+<text x="490.0" y="438.0" font-size="17" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">X</text>
+<text x="560.0" y="438.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="350.0" y="465.0" font-size="17" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">R</text>
+<text x="560.0" y="465.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="36.0" y="498.0" font-size="15" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">6  Posttest-only control</text>
+<text x="36.0" y="516.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">group design</text>
+<text x="712.0" y="498.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">Randomisation alone equates;</text>
+<text x="712.0" y="516.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">no pretest to sensitise</text>
+<text x="350.0" y="498.0" font-size="17" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">R</text>
+<rect x="478.0" y="481.0" width="24.0" height="24.0" rx="5" fill="#c2701a" fill-opacity="0.16" stroke="none" stroke-width="1"/>
+<text x="490.0" y="498.0" font-size="17" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">X</text>
+<text x="560.0" y="498.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="350.0" y="525.0" font-size="17" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">R</text>
+<text x="560.0" y="525.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<rect x="14.0" y="542.0" width="912.0" height="220.0" rx="8" fill="#c2701a" fill-opacity="0.07" stroke="#c2701a" stroke-width="1" stroke-opacity="0.35"/>
+<text x="26.0" y="563.0" font-size="14.5" fill="#c2701a" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">QUASI-EXPERIMENTAL: manipulation without random assignment</text>
+<text x="36.0" y="596.0" font-size="15" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">10  Nonequivalent control</text>
+<text x="36.0" y="614.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">group design</text>
+<text x="712.0" y="596.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">Pretest shows how unequal</text>
+<text x="712.0" y="614.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">the intact groups are</text>
+<text x="420.0" y="596.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<rect x="478.0" y="579.0" width="24.0" height="24.0" rx="5" fill="#c2701a" fill-opacity="0.16" stroke="none" stroke-width="1"/>
+<text x="490.0" y="596.0" font-size="17" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">X</text>
+<text x="560.0" y="596.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="420.0" y="623.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="560.0" y="623.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<line x1="332.0" y1="605.0" x2="578.0" y2="605.0" stroke="var(--text)" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="36.0" y="664.0" font-size="15" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">7  Interrupted time series</text>
+<text x="712.0" y="664.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">Many points each side of X</text>
+<text x="712.0" y="682.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">expose trend and level</text>
+<text x="330.0" y="664.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="364.0" y="664.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="398.0" y="664.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="432.0" y="664.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<rect x="454.0" y="647.0" width="24.0" height="24.0" rx="5" fill="#c2701a" fill-opacity="0.16" stroke="none" stroke-width="1"/>
+<text x="466.0" y="664.0" font-size="17" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">X</text>
+<text x="500.0" y="664.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="534.0" y="664.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="568.0" y="664.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="602.0" y="664.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="36.0" y="716.0" font-size="15" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">14  Multiple time series</text>
+<text x="36.0" y="734.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">adds a comparison series</text>
+<text x="712.0" y="716.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">Comparison series without X</text>
+<text x="712.0" y="734.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">controls history</text>
+<text x="330.0" y="716.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="364.0" y="716.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="398.0" y="716.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="432.0" y="716.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<rect x="454.0" y="699.0" width="24.0" height="24.0" rx="5" fill="#c2701a" fill-opacity="0.16" stroke="none" stroke-width="1"/>
+<text x="466.0" y="716.0" font-size="17" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">X</text>
+<text x="500.0" y="716.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="534.0" y="716.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="568.0" y="716.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="602.0" y="716.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="330.0" y="743.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="364.0" y="743.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="398.0" y="743.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="432.0" y="743.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="500.0" y="743.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="534.0" y="743.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="568.0" y="743.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<text x="602.0" y="743.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O</text>
+<line x1="312.0" y1="725.0" x2="620.0" y2="725.0" stroke="var(--text)" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="470.0" y="790.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">R = random assignment  ·  X = treatment  ·  O = observation  ·  dashed line = groups not randomly equated</text>
+<text x="470.0" y="810.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">Tokens in the same vertical column happen at the same time; an empty slot in a row means that group skips that step.</text>
+</svg>
+<figcaption>Campbell and Stanley's (1963) notation for the three pre-experimental, three true experimental and three of their ten quasi-experimental designs. Their numbering (1 to 16) is shown before each name.</figcaption></figure>
+
+<h3>20.4 Pre-experimental designs</h3>
+
+<p>Campbell and Stanley called these "pre-experimental" because they cannot rule out rival explanations. Examiners ask exactly which threats each one fails, and they are the designs most hospital audits and student projects use without realising it.</p>
+
+<p><b>Design 1, the one-shot case study (X O).</b> A group is treated, then measured once. <span class="eg">A deaddiction centre runs a new relapse-prevention group and reports that craving scores at the end are "low".</span> Low compared with what? With no pretest and no comparison group, there is no comparison at all. It fails <b>history, maturation, selection and mortality</b>; Campbell and Stanley said such studies have "such a total absence of control as to be of almost no scientific value", and that piling up careful detail on one group is the "error of misplaced precision"; the effort would be better spent on a comparison group.</p>
+
+<p><b>Design 2, the one-group pretest-posttest design (O X O).</b> <span class="eg">Twenty patients with panic disorder score 31 on the Beck Anxiety Inventory, receive ten sessions of CBT, and score 18.</span> The fall could be <b>history</b> (anything else that happened in between), <b>maturation</b> (spontaneous remission), <b>testing</b> (the pretest changed the posttest), <b>instrumentation</b> (a stricter rater or changed scale), or <b>regression</b> (marked "?": if patients were enrolled because they scored extremely high, they drift towards the mean anyway); the <b>selection-maturation interaction</b> is also uncontrolled. It does control selection and mortality, because the same people are compared with themselves.</p>
+
+<p><b>Design 3, the static-group comparison</b> (X O over a dashed line over O). <span class="eg">Students at a college with a mindfulness programme are compared on stress with students at a college without one.</span> Measuring both groups at the same time controls history, testing, instrumentation and regression (maturation "?"). The decisive weakness is <b>selection</b>: the colleges may have differed before the programme. Mortality and the selection-maturation interaction are also uncontrolled.</p>
+
+<div class="trap"><b>Where textbooks disagree.</b> Campbell and Stanley (1963) call these three "pre-experimental". Shadish, Cook and Campbell (2002) dropped the label and treat them as the weakest quasi-experiments ("designs without a control group", "without a pretest"). If the question names Campbell and Stanley or offers "pre-experimental", choose it.</div>
+
+<h3>20.5 True experimental designs</h3>
+
+<p>All three use <b>random assignment</b> and a <b>control group</b>, and Campbell and Stanley rate all three as controlling all eight internal threats. They differ in what they do about the pretest.</p>
+
+<p><b>Design 4, the pretest-posttest control group design</b> (R O X O over R O O), is the classic randomised controlled trial. History, maturation, testing, instrumentation and regression act equally on both groups and cancel in the comparison; randomisation removes selection; the pretest checks that randomisation worked, shows who dropped out, and adds precision when used as a covariate (ANCOVA, section 11.2). Its one weakness is external: the <b>interaction of testing and X</b> (pretest sensitisation), because the pretest may make people more responsive to the treatment.</p>
+<div class="trap"><b>The wrong statistic.</b> Running a paired t test inside each group and concluding "the treatment group changed significantly and the control group did not" is the error Campbell and Stanley singled out. Compare the groups directly: ANCOVA on posttests, a t test on gain scores, or the group &#215; time interaction in a mixed ANOVA (section 10.5).</div>
+
+<p><b>Design 6, the posttest-only control group design</b> (R X O over R O). Randomisation already makes the groups equivalent within the limits the significance test allows for, so the pretest is not essential; most of Fisher's agricultural experiments had none. Dropping it removes testing effects and pretest sensitisation and is necessary when a pretest is impossible or would reveal the purpose. The price: no check on initial equivalence, no covariate, no view of who dropped out, and larger groups are needed. Analysis: independent t (section 9.3) or one-way ANOVA.</p>
+
+<h4>Design 5: the Solomon four-group design</h4>
+<p><b>Richard L. Solomon</b> proposed it in "An extension of control group design" (<i>Psychological Bulletin</i>, 1949). Campbell and Stanley wrote that it "deservedly has higher prestige" than design 4 and "represents the first explicit consideration of external validity factors". It is designs 4 and 6 run side by side, all four groups randomly assigned:</p>
+
+<table class="t">
+<tr><th>Group</th><th>Pretest</th><th>Treatment</th><th>Posttest</th><th>Role</th></tr>
+<tr><td><b>1</b></td><td>O&#8321;</td><td>X</td><td>O&#8322;</td><td>Experimental group of design 4</td></tr>
+<tr><td><b>2</b></td><td>O&#8323;</td><td>&#8211;</td><td>O&#8324;</td><td>Control group of design 4</td></tr>
+<tr><td><b>3</b></td><td>&#8211;</td><td>X</td><td>O&#8325;</td><td>Experimental group of design 6</td></tr>
+<tr><td><b>4</b></td><td>&#8211;</td><td>&#8211;</td><td>O&#8326;</td><td>Control group of design 6</td></tr>
+</table>
+
+<div class="rule"><b>What it controls:</b> everything design 4 controls, plus <b>pretest sensitisation</b> (the reactive or interaction effect of testing, testing &#215; X), which it not only avoids but <b>measures</b>, along with the main effect of testing. That is the answer to "the Solomon four-group design is used to control for ...".</div>
+
+<p><b>The comparisons.</b> The effect of X is replicated four ways: O&#8322; &gt; O&#8321;, O&#8322; &gt; O&#8324;, O&#8325; &gt; O&#8326; and O&#8325; &gt; O&#8323;; if all agree, the inference is much stronger. O&#8324; vs O&#8326; isolates the effect of the pretest alone, and comparing O&#8326; with the pretest means O&#8321; and O&#8323; shows the combined effect of maturation and history.</p>
+
+<p><b>The analysis.</b> No single test uses all six sets of scores, because groups 3 and 4 have no pretest. Campbell and Stanley set the pretests aside and run a <b>2 &#215; 2 factorial ANOVA on the four posttests</b>: pretested (yes/no) &#215; treated (yes/no) (section 10.4). Column means give the main effect of X, row means the main effect of pretesting, and the <b>interaction</b> is pretest sensitisation. If both pretest effects are negligible, an ANCOVA of O&#8322; vs O&#8324; with the pretest as covariate adds precision.</p>
+
+<p><b>Worked example.</b> Undergraduates are randomly assigned to four groups to test a 20-minute anti-stigma film; the DV is an attitude-to-mental-illness scale (higher = more accepting). Pretest means O&#8321; = O&#8323; = 58; posttest means O&#8322; = 72, O&#8324; = 60, O&#8325; = 66, O&#8326; = 59. Main effect of the film = (72 + 66)/2 &#8722; (60 + 59)/2 = <b>9.5</b>. Main effect of pretesting = (72 + 60)/2 &#8722; (66 + 59)/2 = <b>3.5</b>. The film's effect is 12 points in pretested students but 7 in unpretested ones, an interaction of <b>5</b>: the stigma questionnaire primed students to take the message to heart. Testing alone (O&#8324; &#8722; O&#8326;) = 1; maturation plus history (O&#8326; &#8722; 58) = 1. In the real world nobody fills in a questionnaire before the film, so expect about 7 points; design 4 alone would have reported 12.</p>
+
+<figure class="dia">
+<svg viewBox="0 0 940 400" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<text x="30.0" y="34.0" font-size="15.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">The four randomly assigned groups</text>
+<text x="30.0" y="54.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">pretest &#8594; film &#8594; posttest</text>
+<text x="30.0" y="92.0" font-size="14" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Group 1</text>
+<text x="140.0" y="92.0" font-size="17" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">R</text>
+<text x="215.0" y="92.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8321;</text>
+<rect x="277.0" y="74.0" width="26.0" height="25.0" rx="5" fill="#c2701a" fill-opacity="0.16" stroke="none" stroke-width="1"/>
+<text x="290.0" y="92.0" font-size="17" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">X</text>
+<text x="365.0" y="92.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8322;</text>
+<text x="30.0" y="130.0" font-size="14" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Group 2</text>
+<text x="140.0" y="130.0" font-size="17" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">R</text>
+<text x="215.0" y="130.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8323;</text>
+<text x="365.0" y="130.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8324;</text>
+<text x="30.0" y="168.0" font-size="14" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Group 3</text>
+<text x="140.0" y="168.0" font-size="17" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">R</text>
+<rect x="277.0" y="150.0" width="26.0" height="25.0" rx="5" fill="#c2701a" fill-opacity="0.16" stroke="none" stroke-width="1"/>
+<text x="290.0" y="168.0" font-size="17" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">X</text>
+<text x="365.0" y="168.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8325;</text>
+<text x="30.0" y="206.0" font-size="14" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Group 4</text>
+<text x="140.0" y="206.0" font-size="17" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">R</text>
+<text x="365.0" y="206.0" font-size="17" fill="#0f766e" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8326;</text>
+<text x="30.0" y="262.0" font-size="14.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Comparisons the design allows</text>
+<text x="30.0" y="288.0" font-size="14" fill="#0f766e" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8322; vs O&#8324;</text>
+<text x="170.0" y="288.0" font-size="14" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">effect of X when pretested</text>
+<text x="30.0" y="311.0" font-size="14" fill="#0f766e" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8325; vs O&#8326;</text>
+<text x="170.0" y="311.0" font-size="14" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">effect of X with no pretest</text>
+<text x="30.0" y="334.0" font-size="14" fill="#0f766e" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8324; vs O&#8326;</text>
+<text x="170.0" y="334.0" font-size="14" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">effect of the pretest alone</text>
+<text x="30.0" y="357.0" font-size="14" fill="#0f766e" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8326; vs O&#8321;, O&#8323;</text>
+<text x="170.0" y="357.0" font-size="14" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">maturation + history</text>
+<line x1="452.0" y1="24.0" x2="452.0" y2="376.0" stroke="var(--border)" stroke-width="1.2"/>
+<text x="476.0" y="34.0" font-size="15.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Analysis: 2 &#215; 2 ANOVA on posttest scores</text>
+<text x="476.0" y="54.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">worked example: attitude to mental illness</text>
+<text x="678.0" y="88.0" font-size="14" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Film (X)</text>
+<text x="798.0" y="88.0" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">No film</text>
+<text x="606.0" y="134.0" font-size="14" fill="var(--text)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Pretested</text>
+<text x="606.0" y="192.0" font-size="14" fill="var(--text)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Not pretested</text>
+<rect x="618.0" y="100.0" width="120.0" height="58.0" rx="0" fill="#c2701a" fill-opacity="0.1" stroke="var(--border)" stroke-width="1.2"/>
+<text x="678.0" y="136.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8322; = 72</text>
+<rect x="738.0" y="100.0" width="120.0" height="58.0" rx="0" fill="var(--accent)" fill-opacity="0.1" stroke="var(--border)" stroke-width="1.2"/>
+<text x="798.0" y="136.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8324; = 60</text>
+<rect x="618.0" y="158.0" width="120.0" height="58.0" rx="0" fill="#c2701a" fill-opacity="0.1" stroke="var(--border)" stroke-width="1.2"/>
+<text x="678.0" y="194.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8325; = 66</text>
+<rect x="738.0" y="158.0" width="120.0" height="58.0" rx="0" fill="var(--accent)" fill-opacity="0.1" stroke="var(--border)" stroke-width="1.2"/>
+<text x="798.0" y="194.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8326; = 59</text>
+<text x="678.0" y="238.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">mean 69</text>
+<text x="798.0" y="238.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">mean 59.5</text>
+<text x="868.0" y="134.0" font-size="13.5" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">mean 66</text>
+<text x="868.0" y="192.0" font-size="13.5" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">mean 62.5</text>
+<text x="476.0" y="272.0" font-size="14" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Columns:</text>
+<text x="556.0" y="272.0" font-size="14" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">main effect of X = 69 &#8722; 59.5 = 9.5</text>
+<text x="476.0" y="296.0" font-size="14" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Rows:</text>
+<text x="556.0" y="296.0" font-size="14" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">main effect of pretest = 66 &#8722; 62.5 = 3.5</text>
+<text x="476.0" y="320.0" font-size="14" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Cells:</text>
+<text x="556.0" y="320.0" font-size="14" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">interaction = (72 &#8722; 60) &#8722; (66 &#8722; 59) = 5</text>
+<text x="476.0" y="348.0" font-size="13.5" fill="var(--bad)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">The interaction is pretest sensitisation: the film works</text>
+<text x="476.0" y="367.0" font-size="13.5" fill="var(--bad)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">better (12 points) on people who took the pretest than on</text>
+<text x="476.0" y="386.0" font-size="13.5" fill="var(--bad)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">people who did not (7 points).</text>
+</svg>
+<figcaption>The Solomon four-group design (Richard L. Solomon, 1949): four randomly assigned groups, and the 2 &#215; 2 analysis of posttest means that Campbell and Stanley (1963) recommend, with the worked numbers from the text.</figcaption></figure>
+
+<p><b>Its cost:</b> four groups instead of two, roughly double the participants ("more than double effort", said Campbell and Stanley), and an awkward analysis. It is worth it mainly when sensitisation is a real risk: attitude change, health education, prejudice reduction.</p>
+
+<h4>Campbell and Stanley's Table 1</h4>
+<p>+ = controlled, &#8722; = definite weakness, ? = possible concern, blank = not relevant. The last two columns are external validity threats.</p>
+<table class="t">
+<tr><th>Design</th><th>Hist.</th><th>Mat.</th><th>Test.</th><th>Instr.</th><th>Regr.</th><th>Sel.</th><th>Mort.</th><th>Sel. &#215; Mat.</th><th>Testing &#215; X</th><th>Selection &#215; X</th></tr>
+<tr><td><b>1</b> One-shot case study</td><td class="bad">&#8722;</td><td class="bad">&#8722;</td><td></td><td></td><td></td><td class="bad">&#8722;</td><td class="bad">&#8722;</td><td></td><td></td><td class="bad">&#8722;</td></tr>
+<tr><td><b>2</b> One-group pretest-posttest</td><td class="bad">&#8722;</td><td class="bad">&#8722;</td><td class="bad">&#8722;</td><td class="bad">&#8722;</td><td>?</td><td>+</td><td>+</td><td class="bad">&#8722;</td><td class="bad">&#8722;</td><td class="bad">&#8722;</td></tr>
+<tr><td><b>3</b> Static-group comparison</td><td>+</td><td>?</td><td>+</td><td>+</td><td>+</td><td class="bad">&#8722;</td><td class="bad">&#8722;</td><td class="bad">&#8722;</td><td></td><td class="bad">&#8722;</td></tr>
+<tr><td><b>4</b> Pretest-posttest control group</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td class="bad">&#8722;</td><td>?</td></tr>
+<tr><td><b>5</b> Solomon four-group</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>?</td></tr>
+<tr><td><b>6</b> Posttest-only control group</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>+</td><td>?</td></tr>
+</table>
+<div class="rule"><b>Read it as rules.</b> A <b>control group</b> measured at the same time controls history, testing and instrumentation. <b>Random assignment</b> controls selection and its interactions. A <b>pretest</b> creates the testing &#215; X problem, escaped only by design 6 and the unpretested half of design 5. No design fully settles <b>selection &#215; X</b> (generalising beyond the kind of people studied); that needs random sampling or replication.</div>
+
+<h3>20.6 Who gets what: between, within, mixed, matched and blocked designs</h3>
+
+<table class="t">
+<tr><th></th><th>Between-subjects</th><th>Within-subjects (repeated measures)</th><th>Mixed (split-plot)</th></tr>
+<tr><td><b>Definition</b></td><td>Each participant experiences one condition</td><td>Each participant experiences every condition</td><td>At least one between and one within factor</td></tr>
+<tr><td><b>Example</b></td><td>CBT vs waiting list</td><td>Reaction time under placebo, low and high dose</td><td>Group (CBT vs control) &#215; time (pre, post, follow-up): the standard trial</td></tr>
+<tr><td><b>For</b></td><td>No order or carryover effects; the only option when a treatment cannot be undone</td><td>Fewer participants; each person is their own control, so individual differences leave the error term and <b>power rises</b></td><td>A clean group comparison plus the power of repeated measures; the group &#215; time interaction is the treatment effect</td></tr>
+<tr><td><b>Against</b></td><td>More participants; individual differences inflate error</td><td><b>Order effects</b> (practice, fatigue, carryover, sensitisation), controlled by counterbalancing (section 19)</td><td>Some problems of both; sphericity needed for the within factor</td></tr>
+<tr><td><b>Statistics</b></td><td>Independent t (9.3), ANOVA (10.2, 10.4)</td><td>Paired t (9.4), repeated-measures ANOVA (10.5), Wilcoxon, Friedman (14.3)</td><td>Mixed ANOVA (10.5)</td></tr>
+</table>
+<p>"Split-plot" is Fisher's agricultural term: whole plots got one treatment (between) and each plot was split into subplots for a second (within).</p>
+
+<p><b>Matched-groups design.</b> Participants are paired on a variable strongly related to the DV (baseline severity, IQ), and one member of each pair is <b>randomly</b> assigned to each condition; the analysis treats the pair as the unit (paired t). Matching equates the groups on the matched variable and cuts error variance, but only on that variable. Matching <i>intact</i> groups without randomisation is dangerous: matched people are atypical of their own populations and regress towards different means on retest, producing a spurious effect. Matching supplements randomisation; it never replaces it.</p>
+
+<p><b>Randomised block design (RBD).</b> Fisher's local control made concrete: participants are grouped into <b>blocks</b> homogeneous on a nuisance variable (severity, hospital), and randomly assigned to all treatments <i>within</i> each block, so block differences are removed from error. With t treatments and b blocks, error df = <b>(t &#8722; 1)(b &#8722; 1)</b>: four relaxation techniques across five severity blocks gives 3 &#215; 4 = 12. A repeated-measures design is the case in which each person is a block.</p>
+
+<p><b>Latin square as a design.</b> A t &#215; t arrangement that controls <b>two</b> nuisance variables at once (rows, for example participants; columns, for example order), with each treatment once in every row and column. Its main use is counterbalancing order (section 19); it reappears below as the counterbalanced quasi-experiment. Error df = <b>(t &#8722; 1)(t &#8722; 2)</b>, so 6 for a 4 &#215; 4 square. It assumes the treatments do not interact with the row and column variables.</p>
+
+<h3>20.7 Factorial and nested designs</h3>
+
+<p>A <b>factorial design</b> studies two or more IVs (factors) at once, every level of each combined with every level of the others: "more than one IV, levels combined in a systematic manner".</p>
+<div class="rule"><b>2 &#215; 3</b> = <b>two</b> factors (count the numbers), with 2 and 3 levels (read the numbers), and <b>6 cells</b> (multiply). 2 &#215; 2 &#215; 3 = three factors, 12 cells. With k factors there are <b>2<sup>k</sup> &#8722; 1</b> effects: two factors give 2 main effects + 1 interaction; three factors give 3 main + 3 two-way + 1 three-way = 7.</div>
+<p><span class="eg">Therapy (CBT vs counselling) &#215; medication (none, low, high) for depression is a 2 &#215; 3 with six cells.</span> A <b>main effect</b> is one factor's effect averaged over the other; an <b>interaction</b> means one factor's effect depends on the level of the other (CBT helps a lot without medication but adds little at high dose). The statistics are in section 10.4.</p>
+<div class="why"><b>Why factorial designs are efficient.</b> Every participant contributes to every main effect, so one study answers several questions; Fisher (1935) showed that a factorial experiment estimates several factors, and their interactions, with the same number of trials needed to estimate one factor alone to the same precision. Only a factorial design can reveal an <b>interaction</b>, often the clinically important finding. And testing one factor across levels of another shows how general its effect is. The cost: cells multiply fast, and three-way interactions are hard to read.</div>
+
+<p><b>Nested designs.</b> In a <b>nested</b> (hierarchical) design each level of one factor occurs within only one level of another, instead of being crossed with all. <span class="eg">Therapists 1 to 3 deliver only CBT and therapists 4 to 6 only interpersonal therapy: therapists are nested within therapy.</span> Pupils within classrooms and patients within wards are the everyday cases. You cannot test the interaction of the nested factor with the factor it sits in, and therapist differences are partly confounded with the therapy comparison, so the nested factor is modelled as a random factor (multilevel models). Campbell and Stanley make the same point about assigning whole classrooms: the classroom, not the pupil, becomes the unit of analysis.</p>
+
+<h3>20.8 Quasi-experimental designs</h3>
+
+<p>A <b>quasi-experiment</b> keeps manipulation (or a clearly timed intervention) and a comparison but <b>lacks random assignment</b>. Campbell and Stanley (1963) gave it its name; the standard extended work is <b>Thomas D. Cook and Donald T. Campbell</b>, <i>Quasi-Experimentation: Design and Analysis Issues for Field Settings</i> (1979), updated by Shadish, Cook and Campbell (2002). Randomisation is often impossible: patients are already on wards, a policy changes for a whole district, or withholding treatment would be unethical. The strategy is to <b>add design features</b> (pretests, comparison groups, many time points) until each specific rival explanation becomes implausible.</p>
+
+<h4>Nonequivalent control group design (design 10)</h4>
+<p>O X O over a dashed line over O O: two intact groups, both pretested and posttested, one treated. <span class="eg">One ward of a government mental hospital introduces a token economy; a similar ward continues usual care; both are rated before and after six months.</span> It is design 4 without the R, and the pretest makes it far better than the static-group comparison: you can see how unequal the groups were and analyse change. Main effects of history, maturation, testing and instrumentation are controlled; what remains are <b>interactions with selection</b>:</p>
+<ul class="tight">
+  <li><b>Selection-maturation:</b> the groups were changing at different rates anyway (an acute ward improves faster than a chronic one).</li>
+  <li><b>Selection-history</b> (local history): an event affected one group only (ward A got a new charge nurse).</li>
+  <li><b>Selection-instrumentation:</b> the scale behaves differently in the two groups (a ceiling effect in the better ward).</li>
+  <li><b>Selection-regression:</b> the treated group was chosen <i>because</i> it scored extremely, so it regresses towards the mean while the comparison does not.</li>
+</ul>
+
+<h4>Interrupted time-series design (design 7)</h4>
+<p>O O O O X O O O O: one unit measured many times before and after an intervention. The pre-intervention points show the series' level, trend and bounce, so the change at X is judged against what the series was already doing; that answers maturation, testing and regression. An effect can be a change in <b>level</b> (an immediate step), in <b>slope</b> (the trend bends), or both, analysed by <b>segmented regression</b> or ARIMA models. Donald T. Campbell and H. Laurence Ross's (1968) study of the Connecticut crackdown on speeding, introduced after a record year of road deaths in 1955, is the classic: the next year's fall looked like success, but the longer series showed how unstable yearly totals were and that a record year is usually followed by a lower one (regression to the mean).</p>
+
+<figure class="dia">
+<svg viewBox="0 0 940 664" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="s20-arrA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--text)"/></marker></defs>
+<text x="22.0" y="20.0" font-size="15.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A  The real thing: a level drop on top of an existing trend</text>
+<text x="22.0" y="39.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">weekly self-harm incidents, 24 weeks before and after; lines = segmented regression fitted to the points</text>
+<line x1="78.0" y1="260.0" x2="912.0" y2="260.0" stroke="var(--border)" stroke-width="0.8"/>
+<text x="70.0" y="264.5" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">0</text>
+<line x1="78.0" y1="211.5" x2="912.0" y2="211.5" stroke="var(--border)" stroke-width="0.8"/>
+<text x="70.0" y="216.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">4</text>
+<line x1="78.0" y1="163.0" x2="912.0" y2="163.0" stroke="var(--border)" stroke-width="0.8"/>
+<text x="70.0" y="167.5" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">8</text>
+<line x1="78.0" y1="114.5" x2="912.0" y2="114.5" stroke="var(--border)" stroke-width="0.8"/>
+<text x="70.0" y="119.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">12</text>
+<line x1="78.0" y1="66.0" x2="912.0" y2="66.0" stroke="var(--border)" stroke-width="0.8"/>
+<text x="70.0" y="70.5" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">16</text>
+<text x="86.7" y="279.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">1</text>
+<text x="208.3" y="279.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">8</text>
+<text x="347.3" y="279.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">16</text>
+<text x="486.3" y="279.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">24</text>
+<text x="625.3" y="279.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">32</text>
+<text x="764.3" y="279.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">40</text>
+<text x="903.3" y="279.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">48</text>
+<text x="912.0" y="296.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">week</text>
+<line x1="78.0" y1="260.0" x2="912.0" y2="260.0" stroke="var(--muted)" stroke-width="1.2"/>
+<line x1="495.0" y1="60.0" x2="495.0" y2="260.0" stroke="#c2701a" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="501.0" y="72.0" font-size="13.5" fill="#c2701a" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">new protocol (X)</text>
+<circle cx="86.7" cy="102.4" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="104.1" cy="102.4" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="121.4" cy="114.5" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="138.8" cy="102.4" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="156.2" cy="90.2" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="173.6" cy="102.4" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="190.9" cy="90.2" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="208.3" cy="126.6" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="225.7" cy="114.5" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="243.1" cy="126.6" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="260.4" cy="126.6" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="277.8" cy="114.5" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="295.2" cy="114.5" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="312.6" cy="114.5" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="329.9" cy="114.5" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="347.3" cy="90.2" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="364.7" cy="102.4" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="382.1" cy="138.8" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="399.4" cy="114.5" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="416.8" cy="126.6" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="434.2" cy="126.6" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="451.6" cy="102.4" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="468.9" cy="126.6" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="486.3" cy="150.9" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="503.7" cy="175.1" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="521.1" cy="175.1" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="538.4" cy="199.4" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="555.8" cy="187.2" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="573.2" cy="187.2" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="590.6" cy="175.1" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="607.9" cy="187.2" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="625.3" cy="175.1" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="642.7" cy="150.9" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="660.1" cy="199.4" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="677.4" cy="199.4" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="694.8" cy="187.2" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="712.2" cy="175.1" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="729.6" cy="199.4" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="746.9" cy="163.0" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="764.3" cy="211.5" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="781.7" cy="211.5" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="799.1" cy="187.2" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="816.4" cy="199.4" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="833.8" cy="199.4" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="851.2" cy="187.2" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="868.6" cy="187.2" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="885.9" cy="199.4" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="903.3" cy="199.4" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<path d="M 86.69,101.20 L 486.31,126.79" fill="none" stroke="var(--accent)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 503.69,178.80 L 903.31,197.72" fill="none" stroke="#0f766e" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 486.31,126.79 L 903.31,153.48" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="505.7" y1="127.9" x2="505.7" y2="175.8" stroke="var(--text)" stroke-width="1.6" marker-end="url(#s20-arrA)"/>
+<text x="538.4" y="97.9" font-size="14" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">level change = &#8722;4.2 per week</text>
+<text x="538.4" y="115.9" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">dashed = pre-trend projected (what would have happened)</text>
+<text x="95.4" y="204.2" font-size="13.5" fill="var(--accent)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">pre&#8722;existing trend &#8722;0.09 per week</text>
+<text x="95.4" y="222.2" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">slope change after X +0.02 (essentially none)</text>
+<text x="22.0" y="356.0" font-size="15.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B  The trap: a steady decline with no effect, read as a pre-post study</text>
+<text x="22.0" y="375.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">same kind of ward, the protocol does nothing; O&#8321; and O&#8322; are 8-week means taken the way a one-group pretest-posttest would</text>
+<line x1="78.0" y1="616.0" x2="912.0" y2="616.0" stroke="var(--border)" stroke-width="0.8"/>
+<text x="70.0" y="620.5" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">0</text>
+<line x1="78.0" y1="562.5" x2="912.0" y2="562.5" stroke="var(--border)" stroke-width="0.8"/>
+<text x="70.0" y="567.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">4</text>
+<line x1="78.0" y1="509.0" x2="912.0" y2="509.0" stroke="var(--border)" stroke-width="0.8"/>
+<text x="70.0" y="513.5" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">8</text>
+<line x1="78.0" y1="455.5" x2="912.0" y2="455.5" stroke="var(--border)" stroke-width="0.8"/>
+<text x="70.0" y="460.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">12</text>
+<line x1="78.0" y1="402.0" x2="912.0" y2="402.0" stroke="var(--border)" stroke-width="0.8"/>
+<text x="70.0" y="406.5" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">16</text>
+<text x="86.7" y="635.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">1</text>
+<text x="208.3" y="635.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">8</text>
+<text x="347.3" y="635.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">16</text>
+<text x="486.3" y="635.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">24</text>
+<text x="625.3" y="635.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">32</text>
+<text x="764.3" y="635.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">40</text>
+<text x="903.3" y="635.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">48</text>
+<text x="912.0" y="652.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">week</text>
+<line x1="78.0" y1="616.0" x2="912.0" y2="616.0" stroke="var(--muted)" stroke-width="1.2"/>
+<line x1="495.0" y1="396.0" x2="495.0" y2="616.0" stroke="#c2701a" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="501.0" y="408.0" font-size="13.5" fill="#c2701a" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">new protocol (X)</text>
+<circle cx="86.7" cy="428.8" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="104.1" cy="442.1" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="121.4" cy="455.5" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="138.8" cy="428.8" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="156.2" cy="468.9" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="173.6" cy="455.5" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="190.9" cy="442.1" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="208.3" cy="455.5" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="225.7" cy="468.9" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="243.1" cy="455.5" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="260.4" cy="482.2" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="277.8" cy="482.2" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="295.2" cy="482.2" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="312.6" cy="455.5" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="329.9" cy="482.2" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="347.3" cy="455.5" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="364.7" cy="468.9" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="382.1" cy="482.2" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="399.4" cy="468.9" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="416.8" cy="482.2" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="434.2" cy="482.2" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="451.6" cy="509.0" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="468.9" cy="495.6" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="486.3" cy="482.2" r="3.6" fill="var(--accent)" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="503.7" cy="495.6" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="521.1" cy="482.2" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="538.4" cy="482.2" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="555.8" cy="495.6" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="573.2" cy="482.2" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="590.6" cy="535.8" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="607.9" cy="522.4" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="625.3" cy="549.1" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="642.7" cy="509.0" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="660.1" cy="522.4" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="677.4" cy="495.6" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="694.8" cy="535.8" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="712.2" cy="562.5" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="729.6" cy="509.0" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="746.9" cy="549.1" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="764.3" cy="549.1" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="781.7" cy="535.8" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="799.1" cy="522.4" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="816.4" cy="549.1" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="833.8" cy="535.8" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="851.2" cy="575.9" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="868.6" cy="522.4" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="885.9" cy="549.1" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<circle cx="903.3" cy="549.1" r="3.6" fill="#0f766e" fill-opacity="0.85" stroke="none" stroke-width="1"/>
+<path d="M 86.69,439.09 L 903.31,553.83" fill="none" stroke="var(--muted)" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 5"/>
+<path d="M 357.74,483.92 L 493.26,483.92" fill="none" stroke="#c2701a" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" opacity="0.9"/>
+<path d="M 635.74,529.06 L 771.26,529.06" fill="none" stroke="#c2701a" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" opacity="0.9"/>
+<text x="95.4" y="523.7" font-size="13.5" fill="#c2701a" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">O&#8321; = 9.9, O&#8322; = 6.5 (orange bars)</text>
+<text x="95.4" y="542.7" font-size="14" fill="var(--bad)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">pre&#8722;post 'effect' = &#8722;3.4 per week</text>
+<text x="95.4" y="560.7" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">yet one straight line (slope &#8722;0.18) fits all</text>
+<text x="95.4" y="577.7" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">48 weeks; segmented fit: level change 0.0</text>
+</svg>
+<figcaption>Interrupted time series computed from simulated weekly counts (true pre-trend &#8722;0.08 a week, true drop &#8722;4.0). A: segmented regression separates the pre-existing decline (&#8722;0.09 a week) from the drop at the protocol (&#8722;4.2). B: with no effect at all, a two-point pretest-posttest still shows a 'fall' because the trend was already running.</figcaption></figure>
+
+<p><b>What history looks like in a time series.</b> History is the main remaining threat: another event at the same moment as X. If a new consultant took over the ward in week 25 of panel A, the step would look identical. Next is <b>instrumentation</b>: a new protocol often brings a new definition of an "incident" or a new form, producing a step with no change in behaviour. Seasonal cycles (examinations, festivals, monsoon admissions) can mimic or hide an effect in a short series.</p>
+
+<p><b>Multiple (controlled) time series (design 14)</b> adds a comparison series from a similar unit that did not receive X (the next ward, a neighbouring state, as Campbell and Ross used). If both series drop at week 25, history is the likely cause; if only the treated one drops, history becomes implausible. In a <b>switching-replications</b> variant, the comparison unit receives X later, so the effect must appear twice at two different times.</p>
+
+<h4>Regression discontinuity design (design 16)</h4>
+<p><b>Donald L. Thistlethwaite and Donald T. Campbell</b> (1960) introduced it as "an alternative to the ex post facto experiment", asking whether public recognition in the National Merit Scholarship programme affected students' later plans and achievements. Recognition went to students above a cut-off on a qualifying score, so they would have done better anyway. Their solution: assign by a <b>strict cut-off on a quantitative pre-measure</b>, plot the outcome against that pre-measure, and look for a <b>discontinuity</b> (jump) in the regression line exactly at the cut-off. Notation: C O X O over C O O, where C = assignment by cut-off.</p>
+<p><span class="eg">A District Mental Health Programme clinic screens adults with the PHQ-9 (0 to 27). Places are scarce, so the rule is strict: 15 or more is offered eight sessions of CBT, below 15 is not; everyone is reassessed at three months.</span> Treated patients started more depressed and are still worse on average at follow-up, so the naive comparison says therapy did harm. But on each side, follow-up rises smoothly with intake score. Fit a line to each side: with no effect the two lines would meet at the cut-off as one line; if CBT works, the treated line drops there, and the drop is the effect.</p>
+
+<figure class="dia">
+<svg viewBox="0 0 940 460" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="s20-arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--text)"/></marker></defs>
+<line x1="92.0" y1="402.0" x2="640.0" y2="402.0" stroke="var(--border)" stroke-width="0.8"/>
+<text x="84.0" y="406.5" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">0</text>
+<line x1="92.0" y1="330.8" x2="640.0" y2="330.8" stroke="var(--border)" stroke-width="0.8"/>
+<text x="84.0" y="335.3" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">5</text>
+<line x1="92.0" y1="259.6" x2="640.0" y2="259.6" stroke="var(--border)" stroke-width="0.8"/>
+<text x="84.0" y="264.1" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">10</text>
+<line x1="92.0" y1="188.4" x2="640.0" y2="188.4" stroke="var(--border)" stroke-width="0.8"/>
+<text x="84.0" y="192.9" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">15</text>
+<line x1="92.0" y1="117.2" x2="640.0" y2="117.2" stroke="var(--border)" stroke-width="0.8"/>
+<text x="84.0" y="121.7" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">20</text>
+<line x1="92.0" y1="46.0" x2="640.0" y2="46.0" stroke="var(--border)" stroke-width="0.8"/>
+<text x="84.0" y="50.5" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">25</text>
+<text x="92.0" y="422.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">0</text>
+<text x="189.9" y="422.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">5</text>
+<text x="287.7" y="422.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">10</text>
+<text x="385.6" y="422.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">15</text>
+<text x="483.4" y="422.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">20</text>
+<text x="581.3" y="422.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">25</text>
+<line x1="92.0" y1="402.0" x2="640.0" y2="402.0" stroke="var(--muted)" stroke-width="1.2"/>
+<text x="366.0" y="444.0" font-size="14" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">PHQ-9 screening score at intake</text>
+<text x="28.0" y="224.0" font-size="14" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif" transform="rotate(-90 28 224.0)">PHQ-9 three months later</text>
+<rect x="375.8" y="46.0" width="264.2" height="356.0" rx="0" fill="#c2701a" fill-opacity="0.06" stroke="none" stroke-width="1"/>
+<line x1="375.8" y1="36.0" x2="375.8" y2="402.0" stroke="#c2701a" stroke-width="1.8" stroke-dasharray="6 4"/>
+<text x="381.8" y="50.0" font-size="13.5" fill="#c2701a" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">cut-off: 15 or more gets CBT</text>
+<text x="238.8" y="50.0" font-size="13.5" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">no therapy offered</text>
+<circle cx="232.5" cy="339.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="488.4" cy="249.3" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="449.5" cy="244.7" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="204.9" cy="368.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="268.7" cy="279.3" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="323.5" cy="256.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="290.8" cy="205.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="420.5" cy="213.9" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="301.4" cy="274.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="382.2" cy="296.5" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="539.7" cy="208.2" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="465.9" cy="250.4" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="407.4" cy="199.5" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="539.8" cy="215.0" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="303.1" cy="249.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="406.4" cy="260.4" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="481.5" cy="230.1" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="267.9" cy="230.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="290.1" cy="241.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="575.7" cy="151.4" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="321.2" cy="314.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="366.9" cy="263.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="362.3" cy="233.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="408.1" cy="276.8" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="540.3" cy="233.2" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="271.4" cy="253.6" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="467.3" cy="208.4" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="351.7" cy="250.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="406.4" cy="255.5" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="410.1" cy="285.0" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="246.4" cy="301.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="342.3" cy="232.6" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="205.5" cy="402.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="620.8" cy="133.7" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="269.2" cy="271.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="384.7" cy="311.6" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="536.7" cy="177.3" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="146.4" cy="341.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="308.8" cy="340.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="345.7" cy="258.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="441.9" cy="202.3" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="443.7" cy="199.8" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="130.9" cy="402.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="342.3" cy="252.1" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="430.1" cy="328.0" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="540.2" cy="226.9" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="251.9" cy="272.6" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="388.9" cy="261.0" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="270.1" cy="276.3" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="192.3" cy="321.9" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="251.7" cy="300.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="449.5" cy="260.5" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="262.4" cy="308.1" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="231.0" cy="326.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="309.0" cy="320.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="387.3" cy="272.4" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="246.8" cy="298.3" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="152.9" cy="308.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="170.5" cy="256.1" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="311.2" cy="282.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="329.1" cy="220.9" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="283.9" cy="283.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="191.8" cy="315.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="212.7" cy="352.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="399.6" cy="303.6" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="211.2" cy="295.6" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="426.3" cy="251.8" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="480.2" cy="197.0" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="363.9" cy="218.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="341.0" cy="235.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="386.9" cy="310.9" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="370.7" cy="253.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="304.7" cy="231.9" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="350.3" cy="257.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="367.3" cy="239.9" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="344.5" cy="211.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="408.9" cy="340.0" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="211.1" cy="363.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="425.8" cy="272.9" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="391.1" cy="353.4" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="253.2" cy="316.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="288.5" cy="258.9" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="347.9" cy="256.9" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="306.5" cy="240.3" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="273.7" cy="280.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="429.6" cy="319.2" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="508.6" cy="241.2" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="285.6" cy="306.3" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="343.9" cy="207.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="328.3" cy="269.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="349.7" cy="268.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="366.4" cy="231.6" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="330.2" cy="264.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="557.7" cy="190.6" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="406.4" cy="245.0" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="328.1" cy="298.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="369.1" cy="234.6" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="285.8" cy="286.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="443.9" cy="262.2" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="445.4" cy="284.3" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="463.3" cy="217.8" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="347.0" cy="187.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="228.2" cy="249.6" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="348.0" cy="287.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="266.8" cy="352.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="362.4" cy="281.6" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="458.8" cy="258.1" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="521.8" cy="186.3" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="214.3" cy="326.1" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="503.6" cy="198.8" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="420.6" cy="289.1" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="341.4" cy="293.1" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="252.0" cy="286.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="525.2" cy="214.9" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="329.2" cy="142.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="284.4" cy="216.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="388.1" cy="328.0" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="155.6" cy="326.3" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="404.1" cy="245.6" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="438.9" cy="227.9" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="439.3" cy="227.3" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="408.0" cy="232.6" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="384.8" cy="268.8" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="307.2" cy="280.6" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="458.6" cy="213.0" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="308.8" cy="269.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="288.4" cy="342.6" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="327.5" cy="271.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="287.9" cy="275.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="501.5" cy="205.9" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="388.1" cy="282.6" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="270.1" cy="291.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="308.4" cy="250.3" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="365.8" cy="229.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="536.6" cy="226.1" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="479.3" cy="232.7" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="304.0" cy="218.6" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="289.7" cy="211.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="504.5" cy="213.8" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="285.8" cy="287.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="384.2" cy="302.9" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="269.9" cy="245.1" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="487.6" cy="219.9" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="229.9" cy="345.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="322.1" cy="255.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="223.6" cy="283.1" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="349.5" cy="216.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="272.7" cy="248.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="346.0" cy="268.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="264.1" cy="269.1" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="370.5" cy="255.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="402.5" cy="257.2" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="402.0" cy="257.4" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="410.1" cy="278.9" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="348.6" cy="294.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="508.2" cy="237.5" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="226.5" cy="269.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="440.3" cy="274.2" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="186.7" cy="321.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="371.6" cy="206.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="385.2" cy="298.8" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="407.7" cy="281.5" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="485.5" cy="219.1" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="404.3" cy="229.0" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="282.6" cy="270.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="321.5" cy="248.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="229.2" cy="394.1" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="243.5" cy="302.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="371.1" cy="204.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="262.9" cy="261.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="363.1" cy="242.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="360.7" cy="256.3" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="381.8" cy="199.7" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="405.5" cy="302.7" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="322.3" cy="230.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="386.7" cy="349.2" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="282.0" cy="260.3" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="288.6" cy="308.9" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="309.9" cy="295.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="424.1" cy="238.1" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="283.2" cy="263.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="271.3" cy="288.9" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="361.7" cy="222.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="263.3" cy="263.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="363.0" cy="271.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="380.3" cy="235.9" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="384.1" cy="273.0" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="403.0" cy="244.3" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="409.8" cy="270.4" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="210.3" cy="343.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="211.3" cy="367.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="407.5" cy="222.5" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="286.3" cy="280.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="518.7" cy="203.3" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="363.5" cy="237.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="484.1" cy="182.1" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="400.8" cy="261.0" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="351.7" cy="282.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="482.6" cy="248.4" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="282.0" cy="292.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="407.8" cy="321.6" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="244.7" cy="262.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="410.3" cy="279.6" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="226.9" cy="299.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="286.9" cy="243.9" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="292.8" cy="323.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="406.3" cy="352.1" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="286.8" cy="228.1" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="438.8" cy="169.1" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="429.2" cy="292.8" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="285.1" cy="290.9" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="383.9" cy="268.8" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="462.1" cy="240.9" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="272.1" cy="282.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="619.3" cy="135.8" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="228.9" cy="266.9" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="478.7" cy="212.6" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="342.9" cy="257.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="133.3" cy="345.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="252.1" cy="265.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="229.1" cy="306.9" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="345.1" cy="261.1" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="305.1" cy="266.9" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="368.4" cy="260.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="408.8" cy="342.7" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="505.0" cy="178.4" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="266.5" cy="338.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="288.0" cy="313.2" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="243.7" cy="296.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="369.0" cy="259.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="449.3" cy="257.0" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="243.5" cy="301.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="488.8" cy="230.1" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="193.8" cy="285.5" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="245.2" cy="296.9" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="206.4" cy="380.0" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="306.0" cy="225.1" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="323.1" cy="222.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="351.2" cy="282.3" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="165.7" cy="357.1" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="270.7" cy="298.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="225.6" cy="349.7" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="484.9" cy="239.6" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="406.7" cy="255.8" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="302.2" cy="261.6" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="272.6" cy="337.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="267.3" cy="288.3" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="226.7" cy="370.6" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="312.8" cy="272.1" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="459.3" cy="238.1" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="362.3" cy="273.3" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="289.4" cy="258.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="458.7" cy="259.7" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="195.2" cy="382.8" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="348.1" cy="269.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="505.3" cy="200.9" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="302.6" cy="244.6" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="243.8" cy="287.4" r="3.3" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+<circle cx="380.9" cy="255.9" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<circle cx="448.0" cy="248.5" r="3.3" fill="#c2701a" fill-opacity="0.75" stroke="none" stroke-width="1"/>
+<path d="M 130.90,359.29 L 375.79,233.16" fill="none" stroke="var(--accent)" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 375.79,233.16 L 630.21,102.10" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 5"/>
+<path d="M 375.79,289.67 L 620.82,147.10" fill="none" stroke="#c2701a" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="365.8" y1="233.2" x2="365.8" y2="287.7" stroke="var(--text)" stroke-width="1.8" marker-end="url(#s20-arrR)"/>
+<text x="662.0" y="70.0" font-size="15.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">The jump at the cut-off</text>
+<text x="662.0" y="90.0" font-size="15.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">is the treatment effect</text>
+<text x="662.0" y="120.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">gap between the two lines:</text>
+<text x="662.0" y="142.0" font-size="17" fill="var(--bad)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">&#8722;4.0 PHQ&#8722;9 points</text>
+<text x="662.0" y="162.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">(simulated true effect &#8722;4.0)</text>
+<line x1="662.0" y1="182.0" x2="920.0" y2="182.0" stroke="var(--border)" stroke-width="1.2"/>
+<text x="662.0" y="206.0" font-size="13.5" fill="var(--accent)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Blue line, fitted to untreated</text>
+<text x="662.0" y="224.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">people: slope 0.71; dashed part</text>
+<text x="662.0" y="242.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">shows where treated people</text>
+<text x="662.0" y="260.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">would have been without CBT</text>
+<text x="662.0" y="284.0" font-size="13.5" fill="#c2701a" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Orange line, fitted to treated</text>
+<text x="662.0" y="302.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">people: slope 0.80</text>
+<line x1="662.0" y1="322.0" x2="920.0" y2="322.0" stroke="var(--border)" stroke-width="1.2"/>
+<text x="662.0" y="346.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Naive comparison of means</text>
+<text x="662.0" y="364.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">(treated minus untreated): +2.2</text>
+<text x="662.0" y="382.0" font-size="13.5" fill="var(--bad)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">says CBT made people worse,</text>
+<text x="662.0" y="400.0" font-size="13.5" fill="var(--bad)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">because they started worse</text>
+</svg>
+<figcaption>Regression discontinuity computed from 260 simulated patients: separate regression lines on each side of the cut-off, and the vertical gap between them at the cut-off estimates the effect of CBT for people near a score of 15.</figcaption></figure>
+
+<div class="why"><b>Why it is the strongest quasi-experiment.</b> The assignment rule is completely known, so it can be modelled exactly, which is what a nonequivalent group design lacks. Regression to the mean does not bias it, because both sides regress along the same line. Ethically it is attractive: treatment goes to those who need it most.</div>
+<div class="warn"><b>What breaks it.</b> (1) The cut-off must be obeyed; clinicians nudging 14s up to 15 make it "fuzzy". (2) The shape of the relation must be right; a curve fitted with straight lines can fake a jump. (3) The estimate applies only near the cut-off. (4) It needs many more participants than a randomised trial for the same power.</div>
+
+<h4>Natural experiments and counterbalanced designs</h4>
+<p>In a <b>natural experiment</b> the "treatment" is assigned by nature, policy or accident in a way plausibly unrelated to the outcome. In the <b>Dutch Hunger Winter</b> of 1944&#8211;45 a blockade caused famine in the western Netherlands for a sharply bounded period; Ezra Susser and colleagues (1996) found that people conceived at its height had about twice the risk of schizophrenia. Nobody could ethically starve pregnant women, but history did, for a precisely dated window. Natural experiments remain quasi-experiments: they are only as good as the argument that exposure was "as if random".</p>
+<p>In a <b>counterbalanced (rotation) design</b> (design 11), intact groups that cannot be randomised each receive <b>every</b> treatment, in orders arranged as a Latin square, so that differences among groups and among occasions are balanced out of the treatment comparison. Its weaknesses are carryover (multiple-treatment interference) and treatment-by-group interactions. Its single-group cousin, the <b>equivalent time-samples design</b> (design 8: X&#8321;O X&#8320;O X&#8321;O X&#8320;O), is the ancestor of the ABAB designs of section 22.</p>
+
+<table class="t">
+<tr><th>Family</th><th>Manipulation</th><th>Random assignment</th><th>Comparison</th><th>Causal claim</th></tr>
+<tr><td><b>Pre-experimental</b></td><td>Yes</td><td>No</td><td>None, or an intact group without pretest</td><td>Not defensible</td></tr>
+<tr><td><b>Quasi-experimental</b></td><td>Yes, or a timed intervention</td><td>No</td><td>Intact groups, many time points, or a cut-off</td><td>Cautious: each rival ruled out by design</td></tr>
+<tr><td><b>True experimental</b></td><td>Yes</td><td><b>Yes</b></td><td>Randomly formed control group</td><td>Strongest</td></tr>
+<tr><td><b>Non-experimental</b> (section 21)</td><td>No</td><td>No</td><td>Measured differences or correlations</td><td>Association only</td></tr>
+</table>
+
+<h3>20.9 Laboratory, field, analogue and simulation studies</h3>
+
+<p>Kerlinger distinguished <b>laboratory experiments</b> (IV manipulated in an artificial, controlled setting), <b>field experiments</b> (IV manipulated, ideally with random assignment, in the natural setting), <b>field studies</b> (nothing manipulated; measurement in the natural setting) and survey research (section 21).</p>
+<table class="t">
+<tr><th></th><th>Laboratory experiment</th><th>Field experiment</th></tr>
+<tr><td><b>Control of extraneous variables</b></td><td>High</td><td>Lower</td></tr>
+<tr><td><b>Internal validity</b></td><td><b>Higher</b></td><td>Lower</td></tr>
+<tr><td><b>External (ecological) validity</b></td><td>Lower: artificial tasks and settings</td><td><b>Higher</b></td></tr>
+<tr><td><b>Demand characteristics</b></td><td>High: people know they are studied (Martin T. Orne, 1962)</td><td>Low</td></tr>
+<tr><td><b>Ethics</b></td><td>Consent straightforward</td><td>Covert manipulation raises consent problems (section 26)</td></tr>
+<tr><td><b>Example</b></td><td>Stanley Milgram's (1963) obedience studies at Yale</td><td>Irving Piliavin, Judith Rodin and Jane Piliavin (1969): a confederate collapsed in New York subway trains to see who helped</td></tr>
+</table>
+<p>"The advantage of field experiments over laboratory experiments" is <b>higher external validity</b>; internal validity and ease of control are the laboratory's.</p>
+
+<div class="founder"><b>Kurt Lewin</b>'s <b>field theory</b> held that behaviour is a function of person and environment, <b>B = f(P, E)</b> (<i>Principles of Topological Psychology</i>, 1936), so behaviour stripped of its natural field may not be the same behaviour. With Ronald Lippitt and Ralph White (1939) he created autocratic, democratic and laissez-faire leadership climates in boys' clubs, an early field experiment, and in 1946 he coined <b>action research</b>.</div>
+
+<p><b>Analogue studies</b> investigate a clinical question under conditions that resemble but are not the real clinical situation: <b>non-clinical or sub-clinical participants</b> (students with high spider fear instead of patients with phobia), a standardised short treatment, a laboratory setting, or analogue measures such as role-plays. Peter J. Lang and A. David Lazovik's (1963) test of systematic desensitisation with snake-fearful students is the classic. Strengths: control, randomisation, easy recruitment, fewer ethical problems. Weakness: generalisation to real patients, who are more severe, comorbid and differently motivated. The exam answer to "analogue research involves" is research on <b>healthy, non-clinical populations</b>.</p>
+
+<p><b>Simulation</b> reproduces the essential features of a real situation artificially: Philip Zimbardo's Stanford Prison Experiment (1971) simulated a prison, Orne's "simulators" faked hypnosis as a control for demand characteristics, simulated patients are used in interviewing research, and computer (Monte Carlo) simulation, as in this book's computed diagrams, shows how a method behaves when the truth is known. Simulation buys control and safety at the cost of realism.</p>
+
+<div class="recap">Recap of section 20: an experiment needs manipulation, control and random assignment (Ronald A. Fisher's randomisation, replication and local control, 1935); a causal claim needs covariation, temporal precedence and elimination of alternatives (John Stuart Mill, 1843, whose method of difference is the experiment). Fred N. Kerlinger's MAXMINCON: maximise systematic (primary), minimise error, control extraneous (secondary) variance. Donald T. Campbell and Julian C. Stanley (1963): R, X, O, dashed line for nonequivalent groups; 16 designs (3 pre-experimental, 3 true, 10 quasi) against 8 internal and 4 external threats. One-shot case study (X O) is uninterpretable; one-group pretest-posttest (O X O) fails history, maturation, testing and instrumentation; static-group comparison fails selection and mortality. Pretest-posttest control group controls all internal threats but not pretest sensitisation; posttest-only control group avoids it; Richard L. Solomon's (1949) four-group design measures it through a 2 &#215; 2 ANOVA on posttests (pretested &#215; treated), at about double the cost. Within-subjects designs gain power but need counterbalancing; mixed (split-plot) designs are the standard trial; RBD error df = (t &#8722; 1)(b &#8722; 1), Latin square (t &#8722; 1)(t &#8722; 2). A 2 &#215; 3 factorial has two factors and six cells and is the only way to see interactions; nested factors sit inside others. Quasi-experiments (Thomas D. Cook and Campbell, 1979) lack random assignment: nonequivalent control group (selection interactions remain), interrupted time series (history and instrumentation remain; a comparison series helps), regression discontinuity (Donald L. Thistlethwaite and Campbell, 1960; the jump at the cut-off is the effect), natural experiments and counterbalanced designs. Field experiments trade internal for external validity; analogue studies use non-clinical participants.</div>
+</div>

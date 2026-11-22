@@ -8,7 +8,7 @@ Outputs:
   docs/sw.js                 service worker (cache-first, full offline)
   docs/icon-192.png/512.png  app icons
 """
-import json, re, time, pathlib, markdown
+import html as htmllib, json, re, time, pathlib, markdown
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 BUILD = time.strftime("%Y-%m-%d %H:%M")  # stamps each deploy so the SW cache auto-busts
@@ -26,17 +26,23 @@ def build_docs():
     for key, b in MAN.items():
         for c in b["chapters"]:
             f = NOTES / key / (c["slug"] + ".md")
-            if not f.exists():
+            fh = NOTES / key / (c["slug"] + ".html")
+            if fh.exists():
+                # books copied from the prep site's Library are already HTML (import_library_books.py)
+                html = fh.read_text()
+                search_src = htmllib.unescape(re.sub(r'<svg\b.*?</svg>|<[^>]+>', ' ', html, flags=re.S))
+            elif f.exists():
+                raw = f.read_text()
+                body = re.sub(r'^---\n.*?\n---\n', '', raw, count=1, flags=re.S)
+                md.reset()
+                # search text: drop whole diagram blocks (SVG + wrappers) so markup isn't indexed
+                search_src = re.sub(r'<div class="fig">.*?</div>', ' ', body, flags=re.S)
+                html = md.convert(body)
+                # the reader template already renders the chapter title as its masthead <h1>,
+                # so strip the markdown body's own leading <h1> to avoid a duplicated title.
+                html = re.sub(r'^\s*<h1[^>]*>.*?</h1>\s*', '', html, count=1, flags=re.S)
+            else:
                 continue
-            raw = f.read_text()
-            body = re.sub(r'^---\n.*?\n---\n', '', raw, count=1, flags=re.S)
-            md.reset()
-            # search text: drop whole diagram blocks (SVG + wrappers) so markup isn't indexed
-            search_src = re.sub(r'<div class="fig">.*?</div>', ' ', body, flags=re.S)
-            html = md.convert(body)
-            # the reader template already renders the chapter title as its masthead <h1>,
-            # so strip the markdown body's own leading <h1> to avoid a duplicated title.
-            html = re.sub(r'^\s*<h1[^>]*>.*?</h1>\s*', '', html, count=1, flags=re.S)
             docs.append({
                 "book": key, "bookTitle": b["title"], "subject": b["subject"],
                 "num": c["num"], "title": c["title"],
@@ -75,8 +81,11 @@ def main():
     sw = f"""const CACHE='{cache_ver}';
 const ASSETS={assets};
 self.addEventListener('install',e=>{{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)));self.skipWaiting();}});
-self.addEventListener('activate',e=>{{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim();}});
-self.addEventListener('fetch',e=>{{e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)));}});
+const IMG='psych-notes-img';
+self.addEventListener('activate',e=>{{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE&&k!==IMG).map(k=>caches.delete(k)))));self.clients.claim();}});
+// Psycho Didi's diagrams load from the prep site (too big to precache): keep each one once seen, so it works offline after
+self.addEventListener('fetch',e=>{{e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request).then(res=>{{
+  if(res.ok&&e.request.destination==='image'){{const c=res.clone();caches.open(IMG).then(x=>x.put(e.request,c));}}return res;}})));}});
 """
     (DOCS / "sw.js").write_text(sw)
 

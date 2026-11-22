@@ -6,7 +6,7 @@ import json, re, subprocess, sys, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 NOTES = ROOT / "notes"
-EXPECT = {"schultz-personality": 15, "baron-social-psychology": 12, "pinel-biopsychology": 18, "key-acts-law": 1, "cognitive-eysenck-keane": 6, "singh-research-methods": 24, "counselling-sharf": 16, "barlow-durand-abnormal": 16, "amity": 18}
+EXPECT = {"statistics-research": 28, "dsm5tr-exam-cut": 21, "psycho-didi": 12, "rml-study-material": 15, "sgt-study-material": 15, "schultz-personality": 15, "baron-social-psychology": 12, "pinel-biopsychology": 18, "key-acts-law": 1, "cognitive-eysenck-keane": 6, "singh-research-methods": 24, "counselling-sharf": 16, "barlow-durand-abnormal": 16, "amity": 18}
 
 fails = []
 def check(name, cond, detail=""):
@@ -20,9 +20,11 @@ check("build runs cleanly", r.returncode == 0, r.stderr[-300:])
 
 # source notes present and full-length
 for book, n in EXPECT.items():
-    mds = sorted((NOTES / book).glob("ch*.md"))
+    mds = sorted((NOTES / book).glob("ch*.md")) + sorted((NOTES / book).glob("ch*.html"))
     check(f"{book} has {n} chapter notes", len(mds) == n, f"found {len(mds)}")
-    small = [f.name for f in mds if f.stat().st_size < 8000]
+    # 8KB catches a generation dud in the .md notes; the .html chapters are the Library's own
+    # sections copied as-is, and a few real ones are short (e.g. "How to attack it from here")
+    small = [f.name for f in mds if f.stat().st_size < (8000 if f.suffix == ".md" else 1500)]
     check(f"{book} notes all >=8KB (no duds)", not small, f"undersized: {small}")
 
 # built artifacts exist

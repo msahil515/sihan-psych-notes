@@ -1,0 +1,126 @@
+<div class="nfe-article nb">
+<p>Raw data is unreadable. The first act of every analysis is to impose order on it, and the tool for that is the frequency distribution.</p>
+
+<h3>2.1 Building a grouped frequency distribution</h3>
+
+<ol class="steps">
+  <li><b>Find the range:</b> R = highest score &minus; lowest score (some texts add 1 for the "inclusive range").</li>
+  <li><b>Choose the number of class intervals:</b> conventionally 10 to 20. Too few hides the shape, too many defeats the purpose.</li>
+  <li><b>Find the class interval width (i):</b> i = R / (number of intervals), rounded to a convenient number (2, 3, 5, 10).</li>
+  <li><b>Set the intervals</b> so they are mutually exclusive and exhaustive, and start the lowest interval at a multiple of i.</li>
+  <li><b>Tally and count.</b></li>
+</ol>
+
+<table class="t">
+<tr><th>Term</th><th>Definition</th><th>Example (interval 50&#8211;59)</th></tr>
+<tr><td><b>Apparent (written) limits</b></td><td>The limits as printed.</td><td>50 and 59</td></tr>
+<tr><td><b>Exact / real limits</b></td><td>The true boundaries, extending half a unit each way. Used in all computation.</td><td>49.5 and 59.5</td></tr>
+<tr><td><b>Class interval (i)</b></td><td>Upper real limit &minus; lower real limit.</td><td>59.5 &minus; 49.5 = 10</td></tr>
+<tr><td><b>Midpoint</b></td><td>(lower limit + upper limit) / 2. Assumed to represent every score in the interval.</td><td>54.5</td></tr>
+<tr><td><b>Cumulative frequency (cf)</b></td><td>Running total of frequencies up to the top of that interval.</td><td>&#8211;</td></tr>
+<tr><td><b>Relative frequency</b></td><td>f / N, usually expressed as a proportion or percentage.</td><td>&#8211;</td></tr>
+</table>
+
+<h3>2.2 The graphs</h3>
+
+<figure class="dia">
+<svg viewBox="0 0 940 288" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<line x1="30.0" y1="176.0" x2="280.0" y2="176.0" stroke="var(--muted)" stroke-width="1.3"/>
+<line x1="30.0" y1="26.0" x2="30.0" y2="176.0" stroke="var(--muted)" stroke-width="1.3"/>
+<rect x="30.0" y="161.0" width="26.8" height="15.0" fill="var(--accent)" fill-opacity="0.35" stroke="var(--accent)" stroke-width="1"/>
+<rect x="57.8" y="138.5" width="26.8" height="37.5" fill="var(--accent)" fill-opacity="0.35" stroke="var(--accent)" stroke-width="1"/>
+<rect x="85.6" y="108.5" width="26.8" height="67.5" fill="var(--accent)" fill-opacity="0.35" stroke="var(--accent)" stroke-width="1"/>
+<rect x="113.3" y="71.0" width="26.8" height="105.0" fill="var(--accent)" fill-opacity="0.35" stroke="var(--accent)" stroke-width="1"/>
+<rect x="141.1" y="41.0" width="26.8" height="135.0" fill="var(--accent)" fill-opacity="0.35" stroke="var(--accent)" stroke-width="1"/>
+<rect x="168.9" y="63.5" width="26.8" height="112.5" fill="var(--accent)" fill-opacity="0.35" stroke="var(--accent)" stroke-width="1"/>
+<rect x="196.7" y="101.0" width="26.8" height="75.0" fill="var(--accent)" fill-opacity="0.35" stroke="var(--accent)" stroke-width="1"/>
+<rect x="224.4" y="138.5" width="26.8" height="37.5" fill="var(--accent)" fill-opacity="0.35" stroke="var(--accent)" stroke-width="1"/>
+<rect x="252.2" y="161.0" width="26.8" height="15.0" fill="var(--accent)" fill-opacity="0.35" stroke="var(--accent)" stroke-width="1"/>
+<text x="155.0" y="202.0" font-size="12.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Histogram</text>
+<text x="155.0" y="219.0" font-size="10.8" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">bars touch: the variable is continuous</text>
+<line x1="340.0" y1="176.0" x2="590.0" y2="176.0" stroke="var(--muted)" stroke-width="1.3"/>
+<line x1="340.0" y1="26.0" x2="340.0" y2="176.0" stroke="var(--muted)" stroke-width="1.3"/>
+<path d="M 340.00,176.00 L 353.89,161.00 L 381.67,138.50 L 409.44,108.50 L 437.22,71.00 L 465.00,41.00 L 492.78,63.50 L 520.56,101.00 L 548.33,138.50 L 576.11,161.00 L 603.89,176.00" fill="none" stroke="#c2701a" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<circle cx="353.9" cy="161.0" r="3" fill="#c2701a"/>
+<circle cx="381.7" cy="138.5" r="3" fill="#c2701a"/>
+<circle cx="409.4" cy="108.5" r="3" fill="#c2701a"/>
+<circle cx="437.2" cy="71.0" r="3" fill="#c2701a"/>
+<circle cx="465.0" cy="41.0" r="3" fill="#c2701a"/>
+<circle cx="492.8" cy="63.5" r="3" fill="#c2701a"/>
+<circle cx="520.6" cy="101.0" r="3" fill="#c2701a"/>
+<circle cx="548.3" cy="138.5" r="3" fill="#c2701a"/>
+<circle cx="576.1" cy="161.0" r="3" fill="#c2701a"/>
+<text x="465.0" y="202.0" font-size="12.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Frequency polygon</text>
+<text x="465.0" y="219.0" font-size="10.8" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">midpoints joined, anchored to the baseline</text>
+<line x1="650.0" y1="176.0" x2="900.0" y2="176.0" stroke="var(--muted)" stroke-width="1.3"/>
+<line x1="650.0" y1="26.0" x2="650.0" y2="176.0" stroke="var(--muted)" stroke-width="1.3"/>
+<path d="M 650.00,176.00 L 677.78,172.25 L 705.56,162.88 L 733.33,146.00 L 761.11,119.75 L 788.89,86.00 L 816.67,57.88 L 844.44,39.12 L 872.22,29.75 L 900.00,26.00" fill="none" stroke="#0f766e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<circle cx="650.0" cy="176.0" r="3" fill="#0f766e"/>
+<circle cx="677.8" cy="172.2" r="3" fill="#0f766e"/>
+<circle cx="705.6" cy="162.9" r="3" fill="#0f766e"/>
+<circle cx="733.3" cy="146.0" r="3" fill="#0f766e"/>
+<circle cx="761.1" cy="119.8" r="3" fill="#0f766e"/>
+<circle cx="788.9" cy="86.0" r="3" fill="#0f766e"/>
+<circle cx="816.7" cy="57.9" r="3" fill="#0f766e"/>
+<circle cx="844.4" cy="39.1" r="3" fill="#0f766e"/>
+<circle cx="872.2" cy="29.8" r="3" fill="#0f766e"/>
+<circle cx="900.0" cy="26.0" r="3" fill="#0f766e"/>
+<line x1="650.0" y1="101.0" x2="900.0" y2="101.0" stroke="var(--bad)" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="896.0" y="95.0" font-size="10" fill="var(--bad)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">50% &#8594; median</text>
+<text x="775.0" y="202.0" font-size="12.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Ogive (cumulative frequency)</text>
+<text x="775.0" y="219.0" font-size="10.8" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">always S-shaped; read percentiles off it</text>
+<text x="470.0" y="246.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Same grouped frequency distribution, three standard graphs. A bar diagram differs from a histogram in one way: its bars have gaps, because the variable is</text>
+<text x="470.0" y="263.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">categorical.</text>
+</svg>
+<figcaption>The three graphs of a frequency distribution.</figcaption></figure>
+
+
+<table class="t">
+<tr><th>Graph</th><th>Built from</th><th>Used for</th><th>Distinguishing feature</th></tr>
+<tr><td><b>Bar diagram</b></td><td>Categories on X, frequency on Y</td><td>Nominal or ordinal data</td><td>Bars have <b>gaps</b> between them, because the categories are discrete</td></tr>
+<tr><td><b>Histogram</b></td><td>Class intervals on X, frequency on Y</td><td>Continuous, grouped data</td><td>Bars <b>touch</b>, because the variable is continuous. Area is proportional to frequency</td></tr>
+<tr><td><b>Frequency polygon</b></td><td>Midpoints joined by straight lines</td><td>Comparing two or more distributions on one axis</td><td>Anchored to the baseline at both ends; area under it equals the histogram's area</td></tr>
+<tr><td><b>Frequency curve</b></td><td>A smoothed frequency polygon</td><td>Showing the underlying shape</td><td>Smooth, no corners; the theoretical limit as N &rarr; &infin; and i &rarr; 0</td></tr>
+<tr><td><b>Ogive (cumulative frequency curve)</b></td><td>Cumulative frequency plotted at the <i>upper real limit</i></td><td>Reading percentiles and the median straight off the graph</td><td>Always S-shaped and never decreasing. The score at 50% cumulative frequency is the median</td></tr>
+<tr><td><b>Pie chart</b></td><td>Proportions as sectors of a circle</td><td>Parts of a single whole, nominal data</td><td>Each 1% = 3.6&deg;</td></tr>
+<tr><td><b>Stem-and-leaf plot</b> (Tukey)</td><td>Leading digits as stems, trailing as leaves</td><td>Small datasets</td><td>Shows the shape <i>and</i> preserves every original value</td></tr>
+<tr><td><b>Box plot</b> (Tukey)</td><td>Five-number summary</td><td>Comparing groups, spotting outliers and skew</td><td>Built entirely from ranks, so extreme scores cannot distort it</td></tr>
+<tr><td><b>Scatterplot / scattergram</b></td><td>Paired X and Y values as points</td><td>Correlation and regression</td><td>The only honest way to see a relationship before computing r</td></tr>
+</table>
+
+<figure class="dia">
+<svg viewBox="0 0 760 280" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<rect x="297.4" y="87.0" width="146.4" height="46" fill="var(--accent)" fill-opacity="0.18" stroke="var(--accent)" stroke-width="1.8" rx="3"/>
+<line x1="370.6" y1="87.0" x2="370.6" y2="133.0" stroke="var(--bad)" stroke-width="2.6"/>
+<line x1="163.2" y1="110.0" x2="297.4" y2="110.0" stroke="var(--muted)" stroke-width="1.6"/>
+<line x1="443.8" y1="110.0" x2="626.8" y2="110.0" stroke="var(--muted)" stroke-width="1.6"/>
+<line x1="163.2" y1="96.0" x2="163.2" y2="124.0" stroke="var(--muted)" stroke-width="1.6"/>
+<line x1="626.8" y1="96.0" x2="626.8" y2="124.0" stroke="var(--muted)" stroke-width="1.6"/>
+<circle cx="675.6" cy="110" r="4" fill="none" stroke="var(--bad)" stroke-width="1.6"/>
+<circle cx="693.9" cy="110" r="4" fill="none" stroke="var(--bad)" stroke-width="1.6"/>
+<text x="163.2" y="156.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Lower whisker</text>
+<text x="163.2" y="170.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Q1 &#8722; 1.5&#215;IQR</text>
+<line x1="163.2" y1="136.0" x2="163.2" y2="144.0" stroke="var(--border)" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="297.4" y="68.0" font-size="11" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Q1 (25th %ile)</text>
+<line x1="297.4" y1="84.0" x2="297.4" y2="78.0" stroke="var(--border)" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="370.6" y="156.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Median (Q2)</text>
+<line x1="370.6" y1="136.0" x2="370.6" y2="144.0" stroke="var(--border)" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="443.8" y="68.0" font-size="11" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Q3 (75th %ile)</text>
+<line x1="443.8" y1="84.0" x2="443.8" y2="78.0" stroke="var(--border)" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="626.8" y="156.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Upper whisker</text>
+<text x="626.8" y="170.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Q3 + 1.5&#215;IQR</text>
+<line x1="626.8" y1="136.0" x2="626.8" y2="144.0" stroke="var(--border)" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="684.8" y="68.0" font-size="11" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Outliers</text>
+<line x1="684.8" y1="84.0" x2="684.8" y2="78.0" stroke="var(--border)" stroke-width="1" stroke-dasharray="2 3"/>
+<line x1="297.4" y1="190.0" x2="443.8" y2="190.0" stroke="#c2701a" stroke-width="2"/>
+<line x1="297.4" y1="185.0" x2="297.4" y2="195.0" stroke="#c2701a" stroke-width="2"/>
+<line x1="443.8" y1="185.0" x2="443.8" y2="195.0" stroke="#c2701a" stroke-width="2"/>
+<text x="370.6" y="206.0" font-size="11.5" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Interquartile range, IQR = Q3 &#8722; Q1 (semi-interquartile range or quartile deviation Q = IQR/2)</text>
+<text x="395.0" y="232.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Tukey's box-and-whisker plot. Everything in it is a rank statistic, so it is unaffected by extreme scores ,  that is why</text>
+<text x="395.0" y="249.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">it is paired with the median, not the mean.</text>
+</svg>
+<figcaption>Box plot (John Tukey, 1977): the five-number summary drawn.</figcaption></figure>
+
+
+<div class="rule"><b>Reading a box plot for skew:</b> if the median line sits nearer the bottom of the box and the upper whisker is longer, the distribution is positively skewed. Nearer the top with a longer lower whisker means negative skew. A centred median with equal whiskers means symmetry.</div>
+</div>

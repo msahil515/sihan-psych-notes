@@ -1,0 +1,326 @@
+<div class="nfe-article nb">
+<div class="focus">Entrance papers do not separate statistics from psychometrics. Reliability coefficients are correlations, item discrimination is a point-biserial, factor analysis is a correlation matrix decomposed, and norms are standard scores. This section is worth as much as ANOVA in most of these papers and is usually the least prepared.</div>
+
+<h3>15.1 Classical test theory, in one equation</h3>
+
+<div class="rule"><b>X = T + E</b>: every observed score (X) is the sum of a true score (T) and an error component (E). Errors are assumed to be random, to have a mean of zero across many testings, and to be uncorrelated with true scores. From this one model the whole of reliability theory follows.<br><br>
+<b>Reliability r<sub>xx</sub> = &sigma;&sup2;<sub>T</sub> / &sigma;&sup2;<sub>X</sub></b>: the proportion of observed-score variance that is true-score variance. It runs from 0 to 1, and it is a correlation, not a percentage.</div>
+
+<h3>15.2 Reliability: the five types</h3>
+
+<table class="t">
+<tr><th>Type</th><th>Procedure</th><th>Source of error it detects</th><th>Weakness</th></tr>
+<tr><td><b>Test-retest</b><br>(coefficient of stability)</td><td>Administer the same test to the same people on two occasions; correlate</td><td><b>Time sampling.</b> Instability over time</td><td>Carryover, practice and memory effects inflate it; real change deflates it. Interval matters: too short inflates, too long deflates</td></tr>
+<tr><td><b>Parallel / alternate / equivalent forms</b><br>(coefficient of equivalence)</td><td>Two equivalent forms of the test given to the same people; correlate</td><td><b>Content sampling.</b> Which particular items were chosen</td><td>Building two genuinely parallel forms (equal means, variances and intercorrelations) is expensive and often impossible. <b>Considered the strongest single method</b></td></tr>
+<tr><td><b>Split-half</b></td><td>Split into two halves (usually odd vs even items), correlate the halves, then correct with <b>Spearman&#8211;Brown</b></td><td><b>Content sampling</b>, from a single administration</td><td>The correlation is between two <b>half-length</b> tests, so it underestimates the full test's reliability. That is exactly what the Spearman&#8211;Brown correction repairs. Different splits give different answers</td></tr>
+<tr><td><b>Internal consistency</b><br>(Cronbach's alpha, KR-20, KR-21)</td><td>Computed from item variances in a single administration; equivalent to the mean of all possible split-halves</td><td><b>Content sampling and item heterogeneity</b></td><td>Depends on test length and on how homogeneous the items are. Alpha is <b>not</b> a measure of unidimensionality</td></tr>
+<tr><td><b>Inter-rater / inter-scorer</b><br>(coefficient of agreement)</td><td>Two or more raters score the same responses; compute <b>Cohen's kappa</b> (categorical) or the <b>intraclass correlation, ICC</b> (continuous)</td><td><b>Scorer variance</b></td><td>Essential for projectives, observational coding and clinical interviews; irrelevant for objectively scored tests</td></tr>
+</table>
+
+<div class="rule"><b>Formulas to know.</b><br>
+<b>Spearman&#8211;Brown prophecy:</b> r<sub>full</sub> = 2r<sub>half</sub> / (1 + r<sub>half</sub>). General form for changing test length by a factor of k: r<sub>new</sub> = kr / [1 + (k&minus;1)r]. This is the formula that answers "how many items must I add to reach reliability of .90?"<br>
+<b>Cronbach's alpha:</b> &alpha; = [k/(k&minus;1)][1 &minus; &Sigma;s&sup2;<sub>i</sub> / s&sup2;<sub>t</sub>], where k is the number of items.<br>
+<b>KR-20:</b> the special case of alpha for <b>dichotomously scored</b> items (right/wrong): [k/(k&minus;1)][1 &minus; &Sigma;pq / s&sup2;<sub>t</sub>].<br>
+<b>KR-21:</b> a quicker approximation to KR-20 that assumes all items are equally difficult; always gives a slightly lower value.<br>
+<b>Cohen's kappa:</b> &kappa; = (p<sub>o</sub> &minus; p<sub>e</sub>)/(1 &minus; p<sub>e</sub>), agreement corrected for chance agreement.</div>
+
+<div class="founder"><b>Lee J. Cronbach</b> published coefficient alpha in 1951; it is the most-cited paper in the history of psychometrics. <b>G. Frederic Kuder</b> and <b>Marion Richardson</b> published the KR formulas in 1937. <b>Charles Spearman</b> and <b>William Brown</b> independently derived the prophecy formula in 1910. <b>Jacob Cohen</b> gave us kappa in 1960, and the effect-size conventions in 1969.</div>
+
+<h4>Interpreting reliability</h4>
+<table class="t">
+<tr><th>Coefficient</th><th>Verdict</th><th>Use</th></tr>
+<tr><td>.90 and above</td><td>Excellent</td><td>Required for <b>individual clinical decisions</b> (IQ tests, diagnostic instruments)</td></tr>
+<tr><td>.80 to .89</td><td>Good</td><td>Acceptable for most research and for group comparisons</td></tr>
+<tr><td>.70 to .79</td><td>Acceptable</td><td>The usual minimum for a research scale</td></tr>
+<tr><td>Below .70</td><td>Questionable to unacceptable</td><td>Not usable for individual decisions</td></tr>
+</table>
+
+<div class="trap"><b>Two traps about alpha.</b> (1) <b>Alpha rises simply because a test is longer</b>, so a high alpha on a 60-item scale is much less impressive than the same value on a 10-item scale. (2) <b>A very high alpha (above .95) is a warning, not a triumph</b>: it usually means the items are near-redundant paraphrases of each other, which narrows construct coverage. Alpha also does <b>not</b> establish that a scale is unidimensional; only factor analysis can do that.</div>
+
+<h4>Standard error of measurement</h4>
+<div class="rule"><b>SEM = s&radic;(1 &minus; r<sub>xx</sub>)</b>, where s is the SD of the test and r<sub>xx</sub> its reliability. It is the standard deviation of the errors of measurement, so it tells you how much an individual's observed score would bounce around on repeated testing.<br><br>
+It is used to build a <b>confidence band</b> around a person's obtained score: <b>68%</b> band = X &plusmn; 1 SEM, <b>95%</b> band = X &plusmn; 1.96 SEM.<br><br>
+<b>Worked example:</b> WAIS-IV, SD = 15, reliability = .96. SEM = 15&radic;(1 &minus; .96) = 15(0.2) = <b>3.0</b>. An obtained IQ of 105 gives a 95% confidence band of 105 &plusmn; 5.88, that is <b>99 to 111</b>. This is the number that stops clinicians over-interpreting a 4-point difference between two testings.<br><br>
+Note the inverse relation: <b>as reliability rises, SEM falls</b>. Perfect reliability gives SEM = 0.</div>
+
+<h3>15.3 Validity</h3>
+
+<figure class="dia">
+<svg viewBox="0 0 900 300" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<circle cx="118" cy="105" r="72" fill="var(--accent)" fill-opacity="0.06" stroke="var(--border)" stroke-width="1"/>
+<circle cx="118" cy="105" r="50" fill="var(--accent)" fill-opacity="0.1" stroke="var(--border)" stroke-width="1"/>
+<circle cx="118" cy="105" r="28" fill="var(--accent)" fill-opacity="0.16" stroke="var(--border)" stroke-width="1"/>
+<circle cx="118" cy="105" r="10" fill="var(--bad)" fill-opacity="0.55" stroke="var(--border)" stroke-width="1"/>
+<circle cx="145.0" cy="81.8" r="3.4" fill="var(--bad)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="145.2" cy="87.9" r="3.4" fill="var(--bad)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="145.1" cy="72.5" r="3.4" fill="var(--bad)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="148.3" cy="81.1" r="3.4" fill="var(--bad)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="144.5" cy="83.8" r="3.4" fill="var(--bad)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="147.6" cy="91.1" r="3.4" fill="var(--bad)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="150.6" cy="83.8" r="3.4" fill="var(--bad)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="140.8" cy="75.9" r="3.4" fill="var(--bad)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="147.7" cy="92.2" r="3.4" fill="var(--bad)" stroke="var(--panel)" stroke-width="0.8"/>
+<text x="118.0" y="206.0" font-size="12" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Reliable but NOT valid</text>
+<text x="118.0" y="223.0" font-size="10.8" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">tight cluster, wrong place</text>
+<circle cx="340" cy="105" r="72" fill="var(--accent)" fill-opacity="0.06" stroke="var(--border)" stroke-width="1"/>
+<circle cx="340" cy="105" r="50" fill="var(--accent)" fill-opacity="0.1" stroke="var(--border)" stroke-width="1"/>
+<circle cx="340" cy="105" r="28" fill="var(--accent)" fill-opacity="0.16" stroke="var(--border)" stroke-width="1"/>
+<circle cx="340" cy="105" r="10" fill="var(--bad)" fill-opacity="0.55" stroke="var(--border)" stroke-width="1"/>
+<circle cx="341.2" cy="101.8" r="3.4" fill="#c2701a" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="356.0" cy="61.4" r="3.4" fill="#c2701a" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="330.6" cy="119.7" r="3.4" fill="#c2701a" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="366.2" cy="97.8" r="3.4" fill="#c2701a" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="351.3" cy="112.4" r="3.4" fill="#c2701a" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="363.5" cy="71.6" r="3.4" fill="#c2701a" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="357.0" cy="59.6" r="3.4" fill="#c2701a" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="261.4" cy="86.8" r="3.4" fill="#c2701a" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="312.5" cy="131.3" r="3.4" fill="#c2701a" stroke="var(--panel)" stroke-width="0.8"/>
+<text x="340.0" y="206.0" font-size="12" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Valid but NOT reliable</text>
+<text x="340.0" y="223.0" font-size="10.8" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">centred on target, scattered</text>
+<circle cx="562" cy="105" r="72" fill="var(--accent)" fill-opacity="0.06" stroke="var(--border)" stroke-width="1"/>
+<circle cx="562" cy="105" r="50" fill="var(--accent)" fill-opacity="0.1" stroke="var(--border)" stroke-width="1"/>
+<circle cx="562" cy="105" r="28" fill="var(--accent)" fill-opacity="0.16" stroke="var(--border)" stroke-width="1"/>
+<circle cx="562" cy="105" r="10" fill="var(--bad)" fill-opacity="0.55" stroke="var(--border)" stroke-width="1"/>
+<circle cx="610.6" cy="96.9" r="3.4" fill="var(--muted)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="615.7" cy="102.9" r="3.4" fill="var(--muted)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="589.6" cy="122.8" r="3.4" fill="var(--muted)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="595.2" cy="153.9" r="3.4" fill="var(--muted)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="609.9" cy="140.8" r="3.4" fill="var(--muted)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="610.2" cy="144.4" r="3.4" fill="var(--muted)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="574.4" cy="110.9" r="3.4" fill="var(--muted)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="578.8" cy="145.0" r="3.4" fill="var(--muted)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="585.0" cy="196.4" r="3.4" fill="var(--muted)" stroke="var(--panel)" stroke-width="0.8"/>
+<text x="562.0" y="206.0" font-size="12" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Neither</text>
+<text x="562.0" y="223.0" font-size="10.8" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">scattered and off-centre</text>
+<circle cx="784" cy="105" r="72" fill="var(--accent)" fill-opacity="0.06" stroke="var(--border)" stroke-width="1"/>
+<circle cx="784" cy="105" r="50" fill="var(--accent)" fill-opacity="0.1" stroke="var(--border)" stroke-width="1"/>
+<circle cx="784" cy="105" r="28" fill="var(--accent)" fill-opacity="0.16" stroke="var(--border)" stroke-width="1"/>
+<circle cx="784" cy="105" r="10" fill="var(--bad)" fill-opacity="0.55" stroke="var(--border)" stroke-width="1"/>
+<circle cx="778.3" cy="97.3" r="3.4" fill="var(--good)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="789.4" cy="115.0" r="3.4" fill="var(--good)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="787.5" cy="110.9" r="3.4" fill="var(--good)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="794.0" cy="104.3" r="3.4" fill="var(--good)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="774.0" cy="101.3" r="3.4" fill="var(--good)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="790.7" cy="94.9" r="3.4" fill="var(--good)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="784.2" cy="106.8" r="3.4" fill="var(--good)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="781.8" cy="110.1" r="3.4" fill="var(--good)" stroke="var(--panel)" stroke-width="0.8"/>
+<circle cx="788.1" cy="121.2" r="3.4" fill="var(--good)" stroke="var(--panel)" stroke-width="0.8"/>
+<text x="784.0" y="206.0" font-size="12" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Reliable AND valid</text>
+<text x="784.0" y="223.0" font-size="10.8" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">tight cluster on the bullseye</text>
+<text x="450.0" y="250.0" font-size="11.5" fill="var(--text)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Reliability = consistency (how tight the cluster is). Validity = accuracy (whether it is on the bullseye). A test can be reliable without being</text>
+<text x="450.0" y="267.0" font-size="11.5" fill="var(--text)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">valid, but it CANNOT be valid without being reliable ,  reliability caps validity at &#8730;r&#8347;&#8347;.</text>
+</svg>
+<figcaption>The target analogy for reliability and validity.</figcaption></figure>
+
+
+<p><b>Validity</b> is the degree to which a test measures what it claims to measure, and more precisely, the degree to which the <b>inferences drawn from the scores</b> are justified. Modern theory (Messick) treats it as a unitary concept with different lines of evidence, but exams still want the traditional types.</p>
+
+<table class="t">
+<tr><th>Type</th><th>Question</th><th>How it is established</th></tr>
+<tr><td><b>Face validity</b></td><td>Does it <i>look</i> like it measures the thing, to a lay test-taker?</td><td>Subjective inspection. <b>Not a real form of validity</b>, but it affects motivation and cooperation. Sometimes deliberately avoided, as in the MMPI's subtle items</td></tr>
+<tr><td><b>Content validity</b></td><td>Do the items adequately sample the whole domain?</td><td><b>Expert judgement</b> against a table of specifications or a syllabus blueprint. Central for achievement tests. Quantified by Lawshe's content validity ratio</td></tr>
+<tr><td><b>Criterion-related: concurrent</b></td><td>Does it agree with an established criterion measured <b>at the same time</b>?</td><td>Correlate with an existing accepted test or current diagnosis</td></tr>
+<tr><td><b>Criterion-related: predictive</b></td><td>Does it predict a criterion <b>in the future</b>?</td><td>Correlate with later outcome (entrance score with later course performance). The coefficient is the <b>validity coefficient</b></td></tr>
+<tr><td><b>Construct validity</b></td><td>Does it measure the theoretical construct it claims to?</td><td>The overarching type. Built from convergent and discriminant evidence, factor analysis, group differentiation, developmental change and experimental manipulation. Named by <b>Cronbach and Paul Meehl (1955)</b></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;<b>Convergent validity</b></td><td>Does it correlate <b>highly</b> with measures of the <i>same</i> construct?</td><td>Correlate with other measures of the same thing</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;<b>Discriminant (divergent) validity</b></td><td>Does it correlate <b>weakly</b> with measures of <i>different</i> constructs?</td><td>The <b>multitrait-multimethod matrix</b> of <b>Campbell and Fiske (1959)</b> tests convergent and discriminant evidence together</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;<b>Factorial validity</b></td><td>Does its factor structure match the theory?</td><td>Exploratory and confirmatory factor analysis</td></tr>
+<tr><td><b>Incremental validity</b></td><td>Does it add predictive power <b>over and above</b> existing measures?</td><td>Hierarchical regression: is &Delta;R&sup2; significant when it is entered last? The key question for any new clinical instrument</td></tr>
+<tr><td><b>Ecological validity</b></td><td>Do the results generalise to real-world settings?</td><td>Field replication</td></tr>
+<tr><td><b>Differential validity</b></td><td>Does it predict different criteria differently, and does it work equally well across subgroups?</td><td>Compare validity coefficients across groups; central to test bias and fairness</td></tr>
+</table>
+
+<div class="rule"><b>The relationship between reliability and validity, which is asked constantly.</b> Reliability is a <b>necessary but not sufficient</b> condition for validity. A test can be perfectly reliable and completely invalid (a bathroom scale that consistently reads 10 kg too high; measuring head circumference as an index of intelligence). But a test that is unreliable cannot be valid, because it is not consistently measuring anything at all. Quantitatively, <b>reliability sets the ceiling on validity</b>: the maximum possible validity coefficient is <b>&radic;r<sub>xx</sub></b>. So a test with reliability .64 can never correlate more than .80 with any criterion.</div>
+
+<div class="trap"><b>Threats to internal and external validity</b> (Campbell and Stanley, 1963) belong to research design rather than test theory, but papers mix them in. <b>Internal validity threats:</b> history, maturation, testing, instrumentation, statistical regression to the mean (Francis Galton), selection, experimental mortality (attrition), and selection-maturation interaction. <b>External validity threats:</b> interaction of selection and treatment, interaction of setting and treatment, interaction of testing and treatment, and multiple-treatment interference. Note that <b>statistical regression</b> appears on the internal list, which links straight back to section 13.</div>
+
+<h3>15.4 Item analysis</h3>
+
+<table class="t">
+<tr><th>Index</th><th>Formula</th><th>Range</th><th>Interpretation</th></tr>
+<tr><td><b>Item difficulty (p)</b></td><td>p = number who answered correctly / total number</td><td>0 to 1</td><td>Confusingly, a <b>higher p means an EASIER item</b>. Optimal p is about <b>.50</b> for maximum discrimination and variance; for a 4-option multiple-choice item the optimum is about .625, halfway between chance (.25) and 1.00. Keep a spread of difficulties across the test</td></tr>
+<tr><td><b>Item discrimination (D)</b></td><td>D = p<sub>upper</sub> &minus; p<sub>lower</sub>, using the top and bottom <b>27%</b> of scorers</td><td>&minus;1 to +1</td><td><b>.40 and above</b> = excellent; .30 to .39 = good; .20 to .29 = marginal, needs revision; <b>below .20 = reject or rewrite</b>. A <b>negative</b> D means poor scorers did better than good scorers, which signals a miskeyed or ambiguous item</td></tr>
+<tr><td><b>Item-total correlation</b></td><td>Point-biserial between the item (0/1) and the total score</td><td>&minus;1 to +1</td><td>The continuous version of D. Items below about .20 are dropped. Use the <b>corrected</b> item-total correlation, which excludes that item from the total</td></tr>
+<tr><td><b>Distractor analysis</b></td><td>The proportion choosing each wrong option</td><td>&#8211;</td><td>Every distractor should attract <b>someone</b>, and should attract more low scorers than high scorers. A distractor nobody selects is dead weight and should be replaced</td></tr>
+</table>
+
+<div class="why"><b>Why the top and bottom 27%?</b> Truman Kelley (1939) showed that 27% is the split that maximises the difference between the groups while keeping each group large enough to be stable. It is a genuine optimum, not an arbitrary convention, and knowing that is a nice detail to include.</div>
+
+<h4>Item response theory (IRT), also called latent trait theory</h4>
+
+<figure class="dia">
+<svg viewBox="0 0 794 300" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<line x1="75.0" y1="226.0" x2="515.0" y2="226.0" stroke="var(--muted)" stroke-width="1.4"/>
+<line x1="75.0" y1="26.0" x2="75.0" y2="226.0" stroke="var(--muted)" stroke-width="1.4"/>
+<path d="M 75.00,217.04 L 77.20,216.60 L 79.40,216.13 L 81.60,215.64 L 83.80,215.13 L 86.00,214.59 L 88.20,214.03 L 90.40,213.44 L 92.60,212.83 L 94.80,212.19 L 97.00,211.51 L 99.20,210.81 L 101.40,210.08 L 103.60,209.32 L 105.80,208.52 L 108.00,207.69 L 110.20,206.83 L 112.40,205.92 L 114.60,204.98 L 116.80,204.01 L 119.00,202.99 L 121.20,201.93 L 123.40,200.83 L 125.60,199.68 L 127.80,198.49 L 130.00,197.26 L 132.20,195.98 L 134.40,194.66 L 136.60,193.29 L 138.80,191.87 L 141.00,190.40 L 143.20,188.88 L 145.40,187.32 L 147.60,185.70 L 149.80,184.04 L 152.00,182.32 L 154.20,180.55 L 156.40,178.74 L 158.60,176.87 L 160.80,174.96 L 163.00,172.99 L 165.20,170.98 L 167.40,168.93 L 169.60,166.82 L 171.80,164.68 L 174.00,162.49 L 176.20,160.26 L 178.40,157.99 L 180.60,155.68 L 182.80,153.34 L 185.00,150.96 L 187.20,148.56 L 189.40,146.12 L 191.60,143.66 L 193.80,141.18 L 196.00,138.68 L 198.20,136.16 L 200.40,133.64 L 202.60,131.10 L 204.80,128.55 L 207.00,126.00 L 209.20,123.45 L 211.40,120.90 L 213.60,118.36 L 215.80,115.84 L 218.00,113.32 L 220.20,110.82 L 222.40,108.34 L 224.60,105.88 L 226.80,103.44 L 229.00,101.04 L 231.20,98.66 L 233.40,96.32 L 235.60,94.01 L 237.80,91.74 L 240.00,89.51 L 242.20,87.32 L 244.40,85.18 L 246.60,83.07 L 248.80,81.02 L 251.00,79.01 L 253.20,77.04 L 255.40,75.13 L 257.60,73.26 L 259.80,71.45 L 262.00,69.68 L 264.20,67.96 L 266.40,66.30 L 268.60,64.68 L 270.80,63.12 L 273.00,61.60 L 275.20,60.13 L 277.40,58.71 L 279.60,57.34 L 281.80,56.02 L 284.00,54.74 L 286.20,53.51 L 288.40,52.32 L 290.60,51.17 L 292.80,50.07 L 295.00,49.01 L 297.20,47.99 L 299.40,47.02 L 301.60,46.08 L 303.80,45.17 L 306.00,44.31 L 308.20,43.48 L 310.40,42.68 L 312.60,41.92 L 314.80,41.19 L 317.00,40.49 L 319.20,39.81 L 321.40,39.17 L 323.60,38.56 L 325.80,37.97 L 328.00,37.41 L 330.20,36.87 L 332.40,36.36 L 334.60,35.87 L 336.80,35.40 L 339.00,34.96 L 341.20,34.53 L 343.40,34.12 L 345.60,33.74 L 347.80,33.37 L 350.00,33.01 L 352.20,32.68 L 354.40,32.35 L 356.60,32.05 L 358.80,31.76 L 361.00,31.48 L 363.20,31.21 L 365.40,30.96 L 367.60,30.72 L 369.80,30.49 L 372.00,30.27 L 374.20,30.06 L 376.40,29.86 L 378.60,29.68 L 380.80,29.50 L 383.00,29.33 L 385.20,29.16 L 387.40,29.01 L 389.60,28.86 L 391.80,28.72 L 394.00,28.59 L 396.20,28.46 L 398.40,28.34 L 400.60,28.22 L 402.80,28.11 L 405.00,28.01 L 407.20,27.91 L 409.40,27.82 L 411.60,27.73 L 413.80,27.64 L 416.00,27.56 L 418.20,27.48 L 420.40,27.41 L 422.60,27.34 L 424.80,27.27 L 427.00,27.21 L 429.20,27.15 L 431.40,27.10 L 433.60,27.04 L 435.80,26.99 L 438.00,26.94 L 440.20,26.89 L 442.40,26.85 L 444.60,26.81 L 446.80,26.77 L 449.00,26.73 L 451.20,26.69 L 453.40,26.66 L 455.60,26.63 L 457.80,26.60 L 460.00,26.57 L 462.20,26.54 L 464.40,26.51 L 466.60,26.49 L 468.80,26.46 L 471.00,26.44 L 473.20,26.42 L 475.40,26.40 L 477.60,26.38 L 479.80,26.36 L 482.00,26.34 L 484.20,26.32 L 486.40,26.31 L 488.60,26.29 L 490.80,26.28 L 493.00,26.26 L 495.20,26.25 L 497.40,26.24 L 499.60,26.23 L 501.80,26.22 L 504.00,26.20 L 506.20,26.19 L 508.40,26.18 L 510.60,26.18 L 512.80,26.17 L 515.00,26.16" fill="none" stroke="#0f766e" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<path d="M 75.00,224.79 L 77.20,224.73 L 79.40,224.66 L 81.60,224.59 L 83.80,224.52 L 86.00,224.44 L 88.20,224.36 L 90.40,224.27 L 92.60,224.18 L 94.80,224.09 L 97.00,223.99 L 99.20,223.89 L 101.40,223.78 L 103.60,223.66 L 105.80,223.54 L 108.00,223.41 L 110.20,223.28 L 112.40,223.14 L 114.60,222.99 L 116.80,222.84 L 119.00,222.67 L 121.20,222.50 L 123.40,222.32 L 125.60,222.14 L 127.80,221.94 L 130.00,221.73 L 132.20,221.51 L 134.40,221.28 L 136.60,221.04 L 138.80,220.79 L 141.00,220.52 L 143.20,220.24 L 145.40,219.95 L 147.60,219.65 L 149.80,219.32 L 152.00,218.99 L 154.20,218.63 L 156.40,218.26 L 158.60,217.88 L 160.80,217.47 L 163.00,217.04 L 165.20,216.60 L 167.40,216.13 L 169.60,215.64 L 171.80,215.13 L 174.00,214.59 L 176.20,214.03 L 178.40,213.44 L 180.60,212.83 L 182.80,212.19 L 185.00,211.51 L 187.20,210.81 L 189.40,210.08 L 191.60,209.32 L 193.80,208.52 L 196.00,207.69 L 198.20,206.83 L 200.40,205.92 L 202.60,204.98 L 204.80,204.01 L 207.00,202.99 L 209.20,201.93 L 211.40,200.83 L 213.60,199.68 L 215.80,198.49 L 218.00,197.26 L 220.20,195.98 L 222.40,194.66 L 224.60,193.29 L 226.80,191.87 L 229.00,190.40 L 231.20,188.88 L 233.40,187.32 L 235.60,185.70 L 237.80,184.04 L 240.00,182.32 L 242.20,180.55 L 244.40,178.74 L 246.60,176.87 L 248.80,174.96 L 251.00,172.99 L 253.20,170.98 L 255.40,168.93 L 257.60,166.82 L 259.80,164.68 L 262.00,162.49 L 264.20,160.26 L 266.40,157.99 L 268.60,155.68 L 270.80,153.34 L 273.00,150.96 L 275.20,148.56 L 277.40,146.12 L 279.60,143.66 L 281.80,141.18 L 284.00,138.68 L 286.20,136.16 L 288.40,133.64 L 290.60,131.10 L 292.80,128.55 L 295.00,126.00 L 297.20,123.45 L 299.40,120.90 L 301.60,118.36 L 303.80,115.84 L 306.00,113.32 L 308.20,110.82 L 310.40,108.34 L 312.60,105.88 L 314.80,103.44 L 317.00,101.04 L 319.20,98.66 L 321.40,96.32 L 323.60,94.01 L 325.80,91.74 L 328.00,89.51 L 330.20,87.32 L 332.40,85.18 L 334.60,83.07 L 336.80,81.02 L 339.00,79.01 L 341.20,77.04 L 343.40,75.13 L 345.60,73.26 L 347.80,71.45 L 350.00,69.68 L 352.20,67.96 L 354.40,66.30 L 356.60,64.68 L 358.80,63.12 L 361.00,61.60 L 363.20,60.13 L 365.40,58.71 L 367.60,57.34 L 369.80,56.02 L 372.00,54.74 L 374.20,53.51 L 376.40,52.32 L 378.60,51.17 L 380.80,50.07 L 383.00,49.01 L 385.20,47.99 L 387.40,47.02 L 389.60,46.08 L 391.80,45.17 L 394.00,44.31 L 396.20,43.48 L 398.40,42.68 L 400.60,41.92 L 402.80,41.19 L 405.00,40.49 L 407.20,39.81 L 409.40,39.17 L 411.60,38.56 L 413.80,37.97 L 416.00,37.41 L 418.20,36.87 L 420.40,36.36 L 422.60,35.87 L 424.80,35.40 L 427.00,34.96 L 429.20,34.53 L 431.40,34.12 L 433.60,33.74 L 435.80,33.37 L 438.00,33.01 L 440.20,32.68 L 442.40,32.35 L 444.60,32.05 L 446.80,31.76 L 449.00,31.48 L 451.20,31.21 L 453.40,30.96 L 455.60,30.72 L 457.80,30.49 L 460.00,30.27 L 462.20,30.06 L 464.40,29.86 L 466.60,29.68 L 468.80,29.50 L 471.00,29.33 L 473.20,29.16 L 475.40,29.01 L 477.60,28.86 L 479.80,28.72 L 482.00,28.59 L 484.20,28.46 L 486.40,28.34 L 488.60,28.22 L 490.80,28.11 L 493.00,28.01 L 495.20,27.91 L 497.40,27.82 L 499.60,27.73 L 501.80,27.64 L 504.00,27.56 L 506.20,27.48 L 508.40,27.41 L 510.60,27.34 L 512.80,27.27 L 515.00,27.21" fill="none" stroke="var(--accent)" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<path d="M 75.00,226.00 L 77.20,226.00 L 79.40,226.00 L 81.60,226.00 L 83.80,226.00 L 86.00,226.00 L 88.20,226.00 L 90.40,226.00 L 92.60,226.00 L 94.80,226.00 L 97.00,226.00 L 99.20,226.00 L 101.40,226.00 L 103.60,226.00 L 105.80,226.00 L 108.00,226.00 L 110.20,226.00 L 112.40,226.00 L 114.60,225.99 L 116.80,225.99 L 119.00,225.99 L 121.20,225.99 L 123.40,225.99 L 125.60,225.99 L 127.80,225.99 L 130.00,225.99 L 132.20,225.99 L 134.40,225.99 L 136.60,225.99 L 138.80,225.99 L 141.00,225.99 L 143.20,225.98 L 145.40,225.98 L 147.60,225.98 L 149.80,225.98 L 152.00,225.98 L 154.20,225.98 L 156.40,225.97 L 158.60,225.97 L 160.80,225.97 L 163.00,225.97 L 165.20,225.96 L 167.40,225.96 L 169.60,225.96 L 171.80,225.95 L 174.00,225.95 L 176.20,225.94 L 178.40,225.94 L 180.60,225.93 L 182.80,225.93 L 185.00,225.92 L 187.20,225.91 L 189.40,225.90 L 191.60,225.89 L 193.80,225.88 L 196.00,225.87 L 198.20,225.86 L 200.40,225.85 L 202.60,225.84 L 204.80,225.82 L 207.00,225.81 L 209.20,225.79 L 211.40,225.77 L 213.60,225.75 L 215.80,225.73 L 218.00,225.70 L 220.20,225.67 L 222.40,225.64 L 224.60,225.61 L 226.80,225.58 L 229.00,225.54 L 231.20,225.50 L 233.40,225.45 L 235.60,225.40 L 237.80,225.35 L 240.00,225.29 L 242.20,225.22 L 244.40,225.15 L 246.60,225.08 L 248.80,225.00 L 251.00,224.90 L 253.20,224.81 L 255.40,224.70 L 257.60,224.58 L 259.80,224.45 L 262.00,224.32 L 264.20,224.16 L 266.40,224.00 L 268.60,223.82 L 270.80,223.63 L 273.00,223.41 L 275.20,223.18 L 277.40,222.93 L 279.60,222.66 L 281.80,222.36 L 284.00,222.04 L 286.20,221.69 L 288.40,221.31 L 290.60,220.89 L 292.80,220.44 L 295.00,219.95 L 297.20,219.42 L 299.40,218.85 L 301.60,218.23 L 303.80,217.55 L 306.00,216.82 L 308.20,216.03 L 310.40,215.18 L 312.60,214.26 L 314.80,213.26 L 317.00,212.19 L 319.20,211.03 L 321.40,209.78 L 323.60,208.44 L 325.80,207.00 L 328.00,205.46 L 330.20,203.80 L 332.40,202.04 L 334.60,200.15 L 336.80,198.13 L 339.00,195.98 L 341.20,193.71 L 343.40,191.29 L 345.60,188.73 L 347.80,186.03 L 350.00,183.18 L 352.20,180.19 L 354.40,177.06 L 356.60,173.79 L 358.80,170.37 L 361.00,166.82 L 363.20,163.15 L 365.40,159.35 L 367.60,155.45 L 369.80,151.44 L 372.00,147.34 L 374.20,143.17 L 376.40,138.93 L 378.60,134.65 L 380.80,130.33 L 383.00,126.00 L 385.20,121.67 L 387.40,117.35 L 389.60,113.07 L 391.80,108.83 L 394.00,104.66 L 396.20,100.56 L 398.40,96.55 L 400.60,92.65 L 402.80,88.85 L 405.00,85.18 L 407.20,81.63 L 409.40,78.21 L 411.60,74.94 L 413.80,71.81 L 416.00,68.82 L 418.20,65.97 L 420.40,63.27 L 422.60,60.71 L 424.80,58.29 L 427.00,56.02 L 429.20,53.87 L 431.40,51.85 L 433.60,49.96 L 435.80,48.20 L 438.00,46.54 L 440.20,45.00 L 442.40,43.56 L 444.60,42.22 L 446.80,40.97 L 449.00,39.81 L 451.20,38.74 L 453.40,37.74 L 455.60,36.82 L 457.80,35.97 L 460.00,35.18 L 462.20,34.45 L 464.40,33.77 L 466.60,33.15 L 468.80,32.58 L 471.00,32.05 L 473.20,31.56 L 475.40,31.11 L 477.60,30.69 L 479.80,30.31 L 482.00,29.96 L 484.20,29.64 L 486.40,29.34 L 488.60,29.07 L 490.80,28.82 L 493.00,28.59 L 495.20,28.37 L 497.40,28.18 L 499.60,28.00 L 501.80,27.84 L 504.00,27.68 L 506.20,27.55 L 508.40,27.42 L 510.60,27.30 L 512.80,27.19 L 515.00,27.10" fill="none" stroke="#7c3aed" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<path d="M 75.00,165.14 L 77.20,164.88 L 79.40,164.61 L 81.60,164.34 L 83.80,164.06 L 86.00,163.78 L 88.20,163.49 L 90.40,163.19 L 92.60,162.89 L 94.80,162.58 L 97.00,162.27 L 99.20,161.95 L 101.40,161.62 L 103.60,161.28 L 105.80,160.94 L 108.00,160.59 L 110.20,160.24 L 112.40,159.87 L 114.60,159.50 L 116.80,159.13 L 119.00,158.74 L 121.20,158.35 L 123.40,157.95 L 125.60,157.54 L 127.80,157.12 L 130.00,156.69 L 132.20,156.26 L 134.40,155.82 L 136.60,155.37 L 138.80,154.91 L 141.00,154.45 L 143.20,153.97 L 145.40,153.49 L 147.60,153.00 L 149.80,152.50 L 152.00,151.99 L 154.20,151.47 L 156.40,150.94 L 158.60,150.40 L 160.80,149.86 L 163.00,149.30 L 165.20,148.74 L 167.40,148.16 L 169.60,147.58 L 171.80,146.99 L 174.00,146.39 L 176.20,145.78 L 178.40,145.16 L 180.60,144.53 L 182.80,143.89 L 185.00,143.24 L 187.20,142.58 L 189.40,141.92 L 191.60,141.24 L 193.80,140.55 L 196.00,139.86 L 198.20,139.15 L 200.40,138.44 L 202.60,137.72 L 204.80,136.99 L 207.00,136.25 L 209.20,135.50 L 211.40,134.74 L 213.60,133.97 L 215.80,133.20 L 218.00,132.41 L 220.20,131.62 L 222.40,130.82 L 224.60,130.01 L 226.80,129.19 L 229.00,128.37 L 231.20,127.53 L 233.40,126.69 L 235.60,125.84 L 237.80,124.99 L 240.00,124.13 L 242.20,123.26 L 244.40,122.38 L 246.60,121.50 L 248.80,120.61 L 251.00,119.72 L 253.20,118.82 L 255.40,117.92 L 257.60,117.01 L 259.80,116.09 L 262.00,115.17 L 264.20,114.25 L 266.40,113.32 L 268.60,112.39 L 270.80,111.45 L 273.00,110.51 L 275.20,109.57 L 277.40,108.62 L 279.60,107.68 L 281.80,106.73 L 284.00,105.77 L 286.20,104.82 L 288.40,103.87 L 290.60,102.91 L 292.80,101.96 L 295.00,101.00 L 297.20,100.04 L 299.40,99.09 L 301.60,98.13 L 303.80,97.18 L 306.00,96.23 L 308.20,95.27 L 310.40,94.32 L 312.60,93.38 L 314.80,92.43 L 317.00,91.49 L 319.20,90.55 L 321.40,89.61 L 323.60,88.68 L 325.80,87.75 L 328.00,86.83 L 330.20,85.91 L 332.40,84.99 L 334.60,84.08 L 336.80,83.18 L 339.00,82.28 L 341.20,81.39 L 343.40,80.50 L 345.60,79.62 L 347.80,78.74 L 350.00,77.87 L 352.20,77.01 L 354.40,76.16 L 356.60,75.31 L 358.80,74.47 L 361.00,73.63 L 363.20,72.81 L 365.40,71.99 L 367.60,71.18 L 369.80,70.38 L 372.00,69.59 L 374.20,68.80 L 376.40,68.03 L 378.60,67.26 L 380.80,66.50 L 383.00,65.75 L 385.20,65.01 L 387.40,64.28 L 389.60,63.56 L 391.80,62.85 L 394.00,62.14 L 396.20,61.45 L 398.40,60.76 L 400.60,60.08 L 402.80,59.42 L 405.00,58.76 L 407.20,58.11 L 409.40,57.47 L 411.60,56.84 L 413.80,56.22 L 416.00,55.61 L 418.20,55.01 L 420.40,54.42 L 422.60,53.84 L 424.80,53.26 L 427.00,52.70 L 429.20,52.14 L 431.40,51.60 L 433.60,51.06 L 435.80,50.53 L 438.00,50.01 L 440.20,49.50 L 442.40,49.00 L 444.60,48.51 L 446.80,48.03 L 449.00,47.55 L 451.20,47.09 L 453.40,46.63 L 455.60,46.18 L 457.80,45.74 L 460.00,45.31 L 462.20,44.88 L 464.40,44.46 L 466.60,44.05 L 468.80,43.65 L 471.00,43.26 L 473.20,42.87 L 475.40,42.50 L 477.60,42.13 L 479.80,41.76 L 482.00,41.41 L 484.20,41.06 L 486.40,40.72 L 488.60,40.38 L 490.80,40.05 L 493.00,39.73 L 495.20,39.42 L 497.40,39.11 L 499.60,38.81 L 501.80,38.51 L 504.00,38.22 L 506.20,37.94 L 508.40,37.66 L 510.60,37.39 L 512.80,37.12 L 515.00,36.86" fill="none" stroke="#c2701a" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<line x1="75.0" y1="126.0" x2="515.0" y2="126.0" stroke="var(--border)" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="75.0" y="242.0" font-size="10.5" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">-3</text>
+<text x="148.3" y="242.0" font-size="10.5" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">-2</text>
+<text x="221.7" y="242.0" font-size="10.5" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">-1</text>
+<text x="295.0" y="242.0" font-size="10.5" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">0</text>
+<text x="368.3" y="242.0" font-size="10.5" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">+1</text>
+<text x="441.7" y="242.0" font-size="10.5" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">+2</text>
+<text x="515.0" y="242.0" font-size="10.5" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">+3</text>
+<text x="67.0" y="230.0" font-size="10.5" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">0.0</text>
+<text x="67.0" y="130.0" font-size="10.5" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">0.5</text>
+<text x="67.0" y="30.0" font-size="10.5" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">1.0</text>
+<text x="295.0" y="262.0" font-size="11.5" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">&#952; (ability / trait level, in z units)</text>
+<text x="35" y="126.0" font-size="11.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),sans-serif" transform="rotate(-90 35 126.0)">P(correct)</text>
+<line x1="539.0" y1="46.0" x2="561.0" y2="46.0" stroke="#0f766e" stroke-width="2.6"/>
+<text x="567.0" y="50.0" font-size="11" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Item A</text>
+<text x="567.0" y="64.0" font-size="10" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif"></text>
+<line x1="539.0" y1="68.0" x2="561.0" y2="68.0" stroke="var(--accent)" stroke-width="2.6"/>
+<text x="567.0" y="72.0" font-size="11" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Item B</text>
+<text x="567.0" y="86.0" font-size="10" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif"></text>
+<line x1="539.0" y1="90.0" x2="561.0" y2="90.0" stroke="#7c3aed" stroke-width="2.6"/>
+<text x="567.0" y="94.0" font-size="11" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Item C</text>
+<text x="567.0" y="108.0" font-size="10" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif"></text>
+<line x1="539.0" y1="112.0" x2="561.0" y2="112.0" stroke="#c2701a" stroke-width="2.6"/>
+<text x="567.0" y="116.0" font-size="11" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Item D</text>
+<text x="567.0" y="130.0" font-size="10" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif"></text>
+<text x="539.0" y="150.0" font-size="10.6" fill="var(--text)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">b = difficulty: where the curve sits left&#8211;right</text>
+<text x="539.0" y="169.0" font-size="10.6" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">     (&#952; at which P = .50)</text>
+<text x="539.0" y="188.0" font-size="10.6" fill="var(--text)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">a = discrimination: how steep it is</text>
+<text x="539.0" y="207.0" font-size="10.6" fill="var(--text)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">c = guessing: where the curve floors</text>
+<text x="539.0" y="226.0" font-size="10.6" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif"></text>
+<text x="539.0" y="245.0" font-size="10.6" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">1PL / Rasch: b only</text>
+<text x="539.0" y="264.0" font-size="10.6" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">2PL: a and b &#183; 3PL: a, b and c</text>
+</svg>
+<figcaption>Item characteristic curves: classical item difficulty and discrimination redrawn in item response theory.</figcaption></figure>
+
+
+<table class="t">
+<tr><th></th><th>Classical test theory (CTT)</th><th>Item response theory (IRT)</th></tr>
+<tr><td>Focus</td><td>The <b>whole test</b> score</td><td>The <b>individual item</b></td></tr>
+<tr><td>Item statistics</td><td><b>Sample dependent</b>: item difficulty changes with the group tested</td><td><b>Sample invariant</b>: item parameters are on the same scale as ability</td></tr>
+<tr><td>Ability estimate</td><td>Test dependent: a score means something only relative to that test</td><td>Test-free: &theta; is comparable across different sets of items</td></tr>
+<tr><td>Error</td><td>One SEM for the whole test</td><td>Error varies with ability level (the test information function)</td></tr>
+<tr><td>Models</td><td>&#8211;</td><td><b>1PL / Rasch</b>: difficulty (b) only. <b>2PL</b>: difficulty and discrimination (a). <b>3PL</b>: adds a guessing parameter (c)</td></tr>
+<tr><td>Application</td><td>Traditional paper tests</td><td><b>Computer adaptive testing</b>, item banking, differential item functioning (test bias) analysis</td></tr>
+</table>
+
+<div class="founder">The <b>Rasch model</b> is named for the Danish mathematician <b>Georg Rasch</b> (1960). <b>Frederic Lord</b> and <b>Melvin Novick</b> (1968) wrote the foundational text of modern test theory. In an item characteristic curve, <b>b</b> is the point on the ability scale where the probability of a correct answer is .50 (difficulty, left-right position), <b>a</b> is the steepness at that point (discrimination), and <b>c</b> is the lower asymptote (pseudo-guessing).</div>
+
+<h3>15.5 Factor analysis</h3>
+
+<p><b>Purpose:</b> to reduce a large set of correlated variables to a small number of underlying dimensions (factors) that explain the pattern of correlations among them. It answers "how many things is this scale actually measuring?"</p>
+
+<div class="founder"><b>Charles Spearman</b> invented factor analysis in 1904 and used it to argue for <b>g</b>, the general factor of intelligence (his two-factor theory: g plus specific factors s). <b>L. L. Thurstone</b> developed multiple factor analysis and centroid extraction, proposed the seven <b>primary mental abilities</b>, and introduced <b>simple structure</b> and rotation. <b>Raymond Cattell</b> gave us the scree test, and applied factor analysis to build the <b>16PF</b>. <b>Henry Kaiser</b> gave us the eigenvalue-greater-than-one rule, <b>varimax</b> rotation, and (with Meyer and Olkin) the <b>KMO</b> sampling adequacy measure.</div>
+
+<h4>The steps</h4>
+<ol class="steps">
+  <li><b>Check that the data are factorable.</b> <b>Bartlett's test of sphericity</b> must be <b>significant</b> (it tests whether the correlation matrix is an identity matrix, and you need it <i>not</i> to be). The <b>Kaiser&#8211;Meyer&#8211;Olkin (KMO)</b> measure of sampling adequacy should be at least .60, and preferably above .80. Note that Bartlett's test of sphericity here is a different test from Bartlett's test of homogeneity of variance, and papers exploit that.</li>
+  <li><b>Extract the factors.</b> <b>Principal components analysis (PCA)</b> analyses <i>total</i> variance and is technically a data-reduction method, not a factor model. <b>Principal axis factoring (PAF)</b> and <b>maximum likelihood</b> analyse only the <i>shared (common)</i> variance and are true factor analysis. Others: centroid (Thurstone), image, alpha factoring.</li>
+  <li><b>Decide how many factors to retain.</b> <b>Kaiser criterion:</b> retain factors with eigenvalue greater than 1.0 (tends to over-extract). <b>Cattell's scree test:</b> retain the factors above the elbow. <b>Horn's parallel analysis:</b> retain factors whose eigenvalues beat those from random data of the same size, which is the most accurate method. Or retain enough to explain a target percentage of variance (often 60% or more).</li>
+  <li><b>Rotate</b> to achieve <b>simple structure</b> (Thurstone): each variable loading strongly on one factor and near zero on the others, so the solution is interpretable. Rotation does not change the total variance explained, only how it is distributed among factors.</li>
+  <li><b>Interpret and name</b> the factors from the variables that load highly on them (a loading of .30 or .40 is the usual cut-off).</li>
+</ol>
+
+<figure class="dia">
+<svg viewBox="0 0 816 300" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<line x1="75.0" y1="230.0" x2="555.0" y2="230.0" stroke="var(--muted)" stroke-width="1.4"/>
+<line x1="75.0" y1="30.0" x2="75.0" y2="230.0" stroke="var(--muted)" stroke-width="1.4"/>
+<line x1="75.0" y1="198.8" x2="555.0" y2="198.8" stroke="var(--bad)" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="551.0" y="191.8" font-size="11" fill="var(--bad)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Kaiser criterion: eigenvalue = 1</text>
+<path d="M 97.00,48.75 L 137.00,139.38 L 177.00,180.00 L 217.00,207.50 L 257.00,211.88 L 297.00,215.31 L 337.00,217.19 L 377.00,219.38 L 417.00,221.25 L 457.00,223.12 L 497.00,224.38 L 537.00,225.62" fill="none" stroke="var(--accent)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<circle cx="97.0" cy="48.8" r="3.6" fill="var(--accent)"/>
+<text x="97.0" y="246.0" font-size="10" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">1</text>
+<circle cx="137.0" cy="139.4" r="3.6" fill="var(--accent)"/>
+<text x="137.0" y="246.0" font-size="10" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">2</text>
+<circle cx="177.0" cy="180.0" r="3.6" fill="var(--accent)"/>
+<text x="177.0" y="246.0" font-size="10" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">3</text>
+<circle cx="217.0" cy="207.5" r="3.6" fill="var(--accent)"/>
+<text x="217.0" y="246.0" font-size="10" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">4</text>
+<circle cx="257.0" cy="211.9" r="3.6" fill="var(--accent)"/>
+<text x="257.0" y="246.0" font-size="10" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">5</text>
+<circle cx="297.0" cy="215.3" r="3.6" fill="var(--accent)"/>
+<text x="297.0" y="246.0" font-size="10" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">6</text>
+<circle cx="337.0" cy="217.2" r="3.6" fill="var(--accent)"/>
+<text x="337.0" y="246.0" font-size="10" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">7</text>
+<circle cx="377.0" cy="219.4" r="3.6" fill="var(--accent)"/>
+<text x="377.0" y="246.0" font-size="10" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">8</text>
+<circle cx="417.0" cy="221.2" r="3.6" fill="var(--accent)"/>
+<text x="417.0" y="246.0" font-size="10" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">9</text>
+<circle cx="457.0" cy="223.1" r="3.6" fill="var(--accent)"/>
+<text x="457.0" y="246.0" font-size="10" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">10</text>
+<circle cx="497.0" cy="224.4" r="3.6" fill="var(--accent)"/>
+<text x="497.0" y="246.0" font-size="10" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">11</text>
+<circle cx="537.0" cy="225.6" r="3.6" fill="var(--accent)"/>
+<text x="537.0" y="246.0" font-size="10" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">12</text>
+<circle cx="177.0" cy="180.0" r="9" fill="none" stroke="var(--good)" stroke-width="2"/>
+<text x="191.0" y="168.0" font-size="11" fill="var(--good)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">the elbow: keep the factors ABOVE it (3 here)</text>
+<text x="67.0" y="234.0" font-size="10.5" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">0</text>
+<text x="67.0" y="171.5" font-size="10.5" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">2</text>
+<text x="67.0" y="109.0" font-size="10.5" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">4</text>
+<text x="67.0" y="46.5" font-size="10.5" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">6</text>
+<text x="315.0" y="266.0" font-size="11.5" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">factor / component number</text>
+<text x="37" y="130.0" font-size="11.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),sans-serif" transform="rotate(-90 37 130.0)">eigenvalue</text>
+<text x="579.0" y="50.0" font-size="11" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Eigenvalue = variance a factor explains,</text>
+<text x="579.0" y="70.0" font-size="11" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">in units of one variable's variance.</text>
+<text x="579.0" y="90.0" font-size="11" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif"></text>
+<text x="579.0" y="110.0" font-size="11" fill="var(--text)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Kaiser&#8211;Guttman: retain eigenvalue &gt; 1.</text>
+<text x="579.0" y="130.0" font-size="11" fill="var(--text)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Cattell's scree test: retain everything</text>
+<text x="579.0" y="150.0" font-size="11" fill="var(--text)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">above the elbow (the scree = rubble).</text>
+<text x="579.0" y="170.0" font-size="11" fill="var(--text)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Horn's parallel analysis: retain factors</text>
+<text x="579.0" y="190.0" font-size="11" fill="var(--text)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">beating random-data eigenvalues.</text>
+<text x="579.0" y="210.0" font-size="11" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif"></text>
+<text x="579.0" y="230.0" font-size="11" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Kaiser over-extracts, scree is subjective,</text>
+<text x="579.0" y="250.0" font-size="11" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">parallel analysis is the accurate one.</text>
+</svg>
+<figcaption>Cattell's scree plot: deciding how many factors to keep.</figcaption></figure>
+
+
+<table class="t">
+<tr><th>Rotation family</th><th>Methods</th><th>Assumes</th><th>Use when</th></tr>
+<tr><td><b>Orthogonal</b></td><td><b>Varimax</b> (maximises the variance of squared loadings within each factor: the most common), <b>quartimax</b> (simplifies the variables), <b>equamax</b> (a compromise)</td><td>Factors are <b>uncorrelated</b> (at 90&deg;)</td><td>You want clean, independent dimensions and easy interpretation</td></tr>
+<tr><td><b>Oblique</b></td><td><b>Direct oblimin</b>, <b>promax</b></td><td>Factors <b>may correlate</b></td><td>Psychological constructs, which almost always do correlate. Produces a <b>pattern matrix</b> (unique contributions, used for interpretation) and a <b>structure matrix</b> (correlations including shared variance)</td></tr>
+</table>
+
+<table class="t">
+<tr><th>Term</th><th>Meaning</th></tr>
+<tr><td><b>Factor loading</b></td><td>The correlation between a variable and a factor. Squared, it is the proportion of that variable's variance explained by the factor</td></tr>
+<tr><td><b>Eigenvalue</b></td><td>The total variance explained by a factor, expressed in units of one variable's variance. Sum of the squared loadings down a column</td></tr>
+<tr><td><b>Communality (h&sup2;)</b></td><td>The proportion of a <b>variable's</b> variance explained by all the retained factors. Sum of the squared loadings across a row</td></tr>
+<tr><td><b>Uniqueness</b></td><td>1 &minus; h&sup2;: the variance specific to that variable plus its error</td></tr>
+<tr><td><b>Factor score</b></td><td>An individual's estimated standing on a factor</td></tr>
+<tr><td><b>Simple structure</b></td><td>Thurstone's criterion for an interpretable solution: high loadings on one factor, near-zero on the rest</td></tr>
+</table>
+
+<div class="rule"><b>EFA versus CFA.</b> <b>Exploratory factor analysis</b> asks "what structure is in these data?", imposes no prior model, and lets every variable load on every factor. <b>Confirmatory factor analysis</b> tests a <b>pre-specified</b> model, fixes most cross-loadings at zero, and reports fit indices (&chi;&sup2;, CFI and TLI above .95, RMSEA below .06, SRMR below .08). CFA is the measurement half of structural equation modelling. Use EFA when developing a scale, CFA when validating it in a new sample.</div>
+
+<div class="rule"><b>Sample size for factor analysis:</b> commonly cited rules are at least <b>10 cases per variable</b> and an absolute minimum of about <b>200 to 300 cases</b>. Comrey and Lee's scale is quotable: 100 poor, 200 fair, 300 good, 500 very good, 1000 excellent.</div>
+
+<h3>15.6 Standardisation and norms</h3>
+
+<p><b>Standardisation</b> has two meanings, and papers use both. (1) <b>Uniformity of procedure:</b> identical instructions, materials, time limits and scoring for every test-taker, so that differences in scores reflect differences in the person and not in the administration. (2) <b>Establishing norms:</b> administering the test to a large, representative <b>standardisation sample</b> so that individual scores can be interpreted against the group.</p>
+
+<h4>Steps in constructing and standardising a test</h4>
+<ol class="steps">
+  <li><b>Define the construct</b> and plan the test, producing a <b>table of specifications</b> (a blueprint of content areas by cognitive level).</li>
+  <li><b>Write the item pool</b>, usually two to three times more items than the final test needs.</li>
+  <li><b>Expert review</b> for content validity, clarity, and cultural or gender bias.</li>
+  <li><b>Pilot / try-out</b> on a sample resembling the target population.</li>
+  <li><b>Item analysis:</b> compute difficulty, discrimination and item-total correlations; run distractor analysis; drop and revise items.</li>
+  <li><b>Assemble the final form</b>, ordering items from easy to difficult and balancing content.</li>
+  <li><b>Standardisation:</b> administer to a large representative sample and develop <b>norms</b>.</li>
+  <li><b>Establish reliability and validity</b> on that data.</li>
+  <li><b>Write the manual:</b> administration, scoring, norms tables, reliability and validity evidence, and the limits of interpretation.</li>
+</ol>
+
+<h4>Types of norms</h4>
+<table class="t">
+<tr><th>Norm</th><th>Meaning</th><th>Caution</th></tr>
+<tr><td><b>Age norms</b></td><td>The typical performance of each age group. Gives a <b>mental age</b> (Alfred Binet's original device)</td><td>Assumes steady growth with age, so it breaks down after adolescence</td></tr>
+<tr><td><b>Grade norms</b></td><td>Typical performance at each school grade</td><td>Meaningful only for subjects taught in a fixed sequence; grade-equivalent scores are widely misread</td></tr>
+<tr><td><b>Percentile norms</b></td><td>Percentage of the norm group scoring below a given raw score</td><td>Easy to explain, but <b>ordinal</b>: unequal units, compressed at the centre. Do not average them</td></tr>
+<tr><td><b>Standard score norms</b></td><td>z, T, deviation IQ, stanine, sten</td><td>Equal units, so arithmetic is legitimate. The preferred form</td></tr>
+<tr><td><b>Local norms</b></td><td>Built on the specific institution or region using the test</td><td>Often more relevant than national norms for selection decisions</td></tr>
+</table>
+
+<div class="rule"><b>Norm-referenced vs criterion-referenced.</b> A <b>norm-referenced</b> test compares a person to other people, and must therefore spread people out (items of about .50 difficulty, high variance). Examples: IQ tests, entrance examinations. A <b>criterion-referenced</b> test compares a person to a fixed standard of mastery regardless of what others scored, and can legitimately produce a distribution where everybody passes. Examples: a driving test, a licensing examination, a mastery test in school. Almost every entrance you are sitting is norm-referenced, which is why your <i>rank</i> matters more than your raw score.</div>
+
+<div class="warn"><b>The Flynn effect and why norms expire.</b> IQ scores in the standardisation population rose by roughly 3 points per decade through the twentieth century (James Flynn). This means an old norm table makes people look smarter than they are, which matters most at diagnostic cut-offs for intellectual disability. Norms must be periodically re-established, which is why tests are revised (WAIS to WAIS-R to WAIS-III to WAIS-IV to WAIS-5). Naming the Flynn effect when asked why tests are restandardised is a strong answer.</div>
+</div>

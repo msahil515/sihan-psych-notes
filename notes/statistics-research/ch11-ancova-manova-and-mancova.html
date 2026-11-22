@@ -1,0 +1,78 @@
+<div class="nfe-article nb">
+<h3>11.1 The family, in one table</h3>
+
+<table class="t">
+<tr><th>Technique</th><th>IVs</th><th>DVs</th><th>Covariates</th><th>The question it answers</th></tr>
+<tr><td><b>ANOVA</b></td><td>1 or more categorical</td><td><b>1</b></td><td>0</td><td>Do the group means on this one outcome differ?</td></tr>
+<tr><td><b>ANCOVA</b></td><td>1 or more categorical</td><td><b>1</b></td><td><b>1 or more</b> continuous</td><td>Do the group means differ <i>after statistically equating the groups</i> on the covariate?</td></tr>
+<tr><td><b>MANOVA</b></td><td>1 or more categorical</td><td><b>2 or more</b></td><td>0</td><td>Do the groups differ on the <i>combination</i> of outcomes?</td></tr>
+<tr><td><b>MANCOVA</b></td><td>1 or more categorical</td><td><b>2 or more</b></td><td><b>1 or more</b></td><td>Do the groups differ on the combination of outcomes after adjusting for the covariate?</td></tr>
+</table>
+
+<div class="rule"><b>Decode the names.</b> <b>M</b> at the front = <b>M</b>ultivariate = more than one <b>dependent</b> variable. <b>C</b> before OVA = <b>C</b>ovariance = at least one covariate has been partialled out. So MANCOVA = multiple DVs <i>and</i> covariates. Every one of these names is transparent once you know that, and papers exploit the confusion relentlessly.</div>
+
+<h3>11.2 ANCOVA (analysis of covariance)</h3>
+
+<p><b>What it is:</b> ANOVA with a regression built into it. Before comparing group means, ANCOVA uses the covariate to predict the DV, removes that predicted portion from both the DV and the error term, and compares the resulting <b>adjusted means</b>.</p>
+
+<div class="why"><b>The two things ANCOVA buys you.</b><br>
+<b>1. Increased power.</b> Variance in the DV explained by the covariate is moved out of the error term. A smaller MS<sub>error</sub> means a larger F and a better chance of detecting the treatment effect. This is the statistically respectable reason to use it.<br>
+<b>2. Statistical control.</b> Groups that were not equivalent at the start on some measured variable (pre-test score, age, IQ, symptom severity) can be compared as if they had been equal on it. This is the reason it is used in quasi-experiments, and it is the one that gets abused.</div>
+
+<div class="warn"><b>The Lord's paradox warning.</b> ANCOVA is <b>not</b> a substitute for random assignment. When intact groups differ on the covariate for reasons connected to the grouping itself, adjusting for the covariate can remove part of the real treatment effect or manufacture a spurious one. Frederic Lord (1967) showed that two defensible analyses of the same non-randomised data can give opposite answers. Say "ANCOVA is a statistical control, not a design control" if you are asked whether it fixes non-equivalent groups.</div>
+
+<h4>Assumptions of ANCOVA (all the ANOVA ones, plus three)</h4>
+<ol class="steps">
+  <li><b>Linearity</b> of the relationship between the covariate and the DV, within each group. If it is curvilinear, the adjustment is wrong.</li>
+  <li><b>Homogeneity of regression slopes:</b> the covariate must relate to the DV in the <b>same way in every group</b>. Tested by checking the <b>covariate &times; IV interaction</b>: it must be <b>non-significant</b>. If it is significant, ANCOVA is invalid and you should examine simple slopes or use moderated regression instead. This is the assumption unique to ANCOVA and the one most often asked about.</li>
+  <li><b>The covariate must be measured reliably</b> (unreliability biases the adjustment) and, ideally, <b>measured before the treatment</b> so that it cannot itself have been affected by the IV. A covariate influenced by the treatment removes part of the effect you are trying to measure.</li>
+  <li>The covariate should be <b>correlated with the DV</b> (otherwise it buys no power) but <b>uncorrelated with the IV</b> (otherwise you are removing the treatment effect).</li>
+</ol>
+
+<h4>Worked logic</h4>
+<div class="eg">A trial compares CBT and waitlist on post-treatment BDI. The CBT group happened to start more depressed (pre-test M = 30 vs 24). Comparing raw post-test means is unfair. ANCOVA uses pre-test BDI as the covariate, adjusts each group's post-test mean to what it would have been had both groups started at the grand mean pre-test score, and compares those adjusted means. It also removes the (large) share of post-test variance predicted by pre-test score from the error term, which typically increases F substantially.</div>
+
+<h3>11.3 MANOVA (multivariate analysis of variance)</h3>
+
+<p><b>What it is:</b> ANOVA with two or more dependent variables analysed simultaneously. MANOVA forms an optimally weighted linear combination of the DVs (a <b>variate</b> or discriminant function) that maximally separates the groups, and tests whether the groups differ on that combination.</p>
+
+<div class="why"><b>Why not just run several ANOVAs?</b> Three reasons.<br>
+<b>1. Type I error control.</b> Five separate ANOVAs at &alpha; = .05 give a familywise error rate near .23. MANOVA tests them all under one omnibus test at one &alpha;.<br>
+<b>2. It uses the correlations among the DVs.</b> Separate ANOVAs throw that information away. MANOVA can detect a group difference on the <i>combination</i> of DVs that no single DV shows on its own, which happens whenever the effect is spread thinly across correlated outcomes.<br>
+<b>3. It protects against capitalising on chance</b> in a set of conceptually related outcomes (for example, the several subscales of one symptom inventory).</div>
+
+<h4>The four multivariate test statistics</h4>
+<table class="t">
+<tr><th>Statistic</th><th>Named for</th><th>Behaviour</th><th>When to prefer it</th></tr>
+<tr><td><b>Wilks' lambda (&Lambda;)</b></td><td>Samuel S. Wilks</td><td>The proportion of variance <b>not</b> explained by the effect, so <b>smaller &Lambda; means a bigger effect</b>. The most commonly reported</td><td>The default. 1 &minus; &Lambda; is a multivariate &eta;&sup2;</td></tr>
+<tr><td><b>Pillai's trace</b></td><td>K. C. Sreedharan Pillai</td><td>Sum of the explained variance across the variates. Larger = bigger effect</td><td><b>The most robust</b> to violations of assumptions and to unequal n. Prefer it when Box's M is significant</td></tr>
+<tr><td><b>Hotelling's trace</b> (Hotelling&#8211;Lawley)</td><td>Harold Hotelling</td><td>Ratio of explained to unexplained</td><td>Similar power to Wilks. Hotelling's T&sup2; is the two-group special case, the multivariate t test</td></tr>
+<tr><td><b>Roy's largest root</b></td><td>S. N. Roy</td><td>Uses only the <b>first</b> (largest) eigenvalue</td><td>Most powerful when the group differences lie along a single dimension; least robust otherwise</td></tr>
+</table>
+
+<div class="rule"><b>Exam shortcut:</b> for <b>Wilks' lambda</b> a <b>small</b> value means a <b>large</b> effect (it is unexplained variance). For the other three, larger means larger. When the four statistics disagree, report <b>Pillai's trace</b>, because it is the most robust. When there are exactly two groups, all four are mathematically equivalent and reduce to Hotelling's T&sup2;.</div>
+
+<h4>What follows a significant MANOVA</h4>
+<ul class="tight">
+  <li><b>Separate univariate ANOVAs</b> on each DV, with a Bonferroni-adjusted &alpha; (the "protected F" approach). Simple, common, but ignores the correlations that justified MANOVA in the first place.</li>
+  <li><b>Discriminant function analysis</b>, which describes the actual dimensions along which the groups differ and reports the structure coefficients for each DV. Statistically the more coherent follow-up.</li>
+  <li><b>Roy&#8211;Bargmann stepdown analysis</b>, an ordered sequence of ANCOVAs in which each DV is tested with the preceding DVs as covariates.</li>
+</ul>
+
+<h4>Assumptions of MANOVA</h4>
+<ol class="steps">
+  <li><b>Independence of observations.</b></li>
+  <li><b>Multivariate normality:</b> each DV is normal, and every linear combination of them is normal. Checked in practice with Mardia's test or by examining Mahalanobis distances.</li>
+  <li><b>Homogeneity of variance-covariance matrices:</b> tested by <b>Box's M</b>. Non-significant is what you want. Box's M is highly sensitive, so it is conventionally evaluated at &alpha; = .001; if it fails, switch to Pillai's trace.</li>
+  <li><b>Linearity</b> among all pairs of DVs.</li>
+  <li><b>Absence of multicollinearity and singularity:</b> the DVs should be correlated (about .30 to .70 is the sweet spot), but not so highly correlated that they are measuring the same thing. If two DVs correlate above about .80 or .90, combine them or drop one.</li>
+  <li><b>Adequate sample size:</b> the n in the smallest cell must exceed the number of DVs. More is much better; MANOVA is sensitive to outliers and small cells.</li>
+</ol>
+
+<h3>11.4 MANCOVA</h3>
+<p>Multiple DVs plus one or more covariates: MANOVA's power advantages combined with ANCOVA's adjustment. It carries the union of both sets of assumptions, including homogeneity of regression slopes across groups for every DV, so it is the most demanding member of the family and needs the largest n. Use it when you have several correlated outcomes <i>and</i> a pre-existing difference or a strong nuisance variable to control.</p>
+
+<div class="focus"><b>Two relatives to name if the question invites them.</b> <b>Discriminant function analysis (DFA)</b> is the mirror image of MANOVA: MANOVA asks whether known groups differ on a set of variables, DFA asks whether a set of variables can predict group membership. Same mathematics, IV and DV swapped. <b>Logistic regression</b> answers the same prediction question as DFA but without requiring multivariate normality, which is why it has largely replaced DFA in clinical research.</div>
+
+<div class="recap">Recap of sections 10 and 11: ANOVA partitions total variance into between-groups (treatment plus error) and within-groups (error alone) and forms F = MS<sub>b</sub>/MS<sub>w</sub>, expected to be 1.00 under the null. A significant omnibus F means only that some pair differs, so it is followed by post hoc tests (Tukey HSD as default, Scheff&eacute; most conservative, Dunnett against a control, Games&#8211;Howell for unequal variances). Factorial ANOVA adds main effects and the interaction; parallel lines mean no interaction, crossing lines mean a disordinal one, and a significant interaction is interpreted before the main effects. Repeated-measures ANOVA removes individual differences from error, which raises power, but adds the sphericity assumption tested by Mauchly and corrected by Greenhouse&#8211;Geisser or Huynh&#8211;Feldt. ANCOVA adds a covariate to raise power and equate groups, and requires homogeneity of regression slopes. MANOVA handles multiple DVs through Wilks' lambda (small = large effect), Pillai's trace (most robust), Hotelling's trace and Roy's largest root, with Box's M testing the covariance matrices. MANCOVA is both at once.</div>
+</div>

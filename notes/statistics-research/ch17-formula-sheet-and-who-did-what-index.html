@@ -1,0 +1,112 @@
+<div class="nfe-article nb">
+<h3>17.1 The formula sheet</h3>
+
+<table class="t">
+<tr><th>Quantity</th><th>Formula</th><th>df</th></tr>
+<tr><td>Mean</td><td>M = &Sigma;X / n</td><td>&#8211;</td></tr>
+<tr><td>Median (grouped)</td><td>Md = L + [(N/2 &minus; cf)/f] &times; i</td><td>&#8211;</td></tr>
+<tr><td>Mode (empirical)</td><td>Mo = 3Md &minus; 2M</td><td>&#8211;</td></tr>
+<tr><td>Sample variance</td><td>s&sup2; = &Sigma;(X &minus; M)&sup2; / (n &minus; 1) = SS/(n&minus;1)</td><td>n &minus; 1</td></tr>
+<tr><td>Standard deviation</td><td>s = &radic;s&sup2;</td><td>n &minus; 1</td></tr>
+<tr><td>Coefficient of variation</td><td>CV = (s/M) &times; 100</td><td>&#8211;</td></tr>
+<tr><td>Quartile deviation</td><td>Q = (Q&#8323; &minus; Q&#8321;)/2</td><td>&#8211;</td></tr>
+<tr><td>Skewness (Pearson)</td><td>Sk = (M &minus; Mo)/s = 3(M &minus; Md)/s</td><td>&#8211;</td></tr>
+<tr><td>z score</td><td>z = (X &minus; M)/s</td><td>&#8211;</td></tr>
+<tr><td>T score</td><td>T = 50 + 10z</td><td>&#8211;</td></tr>
+<tr><td>Deviation IQ</td><td>IQ = 100 + 15z</td><td>&#8211;</td></tr>
+<tr><td>Standard error of the mean</td><td>SE<sub>M</sub> = s/&radic;n</td><td>&#8211;</td></tr>
+<tr><td>Confidence interval</td><td>CI = M &plusmn; t<sub>crit</sub>(s/&radic;n)</td><td>n &minus; 1</td></tr>
+<tr><td>One-sample t</td><td>t = (M &minus; &mu;)/(s/&radic;n)</td><td>n &minus; 1</td></tr>
+<tr><td>Independent t</td><td>t = (M&#8321; &minus; M&#8322;)/&radic;[s&sup2;<sub>p</sub>(1/n&#8321; + 1/n&#8322;)]</td><td>n&#8321; + n&#8322; &minus; 2</td></tr>
+<tr><td>Pooled variance</td><td>s&sup2;<sub>p</sub> = (SS&#8321; + SS&#8322;)/(n&#8321; + n&#8322; &minus; 2)</td><td>&#8211;</td></tr>
+<tr><td>Paired t</td><td>t = M<sub>D</sub>/(s<sub>D</sub>/&radic;n)</td><td>n &minus; 1</td></tr>
+<tr><td>Cohen's d</td><td>d = (M&#8321; &minus; M&#8322;)/s<sub>pooled</sub></td><td>&#8211;</td></tr>
+<tr><td>One-way ANOVA F</td><td>F = MS<sub>b</sub>/MS<sub>w</sub>; MS = SS/df</td><td>k&minus;1, N&minus;k</td></tr>
+<tr><td>Eta squared</td><td>&eta;&sup2; = SS<sub>between</sub>/SS<sub>total</sub></td><td>&#8211;</td></tr>
+<tr><td>Pearson r</td><td>r = &Sigma;z<sub>X</sub>z<sub>Y</sub>/n = cov(X,Y)/(s<sub>X</sub>s<sub>Y</sub>)</td><td>n &minus; 2</td></tr>
+<tr><td>Spearman rho</td><td>&rho; = 1 &minus; [6&Sigma;D&sup2;/n(n&sup2; &minus; 1)]</td><td>n &minus; 2</td></tr>
+<tr><td>Partial correlation</td><td>r<sub>Y1.2</sub> = (r<sub>Y1</sub> &minus; r<sub>Y2</sub>r<sub>12</sub>)/&radic;[(1&minus;r&sup2;<sub>Y2</sub>)(1&minus;r&sup2;<sub>12</sub>)]</td><td>n &minus; 3</td></tr>
+<tr><td>Regression slope</td><td>b = r(s<sub>Y</sub>/s<sub>X</sub>); a = M<sub>Y</sub> &minus; bM<sub>X</sub></td><td>n &minus; 2</td></tr>
+<tr><td>Standard error of estimate</td><td>S<sub>Y.X</sub> = s<sub>Y</sub>&radic;(1 &minus; r&sup2;)</td><td>&#8211;</td></tr>
+<tr><td>Chi-square</td><td>&chi;&sup2; = &Sigma;[(O &minus; E)&sup2;/E]</td><td>k&minus;1 or (r&minus;1)(c&minus;1)</td></tr>
+<tr><td>Phi</td><td>&phi; = &radic;(&chi;&sup2;/N)</td><td>&#8211;</td></tr>
+<tr><td>Mann&#8211;Whitney U</td><td>U = n&#8321;n&#8322; + n&#8321;(n&#8321;+1)/2 &minus; R&#8321;</td><td>&#8211;</td></tr>
+<tr><td>Spearman&#8211;Brown</td><td>r<sub>full</sub> = 2r<sub>half</sub>/(1 + r<sub>half</sub>)</td><td>&#8211;</td></tr>
+<tr><td>Cronbach's alpha</td><td>&alpha; = [k/(k&minus;1)][1 &minus; &Sigma;s&sup2;<sub>i</sub>/s&sup2;<sub>t</sub>]</td><td>&#8211;</td></tr>
+<tr><td>Standard error of measurement</td><td>SEM = s&radic;(1 &minus; r<sub>xx</sub>)</td><td>&#8211;</td></tr>
+<tr><td>Correction for attenuation</td><td>r<sub>true</sub> = r<sub>xy</sub>/&radic;(r<sub>xx</sub>r<sub>yy</sub>)</td><td>&#8211;</td></tr>
+<tr><td>Cohen's kappa</td><td>&kappa; = (p<sub>o</sub> &minus; p<sub>e</sub>)/(1 &minus; p<sub>e</sub>)</td><td>&#8211;</td></tr>
+<tr><td>Item discrimination</td><td>D = p<sub>upper 27%</sub> &minus; p<sub>lower 27%</sub></td><td>&#8211;</td></tr>
+<tr><td>Logit</td><td>ln[P/(1&minus;P)] = a + bX; OR = e<sup>b</sup></td><td>&#8211;</td></tr>
+</table>
+
+<h3>17.2 The critical values worth carrying in your head</h3>
+<table class="t">
+<tr><th>Statistic</th><th>&alpha; = .05</th><th>&alpha; = .01</th></tr>
+<tr><td>z, two-tailed</td><td><b>1.96</b></td><td><b>2.58</b></td></tr>
+<tr><td>z, one-tailed</td><td><b>1.645</b></td><td>2.33</td></tr>
+<tr><td>t, df = 10, two-tailed</td><td>2.23</td><td>3.17</td></tr>
+<tr><td>t, df = 20, two-tailed</td><td>2.09</td><td>2.85</td></tr>
+<tr><td>t, df = 30, two-tailed</td><td>2.04</td><td>2.75</td></tr>
+<tr><td>t, df = &infin;</td><td>1.96</td><td>2.58</td></tr>
+<tr><td>&chi;&sup2;, df = 1</td><td><b>3.84</b></td><td>6.63</td></tr>
+<tr><td>&chi;&sup2;, df = 2</td><td>5.99</td><td>9.21</td></tr>
+<tr><td>&chi;&sup2;, df = 3</td><td>7.81</td><td>11.34</td></tr>
+<tr><td>F, df 2 and 12</td><td>3.89</td><td>6.93</td></tr>
+<tr><td>F, df 1 and 20</td><td>4.35</td><td>8.10</td></tr>
+</table>
+
+<h3>17.3 Who did what: the name index</h3>
+
+<table class="t">
+<tr><th>Name</th><th>Contribution</th></tr>
+<tr><td><b>Abraham de Moivre</b> (1733)</td><td>Derived the normal curve as the limit of the binomial</td></tr>
+<tr><td><b>Pierre-Simon Laplace</b></td><td>Developed the normal distribution and the central limit theorem</td></tr>
+<tr><td><b>Carl Friedrich Gauss</b></td><td>The normal curve as the law of measurement error, hence "Gaussian"</td></tr>
+<tr><td><b>Adolphe Quetelet</b></td><td>First applied the normal curve to human characteristics; "l'homme moyen"</td></tr>
+<tr><td><b>Sir Francis Galton</b></td><td>Correlation, regression to the mean, percentile, the median; the words themselves</td></tr>
+<tr><td><b>Karl Pearson</b></td><td>Product-moment correlation r (1896), chi-square (1900), the coefficients of skewness, the standard deviation as a term</td></tr>
+<tr><td><b>Charles Spearman</b></td><td>Rank-order correlation &rho; (1904), factor analysis, the g factor and two-factor theory, correction for attenuation, the Spearman&#8211;Brown formula</td></tr>
+<tr><td><b>William Sealy Gosset ("Student")</b></td><td>The t distribution and t test (1908), at the Guinness brewery</td></tr>
+<tr><td><b>Sir Ronald A. Fisher</b></td><td>ANOVA, the F distribution, degrees of freedom, the null hypothesis, p values and the .05 convention, randomisation, factorial designs, maximum likelihood, LSD post hoc, Fisher's exact test, the z transformation of r</td></tr>
+<tr><td><b>Jerzy Neyman &amp; Egon Pearson</b></td><td>Type I and Type II error, &alpha; and &beta;, power, confidence intervals, the alternative hypothesis</td></tr>
+<tr><td><b>George Snedecor</b></td><td>Named the F ratio in Fisher's honour and tabulated it</td></tr>
+<tr><td><b>John Tukey</b></td><td>Tukey's HSD post hoc test, the box plot, the stem-and-leaf plot, exploratory data analysis, the word "bit"</td></tr>
+<tr><td><b>Henry Scheff&eacute;</b></td><td>The most conservative post hoc test, allowing complex contrasts</td></tr>
+<tr><td><b>Charles Dunnett</b></td><td>Post hoc comparisons of several treatments against a single control</td></tr>
+<tr><td><b>Carlo Emilio Bonferroni</b></td><td>The &alpha;/c correction for multiple comparisons</td></tr>
+<tr><td><b>Howard Levene</b></td><td>Test of homogeneity of variance (1960)</td></tr>
+<tr><td><b>Maurice Bartlett</b></td><td>Test of homogeneity of variance; test of sphericity in factor analysis</td></tr>
+<tr><td><b>George E. P. Box</b></td><td>Box's M test of equality of covariance matrices; "all models are wrong, some are useful"</td></tr>
+<tr><td><b>John Mauchly</b></td><td>Test of sphericity in repeated-measures ANOVA</td></tr>
+<tr><td><b>Greenhouse &amp; Geisser; Huynh &amp; Feldt</b></td><td>The epsilon corrections for violated sphericity</td></tr>
+<tr><td><b>Samuel S. Wilks</b></td><td>Wilks' lambda, the standard MANOVA test statistic</td></tr>
+<tr><td><b>Harold Hotelling</b></td><td>Hotelling's T&sup2; (the multivariate t) and Hotelling's trace; principal components analysis</td></tr>
+<tr><td><b>K. C. S. Pillai; S. N. Roy</b></td><td>Pillai's trace (most robust) and Roy's largest root</td></tr>
+<tr><td><b>Henry Mann &amp; Donald Whitney</b></td><td>The U test for two independent samples (1947)</td></tr>
+<tr><td><b>Frank Wilcoxon</b></td><td>The signed-rank test and the rank-sum test (1945)</td></tr>
+<tr><td><b>William Kruskal &amp; W. Allen Wallis</b></td><td>The H test, the rank analogue of one-way ANOVA (1952)</td></tr>
+<tr><td><b>Milton Friedman</b></td><td>The Friedman test for related samples (1937); also the Nobel-winning economist</td></tr>
+<tr><td><b>Quinn McNemar</b></td><td>The McNemar test for related dichotomies</td></tr>
+<tr><td><b>William Cochran</b></td><td>Cochran's Q; contributions to sampling theory</td></tr>
+<tr><td><b>Frank Yates</b></td><td>The continuity correction for 2&times;2 chi-square</td></tr>
+<tr><td><b>Maurice Kendall</b></td><td>Kendall's tau and the coefficient of concordance W</td></tr>
+<tr><td><b>Andrey Kolmogorov &amp; Nikolai Smirnov</b></td><td>The K&#8211;S goodness-of-fit and two-sample tests</td></tr>
+<tr><td><b>Samuel Shapiro &amp; Martin Wilk</b></td><td>The Shapiro&#8211;Wilk test of normality (1965)</td></tr>
+<tr><td><b>Jacob Cohen</b></td><td>Effect size d, kappa, statistical power analysis, the small/medium/large conventions</td></tr>
+<tr><td><b>Gene Glass</b></td><td>Coined "meta-analysis" (1976); Glass's &Delta;</td></tr>
+<tr><td><b>S. S. Stevens</b></td><td>The four scales of measurement: nominal, ordinal, interval, ratio (1946)</td></tr>
+<tr><td><b>Lee J. Cronbach</b></td><td>Coefficient alpha (1951); construct validity with Paul Meehl (1955); generalizability theory</td></tr>
+<tr><td><b>Kuder &amp; Richardson</b></td><td>KR-20 and KR-21 internal-consistency formulas (1937)</td></tr>
+<tr><td><b>Donald Campbell &amp; Donald Fiske</b></td><td>The multitrait-multimethod matrix, convergent and discriminant validity (1959)</td></tr>
+<tr><td><b>Campbell &amp; Stanley</b></td><td>Threats to internal and external validity; quasi-experimental designs (1963)</td></tr>
+<tr><td><b>L. L. Thurstone</b></td><td>Multiple factor analysis, simple structure, rotation, the primary mental abilities, attitude scaling</td></tr>
+<tr><td><b>Raymond Cattell</b></td><td>The scree test, the 16PF, fluid and crystallised intelligence</td></tr>
+<tr><td><b>Henry Kaiser</b></td><td>The eigenvalue-over-one retention rule, varimax rotation, the KMO measure</td></tr>
+<tr><td><b>Georg Rasch</b></td><td>The Rasch (1PL) item response model (1960)</td></tr>
+<tr><td><b>Frederic Lord &amp; Melvin Novick</b></td><td>The foundational text of modern test theory (1968); Lord's paradox in ANCOVA</td></tr>
+<tr><td><b>Truman Kelley</b></td><td>The upper and lower 27% rule for item discrimination (1939)</td></tr>
+<tr><td><b>James Flynn</b></td><td>The Flynn effect: the secular rise in IQ scores</td></tr>
+<tr><td><b>Tabachnick &amp; Fidell</b></td><td>The standard reference on multivariate statistics; the sample-size rules</td></tr>
+</table>
+</div>

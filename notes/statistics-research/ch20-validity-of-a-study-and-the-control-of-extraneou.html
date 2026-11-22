@@ -1,0 +1,1646 @@
+<div class="nfe-article nb">
+<p>A study is run to support a conclusion of the form "X caused Y in these people, and would do so in others like them". This section asks when that conclusion deserves to be believed, what can make it false, and what researchers do about it. The whole of experimental design (sections 20 to 22) is a set of answers to the problems listed here, so this is the section that makes the designs make sense.</p>
+
+<div class="warn"><b>Validity of a STUDY is not validity of a TEST.</b> Section 15.3 asked whether a test measures what it claims to (content, criterion-related, construct validity of a <i>measure</i>; the MTMM matrix). This section asks whether a <i>study's conclusion</i> is sound: internal, external, statistical conclusion and construct validity of a <i>study</i>. The word "construct validity" appears in both, with related but different meanings, and "ecological validity" appears in both lists. When a question mentions history, maturation, attrition, generalising to settings or causal inference, it is about the study.</div>
+
+<h3>19.1 The four kinds of validity of a study</h3>
+
+<p>The distinction between <b>internal</b> and <b>external</b> validity was introduced by <b>Donald T. Campbell</b> in 1957 ("Factors relevant to the validity of experiments in social settings") and made famous by <b>Donald T. Campbell and Julian C. Stanley</b> (1963), "Experimental and quasi-experimental designs for research on teaching", a chapter in N. L. Gage's <i>Handbook of Research on Teaching</i>, reprinted as a slim book in 1966. <b>Thomas D. Cook and Donald T. Campbell</b>, in <i>Quasi-Experimentation</i> (1979), split each in two, giving the four types still used; <b>William R. Shadish, Thomas D. Cook and Donald T. Campbell</b>, <i>Experimental and Quasi-Experimental Designs for Generalized Causal Inference</i> (2002), is the current standard.</p>
+
+<table class="t">
+<tr><th>Validity of a study</th><th>The question it asks</th><th>Typical threats</th><th>Strengthened by</th></tr>
+<tr><td><b>Statistical conclusion validity</b></td><td>Is there really a relationship (covariation) between X and Y, and how strong is it, or did the statistics mislead?</td><td>Low power, violated test assumptions, "fishing" through many tests (inflated Type I error), unreliable measures, restriction of range, inconsistent treatment delivery</td><td>Adequate n (power analysis, section 8.5), reliable measures, correct tests, corrections for multiple testing</td></tr>
+<tr><td><b>Internal validity</b></td><td>Given that X and Y covary, did X <b>cause</b> the change in Y, or would it have happened anyway?</td><td>History, maturation, testing, instrumentation, regression, selection, attrition and their interactions (19.2)</td><td>Random assignment, control groups, holding conditions constant, blinding</td></tr>
+<tr><td><b>Construct validity (of causes and effects)</b></td><td>Do the operations really represent the constructs named? Was it "CBT" that worked, or therapist attention? Was "depression" measured, or sleep?</td><td>Poor definition of constructs, <b>mono-operation</b> and <b>mono-method bias</b>, demand characteristics, experimenter expectancy, novelty effects, reactivity</td><td>Multiple operational definitions (18.8), attention-placebo controls, manipulation checks, blind assessment</td></tr>
+<tr><td><b>External validity</b></td><td>Does the causal relationship <b>generalise</b> to other people, settings, treatments, outcome measures and times?</td><td>Unrepresentative samples, artificial settings, pretest sensitisation, multiple-treatment interference (19.4)</td><td>Random selection, field settings, replication in new populations, heterogeneous samples</td></tr>
+</table>
+
+<div class="rule"><b>The order of business.</b> Campbell and Stanley called internal validity the <b>sine qua non</b>: "the basic minimum without which any experiment is uninterpretable." There is no point asking whether a causal effect generalises (external validity) until you know there is one (internal validity), and no point asking about cause until you know there is a reliable covariation (statistical conclusion validity). Cook and Campbell's order is therefore statistical conclusion &rarr; internal &rarr; construct &rarr; external.</div>
+
+<h4>The trade-off between internal and external validity</h4>
+<p>Every step taken to raise internal validity tends to lower external validity, and vice versa. A laboratory study of fear conditioning in healthy, right-handed undergraduates, with a fixed script and a single computer task, controls almost everything, so a difference between conditions can confidently be blamed on the IV; but the participants, setting and task are unlike a phobic patient in a crowded Mumbai train. A naturalistic study of patients in community clinics has realism but no control. The resolution is programmatic: establish the effect under control, then test its generality in the field and in new populations, and replicate.</p>
+
+<figure class="dia">
+<svg viewBox="0 0 940 330" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<text x="60.0" y="36.0" font-size="14.5" fill="var(--accent)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">INTERNAL VALIDITY: control, confidence that the IV caused the change</text>
+<polygon points="60,48 880,80 880,86 60,118" fill="var(--accent)" fill-opacity="0.30" stroke="var(--accent)" stroke-width="1.2"/>
+<rect x="60.0" y="134" width="185" height="60" rx="9" fill="var(--panel)" stroke="var(--border)" stroke-width="1.4"/>
+<text x="152.5" y="159.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Laboratory</text>
+<text x="152.5" y="180.0" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">experiment</text>
+<rect x="271.7" y="134" width="185" height="60" rx="9" fill="var(--panel)" stroke="var(--border)" stroke-width="1.4"/>
+<text x="364.2" y="159.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Field</text>
+<text x="364.2" y="180.0" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">experiment</text>
+<rect x="483.3" y="134" width="185" height="60" rx="9" fill="var(--panel)" stroke="var(--border)" stroke-width="1.4"/>
+<text x="575.8" y="159.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Quasi-experiment</text>
+<text x="575.8" y="180.0" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">in a clinic</text>
+<rect x="695.0" y="134" width="185" height="60" rx="9" fill="var(--panel)" stroke="var(--border)" stroke-width="1.4"/>
+<text x="787.5" y="159.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Naturalistic</text>
+<text x="787.5" y="180.0" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">observation, survey</text>
+<polygon points="60,240 880,210 880,280 60,246" fill="var(--good)" fill-opacity="0.30" stroke="var(--good)" stroke-width="1.2"/>
+<text x="880.0" y="306.0" font-size="14.5" fill="var(--good)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">EXTERNAL and ECOLOGICAL VALIDITY: realism, generality to real patients and settings</text>
+</svg>
+<figcaption>As settings move from the laboratory towards real life, control (internal validity) falls and realism and generality (external and ecological validity) rise.</figcaption></figure>
+
+<h4>Population validity and ecological validity</h4>
+<p><b>Glenn Bracht and Gene Glass</b> (1968) divided external validity into <b>population validity</b> (can the results be generalised from this sample to the wider population of people?) and <b>ecological validity</b> (can they be generalised from the conditions the researcher created to other settings and conditions?). A trial run only on male inpatients with first-episode schizophrenia at a tertiary centre may have poor population validity for women or outpatients; a memory study using lists of nonsense syllables may have poor ecological validity for remembering medication instructions at home.</p>
+
+<div class="trap"><b>Ecological validity is a borrowed and stretched term.</b> It was coined by <b>Egon Brunswik</b> in his lens model of perception (collected in <i>Perception and the Representative Design of Psychological Experiments</i>, 1956), where it meant how well an environmental <i>cue</i> (such as retinal size) correlates with the real property it signals (an object's distance). His demand that experiments sample situations as representatively as they sample people he called <b>representative design</b>. Later writers turned "ecological validity" into "how true to real life is the study", and it is now loosely used as a synonym for external validity, a drift Kenneth Hammond (1998) protested. For exams: ecological validity = generalisability to real-world settings, one component of external validity, not the whole of it (section 15.3 uses it in the same loose sense).</div>
+
+<h4>Mundane and experimental realism</h4>
+<p><b>Elliot Aronson and J. Merrill Carlsmith</b> (1968, <i>Handbook of Social Psychology</i>) separated <b>mundane realism</b>, the extent to which the laboratory situation resembles everyday life, from <b>experimental realism</b>, the extent to which it is <b>involving and believable</b> to participants, so they react spontaneously. Stanley Milgram's obedience experiment (1963) had low mundane realism (no one is asked to shock a stranger in a memory study) but very high experimental realism (participants sweated, trembled and laughed nervously). Aronson and Carlsmith argued that experimental realism matters more. Later texts add <b>psychological realism</b>: whether the processes triggered are the same as in real life.</p>
+
+<h3>19.2 Threats to internal validity</h3>
+
+<p>A threat to internal validity is any rival explanation for a change in the DV other than the IV. Campbell and Stanley (1963) listed <b>eight</b>, and the eight are what papers ask about. Each is easiest to understand in the weakest design, the <b>one-group pretest&#8211;posttest design</b> (O X O, section 20): a clinic measures anxiety, gives eight weeks of relaxation training and measures again. Scores fall. Every threat below is a reason the fall might have happened without the training.</p>
+
+<ol class="steps">
+  <li><b>History:</b> specific <i>external</i> events, other than the treatment, occurring between pretest and posttest: exam results, a festival, the end of a lockdown, a new prescription from the psychiatrist.</li>
+  <li><b>Maturation:</b> processes <i>within</i> participants that change with the passage of time: growing older, spontaneous remission, fatigue, hunger, boredom. Depressive episodes often remit on their own; young children with autism gain some language over a year with or without ABA.</li>
+  <li><b>Testing:</b> taking a test changes scores on a later testing, through practice, familiarity with the items or <b>sensitisation</b> to the topic.</li>
+  <li><b>Instrumentation:</b> changes in the measuring instrument or the observers rather than the participants: rater drift, leniency or fatigue, a different version of the scale at posttest.</li>
+  <li><b>Statistical regression:</b> groups selected for <i>extreme</i> scores score closer to the mean on retest with no treatment at all (19.3).</li>
+  <li><b>Selection:</b> the groups differed before treatment because of how people got into them (volunteers for therapy vs patients who declined).</li>
+  <li><b>Experimental mortality</b> (attrition): differential dropout. If the most severely ill leave the treatment group, its posttest mean improves without anyone getting better. ("Mortality" means dropping out, not dying.)</li>
+  <li><b>Selection&#8211;maturation interaction</b> (and other selection interactions): groups that would change at different rates anyway, such as recent-onset patients treated and chronic patients as controls. Selection can likewise interact with history, instrumentation or regression.</li>
+</ol>
+
+<p><b>Thomas D. Cook and Donald T. Campbell (1979)</b> added threats that arise when there <i>is</i> a control group, because the groups can affect each other, plus one from correlational research: <b>ambiguous temporal precedence</b> (does low social support cause depression, or does depression drive friends away?); <b>diffusion or imitation of treatment</b> (control patients on the same ward pick up the breathing exercises); <b>compensatory equalisation</b> (staff give the deprived control group extra services); <b>compensatory rivalry</b> (the control group works harder to keep up, the <b>John Henry effect</b>, after the folk hero who raced a steam drill and died winning, popularised by <b>Gary Saretsky</b> in 1972; some sources credit Robert Heinich with first use); and <b>resentful demoralisation</b> (controls who know they missed the desirable treatment give up and do worse, exaggerating the effect).</p>
+
+<div class="warn"><b>Where textbooks disagree.</b> Campbell and Stanley list <b>eight</b> internal threats; some textbooks give seven (omitting the interaction) and others ten or more (adding diffusion, experimenter bias and so on). Shadish, Cook and Campbell (2002) list internal threats as ambiguous temporal precedence, selection, history, maturation, regression, attrition, testing, instrumentation, and additive and interactive effects, and they <b>moved</b> diffusion, compensatory equalisation, compensatory rivalry and resentful demoralisation to the list of threats to <b>construct validity</b>, on the grounds that they change what the treatment and control conditions actually consist of. If an option list offers "resentful demoralisation" as an internal threat, accept it (Cook and Campbell, 1979); if it asks for Campbell and Stanley's original list, it wants the eight.</div>
+
+<table class="t">
+<tr><th>Threat</th><th>What it is</th><th>Clinical example</th><th>What controls it</th></tr>
+<tr><td><b>History</b></td><td>External events between measurements</td><td>A 12-week anxiety programme coincides with board exams ending</td><td>A <b>control group</b> measured over the same period (it experiences the same history); short intervals; laboratory isolation</td></tr>
+<tr><td><b>Maturation</b></td><td>Internal change with time: growth, spontaneous remission, fatigue</td><td>Depressed patients improve over 6 months untreated</td><td><b>Control group</b> (matures at the same rate); random assignment</td></tr>
+<tr><td><b>Testing</b></td><td>The pretest changes posttest scores</td><td>Practice on a neuropsychological test</td><td>Control group (also pretested); alternate forms; posttest-only design; <b>Solomon four-group design</b> (Richard L. Solomon, 1949) to measure it</td></tr>
+<tr><td><b>Instrumentation</b></td><td>The measure or the raters change</td><td>A clinician-rater becomes lenient at follow-up</td><td>Standardised instruments; trained, <b>blind</b> raters; inter-rater reliability checks; automation</td></tr>
+<tr><td><b>Statistical regression</b></td><td>Extreme scorers drift toward the mean</td><td>Only the most anxious students are enrolled</td><td>A control group drawn from the <b>same extreme pool</b> by random assignment; reliable measures; selecting on one test and using another as pretest</td></tr>
+<tr><td><b>Selection</b></td><td>Groups differ before treatment</td><td>Volunteers vs refusers compared</td><td><b>Random assignment</b>; failing that, matching and pretest comparison</td></tr>
+<tr><td><b>Experimental mortality</b></td><td>Differential dropout</td><td>Severe cases leave the exposure group</td><td>Minimise burden, track and compare dropouts, <b>intention-to-treat</b> analysis (section 25)</td></tr>
+<tr><td><b>Selection &times; maturation</b></td><td>Groups would change at different rates</td><td>Recent-onset vs chronic patients</td><td><b>Random assignment</b></td></tr>
+<tr><td><b>Ambiguous temporal precedence</b></td><td>Unclear which came first</td><td>Support and depression measured together</td><td>Manipulate the IV; longitudinal measurement</td></tr>
+<tr><td><b>Diffusion / imitation</b></td><td>Control group gets the treatment</td><td>Ward-mates share techniques</td><td>Separate sites (cluster randomisation); instructions not to discuss</td></tr>
+<tr><td><b>Compensatory equalisation</b></td><td>Staff compensate the control group</td><td>Nurses give controls extra time</td><td>Blind staff; monitor what each group receives</td></tr>
+<tr><td><b>Compensatory rivalry</b> (John Henry)</td><td>Control group tries harder</td><td>Control teachers out-teach the programme</td><td>Keep groups unaware of each other; blinding</td></tr>
+<tr><td><b>Resentful demoralisation</b></td><td>Control group gives up</td><td>Wait-listed patients lose hope</td><td>Credible attention-placebo control; delayed treatment offered; blinding</td></tr>
+</table>
+
+<div class="rule"><b>"Which threat is controlled by a control group?"</b> A comparable control group, measured at the same times, controls <b>history, maturation, testing and instrumentation</b>, because both groups experience them equally and they cancel in the comparison. It controls <b>regression</b> only if both groups come from the same extreme pool. It does <b>not</b> control <b>selection</b> unless the groups were formed by <b>random assignment</b>, and nothing fully protects against <b>differential attrition</b>. This is why the randomised control-group design is called a <i>true</i> experiment (section 20).</div>
+
+<h3>19.3 Regression to the mean, in depth</h3>
+
+<div class="founder"><b>Sir Francis Galton</b>, "Regression towards mediocrity in hereditary stature" (<i>Journal of the Anthropological Institute</i>, 1886). Galton compared the heights of 928 adult children with those of their parents (205 sets). Children of very tall parents were tall, but on average less extreme than their parents; children of very short parents were short, but less so. The children's deviation from the population mean was roughly two-thirds of the parents' deviation. He first called it "reversion" (in his earlier sweet-pea experiments) and then "regression towards mediocrity", and the word regression has stuck to the statistical technique ever since (section 13).</div>
+
+<p>Regression to the mean is not a psychological process and not a biological force. It is a consequence of <b>imperfect correlation</b>. Every observed score contains some <b>error</b> (section 15.1: X = T + E). People who obtain extreme scores on one occasion are, on average, people whose true score is high <i>and</i> whose error that day happened to push them further out. On a second occasion the error is independent and averages zero, so the group's mean moves back toward the population mean, even though nobody's true score has changed. The less reliable the measure (the lower the test&#8211;retest correlation), the larger the regression.</p>
+
+<div class="rule"><b>Predicted retest score for a group selected on X:</b><br>
+predicted mean on retest = M + r &times; (mean of selected group on X &minus; M),<br>
+where M is the population mean and r is the test&#8211;retest correlation (with equal SDs on both occasions). If r = 1 there is no regression; if r = 0 the selected group is expected to fall all the way back to M.</div>
+
+<h4>Worked example, computed</h4>
+<p>The figure below was simulated, not drawn by hand. One thousand people have a symptom score with mean 50 and SD 10; the scale's test&#8211;retest reliability is .60, so 60% of the variance is true score and 40% is error. Everyone is tested twice and <b>nobody is treated</b>. The clinic enrols the most severe 10% at the first testing (pretest above 62.8). Their pretest mean is <b>67.8</b>. At retest, with no treatment, their mean is <b>60.2</b>: a fall of <b>7.6 points</b>, about three-quarters of a standard deviation. The formula predicts it: 50.1 + 0.60 &times; (67.8 &minus; 50.1) = <b>60.7</b>. Their average <i>true</i> score was 60.6 all along; the extra 7 points at pretest were error that did not repeat.</p>
+
+<figure class="dia">
+<svg viewBox="0 0 940 600" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="s19r-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--bad)"/></marker></defs>
+<rect x="92" y="40" width="480" height="480" fill="var(--panel)" fill-opacity="0.55" stroke="var(--border)"/>
+<line x1="126.3" y1="40" x2="126.3" y2="520" stroke="var(--border)" stroke-width="0.8"/>
+<line x1="92" y1="485.7" x2="572" y2="485.7" stroke="var(--border)" stroke-width="0.8"/>
+<text x="126.3" y="540.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">20</text>
+<text x="82.0" y="490.2" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">20</text>
+<line x1="194.9" y1="40" x2="194.9" y2="520" stroke="var(--border)" stroke-width="0.8"/>
+<line x1="92" y1="417.1" x2="572" y2="417.1" stroke="var(--border)" stroke-width="0.8"/>
+<text x="194.9" y="540.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">30</text>
+<text x="82.0" y="421.6" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">30</text>
+<line x1="263.4" y1="40" x2="263.4" y2="520" stroke="var(--border)" stroke-width="0.8"/>
+<line x1="92" y1="348.6" x2="572" y2="348.6" stroke="var(--border)" stroke-width="0.8"/>
+<text x="263.4" y="540.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">40</text>
+<text x="82.0" y="353.1" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">40</text>
+<line x1="332.0" y1="40" x2="332.0" y2="520" stroke="var(--border)" stroke-width="0.8"/>
+<line x1="92" y1="280.0" x2="572" y2="280.0" stroke="var(--border)" stroke-width="0.8"/>
+<text x="332.0" y="540.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">50</text>
+<text x="82.0" y="284.5" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">50</text>
+<line x1="400.6" y1="40" x2="400.6" y2="520" stroke="var(--border)" stroke-width="0.8"/>
+<line x1="92" y1="211.4" x2="572" y2="211.4" stroke="var(--border)" stroke-width="0.8"/>
+<text x="400.6" y="540.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">60</text>
+<text x="82.0" y="215.9" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">60</text>
+<line x1="469.1" y1="40" x2="469.1" y2="520" stroke="var(--border)" stroke-width="0.8"/>
+<line x1="92" y1="142.9" x2="572" y2="142.9" stroke="var(--border)" stroke-width="0.8"/>
+<text x="469.1" y="540.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">70</text>
+<text x="82.0" y="147.4" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">70</text>
+<line x1="537.7" y1="40" x2="537.7" y2="520" stroke="var(--border)" stroke-width="0.8"/>
+<line x1="92" y1="74.3" x2="572" y2="74.3" stroke="var(--border)" stroke-width="0.8"/>
+<text x="537.7" y="540.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">80</text>
+<text x="82.0" y="78.8" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">80</text>
+<text x="332.0" y="566.0" font-size="14.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Pretest score (used to select patients)</text>
+<text x="30" y="280.0" font-size="14.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif" transform="rotate(-90 30 280.0)">Retest score (no treatment given)</text>
+<rect x="419.8" y="40" width="152.2" height="480" fill="var(--bad)" fill-opacity="0.06"/>
+<circle cx="341.6" cy="189.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="353.8" cy="275.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="218.2" cy="408.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="246.3" cy="313.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="264.0" cy="390.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="388.9" cy="224.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="293.8" cy="300.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="346.2" cy="273.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="199.5" cy="275.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="357.6" cy="191.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="312.9" cy="436.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="335.7" cy="320.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="330.9" cy="303.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="319.7" cy="305.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="270.5" cy="334.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="395.8" cy="202.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="201.5" cy="335.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="217.6" cy="357.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="301.0" cy="327.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="287.1" cy="250.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="369.3" cy="216.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="334.9" cy="172.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="370.2" cy="326.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="276.6" cy="297.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="334.2" cy="263.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="253.6" cy="336.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="370.3" cy="276.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="340.4" cy="264.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="400.0" cy="260.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="407.6" cy="283.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="267.3" cy="342.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="231.4" cy="382.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="253.1" cy="326.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="326.8" cy="257.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="314.9" cy="272.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="345.5" cy="161.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="130.0" cy="494.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="371.3" cy="251.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="287.7" cy="284.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="191.9" cy="313.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="272.6" cy="325.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="313.8" cy="301.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="395.3" cy="270.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="167.9" cy="429.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="323.3" cy="176.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="209.4" cy="342.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="296.3" cy="334.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="316.9" cy="324.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="333.4" cy="332.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="331.8" cy="229.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="315.0" cy="283.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="293.8" cy="186.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="327.0" cy="340.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="391.3" cy="216.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="350.3" cy="287.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="327.3" cy="175.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="353.4" cy="361.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="252.5" cy="328.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="381.2" cy="219.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="285.4" cy="251.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="273.5" cy="344.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="330.3" cy="348.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="247.5" cy="296.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="341.4" cy="206.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="227.2" cy="434.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="294.5" cy="347.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="361.2" cy="334.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="187.2" cy="366.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="356.9" cy="241.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="225.6" cy="354.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="302.7" cy="298.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="414.6" cy="165.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="366.7" cy="210.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="222.5" cy="275.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="383.3" cy="109.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="267.0" cy="255.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="313.8" cy="328.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="291.8" cy="289.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="284.1" cy="297.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="270.9" cy="229.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="288.9" cy="338.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="186.4" cy="317.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="351.0" cy="274.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="335.3" cy="369.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="300.7" cy="218.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="408.0" cy="199.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="135.0" cy="356.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="253.0" cy="323.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="282.8" cy="288.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="381.3" cy="246.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="357.3" cy="228.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="283.5" cy="279.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="367.1" cy="205.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="290.7" cy="349.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="338.5" cy="315.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="418.5" cy="324.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="315.0" cy="306.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="386.6" cy="251.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="234.3" cy="232.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="296.6" cy="237.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="355.8" cy="224.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="402.8" cy="217.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="288.7" cy="251.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="278.1" cy="289.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="359.5" cy="192.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="248.5" cy="405.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="337.2" cy="247.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="251.6" cy="338.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="305.6" cy="267.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="356.3" cy="288.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="310.1" cy="254.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="399.8" cy="325.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="354.6" cy="256.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="282.7" cy="269.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="248.9" cy="274.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="338.9" cy="329.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="318.0" cy="253.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="278.3" cy="236.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="402.9" cy="242.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="308.0" cy="258.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="417.9" cy="310.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="363.8" cy="234.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="272.1" cy="425.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="352.6" cy="391.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="400.2" cy="296.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="385.2" cy="213.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="324.6" cy="353.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="308.4" cy="370.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="250.9" cy="334.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="312.8" cy="334.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="324.5" cy="302.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="349.3" cy="214.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="249.0" cy="288.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="385.3" cy="253.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="404.7" cy="172.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="330.2" cy="226.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="419.7" cy="183.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="342.9" cy="205.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="297.4" cy="290.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="250.3" cy="342.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="207.3" cy="249.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="385.9" cy="215.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="372.1" cy="262.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="284.6" cy="219.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="342.7" cy="262.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="264.9" cy="352.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="219.0" cy="389.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="377.8" cy="260.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="406.9" cy="264.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="334.5" cy="353.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="392.9" cy="282.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="311.9" cy="303.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="395.0" cy="267.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="386.2" cy="242.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="336.5" cy="280.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="238.1" cy="235.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="392.8" cy="226.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="340.7" cy="327.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="267.9" cy="448.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="335.6" cy="301.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="260.5" cy="250.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="300.6" cy="265.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="292.5" cy="254.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="351.3" cy="252.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="324.4" cy="209.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="346.5" cy="252.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="269.5" cy="284.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="240.0" cy="253.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="265.4" cy="374.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="259.0" cy="304.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="253.3" cy="377.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="289.8" cy="155.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="321.4" cy="268.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="215.0" cy="297.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="352.7" cy="201.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="276.0" cy="355.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="301.0" cy="371.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="371.3" cy="246.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="361.5" cy="315.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="408.9" cy="262.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="344.3" cy="296.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="382.2" cy="203.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="380.1" cy="265.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="337.1" cy="358.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="357.2" cy="269.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="325.0" cy="323.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="324.1" cy="333.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="295.6" cy="331.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="342.2" cy="292.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="199.3" cy="328.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="388.7" cy="91.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="299.9" cy="346.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="392.1" cy="232.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="333.3" cy="302.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="225.3" cy="345.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="225.5" cy="364.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="269.7" cy="402.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="389.2" cy="188.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="337.1" cy="289.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="386.2" cy="237.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="342.1" cy="182.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="263.3" cy="254.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="250.8" cy="345.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="357.6" cy="274.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="238.2" cy="262.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="392.8" cy="244.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="320.9" cy="297.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="271.6" cy="434.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="405.6" cy="285.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="254.0" cy="306.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="304.8" cy="263.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="392.5" cy="238.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="385.3" cy="251.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="340.0" cy="228.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="219.1" cy="305.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="336.4" cy="215.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="280.8" cy="325.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="365.1" cy="237.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="325.5" cy="290.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="390.3" cy="215.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="367.5" cy="236.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="367.8" cy="200.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="383.5" cy="252.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="314.5" cy="212.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="324.7" cy="272.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="270.8" cy="296.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="323.4" cy="286.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="98.7" cy="327.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="375.2" cy="238.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="300.0" cy="400.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="309.2" cy="261.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="353.7" cy="263.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="333.8" cy="256.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="298.8" cy="318.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="267.0" cy="271.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="300.3" cy="384.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="348.4" cy="363.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="269.1" cy="299.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="341.5" cy="272.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="408.6" cy="217.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="395.5" cy="216.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="310.3" cy="305.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="321.4" cy="359.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="374.3" cy="235.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="359.7" cy="156.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="311.1" cy="352.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="314.1" cy="224.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="229.1" cy="314.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="382.8" cy="300.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="334.2" cy="347.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="332.1" cy="363.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="325.0" cy="358.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="321.4" cy="268.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="282.2" cy="378.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="249.0" cy="377.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="390.6" cy="210.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="114.5" cy="365.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="265.8" cy="355.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="281.8" cy="352.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="381.9" cy="178.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="311.6" cy="285.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="308.7" cy="283.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="385.1" cy="228.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="223.2" cy="326.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="263.4" cy="319.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="341.3" cy="292.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="274.3" cy="396.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="342.7" cy="186.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="266.6" cy="371.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="413.4" cy="267.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="367.5" cy="225.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="287.1" cy="371.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="338.9" cy="302.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="311.5" cy="244.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="393.4" cy="186.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="303.1" cy="257.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="279.0" cy="331.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="277.1" cy="307.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="263.7" cy="385.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="388.2" cy="211.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="306.3" cy="279.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="326.3" cy="244.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="277.4" cy="282.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="391.1" cy="168.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="372.8" cy="157.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="291.6" cy="175.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="293.1" cy="435.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="321.7" cy="198.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="376.3" cy="216.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="392.4" cy="258.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="414.9" cy="286.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="298.9" cy="249.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="288.6" cy="270.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="284.6" cy="364.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="305.6" cy="297.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="312.5" cy="217.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="360.0" cy="348.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="303.0" cy="314.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="305.9" cy="313.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="326.1" cy="247.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="245.4" cy="361.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="361.6" cy="275.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="364.9" cy="338.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="261.3" cy="214.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="404.5" cy="212.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="415.5" cy="186.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="338.1" cy="343.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="312.3" cy="296.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="262.6" cy="296.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="392.7" cy="221.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="338.3" cy="326.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="329.9" cy="240.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="197.9" cy="399.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="282.8" cy="326.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="383.0" cy="284.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="342.2" cy="318.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="273.7" cy="301.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="311.6" cy="353.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="259.2" cy="242.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="148.8" cy="427.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="297.6" cy="161.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="228.9" cy="373.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="368.4" cy="214.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="409.8" cy="136.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="277.4" cy="264.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="256.0" cy="420.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="300.3" cy="251.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="301.0" cy="360.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="393.6" cy="264.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="344.8" cy="320.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="362.9" cy="256.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="344.6" cy="272.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="364.6" cy="206.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="283.9" cy="356.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="373.6" cy="258.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="349.4" cy="257.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="402.2" cy="376.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="354.1" cy="248.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="300.8" cy="266.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="379.7" cy="196.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="320.8" cy="349.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="320.0" cy="301.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="396.7" cy="274.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="306.1" cy="339.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="372.3" cy="258.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="395.6" cy="260.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="390.0" cy="272.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="94.7" cy="462.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="322.2" cy="285.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="342.3" cy="209.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="274.8" cy="216.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="293.1" cy="302.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="396.2" cy="151.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="295.9" cy="233.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="369.4" cy="288.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="340.5" cy="271.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="216.1" cy="323.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="222.5" cy="372.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="388.2" cy="298.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="386.3" cy="284.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="231.5" cy="435.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="348.6" cy="352.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="416.5" cy="183.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="348.8" cy="245.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="310.6" cy="255.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="393.7" cy="210.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="400.2" cy="256.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="360.4" cy="284.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="391.0" cy="278.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="342.0" cy="200.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="343.0" cy="279.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="274.6" cy="224.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="347.1" cy="192.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="329.4" cy="243.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="343.0" cy="234.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="411.5" cy="194.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="311.0" cy="346.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="267.6" cy="411.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="372.8" cy="262.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="341.4" cy="365.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="318.1" cy="300.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="397.5" cy="182.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="279.0" cy="269.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="332.1" cy="288.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="385.4" cy="295.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="264.0" cy="302.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="408.3" cy="137.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="253.7" cy="225.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="379.7" cy="183.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="322.5" cy="227.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="381.1" cy="309.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="346.9" cy="250.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="291.9" cy="357.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="263.5" cy="285.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="406.1" cy="197.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="216.4" cy="353.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="169.0" cy="414.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="240.5" cy="348.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="261.0" cy="318.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="349.0" cy="258.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="346.5" cy="228.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="255.6" cy="324.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="357.9" cy="185.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="309.1" cy="118.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="381.6" cy="208.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="287.8" cy="242.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="409.3" cy="247.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="336.3" cy="339.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="377.0" cy="301.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="185.1" cy="301.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="332.2" cy="274.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="391.2" cy="182.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="419.6" cy="309.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="353.7" cy="174.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="336.0" cy="272.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="374.0" cy="341.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="301.2" cy="322.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="213.7" cy="270.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="241.2" cy="293.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="419.6" cy="211.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="180.7" cy="273.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="282.6" cy="304.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="345.4" cy="364.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="309.4" cy="270.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="377.3" cy="271.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="374.2" cy="258.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="352.4" cy="416.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="264.5" cy="360.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="415.5" cy="224.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="267.3" cy="297.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="296.9" cy="344.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="252.4" cy="294.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="141.2" cy="414.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="327.3" cy="229.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="277.9" cy="319.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="404.1" cy="288.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="276.3" cy="381.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="282.4" cy="362.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="323.9" cy="296.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="332.0" cy="320.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="306.7" cy="363.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="396.0" cy="322.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="344.8" cy="194.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="329.4" cy="261.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="383.4" cy="140.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="368.9" cy="296.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="358.5" cy="162.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="302.4" cy="266.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="406.0" cy="166.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="280.2" cy="354.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="376.3" cy="178.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="403.9" cy="250.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="307.6" cy="231.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="405.8" cy="233.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="355.3" cy="302.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="413.1" cy="241.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="236.8" cy="325.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="323.2" cy="243.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="404.8" cy="326.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="352.3" cy="308.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="281.9" cy="291.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="237.6" cy="354.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="365.9" cy="288.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="273.5" cy="373.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="333.6" cy="265.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="232.7" cy="404.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="371.0" cy="236.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="353.2" cy="256.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="341.5" cy="266.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="291.4" cy="358.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="268.5" cy="286.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="331.5" cy="242.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="261.7" cy="310.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="230.7" cy="333.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="328.0" cy="208.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="265.1" cy="388.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="229.3" cy="496.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="418.3" cy="246.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="335.5" cy="373.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="350.6" cy="298.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="362.0" cy="252.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="279.5" cy="277.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="254.7" cy="357.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="332.7" cy="234.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="314.5" cy="267.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="303.8" cy="272.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="326.4" cy="277.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="338.8" cy="327.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="179.9" cy="457.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="298.7" cy="412.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="263.1" cy="416.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="296.4" cy="286.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="353.5" cy="260.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="272.6" cy="369.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="259.3" cy="257.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="290.2" cy="245.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="291.8" cy="337.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="325.3" cy="335.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="342.6" cy="320.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="314.2" cy="327.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="309.7" cy="279.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="341.3" cy="341.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="306.2" cy="315.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="370.8" cy="261.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="395.0" cy="257.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="170.9" cy="314.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="251.7" cy="358.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="326.8" cy="354.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="392.2" cy="248.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="167.4" cy="375.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="277.4" cy="313.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="280.3" cy="299.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="286.9" cy="306.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="400.3" cy="297.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="401.1" cy="258.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="283.2" cy="315.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="392.4" cy="234.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="342.6" cy="260.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="368.8" cy="246.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="335.5" cy="251.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="314.4" cy="286.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="345.9" cy="318.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="219.8" cy="355.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="346.2" cy="268.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="276.6" cy="374.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="245.1" cy="275.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="191.3" cy="459.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="360.1" cy="307.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="362.2" cy="241.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="364.3" cy="287.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="330.4" cy="278.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="358.5" cy="271.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="406.7" cy="337.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="298.0" cy="375.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="253.9" cy="261.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="212.5" cy="464.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="350.8" cy="277.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="404.0" cy="154.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="322.8" cy="211.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="309.1" cy="362.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="239.0" cy="268.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="280.1" cy="405.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="380.7" cy="252.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="376.3" cy="251.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="261.5" cy="270.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="229.6" cy="244.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="402.1" cy="185.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="343.4" cy="225.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="280.6" cy="193.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="370.4" cy="245.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="388.0" cy="198.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="236.2" cy="372.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="330.8" cy="279.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="241.7" cy="314.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="265.8" cy="297.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="325.4" cy="316.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="205.4" cy="306.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="351.0" cy="233.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="275.6" cy="282.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="341.2" cy="246.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="239.0" cy="371.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="232.9" cy="259.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="260.4" cy="268.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="369.4" cy="276.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="297.4" cy="294.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="275.3" cy="325.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="258.0" cy="412.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="385.3" cy="260.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="318.3" cy="359.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="330.7" cy="187.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="244.0" cy="316.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="298.7" cy="367.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="419.0" cy="272.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="412.9" cy="235.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="379.5" cy="310.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="287.6" cy="343.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="346.5" cy="244.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="204.0" cy="431.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="355.4" cy="268.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="325.7" cy="209.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="334.6" cy="339.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="322.1" cy="206.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="382.1" cy="189.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="336.9" cy="235.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="358.1" cy="266.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="331.1" cy="298.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="339.6" cy="333.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="262.5" cy="325.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="336.3" cy="287.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="342.0" cy="265.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="290.1" cy="247.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="353.3" cy="287.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="405.4" cy="310.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="297.2" cy="399.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="251.3" cy="354.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="298.2" cy="255.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="409.6" cy="155.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="284.8" cy="282.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="396.0" cy="261.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="385.3" cy="210.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="337.3" cy="269.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="226.6" cy="297.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="381.2" cy="390.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="368.1" cy="297.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="364.8" cy="253.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="227.9" cy="367.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="345.4" cy="380.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="354.6" cy="232.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="275.4" cy="346.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="319.4" cy="379.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="351.5" cy="226.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="284.5" cy="311.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="356.7" cy="283.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="413.8" cy="264.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="389.6" cy="285.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="287.8" cy="302.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="346.3" cy="249.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="343.9" cy="269.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="288.9" cy="286.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="349.0" cy="330.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="277.5" cy="374.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="371.4" cy="301.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="330.4" cy="253.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="247.2" cy="415.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="327.4" cy="317.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="381.3" cy="239.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="351.5" cy="202.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="333.0" cy="350.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="181.7" cy="366.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="341.3" cy="222.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="373.1" cy="328.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="373.7" cy="306.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="314.4" cy="192.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="287.9" cy="282.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="238.7" cy="334.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="352.8" cy="320.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="297.1" cy="266.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="323.5" cy="294.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="387.5" cy="283.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="216.5" cy="310.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="409.0" cy="254.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="353.4" cy="293.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="356.4" cy="331.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="396.9" cy="215.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="417.2" cy="112.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="185.9" cy="428.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="271.0" cy="378.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="251.8" cy="281.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="178.1" cy="336.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="298.7" cy="304.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="327.3" cy="349.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="251.9" cy="339.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="302.7" cy="333.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="367.0" cy="214.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="314.2" cy="278.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="240.8" cy="372.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="377.0" cy="87.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="288.6" cy="356.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="351.4" cy="265.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="378.0" cy="259.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="283.0" cy="355.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="348.3" cy="276.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="301.9" cy="253.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="374.7" cy="235.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="370.6" cy="219.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="376.5" cy="287.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="193.0" cy="428.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="418.5" cy="249.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="398.6" cy="224.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="286.0" cy="347.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="223.7" cy="247.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="356.8" cy="239.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="295.7" cy="249.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="321.8" cy="285.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="292.3" cy="288.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="370.1" cy="399.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="345.8" cy="294.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="405.4" cy="274.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="327.3" cy="269.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="316.3" cy="247.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="262.9" cy="382.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="186.2" cy="329.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="244.3" cy="329.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="376.1" cy="291.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="335.7" cy="309.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="304.4" cy="326.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="328.8" cy="253.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="254.5" cy="311.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="242.0" cy="268.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="282.0" cy="313.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="350.3" cy="306.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="276.7" cy="377.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="394.6" cy="318.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="291.5" cy="342.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="328.8" cy="193.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="336.3" cy="330.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="414.7" cy="280.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="323.0" cy="334.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="406.8" cy="270.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="285.7" cy="309.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="325.2" cy="289.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="371.2" cy="103.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="317.7" cy="244.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="387.4" cy="343.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="355.3" cy="260.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="260.4" cy="332.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="272.8" cy="328.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="418.2" cy="372.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="390.1" cy="266.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="395.4" cy="135.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="365.8" cy="210.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="387.0" cy="264.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="329.8" cy="250.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="405.9" cy="191.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="219.9" cy="301.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="268.7" cy="354.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="367.6" cy="248.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="388.8" cy="238.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="361.3" cy="299.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="268.6" cy="282.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="291.6" cy="318.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="411.8" cy="261.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="367.9" cy="262.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="355.5" cy="178.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="380.9" cy="300.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="324.0" cy="229.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="368.1" cy="188.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="230.9" cy="374.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="314.9" cy="273.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="277.2" cy="249.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="268.0" cy="347.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="360.9" cy="257.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="310.2" cy="205.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="302.9" cy="248.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="220.4" cy="406.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="354.3" cy="243.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="217.6" cy="242.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="334.6" cy="323.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="301.7" cy="191.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="395.7" cy="245.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="381.6" cy="277.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="237.8" cy="286.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="342.2" cy="273.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="419.7" cy="156.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="382.0" cy="363.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="207.0" cy="337.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="283.7" cy="359.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="243.1" cy="348.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="396.6" cy="299.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="287.8" cy="339.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="286.6" cy="307.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="267.7" cy="240.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="340.3" cy="274.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="350.9" cy="360.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="302.5" cy="295.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="312.5" cy="255.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="331.4" cy="259.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="404.5" cy="114.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="228.1" cy="384.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="305.9" cy="312.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="409.4" cy="241.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="369.8" cy="342.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="353.2" cy="103.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="290.7" cy="246.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="379.4" cy="181.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="257.8" cy="398.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="391.7" cy="122.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="230.3" cy="341.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="357.0" cy="338.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="337.1" cy="366.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="296.2" cy="197.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="322.7" cy="235.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="242.4" cy="339.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="288.2" cy="352.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="230.5" cy="427.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="303.1" cy="249.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="228.5" cy="241.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="405.4" cy="248.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="256.6" cy="289.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="274.0" cy="293.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="340.9" cy="277.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="402.4" cy="178.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="329.4" cy="278.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="334.9" cy="171.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="296.2" cy="314.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="416.0" cy="202.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="344.1" cy="251.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="311.7" cy="232.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="274.0" cy="325.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="406.6" cy="268.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="381.9" cy="407.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="326.8" cy="230.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="249.4" cy="385.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="335.9" cy="347.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="403.4" cy="278.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="268.4" cy="324.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="309.1" cy="450.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="321.6" cy="293.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="230.2" cy="300.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="405.4" cy="301.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="295.6" cy="200.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="244.9" cy="341.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="402.0" cy="264.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="283.2" cy="305.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="325.3" cy="236.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="208.8" cy="394.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="306.0" cy="290.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="297.0" cy="286.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="357.0" cy="248.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="250.2" cy="377.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="332.3" cy="226.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="378.0" cy="307.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="298.3" cy="294.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="280.1" cy="288.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="354.2" cy="271.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="402.4" cy="276.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="328.8" cy="379.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="346.3" cy="303.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="241.8" cy="247.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="344.0" cy="300.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="329.6" cy="237.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="287.9" cy="304.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="418.6" cy="202.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="215.3" cy="385.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="301.8" cy="244.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="282.5" cy="230.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="338.7" cy="245.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="374.2" cy="324.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="314.8" cy="342.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="368.9" cy="234.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="295.1" cy="349.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="224.0" cy="383.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="312.7" cy="283.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="311.3" cy="210.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="343.5" cy="200.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="213.3" cy="422.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="391.7" cy="250.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="274.7" cy="386.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="292.1" cy="334.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="199.8" cy="325.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="381.5" cy="229.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="398.6" cy="301.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="277.6" cy="362.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="348.2" cy="277.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="342.0" cy="284.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="299.8" cy="327.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="282.6" cy="366.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="341.6" cy="225.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="249.6" cy="376.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="328.0" cy="295.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="314.3" cy="329.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="403.9" cy="213.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="288.7" cy="178.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="353.9" cy="216.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="318.5" cy="261.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="361.9" cy="239.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="293.8" cy="374.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="276.5" cy="261.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="277.7" cy="261.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="284.1" cy="284.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="290.2" cy="314.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="263.9" cy="399.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="368.4" cy="271.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="274.1" cy="267.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="336.8" cy="324.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="389.8" cy="171.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="310.9" cy="319.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="353.7" cy="285.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="370.3" cy="301.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="320.6" cy="193.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="247.7" cy="335.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="380.7" cy="164.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="349.5" cy="320.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="407.4" cy="320.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="288.0" cy="285.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="374.0" cy="205.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="316.3" cy="258.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="321.1" cy="263.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="406.5" cy="199.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="357.9" cy="217.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="168.1" cy="406.1" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="367.8" cy="207.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="181.2" cy="350.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="342.0" cy="311.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="406.7" cy="334.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="300.6" cy="338.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="278.6" cy="381.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="284.2" cy="275.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="321.7" cy="247.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="363.3" cy="345.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="413.3" cy="205.7" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="275.2" cy="321.0" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="230.7" cy="275.6" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="397.2" cy="294.3" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="363.3" cy="256.5" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="350.2" cy="277.2" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="309.5" cy="348.9" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="339.4" cy="361.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="381.6" cy="164.4" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="354.0" cy="233.8" r="2.5" fill="var(--muted)" fill-opacity="0.38"/>
+<circle cx="443.4" cy="209.8" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="471.8" cy="232.9" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="497.3" cy="83.1" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="456.8" cy="213.5" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="428.6" cy="178.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="511.6" cy="128.3" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="439.8" cy="177.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="430.5" cy="281.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="536.6" cy="203.5" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="428.9" cy="282.8" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="429.0" cy="304.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="431.1" cy="202.1" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="423.4" cy="242.2" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="419.9" cy="189.5" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="419.8" cy="293.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="452.3" cy="218.4" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="496.3" cy="222.3" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="421.2" cy="273.4" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="433.3" cy="156.1" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="470.9" cy="190.1" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="457.1" cy="132.8" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="532.9" cy="83.4" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="430.4" cy="234.6" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="449.9" cy="260.0" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="465.7" cy="240.9" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="504.7" cy="166.6" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="443.1" cy="177.8" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="452.7" cy="249.0" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="448.5" cy="137.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="432.9" cy="305.1" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="446.1" cy="235.4" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="511.7" cy="202.0" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="437.4" cy="283.3" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="493.9" cy="135.4" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="436.1" cy="217.0" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="447.5" cy="206.8" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="423.6" cy="192.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="420.4" cy="272.0" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="459.5" cy="200.4" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="491.2" cy="192.5" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="481.4" cy="204.0" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="470.1" cy="139.3" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="558.6" cy="72.9" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="491.1" cy="237.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="500.9" cy="164.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="432.6" cy="215.5" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="436.8" cy="270.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="424.4" cy="133.9" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="430.9" cy="226.4" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="437.8" cy="232.1" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="448.5" cy="230.4" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="424.5" cy="240.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="432.0" cy="179.5" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="430.5" cy="270.9" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="421.9" cy="314.0" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="457.6" cy="283.5" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="450.1" cy="131.3" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="493.9" cy="144.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="442.5" cy="150.0" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="435.9" cy="285.1" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="452.8" cy="292.9" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="480.4" cy="105.3" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="447.5" cy="100.3" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="469.9" cy="202.8" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="420.5" cy="203.2" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="434.6" cy="298.3" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="510.7" cy="243.5" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="438.2" cy="231.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="421.4" cy="225.0" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="454.4" cy="198.1" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="423.0" cy="250.0" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="423.0" cy="192.9" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="452.7" cy="305.6" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="453.7" cy="287.2" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="458.3" cy="198.6" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="472.8" cy="152.2" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="422.8" cy="308.9" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="427.3" cy="120.0" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="443.9" cy="171.2" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="430.9" cy="152.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="423.7" cy="165.6" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="435.6" cy="188.5" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="462.4" cy="89.6" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="443.7" cy="223.6" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="462.8" cy="186.2" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="472.7" cy="167.1" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="442.2" cy="262.3" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="543.8" cy="228.6" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="426.4" cy="246.4" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="456.5" cy="252.4" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="422.0" cy="296.5" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="526.7" cy="219.9" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="420.7" cy="187.8" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="432.3" cy="248.7" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="508.6" cy="238.9" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="463.3" cy="190.2" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="478.7" cy="200.5" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="431.8" cy="173.1" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="435.0" cy="197.0" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<circle cx="439.6" cy="241.5" r="3" fill="var(--bad)" fill-opacity="0.72"/>
+<line x1="92.0" y1="520.0" x2="572.0" y2="40.0" stroke="var(--text)" stroke-width="1.6" stroke-dasharray="7 5"/>
+<line x1="126.3" y1="399.6" x2="572.0" y2="139.5" stroke="var(--accent)" stroke-width="2.6"/>
+<line x1="419.8" y1="40" x2="419.8" y2="520" stroke="var(--bad)" stroke-width="1.6" stroke-dasharray="4 4"/>
+<rect x="177.1" y="73.0" width="205" height="19" rx="3" fill="var(--panel)" fill-opacity="0.85"/>
+<rect x="341.7" y="436.4" width="182" height="19" rx="3" fill="var(--panel)" fill-opacity="0.85"/>
+<rect x="96.0" y="257.0" width="150" height="19" rx="3" fill="var(--panel)" fill-opacity="0.85"/>
+<text x="181.1" y="88.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">no change: retest = pretest</text>
+<text x="181.1" y="112.0" font-size="13" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">(dashed diagonal)</text>
+<text x="345.7" y="451.4" font-size="13.5" fill="var(--accent)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">best-fit line, slope = 0.58</text>
+<text x="413.8" y="60.0" font-size="13.5" fill="var(--bad)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">top 10% cut-off (62.8)</text>
+<line x1="454.0" y1="167.0" x2="454.0" y2="199.8" stroke="var(--bad)" stroke-width="2.6" marker-end="url(#s19r-arr)"/>
+<rect x="447.0" y="151.0" width="14" height="14" fill="var(--panel)" stroke="var(--bad)" stroke-width="2.4"/>
+<rect x="447.0" y="202.8" width="14" height="14" fill="var(--bad)" stroke="var(--bad)" stroke-width="2"/>
+<line x1="92" y1="279.0" x2="572" y2="279.0" stroke="#0f766e" stroke-width="1.2" stroke-dasharray="2 4"/>
+<text x="100.0" y="272.0" font-size="13" fill="#0f766e" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">population mean 50.1</text>
+<text x="612.0" y="64.0" font-size="15.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">The selected 100 patients</text>
+<text x="612.0" y="86.0" font-size="13" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">(red dots: highest 10% at pretest)</text>
+<line x1="642" y1="120" x2="642" y2="330" stroke="var(--border)" stroke-width="1.4"/>
+<line x1="637" y1="330.0" x2="647" y2="330.0" stroke="var(--muted)" stroke-width="1"/>
+<text x="630.0" y="334.5" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">45</text>
+<line x1="637" y1="291.1" x2="647" y2="291.1" stroke="var(--muted)" stroke-width="1"/>
+<text x="630.0" y="295.6" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">50</text>
+<line x1="637" y1="252.2" x2="647" y2="252.2" stroke="var(--muted)" stroke-width="1"/>
+<text x="630.0" y="256.7" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">55</text>
+<line x1="637" y1="213.3" x2="647" y2="213.3" stroke="var(--muted)" stroke-width="1"/>
+<text x="630.0" y="217.8" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">60</text>
+<line x1="637" y1="174.4" x2="647" y2="174.4" stroke="var(--muted)" stroke-width="1"/>
+<text x="630.0" y="178.9" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">65</text>
+<line x1="637" y1="135.6" x2="647" y2="135.6" stroke="var(--muted)" stroke-width="1"/>
+<text x="630.0" y="140.1" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">70</text>
+<rect x="635.0" y="145.8" width="14" height="14" fill="var(--panel)" stroke="var(--bad)" stroke-width="2.2"/>
+<text x="662.0" y="157.8" font-size="14" fill="var(--bad)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Pretest mean: <tspan font-weight="700">67.8</tspan></text>
+<rect x="635.0" y="204.5" width="14" height="14" fill="var(--bad)" stroke="var(--bad)" stroke-width="2.2"/>
+<text x="662.0" y="216.5" font-size="14" fill="var(--bad)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Retest mean, untreated: <tspan font-weight="700">60.2</tspan></text>
+<rect x="635.0" y="283.0" width="14" height="14" fill="#0f766e" stroke="#0f766e" stroke-width="2.2"/>
+<text x="662.0" y="295.0" font-size="14" fill="#0f766e" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Population mean: <tspan font-weight="700">50.1</tspan></text>
+<line x1="642" y1="161.8" x2="642" y2="201.5" stroke="var(--bad)" stroke-width="2.6" marker-end="url(#s19r-arr)"/>
+<text x="612.0" y="372.0" font-size="14.5" fill="var(--bad)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Fall with no treatment: 7.6 points</text>
+<text x="612.0" y="396.0" font-size="14" fill="var(--text)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Pretest-retest r = 0.60</text>
+<text x="612.0" y="426.0" font-size="14" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Predicted retest mean</text>
+<text x="612.0" y="448.0" font-size="14" fill="var(--text)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">= 50.1 + 0.60 &#215; (67.8 &#8722; 50.1)</text>
+<text x="612.0" y="470.0" font-size="14" fill="var(--text)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">= 60.7  (observed 60.2)</text>
+<text x="612.0" y="506.0" font-size="13.5" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Their extreme pretest scores were</text>
+<text x="612.0" y="526.0" font-size="13.5" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">partly bad luck (error) that did</text>
+<text x="612.0" y="546.0" font-size="13.5" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">not repeat. An untreated pre-post</text>
+<text x="612.0" y="566.0" font-size="13.5" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">study would call this improvement.</text>
+</svg>
+<figcaption>Simulated pretest and retest scores (n = 1000, reliability .60, no treatment): the top 10% at pretest (red) average 67.8 but only 60.2 at retest, falling back toward the mean of 50.</figcaption></figure>
+
+<p>Had this clinic given those 100 patients eight weeks of a useless herbal remedy and run a one-group pretest&#8211;posttest study, it would have reported a 7.6-point "improvement" with a large effect size and a tiny p value. That is the danger. Regression to the mean contaminates any study that <b>selects people because they are extreme</b>, which in clinical work is nearly every study, since people seek treatment when their symptoms are at their worst.</p>
+
+<ul class="tight">
+  <li><b>Untreated improvement in clinical samples:</b> part of the "improvement" in uncontrolled case series, and part of the placebo response in drug trials, is regression.</li>
+  <li><b>Matching across different populations:</b> if a treatment group from a low-scoring population is matched on pretest with a control group from a higher-scoring population, each matched group regresses toward its own population mean on retest, manufacturing a spurious difference. Donald Campbell and Albert Erlebacher (1970) showed how this could make the American Head Start compensatory education programme look harmful.</li>
+  <li><b>Reward and punishment:</b> Daniel Kahneman (<i>Thinking, Fast and Slow</i>, 2011) recalled Israeli Air Force flight instructors who were convinced that praise after an excellent landing made the next one worse and criticism after a bad landing made the next one better. Both were regression: an exceptional landing is usually followed by a more ordinary one, whatever the instructor says.</li>
+</ul>
+
+<div class="trap"><b>How to control regression.</b> Not by matching, and not by testing more people. The cure is a <b>control group drawn from the same extreme pool and formed by random assignment</b>: both groups regress equally, and only the difference between them reflects treatment. Other safeguards: use highly reliable measures; take two baseline measurements, selecting on the first and using the second as the pretest; and never interpret improvement in a group selected for extremity without a control.</div>
+
+<h3>19.4 Threats to external validity</h3>
+
+<p>Campbell and Stanley (1963) listed four factors that limit generalisation (they called them "factors jeopardising external validity or representativeness"):</p>
+<ol class="steps">
+  <li><b>Reactive or interaction effect of testing (pretest sensitisation):</b> the pretest may make participants more or less responsive to the treatment, so the result holds only for pretested people. A pretest questionnaire about stigma may sensitise participants to an anti-stigma film; unpretested audiences in the real world would not respond as strongly. The <b>Solomon four-group design</b> was built to detect exactly this.</li>
+  <li><b>Interaction of selection and treatment:</b> the treatment works only for the kind of people who happened to be sampled. A mindfulness programme tested on motivated, educated, urban volunteers may not work for rural patients with low literacy.</li>
+  <li><b>Reactive effects of experimental arrangements:</b> the experimental setting itself (being observed, the laboratory, knowing one is in a study) produces effects that will not occur outside it. The Hawthorne effect and demand characteristics (19.5) are the classic cases.</li>
+  <li><b>Multiple-treatment interference:</b> when the same participants receive several treatments, the effects of earlier ones persist and interfere with later ones, so the result applies only to people who received that sequence. This is the external-validity face of the carry-over problem in within-subject designs (19.7).</li>
+</ol>
+
+<p>Cook and Campbell (1979) restated external validity threats as <b>interactions of the treatment with selection, setting and history</b>: the effect may hold only for these people, only in this kind of setting, or only at this point in time (a programme evaluated before smartphones may not work after them). Shadish, Cook and Campbell (2002) generalised this to interactions of the causal relationship with units, treatment variations, outcomes and settings. The common remedies are random sampling from the target population (section 7.2), heterogeneous samples and settings, field replication and, ultimately, meta-analysis across many studies (section 25).</p>
+
+<h3>19.5 Reactivity and bias: participants and experimenters</h3>
+
+<p>People who know they are being studied do not behave like people who do not, and researchers who know what they expect do not observe like researchers who do not. Any influence that systematically distorts results is a <b>bias</b>. Behaviour changed by the act of measuring it is <b>reactivity</b>. Both threaten the construct and external validity of a study, and, when they differ between groups, its internal validity.</p>
+
+<h4>Participant effects</h4>
+<p><b>The Hawthorne effect.</b> Between 1924 and 1932 the Western Electric Company's Hawthorne Works near Chicago studied worker productivity (later associated with Elton Mayo, and written up by Fritz Roethlisberger and William Dickson in <i>Management and the Worker</i>, 1939). In the illumination experiments output rose when lighting was increased, but also in the control group, and sometimes when the light was dimmed. The interpretation that output rose because the workers knew they were being studied was named the <b>Hawthorne effect</b> by <b>Henry A. Landsberger</b> (<i>Hawthorne Revisited</i>, 1958): participants change their behaviour because they know they are being observed, independent of the intervention. Reanalyses (Steven Levitt and John List, 2011) found the original data much weaker than the legend, but the term is established.</p>
+
+<div class="founder"><b>Martin T. Orne</b>, "On the social psychology of the psychological experiment: with particular reference to demand characteristics and their implications" (<i>American Psychologist</i>, 1962). <b>Demand characteristics</b> are the totality of cues in an experimental situation (rumours, the instructions, the setting, the procedure, the experimenter's manner) that convey the hypothesis to participants and so influence their behaviour. Orne showed how powerful the role of "experimental subject" is: participants given page after page of random numbers to add, and told to tear up each completed sheet and continue, kept going for hours. Orne proposed <b>quasi-controls</b> to detect demand: a careful <b>post-experimental inquiry</b>, a <b>pre-inquiry</b> (asking people to imagine they were in the study and predict their behaviour) and <b>simulators</b> (participants asked to fake being hypnotised or treated, to see whether the "effect" can be produced by role-playing alone).</div>
+
+<ul class="tight">
+  <li><b>Good-subject effect:</b> Orne's observation that most participants want to help science and the experimenter, so they try to work out the hypothesis and confirm it.</li>
+  <li><b>Evaluation apprehension:</b> <b>Milton J. Rosenberg</b> (1965): participants are anxious to be judged favourably (as psychologically healthy, intelligent, normal) and behave so as to look good.</li>
+  <li>Stephen Weber and Thomas Cook (1972) classified participant roles as <b>good</b>, <b>negativistic</b> (deliberately working against the hypothesis, sometimes called the "screw-you" effect), <b>faithful</b> (scrupulously following instructions) and <b>apprehensive</b>.</li>
+  <li><b>Social desirability:</b> the tendency to answer in the way that will be viewed favourably by others, a major bias in self-report (Allen L. Edwards, 1957; the Marlowe&#8211;Crowne Social Desirability Scale, Douglas Crowne and David Marlowe, 1960). Controlled by anonymity, forced-choice items matched for desirability, lie or validity scales, and indirect measures (section 23).</li>
+  <li><b>John Henry effect</b> (19.2) and <b>novelty effect</b>: a new treatment, gadget or app produces improvement partly because it is new and exciting; the effect fades as the novelty wears off, so short trials overestimate benefit.</li>
+</ul>
+
+<h4>Placebo and nocebo</h4>
+<p>A <b>placebo</b> (Latin, "I shall please") is an inert treatment (sugar pill, sham procedure) given so that expectation is held constant between groups; the <b>placebo effect</b> is improvement produced by the expectation of treatment and the ritual of care. <b>Henry K. Beecher</b>'s "The Powerful Placebo" (<i>JAMA</i>, 1955) pooled 15 studies and reported about 35% of patients satisfactorily relieved by placebo. Later analyses (Asbj&oslash;rn Hr&oacute;bjartsson and Peter G&oslash;tzsche, 2001) showed much of that was natural recovery and regression to the mean, though placebo responses on subjective outcomes such as pain are real. The <b>nocebo</b> effect (Latin, "I shall harm"), named by <b>Walter Kennedy</b> in 1961, is the reverse: negative expectations produce symptoms, as when patients warned of headaches report more headaches on placebo.</p>
+
+<h4>Experimenter effects</h4>
+<div class="founder"><b>Oskar Pfungst</b> (1907) investigated <b>Clever Hans</b>, a Berlin horse owned by Wilhelm von Osten that apparently answered arithmetic questions by tapping its hoof. Pfungst showed that Hans answered correctly only when the questioner knew the answer and was visible: the horse was reading tiny, involuntary cues (a slight lift of the head or relaxation of posture when the correct number of taps was reached). Nobody was cheating; the cue was unconscious. Clever Hans is the founding example of the <b>experimenter expectancy effect</b>, and the reason for blind testing.</div>
+
+<p><b>Robert Rosenthal</b> made the experimenter expectancy effect a research programme. In <b>Rosenthal and Kermit Fode (1963)</b>, students were each given rats to train in a maze; some were told their rats were specially bred "maze-bright", others "maze-dull". The rats were in fact randomly assigned from the same stock, yet the "bright" rats learned faster, presumably because of differences in how the students handled and observed them. In <b>Rosenthal and Lenore Jacobson's <i>Pygmalion in the Classroom</i> (1968)</b>, teachers at an elementary school were told that a test had identified certain children (actually chosen at random, about 20%) as "bloomers" who would show an intellectual spurt; after about eight months those children, especially in the first and second grades, had gained more IQ points than their classmates. This <b>Pygmalion</b> or <b>Rosenthal effect</b> is the self-fulfilling prophecy in the classroom. Later replications found the effect real but smaller and less consistent than the 1968 study suggested.</p>
+
+<div class="trap"><b>Keep the sources of expectancy apart.</b> <b>Demand characteristics</b> (Orne): cues that make the <i>participant</i> guess and play to the hypothesis. <b>Experimenter expectancy</b> (Robert Rosenthal; Clever Hans): the <i>experimenter's</i> expectation leaks into the participant's behaviour or into the recording of it. <b>Hawthorne effect</b>: change because one is <i>observed</i>. <b>Placebo effect</b>: change because one <i>expects to be treated</i>. <b>John Henry effect</b>: the <i>control group</i> competes. The past-paper answer to "a double-blind study is used to minimise the impact of" is <b>both experimenter bias and expectancy effects</b>.</div>
+
+<h3>19.6 Techniques of control</h3>
+
+<p><b>Control</b> means holding constant, or otherwise neutralising, the influence of extraneous variables so that only the IV differs between conditions (a past paper defined it as "the process of holding constant the possible influence" of extraneous variables). <b>Fred N. Kerlinger</b>, in <i>Foundations of Behavioral Research</i> (1964 and later editions), summed up the aim of design in the <b>MAXMINCON principle</b>: <b>max</b>imise systematic (experimental) variance, by making the levels of the IV as different as possible; <b>min</b>imise error variance, by reliable measurement and controlled conditions; and <b>con</b>trol extraneous systematic variance, by the techniques below. <b>Ronald A. Fisher</b>'s <i>The Design of Experiments</i> (1935) gave the three classic principles of experimental design: <b>randomisation</b>, <b>replication</b> (more than one unit per condition, so error can be estimated) and <b>local control</b> (blocking similar units together).</p>
+
+<h4>Randomisation</h4>
+<p><b>Random assignment</b> (randomisation) gives every participant an equal chance of being placed in any condition, typically by computer-generated random numbers. It is the most powerful control technique because it equalises groups, within the limits of chance, on <b>every</b> extraneous variable at once, known and unknown, measured and unmeasured: severity, motivation, genes, life events. It is the defining feature of a true experiment and the main protection against selection bias and confounding. With small samples chance imbalance remains possible, which is why trials use <b>block</b> and <b>stratified randomisation</b> and keep the sequence hidden from recruiters (<b>allocation concealment</b>, section 25).</p>
+
+<div class="trap"><b>Random selection and random assignment are different things.</b> <b>Random selection</b> (random sampling, section 7.2) decides <b>who gets into the study</b>; it makes the sample representative and buys <b>external validity</b>. <b>Random assignment</b> decides <b>which condition each participant receives</b>; it makes the groups equivalent and buys <b>internal validity</b>. A study can have either without the other. Most clinical trials use a convenience sample of consenting patients (no random selection) but assign them randomly (strong internal validity, limited generality); a national survey uses random selection but assigns nobody to anything (representative, but no causal claim). Past papers: "randomisation is not possible in" <b>purposive sampling</b> (it refers to selection); "the principle that ensures every participant has an equal chance of being assigned to any group" is <b>randomisation</b>; "the main reason for randomly assigning subjects" is to make the groups as similar as possible so the only systematic difference is the treatment.</div>
+
+<figure class="dia">
+<svg viewBox="0 0 940 420" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="s19a-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent)"/></marker><marker id="s19a-org" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c2701a"/></marker></defs>
+<rect x="20" y="62" width="236" height="236" rx="16" fill="var(--panel)" stroke="var(--border)" stroke-width="1.5"/>
+<text x="138.0" y="36.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Population</text>
+<text x="138.0" y="54.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">everyone you want to generalise to</text>
+<circle cx="102.1" cy="108.8" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="168.8" cy="92.8" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="145.3" cy="152.6" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="47.8" cy="181.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="43.6" cy="166.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="50.3" cy="96.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="122.6" cy="246.7" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="61.3" cy="123.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="164.0" cy="271.3" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="235.2" cy="87.5" r="5" fill="var(--accent)"/>
+<circle cx="211.1" cy="137.1" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="65.4" cy="102.0" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="98.9" cy="244.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="72.9" cy="196.6" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="166.3" cy="154.0" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="147.7" cy="90.8" r="5" fill="var(--accent)"/>
+<circle cx="48.2" cy="120.0" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="174.8" cy="165.2" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="100.1" cy="197.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="128.4" cy="139.2" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="198.1" cy="220.6" r="5" fill="var(--accent)"/>
+<circle cx="85.8" cy="195.2" r="5" fill="var(--accent)"/>
+<circle cx="143.1" cy="256.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="184.8" cy="136.7" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="236.0" cy="102.1" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="121.3" cy="232.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="67.0" cy="177.7" r="5" fill="var(--accent)"/>
+<circle cx="44.0" cy="214.3" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="192.0" cy="194.9" r="5" fill="var(--accent)"/>
+<circle cx="177.8" cy="199.3" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="154.3" cy="171.1" r="5" fill="var(--accent)"/>
+<circle cx="207.4" cy="270.7" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="132.7" cy="213.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="114.7" cy="214.4" r="5" fill="var(--accent)"/>
+<circle cx="48.0" cy="234.7" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="203.1" cy="254.3" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="92.8" cy="162.7" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="109.2" cy="258.4" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="83.6" cy="176.9" r="5" fill="var(--accent)"/>
+<circle cx="156.2" cy="131.6" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="230.4" cy="218.9" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="141.2" cy="204.0" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="219.5" cy="237.1" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="116.0" cy="159.4" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="57.1" cy="207.4" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="78.6" cy="111.1" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="105.4" cy="88.7" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="36.0" cy="108.9" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="56.7" cy="152.2" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="41.2" cy="256.4" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="161.3" cy="108.3" r="5" fill="var(--accent)"/>
+<circle cx="87.5" cy="148.9" r="5" fill="var(--accent)"/>
+<circle cx="131.1" cy="176.7" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="105.9" cy="132.0" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="205.1" cy="110.9" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="40.7" cy="272.0" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="143.8" cy="107.9" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="143.7" cy="277.6" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="212.1" cy="220.0" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="70.1" cy="235.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="144.6" cy="236.9" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="41.7" cy="135.0" r="5" fill="var(--accent)"/>
+<circle cx="88.9" cy="219.3" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="231.1" cy="169.2" r="5" fill="var(--accent)"/>
+<circle cx="227.2" cy="279.6" r="5" fill="var(--accent)"/>
+<circle cx="230.8" cy="152.4" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="81.0" cy="124.3" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="207.4" cy="175.8" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="169.2" cy="241.1" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="189.0" cy="175.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="117.9" cy="271.1" r="5" fill="var(--accent)"/>
+<circle cx="183.9" cy="112.7" r="5" fill="var(--accent)"/>
+<circle cx="62.7" cy="80.9" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="62.7" cy="263.6" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="108.2" cy="171.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="155.0" cy="262.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="125.8" cy="115.4" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="36.8" cy="241.0" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="102.5" cy="183.7" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="57.6" cy="192.3" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="133.5" cy="270.1" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="178.6" cy="256.8" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="228.2" cy="131.0" r="5" fill="var(--accent)"/>
+<circle cx="80.8" cy="272.3" r="5" fill="var(--accent)"/>
+<circle cx="237.9" cy="247.8" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="75.9" cy="143.0" r="5" fill="var(--accent)"/>
+<circle cx="183.3" cy="82.0" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="163.3" cy="182.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="152.4" cy="220.9" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="53.1" cy="252.7" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="143.5" cy="126.6" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="87.1" cy="81.1" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="116.2" cy="181.4" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="176.3" cy="278.4" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="93.5" cy="127.4" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="234.4" cy="189.6" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="36.2" cy="155.9" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="44.5" cy="82.6" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="189.1" cy="212.1" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="115.5" cy="144.5" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="218.0" cy="206.0" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="185.7" cy="243.7" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="175.3" cy="219.4" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="135.8" cy="78.7" r="5" fill="var(--accent)"/>
+<circle cx="138.6" cy="187.2" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="131.1" cy="102.2" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="218.3" cy="118.6" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="235.5" cy="269.0" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="94.3" cy="268.9" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<circle cx="96.7" cy="228.8" r="4" fill="var(--muted)" fill-opacity="0.45"/>
+<line x1="262" y1="180" x2="352" y2="180" stroke="var(--accent)" stroke-width="3" marker-end="url(#s19a-acc)"/>
+<text x="307.0" y="160.0" font-size="14.5" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Random</text>
+<text x="307.0" y="210.0" font-size="14.5" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">selection</text>
+<rect x="360" y="112" width="150" height="136" rx="14" fill="var(--accent)" fill-opacity="0.08" stroke="var(--accent)" stroke-width="1.5"/>
+<text x="435.0" y="98.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Sample (n = 20)</text>
+<circle cx="383" cy="136" r="5.5" fill="var(--accent)"/>
+<circle cx="409" cy="136" r="5.5" fill="var(--accent)"/>
+<circle cx="435" cy="136" r="5.5" fill="var(--accent)"/>
+<circle cx="461" cy="136" r="5.5" fill="var(--accent)"/>
+<circle cx="487" cy="136" r="5.5" fill="var(--accent)"/>
+<circle cx="383" cy="165" r="5.5" fill="var(--accent)"/>
+<circle cx="409" cy="165" r="5.5" fill="var(--accent)"/>
+<circle cx="435" cy="165" r="5.5" fill="var(--accent)"/>
+<circle cx="461" cy="165" r="5.5" fill="var(--accent)"/>
+<circle cx="487" cy="165" r="5.5" fill="var(--accent)"/>
+<circle cx="383" cy="194" r="5.5" fill="var(--accent)"/>
+<circle cx="409" cy="194" r="5.5" fill="var(--accent)"/>
+<circle cx="435" cy="194" r="5.5" fill="var(--accent)"/>
+<circle cx="461" cy="194" r="5.5" fill="var(--accent)"/>
+<circle cx="487" cy="194" r="5.5" fill="var(--accent)"/>
+<circle cx="383" cy="223" r="5.5" fill="var(--accent)"/>
+<circle cx="409" cy="223" r="5.5" fill="var(--accent)"/>
+<circle cx="435" cy="223" r="5.5" fill="var(--accent)"/>
+<circle cx="461" cy="223" r="5.5" fill="var(--accent)"/>
+<circle cx="487" cy="223" r="5.5" fill="var(--accent)"/>
+<line x1="516" y1="172" x2="626" y2="110" stroke="#c2701a" stroke-width="3" marker-end="url(#s19a-org)"/>
+<line x1="516" y1="188" x2="626" y2="250" stroke="#c2701a" stroke-width="3" marker-end="url(#s19a-org)"/>
+<text x="590.0" y="176.0" font-size="14.5" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Random</text>
+<text x="590.0" y="196.0" font-size="14.5" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">assignment</text>
+<rect x="636" y="62" width="200" height="94" rx="14" fill="#c2701a" fill-opacity="0.10" stroke="#c2701a" stroke-width="1.5"/>
+<text x="736.0" y="86.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Treatment group</text>
+<text x="736.0" y="105.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">e.g. group CBT</text>
+<circle cx="664" cy="132" r="5.2" fill="#c2701a"/>
+<circle cx="680" cy="132" r="5.2" fill="#c2701a"/>
+<circle cx="696" cy="132" r="5.2" fill="#c2701a"/>
+<circle cx="712" cy="132" r="5.2" fill="#c2701a"/>
+<circle cx="728" cy="132" r="5.2" fill="#c2701a"/>
+<circle cx="744" cy="132" r="5.2" fill="#c2701a"/>
+<circle cx="760" cy="132" r="5.2" fill="#c2701a"/>
+<circle cx="776" cy="132" r="5.2" fill="#c2701a"/>
+<circle cx="792" cy="132" r="5.2" fill="#c2701a"/>
+<circle cx="808" cy="132" r="5.2" fill="#c2701a"/>
+<rect x="636" y="204" width="200" height="94" rx="14" fill="#0f766e" fill-opacity="0.10" stroke="#0f766e" stroke-width="1.5"/>
+<text x="736.0" y="228.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Control group</text>
+<text x="736.0" y="247.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">e.g. treatment as usual</text>
+<circle cx="664" cy="274" r="5.2" fill="#0f766e"/>
+<circle cx="680" cy="274" r="5.2" fill="#0f766e"/>
+<circle cx="696" cy="274" r="5.2" fill="#0f766e"/>
+<circle cx="712" cy="274" r="5.2" fill="#0f766e"/>
+<circle cx="728" cy="274" r="5.2" fill="#0f766e"/>
+<circle cx="744" cy="274" r="5.2" fill="#0f766e"/>
+<circle cx="760" cy="274" r="5.2" fill="#0f766e"/>
+<circle cx="776" cy="274" r="5.2" fill="#0f766e"/>
+<circle cx="792" cy="274" r="5.2" fill="#0f766e"/>
+<circle cx="808" cy="274" r="5.2" fill="#0f766e"/>
+<text x="736.0" y="330.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">compare at posttest</text>
+<line x1="852" y1="110" x2="852" y2="250" stroke="var(--muted)" stroke-width="1.6"/>
+<line x1="844" y1="110" x2="852" y2="110" stroke="var(--muted)" stroke-width="1.6"/>
+<line x1="844" y1="250" x2="852" y2="250" stroke="var(--muted)" stroke-width="1.6"/>
+<text x="866.0" y="176.0" font-size="13.5" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">differ</text>
+<text x="866.0" y="194.0" font-size="13.5" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">only by</text>
+<text x="866.0" y="212.0" font-size="13.5" fill="var(--muted)" text-anchor="start" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">the IV</text>
+<rect x="40" y="350" width="400" height="58" rx="10" fill="var(--accent)" fill-opacity="0.10"/>
+<text x="240.0" y="374.0" font-size="15" fill="var(--accent)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">buys EXTERNAL validity</text>
+<text x="240.0" y="396.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">the sample represents the population</text>
+<rect x="470" y="350" width="440" height="58" rx="10" fill="#c2701a" fill-opacity="0.10"/>
+<text x="690.0" y="374.0" font-size="15" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">buys INTERNAL validity</text>
+<text x="690.0" y="396.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">groups start equal, so a difference is due to the IV</text>
+</svg>
+<figcaption>Random selection decides who enters the study (external validity); random assignment decides who gets which condition (internal validity).</figcaption></figure>
+
+<h4>Matching</h4>
+<p>In <b>matching</b>, participants are paired on a variable known to affect the DV (baseline severity, IQ) and the members of each pair are placed in different conditions, ideally by random assignment within the pair (the <b>matched-pairs</b> approach, combining matching with randomisation). It reduces error variance and guarantees balance on the matched variable. Its problems: you can match only on variables you know about and can measure; matching on several at once soon becomes impossible and discards participants; without random assignment every <i>unmatched</i> variable can still differ; and matching groups from different populations creates <b>regression artefacts</b> (19.3).</p>
+
+<h4>Elimination and holding constant</h4>
+<p>An extraneous variable can be <b>eliminated</b> (a sound-proof room removes noise) or <b>held constant</b> (only right-handed participants, only first-episode patients, always 10 a.m., the same experimenter and instructions), so it cannot differ between conditions. The cost is external validity: the result strictly applies only to people and conditions like those.</p>
+
+<h4>Building it into the design, and statistical control</h4>
+<p>Instead of removing a variable, make it a factor: a 2 (treatment vs control) &times; 2 (male vs female) factorial design measures the effect of sex and its interaction with treatment instead of leaving it as noise (section 10.4). When the variable is a nuisance, this is <b>blocking</b>: participants are grouped into homogeneous blocks (mild, moderate, severe) and randomly assigned within each, so block-to-block variation leaves the error term (the <b>randomised block design</b>, Fisher's local control). A variable that cannot be controlled by design can be measured and removed statistically: <b>ANCOVA</b> (section 11.2) adjusts posttest means for a covariate such as pretest severity, and <b>partial correlation</b> (12.5) and <b>multiple regression</b> (13.3) remove a third variable's influence. Statistical control is weaker than randomisation: it adjusts only for what was measured, and only as well as it was measured.</p>
+
+<h4>Participants as their own controls</h4>
+<p>In a <b>within-subjects</b> (repeated-measures) design every participant experiences every condition, so stable individual differences drop out of the error term and power rises (sections 9.4 and 10.5). The price is <b>order effects</b> (19.7).</p>
+
+<h4>Blinding</h4>
+<ul class="tight">
+  <li><b>Single-blind:</b> the participants do not know which condition they are in. Controls participant expectancy, placebo responses and demand.</li>
+  <li><b>Double-blind:</b> neither the participants nor the people administering the treatment and assessing the outcome know who is in which condition. Controls participant expectancy and <b>experimenter bias</b>.</li>
+  <li><b>Triple-blind:</b> additionally, those analysing the data (and in trials the monitoring committee) do not know which coded group is which until the analysis is done.</li>
+  <li>In psychotherapy trials the therapist and patient cannot be blind to the therapy delivered, so the realistic standard is a <b>blind outcome assessor</b> (single-blind assessment).</li>
+</ul>
+
+<h4>Other procedural controls</h4>
+<ul class="tight">
+  <li><b>Deception and cover stories:</b> a plausible false account of the purpose keeps participants from guessing the hypothesis, reducing demand characteristics; ethically permissible only when necessary, low-risk and followed by <b>debriefing</b> (section 26).</li>
+  <li><b>Standardised instructions and procedures:</b> every participant receives the same script, timing and setting, which reduces both error variance and experimenter influence.</li>
+  <li><b>Automation:</b> presenting stimuli and recording responses by computer removes experimenter cues and recording errors.</li>
+  <li><b>Unobtrusive (non-reactive) measures</b>, where ethical, to reduce reactivity.</li>
+  <li><b>Placebo controls</b> hold expectation constant in drug trials. In psychotherapy research the equivalent is the <b>attention-placebo</b> (attention control) condition: participants receive the same amount of therapist contact and a credible rationale without the active ingredient, so that any advantage of the real therapy cannot be due to attention, warmth or expectancy alone. A <b>wait-list control</b> controls for time, history and maturation but not for attention or expectancy.</li>
+</ul>
+
+<table class="t">
+<tr><th>Technique</th><th>What it controls</th><th>Main limitation</th></tr>
+<tr><td><b>Random assignment</b></td><td>All participant variables, known and unknown; selection bias</td><td>Can fail by chance in small samples</td></tr>
+<tr><td><b>Matching</b></td><td>The matched variables only</td><td>Unknown variables uncontrolled; loss of participants; regression artefacts</td></tr>
+<tr><td><b>Elimination / holding constant</b></td><td>The variable held constant</td><td>Reduces generality</td></tr>
+<tr><td><b>Blocking / factorial inclusion</b></td><td>The blocked variable, and its interaction with the IV</td><td>Needs more participants and cells</td></tr>
+<tr><td><b>Statistical control</b> (ANCOVA)</td><td>Measured covariates</td><td>Only what was measured; assumes homogeneous regression slopes</td></tr>
+<tr><td><b>Within-subjects design</b></td><td>All stable individual differences</td><td>Order and carry-over effects</td></tr>
+<tr><td><b>Counterbalancing</b></td><td>Order (position) effects</td><td>Fails with asymmetric carry-over</td></tr>
+<tr><td><b>Blinding</b></td><td>Expectancy, placebo, experimenter bias</td><td>Often impossible for therapists and patients in psychotherapy</td></tr>
+<tr><td><b>Placebo / attention control</b></td><td>Expectancy, attention, the ritual of treatment</td><td>Hard to make a credible psychological placebo</td></tr>
+</table>
+
+<h3>19.7 Order effects and counterbalancing</h3>
+
+<p>When the same participants serve in several conditions, the <b>order</b> in which they meet the conditions can affect their scores. Section 10.5 introduced these briefly; here they are treated properly.</p>
+<ul class="tight">
+  <li><b>Practice effects:</b> performance improves with repetition (familiarity with the task, warming up).</li>
+  <li><b>Fatigue effects:</b> performance declines with time and repetition (tiredness, boredom).</li>
+  <li><b>Carry-over effects:</b> the effect of one condition persists into the next (a drug still active, a strategy still in use, a mood still lingering).</li>
+  <li><b>Sensitisation:</b> after experiencing several conditions, participants work out what is being varied and guess the hypothesis.</li>
+</ul>
+<p>Practice and fatigue are <b>position effects</b>: they depend on <i>where</i> in the sequence a condition falls, whichever condition it is. Carry-over is a <b>sequence effect</b>: it depends on <i>which</i> condition came before. In psychophysics the same logic applies to <b>primacy and recency</b> effects and to the order of ascending and descending series, and the standard answer to "primacy and recency effects in a psychophysics experiment are controlled by" is <b>counterbalancing</b>.</p>
+
+<h4>The counterbalancing schemes</h4>
+<ul class="tight">
+  <li><b>Complete counterbalancing:</b> use every possible order, with equal numbers of participants in each. With n conditions there are <b>n!</b> orders: 2 conditions give 2, 3 give 6, 4 give 24, 5 give 120. Practical only for small n.</li>
+  <li><b>Partial (incomplete) counterbalancing:</b> use a subset of orders chosen so that position effects still balance out.</li>
+  <li><b>Latin square:</b> n orders, arranged so that <b>each condition appears exactly once in each ordinal position</b> (and once in each row). It balances position (practice and fatigue) but not sequence: in the simple cyclic square A is always immediately followed by B.</li>
+  <li><b>Balanced Latin square</b> (<b>Williams design</b>, after E. J. Williams, 1949): additionally, <b>each condition immediately precedes and follows every other condition exactly once</b>, which balances first-order carry-over. For an even number of conditions n rows suffice; for an odd number two squares (2n rows) are needed.</li>
+  <li><b>ABBA (reverse) counterbalancing:</b> each participant receives the conditions in one order and then in the reverse (A B B A), so that each condition has the same average position. It assumes practice effects are <b>linear</b>; if most practice happens early, ABBA fails.</li>
+  <li><b>Randomised orders:</b> each participant receives an independently randomised order. Simple and effective with many participants or many trials; with few participants imbalance can remain.</li>
+</ul>
+
+<figure class="dia">
+<svg viewBox="0 0 940 418" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<rect x="6" y="6" width="304" height="406" rx="10" fill="var(--panel)" fill-opacity="0.5" stroke="var(--border)"/>
+<rect x="318" y="6" width="304" height="406" rx="10" fill="var(--panel)" fill-opacity="0.5" stroke="var(--border)"/>
+<rect x="630" y="6" width="304" height="406" rx="10" fill="var(--panel)" fill-opacity="0.5" stroke="var(--border)"/>
+<text x="158.0" y="32.0" font-size="15.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Latin square (cyclic)</text>
+<text x="158.0" y="52.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">position of each condition</text>
+<text x="109.0" y="74.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">1st</text>
+<text x="163.0" y="74.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">2nd</text>
+<text x="217.0" y="74.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">3rd</text>
+<text x="271.0" y="74.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">4th</text>
+<text x="74.0" y="114.0" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Group 1</text>
+<rect x="84" y="84" width="50" height="50" rx="6" fill="var(--accent)" fill-opacity="0.20" stroke="var(--accent)" stroke-width="1.4"/>
+<text x="109.0" y="115.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A</text>
+<rect x="138" y="84" width="50" height="50" rx="6" fill="var(--good)" fill-opacity="0.20" stroke="var(--good)" stroke-width="1.4"/>
+<text x="163.0" y="115.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B</text>
+<rect x="192" y="84" width="50" height="50" rx="6" fill="#c2701a" fill-opacity="0.20" stroke="#c2701a" stroke-width="1.4"/>
+<text x="217.0" y="115.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">C</text>
+<rect x="246" y="84" width="50" height="50" rx="6" fill="#0f766e" fill-opacity="0.20" stroke="#0f766e" stroke-width="1.4"/>
+<text x="271.0" y="115.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">D</text>
+<text x="74.0" y="168.0" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Group 2</text>
+<rect x="84" y="138" width="50" height="50" rx="6" fill="var(--good)" fill-opacity="0.20" stroke="var(--good)" stroke-width="1.4"/>
+<text x="109.0" y="169.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B</text>
+<rect x="138" y="138" width="50" height="50" rx="6" fill="#c2701a" fill-opacity="0.20" stroke="#c2701a" stroke-width="1.4"/>
+<text x="163.0" y="169.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">C</text>
+<rect x="192" y="138" width="50" height="50" rx="6" fill="#0f766e" fill-opacity="0.20" stroke="#0f766e" stroke-width="1.4"/>
+<text x="217.0" y="169.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">D</text>
+<rect x="246" y="138" width="50" height="50" rx="6" fill="var(--accent)" fill-opacity="0.20" stroke="var(--accent)" stroke-width="1.4"/>
+<text x="271.0" y="169.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A</text>
+<text x="74.0" y="222.0" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Group 3</text>
+<rect x="84" y="192" width="50" height="50" rx="6" fill="#c2701a" fill-opacity="0.20" stroke="#c2701a" stroke-width="1.4"/>
+<text x="109.0" y="223.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">C</text>
+<rect x="138" y="192" width="50" height="50" rx="6" fill="#0f766e" fill-opacity="0.20" stroke="#0f766e" stroke-width="1.4"/>
+<text x="163.0" y="223.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">D</text>
+<rect x="192" y="192" width="50" height="50" rx="6" fill="var(--accent)" fill-opacity="0.20" stroke="var(--accent)" stroke-width="1.4"/>
+<text x="217.0" y="223.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A</text>
+<rect x="246" y="192" width="50" height="50" rx="6" fill="var(--good)" fill-opacity="0.20" stroke="var(--good)" stroke-width="1.4"/>
+<text x="271.0" y="223.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B</text>
+<text x="74.0" y="276.0" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Group 4</text>
+<rect x="84" y="246" width="50" height="50" rx="6" fill="#0f766e" fill-opacity="0.20" stroke="#0f766e" stroke-width="1.4"/>
+<text x="109.0" y="277.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">D</text>
+<rect x="138" y="246" width="50" height="50" rx="6" fill="var(--accent)" fill-opacity="0.20" stroke="var(--accent)" stroke-width="1.4"/>
+<text x="163.0" y="277.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A</text>
+<rect x="192" y="246" width="50" height="50" rx="6" fill="var(--good)" fill-opacity="0.20" stroke="var(--good)" stroke-width="1.4"/>
+<text x="217.0" y="277.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B</text>
+<rect x="246" y="246" width="50" height="50" rx="6" fill="#c2701a" fill-opacity="0.20" stroke="#c2701a" stroke-width="1.4"/>
+<text x="271.0" y="277.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">C</text>
+<text x="158.0" y="322.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Each condition once in</text>
+<text x="158.0" y="340.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">every position: 4 orders</text>
+<text x="158.0" y="366.0" font-size="13" fill="var(--bad)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">but A always comes just</text>
+<text x="158.0" y="384.0" font-size="13" fill="var(--bad)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">before B, B before C ...</text>
+<text x="470.0" y="32.0" font-size="15.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Balanced Latin square</text>
+<text x="470.0" y="52.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Williams design (1949)</text>
+<text x="421.0" y="74.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">1st</text>
+<text x="475.0" y="74.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">2nd</text>
+<text x="529.0" y="74.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">3rd</text>
+<text x="583.0" y="74.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">4th</text>
+<text x="386.0" y="114.0" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Group 1</text>
+<rect x="396" y="84" width="50" height="50" rx="6" fill="var(--accent)" fill-opacity="0.20" stroke="var(--accent)" stroke-width="1.4"/>
+<text x="421.0" y="115.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A</text>
+<rect x="450" y="84" width="50" height="50" rx="6" fill="var(--good)" fill-opacity="0.20" stroke="var(--good)" stroke-width="1.4"/>
+<text x="475.0" y="115.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B</text>
+<rect x="504" y="84" width="50" height="50" rx="6" fill="#0f766e" fill-opacity="0.20" stroke="#0f766e" stroke-width="1.4"/>
+<text x="529.0" y="115.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">D</text>
+<rect x="558" y="84" width="50" height="50" rx="6" fill="#c2701a" fill-opacity="0.20" stroke="#c2701a" stroke-width="1.4"/>
+<text x="583.0" y="115.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">C</text>
+<text x="386.0" y="168.0" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Group 2</text>
+<rect x="396" y="138" width="50" height="50" rx="6" fill="var(--good)" fill-opacity="0.20" stroke="var(--good)" stroke-width="1.4"/>
+<text x="421.0" y="169.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B</text>
+<rect x="450" y="138" width="50" height="50" rx="6" fill="#c2701a" fill-opacity="0.20" stroke="#c2701a" stroke-width="1.4"/>
+<text x="475.0" y="169.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">C</text>
+<rect x="504" y="138" width="50" height="50" rx="6" fill="var(--accent)" fill-opacity="0.20" stroke="var(--accent)" stroke-width="1.4"/>
+<text x="529.0" y="169.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A</text>
+<rect x="558" y="138" width="50" height="50" rx="6" fill="#0f766e" fill-opacity="0.20" stroke="#0f766e" stroke-width="1.4"/>
+<text x="583.0" y="169.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">D</text>
+<text x="386.0" y="222.0" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Group 3</text>
+<rect x="396" y="192" width="50" height="50" rx="6" fill="#c2701a" fill-opacity="0.20" stroke="#c2701a" stroke-width="1.4"/>
+<text x="421.0" y="223.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">C</text>
+<rect x="450" y="192" width="50" height="50" rx="6" fill="#0f766e" fill-opacity="0.20" stroke="#0f766e" stroke-width="1.4"/>
+<text x="475.0" y="223.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">D</text>
+<rect x="504" y="192" width="50" height="50" rx="6" fill="var(--good)" fill-opacity="0.20" stroke="var(--good)" stroke-width="1.4"/>
+<text x="529.0" y="223.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B</text>
+<rect x="558" y="192" width="50" height="50" rx="6" fill="var(--accent)" fill-opacity="0.20" stroke="var(--accent)" stroke-width="1.4"/>
+<text x="583.0" y="223.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A</text>
+<text x="386.0" y="276.0" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Group 4</text>
+<rect x="396" y="246" width="50" height="50" rx="6" fill="#0f766e" fill-opacity="0.20" stroke="#0f766e" stroke-width="1.4"/>
+<text x="421.0" y="277.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">D</text>
+<rect x="450" y="246" width="50" height="50" rx="6" fill="var(--accent)" fill-opacity="0.20" stroke="var(--accent)" stroke-width="1.4"/>
+<text x="475.0" y="277.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A</text>
+<rect x="504" y="246" width="50" height="50" rx="6" fill="#c2701a" fill-opacity="0.20" stroke="#c2701a" stroke-width="1.4"/>
+<text x="529.0" y="277.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">C</text>
+<rect x="558" y="246" width="50" height="50" rx="6" fill="var(--good)" fill-opacity="0.20" stroke="var(--good)" stroke-width="1.4"/>
+<text x="583.0" y="277.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B</text>
+<text x="470.0" y="322.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Every position once, and</text>
+<text x="470.0" y="340.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">every condition follows</text>
+<text x="470.0" y="358.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">every other exactly once</text>
+<text x="470.0" y="384.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">odd number of conditions: 2n rows</text>
+<text x="782.0" y="32.0" font-size="15.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Complete counterbalancing</text>
+<text x="782.0" y="52.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">3 conditions: 3! = 6 orders</text>
+<text x="736.0" y="96.0" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Order 1</text>
+<rect x="748" y="76" width="30" height="30" rx="5" fill="var(--accent)" fill-opacity="0.20" stroke="var(--accent)" stroke-width="1.3"/>
+<text x="763.0" y="96.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A</text>
+<rect x="786" y="76" width="30" height="30" rx="5" fill="var(--good)" fill-opacity="0.20" stroke="var(--good)" stroke-width="1.3"/>
+<text x="801.0" y="96.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B</text>
+<rect x="824" y="76" width="30" height="30" rx="5" fill="#c2701a" fill-opacity="0.20" stroke="#c2701a" stroke-width="1.3"/>
+<text x="839.0" y="96.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">C</text>
+<text x="736.0" y="132.0" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Order 2</text>
+<rect x="748" y="112" width="30" height="30" rx="5" fill="var(--accent)" fill-opacity="0.20" stroke="var(--accent)" stroke-width="1.3"/>
+<text x="763.0" y="132.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A</text>
+<rect x="786" y="112" width="30" height="30" rx="5" fill="#c2701a" fill-opacity="0.20" stroke="#c2701a" stroke-width="1.3"/>
+<text x="801.0" y="132.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">C</text>
+<rect x="824" y="112" width="30" height="30" rx="5" fill="var(--good)" fill-opacity="0.20" stroke="var(--good)" stroke-width="1.3"/>
+<text x="839.0" y="132.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B</text>
+<text x="736.0" y="168.0" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Order 3</text>
+<rect x="748" y="148" width="30" height="30" rx="5" fill="var(--good)" fill-opacity="0.20" stroke="var(--good)" stroke-width="1.3"/>
+<text x="763.0" y="168.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B</text>
+<rect x="786" y="148" width="30" height="30" rx="5" fill="var(--accent)" fill-opacity="0.20" stroke="var(--accent)" stroke-width="1.3"/>
+<text x="801.0" y="168.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A</text>
+<rect x="824" y="148" width="30" height="30" rx="5" fill="#c2701a" fill-opacity="0.20" stroke="#c2701a" stroke-width="1.3"/>
+<text x="839.0" y="168.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">C</text>
+<text x="736.0" y="204.0" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Order 4</text>
+<rect x="748" y="184" width="30" height="30" rx="5" fill="var(--good)" fill-opacity="0.20" stroke="var(--good)" stroke-width="1.3"/>
+<text x="763.0" y="204.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B</text>
+<rect x="786" y="184" width="30" height="30" rx="5" fill="#c2701a" fill-opacity="0.20" stroke="#c2701a" stroke-width="1.3"/>
+<text x="801.0" y="204.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">C</text>
+<rect x="824" y="184" width="30" height="30" rx="5" fill="var(--accent)" fill-opacity="0.20" stroke="var(--accent)" stroke-width="1.3"/>
+<text x="839.0" y="204.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A</text>
+<text x="736.0" y="240.0" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Order 5</text>
+<rect x="748" y="220" width="30" height="30" rx="5" fill="#c2701a" fill-opacity="0.20" stroke="#c2701a" stroke-width="1.3"/>
+<text x="763.0" y="240.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">C</text>
+<rect x="786" y="220" width="30" height="30" rx="5" fill="var(--accent)" fill-opacity="0.20" stroke="var(--accent)" stroke-width="1.3"/>
+<text x="801.0" y="240.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A</text>
+<rect x="824" y="220" width="30" height="30" rx="5" fill="var(--good)" fill-opacity="0.20" stroke="var(--good)" stroke-width="1.3"/>
+<text x="839.0" y="240.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B</text>
+<text x="736.0" y="276.0" font-size="13" fill="var(--muted)" text-anchor="end" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Order 6</text>
+<rect x="748" y="256" width="30" height="30" rx="5" fill="#c2701a" fill-opacity="0.20" stroke="#c2701a" stroke-width="1.3"/>
+<text x="763.0" y="276.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">C</text>
+<rect x="786" y="256" width="30" height="30" rx="5" fill="var(--good)" fill-opacity="0.20" stroke="var(--good)" stroke-width="1.3"/>
+<text x="801.0" y="276.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B</text>
+<rect x="824" y="256" width="30" height="30" rx="5" fill="var(--accent)" fill-opacity="0.20" stroke="var(--accent)" stroke-width="1.3"/>
+<text x="839.0" y="276.5" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A</text>
+<text x="782.0" y="322.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">All possible orders</text>
+<text x="782.0" y="340.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">4 conditions: 24 orders</text>
+<text x="782.0" y="358.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">5 conditions: 120 orders</text>
+<text x="782.0" y="384.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">so only for 2 to 4 conditions</text>
+</svg>
+<figcaption>Three ways to counterbalance: a cyclic Latin square balances position only, a balanced (Williams) Latin square also balances which condition follows which, and complete counterbalancing uses all n! orders.</figcaption></figure>
+
+<div class="why"><b>Why counterbalancing works, and when it fails.</b> Counterbalancing does not remove order effects; it <b>spreads them equally across conditions</b>, so they add the same amount to every condition mean and cancel in the comparison (they still inflate error variance, and order can be entered as a factor to measure it). That logic requires the order effect to be <b>symmetric</b>: doing A first must help B exactly as much as doing B first helps A. When carry-over is <b>asymmetric</b> (differential), counterbalancing fails, a problem E. C. Poulton and P. R. Freeman (1966) documented as "unwanted asymmetrical transfer". Examples: participants taught an imagery mnemonic in condition A will keep using it in the "rote rehearsal" condition B, but not the reverse; a drug with a long half-life contaminates the placebo period that follows it; insight, once gained, cannot be unlearned. The remedies are a <b>washout period</b> between conditions (standard in crossover drug trials) or abandoning the within-subjects design for a <b>between-subjects</b> design.</div>
+
+<div class="recap">Recap of section 19: validity of a <i>study</i> (not of a test, section 15.3) has four types (Cook and Campbell, 1979; Shadish, Cook and Campbell, 2002): statistical conclusion, internal (Campbell's sine qua non), construct and external; internal and external trade off. External validity splits into population and ecological validity (Bracht and Glass, 1968); ecological validity is Brunswik's term stretched to mean real-world realism; Aronson and Carlsmith (1968) separated mundane from experimental realism. Campbell and Stanley's (1963) eight internal threats: history, maturation, testing, instrumentation, statistical regression, selection, experimental mortality, selection&#8211;maturation interaction; Cook and Campbell added ambiguous temporal precedence, diffusion, compensatory equalisation, compensatory rivalry (John Henry) and resentful demoralisation, the last four moved to construct validity in 2002. A control group controls history, maturation, testing and instrumentation; only random assignment controls selection. Regression to the mean (Francis Galton, 1886): in our simulation (r = .60) the untreated top 10% fell from 67.8 to 60.2. External threats: pretest sensitisation, selection &times; treatment, reactive arrangements, multiple-treatment interference. Reactivity: Hawthorne (named by Landsberger, 1958), demand characteristics (Orne, 1962), evaluation apprehension (Rosenberg, 1965), placebo (Beecher, 1955), nocebo (Kennedy, 1961); expectancy: Clever Hans (Pfungst, 1907), Robert Rosenthal and Fode (1963), Pygmalion (1968). Control: MAXMINCON (Kerlinger); randomisation, replication, local control (Fisher, 1935); random assignment buys internal validity, random selection external; matching, holding constant, blocking, ANCOVA, own controls, blinding, placebo and attention controls. Counterbalance order effects: n! orders, Latin square, balanced Latin square (Williams, 1949), ABBA, random orders; asymmetric carry-over defeats them all.</div>
+</div>

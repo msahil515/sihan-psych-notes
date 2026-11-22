@@ -1,0 +1,75 @@
+<div class="nfe-article nb">
+<div class="subtitle">Everything from scales of measurement (Stanley Smith Stevens, 1946) to MANCOVA, factor analysis and item response theory, then the whole of research methods (designs, validity, single-case, qualitative, trials, ethics), built from scratch, with a diagram on every idea that has a shape.</div>
+
+<div class="lede">This is a book, not a cheat sheet. Every concept is built from the ground up: what the thing is, why it exists, the formula with every symbol named, a worked example with real numbers, the assumptions it stands on, what breaks it, and who invented it. Read it cold and you will understand statistics and research design, not just recognise the words. Part I (sections 1 to 17) is statistics; Part II (sections 18 to 27) is research methods. The 64 diagrams are drawn from the actual functions or from real numbers, so the normal curve really is a normal curve, the F distribution really is an F distribution, and every single-case graph, time series and forest plot is computed.</div>
+
+<div class="chips">
+  <span class="chip"><b>27</b> sections</span>
+  <span class="chip"><b>64</b> diagrams</span>
+  <span class="chip"><b>60+</b> named statisticians</span>
+  <span class="chip"><b>100+</b> research-methods names</span>
+  <span class="chip"><b>Every</b> test with its assumptions</span>
+  <span class="chip">Built for <b>IHBAS · CIP · RML · JSS · DIMHANS · Amity · SGT · NIMHANS</b></span>
+</div>
+
+
+
+<div class="focus"><b>How to use this book.</b> First pass: read sections 1 to 8 straight through, because everything later is built on them. Second pass: sections 9 to 14 are the test family; do not memorise formulas, memorise the <i>question each test answers</i> and the <i>assumptions it needs</i>, because that is what entrance papers ask. Third pass: section 15 (psychometrics) is worth as many marks as ANOVA in most of these papers and is usually the least prepared. Section 16 is the decision tree; if you can walk it without looking, you can answer any "which test would you apply" item. Section 17 is the night-before page. Part II (sections 18 to 27) is research methods: read 18 to 20 in order, because validity and the threats in 19 are the language every design in 20 to 22 is judged in; 23 to 26 can be read in any order; 27 is the which-design tree, the name index and the traps.</div>
+
+
+
+<p>Statistics is a set of tools for one job: getting from what you observed in a handful of people to a defensible statement about people in general. Everything in this book is either <b>describing what you have</b> (descriptive statistics) or <b>generalising beyond what you have</b> (inferential statistics). Keep that split in your head; it is the first line of a hundred exam answers.</p>
+
+<h3>1.1 The vocabulary you cannot skip</h3>
+
+<table class="t">
+<tr><th>Term</th><th>Meaning</th><th>Symbol</th></tr>
+<tr><td><b>Population</b></td><td>The entire set of people or observations you actually want to talk about. Usually hypothetical and never fully measured.</td><td>N</td></tr>
+<tr><td><b>Sample</b></td><td>The subset you actually measured. Statistics exists because samples are all you ever get.</td><td>n</td></tr>
+<tr><td><b>Parameter</b></td><td>A number describing the <i>population</i>. Fixed, unknown, written with Greek letters.</td><td>&mu;, &sigma;, &rho;, &pi;</td></tr>
+<tr><td><b>Statistic</b></td><td>A number describing the <i>sample</i>. Known, varies from sample to sample, written with Roman letters.</td><td>M or X&#772;, s, r, p</td></tr>
+<tr><td><b>Variable</b></td><td>Any characteristic that takes more than one value.</td><td>X, Y</td></tr>
+<tr><td><b>Constant</b></td><td>A characteristic that takes only one value in your study.</td><td>&#8211;</td></tr>
+<tr><td><b>Datum / data</b></td><td>A single recorded observation / the set of them.</td><td>X&#7522;</td></tr>
+</table>
+
+<div class="rule"><b>The rule that generates half the notation questions:</b> Greek letters are for populations, Roman letters are for samples. &mu; is the population mean, M (or X&#772;) is the sample mean. &sigma; is the population SD, s is the sample SD. &rho; (rho) is the population correlation, r is the sample correlation. &beta; is the population regression weight, b is the sample one.</div>
+
+<h4>Types of variable</h4>
+<ul class="tight">
+  <li><b>Independent variable (IV):</b> the one the experimenter manipulates or selects. The presumed cause. Also called the predictor (in regression) or the factor (in ANOVA). Its values are called <b>levels</b>.</li>
+  <li><b>Dependent variable (DV):</b> the one you measure. The presumed effect. Also called the criterion or the outcome.</li>
+  <li><b>Extraneous variable:</b> anything else that could affect the DV. Controlled by randomisation, matching, holding constant, or statistically (ANCOVA).</li>
+  <li><b>Confounding variable:</b> an extraneous variable that actually varies <i>systematically with the IV</i>, so its effect is inseparable from the IV's. A confound is an extraneous variable that got away.</li>
+  <li><b>Mediator:</b> the variable through which the IV acts (X &rarr; M &rarr; Y). Explains <i>how</i> or <i>why</i>. Tested by Baron and Kenny's (1986) steps or by Sobel / bootstrapped indirect effects.</li>
+  <li><b>Moderator:</b> a variable that changes the strength or direction of the X&#8211;Y relation. Explains <i>when</i> or <i>for whom</i>. Statistically, a moderator is an <b>interaction</b>.</li>
+  <li><b>Discrete variable:</b> takes only separate whole values (number of children, number of hospital admissions).</li>
+  <li><b>Continuous variable:</b> can take any value in a range; between any two values another is possible (reaction time, IQ). Measured to a limit of precision, with <b>real limits</b> of &plusmn;half the smallest unit: a reported weight of 62 kg means 61.5 to 62.5.</li>
+</ul>
+
+<div class="trap"><b>Trap:</b> mediator and moderator are the single most confused pair in research-methods sections. Mediator = the mechanism, sits <i>between</i> IV and DV in the causal chain. Moderator = the condition, sits <i>outside</i> and changes the size of the effect. "Stress causes depression <i>through</i> rumination" is mediation. "Stress causes depression <i>more strongly in</i> people with low social support" is moderation.</div>
+
+<h3>1.2 The four scales of measurement (S. S. Stevens, 1946)</h3>
+
+<div class="founder"><b>Stanley Smith Stevens</b>, Harvard psychophysicist, published "On the theory of scales of measurement" in <i>Science</i> in 1946. The four-scale taxonomy is his, and it is the single most examined single fact in the statistics section of every one of these papers. Learn it perfectly.</div>
+
+<table class="t">
+<tr><th>Scale</th><th>What it does</th><th>Properties</th><th>Examples</th><th>Permissible central tendency</th><th>Permissible statistics</th></tr>
+<tr><td><b>Nominal</b><br>(categorical)</td><td>Names / labels only. Numbers are arbitrary tags.</td><td>Identity / difference only. No order, no equal intervals, no true zero.</td><td>Gender, diagnosis, blood group, jersey numbers, marital status, religion</td><td><b>Mode only</b></td><td>Frequencies, percentages, mode, &chi;&sup2;, phi, contingency coefficient, Cram&eacute;r's V</td></tr>
+<tr><td><b>Ordinal</b><br>(ranks)</td><td>Orders cases, but the gaps between ranks are unequal and unknown.</td><td>Identity + order. No equal intervals, no true zero.</td><td>Socio-economic status, ranks in a class, Likert-type agreement, Mohs hardness, stage of illness, birth order</td><td><b>Mode and median</b></td><td>Median, percentiles, quartile deviation, Spearman &rho;, Kendall &tau;, Mann&#8211;Whitney U, Kruskal&#8211;Wallis</td></tr>
+<tr><td><b>Interval</b></td><td>Equal units, but the zero point is arbitrary.</td><td>Identity + order + equal intervals. <b>No absolute zero.</b></td><td>Temperature in &deg;C or &deg;F, calendar years, IQ scores, most psychological test scores, z scores</td><td><b>Mode, median and mean</b></td><td>Mean, SD, Pearson r, t test, ANOVA, regression, factor analysis</td></tr>
+<tr><td><b>Ratio</b></td><td>Equal units <i>and</i> a true zero meaning "none of it".</td><td>All four properties. Ratios are meaningful.</td><td>Height, weight, reaction time, number of errors, income, age, kelvin temperature</td><td><b>Mode, median, mean, geometric and harmonic mean</b></td><td>Everything, plus coefficient of variation and ratio statements</td></tr>
+</table>
+
+<div class="rule"><b>Mnemonic:</b> <b>NOIR</b> (French for black), in order of increasing information: <b>N</b>ominal, <b>O</b>rdinal, <b>I</b>nterval, <b>R</b>atio. Each scale keeps all the properties of the ones before it and adds one. Any statistic legal at a lower scale stays legal at a higher one; the reverse is never true.</div>
+
+<div class="trap"><b>The two traps that are asked every year.</b> (1) <b>Temperature in Celsius is interval, not ratio</b>, because 0&deg;C is the freezing point of water, not the absence of heat; 40&deg;C is not "twice as hot" as 20&deg;C. Temperature in <i>kelvin</i> is ratio. (2) <b>IQ is interval, not ratio.</b> There is no IQ of zero meaning "no intelligence", so a person with IQ 140 is not twice as intelligent as one with 70. Strictly, IQ is arguably only ordinal, but for exam purposes it is treated as interval.</div>
+
+<div class="why"><b>Why the scale decides everything downstream.</b> The scale of your DV is the first branch of the which-test decision tree. Nominal DV means frequencies means chi-square. Ordinal DV means ranks means the non-parametric family. Interval or ratio DV means the mean and the SD are meaningful, which means the parametric family (t, ANOVA, Pearson, regression) becomes available. If you can name the scale you have already narrowed the answer to about four tests.</div>
+
+<h4>Two more scales worth knowing</h4>
+<ul class="tight">
+  <li><b>Absolute scale:</b> a counting scale where the unit is one and cannot be changed (number of children). Some texts treat it as a fifth, strongest scale.</li>
+  <li><b>Interval-like ordinal (quasi-interval):</b> Likert items are ordinal per item, but a summed Likert <i>scale</i> of many items is conventionally treated as interval. Say this explicitly if asked; examiners like the nuance.</li>
+</ul>
+</div>

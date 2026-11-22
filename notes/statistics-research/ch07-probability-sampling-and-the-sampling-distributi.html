@@ -1,0 +1,380 @@
+<div class="nfe-article nb">
+<h3>7.1 Probability basics</h3>
+<ul class="tight">
+  <li><b>Probability</b> p(A) = number of favourable outcomes / total number of equally likely outcomes. Ranges from 0 (impossible) to 1 (certain).</li>
+  <li><b>Addition rule</b> (for "or"): mutually exclusive events, p(A or B) = p(A) + p(B). Non-exclusive, p(A or B) = p(A) + p(B) &minus; p(A and B).</li>
+  <li><b>Multiplication rule</b> (for "and"): independent events, p(A and B) = p(A) &times; p(B). Dependent, p(A and B) = p(A) &times; p(B|A).</li>
+  <li><b>Conditional probability</b> p(A|B): the probability of A given that B has occurred. The basis of <b>Bayes's theorem</b>, and of sensitivity, specificity and predictive value in diagnostic testing.</li>
+  <li><b>Binomial distribution:</b> the probability distribution of the number of successes in n independent trials each with probability p. Mean = np, variance = npq. As n grows it approaches the normal curve, which is exactly de Moivre's 1733 result.</li>
+</ul>
+
+<h3>7.2 Sampling</h3>
+
+<figure class="dia">
+<svg viewBox="0 0 940 274" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<rect x="32" y="26" width="190" height="130" fill="none" stroke="var(--border)" stroke-width="1"/>
+<circle cx="46.0" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="69.1" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="92.3" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="115.4" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="138.6" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="161.7" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="184.9" cy="40.0" r="4.2" fill="var(--accent)"/>
+<circle cx="208.0" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="46.0" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="69.1" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="92.3" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="115.4" cy="60.4" r="4.2" fill="var(--accent)"/>
+<circle cx="138.6" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="161.7" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="184.9" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="208.0" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="46.0" cy="80.8" r="4.2" fill="var(--accent)"/>
+<circle cx="69.1" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="92.3" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="115.4" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="138.6" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="161.7" cy="80.8" r="4.2" fill="var(--accent)"/>
+<circle cx="184.9" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="208.0" cy="80.8" r="4.2" fill="var(--accent)"/>
+<circle cx="46.0" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="69.1" cy="101.2" r="4.2" fill="var(--accent)"/>
+<circle cx="92.3" cy="101.2" r="4.2" fill="var(--accent)"/>
+<circle cx="115.4" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="138.6" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="161.7" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="184.9" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="208.0" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="46.0" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="69.1" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="92.3" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="115.4" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="138.6" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="161.7" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="184.9" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="208.0" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="46.0" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="69.1" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="92.3" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="115.4" cy="142.0" r="4.2" fill="var(--accent)"/>
+<circle cx="138.6" cy="142.0" r="4.2" fill="var(--accent)"/>
+<circle cx="161.7" cy="142.0" r="4.2" fill="var(--accent)"/>
+<circle cx="184.9" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="208.0" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<text x="127.0" y="180.0" font-size="12.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Simple random</text>
+<text x="127.0" y="197.0" font-size="10.8" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">every case an equal chance</text>
+<rect x="264" y="26" width="190" height="130" fill="none" stroke="var(--border)" stroke-width="1"/>
+<circle cx="278.0" cy="40.0" r="4.2" fill="#0f766e"/>
+<circle cx="301.1" cy="40.0" r="3.4" fill="none" stroke="#0f766e" stroke-width="1.1" opacity="0.55"/>
+<circle cx="324.3" cy="40.0" r="3.4" fill="none" stroke="#0f766e" stroke-width="1.1" opacity="0.55"/>
+<circle cx="347.4" cy="40.0" r="3.4" fill="none" stroke="#0f766e" stroke-width="1.1" opacity="0.55"/>
+<circle cx="370.6" cy="40.0" r="3.4" fill="none" stroke="#0f766e" stroke-width="1.1" opacity="0.55"/>
+<circle cx="393.7" cy="40.0" r="3.4" fill="none" stroke="#0f766e" stroke-width="1.1" opacity="0.55"/>
+<circle cx="416.9" cy="40.0" r="3.4" fill="none" stroke="#0f766e" stroke-width="1.1" opacity="0.55"/>
+<circle cx="440.0" cy="40.0" r="3.4" fill="none" stroke="#0f766e" stroke-width="1.1" opacity="0.55"/>
+<circle cx="278.0" cy="60.4" r="3.4" fill="none" stroke="#0f766e" stroke-width="1.1" opacity="0.55"/>
+<circle cx="301.1" cy="60.4" r="4.2" fill="#0f766e"/>
+<circle cx="324.3" cy="60.4" r="3.4" fill="none" stroke="#0f766e" stroke-width="1.1" opacity="0.55"/>
+<circle cx="347.4" cy="60.4" r="4.2" fill="#0f766e"/>
+<circle cx="370.6" cy="60.4" r="3.4" fill="none" stroke="#0f766e" stroke-width="1.1" opacity="0.55"/>
+<circle cx="393.7" cy="60.4" r="3.4" fill="none" stroke="#0f766e" stroke-width="1.1" opacity="0.55"/>
+<circle cx="416.9" cy="60.4" r="4.2" fill="#0f766e"/>
+<circle cx="440.0" cy="60.4" r="3.4" fill="none" stroke="#0f766e" stroke-width="1.1" opacity="0.55"/>
+<circle cx="278.0" cy="80.8" r="3.4" fill="none" stroke="#c2701a" stroke-width="1.1" opacity="0.55"/>
+<circle cx="301.1" cy="80.8" r="3.4" fill="none" stroke="#c2701a" stroke-width="1.1" opacity="0.55"/>
+<circle cx="324.3" cy="80.8" r="4.2" fill="#c2701a"/>
+<circle cx="347.4" cy="80.8" r="4.2" fill="#c2701a"/>
+<circle cx="370.6" cy="80.8" r="3.4" fill="none" stroke="#c2701a" stroke-width="1.1" opacity="0.55"/>
+<circle cx="393.7" cy="80.8" r="3.4" fill="none" stroke="#c2701a" stroke-width="1.1" opacity="0.55"/>
+<circle cx="416.9" cy="80.8" r="3.4" fill="none" stroke="#c2701a" stroke-width="1.1" opacity="0.55"/>
+<circle cx="440.0" cy="80.8" r="3.4" fill="none" stroke="#c2701a" stroke-width="1.1" opacity="0.55"/>
+<circle cx="278.0" cy="101.2" r="3.4" fill="none" stroke="#c2701a" stroke-width="1.1" opacity="0.55"/>
+<circle cx="301.1" cy="101.2" r="3.4" fill="none" stroke="#c2701a" stroke-width="1.1" opacity="0.55"/>
+<circle cx="324.3" cy="101.2" r="3.4" fill="none" stroke="#c2701a" stroke-width="1.1" opacity="0.55"/>
+<circle cx="347.4" cy="101.2" r="3.4" fill="none" stroke="#c2701a" stroke-width="1.1" opacity="0.55"/>
+<circle cx="370.6" cy="101.2" r="3.4" fill="none" stroke="#c2701a" stroke-width="1.1" opacity="0.55"/>
+<circle cx="393.7" cy="101.2" r="3.4" fill="none" stroke="#c2701a" stroke-width="1.1" opacity="0.55"/>
+<circle cx="416.9" cy="101.2" r="4.2" fill="#c2701a"/>
+<circle cx="440.0" cy="101.2" r="3.4" fill="none" stroke="#c2701a" stroke-width="1.1" opacity="0.55"/>
+<circle cx="278.0" cy="121.6" r="3.4" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.55"/>
+<circle cx="301.1" cy="121.6" r="3.4" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.55"/>
+<circle cx="324.3" cy="121.6" r="4.2" fill="#7c3aed"/>
+<circle cx="347.4" cy="121.6" r="3.4" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.55"/>
+<circle cx="370.6" cy="121.6" r="4.2" fill="#7c3aed"/>
+<circle cx="393.7" cy="121.6" r="3.4" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.55"/>
+<circle cx="416.9" cy="121.6" r="3.4" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.55"/>
+<circle cx="440.0" cy="121.6" r="3.4" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.55"/>
+<circle cx="278.0" cy="142.0" r="3.4" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.55"/>
+<circle cx="301.1" cy="142.0" r="3.4" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.55"/>
+<circle cx="324.3" cy="142.0" r="3.4" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.55"/>
+<circle cx="347.4" cy="142.0" r="3.4" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.55"/>
+<circle cx="370.6" cy="142.0" r="3.4" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.55"/>
+<circle cx="393.7" cy="142.0" r="4.2" fill="#7c3aed"/>
+<circle cx="416.9" cy="142.0" r="4.2" fill="#7c3aed"/>
+<circle cx="440.0" cy="142.0" r="4.2" fill="#7c3aed"/>
+<line x1="264.0" y1="70.6" x2="454.0" y2="70.6" stroke="var(--border)" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="264.0" y1="111.4" x2="454.0" y2="111.4" stroke="var(--border)" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="359.0" y="180.0" font-size="12.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Stratified random</text>
+<text x="359.0" y="197.0" font-size="10.8" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">sample within each stratum</text>
+<rect x="496" y="26" width="190" height="130" fill="none" stroke="var(--border)" stroke-width="1"/>
+<circle cx="510.0" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="533.1" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="556.3" cy="40.0" r="4.2" fill="#0f766e"/>
+<circle cx="579.4" cy="40.0" r="4.2" fill="#0f766e"/>
+<circle cx="602.6" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="625.7" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="648.9" cy="40.0" r="4.2" fill="#c2701a"/>
+<circle cx="672.0" cy="40.0" r="4.2" fill="#c2701a"/>
+<circle cx="510.0" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="533.1" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="556.3" cy="60.4" r="4.2" fill="#0f766e"/>
+<circle cx="579.4" cy="60.4" r="4.2" fill="#0f766e"/>
+<circle cx="602.6" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="625.7" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="648.9" cy="60.4" r="4.2" fill="#c2701a"/>
+<circle cx="672.0" cy="60.4" r="4.2" fill="#c2701a"/>
+<circle cx="510.0" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="533.1" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="556.3" cy="80.8" r="4.2" fill="#0f766e"/>
+<circle cx="579.4" cy="80.8" r="4.2" fill="#0f766e"/>
+<circle cx="602.6" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="625.7" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="648.9" cy="80.8" r="4.2" fill="#c2701a"/>
+<circle cx="672.0" cy="80.8" r="4.2" fill="#c2701a"/>
+<circle cx="510.0" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="533.1" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="556.3" cy="101.2" r="4.2" fill="#0f766e"/>
+<circle cx="579.4" cy="101.2" r="4.2" fill="#0f766e"/>
+<circle cx="602.6" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="625.7" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="648.9" cy="101.2" r="4.2" fill="#c2701a"/>
+<circle cx="672.0" cy="101.2" r="4.2" fill="#c2701a"/>
+<circle cx="510.0" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="533.1" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="556.3" cy="121.6" r="4.2" fill="#0f766e"/>
+<circle cx="579.4" cy="121.6" r="4.2" fill="#0f766e"/>
+<circle cx="602.6" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="625.7" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="648.9" cy="121.6" r="4.2" fill="#c2701a"/>
+<circle cx="672.0" cy="121.6" r="4.2" fill="#c2701a"/>
+<circle cx="510.0" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="533.1" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="556.3" cy="142.0" r="4.2" fill="#0f766e"/>
+<circle cx="579.4" cy="142.0" r="4.2" fill="#0f766e"/>
+<circle cx="602.6" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="625.7" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="648.9" cy="142.0" r="4.2" fill="#c2701a"/>
+<circle cx="672.0" cy="142.0" r="4.2" fill="#c2701a"/>
+<text x="591.0" y="180.0" font-size="12.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Cluster</text>
+<text x="591.0" y="197.0" font-size="10.8" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">whole intact groups sampled</text>
+<rect x="728" y="26" width="190" height="130" fill="none" stroke="var(--border)" stroke-width="1"/>
+<circle cx="742.0" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="765.1" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="788.3" cy="40.0" r="4.2" fill="var(--accent)"/>
+<circle cx="811.4" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="834.6" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="857.7" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="880.9" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="904.0" cy="40.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="742.0" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="765.1" cy="60.4" r="4.2" fill="var(--accent)"/>
+<circle cx="788.3" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="811.4" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="834.6" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="857.7" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="880.9" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="904.0" cy="60.4" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="742.0" cy="80.8" r="4.2" fill="var(--accent)"/>
+<circle cx="765.1" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="788.3" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="811.4" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="834.6" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="857.7" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="880.9" cy="80.8" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="904.0" cy="80.8" r="4.2" fill="var(--accent)"/>
+<circle cx="742.0" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="765.1" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="788.3" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="811.4" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="834.6" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="857.7" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="880.9" cy="101.2" r="4.2" fill="var(--accent)"/>
+<circle cx="904.0" cy="101.2" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="742.0" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="765.1" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="788.3" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="811.4" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="834.6" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="857.7" cy="121.6" r="4.2" fill="var(--accent)"/>
+<circle cx="880.9" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="904.0" cy="121.6" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="742.0" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="765.1" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="788.3" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="811.4" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="834.6" cy="142.0" r="4.2" fill="var(--accent)"/>
+<circle cx="857.7" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="880.9" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<circle cx="904.0" cy="142.0" r="3.4" fill="none" stroke="var(--muted)" stroke-width="1.1" opacity="0.55"/>
+<text x="823.0" y="180.0" font-size="12.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Systematic</text>
+<text x="823.0" y="197.0" font-size="10.8" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">every kth case from a list</text>
+<text x="470.0" y="232.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Filled = sampled. All four are PROBABILITY methods, so sampling error is calculable. Purposive, quota, snowball, convenience and incidental sampling are</text>
+<text x="470.0" y="249.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">NON-probability: cheaper, but no sampling error can be estimated and generalisation is unsafe.</text>
+</svg>
+<figcaption>The four probability sampling designs.</figcaption></figure>
+
+
+<table class="t">
+<tr><th>Method</th><th>How</th><th>Strength</th><th>Weakness</th></tr>
+<tr><th colspan="4" style="text-align:center">PROBABILITY sampling: every unit has a known, non-zero chance of selection, so sampling error is calculable and generalisation is defensible</th></tr>
+<tr><td><b>Simple random</b></td><td>Lottery or random-number table; every case has an equal chance</td><td>Unbiased, the theoretical ideal, the assumption behind every inferential formula</td><td>Needs a complete sampling frame; may miss small subgroups by chance</td></tr>
+<tr><td><b>Stratified random</b></td><td>Divide the population into strata (gender, diagnosis, SES), then sample randomly <i>within</i> each. Proportionate or disproportionate</td><td><b>More precise than simple random</b>, guarantees representation of every stratum, reduces sampling error</td><td>You must know the strata in advance</td></tr>
+<tr><td><b>Cluster</b></td><td>Divide into naturally occurring groups (schools, wards, villages), randomly select whole clusters, study everyone inside</td><td>Cheap and practical when the population is geographically spread; no full frame needed</td><td><b>Largest sampling error</b> of the probability methods, because people within a cluster are alike</td></tr>
+<tr><td><b>Systematic</b></td><td>Choose a random start, then take every kth case (k = N/n)</td><td>Simple, spreads the sample evenly through the list</td><td>Fails badly if the list has a periodicity matching k</td></tr>
+<tr><td><b>Multi-stage</b></td><td>Cluster sampling applied repeatedly (state &rarr; district &rarr; school &rarr; class)</td><td>The only feasible design for national surveys</td><td>Error accumulates at each stage</td></tr>
+<tr><th colspan="4" style="text-align:center">NON-PROBABILITY sampling: selection chance unknown, so sampling error cannot be estimated and inferential statistics are strictly not justified</th></tr>
+<tr><td><b>Purposive / judgemental</b></td><td>The researcher picks cases judged typical or informative</td><td>Efficient for expert or rare populations</td><td>Wide open to researcher bias</td></tr>
+<tr><td><b>Quota</b></td><td>Fill preset quotas per subgroup, but choose within them non-randomly</td><td>Gets the demographic profile right cheaply; the non-probability cousin of stratified</td><td>Selection within quota is biased</td></tr>
+<tr><td><b>Snowball / chain referral</b></td><td>Participants recruit further participants</td><td>The standard method for hidden populations: substance users, sex workers, undocumented migrants</td><td>Heavily networked people are over-represented</td></tr>
+<tr><td><b>Convenience / accidental / incidental</b></td><td>Whoever is available (the classic undergraduate subject pool)</td><td>Cheapest and fastest</td><td>Weakest external validity of all</td></tr>
+</table>
+
+<div class="rule"><b>Definitions to be exact about:</b> <b>sampling error</b> is the natural, unavoidable discrepancy between a sample statistic and its population parameter, caused by chance alone; it shrinks as n grows. <b>Sampling bias</b> is a systematic tilt caused by a faulty method; it does <b>not</b> shrink with n, and a bigger biased sample is simply a bigger wrong answer.</div>
+
+<h3>7.3 The sampling distribution of the mean</h3>
+
+<p>This is the pivot of the whole book. Everything inferential rests on one imaginary object.</p>
+
+<div class="why"><b>The idea.</b> Take a sample of size n and compute its mean. Put it back, take another sample of size n, compute its mean. Do this endlessly. You now have a distribution, not of raw scores, but <b>of sample means</b>. That is the <b>sampling distribution of the mean</b>. It is theoretical; you never actually build it. But you know its three properties exactly, and that is enough to say how surprising your one real sample is.</div>
+
+<ol class="steps">
+  <li><b>Its mean equals the population mean:</b> &mu;<sub>M</sub> = &mu;. The sample mean is an unbiased estimator.</li>
+  <li><b>Its standard deviation is the standard error of the mean:</b> <b>SE<sub>M</sub> = &sigma; / &radic;n</b>, estimated in practice by <b>s / &radic;n</b>.</li>
+  <li><b>Its shape approaches normal</b> as n grows, whatever the shape of the parent population. That is the central limit theorem.</li>
+</ol>
+
+<figure class="dia">
+<svg viewBox="0 0 940 320" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<path d="M 18.41,200.00 L 18.41,200.00 L 19.43,200.00 L 20.46,200.00 L 21.48,200.00 L 22.50,199.99 L 23.52,199.97 L 24.55,199.91 L 25.57,199.76 L 26.59,199.48 L 27.62,198.99 L 28.64,198.26 L 29.66,197.21 L 30.69,195.81 L 31.71,194.03 L 32.73,191.85 L 33.75,189.27 L 34.78,186.31 L 35.80,182.98 L 36.82,179.33 L 37.85,175.37 L 38.87,171.17 L 39.89,166.77 L 40.91,162.21 L 41.94,157.54 L 42.96,152.80 L 43.98,148.04 L 45.01,143.29 L 46.03,138.60 L 47.05,134.00 L 48.08,129.52 L 49.10,125.18 L 50.12,121.00 L 51.14,117.01 L 52.17,113.21 L 53.19,109.63 L 54.21,106.26 L 55.24,103.12 L 56.26,100.21 L 57.28,97.54 L 58.31,95.09 L 59.33,92.88 L 60.35,90.89 L 61.37,89.13 L 62.40,87.58 L 63.42,86.25 L 64.44,85.12 L 65.47,84.19 L 66.49,83.45 L 67.51,82.89 L 68.53,82.51 L 69.56,82.29 L 70.58,82.22 L 71.60,82.30 L 72.63,82.52 L 73.65,82.87 L 74.67,83.35 L 75.70,83.93 L 76.72,84.62 L 77.74,85.41 L 78.76,86.29 L 79.79,87.26 L 80.81,88.30 L 81.83,89.41 L 82.86,90.58 L 83.88,91.82 L 84.90,93.10 L 85.92,94.43 L 86.95,95.80 L 87.97,97.21 L 88.99,98.65 L 90.02,100.12 L 91.04,101.61 L 92.06,103.13 L 93.09,104.65 L 94.11,106.20 L 95.13,107.75 L 96.15,109.30 L 97.18,110.87 L 98.20,112.43 L 99.22,113.99 L 100.25,115.55 L 101.27,117.11 L 102.29,118.66 L 103.31,120.20 L 104.34,121.73 L 105.36,123.24 L 106.38,124.75 L 107.41,126.24 L 108.43,127.72 L 109.45,129.18 L 110.48,130.62 L 111.50,132.05 L 112.52,133.46 L 113.54,134.85 L 114.57,136.22 L 115.59,137.57 L 116.61,138.90 L 117.64,140.21 L 118.66,141.50 L 119.68,142.77 L 120.70,144.01 L 121.73,145.24 L 122.75,146.45 L 123.77,147.63 L 124.80,148.79 L 125.82,149.93 L 126.84,151.05 L 127.87,152.15 L 128.89,153.22 L 129.91,154.28 L 130.93,155.31 L 131.96,156.33 L 132.98,157.32 L 134.00,158.30 L 135.03,159.25 L 136.05,160.18 L 137.07,161.10 L 138.10,161.99 L 139.12,162.87 L 140.14,163.73 L 141.16,164.56 L 142.19,165.38 L 143.21,166.19 L 144.23,166.97 L 145.26,167.74 L 146.28,168.49 L 147.30,169.22 L 148.32,169.94 L 149.35,170.64 L 150.37,171.33 L 151.39,172.00 L 152.42,172.65 L 153.44,173.29 L 154.46,173.91 L 155.49,174.52 L 156.51,175.12 L 157.53,175.70 L 158.55,176.27 L 159.58,176.83 L 160.60,177.37 L 161.62,177.90 L 162.65,178.42 L 163.67,178.92 L 164.69,179.41 L 165.71,179.90 L 166.74,180.37 L 167.76,180.83 L 168.78,181.27 L 169.81,181.71 L 170.83,182.14 L 171.85,182.56 L 172.88,182.96 L 173.90,183.36 L 174.92,183.75 L 175.94,184.13 L 176.97,184.50 L 177.99,184.86 L 179.01,185.21 L 180.04,185.55 L 181.06,185.89 L 182.08,186.22 L 183.10,186.54 L 184.13,186.85 L 185.15,187.15 L 186.17,187.45 L 187.20,187.74 L 188.22,188.02 L 189.24,188.30 L 190.27,188.57 L 191.29,188.83 L 192.31,189.09 L 193.33,189.34 L 194.36,189.59 L 195.38,189.83 L 196.40,190.06 L 197.43,190.29 L 198.45,190.51 L 199.47,190.73 L 200.50,190.94 L 201.52,191.14 L 202.54,191.35 L 203.56,191.54 L 204.59,191.74 L 205.61,191.92 L 206.63,192.11 L 207.66,192.28 L 208.68,192.46 L 209.70,192.63 L 210.72,192.80 L 211.75,192.96 L 212.77,193.12 L 213.79,193.27 L 214.82,193.42 L 215.84,193.57 L 216.86,193.71 L 217.89,193.86 L 218.91,193.99 L 219.93,194.13 L 220.95,194.26 L 221.98,194.39 L 223.00,194.51 L 223.00,200.00 Z" fill="#c2701a" stroke="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="0.16"/>
+<path d="M 18.41,200.00 L 19.43,200.00 L 20.46,200.00 L 21.48,200.00 L 22.50,199.99 L 23.52,199.97 L 24.55,199.91 L 25.57,199.76 L 26.59,199.48 L 27.62,198.99 L 28.64,198.26 L 29.66,197.21 L 30.69,195.81 L 31.71,194.03 L 32.73,191.85 L 33.75,189.27 L 34.78,186.31 L 35.80,182.98 L 36.82,179.33 L 37.85,175.37 L 38.87,171.17 L 39.89,166.77 L 40.91,162.21 L 41.94,157.54 L 42.96,152.80 L 43.98,148.04 L 45.01,143.29 L 46.03,138.60 L 47.05,134.00 L 48.08,129.52 L 49.10,125.18 L 50.12,121.00 L 51.14,117.01 L 52.17,113.21 L 53.19,109.63 L 54.21,106.26 L 55.24,103.12 L 56.26,100.21 L 57.28,97.54 L 58.31,95.09 L 59.33,92.88 L 60.35,90.89 L 61.37,89.13 L 62.40,87.58 L 63.42,86.25 L 64.44,85.12 L 65.47,84.19 L 66.49,83.45 L 67.51,82.89 L 68.53,82.51 L 69.56,82.29 L 70.58,82.22 L 71.60,82.30 L 72.63,82.52 L 73.65,82.87 L 74.67,83.35 L 75.70,83.93 L 76.72,84.62 L 77.74,85.41 L 78.76,86.29 L 79.79,87.26 L 80.81,88.30 L 81.83,89.41 L 82.86,90.58 L 83.88,91.82 L 84.90,93.10 L 85.92,94.43 L 86.95,95.80 L 87.97,97.21 L 88.99,98.65 L 90.02,100.12 L 91.04,101.61 L 92.06,103.13 L 93.09,104.65 L 94.11,106.20 L 95.13,107.75 L 96.15,109.30 L 97.18,110.87 L 98.20,112.43 L 99.22,113.99 L 100.25,115.55 L 101.27,117.11 L 102.29,118.66 L 103.31,120.20 L 104.34,121.73 L 105.36,123.24 L 106.38,124.75 L 107.41,126.24 L 108.43,127.72 L 109.45,129.18 L 110.48,130.62 L 111.50,132.05 L 112.52,133.46 L 113.54,134.85 L 114.57,136.22 L 115.59,137.57 L 116.61,138.90 L 117.64,140.21 L 118.66,141.50 L 119.68,142.77 L 120.70,144.01 L 121.73,145.24 L 122.75,146.45 L 123.77,147.63 L 124.80,148.79 L 125.82,149.93 L 126.84,151.05 L 127.87,152.15 L 128.89,153.22 L 129.91,154.28 L 130.93,155.31 L 131.96,156.33 L 132.98,157.32 L 134.00,158.30 L 135.03,159.25 L 136.05,160.18 L 137.07,161.10 L 138.10,161.99 L 139.12,162.87 L 140.14,163.73 L 141.16,164.56 L 142.19,165.38 L 143.21,166.19 L 144.23,166.97 L 145.26,167.74 L 146.28,168.49 L 147.30,169.22 L 148.32,169.94 L 149.35,170.64 L 150.37,171.33 L 151.39,172.00 L 152.42,172.65 L 153.44,173.29 L 154.46,173.91 L 155.49,174.52 L 156.51,175.12 L 157.53,175.70 L 158.55,176.27 L 159.58,176.83 L 160.60,177.37 L 161.62,177.90 L 162.65,178.42 L 163.67,178.92 L 164.69,179.41 L 165.71,179.90 L 166.74,180.37 L 167.76,180.83 L 168.78,181.27 L 169.81,181.71 L 170.83,182.14 L 171.85,182.56 L 172.88,182.96 L 173.90,183.36 L 174.92,183.75 L 175.94,184.13 L 176.97,184.50 L 177.99,184.86 L 179.01,185.21 L 180.04,185.55 L 181.06,185.89 L 182.08,186.22 L 183.10,186.54 L 184.13,186.85 L 185.15,187.15 L 186.17,187.45 L 187.20,187.74 L 188.22,188.02 L 189.24,188.30 L 190.27,188.57 L 191.29,188.83 L 192.31,189.09 L 193.33,189.34 L 194.36,189.59 L 195.38,189.83 L 196.40,190.06 L 197.43,190.29 L 198.45,190.51 L 199.47,190.73 L 200.50,190.94 L 201.52,191.14 L 202.54,191.35 L 203.56,191.54 L 204.59,191.74 L 205.61,191.92 L 206.63,192.11 L 207.66,192.28 L 208.68,192.46 L 209.70,192.63 L 210.72,192.80 L 211.75,192.96 L 212.77,193.12 L 213.79,193.27 L 214.82,193.42 L 215.84,193.57 L 216.86,193.71 L 217.89,193.86 L 218.91,193.99 L 219.93,194.13 L 220.95,194.26 L 221.98,194.39 L 223.00,194.51" fill="none" stroke="#c2701a" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<line x1="18.0" y1="200.0" x2="231.0" y2="200.0" stroke="var(--muted)" stroke-width="1.2"/>
+<line x1="100.0" y1="200.0" x2="100.0" y2="44.0" stroke="var(--bad)" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="100.0" y="38.0" font-size="12" fill="var(--bad)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">&#956;</text>
+<text x="120.5" y="226.0" font-size="12" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Population</text>
+<text x="120.5" y="243.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">(skewed, &#956; = 2.0, &#963; = 1.2)</text>
+<text x="245.0" y="140.0" font-size="20" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">&#8594;</text>
+<path d="M 250.41,200.00 L 250.41,192.96 L 251.43,192.43 L 252.46,191.86 L 253.48,191.24 L 254.50,190.59 L 255.52,189.89 L 256.55,189.15 L 257.57,188.36 L 258.59,187.52 L 259.62,186.62 L 260.64,185.67 L 261.66,184.67 L 262.69,183.60 L 263.71,182.48 L 264.73,181.29 L 265.75,180.03 L 266.78,178.71 L 267.80,177.32 L 268.82,175.86 L 269.85,174.32 L 270.87,172.71 L 271.89,171.03 L 272.91,169.27 L 273.94,167.43 L 274.96,165.52 L 275.98,163.53 L 277.01,161.46 L 278.03,159.31 L 279.05,157.09 L 280.08,154.79 L 281.10,152.41 L 282.12,149.97 L 283.14,147.45 L 284.17,144.86 L 285.19,142.21 L 286.21,139.49 L 287.24,136.72 L 288.26,133.89 L 289.28,131.01 L 290.31,128.08 L 291.33,125.12 L 292.35,122.11 L 293.37,119.08 L 294.40,116.03 L 295.42,112.95 L 296.44,109.87 L 297.47,106.79 L 298.49,103.71 L 299.51,100.64 L 300.53,97.59 L 301.56,94.58 L 302.58,91.59 L 303.60,88.66 L 304.63,85.77 L 305.65,82.95 L 306.67,80.19 L 307.70,77.51 L 308.72,74.92 L 309.74,72.42 L 310.76,70.02 L 311.79,67.73 L 312.81,65.55 L 313.83,63.49 L 314.86,61.56 L 315.88,59.77 L 316.90,58.11 L 317.92,56.60 L 318.95,55.24 L 319.97,54.03 L 320.99,52.97 L 322.02,52.07 L 323.04,51.33 L 324.06,50.76 L 325.09,50.34 L 326.11,50.09 L 327.13,50.00 L 328.15,50.07 L 329.18,50.30 L 330.20,50.69 L 331.22,51.23 L 332.25,51.93 L 333.27,52.77 L 334.29,53.76 L 335.31,54.88 L 336.34,56.14 L 337.36,57.53 L 338.38,59.04 L 339.41,60.66 L 340.43,62.39 L 341.45,64.23 L 342.48,66.15 L 343.50,68.17 L 344.52,70.27 L 345.54,72.44 L 346.57,74.68 L 347.59,76.97 L 348.61,79.32 L 349.64,81.71 L 350.66,84.14 L 351.68,86.60 L 352.70,89.08 L 353.73,91.58 L 354.75,94.08 L 355.77,96.60 L 356.80,99.11 L 357.82,101.61 L 358.84,104.10 L 359.87,106.57 L 360.89,109.02 L 361.91,111.45 L 362.93,113.85 L 363.96,116.21 L 364.98,118.54 L 366.00,120.82 L 367.03,123.07 L 368.05,125.27 L 369.07,127.43 L 370.10,129.54 L 371.12,131.60 L 372.14,133.61 L 373.16,135.57 L 374.19,137.48 L 375.21,139.34 L 376.23,141.15 L 377.26,142.91 L 378.28,144.62 L 379.30,146.28 L 380.32,147.89 L 381.35,149.46 L 382.37,150.97 L 383.39,152.44 L 384.42,153.87 L 385.44,155.25 L 386.46,156.59 L 387.49,157.89 L 388.51,159.15 L 389.53,160.37 L 390.55,161.56 L 391.58,162.71 L 392.60,163.82 L 393.62,164.90 L 394.65,165.95 L 395.67,166.97 L 396.69,167.96 L 397.71,168.93 L 398.74,169.86 L 399.76,170.77 L 400.78,171.66 L 401.81,172.52 L 402.83,173.36 L 403.85,174.17 L 404.88,174.97 L 405.90,175.74 L 406.92,176.50 L 407.94,177.24 L 408.97,177.96 L 409.99,178.66 L 411.01,179.34 L 412.04,180.01 L 413.06,180.66 L 414.08,181.29 L 415.10,181.91 L 416.13,182.52 L 417.15,183.11 L 418.17,183.68 L 419.20,184.24 L 420.22,184.79 L 421.24,185.33 L 422.27,185.85 L 423.29,186.35 L 424.31,186.85 L 425.33,187.33 L 426.36,187.80 L 427.38,188.26 L 428.40,188.70 L 429.43,189.13 L 430.45,189.55 L 431.47,189.96 L 432.50,190.36 L 433.52,190.75 L 434.54,191.12 L 435.56,191.48 L 436.59,191.84 L 437.61,192.18 L 438.63,192.51 L 439.66,192.83 L 440.68,193.14 L 441.70,193.44 L 442.72,193.73 L 443.75,194.01 L 444.77,194.28 L 445.79,194.54 L 446.82,194.79 L 447.84,195.03 L 448.86,195.26 L 449.89,195.49 L 450.91,195.70 L 451.93,195.91 L 452.95,196.11 L 453.98,196.30 L 455.00,196.49 L 455.00,200.00 Z" fill="var(--accent)" stroke="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="0.16"/>
+<path d="M 250.41,192.96 L 251.43,192.43 L 252.46,191.86 L 253.48,191.24 L 254.50,190.59 L 255.52,189.89 L 256.55,189.15 L 257.57,188.36 L 258.59,187.52 L 259.62,186.62 L 260.64,185.67 L 261.66,184.67 L 262.69,183.60 L 263.71,182.48 L 264.73,181.29 L 265.75,180.03 L 266.78,178.71 L 267.80,177.32 L 268.82,175.86 L 269.85,174.32 L 270.87,172.71 L 271.89,171.03 L 272.91,169.27 L 273.94,167.43 L 274.96,165.52 L 275.98,163.53 L 277.01,161.46 L 278.03,159.31 L 279.05,157.09 L 280.08,154.79 L 281.10,152.41 L 282.12,149.97 L 283.14,147.45 L 284.17,144.86 L 285.19,142.21 L 286.21,139.49 L 287.24,136.72 L 288.26,133.89 L 289.28,131.01 L 290.31,128.08 L 291.33,125.12 L 292.35,122.11 L 293.37,119.08 L 294.40,116.03 L 295.42,112.95 L 296.44,109.87 L 297.47,106.79 L 298.49,103.71 L 299.51,100.64 L 300.53,97.59 L 301.56,94.58 L 302.58,91.59 L 303.60,88.66 L 304.63,85.77 L 305.65,82.95 L 306.67,80.19 L 307.70,77.51 L 308.72,74.92 L 309.74,72.42 L 310.76,70.02 L 311.79,67.73 L 312.81,65.55 L 313.83,63.49 L 314.86,61.56 L 315.88,59.77 L 316.90,58.11 L 317.92,56.60 L 318.95,55.24 L 319.97,54.03 L 320.99,52.97 L 322.02,52.07 L 323.04,51.33 L 324.06,50.76 L 325.09,50.34 L 326.11,50.09 L 327.13,50.00 L 328.15,50.07 L 329.18,50.30 L 330.20,50.69 L 331.22,51.23 L 332.25,51.93 L 333.27,52.77 L 334.29,53.76 L 335.31,54.88 L 336.34,56.14 L 337.36,57.53 L 338.38,59.04 L 339.41,60.66 L 340.43,62.39 L 341.45,64.23 L 342.48,66.15 L 343.50,68.17 L 344.52,70.27 L 345.54,72.44 L 346.57,74.68 L 347.59,76.97 L 348.61,79.32 L 349.64,81.71 L 350.66,84.14 L 351.68,86.60 L 352.70,89.08 L 353.73,91.58 L 354.75,94.08 L 355.77,96.60 L 356.80,99.11 L 357.82,101.61 L 358.84,104.10 L 359.87,106.57 L 360.89,109.02 L 361.91,111.45 L 362.93,113.85 L 363.96,116.21 L 364.98,118.54 L 366.00,120.82 L 367.03,123.07 L 368.05,125.27 L 369.07,127.43 L 370.10,129.54 L 371.12,131.60 L 372.14,133.61 L 373.16,135.57 L 374.19,137.48 L 375.21,139.34 L 376.23,141.15 L 377.26,142.91 L 378.28,144.62 L 379.30,146.28 L 380.32,147.89 L 381.35,149.46 L 382.37,150.97 L 383.39,152.44 L 384.42,153.87 L 385.44,155.25 L 386.46,156.59 L 387.49,157.89 L 388.51,159.15 L 389.53,160.37 L 390.55,161.56 L 391.58,162.71 L 392.60,163.82 L 393.62,164.90 L 394.65,165.95 L 395.67,166.97 L 396.69,167.96 L 397.71,168.93 L 398.74,169.86 L 399.76,170.77 L 400.78,171.66 L 401.81,172.52 L 402.83,173.36 L 403.85,174.17 L 404.88,174.97 L 405.90,175.74 L 406.92,176.50 L 407.94,177.24 L 408.97,177.96 L 409.99,178.66 L 411.01,179.34 L 412.04,180.01 L 413.06,180.66 L 414.08,181.29 L 415.10,181.91 L 416.13,182.52 L 417.15,183.11 L 418.17,183.68 L 419.20,184.24 L 420.22,184.79 L 421.24,185.33 L 422.27,185.85 L 423.29,186.35 L 424.31,186.85 L 425.33,187.33 L 426.36,187.80 L 427.38,188.26 L 428.40,188.70 L 429.43,189.13 L 430.45,189.55 L 431.47,189.96 L 432.50,190.36 L 433.52,190.75 L 434.54,191.12 L 435.56,191.48 L 436.59,191.84 L 437.61,192.18 L 438.63,192.51 L 439.66,192.83 L 440.68,193.14 L 441.70,193.44 L 442.72,193.73 L 443.75,194.01 L 444.77,194.28 L 445.79,194.54 L 446.82,194.79 L 447.84,195.03 L 448.86,195.26 L 449.89,195.49 L 450.91,195.70 L 451.93,195.91 L 452.95,196.11 L 453.98,196.30 L 455.00,196.49" fill="none" stroke="var(--accent)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<line x1="250.0" y1="200.0" x2="463.0" y2="200.0" stroke="var(--muted)" stroke-width="1.2"/>
+<line x1="332.0" y1="200.0" x2="332.0" y2="44.0" stroke="var(--bad)" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="332.0" y="38.0" font-size="12" fill="var(--bad)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">&#956;</text>
+<text x="352.5" y="226.0" font-size="12" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">n = 2</text>
+<text x="352.5" y="243.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">SE = &#963;/&#8730;2 = 0.85</text>
+<text x="477.0" y="140.0" font-size="20" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">&#8594;</text>
+<path d="M 482.41,200.00 L 482.41,200.00 L 483.43,200.00 L 484.46,200.00 L 485.48,200.00 L 486.50,200.00 L 487.52,200.00 L 488.55,200.00 L 489.57,200.00 L 490.59,200.00 L 491.62,200.00 L 492.64,200.00 L 493.66,199.99 L 494.69,199.99 L 495.71,199.99 L 496.73,199.99 L 497.75,199.98 L 498.78,199.98 L 499.80,199.97 L 500.82,199.96 L 501.85,199.95 L 502.87,199.93 L 503.89,199.91 L 504.91,199.89 L 505.94,199.86 L 506.96,199.82 L 507.98,199.77 L 509.01,199.71 L 510.03,199.63 L 511.05,199.54 L 512.08,199.43 L 513.10,199.29 L 514.12,199.12 L 515.14,198.92 L 516.17,198.67 L 517.19,198.38 L 518.21,198.03 L 519.24,197.61 L 520.26,197.12 L 521.28,196.54 L 522.31,195.86 L 523.33,195.08 L 524.35,194.17 L 525.37,193.12 L 526.40,191.92 L 527.42,190.54 L 528.44,188.99 L 529.47,187.23 L 530.49,185.25 L 531.51,183.05 L 532.53,180.59 L 533.56,177.88 L 534.58,174.90 L 535.60,171.64 L 536.63,168.09 L 537.65,164.26 L 538.67,160.13 L 539.70,155.72 L 540.72,151.04 L 541.74,146.09 L 542.76,140.91 L 543.79,135.50 L 544.81,129.90 L 545.83,124.14 L 546.86,118.26 L 547.88,112.31 L 548.90,106.33 L 549.92,100.37 L 550.95,94.50 L 551.97,88.76 L 552.99,83.21 L 554.02,77.91 L 555.04,72.92 L 556.06,68.30 L 557.09,64.11 L 558.11,60.38 L 559.13,57.17 L 560.15,54.51 L 561.18,52.45 L 562.20,51.00 L 563.22,50.19 L 564.25,50.02 L 565.27,50.50 L 566.29,51.62 L 567.31,53.37 L 568.34,55.72 L 569.36,58.64 L 570.38,62.11 L 571.41,66.07 L 572.43,70.48 L 573.45,75.28 L 574.48,80.42 L 575.50,85.85 L 576.52,91.50 L 577.54,97.31 L 578.57,103.23 L 579.59,109.21 L 580.61,115.18 L 581.64,121.10 L 582.66,126.93 L 583.68,132.61 L 584.71,138.12 L 585.73,143.43 L 586.75,148.50 L 587.77,153.33 L 588.80,157.88 L 589.82,162.15 L 590.84,166.14 L 591.87,169.83 L 592.89,173.24 L 593.91,176.37 L 594.93,179.22 L 595.96,181.81 L 596.98,184.14 L 598.00,186.23 L 599.03,188.10 L 600.05,189.76 L 601.07,191.23 L 602.10,192.51 L 603.12,193.64 L 604.14,194.62 L 605.16,195.47 L 606.19,196.20 L 607.21,196.83 L 608.23,197.36 L 609.26,197.82 L 610.28,198.20 L 611.30,198.52 L 612.32,198.79 L 613.35,199.02 L 614.37,199.21 L 615.39,199.36 L 616.42,199.49 L 617.44,199.59 L 618.46,199.67 L 619.49,199.74 L 620.51,199.80 L 621.53,199.84 L 622.55,199.87 L 623.58,199.90 L 624.60,199.92 L 625.62,199.94 L 626.65,199.95 L 627.67,199.97 L 628.69,199.97 L 629.71,199.98 L 630.74,199.98 L 631.76,199.99 L 632.78,199.99 L 633.81,199.99 L 634.83,200.00 L 635.85,200.00 L 636.88,200.00 L 637.90,200.00 L 638.92,200.00 L 639.94,200.00 L 640.97,200.00 L 641.99,200.00 L 643.01,200.00 L 644.04,200.00 L 645.06,200.00 L 646.08,200.00 L 647.10,200.00 L 648.13,200.00 L 649.15,200.00 L 650.17,200.00 L 651.20,200.00 L 652.22,200.00 L 653.24,200.00 L 654.27,200.00 L 655.29,200.00 L 656.31,200.00 L 657.33,200.00 L 658.36,200.00 L 659.38,200.00 L 660.40,200.00 L 661.43,200.00 L 662.45,200.00 L 663.47,200.00 L 664.50,200.00 L 665.52,200.00 L 666.54,200.00 L 667.56,200.00 L 668.59,200.00 L 669.61,200.00 L 670.63,200.00 L 671.66,200.00 L 672.68,200.00 L 673.70,200.00 L 674.72,200.00 L 675.75,200.00 L 676.77,200.00 L 677.79,200.00 L 678.82,200.00 L 679.84,200.00 L 680.86,200.00 L 681.89,200.00 L 682.91,200.00 L 683.93,200.00 L 684.95,200.00 L 685.98,200.00 L 687.00,200.00 L 687.00,200.00 Z" fill="var(--accent)" stroke="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="0.16"/>
+<path d="M 482.41,200.00 L 483.43,200.00 L 484.46,200.00 L 485.48,200.00 L 486.50,200.00 L 487.52,200.00 L 488.55,200.00 L 489.57,200.00 L 490.59,200.00 L 491.62,200.00 L 492.64,200.00 L 493.66,199.99 L 494.69,199.99 L 495.71,199.99 L 496.73,199.99 L 497.75,199.98 L 498.78,199.98 L 499.80,199.97 L 500.82,199.96 L 501.85,199.95 L 502.87,199.93 L 503.89,199.91 L 504.91,199.89 L 505.94,199.86 L 506.96,199.82 L 507.98,199.77 L 509.01,199.71 L 510.03,199.63 L 511.05,199.54 L 512.08,199.43 L 513.10,199.29 L 514.12,199.12 L 515.14,198.92 L 516.17,198.67 L 517.19,198.38 L 518.21,198.03 L 519.24,197.61 L 520.26,197.12 L 521.28,196.54 L 522.31,195.86 L 523.33,195.08 L 524.35,194.17 L 525.37,193.12 L 526.40,191.92 L 527.42,190.54 L 528.44,188.99 L 529.47,187.23 L 530.49,185.25 L 531.51,183.05 L 532.53,180.59 L 533.56,177.88 L 534.58,174.90 L 535.60,171.64 L 536.63,168.09 L 537.65,164.26 L 538.67,160.13 L 539.70,155.72 L 540.72,151.04 L 541.74,146.09 L 542.76,140.91 L 543.79,135.50 L 544.81,129.90 L 545.83,124.14 L 546.86,118.26 L 547.88,112.31 L 548.90,106.33 L 549.92,100.37 L 550.95,94.50 L 551.97,88.76 L 552.99,83.21 L 554.02,77.91 L 555.04,72.92 L 556.06,68.30 L 557.09,64.11 L 558.11,60.38 L 559.13,57.17 L 560.15,54.51 L 561.18,52.45 L 562.20,51.00 L 563.22,50.19 L 564.25,50.02 L 565.27,50.50 L 566.29,51.62 L 567.31,53.37 L 568.34,55.72 L 569.36,58.64 L 570.38,62.11 L 571.41,66.07 L 572.43,70.48 L 573.45,75.28 L 574.48,80.42 L 575.50,85.85 L 576.52,91.50 L 577.54,97.31 L 578.57,103.23 L 579.59,109.21 L 580.61,115.18 L 581.64,121.10 L 582.66,126.93 L 583.68,132.61 L 584.71,138.12 L 585.73,143.43 L 586.75,148.50 L 587.77,153.33 L 588.80,157.88 L 589.82,162.15 L 590.84,166.14 L 591.87,169.83 L 592.89,173.24 L 593.91,176.37 L 594.93,179.22 L 595.96,181.81 L 596.98,184.14 L 598.00,186.23 L 599.03,188.10 L 600.05,189.76 L 601.07,191.23 L 602.10,192.51 L 603.12,193.64 L 604.14,194.62 L 605.16,195.47 L 606.19,196.20 L 607.21,196.83 L 608.23,197.36 L 609.26,197.82 L 610.28,198.20 L 611.30,198.52 L 612.32,198.79 L 613.35,199.02 L 614.37,199.21 L 615.39,199.36 L 616.42,199.49 L 617.44,199.59 L 618.46,199.67 L 619.49,199.74 L 620.51,199.80 L 621.53,199.84 L 622.55,199.87 L 623.58,199.90 L 624.60,199.92 L 625.62,199.94 L 626.65,199.95 L 627.67,199.97 L 628.69,199.97 L 629.71,199.98 L 630.74,199.98 L 631.76,199.99 L 632.78,199.99 L 633.81,199.99 L 634.83,200.00 L 635.85,200.00 L 636.88,200.00 L 637.90,200.00 L 638.92,200.00 L 639.94,200.00 L 640.97,200.00 L 641.99,200.00 L 643.01,200.00 L 644.04,200.00 L 645.06,200.00 L 646.08,200.00 L 647.10,200.00 L 648.13,200.00 L 649.15,200.00 L 650.17,200.00 L 651.20,200.00 L 652.22,200.00 L 653.24,200.00 L 654.27,200.00 L 655.29,200.00 L 656.31,200.00 L 657.33,200.00 L 658.36,200.00 L 659.38,200.00 L 660.40,200.00 L 661.43,200.00 L 662.45,200.00 L 663.47,200.00 L 664.50,200.00 L 665.52,200.00 L 666.54,200.00 L 667.56,200.00 L 668.59,200.00 L 669.61,200.00 L 670.63,200.00 L 671.66,200.00 L 672.68,200.00 L 673.70,200.00 L 674.72,200.00 L 675.75,200.00 L 676.77,200.00 L 677.79,200.00 L 678.82,200.00 L 679.84,200.00 L 680.86,200.00 L 681.89,200.00 L 682.91,200.00 L 683.93,200.00 L 684.95,200.00 L 685.98,200.00 L 687.00,200.00" fill="none" stroke="var(--accent)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<line x1="482.0" y1="200.0" x2="695.0" y2="200.0" stroke="var(--muted)" stroke-width="1.2"/>
+<line x1="564.0" y1="200.0" x2="564.0" y2="44.0" stroke="var(--bad)" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="564.0" y="38.0" font-size="12" fill="var(--bad)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">&#956;</text>
+<text x="584.5" y="226.0" font-size="12" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">n = 10</text>
+<text x="584.5" y="243.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">SE = &#963;/&#8730;10 = 0.38</text>
+<text x="709.0" y="140.0" font-size="20" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">&#8594;</text>
+<path d="M 714.41,200.00 L 714.41,200.00 L 715.43,200.00 L 716.46,200.00 L 717.48,200.00 L 718.50,200.00 L 719.52,200.00 L 720.55,200.00 L 721.57,200.00 L 722.59,200.00 L 723.62,200.00 L 724.64,200.00 L 725.66,200.00 L 726.69,200.00 L 727.71,200.00 L 728.73,200.00 L 729.75,200.00 L 730.78,200.00 L 731.80,200.00 L 732.82,200.00 L 733.85,200.00 L 734.87,200.00 L 735.89,200.00 L 736.91,200.00 L 737.94,200.00 L 738.96,200.00 L 739.98,200.00 L 741.01,200.00 L 742.03,200.00 L 743.05,200.00 L 744.08,200.00 L 745.10,200.00 L 746.12,200.00 L 747.14,200.00 L 748.17,200.00 L 749.19,200.00 L 750.21,200.00 L 751.24,200.00 L 752.26,200.00 L 753.28,200.00 L 754.31,200.00 L 755.33,199.99 L 756.35,199.99 L 757.37,199.99 L 758.40,199.98 L 759.42,199.96 L 760.44,199.94 L 761.47,199.91 L 762.49,199.86 L 763.51,199.78 L 764.53,199.68 L 765.56,199.52 L 766.58,199.30 L 767.60,198.99 L 768.63,198.56 L 769.65,197.97 L 770.67,197.18 L 771.70,196.14 L 772.72,194.78 L 773.74,193.04 L 774.76,190.83 L 775.79,188.07 L 776.81,184.69 L 777.83,180.60 L 778.86,175.73 L 779.88,170.03 L 780.90,163.47 L 781.92,156.05 L 782.95,147.81 L 783.97,138.81 L 784.99,129.19 L 786.02,119.12 L 787.04,108.80 L 788.06,98.48 L 789.09,88.46 L 790.11,79.03 L 791.13,70.49 L 792.15,63.14 L 793.18,57.23 L 794.20,52.98 L 795.22,50.56 L 796.25,50.06 L 797.27,51.49 L 798.29,54.80 L 799.31,59.87 L 800.34,66.51 L 801.36,74.47 L 802.38,83.47 L 803.41,93.23 L 804.43,103.43 L 805.45,113.78 L 806.48,124.01 L 807.50,133.89 L 808.52,143.23 L 809.54,151.87 L 810.57,159.73 L 811.59,166.74 L 812.61,172.88 L 813.64,178.17 L 814.66,182.66 L 815.68,186.40 L 816.71,189.47 L 817.73,191.95 L 818.75,193.93 L 819.77,195.48 L 820.80,196.68 L 821.82,197.59 L 822.84,198.27 L 823.87,198.78 L 824.89,199.15 L 825.91,199.41 L 826.93,199.60 L 827.96,199.73 L 828.98,199.82 L 830.00,199.88 L 831.03,199.93 L 832.05,199.95 L 833.07,199.97 L 834.10,199.98 L 835.12,199.99 L 836.14,199.99 L 837.16,200.00 L 838.19,200.00 L 839.21,200.00 L 840.23,200.00 L 841.26,200.00 L 842.28,200.00 L 843.30,200.00 L 844.32,200.00 L 845.35,200.00 L 846.37,200.00 L 847.39,200.00 L 848.42,200.00 L 849.44,200.00 L 850.46,200.00 L 851.49,200.00 L 852.51,200.00 L 853.53,200.00 L 854.55,200.00 L 855.58,200.00 L 856.60,200.00 L 857.62,200.00 L 858.65,200.00 L 859.67,200.00 L 860.69,200.00 L 861.71,200.00 L 862.74,200.00 L 863.76,200.00 L 864.78,200.00 L 865.81,200.00 L 866.83,200.00 L 867.85,200.00 L 868.88,200.00 L 869.90,200.00 L 870.92,200.00 L 871.94,200.00 L 872.97,200.00 L 873.99,200.00 L 875.01,200.00 L 876.04,200.00 L 877.06,200.00 L 878.08,200.00 L 879.10,200.00 L 880.13,200.00 L 881.15,200.00 L 882.17,200.00 L 883.20,200.00 L 884.22,200.00 L 885.24,200.00 L 886.27,200.00 L 887.29,200.00 L 888.31,200.00 L 889.33,200.00 L 890.36,200.00 L 891.38,200.00 L 892.40,200.00 L 893.43,200.00 L 894.45,200.00 L 895.47,200.00 L 896.50,200.00 L 897.52,200.00 L 898.54,200.00 L 899.56,200.00 L 900.59,200.00 L 901.61,200.00 L 902.63,200.00 L 903.66,200.00 L 904.68,200.00 L 905.70,200.00 L 906.72,200.00 L 907.75,200.00 L 908.77,200.00 L 909.79,200.00 L 910.82,200.00 L 911.84,200.00 L 912.86,200.00 L 913.89,200.00 L 914.91,200.00 L 915.93,200.00 L 916.95,200.00 L 917.98,200.00 L 919.00,200.00 L 919.00,200.00 Z" fill="var(--good)" stroke="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="0.16"/>
+<path d="M 714.41,200.00 L 715.43,200.00 L 716.46,200.00 L 717.48,200.00 L 718.50,200.00 L 719.52,200.00 L 720.55,200.00 L 721.57,200.00 L 722.59,200.00 L 723.62,200.00 L 724.64,200.00 L 725.66,200.00 L 726.69,200.00 L 727.71,200.00 L 728.73,200.00 L 729.75,200.00 L 730.78,200.00 L 731.80,200.00 L 732.82,200.00 L 733.85,200.00 L 734.87,200.00 L 735.89,200.00 L 736.91,200.00 L 737.94,200.00 L 738.96,200.00 L 739.98,200.00 L 741.01,200.00 L 742.03,200.00 L 743.05,200.00 L 744.08,200.00 L 745.10,200.00 L 746.12,200.00 L 747.14,200.00 L 748.17,200.00 L 749.19,200.00 L 750.21,200.00 L 751.24,200.00 L 752.26,200.00 L 753.28,200.00 L 754.31,200.00 L 755.33,199.99 L 756.35,199.99 L 757.37,199.99 L 758.40,199.98 L 759.42,199.96 L 760.44,199.94 L 761.47,199.91 L 762.49,199.86 L 763.51,199.78 L 764.53,199.68 L 765.56,199.52 L 766.58,199.30 L 767.60,198.99 L 768.63,198.56 L 769.65,197.97 L 770.67,197.18 L 771.70,196.14 L 772.72,194.78 L 773.74,193.04 L 774.76,190.83 L 775.79,188.07 L 776.81,184.69 L 777.83,180.60 L 778.86,175.73 L 779.88,170.03 L 780.90,163.47 L 781.92,156.05 L 782.95,147.81 L 783.97,138.81 L 784.99,129.19 L 786.02,119.12 L 787.04,108.80 L 788.06,98.48 L 789.09,88.46 L 790.11,79.03 L 791.13,70.49 L 792.15,63.14 L 793.18,57.23 L 794.20,52.98 L 795.22,50.56 L 796.25,50.06 L 797.27,51.49 L 798.29,54.80 L 799.31,59.87 L 800.34,66.51 L 801.36,74.47 L 802.38,83.47 L 803.41,93.23 L 804.43,103.43 L 805.45,113.78 L 806.48,124.01 L 807.50,133.89 L 808.52,143.23 L 809.54,151.87 L 810.57,159.73 L 811.59,166.74 L 812.61,172.88 L 813.64,178.17 L 814.66,182.66 L 815.68,186.40 L 816.71,189.47 L 817.73,191.95 L 818.75,193.93 L 819.77,195.48 L 820.80,196.68 L 821.82,197.59 L 822.84,198.27 L 823.87,198.78 L 824.89,199.15 L 825.91,199.41 L 826.93,199.60 L 827.96,199.73 L 828.98,199.82 L 830.00,199.88 L 831.03,199.93 L 832.05,199.95 L 833.07,199.97 L 834.10,199.98 L 835.12,199.99 L 836.14,199.99 L 837.16,200.00 L 838.19,200.00 L 839.21,200.00 L 840.23,200.00 L 841.26,200.00 L 842.28,200.00 L 843.30,200.00 L 844.32,200.00 L 845.35,200.00 L 846.37,200.00 L 847.39,200.00 L 848.42,200.00 L 849.44,200.00 L 850.46,200.00 L 851.49,200.00 L 852.51,200.00 L 853.53,200.00 L 854.55,200.00 L 855.58,200.00 L 856.60,200.00 L 857.62,200.00 L 858.65,200.00 L 859.67,200.00 L 860.69,200.00 L 861.71,200.00 L 862.74,200.00 L 863.76,200.00 L 864.78,200.00 L 865.81,200.00 L 866.83,200.00 L 867.85,200.00 L 868.88,200.00 L 869.90,200.00 L 870.92,200.00 L 871.94,200.00 L 872.97,200.00 L 873.99,200.00 L 875.01,200.00 L 876.04,200.00 L 877.06,200.00 L 878.08,200.00 L 879.10,200.00 L 880.13,200.00 L 881.15,200.00 L 882.17,200.00 L 883.20,200.00 L 884.22,200.00 L 885.24,200.00 L 886.27,200.00 L 887.29,200.00 L 888.31,200.00 L 889.33,200.00 L 890.36,200.00 L 891.38,200.00 L 892.40,200.00 L 893.43,200.00 L 894.45,200.00 L 895.47,200.00 L 896.50,200.00 L 897.52,200.00 L 898.54,200.00 L 899.56,200.00 L 900.59,200.00 L 901.61,200.00 L 902.63,200.00 L 903.66,200.00 L 904.68,200.00 L 905.70,200.00 L 906.72,200.00 L 907.75,200.00 L 908.77,200.00 L 909.79,200.00 L 910.82,200.00 L 911.84,200.00 L 912.86,200.00 L 913.89,200.00 L 914.91,200.00 L 915.93,200.00 L 916.95,200.00 L 917.98,200.00 L 919.00,200.00" fill="none" stroke="var(--good)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" opacity="1.0"/>
+<line x1="714.0" y1="200.0" x2="927.0" y2="200.0" stroke="var(--muted)" stroke-width="1.2"/>
+<line x1="796.0" y1="200.0" x2="796.0" y2="44.0" stroke="var(--bad)" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="796.0" y="38.0" font-size="12" fill="var(--bad)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">&#956;</text>
+<text x="816.5" y="226.0" font-size="12" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">n = 30</text>
+<text x="816.5" y="243.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">SE = &#963;/&#8730;30 = 0.22</text>
+<text x="470.0" y="276.0" font-size="11.5" fill="var(--text)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Central limit theorem: whatever the shape of the population, the sampling distribution of the mean approaches normal as n grows, centres on &#956;, and</text>
+<text x="470.0" y="293.0" font-size="11.5" fill="var(--text)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">narrows by a factor of &#8730;n. n &#8805; 30 is the working rule of thumb.</text>
+</svg>
+<figcaption>The central limit theorem, the single result that lets you use z and t on non-normal data.</figcaption></figure>
+
+
+<h4>The central limit theorem, stated properly</h4>
+<div class="rule"><b>Central limit theorem (CLT).</b> As sample size n increases, the sampling distribution of the mean approaches a normal distribution with mean &mu; and standard deviation &sigma;/&radic;n, <b>regardless of the shape of the population distribution</b>. If the population is already normal, the sampling distribution is normal for any n. If it is not, n &ge; 30 is the conventional threshold at which the approximation is good enough.</div>
+
+<div class="focus"><b>Why the CLT is the most important theorem you will be asked about.</b> It is the licence to use z, t, F and every parametric test on real psychological data, which is almost never normally distributed. It says that the <i>non-normality of the raw scores stops mattering</i> once n is reasonable, because the tests are built on the sampling distribution of the mean, not on the raw scores.</div>
+
+<h4>Standard error: the two things to get right</h4>
+<ul class="tight">
+  <li><b>SE is a standard deviation</b>, specifically the SD of a sampling distribution. Every statistic has one: SE of the mean = s/&radic;n; SE of a proportion = &radic;(pq/n); SE of the difference between means = &radic;(s&#8321;&sup2;/n&#8321; + s&#8322;&sup2;/n&#8322;); SE of r &asymp; (1 &minus; r&sup2;)/&radic;(n &minus; 1); SE of measurement (in psychometrics) = s&radic;(1 &minus; r<sub>xx</sub>).</li>
+  <li><b>SE shrinks with &radic;n, not with n.</b> To halve the standard error you must <b>quadruple</b> the sample. This is the law of diminishing returns in sample-size planning, and it is a favourite exam item.</li>
+</ul>
+
+<div class="trap"><b>SD vs SE.</b> The <b>standard deviation</b> describes how spread out the individual scores are; it is a fact about your data and it does not shrink as you collect more. The <b>standard error</b> describes how much a sample statistic bounces around from sample to sample; it is a fact about your <i>estimate</i> and it does shrink as n grows. Report SD to describe the sample; report SE (or a confidence interval) to describe the precision of your estimate.</div>
+
+<h3>7.4 Estimation and confidence intervals</h3>
+
+<ul class="tight">
+  <li><b>Point estimate:</b> a single value offered as the estimate of a parameter (the sample mean estimates &mu;). Simple, but certainly wrong by some amount, and it carries no information about precision.</li>
+  <li><b>Interval estimate:</b> a range of values, with a stated confidence level, likely to contain the parameter. Always preferable.</li>
+  <li>A good estimator is <b>unbiased</b> (its expected value is the parameter), <b>consistent</b> (converges on the parameter as n grows), <b>efficient</b> (smallest standard error among unbiased estimators) and <b>sufficient</b> (uses all the information in the sample).</li>
+</ul>
+
+<div class="rule"><b>Confidence interval for a mean.</b><br>
+&sigma; known: <b>CI = M &plusmn; z<sub>crit</sub> (&sigma;/&radic;n)</b> &nbsp;·&nbsp; &sigma; unknown: <b>CI = M &plusmn; t<sub>crit</sub> (s/&radic;n)</b><br>
+95% CI uses z = 1.96 &nbsp;·&nbsp; 99% CI uses z = 2.58 &nbsp;·&nbsp; 90% CI uses z = 1.645<br>
+The quantity added and subtracted is the <b>margin of error</b>.</div>
+
+<h4>Worked example</h4>
+<p>M = 52, s = 12, n = 36. SE = 12/&radic;36 = 2.0. 95% CI = 52 &plusmn; 1.96(2.0) = 52 &plusmn; 3.92 = <b>48.08 to 55.92</b>. Because this interval does <b>not</b> contain 60, a null hypothesis that &mu; = 60 would be rejected at .05. That equivalence between confidence intervals and significance tests is worth stating in any answer.</p>
+
+<figure class="dia">
+<svg viewBox="0 0 760 320" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<line x1="380.0" y1="30.0" x2="380.0" y2="250.0" stroke="var(--bad)" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="380.0" y="24.0" font-size="11.5" fill="var(--bad)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">true population mean &#956; = 50</text>
+<line x1="263.7" y1="46.0" x2="468.5" y2="46.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="366.1" cy="46" r="2.4" fill="var(--accent)"/>
+<line x1="305.4" y1="56.0" x2="510.2" y2="56.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="407.8" cy="56" r="2.4" fill="var(--accent)"/>
+<line x1="265.3" y1="66.0" x2="470.1" y2="66.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="367.7" cy="66" r="2.4" fill="var(--accent)"/>
+<line x1="260.5" y1="76.0" x2="465.3" y2="76.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="362.9" cy="76" r="2.4" fill="var(--accent)"/>
+<line x1="227.0" y1="86.0" x2="431.8" y2="86.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="329.4" cy="86" r="2.4" fill="var(--accent)"/>
+<line x1="266.0" y1="96.0" x2="470.8" y2="96.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="368.4" cy="96" r="2.4" fill="var(--accent)"/>
+<line x1="338.1" y1="106.0" x2="542.9" y2="106.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="440.5" cy="106" r="2.4" fill="var(--accent)"/>
+<line x1="300.7" y1="116.0" x2="505.5" y2="116.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="403.1" cy="116" r="2.4" fill="var(--accent)"/>
+<line x1="334.0" y1="126.0" x2="538.8" y2="126.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="436.4" cy="126" r="2.4" fill="var(--accent)"/>
+<line x1="291.1" y1="136.0" x2="495.9" y2="136.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="393.5" cy="136" r="2.4" fill="var(--accent)"/>
+<line x1="299.1" y1="146.0" x2="503.9" y2="146.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="401.5" cy="146" r="2.4" fill="var(--accent)"/>
+<line x1="287.7" y1="156.0" x2="492.5" y2="156.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="390.1" cy="156" r="2.4" fill="var(--accent)"/>
+<line x1="187.0" y1="166.0" x2="391.8" y2="166.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="289.4" cy="166" r="2.4" fill="var(--accent)"/>
+<line x1="324.1" y1="176.0" x2="528.9" y2="176.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="426.5" cy="176" r="2.4" fill="var(--accent)"/>
+<line x1="305.1" y1="186.0" x2="509.9" y2="186.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="407.5" cy="186" r="2.4" fill="var(--accent)"/>
+<line x1="304.7" y1="196.0" x2="509.5" y2="196.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="407.1" cy="196" r="2.4" fill="var(--accent)"/>
+<line x1="185.6" y1="206.0" x2="390.4" y2="206.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="288.0" cy="206" r="2.4" fill="var(--accent)"/>
+<line x1="182.7" y1="216.0" x2="387.5" y2="216.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="285.1" cy="216" r="2.4" fill="var(--accent)"/>
+<line x1="229.2" y1="226.0" x2="434.0" y2="226.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="331.6" cy="226" r="2.4" fill="var(--accent)"/>
+<line x1="252.1" y1="236.0" x2="456.9" y2="236.0" stroke="var(--accent)" stroke-width="2.2"/>
+<circle cx="354.5" cy="236" r="2.4" fill="var(--accent)"/>
+<text x="380.0" y="266.0" font-size="11.5" fill="var(--text)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">Twenty 95% confidence intervals from twenty samples. On average 19 of 20 capture &#956;; one misses.</text>
+<text x="380.0" y="284.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">The interval is random, &#956; is fixed. "95% confident" describes the procedure over repeated sampling, not the probability that</text>
+<text x="380.0" y="301.0" font-size="11" fill="var(--muted)" text-anchor="middle" font-weight="normal" font-family="var(--sans),system-ui,sans-serif">this one interval is right.</text>
+</svg>
+<figcaption>What a 95% confidence interval actually means.</figcaption></figure>
+
+
+<div class="trap"><b>The interpretation trap.</b> A 95% confidence interval does <b>not</b> mean "there is a 95% probability that &mu; lies in this interval". &mu; is a fixed constant; it is either in the interval or it is not. The correct statement is: <b>if we repeated this sampling procedure many times, 95% of the intervals so constructed would contain &mu;.</b> The confidence is in the procedure, not in this one interval.</div>
+
+<div class="rule"><b>The three things that widen a confidence interval:</b> a higher confidence level (99% is wider than 95%), a larger standard deviation, and a smaller sample. There is a permanent trade-off between confidence and precision: you can be more certain, or you can be more specific, but not both at once with fixed n.</div>
+
+<div class="recap">Recap of sections 5 to 7: skew is asymmetry (named for the tail; mean drags furthest into it; Mo &lt; Md &lt; M for positive) and kurtosis is peakedness (lepto tall, meso normal, platy flat). The normal curve is defined by &mu; and &sigma;, holds 68 / 95 / 99.7 percent within 1, 2 and 3 SD, and exactly 95% within &plusmn;1.96 SD. z scores standardise without normalising, and every derived score (T, IQ, stanine, sten) is a linear rescaling of z. Probability sampling makes sampling error calculable; stratified is the most precise, cluster the least. The sampling distribution of the mean has mean &mu;, SD equal to &sigma;/&radic;n (the standard error) and, by the central limit theorem, a normal shape once n is about 30, whatever the population looked like. Confidence intervals wrap that standard error around the sample mean.</div>
+</div>

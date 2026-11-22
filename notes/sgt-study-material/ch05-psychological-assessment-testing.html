@@ -1,0 +1,470 @@
+<div class="nfe-article nb">
+<p>A psychological test is a standardized sample of behaviour. Two words in that sentence do all the work. <b>Sample</b> means we never measure the whole of a person; we measure a slice and infer the rest. <b>Standardized</b> means the slice is taken the same way every time: same items, same instructions, same scoring, same comparison group. If either word fails, the number the test spits out is meaningless. This chapter builds the machinery that lets us trust a test score, then walks through the actual instruments a clinical psychologist in India uses, and closes on who is legally allowed to use them.</p>
+
+<h3>5.1 Psychometric foundations: reliability</h3>
+
+<p>Reliability asks one question: <b>if I measured again, would I get the same answer?</b> A bathroom scale that reads 60&nbsp;kg, then 64&nbsp;kg, then 58&nbsp;kg for the same person in one minute is unreliable. It is not that the readings are wrong in any deep sense; they are simply <em>inconsistent</em>, and inconsistency alone makes a test useless. Reliability is quantified as a correlation coefficient running from 0 to 1; for a clinical test we usually want it above 0.80, and for high-stakes decisions above 0.90.</p>
+
+<p>There are several kinds of reliability because there are several sources of inconsistency, and each method isolates one source.</p>
+
+<ul class="tight">
+<li><b>Test&ndash;retest reliability.</b> Give the same test to the same people twice, some weeks apart, and correlate the two sets of scores. This isolates instability over <em>time</em>. Its enemy is the <span class="eg">carry-over effect</span>: people remember their earlier answers, or genuinely change between sittings. Best suited to stable traits (intelligence), poorly suited to fluctuating states (mood).</li>
+<li><b>Split-half reliability.</b> Split the test into two halves (usually odd items versus even items), score each half, and correlate them. This isolates <em>internal consistency</em>: do the items hang together? Because a half-test is shorter and shorter tests are less reliable, the raw correlation is corrected upward with the Spearman&ndash;Brown formula.</li>
+<li><b>Cronbach's alpha.</b> Devised by Lee Cronbach, alpha is the average of <em>all possible</em> split-halves at once. It is the standard modern index of internal consistency for a scale with many items scored on a range (like a Likert questionnaire). High alpha means the items are measuring one common thing.</li>
+<li><b>Inter-rater (inter-scorer) reliability.</b> Do two independent examiners, watching the same performance, give the same score? This isolates <em>examiner subjectivity</em>. It matters enormously for tests where scoring involves judgement, such as the Rorschach or a projective drawing, and much less for a machine-scored multiple-choice test. Cohen's kappa is the usual index.</li>
+<li><b>Parallel (alternate) forms reliability.</b> Build two equivalent versions of the test and correlate them; this isolates the accident of <em>which particular items</em> were chosen, and sidesteps memory effects that plague test&ndash;retest.</li>
+</ul>
+
+<div class="founder"><b>Who &rarr; what.</b> Lee Cronbach gave us <b>coefficient alpha</b> (1951), the single most-cited index of internal consistency in all of psychology.</div>
+
+<h3>5.2 Validity</h3>
+
+<p>Validity asks a completely different question: <b>does the test measure what it claims to measure?</b> A scale can be perfectly reliable and still invalid. My bathroom scale might read exactly 60&nbsp;kg every single time (perfectly reliable) while I actually weigh 70&nbsp;kg, because it is miscalibrated (invalid). Reliability is about consistency; validity is about truth.</p>
+
+<ul class="tight">
+<li><b>Content validity.</b> Do the items cover the whole domain they claim to? A depression scale that asks only about sadness but ignores sleep, appetite, and suicidal thought has poor content validity. Judged by expert review of the item pool, not by a statistic.</li>
+<li><b>Criterion validity.</b> Does the test agree with an external, real-world benchmark (the "criterion")? Two flavours by timing:
+  <ul class="tight">
+  <li><b>Concurrent validity</b> &ndash; test and criterion measured at the <em>same time</em>. <span class="eg">A new short depression screener is given alongside a full clinical interview today; do they agree today?</span></li>
+  <li><b>Predictive validity</b> &ndash; test now predicts a criterion <em>in the future</em>. <span class="eg">An entrance exam taken in June predicts first-year marks the following March.</span></li>
+  </ul>
+</li>
+<li><b>Construct validity (Lee Cronbach and Paul Meehl, 1955).</b> The deepest and most abstract kind. A "construct" is an unobservable theoretical entity (intelligence, anxiety, extraversion). Construct validity asks whether the test truly taps that entity, established by a web of evidence: <em>convergent</em> validity (it correlates with other measures of the same construct) and <em>discriminant</em> validity (it does <em>not</em> correlate with measures of unrelated constructs). An anxiety scale should correlate with other anxiety measures and should <em>not</em> correlate with, say, shoe size.</li>
+</ul>
+
+<div class="trap"><b>Trap.</b> Reliability and validity are constantly confused. Memorise the two arrows. <b>Reliability = consistency</b> (same answer on repetition). <b>Validity = accuracy</b> (the right answer). A test <em>must</em> be reliable to be valid (an erratic instrument can't be measuring anything real), but it <em>can</em> be reliable without being valid (a consistently miscalibrated scale). So reliability is <em>necessary but not sufficient</em> for validity. Reliability sets the ceiling: a test's validity can never exceed the square root of its reliability.</div>
+
+<h3>5.3 Standardization, norms, and error</h3>
+
+<p><b>Standardization</b> is the process of fixing the administration and scoring, and of building the yardstick against which any individual is compared. <b>Norms</b> are that yardstick: the distribution of scores obtained by a large, representative <em>standardization sample</em>. A raw score of 34 on a test means nothing by itself; it becomes meaningful only when we say "34 is at the 70th percentile for 25-year-old Indian graduates". This is why <em>Indian norms</em> matter so much (Section 5.5): a test normed on American children mislabels Indian children.</p>
+
+<div class="rule"><b>Key.</b> A raw score is mute. It speaks only after being placed against a <b>norm group</b>. Always ask: normed on whom?</div>
+
+<p>No measurement is perfect, so every observed score is the true score plus error: <b>Observed = True + Error</b>. The <b>standard error of measurement (SEM)</b> quantifies that error band. It lets us build a confidence interval around a score: an IQ of 100 with an SEM of 3 really means "true IQ is very likely between roughly 94 and 106". The SEM shrinks as reliability rises, tying the two foundations together: reliability tells us how much to trust the number, and the SEM turns that trust into a range.</p>
+
+<h3>5.4 Levels of measurement and types of scores</h3>
+
+<p>Before scoring, we must know what <em>kind</em> of number we hold. Stanley Smith Stevens' four levels, from least to most information, govern which statistics are even legal.</p>
+
+<table class="t">
+<thead><tr><th>Level</th><th>What it captures</th><th>Example</th><th>Legal statistics</th></tr></thead>
+<tbody>
+<tr><td>Nominal</td><td>Names / categories only; no order</td><td>Diagnosis code, gender, blood group</td><td>Mode, frequency, chi-square</td></tr>
+<tr><td>Ordinal</td><td>Rank order, but unequal gaps</td><td>Rank in a merit list, Likert "agree/disagree"</td><td>Median, percentile, rank correlation</td></tr>
+<tr><td>Interval</td><td>Equal gaps, but arbitrary zero</td><td>Temperature in &deg;C, IQ score, calendar year</td><td>Mean, SD, Pearson r</td></tr>
+<tr><td>Ratio</td><td>Equal gaps and a true zero</td><td>Reaction time, weight, number of errors</td><td>All, including ratios ("twice as fast")</td></tr>
+</tbody>
+</table>
+
+<div class="trap"><b>Trap.</b> IQ and most psychological test scores are <b>interval, not ratio</b>. There is no true zero of intelligence, so you cannot say an IQ of 140 is "twice as smart" as 70. That ratio statement requires a true zero, which only ratio scales have.</div>
+
+<p>Once we have a raw score we convert it into a <b>derived score</b> that locates the person in the norm group.</p>
+
+<ul class="tight">
+<li><b>Percentile rank.</b> The percentage of the norm group scoring at or below you. Intuitive but <em>ordinal</em>: the gap between the 50th and 55th percentile is tiny, while the gap between the 90th and 95th is large, because scores bunch in the middle.</li>
+<li><b>z-score.</b> How many standard deviations you are above or below the mean. Mean&nbsp;=&nbsp;0, SD&nbsp;=&nbsp;1. A z of +1.5 is one and a half SDs above average. The parent of all standard scores.</li>
+<li><b>T-score.</b> A rescaled z with mean&nbsp;=&nbsp;50 and SD&nbsp;=&nbsp;10, chosen to avoid negatives and decimals. Used on the MMPI (Starke Hathaway and J. Charnley McKinley, 1943) and many clinical scales; a T of 70 (two SDs up) is the usual clinical cut-off.</li>
+<li><b>Stanine.</b> "Standard nine": a 1&ndash;9 scale with mean&nbsp;=&nbsp;5 and SD&nbsp;=&nbsp;2. Coarse but simple.</li>
+<li><b>Deviation IQ.</b> A standard score with mean&nbsp;=&nbsp;100 and SD&nbsp;=&nbsp;15 (Wechsler) or 16 (Stanford&ndash;Binet). It has replaced the old ratio IQ (see 5.5).</li>
+</ul>
+
+<h3>5.5 Intelligence testing: the historical spine</h3>
+
+<div class="founder"><b>Who &rarr; what.</b> <b>Alfred Binet</b> and his collaborator <b>Theodore Simon</b>, commissioned by the French government in 1905 to identify schoolchildren needing special help, built the <b>first practical intelligence scale</b>. Their genius idea was <b>mental age</b>: a child who solves the tasks that an average 8-year-old solves has a mental age of 8, whatever the birthday says.</p></div>
+
+<p>The story moves in four leaps:</p>
+
+<ol class="steps">
+<li><b>Binet &amp; Simon (1905, Paris)</b> introduce mental age and an age-graded task ladder. Purely practical, atheoretical, aimed at placement.</li>
+<li><b>Lewis Terman (1916, Stanford University)</b> imports and re-standardizes the scale on American children as the <b>Stanford&ndash;Binet</b>, and popularises the <b>ratio IQ</b> (William Stern, 1912): IQ = (Mental Age &divide; Chronological Age) &times; 100. A 10-year-old with a mental age of 12 gets an IQ of 120.</li>
+<li><b>David Wechsler (from 1939, New York)</b> attacks the ratio IQ's fatal flaw (see trap) and replaces it with the <b>deviation IQ</b>, which simply asks how far you deviate from your <em>own age group</em>. He also splits intelligence into <em>verbal</em> and <em>performance</em> scales, so a non-English-speaker can still show ability. His family of tests dominates clinical practice today.</li>
+<li><b>John Raven (1938, London)</b> builds the <b>Progressive Matrices</b>, a pattern-completion test with no words at all, designed to be <b>culture-fair</b> and to tap Charles Spearman's <em>g</em> directly.</li>
+</ol>
+
+<div class="trap"><b>Trap.</b> The ratio IQ breaks down in adulthood. Mental age plateaus in the late teens while chronological age keeps climbing, so the ratio MA&divide;CA falls with every birthday and would make everyone look like they are losing intelligence. This is exactly why <b>Wechsler's deviation IQ</b> (comparison within one's own age band) replaced it, and why modern Stanford&ndash;Binet editions also use deviation IQ.</div>
+
+<h4>The major intelligence tests</h4>
+
+<table class="t">
+<thead><tr><th>Test</th><th>Author(s)</th><th>Age range</th><th>What it measures / note</th></tr></thead>
+<tbody>
+<tr><td>Binet&ndash;Simon Scale (1905)</td><td>Alfred Binet &amp; Theodore Simon</td><td>Children</td><td>First scale; introduced mental age</td></tr>
+<tr><td>Stanford&ndash;Binet</td><td>Lewis Terman</td><td>2 &ndash; adult</td><td>Ratio IQ (early), now deviation IQ (SD 16)</td></tr>
+<tr><td>WAIS (Adult)</td><td>David Wechsler</td><td>16 &ndash; 90</td><td>Verbal + Performance, deviation IQ (SD 15)</td></tr>
+<tr><td>WISC (Children)</td><td>David Wechsler</td><td>6 &ndash; 16</td><td>Child version of WAIS</td></tr>
+<tr><td>WPPSI (Preschool)</td><td>David Wechsler</td><td>2.5 &ndash; 7</td><td>Preschool &amp; primary version</td></tr>
+<tr><td>Raven's Progressive Matrices</td><td>John Raven</td><td>5 &ndash; adult</td><td>Non-verbal, culture-fair, taps <em>g</em></td></tr>
+</tbody>
+</table>
+
+<h4>Theories of intelligence (brief)</h4>
+
+<ul class="tight">
+<li><b>Charles Spearman</b> &ndash; <b>two-factor theory</b>: a general factor <em>g</em> underlies all mental performance, plus test-specific factors <em>s</em>. Raven's Matrices are the purest <em>g</em> test.</li>
+<li><b>Louis Thurstone</b> &ndash; rejected a single <em>g</em>; proposed <b>seven primary mental abilities</b> (verbal comprehension, word fluency, number, space, memory, perceptual speed, reasoning).</li>
+<li><b>Howard Gardner</b> &ndash; <b>multiple intelligences</b>: eight relatively independent intelligences (linguistic, logical-mathematical, spatial, musical, bodily-kinaesthetic, interpersonal, intrapersonal, naturalistic).</li>
+<li><b>Robert Sternberg</b> &ndash; <b>triarchic theory</b>: analytical, creative, and practical intelligence.</li>
+<li><b>Raymond Cattell</b> &ndash; <b>fluid vs crystallized</b> intelligence. Fluid (<em>Gf</em>) is on-the-spot reasoning in novel situations and declines with age; crystallized (<em>Gc</em>) is accumulated knowledge and holds or grows with age.</li>
+</ul>
+
+<h3>5.6 Indian intelligence adaptations</h3>
+
+<p>A Western test dropped unchanged into India fails twice: its <em>items</em> assume unfamiliar objects and its <em>norms</em> describe the wrong population. India's answer was two-pronged: build <em>performance</em> tests that lean on doing rather than on English, and re-standardize verbal scales on Indian samples.</p>
+
+<div class="founder"><b>Who &rarr; what.</b> <b>Chandra Mohan Bhatia</b> built <b>Bhatia's Battery of Performance Tests</b> (1955), the classic Indian performance battery, precisely so that illiterate and rural testees could be assessed without any reading.</div>
+
+<ul class="tight">
+<li><b>Bhatia's Battery of Performance Tests</b> (Chandra Mohan Bhatia, 1955). Five sub-tests: Koh's Block Design, Alexander's Pass-along, Pattern Drawing, Immediate Memory, and Picture Construction. Non-verbal, timed, suited to the illiterate; a workhorse in Indian clinics for age 11+.</li>
+<li><b>Malin's Intelligence Scale for Indian Children (MISIC)</b> &ndash; <b>Lalitha Malin</b>'s Indian adaptation of the WISC, with Verbal and Performance sub-tests and Indian norms; the most widely used individual child IQ test in India.</li>
+<li><b>Binet&ndash;Kamat Test of Intelligence</b> &ndash; V.&nbsp;V. Kamat's Indian adaptation of the Stanford&ndash;Binet (into Kannada and Marathi), yielding mental age and IQ for Indian children.</li>
+<li><b>Seguin Form Board Test</b> &ndash; Edouard Seguin's shape-fitting board, used in India as a quick non-verbal test of speed and eye-hand coordination and a rough screen for intellectual disability in young children.</li>
+<li><b>Draw-A-Man Test</b> &ndash; Florence Goodenough's drawing test, adapted for Indian children by <b>Pramila Pathak</b>; the child draws a person and the score reflects cognitive maturity through the detail of the drawing.</li>
+</ul>
+
+<div class="why"><b>Why.</b> Culture-fair and performance tests matter in India because a large share of testees are non-literate or speak a language the test was never written in. A verbal, English-normed test would confound <em>lack of schooling</em> with <em>lack of intelligence</em>, systematically mislabelling the poor and rural as impaired. Performance batteries (Bhatia, Seguin) and re-normed scales (MISIC, Binet&ndash;Kamat) remove that confound.</div>
+
+<h3>5.7 Personality assessment</h3>
+
+<p>Personality tests split into two philosophies. <b>Objective tests</b> use fixed items with fixed scoring (true/false, Likert); they are reliable and easy to score but transparent, so they can be faked. <b>Projective tests</b> present ambiguous stimuli on the theory that the person will "project" unconscious material onto them; they are rich and hard to fake but weak on reliability and validity.</p>
+
+<h4>Objective personality tests</h4>
+
+<ul class="tight">
+<li><b>MMPI (Minnesota Multiphasic Personality Inventory)</b> &ndash; <b>Starke Hathaway</b> &amp; <b>John McKinley</b>. The giant of clinical personality assessment: hundreds of true/false items yielding clinical scales (depression, paranoia, schizophrenia, etc.) plus built-in <em>validity scales</em> (L, F, K) that detect lying and faking. Empirically keyed: items were kept if they statistically separated patient groups, not on theory.</li>
+<li><b>16PF (Sixteen Personality Factor Questionnaire)</b> &ndash; <b>Raymond Cattell</b>, derived by factor analysis into sixteen source traits. A normal-range trait test.</li>
+<li><b>NEO-PI / Big Five</b> &ndash; <b>Paul Costa</b> &amp; <b>Robert McCrae</b>. Measures the five-factor model: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism (OCEAN). The dominant modern trait framework.</li>
+<li><b>Eysenck Personality Questionnaire (EPQ)</b> &ndash; <b>Hans Eysenck</b>. Three broad dimensions: Extraversion&ndash;Introversion, Neuroticism&ndash;Stability, and Psychoticism, grounded in biological theory.</li>
+</ul>
+
+<h4>Projective personality tests</h4>
+
+<ul class="tight">
+<li><b>Rorschach Inkblot Test</b> &ndash; <b>Hermann Rorschach</b> (1921). Ten symmetrical inkblots; the person says what each might be, and responses are coded for location, determinants (form, colour, movement), and content. Exner's Comprehensive System later standardized scoring.</li>
+<li><b>Thematic Apperception Test (TAT)</b> &ndash; <b>Henry Murray</b> &amp; <b>Christiana Morgan</b>. The person tells a story about ambiguous pictures of people; the stories reveal needs, drives, and conflicts (Murray's theory of needs).</li>
+<li><b>Sentence Completion Test</b> &ndash; the person finishes stems like "My greatest fear is&hellip;"; semi-structured, easier to score than the Rorschach (e.g. Rotter's Incomplete Sentences Blank).</li>
+<li><b>Draw-A-Person Test</b> &ndash; the person draws a human figure; features are interpreted for self-image and conflict (Machover). Also used as a rough cognitive screen in children.</li>
+<li><b>Indian TAT adaptation</b> &ndash; <b>Uma Chowdhury</b>'s Indian adaptation of the TAT, redrawing the cards with Indian figures, dress, and settings so the pictures actually resemble the testee's world.</li>
+</ul>
+
+<table class="t">
+<thead><tr><th>Test</th><th>Author(s)</th><th>Type</th><th>What it taps</th></tr></thead>
+<tbody>
+<tr><td>MMPI</td><td>Starke Hathaway &amp; John McKinley</td><td>Objective</td><td>Clinical psychopathology + validity scales</td></tr>
+<tr><td>16PF</td><td>Raymond Cattell</td><td>Objective</td><td>16 source traits (normal range)</td></tr>
+<tr><td>NEO-PI</td><td>Paul Costa &amp; Robert McCrae</td><td>Objective</td><td>Big Five (OCEAN)</td></tr>
+<tr><td>EPQ</td><td>Hans Eysenck</td><td>Objective</td><td>E, N, P dimensions</td></tr>
+<tr><td>Rorschach</td><td>Hermann Rorschach</td><td>Projective</td><td>Perception, thought process, conflict</td></tr>
+<tr><td>TAT</td><td>Henry Murray &amp; Christiana Morgan</td><td>Projective</td><td>Needs, drives, interpersonal themes</td></tr>
+<tr><td>Indian TAT</td><td>Uma Chowdhury</td><td>Projective</td><td>TAT with Indian cards</td></tr>
+</tbody>
+</table>
+
+<div class="trap"><b>Trap.</b> Do not muddle the two great objective inventories. The <b>MMPI</b> is a <em>clinical</em> instrument built to detect <em>psychopathology</em> by empirical keying; the <b>16PF</b> is a <em>normal-range trait</em> test built by <em>factor analysis</em>. Different purpose, different method. And the MMPI is <em>objective</em> despite its clinical use, while the Rorschach is <em>projective</em>: objective/projective is about item format, not about whether the test is clinical.</div>
+
+<h3>5.8 Neuropsychological and clinical rating scales</h3>
+
+<p>Neuropsychological tests infer the integrity of the brain from behaviour, most classically through <em>visuo-motor</em> tasks where organic damage shows up as distortion.</p>
+
+<ul class="tight">
+<li><b>Bender Visual-Motor Gestalt Test</b> (Lauretta Bender) &ndash; the person copies nine geometric designs; rotations, distortions, and integration errors screen for organic brain dysfunction and are also read developmentally in children.</li>
+<li><b>Luria&ndash;Nebraska Neuropsychological Battery</b> &ndash; a standardized battery based on Alexander Luria's clinical methods, surveying motor, tactile, visual, language, memory, and intellectual functions to localise deficits.</li>
+<li><b>PGI Battery</b> &ndash; the <b>Post Graduate Institute of Medical Education and Research (PGIMER), Chandigarh</b> developed Indian neuropsychological instruments, notably the PGI Memory Scale and PGI Battery of Brain Dysfunction (Dwarka Pershad and S. K. Verma), standardized on Indian samples.</li>
+</ul>
+
+<p>Symptom <b>rating scales</b> do not diagnose; they <em>quantify severity</em> so it can be tracked over treatment. Note who fills them in.</p>
+
+<table class="t">
+<thead><tr><th>Scale</th><th>Measures</th><th>Filled by</th></tr></thead>
+<tbody>
+<tr><td>Beck Depression Inventory (BDI)</td><td>Depression severity</td><td>Self-report (Aaron Beck)</td></tr>
+<tr><td>Beck Anxiety Inventory (BAI)</td><td>Anxiety severity</td><td>Self-report (Aaron Beck)</td></tr>
+<tr><td>Hamilton Depression Rating Scale (HAM-D)</td><td>Depression severity</td><td>Clinician-rated (Max Hamilton)</td></tr>
+<tr><td>Hamilton Anxiety Rating Scale (HAM-A)</td><td>Anxiety severity</td><td>Clinician-rated (Max Hamilton)</td></tr>
+<tr><td>Yale&ndash;Brown Obsessive Compulsive Scale (Y-BOCS)</td><td>OCD severity</td><td>Clinician-rated</td></tr>
+<tr><td>Mini-Mental State Examination (MMSE)</td><td>Cognitive impairment screen</td><td>Clinician-administered (Folstein)</td></tr>
+</tbody>
+</table>
+
+<div class="trap"><b>Trap.</b> The <b>Beck</b> scales are <em>self-report</em> (the patient rates themselves); the <b>Hamilton</b> scales are <em>clinician-rated</em> (the interviewer scores from observation). Papers love to swap these. Remember: Beck &rarr; patient's pen, Hamilton &rarr; clinician's pen.</div>
+
+<h3>5.9 Ethics of testing</h3>
+
+<p>A test is an act of power over a person's life, so its use is bound by ethics.</p>
+
+<ul class="tight">
+<li><b>Informed consent.</b> The testee (or guardian) must understand the purpose, procedure, and use of results and agree freely before testing.</li>
+<li><b>Competence.</b> A tester must use only tests they are trained and qualified to administer and interpret; using a test beyond one's training is malpractice.</li>
+<li><b>Test security.</b> Test items and manuals must be kept confidential. If items leak into the public domain, the test is compromised and its norms invalidated.</li>
+<li><b>Confidentiality.</b> Results are private and shared only with proper consent and on a need-to-know basis.</li>
+<li><b>Cultural fairness.</b> The test and its norms must fit the testee's language and culture; using an inappropriate norm group is itself an ethical failure (this is the ethical face of Section 5.6).</li>
+</ul>
+
+<div class="rule"><b>Key.</b> In India the <b>Rehabilitation Council of India (RCI)</b> regulates who may use clinical psychological tests. Only professionals holding an RCI-recognised qualification (the M.Phil in Clinical Psychology and RCI registration as a Clinical Psychologist) are legally entitled to independently administer and interpret clinical assessments. This is why the qualification matters so much: it is not a formality but a legal licence to test.</div>
+
+<div class="recap"><b>Recap.</b> Every test is a <em>standardized sample of behaviour</em> that is only trustworthy if it is <b>reliable</b> (consistent: test&ndash;retest, split-half, Cronbach's alpha, inter-rater) and <b>valid</b> (accurate: content, criterion [concurrent/predictive], construct) &ndash; reliability being necessary but not sufficient for validity. Raw scores mean nothing until placed against <b>norms</b> and expressed as derived scores (percentile, z, T, stanine, deviation IQ), with the <b>SEM</b> giving the error band; and the score's kind is fixed by its <b>level of measurement</b> (nominal &rarr; ordinal &rarr; interval &rarr; ratio, with IQ being interval). Intelligence testing runs <b>Binet &amp; Simon &rarr; Terman's Stanford&ndash;Binet (ratio IQ) &rarr; Wechsler (deviation IQ) &rarr; Raven (culture-fair)</b>, theorised by Charles Spearman, Thurstone, Howard Gardner, Robert Sternberg, and Raymond Cattell, and Indianised by <b>Bhatia, Malin (MISIC), Binet&ndash;Kamat, Seguin, and Pathak's Draw-A-Man</b>. Personality splits into <b>objective</b> (MMPI, 16PF, NEO-PI, EPQ) and <b>projective</b> (Rorschach, TAT with Chowdhury's Indian cards, Sentence Completion, Draw-A-Person); neuropsychology adds Bender-Gestalt, Luria&ndash;Nebraska, and the Indian PGI Battery; and severity is tracked with Beck (self-report) versus Hamilton (clinician-rated) scales, Y-BOCS, and the MMSE. All of it is bound by ethics &ndash; consent, competence, security, fairness &ndash; and, in India, by <b>RCI</b> regulation of who may test at all.</div>
+
+
+<h3>5.10 Test Construction and Item Analysis</h3>
+
+<p>A psychological test does not appear ready-made. It is engineered, piece by piece, through a disciplined sequence of steps that turn a fuzzy idea (&ldquo;let us measure test anxiety&rdquo;) into a finished instrument with a fixed set of items, a scoring key, and evidence that it works. This subsection opens the workshop and looks at how items are actually written, tried out, and kept or discarded.</p>
+
+<h4>The stages of building a test</h4>
+
+<p>Test construction is usually described as an ordered pipeline. Each stage feeds the next, and a weak early stage cannot be rescued by a strong later one.</p>
+
+<ol class="steps">
+<li><b>Define the construct and purpose.</b> State exactly what the test measures (for example, mathematical reasoning) and what decisions it will inform (selection, diagnosis, research).</li>
+<li><b>Write a test blueprint (test specification).</b> A plan, often laid out as a table, that fixes how many items will cover each content area and each level of thinking, so the finished test samples the domain in the intended proportions.</li>
+<li><b>Write the item pool.</b> Produce far more items than the final test needs, because many will be discarded during analysis.</li>
+<li><b>Expert and sensitivity review.</b> Subject-matter experts judge whether each item is accurate and on-target; a bias or sensitivity panel checks that items are fair across groups and free of offensive or culturally loaded content.</li>
+<li><b>Pilot testing (try-out).</b> Administer the draft items to a sample resembling the intended test takers, purely to gather data on how the items behave.</li>
+<li><b>Item analysis.</b> Compute statistics for every item and use them to keep, revise, or drop items.</li>
+<li><b>Assemble the final form, then standardize.</b> Select surviving items following the blueprint, then collect norms and reliability and validity evidence on a fresh sample.</li>
+</ol>
+
+<div class="rule"><b>Key.</b> Item analysis is the quality-control stage. It is done on pilot data, before the final form is fixed, and its whole job is to identify which items earn a place in the finished test.</div>
+
+<h4>Writing and reviewing items</h4>
+
+<p>Good items follow craft rules: one idea per item, plain unambiguous language, no unintended clues, distractors (the wrong options in a multiple-choice item) that are plausible to someone who does not know the answer, and no &ldquo;all of the above&rdquo; crutches. After drafting, items pass through <b>expert review</b> for content accuracy and through a <b>sensitivity review</b> for fairness before any statistics are gathered.</p>
+
+<h4>Item difficulty index (p)</h4>
+
+<p>The <b>item difficulty index</b>, written <b>p</b>, is simply the proportion of test takers who answer an item correctly. If 70 of 100 examinees get an item right, p = 0.70. Note the counter-intuitive naming: a <i>high</i> p means an <i>easy</i> item, and a <i>low</i> p means a <i>hard</i> item. For most purposes items around p = 0.50 are prized because they spread people out most; very easy (p near 1.0) and very hard (p near 0.0) items separate almost nobody.</p>
+
+<div class="trap"><b>Trap.</b> Do not read the difficulty index as &ldquo;how difficult.&rdquo; A large p value marks an EASY item, not a hard one. High p, easy; low p, hard.</div>
+
+<h4>Item discrimination index (D)</h4>
+
+<p>The <b>item discrimination index</b>, written <b>D</b>, asks a different question: does this item separate the people who did well on the whole test from those who did poorly? A common method compares an upper group (say the top 27 percent of total scores) with a lower group (the bottom 27 percent). D is the proportion correct in the upper group minus the proportion correct in the lower group. D ranges from &minus;1 to +1. A high positive D means the strong examinees pass it and the weak ones fail it, which is exactly what a good item should do. A D near zero means the item does not distinguish, and a <i>negative</i> D is a warning sign: weaker examinees are passing an item that stronger ones miss, often signalling a mis-keyed or misleading item.</p>
+
+<table class="t">
+<thead><tr><th>Index</th><th>What it answers</th><th>Formula in words</th><th>Good value</th></tr></thead>
+<tbody>
+<tr><td>Difficulty (p)</td><td>How many got it right?</td><td>Proportion correct</td><td>Around 0.50 (spreads people)</td></tr>
+<tr><td>Discrimination (D)</td><td>Does it separate strong from weak?</td><td>Upper-group p minus lower-group p</td><td>High positive (0.30 or above)</td></tr>
+<tr><td>Item-total correlation</td><td>Does it agree with the whole test?</td><td>Correlation of item with total score</td><td>Positive and sizeable</td></tr>
+</tbody>
+</table>
+
+<div class="trap"><b>Trap.</b> Difficulty and discrimination are different things. An item can be easy yet still discriminate, or moderate in difficulty yet discriminate poorly. Never treat p and D as the same number.</div>
+
+<h4>Item-total correlation</h4>
+
+<p>The <b>item-total correlation</b> is the correlation between how examinees score on a single item and their total score on the test. It is a continuous cousin of the discrimination index and is often reported as the <b>point-biserial correlation</b> for right-or-wrong items. A positive, healthy item-total correlation means the item pulls in the same direction as the test as a whole, which supports internal consistency. Items with near-zero or negative item-total correlations are candidates for removal.</p>
+
+<h4>Distractor analysis</h4>
+
+<p>For multiple-choice items, <b>distractor analysis</b> inspects each wrong option separately. A good distractor is chosen by some lower-group examinees but by few upper-group examinees. A distractor that <i>nobody</i> picks is dead weight and could be replaced; a distractor that the <i>upper</i> group picks more than the lower group may be misleading or the key may be wrong. <span class="eg">Example: if the top scorers keep choosing option (c) while (b) is keyed correct, the writer re-examines whether (c) is defensibly also correct.</span></p>
+
+<h4>Item response theory: a plain-language introduction</h4>
+
+<p><b>Item response theory (IRT)</b> is a modern framework that models the relationship between a person&rsquo;s underlying ability (called <b>theta</b>) and the probability of answering a particular item correctly. The classical indices above (p and D) depend on the sample used, whereas IRT tries to describe item properties in a way that is more independent of the particular group tested.</p>
+
+<p>The centrepiece is the <b>item characteristic curve (ICC)</b>, an S-shaped (ogive) curve. The horizontal axis is ability; the vertical axis is the probability of a correct response. As ability rises, the probability of getting the item right climbs from low to high. Two features of the curve carry meaning: the point along the ability axis where the curve is steepest reflects the item&rsquo;s <b>difficulty</b> (harder items sit further to the right), and the <b>steepness</b> of the curve reflects the item&rsquo;s <b>discrimination</b> (steeper curves separate ability levels more sharply). More elaborate IRT models also add a <b>guessing</b> parameter, the small floor probability that a low-ability examinee gets a multiple-choice item right by chance.</p>
+
+<div class="why"><b>Why.</b> IRT underlies computer-adaptive testing, where the computer picks the next item to match the ability estimate it has formed so far, delivering a precise score with fewer items than a fixed-length paper test.</div>
+
+<h4>The test blueprint (revisited) and cross-validation</h4>
+
+<p>The <b>test blueprint</b> deserves a second mention because it governs which surviving items are chosen for the final form. It is a two-way table crossing content areas with cognitive levels, with a target number of items in each cell, ensuring the finished test represents the domain in the right proportions rather than over-sampling whatever was easiest to write.</p>
+
+<p>Finally, statistics computed on the very sample used to build a test tend to look flatteringly good because the selection has capitalized on chance features of that sample. <b>Cross-validation</b> checks the test on a fresh, independent sample. The usual finding is <b>shrinkage</b>: the validity coefficient drops when the test meets new data, because the sample-specific luck does not repeat. A test that holds up under cross-validation, with little shrinkage, is trustworthy; one whose numbers collapse was partly an illusion of the original sample.</p>
+
+<div class="rule"><b>Key.</b> Always cross-validate. Expect some shrinkage. A validity that survives a new sample is real; one that vanishes was overfitting to the build sample.</div>
+
+<h3>5.11 Projective Techniques in Depth</h3>
+
+<h4>The projective hypothesis</h4>
+
+<p>The <b>projective hypothesis</b> is the founding idea behind an entire family of tests: when a person is shown an ambiguous, unstructured stimulus and asked to make sense of it, the structure they impose comes from within, revealing their own needs, conflicts, feelings, and ways of organizing experience. Because the stimulus is vague, there is no obviously correct answer, so the person &ldquo;projects&rdquo; personal material onto it. Projective techniques deliberately hide their purpose, which makes them harder to fake than a straightforward questionnaire.</p>
+
+<div class="founder"><b>Who &rarr; what.</b> The distinction between objective and projective techniques, and the very term <b>projective methods</b>, was popularized by <b>Lawrence Frank</b> in 1939.</div>
+
+<h4>The Rorschach Inkblot Test</h4>
+
+<p>The <b>Rorschach Inkblot Test</b> presents ten cards, each bearing a symmetrical inkblot, some black-and-grey, some with colour. The examinee says what each blot might be, and the examiner records the response along with <i>where</i> on the blot it was seen (location), <i>what</i> features prompted it (determinants such as form, colour, movement, shading), and how conventional the content is. Scoring rests on these codes rather than on the storyline alone.</p>
+
+<div class="founder"><b>Who &rarr; what.</b> The Rorschach was created by <b>Hermann Rorschach</b>, a Swiss psychiatrist, published in 1921 in his work <i>Psychodiagnostik</i>.</div>
+
+<p>Because rival scoring systems multiplied over the decades, <b>John Exner</b> integrated the best-supported elements into the <b>Exner Comprehensive System</b>, which became the most widely taught scoring approach and gave the instrument far more standardization than it previously had.</p>
+
+<h4>The Thematic Apperception Test</h4>
+
+<p>The <b>Thematic Apperception Test (TAT)</b> uses cards showing people in ambiguous situations. The examinee tells a story for each: what led up to the scene, what is happening, what the characters are thinking and feeling, and how it turns out. The stories are read for recurring <b>needs</b> (the drives of the hero) and <b>press</b> (the forces of the environment), following the personality theory of its author.</p>
+
+<div class="founder"><b>Who &rarr; what.</b> The TAT was developed at Harvard by <b>Henry Murray</b> and <b>Christiana Morgan</b> in the 1930s, tied to Murray&rsquo;s theory of needs.</div>
+
+<h4>The Children&rsquo;s Apperception Test</h4>
+
+<div class="founder"><b>Who &rarr; what.</b> The <b>Children&rsquo;s Apperception Test (CAT)</b> was created by <b>Leopold Bellak</b> (with Sonya Sorel Bellak). Its cards show <i>animals</i> in human-like situations, on the assumption that young children relate more readily to animal figures.</div>
+
+<h4>Figure-drawing techniques</h4>
+
+<p>Figure-drawing tests ask the examinee to draw, then interpret features of the drawing as expressions of personality or, sometimes, developmental maturity. They are quick, need only paper and pencil, and are popular with children.</p>
+
+<div class="founder"><b>Who &rarr; what.</b> The <b>Draw-A-Person test</b> as a projective personality measure is associated with <b>Karen Machover</b>. (An earlier drawing test by Florence Goodenough used the human figure as an <i>intelligence</i> measure, a different purpose.)</div>
+
+<div class="founder"><b>Who &rarr; what.</b> The <b>House-Tree-Person test (HTP)</b>, in which the examinee draws a house, a tree, and a person, was devised by <b>John Buck</b>.</div>
+
+<h4>The Rosenzweig Picture-Frustration Study</h4>
+
+<div class="founder"><b>Who &rarr; what.</b> The <b>Rosenzweig Picture-Frustration Study (P-F Study)</b>, created by <b>Saul Rosenzweig</b>, presents cartoon scenes in which one figure frustrates another; the examinee supplies the frustrated figure&rsquo;s reply, which is scored for the direction of aggression (turned outward, inward, or avoided).</div>
+
+<h4>Sentence completion and word association</h4>
+
+<p><b>Sentence Completion Tests</b> give the examinee incomplete stems (for example, &ldquo;My greatest fear ...&rdquo;) to finish in their own words; the completions are read for attitudes and conflicts. A well-known version is the <b>Rotter Incomplete Sentences Blank</b> by <b>Julian Rotter</b>. These sit at the more structured, easier-to-score end of the projective family.</p>
+
+<div class="founder"><b>Who &rarr; what.</b> The <b>word-association method</b>, in which the examinee replies with the first word each stimulus word brings to mind and reaction time and unusual replies are noted, was developed as a clinical tool by <b>Carl Jung</b>, who used it to detect emotionally charged &ldquo;complexes.&rdquo;</div>
+
+<table class="t">
+<thead><tr><th>Projective test</th><th>Author(s)</th><th>Stimulus / task</th><th>Chiefly taps</th></tr></thead>
+<tbody>
+<tr><td>Rorschach Inkblot Test</td><td>Hermann Rorschach</td><td>Ten inkblots to interpret</td><td>Perception, thought organization</td></tr>
+<tr><td>Thematic Apperception Test</td><td>Henry Murray &amp; Christiana Morgan</td><td>Tell a story to picture cards</td><td>Needs, motives, conflicts</td></tr>
+<tr><td>Children&rsquo;s Apperception Test</td><td>Leopold Bellak</td><td>Stories to animal-scene cards</td><td>Children&rsquo;s conflicts, relationships</td></tr>
+<tr><td>Draw-A-Person</td><td>Karen Machover</td><td>Draw a human figure</td><td>Body image, personality signs</td></tr>
+<tr><td>House-Tree-Person</td><td>John Buck</td><td>Draw house, tree, person</td><td>Self, environment, relationships</td></tr>
+<tr><td>Picture-Frustration Study</td><td>Saul Rosenzweig</td><td>Reply for a frustrated figure</td><td>Direction of aggression</td></tr>
+<tr><td>Rotter Incomplete Sentences Blank</td><td>Julian Rotter</td><td>Finish sentence stems</td><td>Attitudes, adjustment</td></tr>
+<tr><td>Word Association</td><td>Carl Jung</td><td>First word to a stimulus word</td><td>Emotional complexes</td></tr>
+</tbody>
+</table>
+
+<h4>Strengths and criticisms</h4>
+
+<p><b>Strengths:</b> projective techniques are hard to fake, can bypass a person&rsquo;s defences, open rich clinical material, and let the examinee respond freely rather than choose from fixed options.</p>
+
+<p><b>Criticisms:</b> their scoring is often subjective, so <b>inter-scorer and retest reliability tend to be low</b>; validity evidence is uneven; interpretation leans heavily on the examiner&rsquo;s skill; administration and scoring are time-consuming; and the stimuli and norms can be <b>culturally loaded</b>, so a response deemed unusual in one culture may be ordinary in another.</p>
+
+<div class="trap"><b>Trap.</b> Objective versus projective is about item <i>structure and scoring</i>, not about honesty. Objective tests (like the MMPI) have fixed response options and mechanical scoring; projective tests use ambiguous stimuli and interpretive scoring. &ldquo;Objective&rdquo; does not mean &ldquo;more truthful,&rdquo; only more standardized in format.</div>
+
+<h3>5.12 Aptitude, Interest, Achievement and Neuropsychological Batteries</h3>
+
+<h4>Aptitude tests</h4>
+
+<p>An <b>aptitude test</b> measures the <i>potential</i> to acquire a skill or succeed in some future training or job, that is, what a person could learn given the chance. This is the forward-looking cousin of the achievement test.</p>
+
+<div class="founder"><b>Who &rarr; what.</b> The <b>Differential Aptitude Tests (DAT)</b>, by <b>George Bennett, Harold Seashore, and Alexander Wesman</b>, yield separate scores for several aptitudes (verbal reasoning, numerical ability, abstract reasoning, mechanical reasoning, space relations, and more) and are widely used for educational and vocational guidance.</div>
+
+<div class="founder"><b>Who &rarr; what.</b> The <b>General Aptitude Test Battery (GATB)</b> was developed by the <b>United States Employment Service</b> for occupational counselling and selection, measuring a spread of aptitudes (such as general learning, verbal, numerical, spatial, and psychomotor abilities) in one battery.</div>
+
+<h4>Interest inventories</h4>
+
+<p>An <b>interest inventory</b> does not measure ability at all; it measures <i>preferences</i>, what a person likes and dislikes, and matches those patterns to occupations. It is a staple of career counselling.</p>
+
+<div class="founder"><b>Who &rarr; what.</b> The <b>Strong Interest Inventory</b>, originating with <b>Edward Strong</b>, compares a person&rsquo;s likes to those typical of people happily employed in various occupations.</div>
+
+<div class="founder"><b>Who &rarr; what.</b> The <b>Kuder Preference Record</b>, by <b>Frederic Kuder</b>, groups interests into broad areas (such as outdoor, mechanical, scientific, artistic, literary, social service, and clerical) and reports the relative strength of each.</div>
+
+<h4>Achievement tests</h4>
+
+<p>An <b>achievement test</b> measures what a person has <i>already learned</i>, the present level of knowledge or skill in a defined content area, typically after instruction. A school examination is the everyday example; standardized achievement batteries do the same with norms.</p>
+
+<div class="trap"><b>Trap.</b> Aptitude versus achievement is a matter of time direction, not test format. Achievement looks <i>backward</i> at what has been learned; aptitude looks <i>forward</i> at capacity to learn. The very same arithmetic item can serve either purpose depending on whether it is used to certify past learning or to predict future performance.</div>
+
+<h4>Neuropsychological batteries</h4>
+
+<p>A <b>neuropsychological battery</b> is a set of tests used to detect and describe cognitive impairment linked to brain dysfunction, mapping strengths and deficits across attention, memory, language, visuospatial skill, and executive function.</p>
+
+<div class="founder"><b>Who &rarr; what.</b> The <b>Halstead-Reitan Neuropsychological Battery</b>, built by <b>Ward Halstead</b> and extended by <b>Ralph Reitan</b>, is a fixed battery of tests (such as the Category Test and the Tactual Performance Test) used to detect and localize brain damage.</div>
+
+<div class="founder"><b>Who &rarr; what.</b> The <b>Luria-Nebraska Neuropsychological Battery</b>, developed by <b>Charles Golden</b> and colleagues from the clinical procedures of <b>Alexander Luria</b>, is a standardized battery organized around Luria&rsquo;s qualitative approach to brain function.</div>
+
+<div class="founder"><b>Who &rarr; what.</b> The <b>Bender Visual-Motor Gestalt Test</b>, by <b>Lauretta Bender</b>, asks the examinee to copy a set of geometric designs; distortions in the reproductions are read as signs of visuo-motor and perceptual difficulty, and it is used as a screen for neurological and developmental problems.</div>
+
+<p>In the Indian context, two instruments matter especially. The <b>PGI Memory Scale</b>, developed at the Postgraduate Institute of Medical Education and Research, Chandigarh (by Dwarka Pershad and N.N. Wig), is an Indian-standardized battery assessing several facets of memory. The <b>NIMHANS neuropsychological battery</b>, developed at the National Institute of Mental Health and Neurosciences, Bengaluru, is the widely used Indian-standardized battery that provides norms suited to the Indian population across attention, executive function, memory, and related domains.</p>
+
+<div class="why"><b>Why.</b> Norms built abroad can mislabel a healthy Indian examinee as impaired because of language, schooling, and cultural differences. Indian-standardized tools like the PGI Memory Scale and the NIMHANS battery exist precisely to give a fair local yardstick.</div>
+
+<div class="trap"><b>Trap.</b> The Bender-Gestalt is a visuo-motor and screening test, not a full neuropsychological battery on its own, and not a projective personality test, although it is sometimes borrowed for emotional-indicator interpretation. Keep its primary purpose (visuo-motor screening) clear.</div>
+
+<div class="recap"><b>Recap.</b> Tests are built through a pipeline (construct, blueprint, item pool, review, pilot, item analysis, standardization). Item analysis keeps good items using difficulty (p, proportion correct, high means easy), discrimination (D, upper minus lower group), item-total correlation, and distractor analysis; item response theory models ability against the probability of a correct answer via the item characteristic curve; cross-validation guards against shrinkage. Projective techniques rest on the projective hypothesis: Rorschach (Hermann Rorschach, scored via the Exner Comprehensive System), TAT (Henry Murray and Christiana Morgan), CAT (Leopold Bellak), Draw-A-Person (Karen Machover), House-Tree-Person (John Buck), the Rosenzweig Picture-Frustration Study, sentence completion (Julian Rotter), and word association (Carl Jung), all rich but weak on reliability and culturally loaded. Aptitude measures future potential (DAT; GATB), achievement measures past learning, interest inventories measure preferences (Strong; Kuder), and neuropsychological batteries (Halstead-Reitan, Luria-Nebraska, Bender-Gestalt, plus the Indian PGI Memory Scale and NIMHANS battery) map brain-related cognition.</div>
+
+
+<h3>5.13 The complete map: every major test and its author</h3>
+<p>This is the safety-net roster: the major psychological tests, scales, and batteries an aptitude paper may name, each tied to its author and a one-line note on what it measures. Learn the pairing (test, author, what it measures) and most "who devised this test" items answer themselves. Indian tests and adaptations are grouped last because entrance papers love them.</p>
+<div class="rule"><b>Key.</b> Read every row as three linked facts: the <b>test</b>, its <b>author(s)</b>, and the <b>construct it measures</b>. Full names are given first so you recognise the person however the question phrases it. Batteries (bundles of subtests) are flagged in the last column.</div>
+
+<h4>Family A: Intelligence and cognitive tests</h4>
+<table class="t">
+<thead><tr><th>#</th><th>Test / scale</th><th>Author(s)</th><th>What it measures</th></tr></thead>
+<tbody>
+<tr><td>1</td><td><b>Binet&ndash;Simon Scale</b></td><td><b>Alfred Binet &amp; Theodore Simon</b></td><td>First practical intelligence test (1905); mental age of school children.</td></tr>
+<tr><td>2</td><td><b>Stanford&ndash;Binet Intelligence Scale</b></td><td><b>Lewis Terman</b></td><td>US revision of Binet&ndash;Simon; introduced the IQ ratio (MA/CA &times; 100).</td></tr>
+<tr><td>3</td><td><b>Wechsler Adult Intelligence Scale (WAIS)</b></td><td><b>David Wechsler</b></td><td>Adult IQ via verbal and performance subtests; deviation IQ.</td></tr>
+<tr><td>4</td><td><b>Wechsler Intelligence Scale for Children (WISC)</b></td><td><b>David Wechsler</b></td><td>Intelligence in children (6 to 16 years).</td></tr>
+<tr><td>5</td><td><b>Wechsler Preschool and Primary Scale (WPPSI)</b></td><td><b>David Wechsler</b></td><td>Intelligence in preschool and early primary children.</td></tr>
+<tr><td>6</td><td><b>Raven's Progressive Matrices</b></td><td><b>John C. Raven</b></td><td>Nonverbal, culture-fair abstract reasoning (Charles Spearman's g).</td></tr>
+<tr><td>7</td><td><b>Kaufman Assessment Battery (K-ABC)</b></td><td><b>Alan Kaufman &amp; Nadeen Kaufman</b></td><td>Children's cognitive ability; sequential vs simultaneous processing (battery).</td></tr>
+<tr><td>8</td><td><b>Cognitive Assessment System (CAS)</b></td><td><b>J.P. Das &amp; Jack Naglieri</b></td><td>PASS theory: Planning, Attention, Simultaneous, Successive processing.</td></tr>
+<tr><td>9</td><td><b>Draw-A-Man Test</b></td><td><b>Florence Goodenough</b></td><td>Nonverbal intelligence in children from figure drawing (Goodenough&ndash;Harris revision).</td></tr>
+<tr><td>10</td><td><b>Seguin Form Board Test</b></td><td><b>Edouard Seguin</b></td><td>Speed and eye-hand coordination; performance intelligence in children.</td></tr>
+<tr><td>11</td><td><b>Wechsler Memory Scale (WMS)</b></td><td><b>David Wechsler</b></td><td>Verbal and visual memory, working memory, attention (battery).</td></tr>
+<tr><td>12</td><td><b>Differential Aptitude Test (DAT)</b></td><td><b>George Bennett, Harold Seashore &amp; Alexander Wesman</b></td><td>Multiple specific aptitudes for educational and vocational guidance.</td></tr>
+</tbody>
+</table>
+
+<h4>Family B: Personality inventories</h4>
+<table class="t">
+<thead><tr><th>#</th><th>Test / scale</th><th>Author(s)</th><th>What it measures</th></tr></thead>
+<tbody>
+<tr><td>13</td><td><b>Minnesota Multiphasic Personality Inventory (MMPI)</b></td><td><b>Starke Hathaway &amp; J.C. McKinley</b></td><td>Objective assessment of psychopathology; empirically keyed clinical scales.</td></tr>
+<tr><td>14</td><td><b>Sixteen Personality Factor Questionnaire (16PF)</b></td><td><b>Raymond Cattell</b></td><td>Sixteen source traits of normal personality (factor-analytic).</td></tr>
+<tr><td>15</td><td><b>Eysenck Personality Questionnaire (EPQ)</b></td><td><b>Hans Eysenck &amp; Sybil Eysenck</b></td><td>Extraversion, Neuroticism, Psychoticism (plus a Lie scale).</td></tr>
+<tr><td>16</td><td><b>NEO-PI-R (Big Five)</b></td><td><b>Paul Costa &amp; Robert McCrae</b></td><td>Five-factor model: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism.</td></tr>
+<tr><td>17</td><td><b>Myers&ndash;Briggs Type Indicator (MBTI)</b></td><td><b>Katharine Briggs &amp; Isabel Briggs Myers</b></td><td>Jungian type preferences across four dichotomies.</td></tr>
+<tr><td>18</td><td><b>California Psychological Inventory (CPI)</b></td><td><b>Harrison Gough</b></td><td>Normal personality traits for interpersonal and social functioning.</td></tr>
+</tbody>
+</table>
+
+<h4>Family C: Projective techniques</h4>
+<table class="t">
+<thead><tr><th>#</th><th>Test / scale</th><th>Author(s)</th><th>What it measures</th></tr></thead>
+<tbody>
+<tr><td>19</td><td><b>Rorschach Inkblot Test</b></td><td><b>Hermann Rorschach</b></td><td>Perception and personality dynamics from ten inkblots.</td></tr>
+<tr><td>20</td><td><b>Thematic Apperception Test (TAT)</b></td><td><b>Henry Murray &amp; Christiana Morgan</b></td><td>Needs, motives, and conflicts from stories told to ambiguous pictures.</td></tr>
+<tr><td>21</td><td><b>Children's Apperception Test (CAT)</b></td><td><b>Leopold Bellak &amp; Sonya Sorel Bellak</b></td><td>Apperception in children (3 to 10 years) using animal pictures.</td></tr>
+<tr><td>22</td><td><b>Rotter Incomplete Sentences Blank (RISB)</b></td><td><b>Julian Rotter &amp; Janet Rafferty</b></td><td>Personality and adjustment from completed sentence stems.</td></tr>
+<tr><td>23</td><td><b>Sacks Sentence Completion Test (SSCT)</b></td><td><b>Joseph Sacks &amp; Sidney Levy</b></td><td>Attitudes toward family, sex, relationships, and self via sentence completion.</td></tr>
+<tr><td>24</td><td><b>Draw-A-Person Test (projective)</b></td><td><b>Karen Machover</b></td><td>Body image and personality conflicts from human-figure drawing.</td></tr>
+<tr><td>25</td><td><b>House-Tree-Person Test (HTP)</b></td><td><b>John Buck</b></td><td>Personality, emotion, and interpersonal functioning from three drawings.</td></tr>
+</tbody>
+</table>
+
+<h4>Family D: Clinical rating scales and neuropsychology</h4>
+<table class="t">
+<thead><tr><th>#</th><th>Test / scale</th><th>Author(s)</th><th>What it measures</th></tr></thead>
+<tbody>
+<tr><td>26</td><td><b>Beck Depression Inventory (BDI)</b></td><td><b>Aaron Beck</b></td><td>Self-rated severity of depressive symptoms.</td></tr>
+<tr><td>27</td><td><b>Beck Anxiety Inventory (BAI)</b></td><td><b>Aaron Beck</b></td><td>Self-rated severity of anxiety symptoms.</td></tr>
+<tr><td>28</td><td><b>Hamilton Rating Scales (HAM-D, HAM-A)</b></td><td><b>Max Hamilton</b></td><td>Clinician-rated severity of depression and of anxiety.</td></tr>
+<tr><td>29</td><td><b>Yale&ndash;Brown Obsessive Compulsive Scale (Y-BOCS)</b></td><td><b>Wayne Goodman &amp; Steven Rasmussen</b></td><td>Clinician-rated severity of obsessions and compulsions in OCD.</td></tr>
+<tr><td>30</td><td><b>Mini-Mental State Examination (MMSE)</b></td><td><b>Marshal Folstein &amp; Susan Folstein</b></td><td>Brief bedside screen of global cognition and dementia.</td></tr>
+<tr><td>31</td><td><b>Positive and Negative Syndrome Scale (PANSS)</b></td><td><b>Stanley Kay, Abraham Fiszbein &amp; Lewis Opler</b></td><td>Positive, negative, and general symptom severity in schizophrenia.</td></tr>
+<tr><td>32</td><td><b>Brief Psychiatric Rating Scale (BPRS)</b></td><td><b>John Overall &amp; Donald Gorham</b></td><td>Clinician-rated overall psychiatric symptom severity.</td></tr>
+<tr><td>33</td><td><b>Bender Visual-Motor Gestalt Test</b></td><td><b>Lauretta Bender</b></td><td>Visual-motor integration; screen for organic brain impairment.</td></tr>
+<tr><td>34</td><td><b>Halstead&ndash;Reitan Neuropsychological Battery</b></td><td><b>Ward Halstead &amp; Ralph Reitan</b></td><td>Presence, location, and effects of brain damage (battery).</td></tr>
+<tr><td>35</td><td><b>Luria&ndash;Nebraska Neuropsychological Battery</b></td><td><b>Charles Golden (after Alexander Luria)</b></td><td>Standardised assessment of higher cortical functions (battery).</td></tr>
+<tr><td>36</td><td><b>Wisconsin Card Sorting Test (WCST)</b></td><td><b>David Grant &amp; Esta Berg</b></td><td>Executive function, abstract reasoning, and set-shifting (frontal lobe).</td></tr>
+</tbody>
+</table>
+
+<h4>Family E: Interest, aptitude, and Indian tests / adaptations</h4>
+<table class="t">
+<thead><tr><th>#</th><th>Test / scale</th><th>Author(s)</th><th>What it measures</th></tr></thead>
+<tbody>
+<tr><td>37</td><td><b>Strong Interest Inventory</b></td><td><b>Edward K. Strong</b></td><td>Vocational interests matched to occupational groups.</td></tr>
+<tr><td>38</td><td><b>Kuder Preference Record</b></td><td><b>Frederic Kuder</b></td><td>Interest in broad vocational activity areas (forced-choice).</td></tr>
+<tr><td>39</td><td><b>Bhatia's Battery of Performance Tests</b></td><td><b>Chandra Mohan Bhatia</b></td><td>Nonverbal performance intelligence for Indian populations (battery of five subtests).</td></tr>
+<tr><td>40</td><td><b>Malin's Intelligence Scale for Indian Children (MISIC)</b></td><td><b>Arthur J. Malin</b></td><td>Indian adaptation of WISC; verbal and performance IQ in children.</td></tr>
+<tr><td>41</td><td><b>NIMHANS Neuropsychological Battery</b></td><td><b>NIMHANS (Shobini Rao and colleagues)</b></td><td>Indian norm-referenced neuropsychological assessment across domains (battery).</td></tr>
+<tr><td>42</td><td><b>PGI Battery of Brain Dysfunction (PGI-BBD)</b></td><td><b>Dwarka Pershad &amp; Santosh Verma</b></td><td>Indian battery to detect and localise organic brain dysfunction (battery).</td></tr>
+<tr><td>43</td><td><b>Draw-A-Man Test (Indian adaptation)</b></td><td><b>Pramila Pathak</b></td><td>Indian standardisation of Goodenough's Draw-A-Man for children's intelligence.</td></tr>
+<tr><td>44</td><td><b>PGI Memory Scale</b></td><td><b>Dwarka Pershad &amp; N.N. Wig</b></td><td>Indian assessment of memory functions across ten subtests (battery).</td></tr>
+</tbody>
+</table>
+
+<div class="trap"><b>Trap.</b> Two "Draw-A-Person" tests exist: <b>Goodenough's Draw-A-Man</b> measures children's intelligence, whereas <b>Machover's Draw-A-Person</b> is a projective personality test; do not swap them. Likewise, the <b>Binet&ndash;Simon</b> scale is by Binet and Simon, but the <b>ratio IQ</b> formula and the <b>Stanford&ndash;Binet</b> belong to Lewis Terman. Wechsler gave his own name to WAIS, WISC, WPPSI, and the Memory Scale, so match the age band to the right one.</div>
+<div class="recap"><b>Recap.</b> Store each test as a triad (test, author, construct). Intelligence: Binet&ndash;Simon, Stanford&ndash;Binet (Terman), the Wechsler family, Raven's Matrices, K-ABC, CAS (Das and Naglieri). Personality inventories: MMPI, 16PF (Cattell), EPQ (Eysenck), NEO-PI-R (Costa and McCrae), MBTI. Projectives: Rorschach, TAT (Murray and Morgan), CAT, sentence-completion tests, Machover DAP, HTP. Clinical and neuropsych: Beck scales, Hamilton, Y-BOCS, MMSE (Folstein), PANSS, Bender-Gestalt, Halstead&ndash;Reitan, Luria&ndash;Nebraska, WCST. Indian: Bhatia's Battery, MISIC (Malin), NIMHANS and PGI batteries, Pathak's Draw-A-Man.</div>
+</div>

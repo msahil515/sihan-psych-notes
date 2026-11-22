@@ -1,0 +1,71 @@
+<div class="nfe-article nb">
+<p>A measure of central tendency is a single value that best represents the whole distribution: the point around which the scores cluster. There are three you must know cold, and two more worth naming.</p>
+
+<h3>3.1 The mean (arithmetic average)</h3>
+
+<p><b>Definition:</b> the sum of all scores divided by the number of scores. The balance point of the distribution.</p>
+
+<div class="rule"><b>Formulas.</b> Ungrouped sample mean: <b>M = &Sigma;X / n</b>. Population mean: <b>&mu; = &Sigma;X / N</b>. Grouped data: <b>M = &Sigma;fX&#7504; / N</b>, where X&#7504; is the midpoint of each interval and f its frequency. Assumed-mean (short) method: <b>M = A + (&Sigma;fd / N) &times; i</b>, where A is any assumed mean, d = (X&#7504; &minus; A)/i, and i is the class interval.</div>
+
+<h4>Worked example</h4>
+<p>Scores: 4, 7, 7, 9, 13. &Sigma;X = 40, n = 5, so <b>M = 40 / 5 = 8</b>.</p>
+
+<h4>The six mathematical properties of the mean (each one is an exam item)</h4>
+<ol class="steps">
+  <li><b>The sum of deviations about the mean is exactly zero:</b> &Sigma;(X &minus; M) = 0. This is what "balance point" means, and it is why you must square deviations to get a usable measure of spread.</li>
+  <li><b>The sum of squared deviations about the mean is a minimum:</b> &Sigma;(X &minus; M)&sup2; is smaller than &Sigma;(X &minus; any other value)&sup2;. This is the <b>least squares property</b>, and it is the reason regression, ANOVA and the variance are all built on the mean.</li>
+  <li><b>Adding a constant c to every score adds c to the mean.</b> Multiplying every score by c multiplies the mean by c.</li>
+  <li><b>The mean is affected by every single score</b>, so one extreme score moves it. It is <i>not</i> resistant.</li>
+  <li><b>The mean of a combined group</b> is the weighted mean: M&#7511; = (n&#8321;M&#8321; + n&#8322;M&#8322;) / (n&#8321; + n&#8322;).</li>
+  <li><b>The mean is the most reliable measure across repeated samples</b>, that is, it has the smallest standard error, which is why inferential statistics is built on it.</li>
+</ol>
+
+<div class="trap"><b>Trap:</b> the mean cannot be computed from an open-ended distribution ("60 and above"), because the top interval has no midpoint. In that situation you must use the median.</div>
+
+<h3>3.2 The median</h3>
+
+<p><b>Definition:</b> the value that divides the ordered distribution into two equal halves. The 50th percentile, the 2nd quartile, the 5th decile.</p>
+
+<div class="rule"><b>Formulas.</b> Ungrouped, n odd: the ((n+1)/2)th score. Ungrouped, n even: the mean of the (n/2)th and (n/2 + 1)th scores. Grouped: <b>Md = L + [(N/2 &minus; cf) / f] &times; i</b>, where L is the exact lower limit of the median class, cf the cumulative frequency below it, f the frequency of the median class and i the interval width.</div>
+
+<h4>Worked example</h4>
+<p>Scores 4, 7, 7, 9, 13 (n = 5, odd): the (5+1)/2 = 3rd score, so <b>Md = 7</b>. Add a sixth score of 40: ordered 4, 7, 7, 9, 13, 40; median = (7 + 9)/2 = <b>8</b>, while the mean jumps from 8 to 13.3. That single comparison is the whole argument for the median.</p>
+
+<h4>Properties</h4>
+<ul class="tight">
+  <li>The sum of <i>absolute</i> deviations from the median is a minimum: &Sigma;|X &minus; Md| is smaller than about any other point. (The mean minimises squared deviations; the median minimises absolute ones.)</li>
+  <li>It is a positional average, so it is <b>unaffected by extreme scores</b>: it is robust or resistant.</li>
+  <li>It can be computed for open-ended distributions and for ordinal data.</li>
+  <li>It cannot be manipulated algebraically the way the mean can, so it is not used in inferential statistics.</li>
+</ul>
+
+<h3>3.3 The mode</h3>
+
+<p><b>Definition:</b> the most frequently occurring score. The point of maximum density.</p>
+
+<div class="rule"><b>Grouped formula (crude vs. exact).</b> Crude mode = midpoint of the interval with the highest frequency. Exact (King's) formula: <b>Mo = L + [(f&#8321; &minus; f&#8320;) / (2f&#8321; &minus; f&#8320; &minus; f&#8322;)] &times; i</b>. Empirical relation for a moderately skewed distribution (Karl Pearson): <b>Mo = 3Md &minus; 2M</b>, equivalently <b>M &minus; Mo = 3(M &minus; Md)</b>.</div>
+
+<ul class="tight">
+  <li>A distribution can have no mode, one mode (<b>unimodal</b>), two (<b>bimodal</b>), or many (<b>multimodal</b>). A bimodal distribution usually means two different populations have been pooled, and that is a substantive finding, not a nuisance.</li>
+  <li>It is the <b>only</b> measure of central tendency usable with nominal data.</li>
+  <li>It is the least stable across samples and the least used inferentially.</li>
+  <li>A <b>rectangular</b> or uniform distribution has no mode at all.</li>
+</ul>
+
+<h3>3.4 Choosing between them</h3>
+
+<table class="t">
+<tr><th>Use the...</th><th>When</th><th>Because</th></tr>
+<tr><td><b>Mean</b></td><td>Data are interval or ratio, distribution roughly symmetrical, and you intend to do further statistics on it</td><td>Most reliable, uses all the data, algebraically tractable, required by t, ANOVA and regression</td></tr>
+<tr><td><b>Median</b></td><td>Distribution is skewed, there are outliers, the distribution is open-ended, or the data are ordinal</td><td>Resistant to extreme scores; still meaningful when the mean is misleading</td></tr>
+<tr><td><b>Mode</b></td><td>Data are nominal, or you specifically want the most typical or most common case</td><td>The only legal option at nominal level; identifies the actual peak</td></tr>
+</table>
+
+<div class="eg">Classic applied example: income. Income distributions are strongly positively skewed, so the mean income of a country is dragged up by a few very rich people, and the <b>median</b> income is the honest description of the typical person. Same logic for hospital length of stay, reaction times, and number of therapy sessions attended.</div>
+
+<h4>Two extra means worth naming</h4>
+<ul class="tight">
+  <li><b>Geometric mean:</b> the nth root of the product of n scores. Used for rates of change, growth rates and ratio data. GM &le; AM always.</li>
+  <li><b>Harmonic mean:</b> n divided by the sum of the reciprocals. Used for averaging rates and, in statistics, for computing the effective sample size in unequal-n ANOVA and post hoc tests. HM &le; GM &le; AM always.</li>
+</ul>
+</div>

@@ -1,0 +1,57 @@
+<div class="nfe-article nb">
+<p>Two distributions can have the same mean and be completely different. Central tendency without dispersion is half a description. Measures of dispersion (variability, scatter, spread) tell you how far the scores stray from the centre.</p>
+
+<h3>4.1 Range</h3>
+<p><b>R = highest score &minus; lowest score.</b> Simplest, crudest, and completely determined by the two most extreme scores, which are also the two least reliable ones. Unstable across samples. Useful only as a quick indication.</p>
+
+<h3>4.2 Quartile deviation (semi-interquartile range)</h3>
+<p><b>Q = (Q&#8323; &minus; Q&#8321;) / 2</b>, where Q&#8321; is the 25th percentile and Q&#8323; the 75th. The interquartile range (IQR) is Q&#8323; &minus; Q&#8321;; the quartile deviation is half of it. It covers the middle 50% of scores, so it is unaffected by extreme values. It is the <b>partner of the median</b>: report Md and Q together, always.</p>
+
+<h3>4.3 Average deviation (mean deviation)</h3>
+<p><b>AD = &Sigma;|X &minus; M| / N.</b> The average distance of scores from the mean, ignoring sign. Uses all scores, which is a step up from the range, but the absolute-value operator makes it algebraically useless, so it disappeared from inferential statistics. It is minimised when taken about the <i>median</i>, not the mean.</p>
+
+<h3>4.4 Variance and standard deviation</h3>
+
+<p><b>Definition:</b> the standard deviation is the root-mean-square deviation from the mean. It is, quite literally, the typical distance a score sits from the mean, in the original units. The variance is its square.</p>
+
+<div class="rule"><b>Formulas.</b><br>
+Population variance: <b>&sigma;&sup2; = &Sigma;(X &minus; &mu;)&sup2; / N</b> &nbsp;·&nbsp; population SD: <b>&sigma; = &radic;[&Sigma;(X &minus; &mu;)&sup2; / N]</b><br>
+Sample variance (unbiased estimate): <b>s&sup2; = &Sigma;(X &minus; M)&sup2; / (n &minus; 1)</b> &nbsp;·&nbsp; sample SD: <b>s = &radic;[&Sigma;(X &minus; M)&sup2; / (n &minus; 1)]</b><br>
+Computational (raw-score) form: <b>s&sup2; = [&Sigma;X&sup2; &minus; (&Sigma;X)&sup2;/n] / (n &minus; 1)</b><br>
+The numerator &Sigma;(X &minus; M)&sup2; has its own name: the <b>sum of squares (SS)</b>. Remember that, because the whole of ANOVA is bookkeeping about sums of squares.</div>
+
+<h4>Worked example</h4>
+<p>Scores 4, 7, 7, 9, 13; M = 8.<br>
+Deviations: &minus;4, &minus;1, &minus;1, +1, +5. (They sum to 0, as they must.)<br>
+Squared: 16, 1, 1, 1, 25. SS = 44.<br>
+s&sup2; = 44 / (5 &minus; 1) = <b>11.0</b> &nbsp;·&nbsp; s = &radic;11 = <b>3.32</b>.<br>
+If these five were the whole population: &sigma;&sup2; = 44/5 = 8.8, &sigma; = 2.97. Note that dividing by n gives a <i>smaller</i>, biased-downward answer.</p>
+
+<h3>4.5 Degrees of freedom: why n &minus; 1</h3>
+
+<div class="why"><b>The idea.</b> Degrees of freedom is the number of values in a calculation that are free to vary once the constraints are imposed. To compute the sample variance you must first compute M from the same data. That fixes one thing: the deviations must sum to zero. So if n = 5 and you know four of the deviations, the fifth is forced. Only 4 of the 5 are free. Hence df = n &minus; 1.<br><br>
+<b>The consequence.</b> Dividing SS by n gives a variance estimate that is systematically too small, because the sample mean is always closer to the sample's own scores than the population mean is. Dividing by n &minus; 1 corrects the downward bias, and is called <b>Bessel's correction</b>. It makes s&sup2; an <b>unbiased estimator</b> of &sigma;&sup2;.</div>
+
+<div class="rule"><b>Degrees of freedom for every test you will meet</b><br>
+One-sample t: df = n &minus; 1 &nbsp;·&nbsp; Independent t: df = n&#8321; + n&#8322; &minus; 2 &nbsp;·&nbsp; Paired t: df = n(pairs) &minus; 1<br>
+One-way ANOVA: df<sub>between</sub> = k &minus; 1, df<sub>within</sub> = N &minus; k, df<sub>total</sub> = N &minus; 1<br>
+Two-way ANOVA: df<sub>A</sub> = a &minus; 1, df<sub>B</sub> = b &minus; 1, df<sub>A&times;B</sub> = (a&minus;1)(b&minus;1), df<sub>within</sub> = N &minus; ab<br>
+Repeated measures: df<sub>treatment</sub> = k &minus; 1, df<sub>subjects</sub> = n &minus; 1, df<sub>error</sub> = (k&minus;1)(n&minus;1)<br>
+Pearson r significance: df = n &minus; 2 &nbsp;·&nbsp; Simple regression: df = n &minus; 2 &nbsp;·&nbsp; Multiple regression: df = n &minus; k &minus; 1<br>
+&chi;&sup2; goodness of fit: df = k &minus; 1 &nbsp;·&nbsp; &chi;&sup2; independence: df = (r &minus; 1)(c &minus; 1)<br>
+A general principle: <b>df = number of observations &minus; number of parameters you had to estimate from the data.</b></div>
+
+<h3>4.6 Coefficient of variation</h3>
+<p><b>CV = (s / M) &times; 100.</b> A relative, unit-free measure of dispersion, so it lets you compare the variability of two things measured in different units (heights in cm vs. weights in kg), or two groups with very different means. It requires a <b>ratio scale</b> with a meaningful zero, so it must not be used on IQ or on Celsius temperature.</p>
+
+<h3>4.7 Properties of the standard deviation</h3>
+<ol class="steps">
+  <li>Adding a constant to every score leaves the SD <b>unchanged</b> (the whole distribution shifts, the spread does not). Multiplying every score by c multiplies the SD by |c| and the variance by c&sup2;.</li>
+  <li>The SD is in the same units as the original scores; the variance is in squared units. That is why you report SD and analyse variance.</li>
+  <li>Variances add; standard deviations do not. This is the reason ANOVA partitions <i>variance</i>.</li>
+  <li>The SD is the most reliable measure of dispersion across repeated samples, and it is the one used in every inferential formula.</li>
+  <li>It is affected by every score, including extreme ones. On badly skewed data, report the quartile deviation with the median instead.</li>
+</ol>
+
+<div class="recap">Recap of sections 1 to 4: Stevens's four scales (nominal, ordinal, interval, ratio) determine which statistics are legal. A frequency distribution and its graphs (histogram, polygon, ogive, box plot) show you the shape. Central tendency locates it: the mean is the balance point and minimises squared deviations, the median is the 50th percentile and resists outliers, the mode is the peak and the only option at nominal level. Dispersion measures how wide it is: range, quartile deviation (partner of the median), average deviation, and the standard deviation (partner of the mean), whose squared numerator SS and denominator n &minus; 1 are the foundation of everything that follows.</div>
+</div>

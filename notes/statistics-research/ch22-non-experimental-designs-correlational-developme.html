@@ -1,0 +1,531 @@
+<div class="nfe-article nb">
+<p>In a <b>non-experimental</b> design the researcher manipulates nothing and assigns nobody. Variables are measured as they already exist, and the question is whether, how strongly and in what pattern they go together. Clinical psychology cannot do without these designs: age, sex, diagnosis, childhood trauma, poverty and brain injury cannot be assigned, and many things that could be assigned (neglect, substance use) must not be. Non-experimental designs describe, predict and generate hypotheses; they support a causal claim only through the slow accumulation of evidence described in 21.7.</p>
+
+<h3>21.1 Correlational designs</h3>
+
+<p>A <b>correlational design</b> measures two or more variables in the same people and quantifies how they covary, with r, regression or their relatives (sections 12 and 13). <span class="eg">Sleep quality and depressive symptoms are measured in 300 college students; r = &#8722;.45.</span> It can tell you that the variables are related, how strongly, in what direction and in what shape, and it allows <b>prediction</b>: knowing X improves your guess about Y. It cannot, on its own, tell you why, because of two problems (section 12.1).</p>
+<ul class="tight">
+  <li><b>The directionality problem</b> (reverse causation): does poor sleep cause depression, or depression cause poor sleep? A single correlation is symmetrical and cannot say.</li>
+  <li><b>The third-variable problem</b> (spurious correlation): a third variable may cause both. Heavy social media use and depression in adolescents may both be driven by loneliness or family conflict. Partial correlation (section 12.5) removes third variables you <i>measured</i>; it cannot remove the ones you did not.</li>
+</ul>
+
+<h4>The cross-lagged panel design</h4>
+<p>A partial answer to the directionality problem is to measure both variables on the same people at two (or more) times. <b>Donald T. Campbell and Julian C. Stanley</b> (1963) proposed the name "cross-lagged panel correlation", and Donald Pelz and Frank Andrews (1964) developed the same idea. Six correlations result: two <b>synchronous</b> (A and B at time 1; A and B at time 2), two <b>stabilities</b> or autocorrelations (A with itself, B with itself) and two <b>cross-lagged</b> correlations (A&#8321; with B&#8322;, B&#8321; with A&#8322;). The logic is temporal precedence: if A causes B, early A should predict later B better than early B predicts later A.</p>
+
+<figure class="dia">
+<svg viewBox="0 0 940 436" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<text x="260.0" y="40.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Time 1: age 8</text>
+<text x="680.0" y="40.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Time 2: age 18</text>
+<rect x="150.0" y="70.0" width="220.0" height="58.0" rx="9" fill="var(--accent)" fill-opacity="0.13" stroke="var(--accent)" stroke-width="1.8"/>
+<text x="260.0" y="105.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">TV violence (A&#8321;)</text>
+<rect x="570.0" y="70.0" width="220.0" height="58.0" rx="9" fill="var(--accent)" fill-opacity="0.13" stroke="var(--accent)" stroke-width="1.8"/>
+<text x="680.0" y="105.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">TV violence (A&#8322;)</text>
+<rect x="150.0" y="300.0" width="220.0" height="58.0" rx="9" fill="var(--bad)" fill-opacity="0.13" stroke="var(--bad)" stroke-width="1.8"/>
+<text x="260.0" y="335.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Aggression (B&#8321;)</text>
+<rect x="570.0" y="300.0" width="220.0" height="58.0" rx="9" fill="var(--bad)" fill-opacity="0.13" stroke="var(--bad)" stroke-width="1.8"/>
+<text x="680.0" y="335.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Aggression (B&#8322;)</text>
+<line x1="370.0" y1="99.0" x2="570.0" y2="99.0" stroke="var(--muted)" stroke-width="2"/>
+<text x="470.0" y="90.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">stability r = .05</text>
+<line x1="370.0" y1="329.0" x2="570.0" y2="329.0" stroke="var(--muted)" stroke-width="2"/>
+<text x="470.0" y="351.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">stability r = .40</text>
+<line x1="260.0" y1="128.0" x2="260.0" y2="300.0" stroke="var(--muted)" stroke-width="2"/>
+<text x="250.0" y="219.0" font-size="13.5" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">synchronous r = .20</text>
+<line x1="680.0" y1="128.0" x2="680.0" y2="300.0" stroke="var(--muted)" stroke-width="2"/>
+<text x="690.0" y="219.0" font-size="13.5" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">synchronous r = .05</text>
+<line x1="364.0" y1="128.0" x2="576.0" y2="300.0" stroke="#c2701a" stroke-width="4"/>
+<line x1="364.0" y1="300.0" x2="576.0" y2="128.0" stroke="var(--accent)" stroke-width="1.8" stroke-dasharray="7 5"/>
+<text x="548.0" y="266.0" font-size="15" fill="#c2701a" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">r(A&#8321;, B&#8322;) = .30</text>
+<text x="536.0" y="176.0" font-size="15" fill="var(--accent)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">r(B&#8321;, A&#8322;) = .02</text>
+<text x="470.0" y="398.0" font-size="14" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Logic: if A causes B, the lag from A to later B should exceed the lag from B to later A.</text>
+<text x="470.0" y="420.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">Here .30 &gt; .02, so the pattern favours TV violence &#8594; aggression. All values are illustrative.</text>
+</svg>
+<figcaption>A cross-lagged panel design: two variables measured on the same people at two times. The two diagonal (cross-lagged) correlations are compared; the synchronous and stability correlations are the context they must be read in.</figcaption></figure>
+
+<p>The classic application is <b>Leonard D. Eron, L. Rowell Huesmann, Monroe M. Lefkowitz and Leopold O. Walder</b> (1972), "Does television violence cause aggression?": in their Columbia County sample, boys' preference for violent television at about age 8 predicted their aggression ten years later better than early aggression predicted later viewing preference. The method has known weaknesses. David A. Kenny (1975) showed that unequal stabilities or changing reliabilities can by themselves make one cross-lag larger, and a third variable acting on both can still produce the pattern. Today panel data are analysed with cross-lagged panel <i>models</i> in structural equation modelling (section 13.6), which estimate each path while controlling for the stabilities.</p>
+
+<h3>21.2 Survey research</h3>
+
+<p><b>Fred N. Kerlinger</b>'s definition (<i>Foundations of Behavioral Research</i>, 1964) is the one examiners quote: survey research studies large and small populations by selecting and studying samples drawn from them, to discover the <b>relative incidence, distribution and interrelations</b> of sociological and psychological variables. Kerlinger classed surveys as non-experimental. So a survey can tell you how common something is (incidence, prevalence), how it is spread across groups (distribution) and what goes with what (interrelations), but <b>not the causal factors of an event</b>, which is the answer to "survey research does NOT ...". A <b>census</b> is a survey of the whole population; a <b>sample survey</b> studies a sample (section 7.2).</p>
+
+<table class="t">
+<tr><th>Type</th><th>Who is measured, and when</th><th>Example</th><th>Main problem</th></tr>
+<tr><td><b>Cross-sectional survey</b></td><td>One sample, one occasion</td><td>A prevalence survey of exam anxiety in Class 12 students</td><td>A snapshot: no change, no time order</td></tr>
+<tr><td><b>Trend study</b></td><td>Different samples from the same <i>population</i> at several times (repeated cross-sections)</td><td>The National Family Health Survey rounds (NFHS-1 to NFHS-5)</td><td>Shows population change, not individual change</td></tr>
+<tr><td><b>Cohort study</b> (survey sense)</td><td>Different samples from the same <i>cohort</i> (people born or entering in the same period) at several times</td><td>Samples of the 1990 birth cohort surveyed in 2010 and 2020</td><td>Change within a generation, but not within individuals</td></tr>
+<tr><td><b>Panel study</b></td><td>The <b>same individuals</b> at every wave</td><td>The same 2,000 students surveyed every year of college</td><td>Attrition and <b>panel conditioning</b> (being surveyed changes later answers)</td></tr>
+</table>
+
+<p>Surveys are collected face-to-face, by telephone, by post, or online, each mode trading cost against response rate, coverage and social desirability; the design of questionnaires, interviews and scales is in section 23. Whatever the mode, the two big threats are <b>coverage and non-response bias</b> (the people who answer differ from those who do not) and <b>self-report bias</b>.</p>
+
+<div class="focus"><b>Placing a typical M.Phil or MA dissertation.</b> A single online questionnaire (Google Forms, shared through WhatsApp and Instagram) given once to about 250 college students recruited by convenience and snowball sampling, measuring, say, social media use, loneliness and depressive symptoms, and analysed with Pearson correlations and a binary logistic regression predicting probable depression (PHQ-9 of 10 or more), is a <b>cross-sectional correlational survey design</b>: non-experimental, quantitative, one time point, non-probability sample. Say exactly that in a viva. Its honest limitations are the ones in this section: no temporal order and no causal inference (the odds ratios from the logistic regression, section 13.5, are adjusted <i>associations</i>, and "predict" means only statistical prediction); possible third variables; common-method variance because every measure is self-report on one occasion; and limited external validity because the sample is convenience-based and limited to people online.</div>
+
+<h3>21.3 Ex post facto (causal-comparative) research</h3>
+
+<p><i>Ex post facto</i> means "from after the fact". Kerlinger defined it as systematic empirical inquiry in which the scientist does not have direct control of the independent variables, because their manifestations have already occurred or because they are inherently not manipulable; inferences about relations are made, without direct intervention, from the concomitant variation of independent and dependent variables. In practice the researcher starts from groups that already differ on the IV and compares them on the DV, which is why it is also called <b>causal-comparative</b> research. <span class="eg">Adolescents who were bullied at school vs those who were not, compared on social anxiety; children of a parent with schizophrenia vs controls, compared on attention.</span></p>
+
+<div class="trap"><b>Why it is not an experiment, however carefully done.</b> There is no manipulation and no random assignment. The decisive problem is <b>self-selection</b>: people end up in the groups for reasons of their own, and those reasons may themselves cause the DV. People who practise yoga daily and report less anxiety may have chosen yoga because they were calmer, healthier or wealthier to begin with. Matching and ANCOVA can equate the groups on measured variables only; the rest of the selection differences remain. Reverse causation is also open (social anxiety may attract bullying). Survey research is ex post facto in this sense, which is exactly why it cannot isolate causes.</div>
+
+<h3>21.4 Developmental designs</h3>
+
+<p>Developmental questions are about change with <b>age</b>. The difficulty is that age never travels alone. Every observation has an <b>age</b>, a <b>cohort</b> (the generation, defined by year of birth) and a <b>time of measurement</b> (the year of testing, carrying that period's history), and the three are locked together: <b>age = time of measurement &#8722; year of birth</b>. Fix any two and the third is fixed, so a simple design can never separate all three.</p>
+
+<ul class="tight">
+  <li><b>Cross-sectional design:</b> different age groups tested at <b>one time</b>. Quick and cheap, no attrition or practice effects. But <b>age differences are confounded with cohort differences</b>: 70-year-olds and 30-year-olds tested in 2026 differ in schooling, nutrition and technology as well as in age, and it shows <b>age differences</b>, not age <i>changes</i> or individual trajectories. This is the answer to "a disadvantage of cross-sectional studies is ...".</li>
+  <li><b>Longitudinal design:</b> one cohort tested <b>repeatedly</b> as it ages. It shows real <b>age changes</b> and individual differences in change, and the order of events. But <b>age changes are confounded with time of measurement</b> (a change between 2010 and 2020 might come from the era, not from ageing), and it suffers <b>attrition</b> (selective drop-out, usually of the less healthy), <b>practice effects</b> from repeated testing, ageing instruments, cost, and results that arrive after a career. It describes one cohort only.</li>
+  <li><b>Time-lag design:</b> people of the <b>same age</b> tested at different times (18-year-olds in 2000, 2010 and 2020). Age is held constant; <b>cohort and time of measurement are confounded</b>. It answers questions like "are today's adolescents more anxious than earlier generations at the same age?"</li>
+</ul>
+
+<div class="founder"><b>K. Warner Schaie</b>, "A general model for the study of developmental problems" (<i>Psychological Bulletin</i>, 1965), set out the age-cohort-time model and three <b>sequential designs</b> that combine simple ones so that two of the three factors can be separated (with an assumption about the third):<br>
+<b>Cohort-sequential:</b> two or more cohorts followed longitudinally over the <b>same ages</b>; separates age and cohort, assuming no time-of-measurement effect.<br>
+<b>Time-sequential:</b> the <b>same age range</b> tested cross-sectionally at two or more times; separates age and time of measurement, assuming no cohort effect.<br>
+<b>Cross-sequential:</b> two or more cohorts tested at the <b>same times</b>; separates cohort and time of measurement, assuming no age effect.<br>
+Schaie's own <b>Seattle Longitudinal Study</b>, begun in 1956 as his doctoral work and repeated at seven-year intervals with new cohorts added, is the model sequential study. Earlier, Richard Q. Bell (1953) had proposed "convergence", an <b>accelerated longitudinal</b> design in which several cohorts are followed for a short span and the overlapping segments are joined into one long curve, which is the cohort-sequential idea.</div>
+
+<figure class="dia">
+<svg viewBox="0 0 940 714" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<text x="20.0" y="28.0" font-size="15.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">A  The cohort &#215; time grid: each cell is the age at testing</text>
+<text x="20.0" y="47.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">age = year of testing &#8722; year of birth</text>
+<text x="196.0" y="72.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">tested</text>
+<text x="196.0" y="88.0" font-size="14" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">2000</text>
+<text x="288.0" y="72.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">tested</text>
+<text x="288.0" y="88.0" font-size="14" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">2010</text>
+<text x="380.0" y="72.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">tested</text>
+<text x="380.0" y="88.0" font-size="14" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">2020</text>
+<text x="472.0" y="72.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">tested</text>
+<text x="472.0" y="88.0" font-size="14" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">2030</text>
+<text x="138.0" y="119.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">born</text>
+<text x="138.0" y="135.0" font-size="14" fill="var(--text)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">1950</text>
+<text x="138.0" y="171.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">born</text>
+<text x="138.0" y="187.0" font-size="14" fill="var(--text)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">1960</text>
+<text x="138.0" y="223.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">born</text>
+<text x="138.0" y="239.0" font-size="14" fill="var(--text)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">1970</text>
+<text x="138.0" y="275.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">born</text>
+<text x="138.0" y="291.0" font-size="14" fill="var(--text)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">1980</text>
+<rect x="150.0" y="96.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="242.0" y="96.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="334.0" y="96.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="426.0" y="96.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="150.0" y="148.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="242.0" y="148.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="334.0" y="148.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="426.0" y="148.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="150.0" y="200.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="242.0" y="200.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="334.0" y="200.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="426.0" y="200.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="150.0" y="252.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="242.0" y="252.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="334.0" y="252.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="426.0" y="252.0" width="92.0" height="52.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<rect x="339.0" y="100.0" width="82.0" height="200.0" rx="10" fill="var(--accent)" fill-opacity="0.16" stroke="var(--accent)" stroke-width="2.2"/>
+<rect x="154.0" y="153.0" width="360.0" height="42.0" rx="10" fill="var(--good)" fill-opacity="0.14" stroke="var(--good)" stroke-width="2.2"/>
+<path d="M 196.00,122.00 L 288.00,174.00 L 380.00,226.00 L 472.00,278.00" fill="none" stroke="#c2701a" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 5"/>
+<circle cx="196.0" cy="122.0" r="19" fill="#c2701a" fill-opacity="0.14" stroke="#c2701a" stroke-width="2.2"/>
+<circle cx="288.0" cy="174.0" r="19" fill="#c2701a" fill-opacity="0.14" stroke="#c2701a" stroke-width="2.2"/>
+<circle cx="380.0" cy="226.0" r="19" fill="#c2701a" fill-opacity="0.14" stroke="#c2701a" stroke-width="2.2"/>
+<circle cx="472.0" cy="278.0" r="19" fill="#c2701a" fill-opacity="0.14" stroke="#c2701a" stroke-width="2.2"/>
+<text x="196.0" y="128.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">50</text>
+<text x="288.0" y="128.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">60</text>
+<text x="380.0" y="128.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">70</text>
+<text x="472.0" y="128.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">80</text>
+<text x="196.0" y="180.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">40</text>
+<text x="288.0" y="180.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">50</text>
+<text x="380.0" y="180.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">60</text>
+<text x="472.0" y="180.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">70</text>
+<text x="196.0" y="232.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">30</text>
+<text x="288.0" y="232.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">40</text>
+<text x="380.0" y="232.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">50</text>
+<text x="472.0" y="232.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">60</text>
+<text x="196.0" y="284.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">20</text>
+<text x="288.0" y="284.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">30</text>
+<text x="380.0" y="284.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">40</text>
+<text x="472.0" y="284.0" font-size="16" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">50</text>
+<rect x="24.0" y="325.0" width="16.0" height="16.0" rx="3" fill="var(--accent)" fill-opacity="0.3" stroke="var(--accent)" stroke-width="1.6"/>
+<text x="46.0" y="338.0" font-size="13.5" fill="var(--accent)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">cross-sectional = a column</text>
+<rect x="252.0" y="325.0" width="16.0" height="16.0" rx="3" fill="var(--good)" fill-opacity="0.3" stroke="var(--good)" stroke-width="1.6"/>
+<text x="274.0" y="338.0" font-size="13.5" fill="var(--good)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">longitudinal = a row</text>
+<rect x="438.0" y="325.0" width="16.0" height="16.0" rx="3" fill="#c2701a" fill-opacity="0.3" stroke="#c2701a" stroke-width="1.6"/>
+<text x="460.0" y="338.0" font-size="13.5" fill="#c2701a" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">time-lag = a diagonal</text>
+<text x="24.0" y="362.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">Column 2020: ages 70, 60, 50, 40 from four cohorts.  Row 1960: ages 40 to 70 in one cohort.</text>
+<text x="24.0" y="380.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">Diagonal: everyone aged 50, born 1950 to 1980 and tested 2000 to 2030.</text>
+<line x1="748.0" y1="116.0" x2="626.0" y2="262.0" stroke="var(--accent)" stroke-width="4"/>
+<line x1="748.0" y1="116.0" x2="870.0" y2="262.0" stroke="var(--good)" stroke-width="4"/>
+<line x1="626.0" y1="262.0" x2="870.0" y2="262.0" stroke="#c2701a" stroke-width="4"/>
+<circle cx="748.0" cy="116.0" r="6" fill="var(--text)" stroke="none" stroke-width="1"/>
+<circle cx="626.0" cy="262.0" r="6" fill="var(--text)" stroke="none" stroke-width="1"/>
+<circle cx="870.0" cy="262.0" r="6" fill="var(--text)" stroke="none" stroke-width="1"/>
+<text x="748.0" y="102.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Age</text>
+<text x="626.0" y="286.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Cohort</text>
+<text x="870.0" y="286.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Time of</text>
+<text x="870.0" y="304.0" font-size="15" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">measurement</text>
+<text x="675.0" y="189.0" font-size="13.5" fill="var(--accent)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">cross-</text>
+<text x="675.0" y="206.0" font-size="13.5" fill="var(--accent)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">sectional</text>
+<text x="821.0" y="189.0" font-size="13.5" fill="var(--good)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">longi-</text>
+<text x="821.0" y="206.0" font-size="13.5" fill="var(--good)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">tudinal</text>
+<text x="748.0" y="252.0" font-size="13.5" fill="#c2701a" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">time-lag</text>
+<text x="748.0" y="34.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Each simple design confounds the</text>
+<text x="748.0" y="52.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">two factors on its edge and holds</text>
+<text x="748.0" y="70.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">the opposite corner constant</text>
+<line x1="20.0" y1="392.0" x2="920.0" y2="392.0" stroke="var(--border)" stroke-width="1.2"/>
+<text x="20.0" y="426.0" font-size="15.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">B  K. Warner Schaie's (1965) sequential designs: several simple designs combined</text>
+<text x="24.0" y="460.0" font-size="15" fill="#0f766e" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Cohort-sequential</text>
+<text x="24.0" y="479.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">several cohorts followed over the</text>
+<text x="24.0" y="496.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">same ages</text>
+<text x="99.0" y="520.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">2000</text>
+<text x="149.0" y="520.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">2010</text>
+<text x="199.0" y="520.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">2020</text>
+<text x="249.0" y="520.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">2030</text>
+<text x="66.0" y="547.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">1950</text>
+<rect x="74.0" y="528.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="99.0" y="547.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">50</text>
+<rect x="124.0" y="528.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="149.0" y="547.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">60</text>
+<rect x="174.0" y="528.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="199.0" y="547.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">70</text>
+<rect x="224.0" y="528.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="249.0" y="547.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">80</text>
+<text x="66.0" y="575.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">1960</text>
+<rect x="74.0" y="556.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="99.0" y="575.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">40</text>
+<rect x="124.0" y="556.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="149.0" y="575.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">50</text>
+<rect x="174.0" y="556.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="199.0" y="575.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">60</text>
+<rect x="224.0" y="556.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="249.0" y="575.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">70</text>
+<text x="66.0" y="603.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">1970</text>
+<rect x="74.0" y="584.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="99.0" y="603.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">30</text>
+<rect x="124.0" y="584.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="149.0" y="603.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">40</text>
+<rect x="174.0" y="584.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="199.0" y="603.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">50</text>
+<rect x="224.0" y="584.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="249.0" y="603.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">60</text>
+<text x="66.0" y="631.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">1980</text>
+<rect x="74.0" y="612.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="99.0" y="631.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">20</text>
+<rect x="124.0" y="612.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="149.0" y="631.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">30</text>
+<rect x="174.0" y="612.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="199.0" y="631.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">40</text>
+<rect x="224.0" y="612.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="249.0" y="631.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">50</text>
+<text x="24.0" y="666.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">separates age and cohort</text>
+<text x="24.0" y="685.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">assumes no time effect</text>
+<text x="330.0" y="460.0" font-size="15" fill="#0f766e" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Time-sequential</text>
+<text x="330.0" y="479.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">the same ages tested</text>
+<text x="330.0" y="496.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">in several years</text>
+<text x="405.0" y="520.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">2000</text>
+<text x="455.0" y="520.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">2010</text>
+<text x="505.0" y="520.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">2020</text>
+<text x="555.0" y="520.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">2030</text>
+<text x="372.0" y="547.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">1950</text>
+<rect x="380.0" y="528.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="405.0" y="547.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">50</text>
+<rect x="430.0" y="528.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="455.0" y="547.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">60</text>
+<rect x="480.0" y="528.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="505.0" y="547.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">70</text>
+<rect x="530.0" y="528.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="555.0" y="547.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">80</text>
+<text x="372.0" y="575.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">1960</text>
+<rect x="380.0" y="556.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="405.0" y="575.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">40</text>
+<rect x="430.0" y="556.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="455.0" y="575.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">50</text>
+<rect x="480.0" y="556.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="505.0" y="575.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">60</text>
+<rect x="530.0" y="556.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="555.0" y="575.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">70</text>
+<text x="372.0" y="603.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">1970</text>
+<rect x="380.0" y="584.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="405.0" y="603.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">30</text>
+<rect x="430.0" y="584.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="455.0" y="603.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">40</text>
+<rect x="480.0" y="584.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="505.0" y="603.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">50</text>
+<rect x="530.0" y="584.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="555.0" y="603.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">60</text>
+<text x="372.0" y="631.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">1980</text>
+<rect x="380.0" y="612.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="405.0" y="631.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">20</text>
+<rect x="430.0" y="612.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="455.0" y="631.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">30</text>
+<rect x="480.0" y="612.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="505.0" y="631.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">40</text>
+<rect x="530.0" y="612.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="555.0" y="631.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">50</text>
+<text x="330.0" y="666.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">separates age and time</text>
+<text x="330.0" y="685.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">assumes no cohort effect</text>
+<text x="636.0" y="460.0" font-size="15" fill="#0f766e" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Cross-sequential</text>
+<text x="636.0" y="479.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">several cohorts tested</text>
+<text x="636.0" y="496.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">in the same years</text>
+<text x="711.0" y="520.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">2000</text>
+<text x="761.0" y="520.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">2010</text>
+<text x="811.0" y="520.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">2020</text>
+<text x="861.0" y="520.0" font-size="13" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">2030</text>
+<text x="678.0" y="547.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">1950</text>
+<rect x="686.0" y="528.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="711.0" y="547.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">50</text>
+<rect x="736.0" y="528.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="761.0" y="547.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">60</text>
+<rect x="786.0" y="528.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="811.0" y="547.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">70</text>
+<rect x="836.0" y="528.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="861.0" y="547.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">80</text>
+<text x="678.0" y="575.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">1960</text>
+<rect x="686.0" y="556.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="711.0" y="575.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">40</text>
+<rect x="736.0" y="556.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="761.0" y="575.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">50</text>
+<rect x="786.0" y="556.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="811.0" y="575.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">60</text>
+<rect x="836.0" y="556.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="861.0" y="575.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">70</text>
+<text x="678.0" y="603.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">1970</text>
+<rect x="686.0" y="584.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="711.0" y="603.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">30</text>
+<rect x="736.0" y="584.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="761.0" y="603.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">40</text>
+<rect x="786.0" y="584.0" width="50.0" height="28.0" rx="0" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="1.6"/>
+<text x="811.0" y="603.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">50</text>
+<rect x="836.0" y="584.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="861.0" y="603.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">60</text>
+<text x="678.0" y="631.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">1980</text>
+<rect x="686.0" y="612.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="711.0" y="631.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">20</text>
+<rect x="736.0" y="612.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="761.0" y="631.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">30</text>
+<rect x="786.0" y="612.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="811.0" y="631.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">40</text>
+<rect x="836.0" y="612.0" width="50.0" height="28.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1"/>
+<text x="861.0" y="631.0" font-size="13.5" fill="var(--muted)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">50</text>
+<text x="636.0" y="666.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">separates cohort and time</text>
+<text x="636.0" y="685.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">assumes no age effect</text>
+</svg>
+<figcaption>The age, cohort and time-of-measurement grid. A cross-sectional study reads a column, a longitudinal study a row, a time-lag study a diagonal of equal ages; K. Warner Schaie's (1965) sequential designs combine several of these so that two of the three factors can be separated.</figcaption></figure>
+
+<div class="trap"><b>Terminology varies.</b> Many developmental textbooks use "sequential", "cross-sequential" and "cohort-sequential" loosely for any design that follows several cohorts over time, and introductory MCQs often define "cross-sequential" as "combining cross-sectional and longitudinal approaches". If the options are only longitudinal, cross-sectional and cross-sequential, the combination answer is cross-sequential; if the question names K. Warner Schaie's three, use the definitions above. And "studying the same people repeatedly over time" is always plain <b>longitudinal</b>.</div>
+
+<h4>Famous longitudinal studies</h4>
+<table class="t">
+<tr><th>Study</th><th>Began</th><th>Who</th><th>Remembered for</th></tr>
+<tr><td><b>Genetic Studies of Genius</b> (Lewis M. Terman)</td><td>1921</td><td>About 1,500 California schoolchildren (usually cited as 1,528) with Stanford&#8211;Binet IQs of roughly 135 to 140 and above, the "Termites"</td><td>Gifted children were on average healthier, better adjusted and more successful than the stereotype of the fragile genius predicted; still followed after Terman's death in 1956. Exam keys add that adjustment problems clustered in children with IQs of about 180 and above in childhood, the group Leta S. Hollingworth described in <i>Children Above 180 IQ</i> (1942)</td></tr>
+<tr><td><b>Grant Study</b>, now part of the Harvard Study of Adult Development</td><td>1938</td><td>268 Harvard undergraduates, founded by Arlie V. Bock; later joined by the Glueck sample of inner-city Boston men</td><td>George E. Vaillant's work on adaptation and the maturity of defences (<i>Adaptation to Life</i>, 1977); warm relationships predicting healthy ageing</td></tr>
+<tr><td><b>Seattle Longitudinal Study</b> (K. Warner Schaie)</td><td>1956</td><td>Adults tested every seven years, with new cohorts added</td><td>The cohort-sequential method; most intellectual abilities show little average decline before the 60s, and large cohort differences mean that cross-sectional studies exaggerate decline</td></tr>
+<tr><td><b>New York Longitudinal Study</b> (Alexander Thomas and Stella Chess)</td><td>1956</td><td>Infants followed into adulthood</td><td>Temperament: easy, difficult and slow-to-warm-up children; goodness of fit</td></tr>
+<tr><td><b>Dunedin Multidisciplinary Health and Development Study</b> (founded by Phil A. Silva)</td><td>1972&#8211;73</td><td>1,037 babies born in Dunedin, New Zealand, between April 1972 and March 1973, with very low attrition</td><td>Avshalom Caspi and Terrie E. Moffitt's gene-environment interaction findings, such as the serotonin transporter gene, life stress and depression (2003)</td></tr>
+</table>
+<p>A shorter classic is H. Rudolph Schaffer and Peggy Emerson's (1964) study of 60 Glasgow infants followed through the first 18 months, which gave the stages of attachment.</p>
+
+<p><b>Microgenetic design.</b> Robert S. Siegler and Kevin Crowley (1991) described the <b>microgenetic method</b> for watching change as it happens: observe children through a period of rapid change, with a <b>high density of observations</b> relative to the rate of change (often trial by trial over days or weeks), and analyse each response intensively. It shows how a new strategy is discovered and spreads, which widely spaced longitudinal tests miss.</p>
+
+<h3>21.5 Epidemiological designs</h3>
+
+<p>Epidemiology studies the distribution and determinants of disorders in populations. Its designs are the same logic in a medical vocabulary: the IV is called the <b>exposure</b> and the DV the <b>outcome</b>.</p>
+
+<h4>Prevalence and incidence</h4>
+<table class="t">
+<tr><th>Measure</th><th>Definition</th><th>Example</th></tr>
+<tr><td><b>Point prevalence</b></td><td>Existing cases at one point in time &#247; population at that time</td><td>Proportion of adults with a current depressive episode on the survey day</td></tr>
+<tr><td><b>Period prevalence</b></td><td>People who were cases at any time during a period (e.g. the past 12 months) &#247; population</td><td>12-month prevalence of alcohol use disorder</td></tr>
+<tr><td><b>Lifetime prevalence</b></td><td>People who have <i>ever</i> been cases, including recovered ones &#247; population</td><td>Has ever met criteria for panic disorder</td></tr>
+<tr><td><b>Incidence (cumulative incidence, risk)</b></td><td><b>New</b> cases during a period &#247; people <b>at risk</b> (free of the disorder) at the start</td><td>New cases of postpartum depression within a year of delivery</td></tr>
+<tr><td><b>Incidence rate (incidence density)</b></td><td>New cases &#247; total person-time at risk</td><td>12 new cases per 1,000 person-years</td></tr>
+</table>
+<div class="rule"><b>Prevalence &#8776; incidence &#215; average duration</b> (for a fairly rare, stable condition). Schizophrenia has a low incidence but lasts long, so its prevalence is high relative to incidence; a brief adjustment disorder can have high incidence and low point prevalence. Incidence is what you need for <b>causes</b> (who becomes ill); prevalence is what you need for <b>service planning</b> (how many are ill now). India's <b>National Mental Health Survey 2015&#8211;16</b> (NIMHANS), a cross-sectional prevalence study of adults in 12 states, reported a lifetime prevalence of any mental morbidity of <b>13.7%</b> and a current prevalence of <b>10.6%</b> (excluding tobacco use disorder).</div>
+
+<h4>The four core designs</h4>
+<p>A <b>cross-sectional (prevalence) study</b> measures exposure and outcome in a population sample at the same time. It gives prevalence and associations quickly, but cannot show which came first, and it over-represents long-lasting cases (people who recover or die quickly are less likely to be caught on survey day).</p>
+
+<p>A <b>cohort study</b> starts with people who are free of the outcome, classifies them by exposure, and follows them to see who develops the outcome. It gives <b>incidence</b> directly and so the <b>relative risk</b>, establishes temporal order, and can study several outcomes of one exposure. In a <b>prospective</b> cohort the researcher starts now and follows people into the future (the Framingham Heart Study, from 1948; Richard Doll and Austin Bradford Hill's British Doctors Study of smoking, from 1951). In a <b>retrospective (historical)</b> cohort both exposure and outcome have already happened, but the analysis still runs forward, from exposure recorded in old files to outcome recorded later: <span class="eg">school records from 2005 that noted bullying, linked to clinic records in 2025.</span> Cohort studies are slow and expensive, need very large samples for rare outcomes, and lose people to attrition.</p>
+
+<p>A <b>case-control study</b> runs the other way. It starts from the <b>outcome</b>: <b>cases</b> who have the disorder and <b>controls</b> who do not, as similar as possible otherwise (often matched on age and sex). It then looks <b>back</b> for differences in past exposure. Doll and Hill's 1950 comparison of lung cancer patients with controls, which found far more smokers among the cases, is the landmark. It is fast, cheap and the <b>most efficient design for rare disorders</b> (autism, early-onset psychosis, suicide), since you begin with the few cases instead of waiting for them, and it can examine many exposures at once. Its weaknesses: it cannot give incidence or relative risk, only the <b>odds ratio</b>; choosing proper controls is hard (hospital controls bring <b>Berkson's bias</b>, Joseph Berkson, 1946); and it is vulnerable to <b>recall bias</b>: mothers of children with a developmental disorder search their memories of pregnancy far harder than mothers of typical children.</p>
+
+<p>A <b>nested case-control study</b> is carried out inside an existing cohort: every case that arises is compared with a sample of cohort members who were still free of the outcome at that time. Exposure data (stored blood, early questionnaires) were collected before the outcome, which removes recall bias, and only a fraction of the stored material has to be analysed.</p>
+
+<figure class="dia">
+<svg viewBox="0 0 940 520" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="s21-arrD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--text)"/></marker><marker id="s21-arrDg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--good)"/></marker><marker id="s21-arrDr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--bad)"/></marker><marker id="s21-arrDm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--muted)"/></marker></defs>
+<line x1="40.0" y1="40.0" x2="905.0" y2="40.0" stroke="var(--muted)" stroke-width="1.6" marker-end="url(#s21-arrDm)"/>
+<text x="40.0" y="28.0" font-size="14" fill="var(--muted)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">PAST</text>
+<text x="905.0" y="28.0" font-size="14" fill="var(--muted)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">FUTURE</text>
+<text x="470.0" y="28.0" font-size="14" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">NOW: the researcher starts here</text>
+<line x1="470.0" y1="40.0" x2="470.0" y2="512.0" stroke="var(--text)" stroke-width="1.4" stroke-dasharray="5 5"/>
+<text x="40.0" y="78.0" font-size="15" fill="var(--good)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Prospective cohort</text>
+<text x="40.0" y="96.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">start with exposure, wait for the outcome: incidence, RR</text>
+<rect x="360.0" y="108.0" width="220.0" height="58.0" rx="8" fill="var(--panel-2)" stroke="none" stroke-width="1"/>
+<rect x="360.0" y="108.0" width="220.0" height="58.0" rx="8" fill="var(--good)" fill-opacity="0.12" stroke="var(--good)" stroke-width="1.6"/>
+<text x="470.0" y="134.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Exposed vs unexposed</text>
+<text x="470.0" y="152.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">e.g. trauma yes / no, now</text>
+<rect x="650.0" y="108.0" width="255.0" height="58.0" rx="8" fill="var(--panel-2)" stroke="none" stroke-width="1"/>
+<rect x="650.0" y="108.0" width="255.0" height="58.0" rx="8" fill="var(--good)" fill-opacity="0.12" stroke="var(--good)" stroke-width="1.6"/>
+<text x="777.5" y="134.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Who develops depression?</text>
+<text x="777.5" y="152.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">follow-up over years</text>
+<line x1="584.0" y1="137.0" x2="644.0" y2="137.0" stroke="var(--good)" stroke-width="2.6" marker-end="url(#s21-arrDg)"/>
+<text x="40.0" y="192.0" font-size="15" fill="var(--good)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Retrospective (historical) cohort</text>
+<text x="40.0" y="210.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">both already happened; still read forward</text>
+<rect x="360.0" y="222.0" width="220.0" height="58.0" rx="8" fill="var(--panel-2)" stroke="none" stroke-width="1"/>
+<rect x="360.0" y="222.0" width="220.0" height="58.0" rx="8" fill="var(--good)" fill-opacity="0.12" stroke="var(--good)" stroke-width="1.6"/>
+<text x="470.0" y="248.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Outcome measured now</text>
+<text x="470.0" y="266.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">e.g. 2025 clinic records</text>
+<rect x="40.0" y="222.0" width="260.0" height="58.0" rx="8" fill="var(--panel-2)" stroke="none" stroke-width="1"/>
+<rect x="40.0" y="222.0" width="260.0" height="58.0" rx="8" fill="var(--good)" fill-opacity="0.12" stroke="var(--good)" stroke-width="1.6"/>
+<text x="170.0" y="248.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Exposure in old records</text>
+<text x="170.0" y="266.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">e.g. 2005 school files</text>
+<line x1="304.0" y1="251.0" x2="354.0" y2="251.0" stroke="var(--good)" stroke-width="2.6" marker-end="url(#s21-arrDg)"/>
+<text x="40.0" y="306.0" font-size="15" fill="var(--bad)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Case-control</text>
+<text x="40.0" y="324.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">start with the outcome, look back: odds ratio, recall bias</text>
+<rect x="360.0" y="336.0" width="220.0" height="58.0" rx="8" fill="var(--panel-2)" stroke="none" stroke-width="1"/>
+<rect x="360.0" y="336.0" width="220.0" height="58.0" rx="8" fill="var(--bad)" fill-opacity="0.12" stroke="var(--bad)" stroke-width="1.6"/>
+<text x="470.0" y="362.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Cases (depressed) and</text>
+<text x="470.0" y="380.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">controls (not depressed)</text>
+<rect x="40.0" y="336.0" width="260.0" height="58.0" rx="8" fill="var(--panel-2)" stroke="none" stroke-width="1"/>
+<rect x="40.0" y="336.0" width="260.0" height="58.0" rx="8" fill="var(--bad)" fill-opacity="0.12" stroke="var(--bad)" stroke-width="1.6"/>
+<text x="170.0" y="362.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Who was exposed?</text>
+<text x="170.0" y="380.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">interviews, records</text>
+<line x1="356.0" y1="365.0" x2="306.0" y2="365.0" stroke="var(--bad)" stroke-width="2.6" marker-end="url(#s21-arrDr)"/>
+<text x="40.0" y="420.0" font-size="15" fill="var(--accent)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Cross-sectional</text>
+<text x="40.0" y="438.0" font-size="13" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">both measured at one moment: prevalence only</text>
+<rect x="360.0" y="450.0" width="220.0" height="58.0" rx="8" fill="var(--panel-2)" stroke="none" stroke-width="1"/>
+<rect x="360.0" y="450.0" width="220.0" height="58.0" rx="8" fill="var(--accent)" fill-opacity="0.12" stroke="var(--accent)" stroke-width="1.6"/>
+<text x="470.0" y="476.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Both measured at once</text>
+<text x="470.0" y="494.0" font-size="13.5" fill="var(--text)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">no time order</text>
+</svg>
+<figcaption>Direction of inquiry. Cohort studies run from exposure to outcome, either forwards from now (prospective) or through old records (retrospective); case-control studies run backwards from outcome to exposure; a cross-sectional study takes both at one moment.</figcaption></figure>
+
+<div class="trap"><b>Retrospective is not the same as case-control.</b> A retrospective cohort uses past data but reasons from exposure to outcome; a case-control study reasons from outcome to exposure. The question "the British Doctors were questioned about smoking in 1951 and followed for decades: what design?" is a <b>prospective</b> cohort (observational, not experimental). "Rare outcome plus past exposure" signals case-control.</div>
+
+<h4>Ecological studies and the ecological fallacy</h4>
+<p>An <b>ecological study</b> uses <b>groups</b> (districts, states, countries) as the units: suicide rates against unemployment rates across Indian states, for example, using National Crime Records Bureau data. The <b>ecological fallacy</b> is drawing conclusions about <b>individuals</b> from a correlation between <b>group</b> averages. William S. Robinson (1950) gave the classic demonstration with 1930 US census data: across the 48 states, the percentage of foreign-born residents correlated <b>+.53</b> with the literacy rate, yet at the individual level being foreign-born correlated <b>&#8722;.11</b> with literacy. Immigrants had settled in states whose native-born populations were highly literate. A state-level correlation, even a strong one, says nothing certain about the people inside the states. (The reverse error, generalising from individuals to groups, is the atomistic fallacy.)</p>
+
+<h3>21.6 Measuring association: relative risk, odds ratio and attributable risk</h3>
+
+<p>Arrange any exposure-outcome study as a 2 &#215; 2 table with cells a (exposed, ill), b (exposed, well), c (unexposed, ill), d (unexposed, well).</p>
+<ul class="tight">
+  <li><b>Risk</b> in a group = ill &#247; everyone in that group: a/(a+b) for exposed, c/(c+d) for unexposed.</li>
+  <li><b>Relative risk (risk ratio), RR</b> = risk in exposed &#247; risk in unexposed. Needs incidence, so it comes from cohort studies and trials.</li>
+  <li><b>Odds</b> = ill &#247; well within a group: a/b and c/d. <b>Odds ratio, OR</b> = (a/b)/(c/d) = <b>ad/bc</b>. The only measure available from a case-control study, and the one logistic regression produces (section 13.5).</li>
+  <li><b>Reading them:</b> RR or OR = 1 means <b>no association</b>; above 1, the exposure is associated with more of the outcome (a risk factor); below 1, with less (protective). A 95% confidence interval that includes 1 means the association is not significant.</li>
+  <li><b>Risk difference</b> (attributable risk) = risk in exposed &#8722; risk in unexposed: the excess cases due to the exposure, on an absolute scale. <b>Attributable risk percent</b> in the exposed = risk difference &#247; risk in exposed. <b>Population attributable risk percent</b> = (overall risk &#8722; risk in unexposed) &#247; overall risk: the share of all cases in the population that would disappear if the exposure did.</li>
+</ul>
+
+<p><b>Worked example.</b> A cohort of 1,000 adults whose childhood records noted trauma (200 exposed) or not (800 unexposed) is assessed for depression. 60 of the 200 exposed and 80 of the 800 unexposed are depressed.</p>
+<ol class="steps">
+  <li>Risk in exposed = 60/200 = 0.30; risk in unexposed = 80/800 = 0.10. <b>RR = 0.30/0.10 = 3.0</b>: those exposed to childhood trauma were three times as likely to be depressed.</li>
+  <li>Odds in exposed = 60/140 = 0.429; odds in unexposed = 80/720 = 0.111. <b>OR = (60 &#215; 720)/(140 &#215; 80) = 43,200/11,200 = 3.86</b>.</li>
+  <li><b>Risk difference = 0.30 &#8722; 0.10 = 0.20</b>: 20 extra cases per 100 exposed people (number needed to harm = 1/0.20 = 5). Attributable risk percent in the exposed = 0.20/0.30 = <b>67%</b>: two-thirds of the depression among the exposed is attributable to the exposure, if the association is causal.</li>
+  <li>Overall risk = 140/1,000 = 0.14, so <b>PAR% = (0.14 &#8722; 0.10)/0.14 = 29%</b>.</li>
+</ol>
+
+<figure class="dia">
+<svg viewBox="0 0 940 430" width="100%" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
+<text x="20.0" y="28.0" font-size="15.5" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Cohort of 1,000 adults followed from childhood records</text>
+<text x="255.0" y="62.0" font-size="14" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Depressed</text>
+<text x="373.0" y="62.0" font-size="14" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Not depressed</text>
+<text x="491.0" y="62.0" font-size="14" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Total</text>
+<text x="184.0" y="101.0" font-size="14" fill="var(--text)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Trauma</text>
+<text x="184.0" y="118.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">(exposed)</text>
+<rect x="196.0" y="74.0" width="118.0" height="56.0" rx="0" fill="var(--bad)" fill-opacity="0.12" stroke="var(--border)" stroke-width="1.2"/>
+<text x="255.0" y="108.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">60</text>
+<text x="205.0" y="92.0" font-size="13" fill="var(--muted)" text-anchor="start" font-style="italic" font-family="var(--sans),system-ui,sans-serif">a</text>
+<rect x="314.0" y="74.0" width="118.0" height="56.0" rx="0" fill="var(--accent)" fill-opacity="0.12" stroke="var(--border)" stroke-width="1.2"/>
+<text x="373.0" y="108.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">140</text>
+<text x="323.0" y="92.0" font-size="13" fill="var(--muted)" text-anchor="start" font-style="italic" font-family="var(--sans),system-ui,sans-serif">b</text>
+<rect x="432.0" y="74.0" width="118.0" height="56.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1.2"/>
+<text x="491.0" y="108.0" font-size="15" fill="var(--text)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">200</text>
+<text x="184.0" y="157.0" font-size="14" fill="var(--text)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">No trauma</text>
+<text x="184.0" y="174.0" font-size="13" fill="var(--muted)" text-anchor="end" font-family="var(--sans),system-ui,sans-serif">(unexposed)</text>
+<rect x="196.0" y="130.0" width="118.0" height="56.0" rx="0" fill="var(--bad)" fill-opacity="0.12" stroke="var(--border)" stroke-width="1.2"/>
+<text x="255.0" y="164.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">80</text>
+<text x="205.0" y="148.0" font-size="13" fill="var(--muted)" text-anchor="start" font-style="italic" font-family="var(--sans),system-ui,sans-serif">c</text>
+<rect x="314.0" y="130.0" width="118.0" height="56.0" rx="0" fill="var(--accent)" fill-opacity="0.12" stroke="var(--border)" stroke-width="1.2"/>
+<text x="373.0" y="164.0" font-size="17" fill="var(--text)" text-anchor="middle" font-weight="700" font-family="var(--sans),system-ui,sans-serif">720</text>
+<text x="323.0" y="148.0" font-size="13" fill="var(--muted)" text-anchor="start" font-style="italic" font-family="var(--sans),system-ui,sans-serif">d</text>
+<rect x="432.0" y="130.0" width="118.0" height="56.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1.2"/>
+<text x="491.0" y="164.0" font-size="15" fill="var(--text)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">800</text>
+<text x="184.0" y="219.0" font-size="14" fill="var(--text)" text-anchor="end" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Total</text>
+<rect x="196.0" y="186.0" width="118.0" height="56.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1.2"/>
+<text x="255.0" y="220.0" font-size="15" fill="var(--text)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">140</text>
+<rect x="314.0" y="186.0" width="118.0" height="56.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1.2"/>
+<text x="373.0" y="220.0" font-size="15" fill="var(--text)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">860</text>
+<rect x="432.0" y="186.0" width="118.0" height="56.0" rx="0" fill="var(--panel)" stroke="var(--border)" stroke-width="1.2"/>
+<text x="491.0" y="220.0" font-size="15" fill="var(--text)" text-anchor="middle" font-family="var(--sans),system-ui,sans-serif">1,000</text>
+<text x="20.0" y="272.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">Case-control version of the same population: take all 140 cases and</text>
+<text x="20.0" y="291.0" font-size="13.5" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">half the 860 non-cases as controls (70 exposed, 360 not).</text>
+<text x="20.0" y="312.0" font-size="13.5" fill="#0f766e" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">OR = (60 &#215; 360) / (80 &#215; 70) = 3.86: the same OR.</text>
+<text x="20.0" y="331.0" font-size="13.5" fill="var(--bad)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">A 'risk' from that table (60/130) would be meaningless,</text>
+<text x="20.0" y="350.0" font-size="13.5" fill="var(--bad)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">because the researcher chose how many controls to take.</text>
+<line x1="566.0" y1="20.0" x2="566.0" y2="410.0" stroke="var(--border)" stroke-width="1.2"/>
+<text x="588.0" y="40.0" font-size="15" fill="var(--bad)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Risk</text>
+<text x="598.0" y="65.0" font-size="14" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">exposed = a/(a+b) = 60/200 = 0.30</text>
+<text x="598.0" y="90.0" font-size="14" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">unexposed = c/(c+d) = 80/800 = 0.10</text>
+<text x="598.0" y="115.0" font-size="14" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Relative risk RR = 0.30/0.10 = 3.0</text>
+<text x="588.0" y="148.0" font-size="15" fill="var(--accent)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Odds</text>
+<text x="598.0" y="173.0" font-size="14" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">exposed = a/b = 60/140 = 0.429</text>
+<text x="598.0" y="198.0" font-size="14" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">unexposed = c/d = 80/720 = 0.111</text>
+<text x="598.0" y="223.0" font-size="14" fill="var(--text)" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Odds ratio OR = ad/bc = 3.86</text>
+<text x="588.0" y="256.0" font-size="15" fill="#0f766e" text-anchor="start" font-weight="700" font-family="var(--sans),system-ui,sans-serif">Impact</text>
+<text x="598.0" y="281.0" font-size="14" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">risk difference = 0.30 &#8722; 0.10 = 0.20</text>
+<text x="598.0" y="306.0" font-size="14" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">AR% in exposed = 0.20/0.30 = 67%</text>
+<text x="598.0" y="331.0" font-size="14" fill="var(--text)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">PAR% = (0.14 &#8722; 0.10)/0.14 = 29%</text>
+<text x="588.0" y="370.0" font-size="13.5" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">OR (3.86) is larger than RR (3.0) because</text>
+<text x="588.0" y="388.0" font-size="13.5" fill="var(--muted)" text-anchor="start" font-family="var(--sans),system-ui,sans-serif">depression is common here (30% vs 10%).</text>
+</svg>
+<figcaption>Worked 2 &#215; 2 table: childhood trauma and adult depression. Risk ratio 3.0, odds ratio 3.86, risk difference 0.20 (20 extra cases per 100 exposed); the case-control sample recovers the same odds ratio.</figcaption></figure>
+
+<div class="why"><b>Why the OR is bigger than the RR here, and why case-control studies use it.</b> The OR exaggerates the RR whenever the outcome is common; when the outcome is rare (roughly under 10% in both groups), b &#8776; a + b and d &#8776; c + d, so OR &#8776; RR. That is the <b>rare disease assumption</b>, and it is why case-control studies of rare disorders report ORs as estimates of relative risk. The OR survives case-control sampling because it is symmetrical: the odds of exposure among cases divided by the odds of exposure among controls equals the odds of illness among the exposed divided by the odds among the unexposed, so sampling all cases and only some controls leaves it unchanged (3.86 in the figure), whereas any "risk" from that table depends on how many controls the researcher decided to take.</div>
+
+<h4>From association to causation: the Bradford Hill criteria</h4>
+<p><b>Austin Bradford Hill</b>, in "The environment and disease: association or causation?" (1965), listed nine "viewpoints" for judging whether an observed association is causal. He insisted they were aids to judgement, not a checklist, and that none except temporality is indispensable.</p>
+<table class="t">
+<tr><th>Viewpoint</th><th>Question</th><th>Applied to childhood trauma and adult depression</th></tr>
+<tr><td><b>Strength</b></td><td>Is the association large?</td><td>RR = 3 is stronger than most confounders could produce</td></tr>
+<tr><td><b>Consistency</b></td><td>Is it repeated in different places, samples and designs?</td><td>Found in cohort and case-control studies across countries</td></tr>
+<tr><td><b>Specificity</b></td><td>Does the exposure lead to one particular outcome?</td><td>Weak here: trauma predicts many disorders (Hill himself said this one is often absent)</td></tr>
+<tr><td><b>Temporality</b></td><td>Does the exposure come first?</td><td>The trauma was recorded in childhood: the only <b>essential</b> criterion</td></tr>
+<tr><td><b>Biological gradient</b></td><td>Is there a dose-response relation?</td><td>More types or longer duration of trauma, higher risk</td></tr>
+<tr><td><b>Plausibility</b></td><td>Is there a plausible mechanism?</td><td>Stress-system (HPA axis) sensitisation, negative schemas</td></tr>
+<tr><td><b>Coherence</b></td><td>Does it fit what else is known?</td><td>Consistent with stress-diathesis models</td></tr>
+<tr><td><b>Experiment</b></td><td>Does removing or reducing the exposure reduce the outcome?</td><td>Prevention and early-intervention evidence</td></tr>
+<tr><td><b>Analogy</b></td><td>Do similar exposures have similar effects?</td><td>Early adversity in animal studies</td></tr>
+</table>
+
+<h3>21.7 Descriptive designs: observation, case study and archival research</h3>
+
+<p><b>Naturalistic observation</b> records behaviour in its natural setting without intervening: children's play in an anganwadi, interaction on a psychiatric ward. It gives high ecological validity and is often the first step in a new area, but it is open to <b>reactivity</b> (people behave differently when watched) and observer bias, and it cannot explain what it records. Sampling, coding and observer reliability are covered in section 23.</p>
+
+<p>A <b>case study</b> is an intensive, usually long-term study of one person, family, group or institution, using interviews, observation, tests and records. It is <b>idiographic</b> (aimed at understanding the particular), in the sense Wilhelm Windelband (1894) distinguished from the <b>nomothetic</b> search for general laws, a distinction Gordon W. Allport (1937) brought into psychology. It is the right design for rare phenomena, for generating hypotheses, for disconfirming a universal claim with one counter-example, and for illustrating a treatment. Its limits: no control, no generalisation to others, and heavy reliance on the investigator's interpretation and on retrospective reports. (Small-N designs that add experimental control to the single case are section 22.)</p>
+
+<table class="t">
+<tr><th>Case</th><th>Who reported it</th><th>What it is remembered for</th></tr>
+<tr><td><b>Anna O.</b> (Bertha Pappenheim)</td><td>Josef Breuer, treating her in 1880&#8211;82; published in <i>Studies on Hysteria</i> (Breuer and Sigmund Freud, 1895)</td><td>Hysterical symptoms relieved by talking about their origins; she called it the "talking cure"; the root of the cathartic method</td></tr>
+<tr><td><b>Little Hans</b> (Herbert Graf)</td><td>Sigmund Freud (1909), "Analysis of a phobia in a five-year-old boy"</td><td>A horse phobia interpreted as Oedipal anxiety; conducted almost entirely through the boy's father; the first child analysis</td></tr>
+<tr><td><b>Phineas Gage</b></td><td>John Martyn Harlow (1848 and 1868)</td><td>On 13 September 1848 a tamping iron passed through his left frontal lobe; he survived but his personality changed ("no longer Gage"); frontal lobes and personality</td></tr>
+<tr><td><b>H.M.</b> (Henry Molaison)</td><td>William Beecher Scoville and Brenda Milner (1957)</td><td>Bilateral medial temporal lobe removal for epilepsy in 1953 left profound anterograde amnesia with intact procedural learning (mirror tracing); the hippocampus and memory</td></tr>
+<tr><td><b>Genie</b></td><td>Found in Los Angeles in 1970 aged 13 after extreme isolation; studied by Susan Curtiss and others</td><td>Learned vocabulary but never full grammar: evidence for a critical period for language, and a lasting ethics lesson</td></tr>
+</table>
+
+<p><b>Archival research</b> analyses records that already exist and were collected for another purpose: hospital case files, census data, National Crime Records Bureau suicide statistics, court records, letters and diaries. Émile Durkheim's <i>Suicide</i> (1897), built from official suicide statistics, is the founding example. It is unobtrusive (no reactivity), cheap, can cover long periods and large populations, and can reach the past. But the researcher cannot control what was recorded or how carefully, definitions change over time, and missing data are common. Systematically coding the content of texts, media or interviews is <b>content analysis</b> (section 24).</p>
+
+<h3>21.8 The non-experimental designs in one table</h3>
+<table class="t">
+<tr><th>Design</th><th>What it can tell you</th><th>Causal claim?</th><th>Main weakness</th><th>Example</th></tr>
+<tr><td><b>Correlational</b></td><td>Whether and how strongly variables covary; prediction</td><td class="bad">No</td><td>Directionality and third variables</td><td>Sleep quality and depressive symptoms, r = &#8722;.45</td></tr>
+<tr><td><b>Cross-lagged panel</b></td><td>Which variable's earlier level better predicts the other's later level</td><td>Suggestive only</td><td>Stability differences, third variables</td><td>TV violence and aggression, ages 8 and 18</td></tr>
+<tr><td><b>Cross-sectional survey</b></td><td>Prevalence, distribution, interrelations at one time</td><td class="bad">No</td><td>No time order; sampling and self-report bias</td><td>The typical dissertation: online survey, correlation and logistic regression</td></tr>
+<tr><td><b>Panel / trend survey</b></td><td>Individual change (panel) or population change (trend)</td><td class="bad">No</td><td>Attrition, panel conditioning</td><td>NFHS rounds (trend)</td></tr>
+<tr><td><b>Ex post facto</b></td><td>Differences between pre-existing groups</td><td class="bad">No</td><td>Self-selection, reverse causation</td><td>Bullied vs not bullied on social anxiety</td></tr>
+<tr><td><b>Cross-sectional developmental</b></td><td>Age differences</td><td class="bad">No</td><td>Age confounded with cohort</td><td>Memory in 20-, 40-, 60- and 80-year-olds in 2026</td></tr>
+<tr><td><b>Longitudinal</b></td><td>Age changes, individual trajectories, temporal order</td><td>Stronger, not proof</td><td>Age confounded with time; attrition; practice</td><td>Dunedin study</td></tr>
+<tr><td><b>Sequential</b></td><td>Separates two of age, cohort and time</td><td class="bad">No</td><td>Cost; an assumption about the third factor</td><td>Seattle Longitudinal Study</td></tr>
+<tr><td><b>Prospective cohort</b></td><td>Incidence, relative risk, temporal order</td><td>Strongest observational design</td><td>Slow, costly, attrition, poor for rare outcomes</td><td>British Doctors Study</td></tr>
+<tr><td><b>Case-control</b></td><td>Odds ratio for many past exposures</td><td>Weaker</td><td>Recall bias, choice of controls</td><td>Doll and Hill (1950), lung cancer</td></tr>
+<tr><td><b>Ecological</b></td><td>Group-level associations</td><td class="bad">No</td><td>Ecological fallacy</td><td>State suicide rates vs unemployment</td></tr>
+<tr><td><b>Case study</b></td><td>Rich detail on one case; hypotheses; counter-examples</td><td class="bad">No</td><td>No control, no generalisation</td><td>H.M., Phineas Gage</td></tr>
+<tr><td><b>Archival</b></td><td>Patterns in existing records over time</td><td class="bad">No</td><td>Data quality outside the researcher's control</td><td>Durkheim's <i>Suicide</i></td></tr>
+</table>
+
+<div class="recap">Recap of section 21: non-experimental designs measure without manipulating. Correlational designs show covariation and allow prediction but face the directionality and third-variable problems; the cross-lagged panel design (named by Donald T. Campbell and Julian C. Stanley, 1963; used by Leonard D. Eron and colleagues, 1972) compares A&#8321;&#8594;B&#8322; with B&#8321;&#8594;A&#8322;. Survey research (Fred N. Kerlinger) studies the incidence, distribution and interrelations of variables, not causes; trend studies resample a population, cohort studies a generation, panel studies the same people. Ex post facto (causal-comparative) research compares pre-existing groups and is undone by self-selection. A single online questionnaire analysed with correlation and logistic regression is a cross-sectional correlational survey design. Developmental designs juggle age = time of measurement &#8722; cohort: cross-sectional confounds age with cohort, longitudinal confounds age with time of measurement (plus attrition and practice), time-lag confounds cohort with time; K. Warner Schaie's (1965) cohort-sequential, time-sequential and cross-sequential designs separate two factors at a time. Remember Lewis Terman (1921), the Grant Study (1938), Seattle (1956), the NYLS (1956) and Dunedin (1972&#8211;73), and Robert S. Siegler's microgenetic method. Epidemiology: point, period and lifetime prevalence vs incidence (prevalence &#8776; incidence &#215; duration); cohort studies (prospective or retrospective) give incidence and RR; case-control studies start from the outcome, suit rare disorders, give only the OR and suffer recall bias; nested case-control sits inside a cohort. In the worked table RR = 3.0, OR = 3.86, risk difference = 0.20, AR% = 67%, PAR% = 29%; OR approximates RR only for rare outcomes; OR or RR = 1 means no association. William S. Robinson (1950) showed the ecological fallacy; Austin Bradford Hill (1965) gave nine viewpoints for causation, of which only temporality is essential. Descriptive designs are naturalistic observation, the case study (Anna O., Little Hans, Phineas Gage, H.M., Genie) and archival research.</div>
+</div>
