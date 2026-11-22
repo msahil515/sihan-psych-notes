@@ -21,9 +21,9 @@ The chapter opens with a patient for a reason. Almost every drug that changes mo
 
 The chapter's opening case is taken from *Newton's Madness* by the neurologist **Harold Klawans** (1990).
 
-"I have become a lizard," the patient began. "A great lizard frozen in a dark, cold, strange world."
+The patient opened the consultation by telling Klawans that he had turned into a lizard: a huge one, stuck motionless in a world that felt cold, dark and alien.
 
-His name was **Roberto Garcia d'Orta**. He was a tall, thin man in his sixties, but like most patients with **Parkinson's disease** he looked much older than his actual age. Not many years before, he had been an active, vigorous businessman. Then the disease arrived, not all at once and not suddenly, but slowly, subtly, insidiously. By the time Klawans saw him he turned like a piece of granite, walked in slow shuffling steps, and spoke in a monotonous whisper.
+He was **Roberto Garcia d'Orta**, a tall, thin man in his sixties who, as is typical of people with **Parkinson's disease**, appeared far older than he really was. Only a few years earlier he had been an energetic, hard-working businessman. The illness had not struck him overnight; it had crept up on him gradually and almost unnoticed. When Klawans examined him, he had to turn his whole body at once, as stiffly as a block of granite; his gait was a slow shuffle; and his voice had faded to a flat, monotonous whisper.
 
 His first symptom had been a **tremor**. It had not been disabling. "My hands shake worse when they are doing nothing at all," he said, which describes the symptom called **tremor-at-rest**: a tremor that is most pronounced when the limb is idle and tends to diminish during purposeful movement.
 
@@ -171,7 +171,7 @@ EPSPs and IPSPs travel **passively** from their sites of generation at synapses,
 
 **First, it is rapid**, so rapid that for most purposes it can be assumed to be **instantaneous**. Pinel adds a warning here that is easy to skim past: do not confuse the **duration** of a PSP with its **rate of transmission**. The duration of PSPs varies considerably (some are brief, some long-lasting), but all PSPs, brief or enduring, are **transmitted almost instantaneously**. How long a PSP lasts at a given point and how fast it spreads from that point are different properties.
 
-**Second, it is decremental**: PSPs **decrease in amplitude as they travel** through the neuron, just as a ripple on a pond gradually disappears as it travels outward. Most PSPs do not travel more than **a couple of millimetres** from their site of generation before they fade out completely.
+**Second, it is decremental**: the further a PSP spreads from the synapse that produced it, the more it **shrinks in amplitude**, in the way a ripple on a pond flattens out as it widens. By the time a typical PSP is **a couple of millimetres** from where it started, nothing of it is left.
 
 These two properties set up the central problem of neural integration. A PSP generated on a distant dendrite reaches the rest of the neuron almost instantly, but shrunken; whether it has any effect depends on what else is arriving at the same time.
 
@@ -179,9 +179,9 @@ These two properties set up the central problem of neural integration. A PSP gen
 
 ### Where the firing decision is made: the axon initial segment
 
-The PSPs created at a **single synapse** typically have **little effect** on the firing of the postsynaptic neuron. The receptive areas of most neurons are covered with **thousands of synapses**, and whether a neuron fires is determined by the **net effect of their activity**. More specifically, whether a neuron fires depends on the **balance between the excitatory and inhibitory signals reaching its axon**.
+On its own, the PSP produced by **one synapse** usually does **little** to change whether the postsynaptic neuron fires. A typical neuron's receptive surface carries **thousands of synapses**, so the decision is made by the **combined (net) activity** of all of them. Put more precisely, it comes down to how the **excitatory and inhibitory signals arriving at the axon balance out**.
 
-Where exactly on the axon? It was **once believed** that action potentials were generated at the **axon hillock**, the conical structure at the junction between the cell body and the axon. They are **actually generated in the adjacent section of the axon**, called the **axon initial segment** (see Kuba, Adachi, & Ohmori, 2014; Tian et al., 2014). So the graded EPSPs and IPSPs created at particular receptive sites on the membrane are conducted **instantly and decrementally to the axon initial segment**, and it is there that the neuron's decision is taken.
+Where exactly on the axon? The **older view** placed the origin of action potentials at the **axon hillock**, the cone-shaped region where the axon leaves the cell body. Current evidence puts it just beyond that, in the neighbouring stretch of axon known as the **axon initial segment** (see Kuba, Adachi, & Ohmori, 2014; Tian et al., 2014). So the graded EPSPs and IPSPs created at particular receptive sites on the membrane are conducted **instantly and decrementally to the axon initial segment**, and it is there that the neuron's decision is taken.
 
 > **Trap.** This is a direct old-versus-new terminology conflict. Older textbooks, older editions of Pinel and many Indian answer keys say that action potentials are generated at the **axon hillock**. The 11th edition says explicitly that this was the **old belief** and that APs are generated at the **axon initial segment**, the section of axon just beyond the hillock. If both options appear, choose **axon initial segment**. If only "axon hillock" appears (an older paper), it is the intended answer for "trigger zone".
 
@@ -249,7 +249,7 @@ PSPs **continuously summate over both time and space** as a neuron is bombarded 
 
 The location of a synapse on a neuron's membrane had long been assumed to be an important factor in determining its influence on the neuron's firing. The reasoning followed directly from decremental conduction: because PSPs fade as they travel, synapses **near the axon** should have the most influence, and synapses on distant dendrites the least.
 
-That reasoning is sound as far as passive conduction goes, but it turns out to be incomplete. It has been demonstrated that **some neurons have a mechanism for amplifying dendritic signals that originate far from their axon** (see Adrian et al., 2014; Araya, 2014). In such neurons a distant synapse need not be a weak one. This is an early example of a recurring lesson of the chapter: the simple passive-cable picture is a useful first approximation, but real neurons often have extra machinery that changes the rules.
+That reasoning is sound as far as passive conduction goes, but it turns out to be incomplete. Research has shown that **some neurons can boost signals arising on dendrites far from the axon**, amplifying them so that decremental spread does not wipe them out (see Adrian et al., 2014; Araya, 2014). In such neurons a distant synapse need not be a weak one. This is an early example of a recurring lesson of the chapter: the simple passive-cable picture is a useful first approximation, but real neurons often have extra machinery that changes the rules.
 
 ### The firing-gun metaphor
 
@@ -302,7 +302,7 @@ Figure 4.5 shows the timing of the opening and closing of the sodium and potassi
 
 ### Why one action potential barely changes the ion concentrations
 
-It is natural to assume that, after an AP has let Na+ in and K+ out, the sodium-potassium pumps must work hard to restore the resting state. Pinel corrects this. The **number of ions** that flow through the membrane during an AP is **extremely small** in relation to the total number inside and around the neuron, because the AP involves only those ions **right next to the membrane**. Therefore:
+It is natural to assume that, after an AP has let Na+ in and K+ out, the sodium-potassium pumps must work hard to restore the resting state. Pinel corrects this. Only the ions **immediately beside the membrane** take part in an AP, so the **number that actually cross** is **tiny** compared with the vast quantity of ions inside the neuron and in the fluid around it. Therefore:
 
 - a single AP has **little effect on the relative concentrations** of ions inside and outside the neuron;
 - the resting ion concentrations next to the membrane are **rapidly re-established by the random movement of ions** (the same diffusion that spreads the ink in the bathtub); and
@@ -312,7 +312,7 @@ It is natural to assume that, after an AP has let Na+ in and K+ out, the sodium-
 
 ### Refractory periods
 
-For a brief period of about **1 to 2 milliseconds** after the initiation of an AP, it is **impossible to elicit a second AP**. This is the **absolute refractory period**. It is followed by the **relative refractory period**, during which it is **possible** to fire the neuron again but **only by applying higher-than-normal levels of stimulation**. The end of the relative refractory period is the point at which the amount of stimulation needed to fire the neuron has **returned to baseline**.
+Once an AP has begun, there is a window of roughly **1 to 2 milliseconds** in which **no second AP can be triggered**, however strongly the neuron is stimulated; this is the **absolute refractory period**. Next comes the **relative refractory period**: a second AP now **can** be produced, but the stimulus has to be **stronger than usual**. The relative refractory period is over once the stimulation required for firing is **back to its baseline level**.
 
 ### The two consequences of refractory periods
 
@@ -337,7 +337,7 @@ The conduction of APs along an axon differs from the conduction of PSPs in **two
 1. Conduction of APs along an axon is typically **nondecremental**: APs do not grow weaker as they travel along the axonal membrane.
 2. APs are conducted **more slowly** than PSPs.
 
-Both differences have the same cause, the **voltage-gated sodium channels**. Once an AP has been generated, it travels along the axon *as a graded potential*; that is, the electrical disturbance spreads **rapidly and decrementally** along the membrane, exactly like a PSP. But when that spreading graded potential reaches the **next voltage-gated sodium channel** along the axon, and if it is still large enough to exceed the threshold of excitation, those channels **open**, Na+ rushes in, and **another full-blown AP** is generated. In essence the AP is **continually regenerated at each sodium channel** along the length of the axon, again and again, until a full-blown AP is triggered at the terminal buttons.
+Both differences have the same cause, the **voltage-gated sodium channels**. An AP does not glide down the axon as one unchanging event. The disturbance it creates first spreads along the membrane as an ordinary *graded potential*, **rapidly and decrementally**, just as a PSP would. When that spreading potential arrives at the **next voltage-gated sodium channels** and is still above the threshold of excitation, they **open**, Na+ floods in, and a **new AP of full size** is produced on the spot. The cycle repeats channel after channel, so the AP is in effect **rebuilt over and over along the axon** until the final one fires at the terminal buttons.
 
 Now both properties follow. The AP is nondecremental because it is **re-created at full size** at each sodium channel rather than travelling as a single fading disturbance. It is slower than a PSP because each regeneration takes time; a PSP simply spreads, whereas an AP must repeatedly stop and rebuild itself.
 
@@ -347,9 +347,9 @@ Now both properties follow. The AP is nondecremental because it is **re-created 
 
 Pinel's analogy for axonal conduction is a row of **mouse traps on a wobbly shelf**, all set and ready to be triggered.
 
-- Each trap **stores energy** by holding back its striker against the pressure of its spring, in the same way that each voltage-gated sodium channel stores energy by holding back Na+ ions, which are under pressure to move down their concentration and electrostatic gradients into the neuron.
-- When the first trap is triggered, the **vibration is transmitted through the shelf rapidly and decrementally** (the graded potential).
-- When the vibration reaches the next trap and is **sufficiently large**, that trap is sprung, and so on down the line (regeneration at each channel).
+- A set trap is a **store of energy**: its spring pushes on the striker, and only the catch keeps it back. A closed voltage-gated sodium channel is the same kind of store. Both the concentration gradient and the electrostatic gradient are driving Na+ ions into the neuron, and only the shut channel holds them out.
+- Springing the first trap shakes the shelf, and that shaking **spreads quickly but weakens with distance** (the graded potential).
+- If the shaking is still **strong enough** when it gets to the next trap, that one snaps too, and the process carries on along the row (regeneration at each channel).
 
 In the neuron: when a sodium channel at the axon initial segment is opened by an EPSP, an AP is generated; that electrical signal travels instantly and decrementally, as a graded potential, to the next sodium channel along the axon; that channel opens to generate an AP; and so on down the length of the axon.
 
@@ -372,7 +372,7 @@ Figure 4.6 shows the usual sequence in a multipolar neuron, which is worth recit
 4. The AP is **conducted nondecrementally** down the axon to the terminal button (**orthodromic conduction**).
 5. Arrival of the AP at the terminal button **triggers exocytosis** (neurotransmitter release, 4.4).
 
-There is one important exception to "only forward". The generation of an AP at the axon initial segment **also spreads back through the cell body and dendrites** of the neuron, as a **large graded potential**. These **antidromic (backpropagating) potentials** are believed to play a role in **certain forms of synaptic plasticity** (see Stuart & Spruston, 2015). The logic is that a backpropagating signal tells the dendrites, and therefore the synapses on them, that the neuron has just fired, which is the kind of information a synapse would need in order to strengthen itself when its activity contributes to firing.
+There is one important exception to "only forward". When the axon initial segment fires an AP, the event also **travels backwards into the cell body and dendrites**, not as an AP but as a **large graded potential**. These **antidromic (backpropagating) potentials** are believed to play a role in **certain forms of synaptic plasticity** (see Stuart & Spruston, 2015). The logic is that a backpropagating signal tells the dendrites, and therefore the synapses on them, that the neuron has just fired, which is the kind of information a synapse would need in order to strengthen itself when its activity contributes to firing.
 
 > **Trap.** **Orthodromic** = the normal direction, cell body to terminal buttons. **Antidromic** = backwards, towards the cell body. Note that the backpropagation into the dendrites is described as a **graded potential**, not a full AP travelling backwards along the axon.
 
@@ -383,11 +383,11 @@ There is one important exception to "only forward". The generation of an AP at t
 
 ### Conduction in myelinated axons: saltatory conduction
 
-Recall from Chapter 3 that the axons of many neurons are insulated from the extracellular fluid by segments of fatty tissue called **myelin**. In myelinated axons, ions can pass through the axonal membrane **only at the nodes of Ranvier**, the **gaps between adjacent myelin segments**. Indeed, in myelinated axons, the axonal **voltage-gated sodium channels are concentrated at the nodes of Ranvier**. How, then, are APs transmitted along a myelinated axon?
+Chapter 3 introduced **myelin**, the fatty sheath that wraps many axons in segments and insulates them from the surrounding extracellular fluid. Where myelin covers the axon, ions cannot get through the membrane; they can cross **only at the nodes of Ranvier**, the small **gaps left between one myelin segment and the next**. It is also at these nodes that the axon's **voltage-gated sodium channels are concentrated**. So how does an AP get along such an axon?
 
 Return to the mouse traps. In a myelinated axon it is **just as if the traps were placed further apart** along the wobbly shelf. Because the sodium channels are concentrated at some distance from one another, at the nodes, the electrical signal generated at the sodium channels of one node **travels instantly and decrementally** (as a graded potential) to the sodium channels at the next node, where the AP is regenerated, and so on down the length of the axon.
 
-Now the speed advantage is easy to explain. Conduction along the myelinated segments is **instantaneous**, because it is a graded potential; the regeneration, which is the slow part, happens only at the nodes. The signal therefore appears to **"jump" along the axon from one node of Ranvier to the next**. There is, of course, a slight delay at each node while the AP is regenerated, but conduction is still **much faster** in myelinated than in unmyelinated axons. The transmission of APs in myelinated axons is called **saltatory conduction** (*saltare* means "to skip or jump").
+Now the speed advantage is easy to explain. Between nodes the signal is a graded potential, so it crosses each myelinated stretch **instantaneously**; the time-consuming step, regeneration, is needed only at the nodes. To an observer, the AP seems to **"jump" from node to node**. Each node does add a short pause while the AP is rebuilt, yet overall a myelinated axon still conducts **far faster** than an unmyelinated one. This node-to-node mode of transmission is called **saltatory conduction** (from *saltare*, "to skip or jump").
 
 Given the importance of myelin in neural conduction, it is hardly surprising that diseases that attack myelin, such as **multiple sclerosis**, have devastating effects on neural activity and behaviour.
 
@@ -417,7 +417,7 @@ This is a significant correction to the impression the module may have given. Th
 
 ### The Hodgkin-Huxley model in perspective
 
-The account of neural conduction given so far is based largely on the **Hodgkin-Huxley model**, the theory first proposed by Hodgkin and Huxley in the **early 1950s** (see Catterall et al., 2012). Pinel's point in this subsection is about the **status** of what you have just learned: it is a model, and you should know both why it was so successful and where it breaks down.
+Almost everything this module has said about neural conduction comes from the **Hodgkin-Huxley model**, which Hodgkin and Huxley put forward in the **early 1950s** (see Catterall et al., 2012). Pinel's point in this subsection is about the **status** of what you have just learned: it is a model, and you should know both why it was so successful and where it breaks down.
 
 **Why it deserves credit.** In introductory biology and psychology courses it is often presented as a factual account of neural conduction rather than as a theory. To be fair, it was a **major advance**. Fully deserving of the **1963 Nobel Prize**, it provided a simple, effective introduction to what we now understand about the general ways in which neurons conduct signals.
 
@@ -425,9 +425,9 @@ The account of neural conduction given so far is based largely on the **Hodgkin-
 
 1. **The model's original preparation.** The Hodgkin-Huxley model was based on the study of **squid motor neurons**. Motor neurons are **simple, large, and readily accessible in the PNS**, and squid motor neurons are particularly large. These very properties contributed to the initial success of the research, but they also make it difficult to apply the model directly to the mammalian brain. A model built on the easiest neuron to study is a model of an unusually simple neuron.
 2. **Diversity of brain neurons.** **Hundreds of different kinds of neurons** are found in the mammalian brain, and many of them have **actions not found in motor neurons**.
-3. **Conduction may not be purely electrical.** There is mounting evidence that neural conduction is **not merely due to electrical impulses** (see Holland, De Regt, & Drukarch, 2019). For example, there is evidence that electrical impulses such as APs and PSPs are accompanied by **mechanical impulses**: **travelling waves of expansion and contraction of the neural membrane**, exactly like ripples on a pond (see Fox, 2018).
+3. **Conduction may not be purely electrical.** Evidence is growing that electrical impulses are **not the whole story** of neural conduction (see Holland, De Regt, & Drukarch, 2019). APs and PSPs, for instance, appear to come with **mechanical impulses** as well: the neural membrane swells and shrinks in **waves of expansion and contraction that travel along it**, much like ripples spreading across a pond (see Fox, 2018).
 
-In summary, the Hodgkin-Huxley model **should be applied to cerebral neurons with great caution**.
+The upshot: be **very cautious** about applying the Hodgkin-Huxley model to **cerebral neurons**.
 
 > **Trap.** The resting-potential work and the AP model are both **Hodgkin and Huxley**, **1950s**; the **Nobel Prize** came in **1963** (standard history: shared with John Eccles). Pinel calls the preparation "squid motor neurons"; most textbooks say the **squid giant axon**. The criticism is not that the model is *wrong* but that it is **unrepresentative** of brain neurons. The 8th edition made that point with a list of specific differences (many brain neurons fire continually without input, some dendrites conduct APs actively, APs vary between neurons); the 11th edition replaces the list with the "hundreds of kinds of neurons" point plus the new **mechanical impulse** evidence, so expect the list in older papers and the mechanical waves in newer ones.
 
@@ -437,11 +437,11 @@ In summary, the Hodgkin-Huxley model **should be applied to cerebral neurons wit
 
 Sections 4.2 and 4.3 dealt with communication *within* a single neuron, through PSPs and APs. This module crosses the gap to the next cell. It explains how APs arriving at terminal buttons trigger the release of neurotransmitters into synapses, and how neurotransmitters then carry signals to other cells. Pinel organises the module around **five aspects of synaptic transmission**, which make a useful skeleton for any long answer:
 
-1. the **structure** of synapses;
-2. the **synthesis, packaging and transport** of neurotransmitter molecules;
-3. the **release** of neurotransmitter molecules;
-4. the **activation of receptors** by neurotransmitter molecules; and
-5. the **reuptake, enzymatic degradation and recycling** of neurotransmitter molecules.
+1. how synapses are **structured**;
+2. how transmitter molecules are **synthesised, packaged and transported** to the button;
+3. how they are **released**;
+4. how they **activate receptors** on the next cell; and
+5. how they are cleared away afterwards by **reuptake, enzymatic degradation and recycling**.
 
 A sixth topic, the role of **glia and gap junctions**, closes the module and qualifies everything before it.
 
@@ -460,7 +460,7 @@ Many axodendritic synapses terminate on **dendritic spines**, nodules of various
 
 ### The tripartite synapse
 
-Notice that Figure 4.7 also shows an **astrocyte** situated at the synapse. This is not decoration. **Most synapses in the brain form a tripartite synapse**: a synapse that involves **two neurons and an astroglial cell** (see Allen & Eroglu, 2017; Grosche & Reichenbach, 2013; Navarrete & Araque, 2014; Sun et al., 2013). **All three cells communicate with one another through synaptic transmission.** The classic two-cell picture of a synapse, presynaptic neuron to postsynaptic neuron, is therefore incomplete for most brain synapses; the astrocyte is a participant, a point the module develops at the end.
+Notice that Figure 4.7 also shows an **astrocyte** situated at the synapse. This is not decoration. **Most synapses in the brain are tripartite synapses**: besides the **two neurons**, each includes **an astroglial cell**, and **the three cells all signal to one another by synaptic transmission** (see Allen & Eroglu, 2017; Grosche & Reichenbach, 2013; Navarrete & Araque, 2014; Sun et al., 2013). The classic two-cell picture of a synapse, presynaptic neuron to postsynaptic neuron, is therefore incomplete for most brain synapses; the astrocyte is a participant, a point the module develops at the end.
 
 > **Trap.** "Tripartite" means **three parts**: presynaptic neuron, postsynaptic neuron and **astrocyte** (an astroglial cell). It is not three neurons, and it is not the button, cleft and spine. The 11th edition says **most** synapses in the brain are tripartite.
 
@@ -501,15 +501,15 @@ One type of nondirected synapse is shown in Figure 4.9. Here, neurotransmitter m
 
 ### Synthesis, packaging and transport of neurotransmitter molecules
 
-There are **two basic categories** of neurotransmitter molecule: **large** and **small**.
+Neurotransmitter molecules fall into **two basic categories** by size, **small** and **large**.
 
-**All large neurotransmitters are neuropeptides.** **Neuropeptides** are **short amino acid chains composed of between 3 and 36 amino acids**; in effect, they are short proteins.
+**Every large neurotransmitter is a neuropeptide.** A **neuropeptide** is a short chain of **3 to 36 amino acids**, which makes it, in effect, a small protein.
 
 The two categories are made and delivered in completely different ways, and the difference follows from where the cell's protein-making machinery is located.
 
 **Small-molecule neurotransmitters** are typically **synthesised in the cytoplasm of the terminal button** and packaged in **synaptic vesicles** by the button's **Golgi complex**. (Pinel suggests reviewing the internal structures of neurons in Figure 3.6.) Once filled with neurotransmitter, the vesicles are stored in **clusters next to the presynaptic membrane**. Everything happens locally, at the place of release.
 
-**Neuropeptides**, like other proteins, are **assembled in the cytoplasm of the cell body on ribosomes**; they are then packaged in vesicles by the **cell body's Golgi complex** and **transported by microtubules to the terminal buttons** at a rate of about **40 centimetres (about 16 inches) per day**. Proteins are built on ribosomes, and ribosomes are in the cell body, so a peptide transmitter has to be shipped down the axon after it is made.
+**Neuropeptides** are made the way all proteins are, on **ribosomes in the cytoplasm of the cell body**. The **cell body's Golgi complex** then wraps them in vesicles, and **microtubules** carry those vesicles down the axon to the terminal buttons, a journey that proceeds at roughly **40 centimetres (about 16 inches) per day**. The reason for the long trip is simple: proteins are built on ribosomes, ribosomes sit in the cell body, so a peptide transmitter has to be shipped to the place where it will be released.
 
 Two physical differences follow and are visible in Figure 4.7: the vesicles that contain neuropeptides are **usually larger** than those containing small-molecule neurotransmitters, and they **do not usually congregate as closely to the presynaptic membrane** as the other vesicles do.
 
@@ -527,7 +527,7 @@ Two physical differences follow and are visible in Figure 4.7: the vesicles that
 
 It was **once believed that each neuron synthesises and releases only one neurotransmitter**, but it has been clear for some time that **many neurons contain two neurotransmitters**, a situation called **coexistence**.
 
-Pinel points out that you may already have seen the evidence without noticing it: the button in Figure 4.7 contains **synaptic vesicles of two sizes**. This suggests that it contains two neurotransmitters, a **neuropeptide in the larger vesicles** and a **small-molecule neurotransmitter in the smaller vesicles**. That peptide-plus-small-molecule pairing was the **first type of coexistence to be discovered**. We now know that there is also **coexistence of multiple small-molecule neurotransmitters** in the same neuron (see Granger, Wallace, & Sabatini, 2017). Adding further complexity, **neurons can change the types of neurotransmitters they release over their lifespan** (see Spitzer, 2017).
+Pinel points out that you may already have seen the evidence without noticing it: look again at the button in Figure 4.7 and you will find **vesicles of two different sizes**. The natural reading is that this one button holds two transmitters, with the **larger vesicles carrying a neuropeptide** and the **smaller ones a small-molecule neurotransmitter**. That peptide-plus-small-molecule pairing was the **first type of coexistence to be discovered**. We now know that there is also **coexistence of multiple small-molecule neurotransmitters** in the same neuron (see Granger, Wallace, & Sabatini, 2017). Adding further complexity, **neurons can change the types of neurotransmitters they release over their lifespan** (see Spitzer, 2017).
 
 > **Trap.** The "one neuron, one transmitter" view that coexistence overturned is often called **Dale's principle** (a later simplification of Henry Dale's claim that a neuron releases the same transmitter at all its terminals); Pinel does not use the name. The finding that contradicts it is **coexistence**.
 
@@ -535,9 +535,9 @@ Pinel points out that you may already have seen the evidence without noticing it
 
 **Exocytosis** is the process of neurotransmitter release (Figure 4.10; see Shin, 2014). Work through it as a causal chain:
 
-1. When a neuron is **at rest**, synaptic vesicles containing small-molecule neurotransmitters tend to **congregate near sections of the presynaptic membrane that are particularly rich in voltage-gated calcium channels** (see Simms & Zamponi, 2014).
+1. In a **resting** neuron, vesicles filled with small-molecule transmitter **gather beside the parts of the presynaptic membrane where voltage-gated calcium channels are especially dense** (see Simms & Zamponi, 2014).
 2. When **APs** arrive and depolarise the button, these **calcium channels open**, and **Ca2+ (calcium) ions enter the button**.
-3. The **entry of Ca2+ triggers a chain reaction** that ultimately causes **synaptic vesicles to fuse with the presynaptic membrane** and **empty their contents into the synaptic cleft** (see Zhou et al., 2017).
+3. The incoming **Ca2+ sets off a cascade of reactions**, at the end of which the **vesicles merge with the presynaptic membrane** and **spill the transmitter they hold into the synaptic cleft** (see Zhou et al., 2017).
 
 Notice that this is where the electrical signal becomes a chemical one. The AP is an electrical event; the calcium channel is a voltage-gated channel of the kind met in 4.3; and the calcium entering through it is the trigger for a chemical release. The module's title, "from electrical signals to chemical signals", happens at step 2.
 
@@ -559,15 +559,15 @@ So a single AP produces a burst of small-molecule release, whereas peptide relea
 
 ### Extracellular vesicles
 
-The 11th edition adds a qualification to the standard account: **not all vesicles fuse with the presynaptic membrane**. Some vesicles are released **as intact packages into the extracellular space**. These **extracellular vesicles** often carry **larger molecules (for example, proteins and RNA molecules)** between different neurons and glia in the central nervous system (see Holm, Kaiser, & Schwab, 2018; Paolicelli, Bergamini, & Rajendran, 2018). Some of the molecules they transmit can induce **persistent changes in the expression of genes through epigenetic mechanisms** (see Bakhshandeh, Kamaleddin, & Aalishah, 2017). Pinel flags this as one of the two places in the chapter where the book's emerging theme of **epigenetics** appears.
+The 11th edition adds a qualification to the standard account: **some vesicles never fuse with the presynaptic membrane at all**. Instead they leave the cell **whole**, as sealed packages, into the extracellular space. These **extracellular vesicles** often act as couriers for **bigger molecules, such as proteins and RNA molecules**, passing them between neurons and glia in the central nervous system (see Holm, Kaiser, & Schwab, 2018; Paolicelli, Bergamini, & Rajendran, 2018). Some of that cargo can bring about **lasting, epigenetically driven changes in gene expression** (see Bakhshandeh, Kamaleddin, & Aalishah, 2017). Pinel flags this as one of the two places in the chapter where the book's emerging theme of **epigenetics** appears.
 
 ### Activation of receptors by neurotransmitter molecules
 
 Once released, neurotransmitter molecules produce signals in postsynaptic neurons by **binding to receptors in the postsynaptic membrane**. Each **receptor** is a **protein** that contains **binding sites for only particular neurotransmitters**. It follows that a neurotransmitter can influence **only those cells that have receptors for it**; the effect of a transmitter depends as much on where its receptors are as on where it is released.
 
-Any molecule that binds to another is referred to as its **ligand**, so a neurotransmitter is said to be a **ligand of its receptor**.
+A molecule that binds to another molecule is called that molecule's **ligand**; a neurotransmitter is therefore the **ligand of its receptor**.
 
-It was initially assumed that there is **only one type of receptor for each neurotransmitter**, but this has not proved to be the case. As more receptors have been identified, it has become clear that **most neurotransmitters bind to several different types of receptor**. The different types of receptor to which a particular neurotransmitter can bind are called the **receptor subtypes** for that neurotransmitter. The various subtypes for a transmitter are typically **located in different brain areas**, and they typically **respond to the neurotransmitter in different ways**. One advantage of receptor subtypes, therefore, is that they **enable one neurotransmitter to transmit different kinds of messages to different parts of the brain**. (Module 4.6 tells the story of how subtypes were discovered, through acetylcholine.)
+Researchers first expected each neurotransmitter to have **a single type of receptor**. That expectation turned out to be wrong: the more receptors were identified, the clearer it became that **most neurotransmitters can bind to several different types of receptor**. These alternative receptors for one transmitter are its **receptor subtypes**. Subtypes of the same transmitter tend to sit **in different brain areas** and to **react to that transmitter differently**, and that is their advantage: a single neurotransmitter can **send different kinds of message to different parts of the brain**. (Module 4.6 tells the story of how subtypes were discovered, through acetylcholine.)
 
 The binding of a neurotransmitter to one of its receptor subtypes can influence a postsynaptic neuron in one of **two fundamentally different ways**, depending on whether the receptor is **ionotropic** or **metabotropic** (Figure 4.11).
 
@@ -590,12 +590,12 @@ The ionic mechanisms of PSPs, promised in 4.2, can now be filled in:
 - **more diffuse**, and
 - **more varied**.
 
-There are many different kinds of metabotropic receptor, but each is attached to a **serpentine signal protein** that **winds its way back and forth through the cell membrane seven times**. The metabotropic receptor is attached to a portion of the signal protein **outside** the neuron; the **G protein** is attached to a portion of the signal protein **inside** the neuron.
+Metabotropic receptors come in many varieties, but they share one structural plan. Each is linked to a **serpentine signal protein**, a long protein that **threads back and forth across the cell membrane seven times**. The receptor sits on the part of this protein that faces **outside** the neuron, and the **G protein** is coupled to the part that faces **inside**.
 
-When a neurotransmitter binds to a metabotropic receptor, **a subunit of the associated G protein breaks away**. Then one of **two** things happens, depending on the particular G protein:
+Binding of a neurotransmitter to the receptor causes **a subunit of the G protein to break away**. What the freed subunit does next depends on which G protein it belongs to, and there are **two** possibilities:
 
 1. The subunit may **move along the inside surface of the membrane and bind to a nearby ion channel**, thereby inducing an **EPSP or IPSP**. (So metabotropic receptors can produce PSPs too, only indirectly and more slowly.)
-2. Or it may **trigger the synthesis of a chemical called a second messenger**. Neurotransmitters are considered the **first messengers**. Once created, a second messenger **diffuses through the cytoplasm** and may influence the activities of the neuron in a variety of ways (Lyon, Taylor, & Tesmer, 2014); for example, it may **enter the nucleus and bind to the DNA**, thereby **influencing genetic expression**.
+2. Or it may cause the neuron to **synthesise a second messenger**, a chemical so named because the neurotransmitter itself counts as the **first messenger**. The second messenger **spreads through the cytoplasm**, where it can alter the neuron's activity in many different ways (Lyon, Taylor, & Tesmer, 2014). One of these is to **pass into the nucleus and bind to DNA**, changing **which genes are expressed**.
 
 This is why a neurotransmitter's binding to a metabotropic receptor can have **radical, long-lasting effects**: through second messengers it can reach the genome and change what the neuron is made of. The 11th edition adds that there is now evidence that **ionotropic receptors can also produce second messengers** that can have enduring effects (see Valbuena & Lerma, 2016; Reiner & Levitz, 2018), so the division between the two receptor types is not absolute.
 
@@ -651,7 +651,7 @@ If nothing intervened, a neurotransmitter molecule would remain active in the sy
 
 **Enzymatic degradation** is the alternative: some neurotransmitters are **degraded (broken apart) in the synapse by the action of enzymes**. **Enzymes** are **proteins that stimulate or inhibit biochemical reactions without being affected by them**. The key example is **acetylcholine**, which is **one of the few neurotransmitters for which enzymatic degradation is the main mechanism of synaptic deactivation**; it is broken down by the enzyme **acetylcholinesterase**.
 
-**Recycling.** Terminal buttons are models of efficiency. Once released, neurotransmitter molecules **or their breakdown products** are drawn back into the button and **recycled, regardless of the mechanism of their deactivation**. Even the **vesicles**, once they have done their job, are drawn back into the neuron from the presynaptic membrane and used to create new vesicles (see Soykan, Maritzen, & Haucke, 2016).
+**Recycling.** Terminal buttons waste very little. Whichever way a transmitter was deactivated, the button **takes back either the molecules themselves or their breakdown products** and **recycles** them. The **vesicles** are salvaged too: after they have released their contents, they are pulled back into the neuron from the presynaptic membrane and made into new vesicles (see Soykan, Maritzen, & Haucke, 2016).
 
 > **Trap.** Reuptake, not enzymatic degradation, is the **more common** deactivation mechanism. Acetylcholine is the **exception** that is mainly degraded (by **acetylcholinesterase**), and examiners like to offer "most neurotransmitters are broken down by enzymes in the cleft" as a distractor. Also note that breakdown products are recycled too, so enzymatic degradation does not mean the material is lost.
 
@@ -673,7 +673,7 @@ It is now inappropriate, Pinel argues, to think of brain function solely in term
 
 ### Gap junctions and electrical synapses
 
-The explosion of interest in glia has gone hand in hand with increased interest in **gap junctions**. **Gap junctions** are **narrow spaces between adjacent cells that are bridged by fine, tubular, cytoplasm-filled protein channels called connexins**. Consequently, gap junctions **connect the cytoplasm of two adjacent cells**, allowing **electrical signals and small molecules (for example, second messengers)** to pass directly from one cell to the next (Figure 4.13). Gap junctions are responsible for the existence of **electrical synapses**, which can transmit signals **much more rapidly than chemical synapses** (see Coulon & Landisman, 2017). There is no release, no diffusion across a cleft and no receptor binding to wait for; the current simply flows through.
+The explosion of interest in glia has gone hand in hand with increased interest in **gap junctions**. A **gap junction** is a very **narrow space between two neighbouring cells** that is spanned by **connexins**, fine tubes of protein whose interiors are filled with cytoplasm. Through these tubes the **cytoplasm of one cell becomes continuous with that of the other**, so **electrical signals and small molecules (second messengers, for example)** can move straight across (Figure 4.13). Synapses formed by gap junctions are called **electrical synapses**, and they pass signals on **much faster than chemical synapses** can (see Coulon & Landisman, 2017). There is no release, no diffusion across a cleft and no receptor binding to wait for; the current simply flows through.
 
 The history of the idea is a lesson in how the choice of experimental species shapes scientific belief, and the dates are examinable:
 
@@ -682,7 +682,7 @@ The history of the idea is a lesson in how the choice of experimental species sh
 | **1950s** | Gap junctions between adjacent neurons **first reported**, but only in **invertebrates and simple vertebrates**, so gap-junction communication was assumed to be **of little significance in the mammalian brain** |
 | **Early 1970s** | Gap junctions established in **mammalian (rodent) brains**; still, a major role in human brain function was **not widely entertained** |
 | **1990s** | Stimulated by **several important technical developments** and the **identification of the gap junction gene**, gap junctions became a **focus of neuroscientific research** (see McCracken & Roberts, 2006) |
-| **Now** | **Firmly established** that glial cells and gap junctions play **major roles in brain function** (see Rusakov et al., 2014; Coulon & Landisman, 2017; Szczupak, 2016) |
+| **Now** | The **major role of both glia and gap junctions in brain function** is **firmly established** (see Rusakov et al., 2014; Coulon & Landisman, 2017; Szczupak, 2016) |
 
 > **Trap.** Gap junctions are bridged by **connexins**, and they produce **electrical** synapses that are **faster** than chemical synapses. Do not confuse gap junctions with the **synaptic cleft** of a chemical synapse; the defining feature of a gap junction is that the **cytoplasm of the two cells is continuous**. (It is standard textbook knowledge that electrical synapses can also pass current in both directions; Pinel's emphasis is on their speed.) Dates: first reported **1950s**, in mammals **early 1970s**, research focus **1990s**.
 
@@ -725,7 +725,7 @@ The classification has two levels (Figure 4.16). The **small-molecule neurotrans
 
 ### Amino acid neurotransmitters
 
-The neurotransmitters in the **vast majority of fast-acting, directed synapses in the central nervous system** are **amino acids**, the molecular building blocks of proteins. The four most widely studied amino acid neurotransmitters are:
+Nearly all of the **fast-acting, directed synapses of the central nervous system** use **amino acids** as their transmitters, the same molecules from which proteins are built. Four amino acid neurotransmitters have received the most research attention:
 
 - **glutamate**;
 - **aspartate**;
@@ -734,8 +734,8 @@ The neurotransmitters in the **vast majority of fast-acting, directed synapses i
 
 The first three are **common in the proteins we consume**, whereas **GABA is synthesised by a simple modification of the structure of glutamate**. There is an elegant irony in that last fact, because the two have opposite roles:
 
-- **Glutamate** is the **most prevalent excitatory neurotransmitter** in the mammalian central nervous system.
-- **GABA** is the **most prevalent inhibitory neurotransmitter**; however, it has **excitatory effects at some synapses** (see Watanabe, Fukuda, & Nabekura, 2014).
+- **Glutamate** is the mammalian central nervous system's **chief excitatory transmitter**; no excitatory neurotransmitter is **more prevalent**.
+- **GABA** is the **most prevalent inhibitory transmitter**, although at **some synapses it actually excites** (see Watanabe, Fukuda, & Nabekura, 2014).
 
 The 11th edition gives no specific functions for aspartate and glycine. It is standard textbook knowledge that glycine is generally inhibitory (notably in the spinal cord and brain stem) and aspartate generally excitatory, which is consistent with the book but not stated in it.
 
@@ -745,7 +745,7 @@ The 11th edition gives no specific functions for aspartate and glycine. It is st
 
 **Monoamines** are another class of small-molecule neurotransmitter. Each is **synthesised from a single amino acid**, hence the name *monoamine* (one amine). Compared with the amino acid neurotransmitters, monoamines are **slightly larger** and their effects tend to be **more diffuse**.
 
-Their anatomy explains the diffuseness. The monoamines are present in **small groups of neurons whose cell bodies are, for the most part, located in the brain stem**. These neurons often have **highly branched axons with many varicosities** (the **string-of-beads synapses** of 4.4), from which monoamine neurotransmitters are **diffusely released into the extracellular fluid** (Figures 4.9 and 4.14). A small number of cells, each broadcasting widely, can influence large regions of the brain. Figure 4.14 is a photograph of string-of-beads **noradrenergic** fibres, in which the bright beaded structures are the sites where **norepinephrine** is stored and released.
+Their anatomy explains the diffuseness. Monoamines are made by **small clusters of neurons**, and the cell bodies of these clusters lie **mostly in the brain stem**. Their axons typically **branch extensively** and are dotted with **many varicosities** (the **string-of-beads synapses** of 4.4), which release the monoamines **diffusely into the extracellular fluid** (Figures 4.9 and 4.14). A small number of cells, each broadcasting widely, can influence large regions of the brain. Figure 4.14 is a photograph of string-of-beads **noradrenergic** fibres, in which the bright beaded structures are the sites where **norepinephrine** is stored and released.
 
 There are **four monoamine neurotransmitters**: **dopamine**, **epinephrine**, **norepinephrine** and **serotonin**. They are subdivided on the basis of structure into two groups, **catecholamines** and **indolamines**.
 
@@ -792,9 +792,9 @@ In contrast to the other monoamines, **serotonin** (also called **5-hydroxytrypt
 
 ### Acetylcholine
 
-**Acetylcholine** (abbreviated **ACh**) is a small-molecule neurotransmitter that is, in Pinel's joke, like a professor who is late for a lecture: it is **in a class by itself**. It is created by **adding an acetyl group to a choline molecule**.
+**Acetylcholine** (abbreviated **ACh**) is a small-molecule neurotransmitter that belongs to no larger family. Pinel's joke is that, like a professor who turns up late to teach, it is **in a class by itself**. Chemically it is a **choline molecule with an acetyl group attached**.
 
-Acetylcholine is the neurotransmitter:
+ACh is the transmitter used:
 
 - at **neuromuscular junctions** (the synapses between motor neurons and skeletal muscle);
 - at **many of the synapses in the autonomic nervous system**; and
@@ -810,9 +810,9 @@ The **unconventional neurotransmitters** act in ways different from those neuros
 
 1. **No storage.** They are **produced in the neural cytoplasm** and **immediately diffuse through the cell membrane** into the extracellular fluid, and then **into nearby cells**.
 2. **No membrane receptors needed.** They pass easily through cell membranes because they are **soluble in lipids**. Once inside another cell, they **stimulate the production of a second messenger**.
-3. **Very short-lived.** In **a few seconds** they are **deactivated by being converted to other molecules**. For this reason they are **difficult to study**: they exist for only a few seconds.
+3. **Very short-lived.** Within **a few seconds** they are **converted into other molecules**, which deactivates them. A signal that lasts only seconds is **difficult to study**.
 
-Soluble-gas neurotransmitters have been shown to be involved in **retrograde transmission**. At some synapses they transmit **feedback signals from the postsynaptic neuron back to the presynaptic neuron**. The function of retrograde transmission seems to be to **regulate the activity of presynaptic neurons** (see Iremonger, Wamsteeker Cusulin, & Bains, 2013).
+One job they have been shown to do is **retrograde transmission**: at some synapses they carry **feedback from the postsynaptic neuron back to the presynaptic one**. This backward signalling appears to serve to **regulate the activity of presynaptic neurons** (see Iremonger, Wamsteeker Cusulin, & Bains, 2013).
 
 > **Trap.** **Retrograde** transmission means **postsynaptic → presynaptic**, against the usual direction of chemical transmission. Do not confuse it with **antidromic** conduction (4.3), which is an AP travelling backwards along an *axon*. Retrograde refers to signalling *across a synapse*; antidromic to conduction *within a neuron*.
 
@@ -943,12 +943,12 @@ It was originally assumed that there was **one kind of receptor for each neurotr
 
 Many drugs used in research and medicine are extracts of plants long used for medicinal and recreational purposes, and the cholinergic agonists and antagonists illustrate this well.
 
-**Belladonna and atropine.** The ancient Greeks consumed extracts of the **belladonna** plant to treat stomach ailments and to make themselves more attractive: Greek women believed that the **pupil-dilating** effects of the extracts enhanced their beauty (*belladonna* means "beautiful lady"). **Atropine**, the main active ingredient of belladonna, is a **receptor blocker** that exerts its antagonist effect by **binding to muscarinic receptors**, thereby blocking the effects of acetylcholine on them. Its effects divide neatly by location:
+**Belladonna and atropine.** The ancient Greeks took extracts of the **belladonna** plant for two quite different purposes: as a remedy for stomach complaints and as a beauty aid. Greek women thought that the way the extracts **widened (dilated) the pupils** made them more beautiful, hence the name (*belladonna*, "beautiful lady"). The plant's main active ingredient is **atropine**, a **receptor blocker**. It acts as an antagonist by **occupying muscarinic receptors**, so that acetylcholine can no longer act on them. Its effects divide neatly by location:
 
 - the **pupil-dilating** effects of atropine are mediated by its antagonist actions on **muscarinic receptors in the ANS**;
 - the **disruptive effects of large doses of atropine on memory** are mediated by its antagonistic effect on **muscarinic receptors in the CNS**.
 
-That second effect has historical importance: the disruptive effect of high doses of atropine on memory was **one of the earliest clues that cholinergic mechanisms may play a role in memory** (taken up in Chapter 11).
+That second effect has historical importance: the observation that large doses of atropine **impair memory** was **among the first hints that cholinergic mechanisms might contribute to memory** (taken up in Chapter 11).
 
 **Curare.** South Americans have long used **curare**, an extract of a certain class of woody vines, on the tips of the darts they use to kill game. Like atropine, curare is a **receptor blocker at cholinergic synapses**, but it acts at **nicotinic receptors**. By binding to nicotinic receptors, curare **blocks transmission at neuromuscular junctions**, thus **paralysing** its recipients and **killing them by blocking their respiration** (the breathing muscles are skeletal muscles too). Surprisingly, the active ingredient of curare is sometimes administered to human patients **during surgery** to ensure that their muscles do not contract during an incision. When it is used this way, the patient's breathing must be **artificially maintained by a respirator**.
 
@@ -963,11 +963,11 @@ That second effect has historical importance: the disruptive effect of high dose
 
 ### Pleasure and pain: discovery of endogenous opioids
 
-**Opium**, the sticky resin obtained from the seed pods of the **opium poppy**, has been used by humans **since prehistoric times** for its pleasurable effects. **Morphine**, its major psychoactive ingredient, is **addictive**. But morphine also has a good side: it is an effective **analgesic** (painkiller), as Chapters 7 and 15 discuss.
+People have taken **opium** for pleasure **since prehistoric times**; it is the sticky resin collected from the seed pods of the **opium poppy**. Its chief psychoactive ingredient, **morphine**, is **addictive**, yet it also has a beneficial use as an effective **analgesic** (painkiller), as Chapters 7 and 15 discuss.
 
-**The receptor discovery.** In the **1970s** it was discovered that opioid drugs such as morphine **bind effectively to receptors in the brain**. These receptors were generally found in the **hypothalamus and other limbic areas**, but they were **most concentrated** in the area of the brain stem around the **cerebral aqueduct** (the duct connecting the third and fourth ventricles). This part of the brain stem is called the **periaqueductal gray (PAG)**. **Microinjection of morphine into the PAG**, or even **electrical stimulation of the PAG**, produces **strong analgesia**.
+**The receptor discovery.** During the **1970s**, researchers found that morphine and other opioid drugs **bind effectively to receptors in the brain**. Such receptors turned up in the **hypothalamus and other limbic areas**, but their **highest concentration** was in the brain stem region surrounding the **cerebral aqueduct**, the duct that links the third and fourth ventricles. That region is the **periaqueductal gray (PAG)**. A **microinjection of morphine** into the PAG produces **strong analgesia**, and so does merely **stimulating the PAG electrically**.
 
-**The inference.** The existence of selective opioid receptors in the brain raised an interesting question: why are they there? They are certainly not there so that, once humans discovered opium, opioids would have somewhere to bind. The existence of a receptor for a plant chemical suggested that **opioid chemicals occur naturally in the brain**, and that possibility triggered an **intensive search** for them. This is a clear example of reasoning from a receptor to its natural ligand: a lock implies a key.
+**The inference.** Why would the brain contain receptors that are selective for opioids? It plainly did not evolve them in anticipation of humans one day discovering opium. A receptor that responds to a plant chemical suggested instead that **the brain makes opioid chemicals of its own**, and that idea set off an **intensive search** for them. This is a clear example of reasoning from a receptor to its natural ligand: a lock implies a key.
 
 **What was found.** **Several families of endogenous** (occurring naturally within the body) **opioids** have been discovered:
 
@@ -980,9 +980,9 @@ That second effect has historical importance: the disruptive effect of high dose
 
 ### Tremors and mental illness: discovery of antipsychotic drugs
 
-Arguably the most important event in the treatment of mental illness has been the **development of drugs for the treatment of schizophrenia**. Surprisingly, **Parkinson's disease**, the disease from which Roberto Garcia d'Orta suffered, played a major role in their discovery. Follow the reasoning as a sequence of clues.
+The **development of drugs to treat schizophrenia** has a fair claim to be the single most important advance in the treatment of mental illness. Unexpectedly, **Parkinson's disease**, Roberto Garcia d'Orta's illness from the opening case, was central to their discovery. Follow the reasoning as a sequence of clues.
 
-**Clue 1: two accidental discoveries.** In the **1950s**, **largely by chance**, two drugs were found to have **antipsychotic** effects; that is, they **reduced the severity of psychosis**, the major symptom of schizophrenia. The two drugs were **not related structurally**. (Pinel names them in Chapter 18; they were **chlorpromazine** and **reserpine**.)
+**Clue 1: two accidental discoveries.** During the **1950s**, two drugs were discovered, **mostly by luck**, to be **antipsychotic**: they made **psychosis**, the main symptom of schizophrenia, **less severe**. The two drugs were **not related structurally**. (Pinel names them in Chapter 18; they were **chlorpromazine** and **reserpine**.)
 
 **Clue 2: a curious shared pattern.** Despite their structural differences, both drugs produced the same curious pattern of effects. **Neither appeared to have any antipsychotic activity until patients had been taking it for about 3 weeks**, at which point the drug **also started to produce mild Parkinsonian symptoms** (for example, **tremor-at-rest**). Two structurally unrelated drugs sharing both a delay and a side effect suggests a shared mechanism, and the side effect pointed to which one.
 

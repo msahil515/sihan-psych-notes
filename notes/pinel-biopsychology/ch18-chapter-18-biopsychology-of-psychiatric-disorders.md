@@ -42,17 +42,11 @@ So experts often disagree on particular cases, and the DSM's guidelines change w
 
 ### Schizophrenia: The Case of Lena
 
-Lena's **mother was hospitalised with schizophrenia when Lena was 2** (Meyer & Salmon, 1988). As a child Lena had periods of hyperactivity, and as an adolescent she was seen as odd. She got good grades but had few friends. Shortly after her marriage her husband noticed she was becoming withdrawn. She would sit for hours barely moving, often talking at length with people who were not there.
+The case (Meyer & Salmon, 1988) has a long run-up. Schizophrenia was already in the family: Lena's **mother was hospitalised with schizophrenia when Lena was 2**. Lena went through spells of hyperactivity as a child, and by adolescence other people thought her odd; she did well at school but made few friends.
 
-One day he found her on the floor in an odd posture, staring and completely unresponsive. When he tried to move her she showed **waxy flexibility**: like a mannequin, she did not resist being moved and held each new position until moved again. She was diagnosed with **schizophrenia with catatonia**, meaning schizophrenia with long periods of immobility and waxy flexibility. In hospital she showed **echolalia**, the vocal repetition of some or all of what has just been heard:
+The illness became obvious soon after she married. Her husband watched her grow steadily more withdrawn: she could sit almost motionless for hours, often holding long conversations with people who did not exist. Then one day he found her sitting on the floor in a strange posture, gazing into space and responding to nothing. When he moved her she put up no resistance and simply stayed in whatever position he left her in, the way a mannequin would; this is **waxy flexibility**. The diagnosis was **schizophrenia with catatonia**, the form marked by long stretches of immobility together with waxy flexibility.
 
-> Doctor: How are you feeling today?
->
-> Lena: I am feeling today, feeling the feelings today.
->
-> Doctor: Are you still hearing the voices?
->
-> Lena: Am I still hearing the voices, voices?
+On the ward she also showed **echolalia**, saying back aloud part or all of what someone has just said. Asked how she was feeling, and later whether she was still hearing voices, Lena replied each time by repeating the doctor's question almost word for word, then echoing a key word again ("feeling the feelings", "voices, voices") instead of giving an answer.
 
 The case contains most of what the module comes back to. There is a **family history**, which points to genes. There is **oddness long before diagnosis**, which suggests a developmental disorder. The onset is in **early adulthood**. And it shows both **positive** features (voices) and **negative** ones (withdrawal, catatonia).
 
@@ -707,9 +701,7 @@ Two related issues have emerged **over the past decade**. Trial volunteers **lac
 
 ### Effectiveness of Clinical Trials
 
-Despite the controversies, **the process works**. Zivin wrote:
-
-> "A long, dismal history tells of charlatans who make unfounded promises and take advantage of people at the time when they are least able to care for themselves. The clinical trial process is the most objective method ever devised to assess the efficacy of a treatment. It is expensive and slow, and in need of constant refinements, and oversight, but the process is trustworthy." (Zivin, 2000, p. 75)
+Despite the controversies, **the process works**. Zivin (2000) defends it by pointing to what came before: a long and grim record of **charlatans** making baseless promises and exploiting people at exactly the moment they were least able to look after themselves. Set against that, he calls the clinical trial "the most objective method ever devised to assess the efficacy of a treatment" (Zivin, 2000, p. 75). He grants that it is **expensive and slow** and needs **constant refinement and oversight**, but his verdict is that it is **trustworthy**.
 
 Ethical concerns about randomised double-blind placebo studies are **warranted**, but most professionals accept them as **the essential critical test** of a new therapy. This is especially so for psychotherapeutic drugs, because psychiatric disorders **often respond to placebo** (Rutherford & Roose, 2013; Wager & Atlas, 2015), and because ratings of severity can be **greatly influenced by the therapist's expectations**.
 

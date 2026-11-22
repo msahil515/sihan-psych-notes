@@ -28,7 +28,7 @@ The opening case comes from **Meddis (1977)** and is meant to unsettle several c
 
 **Miss M.** usually slept only **1 hour per night**. She was retired but busy, painting, writing and volunteering in the community. She became tired *physically* but never reported feeling *sleepy*. During the night she sat on her bed reading, writing, crocheting or painting. At about 2:00 a.m. she would often fall asleep **without any preceding drowsiness**, and when she woke about an hour later she felt wide awake.
 
-She came to the laboratory for sleep tests, and the first night ran into a snag. She told the researchers that she did not sleep at all if she had interesting things to do, and a visit to a sleep laboratory was very interesting: she had someone to talk to all night. The researchers split into shifts so that some could sleep while someone stayed with her. The second night was the same as the first. On the **third night** she promised to try to sleep, and she did. The only abnormal thing about her sleep was that it was brief: after **99 minutes** she could sleep no more.
+Testing her in a sleep laboratory was awkward at first. Miss M. explained that she never slept when there was something interesting to do, and a laboratory with company available all night counted as very interesting. So for two nights running she stayed up talking, while the researchers worked in shifts, one keeping her company as the others rested. Only on the **third night**, once she had agreed to make an effort, did she sleep, and the recording showed nothing unusual except the duration: she woke after **99 minutes** and could not get back to sleep.
 
 The case challenges three beliefs: that everybody needs something close to 8 hours; that short sleep must bring sleepiness and impairment (Miss M. was active and never sleepy); and that sleep is a fixed physiological demand (she simply did not sleep when something more interesting was available). The last point returns in 14.9 as the claim that sleep has a high **positive-incentive value**, the concept that organised Chapter 12 on eating.
 
@@ -113,11 +113,12 @@ Now pin the vocabulary down, because exam options are built from it.
 
 Table 14.1 is the book's own summary of these equivalences:
 
-| Term | Equivalent EEG stage(s) |
-|---|---|
-| **REM sleep** | Emergent stage 1 EEG |
-| **NREM sleep** | Initial stage 1 EEG (NREM 1), stage 2 EEG (NREM 2), stage 3 EEG (NREM 3) |
-| **Slow-wave sleep** | Stage 3 EEG (NREM 3) |
+| EEG stage | Label | Broader category |
+|---|---|---|
+| Initial stage 1 | NREM 1 | **NREM sleep** |
+| Stage 2 | NREM 2 | **NREM sleep** |
+| Stage 3 | NREM 3, also called **slow-wave sleep** | **NREM sleep** |
+| Emergent stage 1 | **REM sleep** | REM sleep (a category of its own) |
 
 > **Trap.** Many older sources and question banks use the older label **paradoxical sleep** for REM sleep, because the EEG looks like waking while the core muscles are paralysed. If an option says "paradoxical sleep", read it as REM sleep. Equally, "slow-wave sleep" in this edition means **NREM 3 only**; in four-stage keys it meant stages 3 and 4.
 
@@ -145,7 +146,7 @@ Barnes (writing as SB) notes that few topics provoke more classroom discussion t
 
 ### Discovery of the relationship between REM sleep and dreaming
 
-**Nathaniel Kleitman's** laboratory was an exciting place in **1953**. REM sleep had just been discovered, and with the exception of the loss of core-muscle tone, every measure suggested that REM episodes were **emotion-charged**: an active brain, a variable autonomic system, darting eyes. Kleitman and his students asked the obvious question: could REM sleep be the **physiological correlate of dreaming**?
+In **1953** REM sleep was a brand-new discovery, and **Nathaniel Kleitman's** laboratory was buzzing with the question of what it meant. Leave aside the drop in core-muscle tone and everything about a REM episode looked like the signature of an **emotion-charged** state: the brain was active, autonomic activity fluctuated and the eyes darted about. That pattern made the next step obvious to Kleitman and his students, who set out to test whether REM sleep was the **physiological correlate of dreaming**.
 
 The support was striking:
 
@@ -214,9 +215,9 @@ Lucidity arrived when he recognised a familiar, recurring script, and what he th
 
 #### The Case of the Artistic Dreamer
 
-At a dinner party, a guest, **M.S.**, claimed always to have lucid dreams. A sleep researcher at the party was sceptical and invited M.S. to sleep a few nights in her laboratory. She attached **EEG electrodes to the scalp, EOG electrodes around the eyes and EMG electrodes to the arm**, and gave an instruction: "When you see a flashing light in your dream use your **right arm to draw a star**." M.S. chuckled: "You could at least give me something interesting to draw," and fell asleep.
+**M.S.**, a guest at a dinner party, said they always dreamed lucidly. A sleep researcher who was present doubted the claim and invited M.S. to spend a few nights in her laboratory to test it. M.S. was fitted with **EEG electrodes on the scalp, EOG electrodes around the eyes and EMG electrodes on the arm**, and told that if a flashing light appeared in the dream, the signal was to **draw a star with the right arm**. M.S. joked that the researcher could have picked something more interesting to draw, then went to sleep.
 
-After **an hour and a half**, M.S. showed the signs of REM sleep: low-amplitude, high-frequency EEG and rapid eye movements. The researcher pointed a flashlight at M.S.'s eyes and switched it rapidly on and off, watching the EMG. What she saw made her believe in lucid dreams: M.S.'s arm muscles, **in the absence of overt movement**, displayed a series of contractions **identical to those of someone drawing a star**.
+Roughly **an hour and a half** later, the recordings showed REM sleep (low-amplitude, high-frequency EEG with rapid eye movements). The researcher then flicked a flashlight on and off at M.S.'s eyes while monitoring the arm EMG. The arm never visibly moved (**no overt movement**), yet the EMG recorded a sequence of muscle contractions **matching the pattern of drawing a star**, and that record turned the researcher into a believer in lucid dreams.
 
 Why this convinces: the signal came at a moment chosen by the experimenter during objectively verified REM sleep; the response was an arbitrary act agreed in advance; and it appeared as patterned EMG activity without visible movement, as expected if the dreamer "moved" in the dream while the body stayed largely immobile. The ninety-minute wait also fits the roughly 90-minute sleep cycle.
 
@@ -342,27 +343,27 @@ The two are not mutually exclusive. A theory might say we **evolved to sleep at 
 
 Sleep has been studied in only a small number of species, but the evidence suggests that **all mammals and most birds sleep** (Manger & Siegel, 2020), with **high-amplitude, low-frequency EEG** punctuated by periods of **low-amplitude, high-frequency** waves, as in humans. The evidence for sleep in **amphibians, reptiles, fish and insects** is less clear: some show periods of inactivity and unresponsiveness, but their relation to mammalian sleep **has not been established** (Siegel, 2008; Zimmerman et al., 2008). The book's journal prompt (how would you *define* sleep across organisms?) exposes why: an EEG definition excludes animals without a mammal-like EEG, while a behavioural definition casts a much wider net.
 
-Table 14.2 gives average hours of sleep per day. Learn the extremes and the human value.
+Table 14.2 gives average hours of sleep per day. Learn the extremes and the human value. The version below runs from the shortest sleepers to the longest, with species listed alphabetically within each row.
 
-| Mammalian species | Hours of sleep per day |
+| Average hours per day | Mammals at that value |
 |---|---|
-| Giant sloth | **20** |
-| Opossum, brown bat | 19 |
-| Giant armadillo | 18 |
-| Owl monkey, nine-banded armadillo | 17 |
-| Arctic ground squirrel | 16 |
-| Tree shrew | 15 |
-| Cat, golden hamster | **14** |
-| Mouse, rat, gray wolf, ground squirrel | 13 |
-| Arctic fox, chinchilla, gorilla, raccoon | 12 |
-| Mountain beaver | 11 |
-| Jaguar, vervet monkey, hedgehog | 10 |
-| Rhesus monkey, chimpanzee, baboon, red fox | 9 |
-| **Human**, rabbit, guinea pig, pig | **8** |
-| Gray seal, gray hyrax, Brazilian tapir | 6 |
-| Tree hyrax, rock hyrax | 5 |
-| Cow, goat, elephant, donkey, sheep | 3 |
-| Roe deer, horse, zebra | **2** |
+| **2** | Horse, roe deer, zebra |
+| 3 | Cow, donkey, elephant, goat, sheep |
+| 5 | Rock hyrax, tree hyrax |
+| 6 | Brazilian tapir, gray hyrax, gray seal |
+| **8** | **Human**, guinea pig, pig, rabbit |
+| 9 | Baboon, chimpanzee, red fox, rhesus monkey |
+| 10 | Hedgehog, jaguar, vervet monkey |
+| 11 | Mountain beaver |
+| 12 | Arctic fox, chinchilla, gorilla, raccoon |
+| 13 | Gray wolf, ground squirrel, mouse, rat |
+| **14** | Cat, golden hamster |
+| 15 | Tree shrew |
+| 16 | Arctic ground squirrel |
+| 17 | Nine-banded armadillo, owl monkey |
+| 18 | Giant armadillo |
+| 19 | Brown bat, opossum |
+| **20** | Giant sloth |
 
 <div class="fig">
 <a class="figzoom" href="figs/t_14_2.jpg" target="_blank" rel="noopener"><img src="figs/t_14_2.jpg" loading="lazy" alt="Pinel Table 14.2: from giant sloth 20 hours, cat 14, human 8, down to roe deer, horse and zebra 2 hours"></a>
@@ -452,7 +453,7 @@ The book adds a caution: the hypothesis **requires more systematic investigation
 
 **Physiological consequences.** Deprivation produces **reduced body temperature, increased blood pressure, decreases in some aspects of immune function, hormonal changes and metabolic changes** (Cedernaes, Schiöth, & Benedict, 2015; Irwin, Olmstead, & Carroll, 2016). But there is **little evidence that these changes affect health or performance**. A decline in one immune measure need not increase susceptibility to infection, because the immune system is complex and other changes often compensate. That is why the authors commend a study that measured susceptibility directly:
 
-> **Key study, Prather et al. (2015).** **164** healthy volunteers were exposed to a **cold virus**. Those who slept **less than 6 hours** a night were **not less likely to become infected**, but they were **more likely to develop a cold**.
+> **Key study, Prather et al. (2015).** The researchers deliberately exposed **164** healthy volunteers to a **cold virus**. Short sleepers (**less than 6 hours** a night) were **no less likely** than the others to catch the infection; where they stood out was in going on to **develop an actual cold** more often.
 
 Two cautions. The study is **correlational**: sleep duration was measured, not manipulated, so it cannot show that short sleep was the cause (short sleepers might differ in stress, the confound above). And the outcome that singled out the short sleepers was **developing a cold**, not infection. The suggestion of a causal link warrants further research.
 
@@ -767,7 +768,7 @@ In **birds, reptiles, amphibians and fish**, the pineal gland has important func
 
 In mammals, circulating melatonin levels display **circadian rhythms under the control of the SCN** (Videnovic et al., 2014; Zisapel, 2018), with the **highest levels associated with darkness and sleep** (Morris, Aeschbach, & Scheer, 2012). On the basis of this correlation, it has long been assumed that melatonin promotes sleep or regulates its timing in mammals.
 
-One fact should temper that assumption: in **adult mammals, pinealectomy** (removal of the pineal gland), and the consequent loss of melatonin, **appears to have little effect**. The pineal gland plays a role in the **development of mammalian sexual maturity**, but its functions **after puberty** are not at all obvious. A hormone whose removal changes little in adults is a weak candidate for an essential sleep signal.
+One fact should temper that assumption. Taking the pineal gland out of an **adult mammal** (**pinealectomy**), and with it the animal's melatonin, **seems to change very little**. The gland does contribute to the **development of sexual maturity** in mammals, but once **puberty** is over, what it does is far from clear. A hormone whose removal changes little in adults is a weak candidate for an essential sleep signal.
 
 <div class="fig">
 <a class="figzoom" href="figs/f_14_14.jpg" target="_blank" rel="noopener"><img src="figs/f_14_14.jpg" loading="lazy" alt="Pinel Fig 14.14: the pineal gland on the midline just ventral to the rear of the corpus callosum"></a>
@@ -778,7 +779,7 @@ One fact should temper that assumption: in **adult mammals, pinealectomy** (remo
 
 Does **exogenous** (externally produced) melatonin improve sleep, as widely believed? A **meta-analysis** (a combined analysis of the results of more than one study) of **19 studies** found that exogenous melatonin has a **slight, but statistically significant, soporific** (sleep-promoting) effect (**Ferracioli-Oda, Qawasmi, & Bloch, 2013**).
 
-There is also good evidence that melatonin can **shift the timing of mammalian circadian cycles**. Indeed, several researchers have argued that melatonin is better classified as a **chronobiotic**, a substance that **adjusts the timing of internal biological rhythms**, than as a **soporific** (Golombek et al., 2015). This is consistent with its effectiveness against **jet lag** (14.5), where the problem is mistimed sleep, not a shortage of sleepiness.
+Melatonin's more convincing action concerns timing: good evidence shows that it can **move mammalian circadian cycles** to a different point in the day. For that reason several researchers (Golombek et al., 2015) prefer to call it a **chronobiotic**, meaning a substance that **resets when internal biological rhythms run**, rather than a **soporific**. This is consistent with its effectiveness against **jet lag** (14.5), where the problem is mistimed sleep, not a shortage of sleepiness.
 
 Table 14.3 summarises the drugs that affect sleep:
 
@@ -839,7 +840,7 @@ Sleep apnoea is more common in **males**, in people who are **overweight**, and 
 Two other specific causes of insomnia involve the legs:
 
 - **Periodic limb movement disorder** is characterised by periodic, **involuntary movements of the limbs**, often twitches of the legs, **during sleep**. Most patients complain of poor sleep and daytime sleepiness but are **unaware of the nature of their problem**.
-- People with **restless legs syndrome** are **all too aware** of their problem. They complain of a hard-to-describe **tension or uneasiness in their legs** that **keeps them from falling asleep** (Lai et al., 2017).
+- **Restless legs syndrome** is the reverse as far as awareness goes: patients know **only too well** what is wrong. As they try to drop off, their legs fill with a **tension or uneasiness** they find hard to put into words, and it **prevents sleep onset** (Lai et al., 2017).
 
 Once established, **both disorders are chronic** (Ondo, 2019; Stevens, 2015). There are **no effective treatments**, although **L-dopa** (Chapter 10) can help some patients (Ondo, 2019).
 
@@ -847,7 +848,7 @@ Once established, **both disorders are chronic** (Ondo, 2019; Stevens, 2015). Th
 
 ### Sleep restriction therapy
 
-One of the most effective treatments for insomnia is **sleep restriction therapy** (Kay-Stacey & Attarian, 2016; Trauer et al., 2015). First, the amount of time the person is allowed to spend in bed is **substantially reduced**. Then, after a period of restriction, time in bed is **gradually increased in small increments**, as long as **sleep latency remains in the normal range**. Even people with **severe insomnia** can benefit.
+**Sleep restriction therapy** ranks among the most effective treatments for insomnia (Kay-Stacey & Attarian, 2016; Trauer et al., 2015), and it runs in two phases. The patient's permitted time in bed is first **cut back substantially**. After a spell on that restricted schedule, it is **lengthened again in small steps**, each step allowed only while **sleep latency stays within the normal range**. The method helps even those whose insomnia is **severe**.
 
 Why does giving an insomniac *less* time in bed help? Restricted sleep becomes more **efficient** (14.4), and the anxious hours of lying awake are removed, which systematises the "go to bed only when very sleepy" advice.
 
@@ -855,8 +856,8 @@ Why does giving an insomniac *less* time in bed help? Restricted sleep becomes m
 
 **Narcolepsy** is the most widely studied hypersomnia. It occurs in about **1 in 2,000** individuals (Arango, Kivity, & Shoenfeld, 2015; Mahoney et al., 2019) and has **two prominent symptoms**:
 
-1. **Severe daytime sleepiness and repeated, brief (10- to 15-minute) daytime sleep episodes.** Individuals with narcolepsy typically sleep only about **an hour per day more than average**; it is the **inappropriateness** of their sleep episodes that most clearly defines the condition. Most of us occasionally fall asleep on a beach, in front of the television, or in the large, stuffy, dimly lit lecture hall; people with narcolepsy fall asleep in the middle of a conversation, while eating, while scuba diving, or even during sex.
-2. **Cataplexy** (Dauvilliers et al., 2014): recurring **losses of muscle tone during wakefulness**, often **triggered by an emotional experience**. In its mild form, it may simply force the patient to sit down for a few seconds. In its extreme form, the patient drops to the ground **as if shot** and remains there for a minute or two, **fully conscious**.
+1. **Severe sleepiness during the day, with repeated short (10- to 15-minute) sleep episodes.** Total sleep is barely raised: a person with narcolepsy typically sleeps only about **an hour a day more than average**. What really marks the condition is the **inappropriateness** of the episodes, that is, when they strike. Anyone may nod off now and then on the beach, while watching television or in a big, stuffy, dimly lit lecture hall; people with narcolepsy drop off mid-conversation, during a meal, while scuba diving and even during sex.
+2. **Cataplexy** (Dauvilliers et al., 2014): repeated episodes in which a waking patient suddenly **loses muscle tone**, frequently **set off by strong emotion**. A mild attack may do no more than make the person sit down for a few seconds. A severe one drops them to the floor **as if shot**, where they lie for a minute or two while staying **fully conscious**.
 
 People with narcolepsy often experience **two other symptoms**:
 
@@ -877,9 +878,9 @@ Each of the last two is a single REM-sleep component intruding into waking, whic
 
 ### Orexin and the neural basis of narcolepsy
 
-Some of the most exciting research on sleep mechanisms began with a strain of **narcoleptic dogs**. After **10 years** of studying their genetics, **Lin and colleagues (1999)** finally isolated the gene that causes the disorder. The gene encodes a **receptor protein** that binds to a neuropeptide called **orexin** (sometimes called **hypocretin**; Mieda, 2017; Richter, Woods, & Schier, 2014), which exists in two forms, **orexin-A and orexin-B**.
+A strain of **narcoleptic dogs** launched some of the most exciting research on sleep mechanisms. **Lin and colleagues (1999)** spent **10 years** on the dogs' genetics before they pinned down the gene responsible for the disorder. Its product is a **receptor protein** for **orexin** (also known as **hypocretin**; Mieda, 2017; Richter, Woods, & Schier, 2014), a neuropeptide that comes in two forms, **orexin-A and orexin-B**.
 
-Although the discovery drew attention to genetic factors, the **concordance rate for narcolepsy in monozygotic twins is only about 25 percent** (Liblau et al., 2015). Identical twins share all their genes, so if one twin has narcolepsy and the other usually does not, genes cannot be the whole story.
+The finding pointed researchers towards genetic causes, yet in **monozygotic twins the concordance rate for narcolepsy is only about 25 percent** (Liblau et al., 2015). Identical twins share all their genes, so if one twin has narcolepsy and the other usually does not, genes cannot be the whole story.
 
 Evidence from humans converges on orexin, but at a different point in the system from the dogs:
 
@@ -901,11 +902,11 @@ Several sleep disorders are specific to REM sleep and are classed as **REM-sleep
 
 **Patients with little or no REM sleep** are rare but theoretically important. **Lavie and colleagues (1984)** described a man whose brain injury presumably damaged the **REM-sleep controllers in the caudal reticular formation**. He **did not appear to be adversely affected** by the lack of REM: after the injury he completed **high school, college and law school** and built a **thriving law practice**. Together with the antidepressant evidence of 14.4, this makes it hard to argue that REM sleep is indispensable.
 
-**REM-sleep behaviour disorder.** Some patients experience **REM sleep without core-muscle atonia**. This is **REM-sleep behaviour disorder** (Schenck et al., 2013; Högl, Stefani, & Videnovic, 2017), and it is **common in individuals with Parkinson's disease** (Högl, Stefani, & Videnovic, 2017; Neikrug et al., 2014; Tekriwal et al., 2016). It has been suggested that the **function of REM-sleep atonia is to prevent the acting out of dreams**, and case studies of this disorder support the idea, such as the following (Schenck et al., 1986).
+**REM-sleep behaviour disorder.** In **REM-sleep behaviour disorder** (Schenck et al., 2013; Högl, Stefani, & Videnovic, 2017), REM sleep occurs **without the usual core-muscle atonia**. The disorder is **common among people with Parkinson's disease** (Högl, Stefani, & Videnovic, 2017; Neikrug et al., 2014; Tekriwal et al., 2016), and it offers a natural test of one proposed **function of REM-sleep atonia: to stop us acting out our dreams**. Case reports bear that idea out, as the following one from Schenck and colleagues (1986) shows.
 
 #### The Case of the Sleeper Who Ran Over Tackle
 
-The patient was dreaming about football. The quarterback lateraled the ball to him, and he was supposed to cut back over tackle. Very vividly, as he cut back, there was a **280-pound tackle** waiting, so he gave him his shoulder and knocked him out of the way. When he awoke he was **standing in front of the dresser**; he had knocked lamps, mirrors and everything else off it, hit his head against the wall, and banged his knee against the dresser.
+The patient, a man, dreamed he was in a football game. In the dream he took a lateral pass from the quarterback and was meant to cut back over tackle, but a **280-pound** opposing tackle stood in his path, so he lowered his shoulder and barged the man aside; he remembered this part of the dream very vividly. He woke to find himself **standing in front of his dresser**. Everything on top of it, lamps and mirrors included, had been knocked to the floor, and he had hit his head on the wall and banged his knee on the dresser.
 
 The case is the mirror image of cataplexy: in cataplexy REM **atonia** intrudes into **wakefulness**; in REM-sleep behaviour disorder REM sleep runs **without its atonia**, so the dream's movements reach the muscles. Both are possible only because REM's components have separate controllers (14.6).
 

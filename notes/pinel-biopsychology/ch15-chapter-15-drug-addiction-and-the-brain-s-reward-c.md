@@ -33,7 +33,7 @@ This module concerns **psychoactive drugs**: drugs that influence subjective exp
 
 ### Routes of drug administration
 
-Drugs are usually administered in one of **four** ways: **oral ingestion**, **injection**, **inhalation**, or **absorption through the mucous membranes** of the nose, mouth or rectum. The route determines the *rate* at which and the *degree* to which the drug reaches its sites of action.
+The way a drug enters the body matters because it sets *how fast* the drug gets to the places where it acts and *how much* of it gets there. There are **four** usual routes: swallowing (**oral ingestion**), **injection**, breathing it in (**inhalation**), and **absorption through the mucous membranes** that line the nose, mouth or rectum.
 
 **Oral ingestion** is the preferred route for many drugs. Swallowed drugs dissolve in the stomach fluids and are carried to the intestine, where they are absorbed into the blood. Some, **alcohol** being the standard example, pass readily through the **stomach wall** and so act sooner. Drugs not readily absorbed from the gut, or broken down into inactive **metabolites** (breakdown products of the body's chemical reactions) before absorption, must be given another way. Advantages: **ease and relative safety**. Main disadvantage: **unpredictability**, because absorption depends on hard-to-gauge factors such as the amount and type of food in the stomach.
 
@@ -226,7 +226,7 @@ Because considerable tolerance develops to some immediate effects, a cigarette d
 
 ### Buerger's disease
 
-**Buerger's disease** occurs in about **15 of every 100,000** people, **mostly male smokers**: the blood vessels, **especially those supplying the legs**, become **constricted**. The book quotes Brecher (1972, pp. 215 to 216). If the patient keeps smoking, **gangrene** may set in: first some toes are amputated, then the foot at the ankle, then the leg at the knee and ultimately at the hip, and gangrene may attack the other leg too. Patients are told that stopping smoking will almost certainly halt this march. Yet surgeons report that it is **not at all uncommon to find a patient with Buerger's disease vigorously puffing away in his hospital bed after a second or third amputation**. That is the definition of addiction from 15.1, continued use despite catastrophic adverse effects, at its starkest.
+The book uses **Buerger's disease** as its most shocking illustration of how addictive nicotine is. The condition **constricts** the blood vessels, **especially those supplying the legs**, and affects about **15 in every 100,000** people, **mostly male smokers**. The account comes from Brecher (1972, pp. 215 to 216). Smoking on can bring **gangrene**, and the surgery then works its way up the limb: toes first, next the foot at the ankle, later the leg at the knee, finally the whole leg at the hip, and somewhere along the way the other leg may be affected as well. Patients are told plainly that giving up cigarettes will almost certainly stop the gangrene advancing. Even so, surgeons say it is **quite common to see a Buerger's patient smoking hard in a hospital bed after a second or third amputation**. That is the definition of addiction from 15.1, continued use despite catastrophic adverse effects, at its starkest.
 
 ### Second-hand smoke, pregnancy and the father's nicotine
 
@@ -612,7 +612,7 @@ ICSS was **initially assumed to be unitary**, with the same properties wherever 
 
 ### The mesotelencephalic dopamine system
 
-The **mesotelencephalic dopamine system**, dopaminergic neurons projecting from the **mesencephalon (midbrain)** into regions of the **telencephalon**, plays an important role in ICSS. Its cell bodies lie in **two midbrain nuclei**, the **substantia nigra** and the **ventral tegmental area (VTA)**. Its axons project to specific regions of the **prefrontal cortex**, the **limbic cortex**, the **olfactory tubercle**, the **amygdala**, the **septum**, the **dorsal striatum** and, in particular, the **nucleus accumbens**, a nucleus of the **ventral striatum** (Kringelbach & Berridge, 2012).
+ICSS depends to an important degree on the **mesotelencephalic dopamine system**, whose name spells out its route: dopaminergic neurons running from the **mesencephalon (midbrain)** up into the **telencephalon**. The neurons start in **two midbrain nuclei**, the **substantia nigra** and the **ventral tegmental area (VTA)**, and send axons to many telencephalic targets (Kringelbach & Berridge, 2012). The one the book singles out is the **nucleus accumbens**, which belongs to the **ventral striatum**. The others include the **dorsal striatum**, the **septum**, the **amygdala**, the **olfactory tubercle**, and particular regions of both the **limbic cortex** and the **prefrontal cortex**.
 
 | Pathway | Cell bodies | Main target | Known for |
 |---|---|---|---|

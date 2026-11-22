@@ -94,7 +94,7 @@ The two theories make opposite predictions about the role of **feedback** from t
 
 **Both extreme positions have proved incorrect**, and the evidence against each is worth knowing.
 
-*Against James-Lange: feedback is not necessary.* Patients whose autonomic and somatic feedback has been largely eliminated by a **broken neck** are capable of a **full range of emotional experiences**, though there does seem to be **some dampening of fear and anger** (Pistoia et al., 2015). If feeling were nothing but the perception of bodily change, removing most of the bodily signal should remove most of the feeling. It does not. (Note the word "largely": a broken neck spares the face and the cranial nerves, so the test is strong but not perfectly clean. The slight dampening is itself a hint that feedback contributes something.)
+*Against James-Lange: feedback is not necessary.* Consider people with a **broken neck**. The injury cuts off most of the autonomic and somatic signals travelling up from the body, yet these patients still report a **full range of emotional experiences**; the only change that seems to show up is **some dampening of fear and anger** (Pistoia et al., 2015). If feeling were nothing but the perception of bodily change, removing most of the bodily signal should remove most of the feeling. It does not. (Note the word "largely": a broken neck spares the face and the cranial nerves, so the test is strong but not perfectly clean. The slight dampening is itself a hint that feedback contributes something.)
 
 *Against Cannon-Bard: feedback can influence experience.* There are numerous reports, several of which appear later in this module (the facial feedback studies are the clearest), that **autonomic and somatic responses to emotional stimuli can influence emotional experience**. If the two processes were truly independent, changing the body should not change the feeling.
 
@@ -157,20 +157,20 @@ The fear change is the most dramatic. Monkeys that could not be handled before s
 
 The syndrome has been observed in several species. Pinel describes a human patient whose syndrome followed a **brain infection**:
 
-> At first he was listless, but eventually he became very **placid with flat affect**. He reacted little to people or to other aspects of his environment. He spent much time **staring at the television, even when it was not turned on**. On occasion he would become extremely silly, **smiling inappropriately and mimicking the actions of others**, and once he began copying another person's movements he would persist for extended periods. He also tended to engage in **oral exploration, sucking, licking or chewing all small objects he could reach**.
+> The patient was **listless** at first and then settled into a deeply **placid** state with **flat affect**, responding very little to people or to anything else around him. He would sit for long stretches **staring at the television, sometimes with the set switched off**. Now and then the flatness gave way to bouts of extreme silliness: he **smiled at the wrong moments and imitated what other people were doing**, and once he started copying someone's movements he kept it up for a long time. He also showed **oral exploration**, putting any small object within reach into his mouth to suck, lick or chew it.
 
 Placidity maps onto the monkeys' loss of fear, oral exploration onto their mouthing; the persistent imitation and blank-screen staring resemble abnormal, repetitive investigation of the environment.
 
 That completes the six landmarks:
 
-| Event | Date |
+| Date | Landmark |
 |---|---|
-| Case of Phineas Gage | 1848 |
-| Darwin's theory of the evolution of emotion | 1872 |
-| James-Lange and Cannon-Bard theories | about 1900 |
-| Discovery of sham rage | 1929 |
-| Discovery of Klüver-Bucy syndrome | 1939 |
-| Limbic system theory of emotion | 1952 |
+| 1848 | The Phineas Gage case |
+| 1872 | Darwin's evolutionary theory of emotion |
+| About 1900 | The James-Lange and Cannon-Bard theories |
+| 1929 | Sham rage discovered |
+| 1939 | Klüver-Bucy syndrome discovered |
+| 1952 | Limbic system theory of emotion proposed |
 
 <div class="fig">
 <a class="figzoom" href="figs/t_17_1.jpg" target="_blank" rel="noopener"><img src="figs/t_17_1.jpg" loading="lazy" alt="Pinel Table 17.1: Gage 1848, Darwin 1872, James-Lange and Cannon-Bard about 1900, sham rage 1929, Klüver-Bucy syndrome 1939, limbic system theory 1952"></a>
@@ -289,7 +289,7 @@ Ekman's work began before video recording was commonplace. Video now provides al
 
 1. **The six primary expressions rarely occur in pure form.** They are ideals with many subtle variations.
 2. **Other primary emotions have been recognised** (Whalen et al., 2013).
-3. **Body cues, not just faces, play a major role** in emotional expression (Sznycer, 2019). **Pride**, for example, is expressed through a **small smile**, the **head tilted back slightly**, and the hands **on the hips, raised above the head, or clenched in fists with the arms crossed on the chest** (Witkower & Tracy, 2019; Figure 17.8).
+3. **Body cues, not just faces, play a major role** in emotional expression (Sznycer, 2019). Take **pride**: its display pairs a **small smile** and a **slight backward tilt of the head** with one of three arm postures, either **hands on hips**, **arms raised overhead**, or **fists clenched with the arms folded across the chest** (Witkower & Tracy, 2019; Figure 17.8).
 4. **The six may not be as universal as originally believed.** There appear to be distinct differences in both the **expression and the recognition** of facial expressions between **Western Caucasian and East Asian** individuals (Calvo & Nummenmaa, 2015; Jack et al., 2012; Wood et al., 2016), and recent studies of **isolated tribes by Crivelli et al. (2016, 2017)** indicate that facial expressions of emotion are **not as universal as once thought**.
 
 The fourth qualification is the one to weigh. Ekman's strongest evidence came from an isolated New Guinea tribe; Crivelli's newer work, also with isolated tribes, cuts the other way. There is substantial cross-cultural similarity, but strict universality of six fixed expressions is no longer the consensus.
@@ -461,9 +461,9 @@ Two inferences follow, and the second is the clever one:
 1. For auditory fear conditioning to occur, the tone's signal must **reach the medial geniculate nucleus** but **need not reach the auditory cortex**.
 2. Therefore some pathway from the medial geniculate nucleus to a structure **other than the auditory cortex** must play a key role.
 
-That pathway proved to be the projection from the **medial geniculate nucleus to the amygdala**. Consistent with this, **lesions of the amygdala, like lesions of the medial geniculate nucleus, blocked auditory fear conditioning**.
+The missing route turned out to run from the **medial geniculate nucleus to the amygdala**. The confirming test was a lesion: **destroying the amygdala abolished auditory fear conditioning, just as destroying the medial geniculate nucleus did**.
 
-The amygdala receives input from **all sensory systems**, and it is believed to be the structure in which the **emotional significance of sensory signals is learned and retained**. That makes it the natural place for a tone to acquire the meaning "shock is coming".
+Why the amygdala? It is a convergence point that gets input from **every sensory system**, and it is thought to be where the brain **learns and stores the emotional significance of sensory signals**. That makes it the natural place for a tone to acquire the meaning "shock is coming".
 
 #### Output pathways from the amygdala
 
@@ -513,7 +513,7 @@ It has been produced in the laboratory in **two ways**:
 
 Because the **hippocampus** plays a key role in **memory for spatial location**, it is reasonable to expect it to be involved in contextual fear conditioning, and this seems to be the case (Chaaya, Battle, & Johnson, 2018; Maren, Phan, & Liberzon, 2013):
 
-> **Key finding.** **Bilateral hippocampal lesions block the subsequent development of a fear response to the context** **without** blocking the development of a fear response to the **explicit conditional stimulus** (e.g., the tone) (Moscarello & Maren, 2018).
+> **Key finding.** Animals given **bilateral hippocampal lesions** before conditioning **fail to acquire fear of the context**, yet they **still learn to fear the explicit conditional stimulus** (e.g., the tone) (Moscarello & Maren, 2018).
 
 The value of this result is that it is **selective**. A hippocampal lesion that blocked *all* fear learning would tell you little; one that removes context fear while sparing tone fear shows that the hippocampus contributes something specific, the representation of *where* the bad thing happened, while the amygdala remains the site where fear itself is learned.
 
@@ -567,7 +567,7 @@ Note the historical echo: James and Lange said emotion is the perception of the 
 
 ### The amygdala and human emotion
 
-You have seen that the amygdala plays a central role in fear conditioning in rats. **Functional imaging** studies suggest that the role of the **human amygdalae** is **more general**. Although they respond **most robustly to fear**, they also respond to **other emotions** (Hsu et al., 2015; Koelsch & Skouras, 2014; Patin & Pause, 2015). Indeed, they appear to play a role in **any task with an emotional component, positive or negative** (Fastenrath et al., 2014; Stillman, Van Bavel, & Cunningham, 2015). This has led to the view that the amygdalae play a role in **evaluating the emotional significance of situations**.
+In rats, the amygdala's job looks centred on fear conditioning. **Functional imaging** of the **human amygdalae** paints a **more general** picture. Fear still drives the **strongest** response, but **other emotions** activate them too (Hsu et al., 2015; Koelsch & Skouras, 2014; Patin & Pause, 2015), and they come into play during **virtually any task with an emotional element, whether positive or negative** (Fastenrath et al., 2014; Stillman, Van Bavel, & Cunningham, 2015). The interpretation drawn from this is that the human amygdalae help with **evaluating the emotional significance of situations**.
 
 But the **lesion** evidence pulls toward a more **specific** role in fear. The two kinds of evidence do not have to conflict: imaging shows where activity *occurs*, lesions show what is *necessary*. A structure can be active during many emotional tasks yet be indispensable mainly for one. The following case makes the point.
 
@@ -685,9 +685,9 @@ Selye attributed the stress response to activation of the **anterior pituitary a
 
 1. Stressors acting on neural circuits stimulate release of **adrenocorticotropic hormone (ACTH)** from the **anterior pituitary**.
 2. ACTH triggers release of **glucocorticoids** from the **adrenal cortex**.
-3. The glucocorticoids produce many of the components of the stress response (Russell & Lightman, 2019; Shirazi et al., 2015; Spiga et al., 2014).
+3. The glucocorticoids, in turn, bring about many components of the stress response (Russell & Lightman, 2019; Shirazi et al., 2015; Spiga et al., 2014).
 
-The level of **circulating glucocorticoids is the most commonly employed physiological measure of stress**.
+Because glucocorticoids sit at the end of this chain, their **level in the blood (circulating glucocorticoids)** is the physiological index of stress that researchers use **most often**.
 
 #### The sympathetic nervous system adrenal medulla system
 
@@ -746,11 +746,11 @@ The advantage over shock and restraint is ecological validity: a stressor animal
 
 ### Psychosomatic disorders: the case of gastric ulcers
 
-Interest in the pathological effects of stress has grown as more and more **psychosomatic disorders**, medical disorders in which **psychological factors play a causal role**, have been identified. So many adverse effects of stress on health have been documented (in **heart disease, asthma and skin disorders**, for example) that it is now more reasonable to think of **most, if not all, medical disorders as psychosomatic**.
+A **psychosomatic disorder** is a medical disorder in which **psychological factors play a causal role**. Each time a new one has been identified, interest in the damaging effects of stress has grown. Harm from stress has by now been shown in so many conditions (**heart disease, asthma and skin disorders** among them) that the sensible default is to treat **most, if not all, medical disorders as psychosomatic**.
 
-**Gastric ulcers** were **one of the first** medical disorders classified as psychosomatic. They are **painful lesions to the lining of the stomach and duodenum**, which in extreme cases can be life-threatening. About **500,000 new cases** are reported each year in the **United States**.
+**Gastric ulcers** matter to this story because they were **among the first** disorders to be given the psychosomatic label. An ulcer is a **painful lesion in the lining of the stomach and duodenum**, and a severe one can threaten life. Roughly **500,000 new cases** are reported in the **United States** every year.
 
-The view of gastric ulcers as the prototypical psychosomatic disorder changed with the discovery that they seemed to be caused by **bacteria**. It was claimed that ***Helicobacter pylori*** (*H. pylori*) is responsible for **all** gastric ulcers except those caused by **non-steroidal anti-inflammatory agents such as aspirin**. That seemed to rule out stress. Pinel argues that the evidence says otherwise.
+Ulcers lost their standing as the textbook example of a psychosomatic disorder once it emerged that **bacteria** appeared to cause them. It was claimed that ***Helicobacter pylori*** (*H. pylori*) is responsible for **all** gastric ulcers except those caused by **non-steroidal anti-inflammatory agents such as aspirin**. That seemed to rule out stress. Pinel argues that the evidence says otherwise.
 
 First, what is not in dispute: *H. pylori* **does damage the stomach wall**, and **antibiotic treatment helps many sufferers**. But the facts suggest that ***H. pylori* infection alone is insufficient** to produce the disorder in most people:
 
@@ -786,7 +786,7 @@ The **innate immune system** is the **first component of the immune system to re
 
 One of the first innate reactions is **inflammation** (swelling), triggered by chemicals released from damaged cells. Particularly influential are the **cytokines**, which **attract leukocytes (white blood cells) and other phagocytes** into the infected area. **Phagocytes** are cells that **engulf and destroy pathogens**; **microglia** are the phagocytes specific to the **central nervous system** (Aguzzi, Barres, & Bennett, 2013; Su et al., 2016). Cytokines also **promote healing** of damaged tissue once the pathogens are destroyed (Kyritsis et al., 2012; Werneburg et al., 2017).
 
-**Phagocytosis**, the destruction of pathogens by phagocytes, is thought to be **one of the first immune reactions to have evolved**; phagocytes have been identified in **all vertebrates and invertebrates** that have been examined. Figure 17.13 shows a phagocyte about to ingest bacteria.
+**Phagocytosis**, in which phagocytes destroy pathogens, is thought to be **one of the earliest immune reactions to evolve**. The evidence is how widespread it is: every vertebrate and invertebrate studied so far has turned out to have phagocytes (**all vertebrates and invertebrates** examined). Figure 17.13 shows a phagocyte about to ingest bacteria.
 
 <div class="fig">
 <a class="figzoom" href="figs/f_17_13.jpg" target="_blank" rel="noopener"><img src="figs/f_17_13.jpg" loading="lazy" alt="Pinel Fig 17.13: coloured micrograph of a phagocyte extending toward bacteria (red blobs)"></a>
@@ -935,13 +935,13 @@ Pinel treats this as the chapter's main example of **neuroplasticity**: chronic 
 
 The chapter ends with a troubling case that reinforces the point that the amygdala plays a role in emotion.
 
-> After having lunch with his wife and his mother, **Charles Whitman** went home and typed a **letter of farewell**. In it he said he was having many compelling and bizarre ideas, that psychiatric care had been no help, and he asked that **his brain be autopsied** after he was through; he was sure they would find the problem.
+> Nothing in **Charles Whitman**'s history pointed to violence. Everyone described him as a pleasant young man. He was an **Eagle Scout at 12** and finished high school at **17**, then joined the **Marines** and became known there as an **expert marksman**. After his discharge he enrolled at the **University of Texas** in **architectural engineering**.
 >
-> By all reports Whitman had been a nice person: an **Eagle Scout at 12**, a high-school graduate at **17**, then a **Marine**, where he established himself as an **expert marksman**. After discharge he entered the **University of Texas** to study **architectural engineering**.
+> One afternoon, after lunch with his wife and his mother, he went home and typed a **farewell letter**. It described a stream of compelling, bizarre ideas that psychiatric treatment had done nothing to relieve, and it requested an **autopsy of his brain** once it was all over, since he was certain the cause would be found there.
 >
-> Nevertheless, on the evening of **August 1, 1966**, he **killed his wife and his mother**. He professed love for both but did not want them to face the aftermath of what was to follow. The next morning at about **11:30** he went to the **Tower of the University of Texas** carrying **six guns**, ammunition, several knives, food and water. He clubbed the receptionist to death and shot four more people on his way to the observation deck, from which he opened fire on people crossing the campus and on nearby streets, killing people as far as **300 metres** away. At **1:24 p.m.** police reached the platform and shot him dead. In all, **17 people, including Whitman, were killed and 31 wounded** (Helmer, 1986).
+> On the evening of **August 1, 1966**, he **killed his wife and his mother**, saying he loved them both and wanted to spare them what was about to happen. Around **11:30** the following morning he took **six guns**, ammunition, several knives, and food and water up the **University of Texas Tower**. Before he reached the observation deck he had clubbed the receptionist to death and shot four others. From the deck he fired at people walking across the campus and along nearby streets, hitting targets up to **300 metres** away. Police reached the platform at **1:24 p.m.** and killed him. The toll was **17 dead, Whitman included, and 31 wounded** (Helmer, 1986).
 >
-> An autopsy was conducted. Whitman had been right: they found a **walnut-sized tumour in his right amygdala**.
+> The autopsy proved him right: it revealed a **walnut-sized tumour in his right amygdala**.
 
 Read the case with the chapter's discipline. It is a single case, and a tumour is not a clean, controlled lesion, so it cannot by itself prove that the tumour caused the violence; it fits the pattern that damage involving the amygdala transforms emotional behaviour. Pinel adds the qualification that matters: **not everybody reacts in the same way to amygdalar damage**. Klüver and Bucy's monkeys became placid; S.P. lost the ability to read fear in faces; Whitman became violent.
 
