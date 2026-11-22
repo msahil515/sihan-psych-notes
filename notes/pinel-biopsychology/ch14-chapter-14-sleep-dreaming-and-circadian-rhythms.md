@@ -124,7 +124,7 @@ Table 14.1 is the book's own summary of these equivalences:
 
 <div class="fig">
 <a class="figzoom" href="figs/t_14_1.jpg" target="_blank" rel="noopener"><img src="figs/t_14_1.jpg" loading="lazy" alt="Pinel Table 14.1: REM sleep = emergent stage 1; NREM = initial stage 1, stage 2, stage 3 (NREM 1 to 3); slow-wave sleep = stage 3"></a>
-<p class="cap"><b>Summary of the various sleep-stage terms.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig t.14.1</p>
+<p class="cap"><b>Summary of the various sleep-stage terms.</b> Pinel &amp; Barnes, 11th ed. &middot; Table 14.1</p>
 </div>
 
 ### Other physiological correlates of REM sleep
@@ -367,7 +367,7 @@ Table 14.2 gives average hours of sleep per day. Learn the extremes and the huma
 
 <div class="fig">
 <a class="figzoom" href="figs/t_14_2.jpg" target="_blank" rel="noopener"><img src="figs/t_14_2.jpg" loading="lazy" alt="Pinel Table 14.2: from giant sloth 20 hours, cat 14, human 8, down to roe deer, horse and zebra 2 hours"></a>
-<p class="cap"><b>Average hours slept per day by various mammalian species.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig t.14.2</p>
+<p class="cap"><b>Average hours slept per day by various mammalian species.</b> Pinel &amp; Barnes, 11th ed. &middot; Table 14.2</p>
 </div>
 
 ### Four conclusions from the comparative evidence
@@ -793,7 +793,7 @@ Table 14.3 summarises the drugs that affect sleep:
 
 <div class="fig">
 <a class="figzoom" href="figs/t_14_3.jpg" target="_blank" rel="noopener"><img src="figs/t_14_3.jpg" loading="lazy" alt="Pinel Table 14.3: hypnotic (benzodiazepines, imidazopyridines, 5-HTP), antihypnotic (cocaine- and amphetamine-derived stimulants, tricyclic antidepressants), chronobiotic (melatonin)"></a>
-<p class="cap"><b>Summary of the drugs that affect sleep.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig t.14.3</p>
+<p class="cap"><b>Summary of the drugs that affect sleep.</b> Pinel &amp; Barnes, 11th ed. &middot; Table 14.3</p>
 </div>
 
 ## 14.8 Sleep Disorders

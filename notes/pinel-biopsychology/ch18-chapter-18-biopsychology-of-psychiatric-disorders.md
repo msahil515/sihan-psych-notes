@@ -657,7 +657,7 @@ Phase 3 is usually a **double-blind, placebo-control study** on **large numbers 
 
 <div class="fig">
 <a class="figzoom" href="figs/t_18_1.jpg" target="_blank" rel="noopener"><img src="figs/t_18_1.jpg" loading="lazy" alt="Pinel Table 18.1: basic research, application to begin trials, phase 1 safety and maximum safe dose, phase 2 doses and schedules, phase 3 demonstration of therapeutic effect, application to market, selling to the public"></a>
-<p class="cap"><b>Phases of drug development, from basic research through three phases of clinical trials to sale (after Zivin, 2000).</b> Pinel &amp; Barnes, 11th ed. &middot; Fig t.18.1</p>
+<p class="cap"><b>Phases of drug development, from basic research through three phases of clinical trials to sale (after Zivin, 2000).</b> Pinel &amp; Barnes, 11th ed. &middot; Table 18.1</p>
 </div>
 
 ### Controversial Aspects of Clinical Trials

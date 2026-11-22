@@ -174,7 +174,7 @@ That completes the six landmarks:
 
 <div class="fig">
 <a class="figzoom" href="figs/t_17_1.jpg" target="_blank" rel="noopener"><img src="figs/t_17_1.jpg" loading="lazy" alt="Pinel Table 17.1: Gage 1848, Darwin 1872, James-Lange and Cannon-Bard about 1900, sham rage 1929, Klüver-Bucy syndrome 1939, limbic system theory 1952"></a>
-<p class="cap"><b>Biopsychological investigation of emotion: six early landmarks.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig t.17.1</p>
+<p class="cap"><b>Biopsychological investigation of emotion: six early landmarks.</b> Pinel &amp; Barnes, 11th ed. &middot; Table 17.1</p>
 </div>
 
 ### Emotions and the autonomic nervous system
@@ -371,7 +371,7 @@ Building on the detailed descriptions of the Blanchards, Pellis and others, most
 
 <div class="fig">
 <a class="figzoom" href="figs/t_17_2.jpg" target="_blank" rel="noopener"><img src="figs/t_17_2.jpg" loading="lazy" alt="Pinel Table 17.2: predatory and social aggression; intraspecific defence, defensive attacks, freezing and flight, maternal defence, risk assessment and defensive burying"></a>
-<p class="cap"><b>Categories of aggressive and defensive behaviours in rats.</b> Pinel &amp; Barnes, 11th ed. &middot; Fig t.17.2</p>
+<p class="cap"><b>Categories of aggressive and defensive behaviours in rats.</b> Pinel &amp; Barnes, 11th ed. &middot; Table 17.2</p>
 </div>
 
 #### The target-site concept
