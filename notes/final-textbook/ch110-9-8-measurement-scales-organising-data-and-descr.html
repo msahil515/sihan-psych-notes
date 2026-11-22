@@ -1,0 +1,221 @@
+<div class="nfe-article tbk">
+<svg id="tb-defs" width="0" height="0" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true"><defs>
+<marker id="tb-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:#222;stroke:none"></path></marker>
+<pattern id="pt-hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" style="fill:#fff;stroke:none"></rect><line x1="0" y1="0" x2="0" y2="7" style="stroke:#b0b0b0;stroke-width:1.1"></line></pattern>
+<pattern id="pt-dots" width="7" height="7" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:#fff;stroke:none"></rect><circle cx="3.5" cy="3.5" r="0.95" style="fill:#9a9a9a;stroke:none"></circle></pattern>
+<pattern id="pt-cross" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" style="fill:#fff;stroke:none"></rect><path d="M0,4 H8 M4,0 V8" style="stroke:#a0a0a0;stroke-width:.9"></path></pattern>
+</defs></svg><p class="tb-yl"><span class="tb-hy hy3" data-tier="3" data-qs="58">High yield · 58 Qs</span></p>
+<p>Two hundred students in Mysuru have filled in an anxiety questionnaire, and you now own a notebook of numbers that, on their own, say nothing. Before any hypothesis can be tested (Sections 9.9 to 9.11), you must decide what kind of numbers you have, put them in order and describe them. This section does those jobs, ending with the normal curve and the z-score.</p>
+
+<h4 class="tb-ss" id="res-8-1">Levels of measurement <span class="tb-hyd hy3" data-tier="3" data-qs="11"><i></i><i></i><i></i></span></h4>
+<p>Measurement is the assignment of numbers to objects or events according to rules. But numbers mean different things: the 2 on a cricketer's shirt, 2nd rank in class, 2°C and 2 kg are all "2", yet only the last can be doubled meaningfully. In 1946 the Harvard psychophysicist <b class="nm" id="ix-n-6132">Stanley Smith Stevens</b> (1906 to 1973) sorted these meanings into four <b class="kt" id="ix-k-6133">levels of measurement</b> ("On the theory of scales of measurement", <i>Science</i>). Each level adds one property: <b>identity</b> (a number names a category), <b>magnitude</b> (order), <b>equal intervals</b> (a unit means the same amount anywhere on the scale) and an <b>absolute zero</b> (zero means none of the attribute).</p>
+<p>A <b class="kt" id="ix-k-6134">nominal scale</b> has identity only: labels name unordered categories such as marital status, eye or car colour and gender, and coding "married" as 2 does not make it more than "single" at 1. An <b class="kt" id="ix-k-6135">ordinal scale</b> adds magnitude: cases are ranked, but the distances between ranks are unknown. Class ranks, socioeconomic status categories and any task in which respondents place items along a continuum by preference or degree of agreement give ordinal data. A single Likert item (strongly disagree 1 to strongly agree 5) is strictly ordinal, though a total over many items is conventionally treated as interval.</p>
+<p>An <b class="kt" id="ix-k-6136">interval scale</b> adds equal intervals (20°C to 30°C is the same rise as 30°C to 40°C), but its zero is <i>arbitrary</i>, a reference point rather than the absence of the quantity: 0°C is just the freezing point of water. Differences are meaningful, ratios are not; 40°C is not twice as hot as 20°C. Celsius temperature, calendar years and most test scores, IQ included, are treated as interval. A <b class="kt" id="ix-k-6137">ratio scale</b> adds a <i>true</i> zero: height, weight, reaction time and the number of books a person owns (zero books is no books, and 6 is twice 3). The level decides which statistics are permissible (Table 9.23), and each level keeps every statistic of the levels below it (memory hook: NOIR).</p>
+<table class="tb-t"><caption><b>Table 9.23</b> Stevens's four levels of measurement, from least to most informative.</caption>
+<thead><tr><th>Scale</th><th>Properties</th><th>Examples</th><th>Permissible statistics</th></tr></thead>
+<tbody>
+<tr><td>Nominal</td><td>Identity only</td><td>Marital status, eye or car colour, gender</td><td>Frequency, percentage, mode, chi-square</td></tr>
+<tr><td>Ordinal</td><td>Adds magnitude</td><td>Class rank, SES category, one Likert item</td><td>Adds median, percentiles, rank correlation</td></tr>
+<tr><td>Interval</td><td>Adds equal intervals; arbitrary zero</td><td>Celsius temperature, IQ, most test scores</td><td>Adds mean, SD, Pearson r, t and F tests</td></tr>
+<tr><td>Ratio</td><td>Adds a true zero</td><td>Height, weight, reaction time, books owned</td><td>All, including coefficient of variation</td></tr>
+</tbody></table>
+<div class="tb-box trap"><div class="tb-bh">Exam trap</div><p>One real paper keys "ratio scale" for "Arbitrary zero is the characteristic of which scale?". The key is wrong: an arbitrary zero defines the <b>interval</b> scale, and the ratio scale has a <b>true</b> zero. Some Indian texts cite "Stevens (1951)", his handbook chapter; the scales date from 1946.</p></div>
+<div class="tb-box study"><div class="tb-bh">Key study: Stevens and the scales of measurement (1946)</div><p>Can sensations be measured at all? A committee of the British Association for the Advancement of Science had debated it for years without agreeing, its physicists doubting it (final report, 1940). Stevens replied by defining measurement broadly, as assigning numbers by rule, and by classing scales according to the transformations that leave their information intact: any one-to-one relabelling (nominal), any order-preserving change (ordinal), a linear change, aX + b (interval), and multiplication by a constant (ratio). The result was the four levels and their permissible statistics. Critics such as <b class="nm" id="ix-n-6138">Frederic Lord</b> (1953, "On the statistical treatment of football numbers") replied that the numbers do not remember where they came from, so scale type should not ban a statistic outright; the debate continues.</p></div>
+<p>Two further classifications cut across the levels. A <b class="kt" id="ix-k-6139">categorical variable</b> (qualitative) sorts cases into classes; a quantitative one records an amount. A <b class="kt" id="ix-k-6140">discrete variable</b> takes separate values, usually counts (books owned, so a count can be discrete yet ratio); a <b class="kt" id="ix-k-6141">continuous variable</b> can take any value in a range (height, reaction time). Nominal variables are always categorical. Ordinal variables are strictly ordered categories, but because ranks are taken to lie on an underlying continuum (anxiety, agreement) they are usually analysed as continuous.</p>
+<div class="tb-box trap"><div class="tb-bh">Exam trap</div><p>"Ordered variables are considered ____, nominal variables ____" is keyed <b>continuous, categorical</b>. Take the key, knowing that some books call nominal and ordinal variables alike qualitative. "Discontinuous" simply means discrete.</p></div>
+<p>A good measure is <b>reliable</b>, that is, consistent (it gives the same result when the same thing is measured again), <b>valid</b> (it measures what it claims to), <b>practical</b> (cheap, quick, easy to interpret) and <b>sensitive</b> to small differences. Objectivity belongs here too; high cost, low reliability and subjectivity mark a poor measure. Test reliability and validity are treated in Chapter 2.</p>
+
+<h4 class="tb-ss" id="res-8-2">Processing data and statistical software <span class="tb-hyd hy3" data-tier="3" data-qs="8"><i></i><i></i><i></i></span></h4>
+<p>Filled-in questionnaires become analysable data through four processing operations, in this order, as set out in <b class="nm" id="ix-n-6142">C. R. Kothari</b>'s <i>Research Methodology</i>. <b class="kt" id="ix-k-6143">Editing</b> examines raw data to detect and correct errors, omissions and inconsistencies (an age of 210, a blank item). Field editing is done by the investigator soon after the interview; central editing is done at the office, by one editor or team, once all forms are in. <b class="kt" id="ix-k-6144">Coding</b> assigns numerals or other symbols to answers so that responses fall into a limited number of exhaustive, mutually exclusive categories (male 1, female 2); the key to the codes is the codebook. <b class="kt" id="ix-k-6145">Classification</b> arranges the data into groups or classes sharing a characteristic, by attribute (urban or rural) or by class interval (ages 20 to 29). <b class="kt" id="ix-k-6146">Tabulation</b> arranges the classified data in rows and columns: a simple (one-way) table shows one characteristic, a complex table two or more. Graphs, charts and diagrams present the same data visually instead. On computer, data entry is followed by data cleaning: hunting for out-of-range values (7 on a 1-to-5 scale), duplicates and missing-value codes.</p>
+<div class="tb-box trap"><div class="tb-bh">Exam trap</div><p>Coding <i>assigns symbols</i> (the "assigning numerical values" option); classification <i>groups</i> data into classes. One real paper keys "organising data into categories or groups" for both: it is exact for classification and the nearest option for coding. Editing corrects errors; tabulation uses rows and columns.</p></div>
+<p><b>IBM SPSS</b> (Statistical Package for the Social Sciences), first released in 1968 and owned by IBM since 2009, is psychology's standard package; its primary purpose is data analysis, from descriptive statistics to factor analysis. R, SAS, Stata and the free JASP are alternatives. <b>Microsoft Excel</b> is a spreadsheet for data entry, tabulation, charts and calculation: =AVERAGE(A1:A10) gives the mean; SUM, MAX, MIN, MEDIAN and MODE do what they say; STDEV gives the sample SD, CORREL Pearson's r and COUNT the number of numeric cells. Word (report writing), Photoshop (photo editing), Illustrator (drawing) and InDesign (page layout) are not analysis tools.</p>
+
+<h4 class="tb-ss" id="res-8-3">Frequency distributions and graphs <span class="tb-hyd hy2" data-tier="2" data-qs="4"><i></i><i></i></span></h4>
+<p>A list of raw scores, the scores as first recorded, says little. A <b class="kt" id="ix-k-6147">frequency distribution</b> shows how many cases (f) obtained each score (ungrouped) or fell in each class interval (grouped), the intervals being of equal width, usually 10 to 20 of them. An interval's apparent limits (25 to 29) are those written down; its <b class="kt" id="ix-k-6148">exact limits</b> (24.5 to 29.5) extend half a unit beyond, because a score of 29.4 is recorded as 29. The midpoint (27) stands for every score in it. <b class="kt" id="ix-k-6149">Cumulative frequency</b> (cf) is the running total up to an interval's top, and percentages restate f and cf out of 100 (Table 9.24).</p>
+<table class="tb-t"><caption><b>Table 9.24</b> A grouped frequency distribution of 40 test scores.</caption>
+<thead><tr><th>Class interval</th><th>Exact limits</th><th>Midpoint</th><th>f (%)</th><th>cf (cumulative %)</th></tr></thead>
+<tbody>
+<tr><td>40 to 44</td><td>39.5 to 44.5</td><td>42</td><td>2 (5)</td><td>40 (100)</td></tr>
+<tr><td>35 to 39</td><td>34.5 to 39.5</td><td>37</td><td>4 (10)</td><td>38 (95)</td></tr>
+<tr><td>30 to 34</td><td>29.5 to 34.5</td><td>32</td><td>8 (20)</td><td>34 (85)</td></tr>
+<tr><td>25 to 29</td><td>24.5 to 29.5</td><td>27</td><td>12 (30)</td><td>26 (65)</td></tr>
+<tr><td>20 to 24</td><td>19.5 to 24.5</td><td>22</td><td>8 (20)</td><td>14 (35)</td></tr>
+<tr><td>15 to 19</td><td>14.5 to 19.5</td><td>17</td><td>4 (10)</td><td>6 (15)</td></tr>
+<tr><td>10 to 14</td><td>9.5 to 14.5</td><td>12</td><td>2 (5)</td><td>2 (5)</td></tr>
+</tbody></table>
+<p>A set of raw scores does not give a unique set of grouped scores: the interval width and starting point are the researcher's choice, and grouping treats every score as lying at its midpoint (grouping error). Pooled scores, by contrast, are simply scores from several groups combined. Raw counts also mislead when groups differ in size: 30 of 200 urban students against 15 of 50 rural ones. <b class="kt" id="ix-k-6150">Relative frequencies</b>, each f divided by N as a proportion (.15 against .30) or a percentage, make such distributions comparable.</p>
+<figure class="tb-fig" id="res-8-f1">
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Histogram and frequency polygon of 40 test scores">
+<line class="gr" x1="70" y1="198" x2="600" y2="198"></line>
+<line class="gr" x1="70" y1="146" x2="600" y2="146"></line>
+<line class="gr" x1="70" y1="94" x2="600" y2="94"></line>
+<rect class="f2" x="128.9" y="224" width="58.9" height="26"></rect>
+<rect class="f2" x="187.8" y="198" width="58.9" height="52"></rect>
+<rect class="f2" x="246.7" y="146" width="58.9" height="104"></rect>
+<rect class="f2" x="305.6" y="94" width="58.9" height="156"></rect>
+<rect class="f2" x="364.4" y="146" width="58.9" height="104"></rect>
+<rect class="f2" x="423.3" y="198" width="58.9" height="52"></rect>
+<rect class="f2" x="482.2" y="224" width="58.9" height="26"></rect>
+<polyline class="s1" points="99.4,250 158.3,224 217.2,198 276.1,146 335,94 393.9,146 452.8,198 511.7,224 570.6,250"></polyline>
+<circle class="fs" cx="158.3" cy="224" r="4"></circle><circle class="fs" cx="217.2" cy="198" r="4"></circle><circle class="fs" cx="276.1" cy="146" r="4"></circle><circle class="fs" cx="335" cy="94" r="4"></circle><circle class="fs" cx="393.9" cy="146" r="4"></circle><circle class="fs" cx="452.8" cy="198" r="4"></circle><circle class="fs" cx="511.7" cy="224" r="4"></circle>
+<line class="ln" x1="70" y1="250" x2="600" y2="250"></line>
+<line class="ln" x1="70" y1="250" x2="70" y2="84"></line>
+<text x="62" y="254" text-anchor="end" font-size="12">0</text>
+<text x="62" y="202" text-anchor="end" font-size="12">4</text>
+<text x="62" y="150" text-anchor="end" font-size="12">8</text>
+<text x="62" y="98" text-anchor="end" font-size="12">12</text>
+<text x="99.4" y="268" text-anchor="middle" font-size="12">7</text>
+<text x="158.3" y="268" text-anchor="middle" font-size="12">12</text>
+<text x="217.2" y="268" text-anchor="middle" font-size="12">17</text>
+<text x="276.1" y="268" text-anchor="middle" font-size="12">22</text>
+<text x="335" y="268" text-anchor="middle" font-size="12">27</text>
+<text x="393.9" y="268" text-anchor="middle" font-size="12">32</text>
+<text x="452.8" y="268" text-anchor="middle" font-size="12">37</text>
+<text x="511.7" y="268" text-anchor="middle" font-size="12">42</text>
+<text x="570.6" y="268" text-anchor="middle" font-size="12">47</text>
+<text x="335" y="288" text-anchor="middle" class="tm">Score (interval midpoints)</text>
+<text x="26" y="167" text-anchor="middle" transform="rotate(-90 26 167)" class="tm">Frequency (f)</text>
+<rect class="f2" x="90" y="34" width="20" height="14"></rect>
+<text x="118" y="46">Histogram</text>
+<line class="s1" x1="300" y1="41" x2="330" y2="41"></line>
+<circle class="fs" cx="315" cy="41" r="4"></circle>
+<text x="338" y="46">Frequency polygon</text>
+</svg>
+<figcaption><b>Figure 9.13</b> The 40 scores of Table 9.24 as a histogram and frequency polygon. The bars touch because the scale is continuous; the polygon joins the interval midpoints and closes on the baseline.</figcaption></figure>
+<p>Categorical data take a <b class="kt" id="ix-k-6151">bar graph</b> (separate bars with gaps) or a pie chart (parts of one whole). Grouped continuous data take a <b class="kt" id="ix-k-6152">histogram</b>, adjoining rectangles each standing on a class interval with height equal to its frequency; joining the midpoints of the bar tops gives the <b class="kt" id="ix-k-6153">frequency polygon</b> (Figure 9.13), best for overlaying two distributions. Cumulative frequencies plotted against upper exact limits give the <b class="kt" id="ix-k-6154">ogive</b>, an S-shaped curve from which percentiles are read. <b class="nm" id="ix-n-6155">John Wilder Tukey</b> (1915 to 2000), in <i>Exploratory Data Analysis</i> (1977), added the stem-and-leaf display, which keeps every raw score, and the box plot (a box from Q<sub>1</sub> to Q<sub>3</sub>, a median line and whiskers), good for comparing groups and spotting outliers. A line graph shows change over time; a <b class="kt" id="ix-k-6156">scatter plot</b> shows the relationship and spread of two continuous variables (Section 9.11).</p>
+
+<h4 class="tb-ss" id="res-8-4">Measures of central tendency <span class="tb-hyd hy3" data-tier="3" data-qs="6"><i></i><i></i><i></i></span></h4>
+<p>A <b class="kt" id="ix-k-6157">measure of central tendency</b> is one score that represents the whole distribution. The arithmetic <b class="kt" id="ix-k-6158">mean</b> (M = ΣX / N) is the balance point: deviations from it sum to zero, the sum of squared deviations about it is a minimum (least squares), and adding a constant to every score adds it to the mean, while multiplying every score by a constant multiplies the mean by it. Using every score makes it the most stable average across samples, but also lets one extreme score pull it: 4, 7, 7, 9 and 13 have a mean of 8, and adding a 40 lifts it to 13.3. It cannot be computed for an open-ended top class. A combined mean weights each group by its size: 30 boys averaging 60 and 20 girls averaging 70 give (1800 + 1400) / 50 = 64.</p>
+<p>The <b class="kt" id="ix-k-6159">median</b> is the middle score of the ordered set, the 50th percentile (for 4, 7, 7, 9, 13, 40 it is 8). Depending only on position, it resists extreme scores, so it is the average for skewed data: community income, where a few rich households inflate the mean, and anxiety or symptom scores, where most people score low and a few very high. It also suits ordinal data.</p>
+<p>The <b class="kt" id="ix-k-6160">mode</b> is the most frequent score and the only average for nominal data. One peak makes a distribution unimodal and two bimodal; when two or more scores share the highest frequency it is multimodal. The geometric mean (the Nth root of the product of N scores) suits growth rates; the harmonic mean (N divided by the sum of the reciprocals) suits rates such as speeds.</p>
+<div class="tb-box key"><div class="tb-bh">Remember</div><p>Symmetrical interval or ratio data: <b>mean</b>. Skewed data, outliers or ordinal data: <b>median</b>. Nominal data: <b>mode</b>.</p></div>
+<div class="tb-box trap"><div class="tb-bh">Exam trap</div><p>Range, standard deviation, variance and <b>mean deviation</b> measure variability, not central tendency. Mean deviation is the favourite decoy because it contains the word "mean".</p></div>
+
+<h4 class="tb-ss" id="res-8-5">Measures of variability <span class="tb-hyd hy3" data-tier="3" data-qs="7"><i></i><i></i><i></i></span></h4>
+<p>Two classes may share a mean of 50 while one spans 45 to 55 and the other 10 to 90; variability (dispersion) describes this spread. The range (highest minus lowest score) rests on the two most extreme scores. The interquartile range (IQR = Q<sub>3</sub> − Q<sub>1</sub>) covers the middle 50 per cent; half of it is the <b class="kt" id="ix-k-6161">quartile deviation</b> or semi-interquartile range, Q = (Q<sub>3</sub> − Q<sub>1</sub>) / 2, the partner of the median. The mean deviation is the average absolute deviation from the mean, Σ|X − M| / N.</p>
+<p>The <b class="kt" id="ix-k-6162">variance</b> squares the deviations instead: for a population σ² = Σ(X − μ)² / N, and the <b class="kt" id="ix-k-6163">standard deviation</b> (SD, σ) is its square root, back in the original units: the typical distance of a score from the mean. For 2, 4, 4, 4, 5, 5, 7, 9 the mean is 5; the deviations −3, −1, −1, −1, 0, 0, 2, 4 square to 9, 1, 1, 1, 0, 0, 4, 16, a sum of squares (SS) of 32. So σ² = 32 / 8 = <b>4</b> and σ = 2 (32 is the SS, 2 the SD, 5 the mean).</p>
+<p>To estimate a population's variance from a sample, divide SS by N − 1: s² = Σ(X − M)² / (N − 1). Deviations from a sample's own mean run slightly small, so dividing by N underestimates. The fix is Bessel's correction, after the astronomer <b class="nm" id="ix-n-6164">Friedrich Wilhelm Bessel</b> (1784 to 1846), and N − 1 is the <b>degrees of freedom</b>: once the mean is fixed, only N − 1 deviations can vary freely. For the sample 3, 5, 7: SS = 8 and s² = 8 / 2 = <b>4</b>, so s = 2 (dividing by N gives 2.67). The <b class="kt" id="ix-k-6165">coefficient of variation</b>, CV = (SD / M) × 100, compares spread across different units but needs a ratio scale.</p>
+<p>Adding a constant to every score shifts the mean but leaves the SD and variance unchanged; multiplying by c multiplies the SD by c and the variance by c². With variance 4 and scores multiplied by 3 and then increased by 10, the new SD is 6 and the new variance 4 × 9 = <b>36</b> (not 12, which multiplies the variance by 3 only, nor 46, which also adds the 10).</p>
+<div class="tb-box key"><div class="tb-bh">Remember</div><p>Affected by extreme scores: range, mean deviation, variance, SD and the mean. Resistant: IQR, quartile deviation and the median.</p></div>
+
+<h4 class="tb-ss" id="res-8-6">Skewness and kurtosis <span class="tb-hyd hy2" data-tier="2" data-qs="3"><i></i><i></i></span></h4>
+<p><b class="kt" id="ix-k-6166">Skewness</b> is asymmetry, and it is named after the long tail. In positive (right) skew most scores are low and a few high ones trail right (income, a very hard test); in negative (left) skew most are high and a few low ones trail left (a very easy test). The mean, which uses every score's value, is dragged furthest into the tail, the mode stays at the hump and the median lies between. So positive skew gives <b>mode &lt; median &lt; mean</b> and negative skew <b>mean &lt; median &lt; mode</b>, the mean lying left of the median (Figure 9.14). <b class="nm" id="ix-n-6167">Karl Pearson</b> (1857 to 1936) measured it as Sk = 3(Mean − Median) / SD, zero for a symmetrical curve.</p>
+<figure class="tb-fig" id="res-8-f2">
+<svg viewBox="0 0 640 262" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Positively and negatively skewed curves with mode, median and mean marked">
+<text x="165" y="26" text-anchor="middle" class="tb">Positive (right) skew</text>
+<text x="475" y="26" text-anchor="middle" class="tb">Negative (left) skew</text>
+<path class="f1" d="M 30,200 L 36,198.8 L 39,192.4 L 42,178.5 L 45,158.8 L 48,136.9 L 51,115.8 L 54,97.6 L 57,83.1 L 60,72.6 L 63,66 L 66,62.6 L 69,62.1 L 72,63.8 L 75,67.1 L 78,71.8 L 81,77.3 L 84,83.3 L 87,89.7 L 90,96.2 L 93,102.7 L 96,109.1 L 99,115.3 L 102,121.2 L 105,126.9 L 108,132.2 L 111,137.2 L 114,142 L 117,146.3 L 120,150.4 L 126,157.7 L 132,164 L 138,169.4 L 144,173.9 L 150,177.8 L 159,182.5 L 168,186.1 L 180,189.8 L 195,193 L 210,195.1 L 228,196.8 L 249,198 L 273,198.8 L 300,199.3 L 300,200 Z"></path>
+<path class="f1" d="M 610,200 L 604,198.8 L 601,192.4 L 598,178.5 L 595,158.8 L 592,136.9 L 589,115.8 L 586,97.6 L 583,83.1 L 580,72.6 L 577,66 L 574,62.6 L 571,62.1 L 568,63.8 L 565,67.1 L 562,71.8 L 559,77.3 L 556,83.3 L 553,89.7 L 550,96.2 L 547,102.7 L 544,109.1 L 541,115.3 L 538,121.2 L 535,126.9 L 532,132.2 L 529,137.2 L 526,142 L 523,146.3 L 520,150.4 L 514,157.7 L 508,164 L 502,169.4 L 496,173.9 L 490,177.8 L 481,182.5 L 472,186.1 L 460,189.8 L 445,193 L 430,195.1 L 412,196.8 L 391,198 L 367,198.8 L 340,199.3 L 340,200 Z"></path>
+<line class="ln" x1="30" y1="200" x2="300" y2="200"></line>
+<line class="ln" x1="340" y1="200" x2="610" y2="200"></line>
+<line class="ln" x1="68.1" y1="200" x2="68.1" y2="62"></line>
+<line class="ln" x1="84.7" y1="200" x2="84.7" y2="84.7"></line>
+<line class="ln" x1="95.4" y1="200" x2="95.4" y2="108"></line>
+<text x="68" y="54" text-anchor="middle" font-size="12">Mode</text>
+<text x="91" y="80" font-size="12">Median</text>
+<text x="101" y="104" font-size="12">Mean</text>
+<line class="ln" x1="571.9" y1="200" x2="571.9" y2="62"></line>
+<line class="ln" x1="555.3" y1="200" x2="555.3" y2="84.7"></line>
+<line class="ln" x1="544.6" y1="200" x2="544.6" y2="108"></line>
+<text x="572" y="54" text-anchor="middle" font-size="12">Mode</text>
+<text x="549" y="80" text-anchor="end" font-size="12">Median</text>
+<text x="538" y="104" text-anchor="end" font-size="12">Mean</text>
+<text x="165" y="222" text-anchor="middle" class="tm">Long tail to the right (high scores)</text>
+<text x="475" y="222" text-anchor="middle" class="tm">Long tail to the left (low scores)</text>
+<text x="165" y="244" text-anchor="middle" class="tb">Mode &lt; Median &lt; Mean</text>
+<text x="475" y="244" text-anchor="middle" class="tb">Mean &lt; Median &lt; Mode</text>
+</svg>
+<figcaption><b>Figure 9.14</b> Skew is named after the tail. The mean is pulled furthest into the tail, the mode stays at the peak and the median lies between them.</figcaption></figure>
+<p><b class="kt" id="ix-k-6168">Kurtosis</b> is peakedness relative to the normal curve: leptokurtic (more peaked), mesokurtic (normal) or platykurtic (flatter). The percentile coefficient Ku = Q / (P<sub>90</sub> − P<sub>10</sub>) is 0.263 for the normal curve; above it is platykurtic, below it leptokurtic. On the moment measure the normal curve scores 3, and SPSS prints excess kurtosis (minus 3), so 0 means mesokurtic.</p>
+
+<h4 class="tb-ss" id="res-8-7">The normal probability curve <span class="tb-hyd hy3" data-tier="3" data-qs="7"><i></i><i></i><i></i></span></h4>
+<p>The <b class="kt" id="ix-k-6169">normal probability curve</b> was derived by <b class="nm" id="ix-n-6170">Abraham de Moivre</b> (1667 to 1754) in 1733 as the limit of the binomial distribution. <b class="nm" id="ix-n-6171">Pierre-Simon Laplace</b> (1749 to 1827) developed it, and <b class="nm" id="ix-n-6172">Carl Friedrich Gauss</b> (1777 to 1855) used it in 1809 for errors in astronomical measurement, hence the Gaussian curve. <b class="nm" id="ix-n-6173">Adolphe Quetelet</b> (1796 to 1874) applied it to human characteristics, and <b class="nm" id="ix-n-6174">Francis Galton</b> (1822 to 1911) to human ability.</p>
+<div class="tb-box trap"><div class="tb-bh">Exam trap</div><p>"Who propounded the normal curve?" is keyed <b>Carl Gauss</b>, after whom it is named; mark Gauss, but know that de Moivre came first (1733). <b class="nm" id="ix-n-6175">Siméon Denis Poisson</b> (1781 to 1840) gave the distribution of rare events, <b class="nm" id="ix-n-6176">Jacob (James) Bernoulli</b> the law of large numbers (1713), and <b class="nm" id="ix-n-6177">Wilhelm Reich</b> (1897 to 1957) was a psychoanalyst.</p></div>
+<p>The curve is bell-shaped, symmetrical and unimodal, with mean, median and mode coinciding at the centre; a two-peaked curve cannot be normal. Its tails are asymptotic, nearing the baseline without touching it. The total area under it is 1 (100 per cent), so areas read as probabilities. Its points of inflection lie at ±1 SD, and it is defined by its mean and SD alone.</p>
+<p>The areas are therefore fixed (Figure 9.15). On each side, 34.13 per cent of cases lie between the mean and 1 SD, 13.59 per cent between 1 and 2 SD and 2.14 per cent between 2 and 3 SD. About <b>68 per cent</b> fall within ±1 SD, <b>95 per cent</b> within ±2 SD (exactly 95 within ±1.96) and <b>99.7 per cent</b> within ±3 SD.</p>
+<figure class="tb-fig" id="res-8-f3">
+<svg viewBox="0 0 640 318" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Normal curve with percentage areas and equivalent z, T, IQ and percentile scales">
+<path class="f1" d="M 265,220 L 265,116.9 L 272.5,106.6 L 280,96.6 L 287.5,86.9 L 295,78 L 302.5,70 L 310,63.1 L 317.5,57.5 L 325,53.4 L 332.5,50.8 L 340,50 L 340,220 Z"></path>
+<path class="f1" d="M 340,220 L 340,50 L 347.5,50.8 L 355,53.4 L 362.5,57.5 L 370,63.1 L 377.5,70 L 385,78 L 392.5,86.9 L 400,96.6 L 407.5,106.6 L 415,116.9 L 415,220 Z"></path>
+<path class="f2" d="M 190,220 L 190,197 L 197.5,192 L 205,186.4 L 212.5,179.9 L 220,172.7 L 227.5,164.8 L 235,156.2 L 242.5,147 L 250,137.3 L 257.5,127.2 L 265,116.9 L 265,220 Z"></path>
+<path class="f2" d="M 415,220 L 415,116.9 L 422.5,127.2 L 430,137.3 L 437.5,147 L 445,156.2 L 452.5,164.8 L 460,172.7 L 467.5,179.9 L 475,186.4 L 482.5,192 L 490,197 L 490,220 Z"></path>
+<path class="f3" d="M 115,220 L 115,218.1 L 122.5,217.5 L 130,216.6 L 137.5,215.6 L 145,214.2 L 152.5,212.5 L 160,210.5 L 167.5,207.9 L 175,204.9 L 182.5,201.3 L 190,197 L 190,220 Z"></path>
+<path class="f3" d="M 490,220 L 490,197 L 497.5,201.3 L 505,204.9 L 512.5,207.9 L 520,210.5 L 527.5,212.5 L 535,214.2 L 542.5,215.6 L 550,216.6 L 557.5,217.5 L 565,218.1 L 565,220 Z"></path>
+<path class="ln" d="M 77.5,219.6 L 92.5,219.3 L 107.5,218.6 L 122.5,217.5 L 137.5,215.6 L 152.5,212.5 L 167.5,207.9 L 182.5,201.3 L 190,197 L 197.5,192 L 205,186.4 L 212.5,179.9 L 220,172.7 L 227.5,164.8 L 235,156.2 L 242.5,147 L 250,137.3 L 257.5,127.2 L 265,116.9 L 272.5,106.6 L 280,96.6 L 287.5,86.9 L 295,78 L 302.5,70 L 310,63.1 L 317.5,57.5 L 325,53.4 L 332.5,50.8 L 340,50 L 347.5,50.8 L 355,53.4 L 362.5,57.5 L 370,63.1 L 377.5,70 L 385,78 L 392.5,86.9 L 400,96.6 L 407.5,106.6 L 415,116.9 L 422.5,127.2 L 430,137.3 L 437.5,147 L 445,156.2 L 452.5,164.8 L 460,172.7 L 467.5,179.9 L 475,186.4 L 482.5,192 L 490,197 L 497.5,201.3 L 512.5,207.9 L 527.5,212.5 L 542.5,215.6 L 557.5,217.5 L 572.5,218.6 L 587.5,219.3 L 602.5,219.6"></path>
+<line class="ln" x1="70" y1="220" x2="610" y2="220"></line>
+<text x="340" y="40" text-anchor="middle" font-size="12">Mean = median = mode</text>
+<text x="302.5" y="185" text-anchor="middle" font-size="12">34.13%</text>
+<text x="377.5" y="185" text-anchor="middle" font-size="12">34.13%</text>
+<text x="227.5" y="210" text-anchor="middle" font-size="12">13.59%</text>
+<text x="452.5" y="210" text-anchor="middle" font-size="12">13.59%</text>
+<text x="152.5" y="190" text-anchor="middle" font-size="12">2.14%</text>
+<text x="527.5" y="190" text-anchor="middle" font-size="12">2.14%</text>
+<line class="ln" x1="152.5" y1="194" x2="152.5" y2="215"></line>
+<line class="ln" x1="527.5" y1="194" x2="527.5" y2="215"></line>
+<text x="16" y="242" class="tm">z score</text>
+<text x="115" y="242" text-anchor="middle" font-size="12">−3</text>
+<text x="190" y="242" text-anchor="middle" font-size="12">−2</text>
+<text x="265" y="242" text-anchor="middle" font-size="12">−1</text>
+<text x="340" y="242" text-anchor="middle" font-size="12">0</text>
+<text x="415" y="242" text-anchor="middle" font-size="12">+1</text>
+<text x="490" y="242" text-anchor="middle" font-size="12">+2</text>
+<text x="565" y="242" text-anchor="middle" font-size="12">+3</text>
+<text x="16" y="262" class="tm">T score</text>
+<text x="115" y="262" text-anchor="middle" font-size="12">20</text>
+<text x="190" y="262" text-anchor="middle" font-size="12">30</text>
+<text x="265" y="262" text-anchor="middle" font-size="12">40</text>
+<text x="340" y="262" text-anchor="middle" font-size="12">50</text>
+<text x="415" y="262" text-anchor="middle" font-size="12">60</text>
+<text x="490" y="262" text-anchor="middle" font-size="12">70</text>
+<text x="565" y="262" text-anchor="middle" font-size="12">80</text>
+<text x="16" y="282" class="tm">Deviation IQ</text>
+<text x="115" y="282" text-anchor="middle" font-size="12">55</text>
+<text x="190" y="282" text-anchor="middle" font-size="12">70</text>
+<text x="265" y="282" text-anchor="middle" font-size="12">85</text>
+<text x="340" y="282" text-anchor="middle" font-size="12">100</text>
+<text x="415" y="282" text-anchor="middle" font-size="12">115</text>
+<text x="490" y="282" text-anchor="middle" font-size="12">130</text>
+<text x="565" y="282" text-anchor="middle" font-size="12">145</text>
+<text x="16" y="302" class="tm">Percentile</text>
+<text x="115" y="302" text-anchor="middle" font-size="12">0.1</text>
+<text x="190" y="302" text-anchor="middle" font-size="12">2</text>
+<text x="265" y="302" text-anchor="middle" font-size="12">16</text>
+<text x="340" y="302" text-anchor="middle" font-size="12">50</text>
+<text x="415" y="302" text-anchor="middle" font-size="12">84</text>
+<text x="490" y="302" text-anchor="middle" font-size="12">98</text>
+<text x="565" y="302" text-anchor="middle" font-size="12">99.9</text>
+</svg>
+<figcaption><b>Figure 9.15</b> The normal curve with the percentage of cases in each SD band. The rows beneath give each point as z, T, deviation IQ (SD 15) and percentile rank.</figcaption></figure>
+
+<h4 class="tb-ss" id="res-8-8">z-scores, percentiles and standard scores <span class="tb-hyd hy3" data-tier="3" data-qs="12"><i></i><i></i><i></i></span></h4>
+<p>You score 65 in statistics (class mean 50, SD 10) and 70 in English (mean 60, SD 20). Which is better? A <b class="kt" id="ix-k-6178">z-score</b> states how many SDs a score lies from its mean: z = (X − M) / SD. Statistics gives z = +1.5 and English z = +0.5, so the lower raw score is the better performance. That is the purpose of z-scores: they let you compare results from different distributions. A z of +1 lies one SD above the mean, −1 one SD below, and 0 at the mean itself. A set of z-scores has mean 0 and SD 1, and because the conversion is linear, a skewed set stays skewed. A z-score shows relative position. It is not a measure of variability (the SD, variance or quartile deviation) or of central tendency, nor the coefficient of variation, nor the standard error (the SD of a sampling distribution, Section 9.9). The z table, derived from the normal distribution, converts z into percentiles.</p>
+<p>A <b class="kt" id="ix-k-6179">percentile rank</b> is the percentage of cases below a score. Quartiles split the distribution into four (Q<sub>1</sub> = P<sub>25</sub>, Q<sub>2</sub> = the median, Q<sub>3</sub> = P<sub>75</sub>), deciles into ten. On the normal curve z = 0 is the 50th percentile, +0.5 about the 69th, +1 the 84th, +1.28 the 90th, +1.5 the 93rd, +1.96 the 97.5th, +2 about the 98th and +3 the 99.9th; z = −1 is the 16th and −2 the 2nd. Percentile units are unequal (crowded in the middle), so they are never averaged.</p>
+<p>Deviation IQs have mean 100 and SD 15 (<b class="nm" id="ix-n-6180">David Wechsler</b>'s system, Chapter 2): IQ 100 is the 50th percentile, 85 the 16th, 115 the 84th and 130 (z = +2) about the 98th. Older Binet-type tests used SD 16, so an IQ of 136 is z = 36 / 16 = +2.25; the table puts .9878 below it, so about 98.7 to 98.8 per cent score lower.</p>
+<div class="tb-box clin"><div class="tb-bh">Clinical link</div><p>An IQ of 70 lies two SD below the mean, near the 2nd percentile. DSM-5 places the intellectual deficits of intellectual disability at about this point, roughly 65 to 75 once measurement error is allowed for (Chapter 8).</p></div>
+<p>Other <b class="kt" id="ix-k-6181">standard scores</b> avoid the signs and decimals of z: new score = new mean + (new SD × z), so z = +2 is a T of 70, an IQ of 130 and a stanine of 9 (Table 9.25). Such linear standard scores keep the raw distribution's shape; normalised standard scores (normalised T scores, stanines) convert percentile ranks into normal-curve z values, forcing a normal shape. Norms are treated in Chapter 2.</p>
+<table class="tb-t"><caption><b>Table 9.25</b> Common standard-score systems.</caption>
+<thead><tr><th>System</th><th>Mean</th><th>SD</th><th>Where you meet it</th></tr></thead>
+<tbody>
+<tr><td>z-score</td><td>0</td><td>1</td><td>The base of all the others</td></tr>
+<tr><td>T score</td><td>50</td><td>10</td><td>MMPI and most personality inventories</td></tr>
+<tr><td>Deviation IQ</td><td>100</td><td>15</td><td>Wechsler scales; Stanford-Binet 5</td></tr>
+<tr><td>Old Stanford-Binet IQ</td><td>100</td><td>16</td><td>Earlier Binet-type tests</td></tr>
+<tr><td>Stanine</td><td>5</td><td>2</td><td>Nine bands, 1 to 9</td></tr>
+<tr><td>Sten</td><td>5.5</td><td>2</td><td>Ten bands; the 16PF</td></tr>
+<tr><td>Scaled score</td><td>10</td><td>3</td><td>Wechsler subtests</td></tr>
+</tbody></table>
+
+<div class="tb-scan"><div class="tb-bh">Scan Your Brain</div>
+<p>Fill in the blanks. The answers are below; cover them first.</p>
+<ol>
+<li>Equal intervals with an arbitrary zero define the <span class="blank"></span> scale.</li>
+<li>The only average usable with nominal data is the <span class="blank"></span>.</li>
+<li>The representative income of a community is best given by the <span class="blank"></span>.</li>
+<li>In negative skew the mean lies to the <span class="blank"></span> of the median.</li>
+<li>The population variance of 2, 4, 4, 4, 5, 5, 7, 9 is <span class="blank"></span>.</li>
+<li>Multiplying every score by 3 multiplies the variance by <span class="blank"></span>.</li>
+<li>About <span class="blank"></span> per cent of normal-curve cases lie within ±2 SD of the mean.</li>
+<li>A deviation IQ of 85 lies at about the <span class="blank"></span> percentile.</li>
+</ol>
+<p class="tb-ans"><b>Answers:</b> (1) interval, (2) mode, (3) median, (4) left, (5) 4, (6) 9, (7) 95, (8) 16th.</p></div>
+</div>

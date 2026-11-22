@@ -116,6 +116,7 @@ body{background:var(--body-grad)}
 .ch.active::before{content:"";position:absolute;left:-16px;top:6px;bottom:6px;width:3px;border-radius:0 3px 3px 0;background:var(--bk)}
 .ch .bdg{margin-left:auto;flex:none;font-size:10px;font-weight:700;letter-spacing:.04em;color:var(--bk);
   background:var(--bk-soft);border:1px solid var(--bk-line);border-radius:6px;padding:1px 6px;align-self:center}
+.bkpart{font-size:10.5px;font-weight:750;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);padding:10px 10px 2px}
 .noresult{color:var(--muted);font-size:13.5px;text-align:center;padding:30px 10px}
 
 /* ---- main ---- */
@@ -151,9 +152,11 @@ body{background:var(--body-grad)}
 .icell{display:flex;align-items:center;gap:12px;padding:13px 15px;border:1px solid var(--line2);border-radius:12px;
   cursor:pointer;background:var(--panel);transition:.14s;color:var(--ink2)}
 .icell:hover{border-color:var(--bk-line);background:var(--panel2);color:var(--ink-strong);transform:translateX(2px)}
-.icell .n{flex:none;width:30px;height:30px;border-radius:9px;display:flex;align-items:center;justify-content:center;
+.icell .n{flex:none;min-width:30px;padding:0 6px;height:30px;border-radius:9px;display:flex;align-items:center;justify-content:center;
   font-size:13px;font-weight:750;background:var(--bk-soft);color:var(--bk);border:1px solid var(--bk-line);font-variant-numeric:tabular-nums}
 .icell .t{font-size:14px;line-height:1.35}
+.ipart{grid-column:1/-1;font-size:12px;font-weight:750;letter-spacing:.06em;text-transform:uppercase;color:var(--bk);margin:14px 2px 0}
+.ipart:first-child{margin-top:0}
 
 /* reader */
 .crumb{display:flex;align-items:center;gap:9px;font-family:var(--sans);font-size:12.5px;font-weight:650;color:var(--bk);
@@ -261,6 +264,92 @@ html[data-theme="dark"] .nb{--good:#6fcf8f;--bad:#f2867b;--c-why:#e8a85a;--c-fou
 .nb .pd-off a{display:none}
 .nb .pd-off figcaption{margin-top:0}
 .nb .pd-off figcaption::after{content:"This diagram loads the first time you open it with internet, then it stays offline.";display:block;margin-top:4px;color:var(--muted)}
+/* ---- the Final Exam Textbook (import_library_books.py, wrapped in .tbk) ----
+   Ported from the prep site's notes-app/textbook.css; accent = the book colour. */
+.tbk .tb-opener { margin: 0 0 1.4em; }
+.tbk .tb-cht { font-family: var(--sans); font-weight: 700; font-size: 1.75em; line-height: 1.15; margin: .2em 0 .6em; border: 0; }
+.tbk .tb-chn { display: block; font-size: .5em; letter-spacing: .18em; text-transform: uppercase; color: var(--bk); margin-bottom: .35em; }
+.tbk .tb-chn::after { content: ""; display: block; width: 3.2em; height: .32em; background: var(--bk); margin-top: .45em; border-radius: 1px; }
+.tbk h3.tb-s { font-family: var(--sans); font-size: 1.28em; margin: 1.6em 0 .55em; padding-top: .55em; border-top: 1px solid rgba(127,127,127,.35); }
+.tbk h3.tb-s .tb-sn { color: var(--bk); margin-right: .45em; }
+.tbk h3.tb-endh { border-top: 2px solid var(--bk); }
+.tbk h4.tb-ss { font-family: var(--sans); font-size: 1.06em; color: var(--bk); margin: 1.25em 0 .35em; }
+.tbk p.tb-open { font-size: 1.04em; }
+.tbk .tb-body > p.tb-open:first-child::first-letter { font-family: var(--sans); font-weight: 700; float: left; font-size: 3.1em; line-height: .9; margin: .06em .12em 0 0; color: var(--bk); }
+.tbk b.kt { color: var(--bk); }
+.tbk .tb-box, .tbk .tb-scan { margin: 1.1em 0; padding: .75em .95em .55em; border-radius: 4px; font-size: .95em; break-inside: avoid; -webkit-column-break-inside: avoid; }
+.tbk .tb-box p:last-child, .tbk .tb-scan p:last-child { margin-bottom: .15em; }
+.tbk .tb-bh { font-family: var(--sans); font-weight: 700; font-size: .74em; letter-spacing: .1em; text-transform: uppercase; margin-bottom: .35em; }
+.tbk .tb-inthis { background: rgba(127,127,127,.09); border-top: 3px solid var(--bk); border-radius: 0 0 4px 4px; }
+.tbk .tb-inthis ol { list-style: none; padding: 0; margin: .2em 0 0; }
+.tbk .tb-inthis li { margin: 0 0 .5em; }
+.tbk .tb-inthis li b { color: var(--bk); margin-right: .3em; }
+.tbk .tb-box.trap  { background: rgba(192,70,45,.10);  border-left: 4px solid #C0462D; } .tbk .tb-box.trap  .tb-bh { color: #C0462D; }
+.tbk .tb-box.study { background: rgba(36,79,140,.10);  border-top: 2px solid #3A6BB0; border-bottom: 2px solid #3A6BB0; } .tbk .tb-box.study .tb-bh { color: #3A6BB0; }
+.tbk .tb-box.clin  { background: rgba(106,58,124,.10); border: 1.5px dashed #8A5A9C; } .tbk .tb-box.clin  .tb-bh { color: #8A5A9C; }
+.tbk .tb-box.key   { background: rgba(183,121,31,.12); border-left: 4px double #B7791F; } .tbk .tb-box.key   .tb-bh { color: #B7791F; }
+.tbk .tb-box.india { background: rgba(62,124,69,.10);  border-left: 4px solid #3E7C45; } .tbk .tb-box.india .tb-bh { color: #4E9455; }
+.tbk .tb-box.case  { background: rgba(127,127,127,.08); border-top: 2px solid var(--bk); } .tbk .tb-box.case .tb-bh { color: var(--bk); }
+.tbk .tb-scan { background: rgba(91,107,115,.10); border: 1.5px solid rgba(91,107,115,.6); }
+.tbk .tb-scan ol { padding-left: 1.4em; margin: .2em 0 .4em; }
+.tbk .tb-scan .blank { display: inline-block; width: 5.5em; border-bottom: 1.5px solid currentColor; opacity: .7; }
+.tbk .tb-scan .tb-ans { font-size: .88em; opacity: .85; border-top: 1px solid rgba(127,127,127,.35); padding-top: .4em; margin-top: .4em; }
+.tbk table.tb-t { font-family: var(--sans); font-size: .86em; line-height: 1.38; border-collapse: collapse; margin: 1em 0 1.3em; }
+.tbk table.tb-t caption { caption-side: top; text-align: left; font-family: var(--serif); font-size: 1.04em; margin-bottom: .4em; }
+.tbk table.tb-t caption b { font-family: var(--sans); color: var(--bk); margin-right: .25em; }
+.tbk table.tb-t th { text-align: left; vertical-align: bottom; background: rgba(127,127,127,.14); border-bottom: 1.5px solid rgba(127,127,127,.7); padding: .4em .5em; }
+.tbk table.tb-t td { vertical-align: top; border-bottom: 1px solid rgba(127,127,127,.28); padding: .35em .5em; }
+.tbk figure.tb-fig { margin: 1.2em 0; break-inside: avoid; -webkit-column-break-inside: avoid; }
+.tbk figure.tb-fig svg { display: block; width: 100%; height: auto; max-height: 62vh; background: #FCFBF7; border-radius: 6px; padding: .5em; box-sizing: border-box; }
+.tbk figure.tb-fig figcaption { font-size: .86em; line-height: 1.4; margin-top: .45em; }
+.tbk figure.tb-fig figcaption b { font-family: var(--sans); color: var(--bk); margin-right: .25em; }
+.tbk .tb-fig svg text { font-family: var(--sans); font-size: 13px; fill: #1a1a1a; stroke: none; }
+.tbk .tb-fig svg text.tm { fill: #555; font-size: 12px; }
+.tbk .tb-fig svg text.tb { font-weight: 700; }
+.tbk .tb-fig svg .f0 { fill: #fff; }
+.tbk .tb-fig svg .f1 { fill: #D6E8F7; } .tbk .tb-fig svg .f2 { fill: #FCE0CC; } .tbk .tb-fig svg .f3 { fill: #D9EFDC; }
+.tbk .tb-fig svg .f4 { fill: #EADCF3; } .tbk .tb-fig svg .f5 { fill: #FFF1BF; } .tbk .tb-fig svg .f6 { fill: #E7E9EC; }
+.tbk .tb-fig svg .f0, .tbk .tb-fig svg .f1, .tbk .tb-fig svg .f2, .tbk .tb-fig svg .f3, .tbk .tb-fig svg .f4, .tbk .tb-fig svg .f5, .tbk .tb-fig svg .f6 { stroke: #3a3a3a; stroke-width: 1; }
+.tbk .tb-fig svg .fs { fill: #1F5F99; stroke: none; }
+.tbk .tb-fig svg .s1, .tbk .tb-fig svg .s2, .tbk .tb-fig svg .s3, .tbk .tb-fig svg .s4 { fill: none; stroke-width: 2.4; }
+.tbk .tb-fig svg .s1 { stroke: #1F5F99; } .tbk .tb-fig svg .s2 { stroke: #C2410C; } .tbk .tb-fig svg .s3 { stroke: #15803D; } .tbk .tb-fig svg .s4 { stroke: #7E22CE; }
+.tbk .tb-fig svg .ln { stroke: #222; fill: none; stroke-width: 1.4; }
+.tbk .tb-fig svg .gr { stroke: #B5B5B5; fill: none; stroke-width: .8; }
+.tbk .tb-fig svg line:not([class]), .tbk .tb-fig svg path:not([class]), .tbk .tb-fig svg polyline:not([class]) { stroke: #222; fill: none; stroke-width: 1.4; }
+.tbk .tb-fig svg rect:not([class]), .tbk .tb-fig svg circle:not([class]), .tbk .tb-fig svg ellipse:not([class]), .tbk .tb-fig svg polygon:not([class]) { fill: none; stroke: #222; stroke-width: 1.2; }
+.tbk p.tb-sump b { font-family: var(--sans); color: var(--bk); }
+.tbk ol.tb-pyq { padding-left: 1.5em; }
+.tbk ol.tb-pyq li { margin-bottom: .9em; }
+.tbk ol.tb-pyq p { margin: 0 0 .25em; }
+.tbk ol.tb-pyq .src { font-family: var(--sans); font-size: .8em; opacity: .75; }
+.tbk ol.tb-pyq .opts { opacity: .8; font-size: .94em; }
+.tbk ol.tb-pyq .a b { font-family: var(--sans); color: var(--bk); }
+.tbk .tb-pdfs { display: flex; gap: .6em; flex-wrap: wrap; margin: .8em 0 1.2em; }
+.tbk .tb-pdfs a { font-family: var(--sans); font-weight: 700; font-size: .9em; padding: .55em .9em; border-radius: 6px; border: 1.5px solid var(--bk); color: var(--bk); text-decoration: none; }
+.tbk .tb-hy { display: inline-block; font-family: var(--sans); font-weight: 700; font-size: .62em; line-height: 1; letter-spacing: .07em; text-transform: uppercase; padding: .38em .6em .32em; border: 1px solid; border-radius: 4px; margin-left: .7em; white-space: nowrap; vertical-align: .3em; }
+.tbk .tb-hy.hy3 { background: #C62828; border-color: #C62828; color: #fff; }
+.tbk .tb-hy.hy2 { background: #F6B40E; border-color: #F6B40E; color: #3A2900; }
+.tbk .tb-hy.hy1 { background: rgba(127,127,127,.12); border-color: rgba(127,127,127,.55); color: inherit; opacity: .85; }
+.tbk .tb-hyd { display: inline-block; white-space: nowrap; margin-left: .45em; vertical-align: .12em; line-height: 0; }
+.tbk .tb-hyd i { display: inline-block; width: .42em; height: .42em; border-radius: 50%; background: currentColor; margin-right: .16em; }
+.tbk .tb-hyd.hy3 { color: #C62828; } .tbk .tb-hyd.hy2 { color: #E39A00; } .tbk .tb-hyd.hy1 { color: #8A9AA3; }
+.tbk .tb-inthis li .tb-hyd { margin: 0 .45em 0 0; }
+.tbk p.tb-wt { font-family: var(--sans); font-size: .88em; margin: .7em 0 .1em; padding-top: .55em; border-top: 1px solid rgba(127,127,127,.35); }
+.tbk p.tb-wt b { color: var(--bk); }
+html[data-theme="dark"] .tbk .tb-hy.hy3 { background: #E0574B; border-color: #E0574B; color: #1A0E0C; }
+html[data-theme="dark"] .tbk .tb-hy.hy2 { background: #F2C14E; border-color: #F2C14E; color: #241A00; }
+html[data-theme="dark"] .tbk .tb-hyd.hy3 { color: #E8786D; }
+html[data-theme="dark"] .tbk .tb-hyd.hy2 { color: #F2C14E; }
+.tbk h3.tb-endh[id$="-hy"] { border-top: 3px solid #C62828; }
+html[data-theme="dark"] .tbk h3.tb-endh[id$="-hy"] { border-top-color: #E0574B; }
+.tbk p.tb-hyi { font-style: italic; opacity: .8; }
+.tbk ol.tb-hys { list-style: none; counter-reset: hy; padding: 0; margin: .3em 0 1em; }
+.tbk ol.tb-hys li { counter-increment: hy; position: relative; padding: .45em 0 .45em 2em; border-bottom: 1px solid rgba(127,127,127,.28); break-inside: avoid; -webkit-column-break-inside: avoid; }
+.tbk ol.tb-hys li::before { content: counter(hy); position: absolute; left: 0; top: .45em; font-family: var(--sans); font-weight: 700; color: var(--bk); }
+.tbk .tb-hyn { display: inline-block; font-family: var(--sans); font-weight: 700; font-size: .68em; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; margin-left: .4em; padding: .2em .45em; border: 1px solid rgba(127,127,127,.55); border-radius: 3px; opacity: .85; }
+.tbk p.tb-yl{margin:0 0 1em}
+/* the "In this chapter" list is taller than a page: let it run on instead of leaving page 1 blank */
+.tbk .tb-inthis{break-inside:auto;-webkit-column-break-inside:auto}
 /* paged reader: a figure can't split across a page, so it scales to fit one */
 .openbook .art .nb figure.dia,.openbook .art .nb .bfig{break-inside:avoid;-webkit-column-break-inside:avoid}
 .openbook .art .nb figure.dia svg{max-height:var(--pg-imgmax,80%)}
@@ -587,6 +676,7 @@ body.pn-immersive .readerfoot{display:none !important}
 const DATA = __PAYLOAD__;
 // ---- per-book visual identity (keyed by book.key); c=dark accent, cl=light accent ----
 const THEME={
+  "final-textbook":{c:"129,140,248",cl:"67,56,202",ic:"📚"},
   "schultz-personality":{c:"167,139,250",cl:"124,93,230",ic:"🧩"},
   "baron-social-psychology":{c:"45,212,191",cl:"13,148,136",ic:"👥"},
   "pinel-biopsychology":{c:"251,191,114",cl:"176,116,18",ic:"🧠"},
@@ -672,7 +762,9 @@ function renderNav(){
     const h=document.createElement('div');h.className='bkhead';
     h.innerHTML=`<span class="bk-ic">${m.ic}</span><span class="bk-nm">${bk.subject}</span><span class="bk-ct">${docs.length}</span>`;
     g.appendChild(h);
+    let part=null;
     docs.forEach(d=>{
+      if(d.part&&d.part!==part){part=d.part;const p=document.createElement('div');p.className='bkpart';p.textContent=part;g.appendChild(p);}
       const a=document.createElement('a');a.className='ch'+(current&&current===d?' active':'');
       a.innerHTML=`<span class="nm">${d.num}</span><span>${cleanTitle(d.title)}</span>`;
       a.onclick=()=>openDoc(d);
@@ -709,7 +801,9 @@ function renderHome(){
     const b=DATA.books.find(x=>x.key===activeBook),m=meta(activeBook);
     const docs=DATA.docs.filter(d=>d.book===activeBook);
     let cells='';
-    docs.forEach(d=>{cells+=`<div class="icell" data-num="${d.num}"><span class="n">${d.num}</span><span class="t">${cleanTitle(d.title)}</span></div>`;});
+    let part=null;
+    docs.forEach(d=>{if(d.part&&d.part!==part){part=d.part;cells+=`<div class="ipart">${part}</div>`;}
+      cells+=`<div class="icell" data-num="${d.num}"><span class="n">${d.num}</span><span class="t">${cleanTitle(d.title)}</span></div>`;});
     view.className='wrap';view.setAttribute('style',bookVars(activeBook));
     view.innerHTML=`<div class="bkindex"><div class="ihead"><div class="ic">${m.ic}</div>
       <div><h2>${b.subject}</h2><div class="sub">${b.title}</div></div></div>

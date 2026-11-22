@@ -1,4 +1,700 @@
 {
+  "final-textbook": {
+    "title": "The Final Exam Textbook (short edition, all 9 JSS subjects)",
+    "subject": "Final Textbook",
+    "chapters": [
+      {
+        "num": "1.1",
+        "title": "Psychology as a Science: Roots, Founders and the First Schools",
+        "part": "1 General Psychology",
+        "slug": "ch001-1-1-psychology-as-a-science-roots-founders-and-t"
+      },
+      {
+        "num": "1.2",
+        "title": "Schools and Systems, the Cognitive Revolution and Indian Psychology",
+        "part": "1 General Psychology",
+        "slug": "ch002-1-2-schools-and-systems-the-cognitive-revolution"
+      },
+      {
+        "num": "1.3",
+        "title": "Sensation and Psychophysics",
+        "part": "1 General Psychology",
+        "slug": "ch003-1-3-sensation-and-psychophysics"
+      },
+      {
+        "num": "1.4",
+        "title": "Perception: Organising and Interpreting the World",
+        "part": "1 General Psychology",
+        "slug": "ch004-1-4-perception-organising-and-interpreting-the-w"
+      },
+      {
+        "num": "1.5",
+        "title": "Attention and Consciousness",
+        "part": "1 General Psychology",
+        "slug": "ch005-1-5-attention-and-consciousness"
+      },
+      {
+        "num": "1.6",
+        "title": "Learning: Conditioning, Cognition and Observation",
+        "part": "1 General Psychology",
+        "slug": "ch006-1-6-learning-conditioning-cognition-and-observat"
+      },
+      {
+        "num": "1.7",
+        "title": "Memory: Encoding, Storage, Retrieval and Forgetting",
+        "part": "1 General Psychology",
+        "slug": "ch007-1-7-memory-encoding-storage-retrieval-and-forget"
+      },
+      {
+        "num": "1.8",
+        "title": "Thinking, Problem Solving, Reasoning, Decision Making and Language",
+        "part": "1 General Psychology",
+        "slug": "ch008-1-8-thinking-problem-solving-reasoning-decision-"
+      },
+      {
+        "num": "1.9",
+        "title": "Intelligence: Theories, Measurement, Heredity and Environment",
+        "part": "1 General Psychology",
+        "slug": "ch009-1-9-intelligence-theories-measurement-heredity-a"
+      },
+      {
+        "num": "1.10",
+        "title": "Motivation",
+        "part": "1 General Psychology",
+        "slug": "ch010-1-10-motivation"
+      },
+      {
+        "num": "1.11",
+        "title": "Emotion and Stress",
+        "part": "1 General Psychology",
+        "slug": "ch011-1-11-emotion-and-stress"
+      },
+      {
+        "num": "1 Rev",
+        "title": "General Psychology: case revisited, summary, who's who, key terms",
+        "part": "1 General Psychology",
+        "slug": "ch012-1-rev-general-psychology-case-revisited-summary-"
+      },
+      {
+        "num": "1 HY",
+        "title": "General Psychology: past papers and the high-yield sheet",
+        "part": "1 General Psychology",
+        "slug": "ch013-1-hy-general-psychology-past-papers-and-the-high"
+      },
+      {
+        "num": "2.1",
+        "title": "Psychological Testing: Nature, History, Types and Ethics",
+        "part": "2 Psychological Assessment",
+        "slug": "ch014-2-1-psychological-testing-nature-history-types-a"
+      },
+      {
+        "num": "2.2",
+        "title": "Building a Test: Items, Item Analysis, IRT and Response Bias",
+        "part": "2 Psychological Assessment",
+        "slug": "ch015-2-2-building-a-test-items-item-analysis-irt-and-"
+      },
+      {
+        "num": "2.3",
+        "title": "Reliability: Consistency and the Standard Error of Measurement",
+        "part": "2 Psychological Assessment",
+        "slug": "ch016-2-3-reliability-consistency-and-the-standard-err"
+      },
+      {
+        "num": "2.4",
+        "title": "Validity and the Accuracy of Test Decisions",
+        "part": "2 Psychological Assessment",
+        "slug": "ch017-2-4-validity-and-the-accuracy-of-test-decisions"
+      },
+      {
+        "num": "2.5",
+        "title": "Norms, Standard Scores and Interpreting a Score",
+        "part": "2 Psychological Assessment",
+        "slug": "ch018-2-5-norms-standard-scores-and-interpreting-a-sco"
+      },
+      {
+        "num": "2.6",
+        "title": "Intelligence Tests: Binet, Wechsler, Non-verbal and Indian Scales",
+        "part": "2 Psychological Assessment",
+        "slug": "ch019-2-6-intelligence-tests-binet-wechsler-non-verbal"
+      },
+      {
+        "num": "2.7",
+        "title": "Assessing Development, Adaptive Behaviour and Disability",
+        "part": "2 Psychological Assessment",
+        "slug": "ch020-2-7-assessing-development-adaptive-behaviour-and"
+      },
+      {
+        "num": "2.8",
+        "title": "Aptitude, Achievement, Creativity, Interest and Attitude Measures",
+        "part": "2 Psychological Assessment",
+        "slug": "ch021-2-8-aptitude-achievement-creativity-interest-and"
+      },
+      {
+        "num": "2.9",
+        "title": "Objective Personality Inventories",
+        "part": "2 Psychological Assessment",
+        "slug": "ch022-2-9-objective-personality-inventories"
+      },
+      {
+        "num": "2.10",
+        "title": "Projective Techniques",
+        "part": "2 Psychological Assessment",
+        "slug": "ch023-2-10-projective-techniques"
+      },
+      {
+        "num": "2.11",
+        "title": "Neuropsychological Assessment and Clinical Rating Scales",
+        "part": "2 Psychological Assessment",
+        "slug": "ch024-2-11-neuropsychological-assessment-and-clinical-"
+      },
+      {
+        "num": "2 Rev",
+        "title": "Psychological Assessment: case revisited, summary, who's who, key terms",
+        "part": "2 Psychological Assessment",
+        "slug": "ch025-2-rev-psychological-assessment-case-revisited-su"
+      },
+      {
+        "num": "2 HY",
+        "title": "Psychological Assessment: past papers and the high-yield sheet",
+        "part": "2 Psychological Assessment",
+        "slug": "ch026-2-hy-psychological-assessment-past-papers-and-th"
+      },
+      {
+        "num": "3.1",
+        "title": "Social Psychology: History, Theories, Concepts and Methods",
+        "part": "3 Social Psychology",
+        "slug": "ch027-3-1-social-psychology-history-theories-concepts-"
+      },
+      {
+        "num": "3.2",
+        "title": "Social Cognition and First Impressions",
+        "part": "3 Social Psychology",
+        "slug": "ch028-3-2-social-cognition-and-first-impressions"
+      },
+      {
+        "num": "3.3",
+        "title": "Communication, Nonverbal Cues and Attribution",
+        "part": "3 Social Psychology",
+        "slug": "ch029-3-3-communication-nonverbal-cues-and-attribution"
+      },
+      {
+        "num": "3.4",
+        "title": "Attitudes, Persuasion and Cognitive Dissonance",
+        "part": "3 Social Psychology",
+        "slug": "ch030-3-4-attitudes-persuasion-and-cognitive-dissonanc"
+      },
+      {
+        "num": "3.5",
+        "title": "Stereotypes, Prejudice and Intergroup Relations",
+        "part": "3 Social Psychology",
+        "slug": "ch031-3-5-stereotypes-prejudice-and-intergroup-relatio"
+      },
+      {
+        "num": "3.6",
+        "title": "Affiliation, Attraction and Close Relationships",
+        "part": "3 Social Psychology",
+        "slug": "ch032-3-6-affiliation-attraction-and-close-relationshi"
+      },
+      {
+        "num": "3.7",
+        "title": "Social Influence: Conformity, Compliance, Obedience and Power",
+        "part": "3 Social Psychology",
+        "slug": "ch033-3-7-social-influence-conformity-compliance-obedi"
+      },
+      {
+        "num": "3.8",
+        "title": "Prosocial Behaviour: Why and When People Help",
+        "part": "3 Social Psychology",
+        "slug": "ch034-3-8-prosocial-behaviour-why-and-when-people-help"
+      },
+      {
+        "num": "3.9",
+        "title": "Aggression: Its Roots, Causes and Control",
+        "part": "3 Social Psychology",
+        "slug": "ch035-3-9-aggression-its-roots-causes-and-control"
+      },
+      {
+        "num": "3.10",
+        "title": "Groups: Structure, Performance, Decisions and Leadership",
+        "part": "3 Social Psychology",
+        "slug": "ch036-3-10-groups-structure-performance-decisions-and-"
+      },
+      {
+        "num": "3.11",
+        "title": "Applied Social Psychology: Law, Culture and Social Work",
+        "part": "3 Social Psychology",
+        "slug": "ch037-3-11-applied-social-psychology-law-culture-and-s"
+      },
+      {
+        "num": "3 Rev",
+        "title": "Social Psychology: case revisited, summary, who's who, key terms",
+        "part": "3 Social Psychology",
+        "slug": "ch038-3-rev-social-psychology-case-revisited-summary-w"
+      },
+      {
+        "num": "3 HY",
+        "title": "Social Psychology: past papers and the high-yield sheet",
+        "part": "3 Social Psychology",
+        "slug": "ch039-3-hy-social-psychology-past-papers-and-the-high-"
+      },
+      {
+        "num": "4.1",
+        "title": "What Personality Is: Definitions, Approaches and Early Type Theories",
+        "part": "4 Personality",
+        "slug": "ch040-4-1-what-personality-is-definitions-approaches-a"
+      },
+      {
+        "num": "4.2",
+        "title": "Freud's Psychoanalysis: Instincts, Structure and Psychosexual Stages",
+        "part": "4 Personality",
+        "slug": "ch041-4-2-freud-s-psychoanalysis-instincts-structure-a"
+      },
+      {
+        "num": "4.3",
+        "title": "Defence Mechanisms: How the Ego Protects Itself",
+        "part": "4 Personality",
+        "slug": "ch042-4-3-defence-mechanisms-how-the-ego-protects-itse"
+      },
+      {
+        "num": "4.4",
+        "title": "Jung's Analytical Psychology and Adler's Individual Psychology",
+        "part": "4 Personality",
+        "slug": "ch043-4-4-jung-s-analytical-psychology-and-adler-s-ind"
+      },
+      {
+        "num": "4.5",
+        "title": "Horney, Fromm, Sullivan and the Object-Relations Theorists",
+        "part": "4 Personality",
+        "slug": "ch044-4-5-horney-fromm-sullivan-and-the-object-relatio"
+      },
+      {
+        "num": "4.6",
+        "title": "Traits I: Allport, Cattell and the Lexical Search",
+        "part": "4 Personality",
+        "slug": "ch045-4-6-traits-i-allport-cattell-and-the-lexical-sea"
+      },
+      {
+        "num": "4.7",
+        "title": "Traits II: Eysenck, the Big Five and the Biology of Personality",
+        "part": "4 Personality",
+        "slug": "ch046-4-7-traits-ii-eysenck-the-big-five-and-the-biolo"
+      },
+      {
+        "num": "4.8",
+        "title": "Humanistic and Existential Theories: Rogers, Maslow and May",
+        "part": "4 Personality",
+        "slug": "ch047-4-8-humanistic-and-existential-theories-rogers-m"
+      },
+      {
+        "num": "4.9",
+        "title": "Behavioural, Social-Cognitive and Cognitive Theories",
+        "part": "4 Personality",
+        "slug": "ch048-4-9-behavioural-social-cognitive-and-cognitive-t"
+      },
+      {
+        "num": "4.10",
+        "title": "The Self, Positive Traits and Indian Approaches to Personality",
+        "part": "4 Personality",
+        "slug": "ch049-4-10-the-self-positive-traits-and-indian-approac"
+      },
+      {
+        "num": "4 Rev",
+        "title": "Personality: case revisited, summary, who's who, key terms",
+        "part": "4 Personality",
+        "slug": "ch050-4-rev-personality-case-revisited-summary-who-s-w"
+      },
+      {
+        "num": "4 HY",
+        "title": "Personality: past papers and the high-yield sheet",
+        "part": "4 Personality",
+        "slug": "ch051-4-hy-personality-past-papers-and-the-high-yield-"
+      },
+      {
+        "num": "5.1",
+        "title": "Biopsychology and the Organisation of the Nervous System",
+        "part": "5 Physiological Psychology",
+        "slug": "ch052-5-1-biopsychology-and-the-organisation-of-the-ne"
+      },
+      {
+        "num": "5.2",
+        "title": "The Brain: Brainstem, Diencephalon and Cerebral Cortex",
+        "part": "5 Physiological Psychology",
+        "slug": "ch053-5-2-the-brain-brainstem-diencephalon-and-cerebra"
+      },
+      {
+        "num": "5.3",
+        "title": "Neurons, Neural Conduction, Synapses and Neurotransmitters",
+        "part": "5 Physiological Psychology",
+        "slug": "ch054-5-3-neurons-neural-conduction-synapses-and-neuro"
+      },
+      {
+        "num": "5.4",
+        "title": "Drugs, Reward and Psychopharmacology",
+        "part": "5 Physiological Psychology",
+        "slug": "ch055-5-4-drugs-reward-and-psychopharmacology"
+      },
+      {
+        "num": "5.5",
+        "title": "Research Methods, Behaviour Genetics and the Developing Brain",
+        "part": "5 Physiological Psychology",
+        "slug": "ch056-5-5-research-methods-behaviour-genetics-and-the-"
+      },
+      {
+        "num": "5.6",
+        "title": "Sensory Pathways and the Motor System",
+        "part": "5 Physiological Psychology",
+        "slug": "ch057-5-6-sensory-pathways-and-the-motor-system"
+      },
+      {
+        "num": "5.7",
+        "title": "The Endocrine System, Stress and the Emotional Brain",
+        "part": "5 Physiological Psychology",
+        "slug": "ch058-5-7-the-endocrine-system-stress-and-the-emotiona"
+      },
+      {
+        "num": "5.8",
+        "title": "Sleep, Biological Rhythms, Hunger, Thirst and Sex",
+        "part": "5 Physiological Psychology",
+        "slug": "ch059-5-8-sleep-biological-rhythms-hunger-thirst-and-s"
+      },
+      {
+        "num": "5.9",
+        "title": "The Biology of Learning, Memory and Amnesia",
+        "part": "5 Physiological Psychology",
+        "slug": "ch060-5-9-the-biology-of-learning-memory-and-amnesia"
+      },
+      {
+        "num": "5.10",
+        "title": "Lateralisation, the Split Brain and Language",
+        "part": "5 Physiological Psychology",
+        "slug": "ch061-5-10-lateralisation-the-split-brain-and-language"
+      },
+      {
+        "num": "5.11",
+        "title": "Brain Damage, Neurodegeneration and Neuropsychological Syndromes",
+        "part": "5 Physiological Psychology",
+        "slug": "ch062-5-11-brain-damage-neurodegeneration-and-neuropsy"
+      },
+      {
+        "num": "5 Rev",
+        "title": "Physiological Psychology: case revisited, summary, who's who, key terms",
+        "part": "5 Physiological Psychology",
+        "slug": "ch063-5-rev-physiological-psychology-case-revisited-su"
+      },
+      {
+        "num": "5 HY",
+        "title": "Physiological Psychology: past papers and the high-yield sheet",
+        "part": "5 Physiological Psychology",
+        "slug": "ch064-5-hy-physiological-psychology-past-papers-and-th"
+      },
+      {
+        "num": "6.1",
+        "title": "Foundations: The Lifespan View, Key Issues and Ecological Contexts",
+        "part": "6 Developmental Psychology",
+        "slug": "ch065-6-1-foundations-the-lifespan-view-key-issues-and"
+      },
+      {
+        "num": "6.2",
+        "title": "Heredity, Prenatal Development, Birth and the Newborn",
+        "part": "6 Developmental Psychology",
+        "slug": "ch066-6-2-heredity-prenatal-development-birth-and-the-"
+      },
+      {
+        "num": "6.3",
+        "title": "Infancy: Brain, Body, Motor Skills and Perception",
+        "part": "6 Developmental Psychology",
+        "slug": "ch067-6-3-infancy-brain-body-motor-skills-and-percepti"
+      },
+      {
+        "num": "6.4",
+        "title": "Piaget's Theory of Cognitive Development",
+        "part": "6 Developmental Psychology",
+        "slug": "ch068-6-4-piaget-s-theory-of-cognitive-development"
+      },
+      {
+        "num": "6.5",
+        "title": "Vygotsky, Bruner, Information Processing and Theory of Mind",
+        "part": "6 Developmental Psychology",
+        "slug": "ch069-6-5-vygotsky-bruner-information-processing-and-t"
+      },
+      {
+        "num": "6.6",
+        "title": "Emotional Development, Temperament and Self-Regulation",
+        "part": "6 Developmental Psychology",
+        "slug": "ch070-6-6-emotional-development-temperament-and-self-r"
+      },
+      {
+        "num": "6.7",
+        "title": "Attachment: Imprinting, Bowlby, Ainsworth and Beyond",
+        "part": "6 Developmental Psychology",
+        "slug": "ch071-6-7-attachment-imprinting-bowlby-ainsworth-and-b"
+      },
+      {
+        "num": "6.8",
+        "title": "Parenting, Family, Play and Gender in Childhood",
+        "part": "6 Developmental Psychology",
+        "slug": "ch072-6-8-parenting-family-play-and-gender-in-childhoo"
+      },
+      {
+        "num": "6.9",
+        "title": "Moral Development: Piaget, Kohlberg, Gilligan and Beyond",
+        "part": "6 Developmental Psychology",
+        "slug": "ch073-6-9-moral-development-piaget-kohlberg-gilligan-a"
+      },
+      {
+        "num": "6.10",
+        "title": "Erikson's Psychosocial Stages, Identity and Adolescence",
+        "part": "6 Developmental Psychology",
+        "slug": "ch074-6-10-erikson-s-psychosocial-stages-identity-and-"
+      },
+      {
+        "num": "6.11",
+        "title": "Adulthood, Ageing, Death and Dying",
+        "part": "6 Developmental Psychology",
+        "slug": "ch075-6-11-adulthood-ageing-death-and-dying"
+      },
+      {
+        "num": "6 Rev",
+        "title": "Developmental Psychology: case revisited, summary, who's who, key terms",
+        "part": "6 Developmental Psychology",
+        "slug": "ch076-6-rev-developmental-psychology-case-revisited-su"
+      },
+      {
+        "num": "6 HY",
+        "title": "Developmental Psychology: past papers and the high-yield sheet",
+        "part": "6 Developmental Psychology",
+        "slug": "ch077-6-hy-developmental-psychology-past-papers-and-th"
+      },
+      {
+        "num": "7.1",
+        "title": "The Profession: History, Models, Ethics and Indian Law",
+        "part": "7 Clinical Psychology",
+        "slug": "ch078-7-1-the-profession-history-models-ethics-and-ind"
+      },
+      {
+        "num": "7.2",
+        "title": "The Clinical Interview, Mental Status Examination and Formulation",
+        "part": "7 Clinical Psychology",
+        "slug": "ch079-7-2-the-clinical-interview-mental-status-examina"
+      },
+      {
+        "num": "7.3",
+        "title": "Psychodynamic Therapies and Their Descendants",
+        "part": "7 Clinical Psychology",
+        "slug": "ch080-7-3-psychodynamic-therapies-and-their-descendant"
+      },
+      {
+        "num": "7.4",
+        "title": "Behaviour Therapy",
+        "part": "7 Clinical Psychology",
+        "slug": "ch081-7-4-behaviour-therapy"
+      },
+      {
+        "num": "7.5",
+        "title": "Cognitive and Cognitive-Behavioural Therapies, and the Third Wave",
+        "part": "7 Clinical Psychology",
+        "slug": "ch082-7-5-cognitive-and-cognitive-behavioural-therapie"
+      },
+      {
+        "num": "7.6",
+        "title": "Humanistic, Existential, Experiential and Brief Therapies",
+        "part": "7 Clinical Psychology",
+        "slug": "ch083-7-6-humanistic-existential-experiential-and-brie"
+      },
+      {
+        "num": "7.7",
+        "title": "Family, Couples and Group Therapies",
+        "part": "7 Clinical Psychology",
+        "slug": "ch084-7-7-family-couples-and-group-therapies"
+      },
+      {
+        "num": "7.8",
+        "title": "Does Psychotherapy Work? Evidence, Common Factors and the Alliance",
+        "part": "7 Clinical Psychology",
+        "slug": "ch085-7-8-does-psychotherapy-work-evidence-common-fact"
+      },
+      {
+        "num": "7.9",
+        "title": "Health, Community, Crisis and Rehabilitation Psychology",
+        "part": "7 Clinical Psychology",
+        "slug": "ch086-7-9-health-community-crisis-and-rehabilitation-p"
+      },
+      {
+        "num": "7.10",
+        "title": "Working with Children, Older Adults and Special Settings",
+        "part": "7 Clinical Psychology",
+        "slug": "ch087-7-10-working-with-children-older-adults-and-spec"
+      },
+      {
+        "num": "7 Rev",
+        "title": "Clinical Psychology: case revisited, summary, who's who, key terms",
+        "part": "7 Clinical Psychology",
+        "slug": "ch088-7-rev-clinical-psychology-case-revisited-summary"
+      },
+      {
+        "num": "7 HY",
+        "title": "Clinical Psychology: past papers and the high-yield sheet",
+        "part": "7 Clinical Psychology",
+        "slug": "ch089-7-hy-clinical-psychology-past-papers-and-the-hig"
+      },
+      {
+        "num": "8.1",
+        "title": "Abnormality, Causes and the Classification of Mental Disorders",
+        "part": "8 Psychiatric Disorders",
+        "slug": "ch090-8-1-abnormality-causes-and-the-classification-of"
+      },
+      {
+        "num": "8.2",
+        "title": "Descriptive Psychopathology: Signs and Symptoms",
+        "part": "8 Psychiatric Disorders",
+        "slug": "ch091-8-2-descriptive-psychopathology-signs-and-sympto"
+      },
+      {
+        "num": "8.3",
+        "title": "Neurodevelopmental Disorders",
+        "part": "8 Psychiatric Disorders",
+        "slug": "ch092-8-3-neurodevelopmental-disorders"
+      },
+      {
+        "num": "8.4",
+        "title": "Schizophrenia Spectrum and Other Psychotic Disorders",
+        "part": "8 Psychiatric Disorders",
+        "slug": "ch093-8-4-schizophrenia-spectrum-and-other-psychotic-d"
+      },
+      {
+        "num": "8.5",
+        "title": "Depressive and Bipolar Disorders, and Suicide",
+        "part": "8 Psychiatric Disorders",
+        "slug": "ch094-8-5-depressive-and-bipolar-disorders-and-suicide"
+      },
+      {
+        "num": "8.6",
+        "title": "Anxiety and Obsessive-Compulsive and Related Disorders",
+        "part": "8 Psychiatric Disorders",
+        "slug": "ch095-8-6-anxiety-and-obsessive-compulsive-and-related"
+      },
+      {
+        "num": "8.7",
+        "title": "Trauma, Dissociative and Somatic Symptom Disorders",
+        "part": "8 Psychiatric Disorders",
+        "slug": "ch096-8-7-trauma-dissociative-and-somatic-symptom-diso"
+      },
+      {
+        "num": "8.8",
+        "title": "Feeding, Eating, Elimination and Sleep-Wake Disorders",
+        "part": "8 Psychiatric Disorders",
+        "slug": "ch097-8-8-feeding-eating-elimination-and-sleep-wake-di"
+      },
+      {
+        "num": "8.9",
+        "title": "Sexual Dysfunctions, Paraphilic Disorders and Gender Dysphoria",
+        "part": "8 Psychiatric Disorders",
+        "slug": "ch098-8-9-sexual-dysfunctions-paraphilic-disorders-and"
+      },
+      {
+        "num": "8.10",
+        "title": "Substance-Related, Addictive and Neurocognitive Disorders",
+        "part": "8 Psychiatric Disorders",
+        "slug": "ch099-8-10-substance-related-addictive-and-neurocognit"
+      },
+      {
+        "num": "8.11",
+        "title": "Personality Disorders, Conduct and Impulse-Control Disorders",
+        "part": "8 Psychiatric Disorders",
+        "slug": "ch100-8-11-personality-disorders-conduct-and-impulse-c"
+      },
+      {
+        "num": "8 Rev",
+        "title": "Psychiatric Disorders: case revisited, summary, who's who, key terms",
+        "part": "8 Psychiatric Disorders",
+        "slug": "ch101-8-rev-psychiatric-disorders-case-revisited-summa"
+      },
+      {
+        "num": "8 HY",
+        "title": "Psychiatric Disorders: past papers and the high-yield sheet",
+        "part": "8 Psychiatric Disorders",
+        "slug": "ch102-8-hy-psychiatric-disorders-past-papers-and-the-h"
+      },
+      {
+        "num": "9.1",
+        "title": "Science and the Research Process: Problems and Hypotheses",
+        "part": "9 Research Methodology",
+        "slug": "ch103-9-1-science-and-the-research-process-problems-an"
+      },
+      {
+        "num": "9.2",
+        "title": "Variables, Experimental Control and the Validity of Research",
+        "part": "9 Research Methodology",
+        "slug": "ch104-9-2-variables-experimental-control-and-the-valid"
+      },
+      {
+        "num": "9.3",
+        "title": "Sampling: Populations, Probability and Non-Probability Methods",
+        "part": "9 Research Methodology",
+        "slug": "ch105-9-3-sampling-populations-probability-and-non-pro"
+      },
+      {
+        "num": "9.4",
+        "title": "Research Designs: Experimental, Single-Case and Non-Experimental",
+        "part": "9 Research Methodology",
+        "slug": "ch106-9-4-research-designs-experimental-single-case-an"
+      },
+      {
+        "num": "9.5",
+        "title": "Clinical Epidemiology, Randomised Trials and Evidence Synthesis",
+        "part": "9 Research Methodology",
+        "slug": "ch107-9-5-clinical-epidemiology-randomised-trials-and-"
+      },
+      {
+        "num": "9.6",
+        "title": "Methods of Data Collection and Qualitative Research",
+        "part": "9 Research Methodology",
+        "slug": "ch108-9-6-methods-of-data-collection-and-qualitative-r"
+      },
+      {
+        "num": "9.7",
+        "title": "Research Ethics and Writing the Research Report",
+        "part": "9 Research Methodology",
+        "slug": "ch109-9-7-research-ethics-and-writing-the-research-rep"
+      },
+      {
+        "num": "9.8",
+        "title": "Measurement Scales, Organising Data and Descriptive Statistics",
+        "part": "9 Research Methodology",
+        "slug": "ch110-9-8-measurement-scales-organising-data-and-descr"
+      },
+      {
+        "num": "9.9",
+        "title": "Sampling Distributions and the Logic of Hypothesis Testing",
+        "part": "9 Research Methodology",
+        "slug": "ch111-9-9-sampling-distributions-and-the-logic-of-hypo"
+      },
+      {
+        "num": "9.10",
+        "title": "Comparing Groups: t-Tests, ANOVA and Non-Parametric Tests",
+        "part": "9 Research Methodology",
+        "slug": "ch112-9-10-comparing-groups-t-tests-anova-and-non-para"
+      },
+      {
+        "num": "9.11",
+        "title": "Correlation, Regression and Factor Analysis",
+        "part": "9 Research Methodology",
+        "slug": "ch113-9-11-correlation-regression-and-factor-analysis"
+      },
+      {
+        "num": "9 Rev",
+        "title": "Research Methodology: case revisited, summary, who's who, key terms",
+        "part": "9 Research Methodology",
+        "slug": "ch114-9-rev-research-methodology-case-revisited-summar"
+      },
+      {
+        "num": "9 HY",
+        "title": "Research Methodology: past papers and the high-yield sheet",
+        "part": "9 Research Methodology",
+        "slug": "ch115-9-hy-research-methodology-past-papers-and-the-hi"
+      }
+    ]
+  },
   "schultz-personality": {
     "title": "Theories of Personality (Schultz & Schultz, 11th ed.)",
     "file": "52958_Theories of Personality 11th Edition Schultz.pdf",

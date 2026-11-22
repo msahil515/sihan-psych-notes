@@ -43,12 +43,15 @@ def build_docs():
                 html = re.sub(r'^\s*<h1[^>]*>.*?</h1>\s*', '', html, count=1, flags=re.S)
             else:
                 continue
-            docs.append({
+            doc = {
                 "book": key, "bookTitle": b["title"], "subject": b["subject"],
                 "num": c["num"], "title": c["title"],
                 "html": html,
                 "text": re.sub(r'\s+', ' ', search_src).lower()[:20000],
-            })
+            }
+            if "part" in c:  # the Final Textbook groups its sections by subject
+                doc["part"] = c["part"]
+            docs.append(doc)
     return docs
 
 def main():

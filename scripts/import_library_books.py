@@ -3,8 +3,9 @@
 into the Textbook Library as their own books, one chapter per section.
 
 Sihan, 06 Aug: "I want all the newer builds to replace the old textbooks in the textbook
-library app". These five had no shelf here at all: Statistics & Research Methods,
-DSM-5-TR (exam cut), RML CET-166 study material, SGT study material, Psycho Didi notes.
+library app". These had no shelf here at all: Statistics & Research Methods,
+DSM-5-TR (exam cut), RML CET-166 study material, SGT study material, Psycho Didi notes,
+and the Final Exam Textbook (all 9 JSS subjects, one chapter per section).
 
 Writes notes/<book>/chNN-<slug>.html (an HTML fragment, used as-is by build.py) and adds
 the book to notes/manifest.json. Re-running replaces the same files.
@@ -22,6 +23,9 @@ PD = ["history", "research", "biology", "psychopathology", "testing", "intervent
       "cognitive", "personality", "developmental", "social", "cheatsheets"]
 
 BOOKS = {
+    "final-textbook": dict(
+        title="The Final Exam Textbook (short edition, all 9 JSS subjects)",
+        subject="Final Textbook", final=[f"final-book-{n:02d}" for n in range(1, 10)]),
     "statistics-research": dict(
         title="Statistics and Research Methods (Library edition, 27 sections)",
         subject="Statistics & Research Methods", split=["statistics"]),
@@ -89,9 +93,9 @@ def h2_title(h2):
 def slugify(t):
     return re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')[:48]
 
-def wrap(body):
+def wrap(body, cls="nb"):
     body = unlink_missing_anchors(no_em_dash(body.strip()))
-    return f'<div class="nfe-article nb">\n{body}\n</div>\n'
+    return f'<div class="nfe-article {cls}">\n{body}\n</div>\n'
 
 def chapters_split(name):
     a = article(name)
@@ -113,6 +117,42 @@ def chapter_whole(name):
     m = re.search(r'<h1[^>]*>(.*?)</h1>', a, re.S)
     return text(m.group(1)), a[:m.start()] + a[m.end():]
 
+def chapters_final(name):
+    """One Final Textbook subject (final-book-NN) -> one chapter per numbered section, plus two
+    end chapters: the review (revisited case, summary, who's who, key terms) and the past papers
+    with the high-yield sheet. Returns (num, title, part, body) tuples; bodies use the tb-* classes."""
+    a = article(name)
+    a = re.sub(r'<h1[^>]*>.*?</h1>', '', a, count=1, flags=re.S)
+    defs = re.search(r'<svg id="tb-defs".*?</svg>', a, re.S).group(0)  # arrowheads + B&W patterns the figures use
+    a = a.replace(defs, '')
+    n = re.search(r'<span class="tb-chn">Chapter (\d+)</span>', a).group(1)
+    subject = text(re.search(r'<h2 class="tb-cht"[^>]*><span class="tb-chn">.*?</span>(.*?)</h2>', a, re.S).group(1))
+    a = re.sub(r'<section class="tb-ch"[^>]*>', '', a, count=1)
+    a = re.sub(r'<div class="tb-body"[^>]*>', '<div class="tb-body">', a, count=1)
+    assert a.rstrip().endswith('</div></section>'), name
+    a = a.rstrip()[:-len('</div></section>')]
+    parts = re.split(r'(?=<h3 class="tb-s)', a)
+    head, secs = parts[0], parts[1:]  # head = lead + PDF links + opener + the opening case story
+    out, review, hy = [], [], []
+    for sec in secs:
+        m = re.match(r'<h3 class="(tb-s[^"]*)" id="([^"]+)">(.*?)</h3>', sec, re.S)
+        cls, sid, inner = m.groups()
+        if "tb-endh" in cls:
+            (hy if sid.endswith(("-pyq", "-hy")) else review).append(sec)
+            continue
+        num = text(re.search(r'<span class="tb-sn">(.*?)</span>', inner).group(1))
+        chip = re.search(r'<span class="tb-hy[^"]*"[^>]*>.*?</span>', inner, re.S)
+        title = text(re.sub(r'<span class="tb-(sn|hy)[^"]*"[^>]*>.*?</span>', '', inner, flags=re.S))
+        body = (f'<p class="tb-yl">{chip.group(0)}</p>' if chip else '') + sec[m.end():]
+        if not out:
+            body = head + '</div>' + body  # close the opening story's tb-body before section 1
+        out.append((num, title, body))
+    part = f"{n} {subject}"
+    res = [(num, title, part, defs + body) for num, title, body in out]
+    res.append((f"{n} Rev", f"{subject}: case revisited, summary, who's who, key terms", part, defs + "".join(review)))
+    res.append((f"{n} HY", f"{subject}: past papers and the high-yield sheet", part, defs + "".join(hy)))
+    return res
+
 def main():
     man = json.load(open(NOTES / "manifest.json"))
     for key, spec in BOOKS.items():
@@ -125,15 +165,27 @@ def main():
         d.mkdir(exist_ok=True)
         for old in d.glob("ch*.html"):
             old.unlink()
-        entries = []
+        entries, size = [], 0
         for n, (title, body) in enumerate(chs, 1):
             slug = f"ch{n:02d}-{slugify(title)}"
             html = wrap(body)
             assert "</script" not in html.lower(), (key, slug)
             (d / f"{slug}.html").write_text(html)
             entries.append({"num": n, "title": f"Ch {n}: {title}", "slug": slug})
+            size += len(html)
+        fin = [c for name in spec.get("final", []) for c in chapters_final(name)]
+        for i, (num, title, part, body) in enumerate(fin, 1):
+            slug = f"ch{i:03d}-{slugify(num + ' ' + title)}"
+            html = wrap(body, "tbk")
+            assert "</script" not in html.lower(), (key, slug)
+            assert html.count("<div") == html.count("</div>"), (key, slug)
+            (d / f"{slug}.html").write_text(html)
+            entries.append({"num": num, "title": title, "part": part, "slug": slug})
+            size += len(html)
         man[key] = {"title": spec["title"], "subject": spec["subject"], "chapters": entries}
-        print(f"{key}: {len(entries)} chapters, {sum(len(wrap(b)) for _, b in chs)/1e6:.2f} MB")
+        print(f"{key}: {len(entries)} chapters, {size/1e6:.2f} MB")
+    # the Final Textbook is the main exam book, so it is the first card on the home screen
+    man = {"final-textbook": man.pop("final-textbook"), **man}
     (NOTES / "manifest.json").write_text(json.dumps(man, indent=2, ensure_ascii=False) + "\n")
 
 if __name__ == "__main__":
