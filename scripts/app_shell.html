@@ -141,6 +141,9 @@ body{background:var(--body-grad)}
 .card .meta{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--bk);font-weight:650}
 .card .meta .bar{flex:1;height:4px;border-radius:3px;background:var(--line2);overflow:hidden}
 .card .meta .bar>i{display:block;height:100%;width:100%;background:var(--bk);opacity:.55}
+.archlink{display:block;margin:30px auto 0;background:none;border:1px dashed var(--line2);border-radius:999px;padding:8px 16px;
+  color:var(--muted);font:inherit;font-size:13px;cursor:pointer}
+.archlink:hover{color:var(--ink-strong);border-color:var(--faint)}
 
 /* book index (chapter grid inside main) */
 .bkindex{margin-top:6px}
@@ -709,7 +712,9 @@ const THEME={
   "dsm5tr-exam-cut":{c:"248,113,113",cl:"185,28,28",ic:"📕"},
   "psycho-didi":{c:"244,114,182",cl:"190,24,93",ic:"📝"},
   "rml-study-material":{c:"163,230,53",cl:"77,124,15",ic:"🏛️"},
-  "sgt-study-material":{c:"251,146,60",cl:"194,65,12",ic:"🎓"}
+  "sgt-study-material":{c:"251,146,60",cl:"194,65,12",ic:"🎓"},
+  "archive-pinel-biopsychology":{c:"251,191,114",cl:"176,116,18",ic:"🗄️"},
+  "archive-schultz-personality":{c:"167,139,250",cl:"124,93,230",ic:"🗄️"}
 };
 const FALLBACK={c:"91,156,255",cl:"61,111,208",ic:"📘"};
 const meta=k=>THEME[k]||FALLBACK;
@@ -723,7 +728,12 @@ const view=document.getElementById('view'), nav=document.getElementById('nav'),
       main=document.getElementById('main'), tt=document.getElementById('tt'),
       progress=document.querySelector('#progress>i');
 const setTitle=t=>{if(tt)tt.textContent=t;};
-q.placeholder=`Search all ${DATA.docs.length} chapters…`;q2.placeholder=`Search ${DATA.docs.length} chapters…`;
+// Old versions of replaced books sit on a hidden Archive shelf (never deleted): kept out of the
+// main shelf, the pills and search; reached from the link at the bottom of the home page.
+const ARCH=new Set(DATA.books.filter(b=>b.archive).map(b=>b.key));
+const LIVE_N=DATA.docs.filter(d=>!ARCH.has(d.book)).length;
+const inArchive=()=>activeBook==='archive'||ARCH.has(activeBook);
+q.placeholder=`Search all ${LIVE_N} chapters…`;q2.placeholder=`Search ${LIVE_N} chapters…`;
 const menu=document.getElementById('menu'), overlay=document.getElementById('overlay');
 let activeBook="all", current=null;
 // ---- book-reader (2-up / 1-up spread) state ----
@@ -761,14 +771,15 @@ try{if(localStorage.getItem('sideCollapsed')==='1')document.body.classList.add('
 function buildPills(){
   pills.innerHTML='';
   const mk=(key,label)=>{
-    const b=document.createElement('button');b.className='pill'+(activeBook===key?' on':'');
+    const b=document.createElement('button');b.className='pill'+(activeBook===key||(key==='archive'&&inArchive())?' on':'');
     if(key!=='all') b.setAttribute('style',bookVars(key));
     b.innerHTML=(key==='all'?'':'<span class="dot"></span>')+label;
     b.onclick=()=>{activeBook=key;current=null;q.value='';q2.value='';buildPills();renderNav();renderHome();closeNav();};
     pills.appendChild(b);
   };
   mk('all','All');
-  DATA.books.forEach(b=>mk(b.key,b.subject));
+  DATA.books.forEach(b=>{if(!b.archive)mk(b.key,b.subject);});
+  if(inArchive())mk('archive','Archive');
 }
 
 // ---- sidebar nav ----
@@ -777,7 +788,8 @@ function renderNav(){
   nav.innerHTML='';
   let shown=0;
   DATA.books.forEach(bk=>{
-    if(!term && activeBook!=='all' && activeBook!==bk.key) return;
+    if(bk.archive && activeBook!=='archive' && activeBook!==bk.key) return;
+    if(!term && activeBook!=='all' && activeBook!==bk.key && !(activeBook==='archive'&&bk.archive)) return;
     let docs=DATA.docs.filter(d=>d.book===bk.key);
     if(term) docs=docs.filter(d=>d.title.toLowerCase().includes(term)||d.text.includes(term));
     if(!docs.length) return;
@@ -804,9 +816,11 @@ function renderNav(){
 function renderHome(){
   clearReaderMode();
   current=null;setTitle('Textbook Library');main.scrollTop=0;progress.style.width='0';
-  if(activeBook==='all'){
+  if(activeBook==='all'||activeBook==='archive'){
+    const arch=activeBook==='archive';
     let cards='';
     DATA.books.forEach(b=>{
+      if(!!b.archive!==arch) return;
       const m=meta(b.key),n=DATA.docs.filter(d=>d.book===b.key).length;
       cards+=`<button class="card" style="${bookVars(b.key)}" data-book="${b.key}">
         <div class="ic">${m.ic}</div>
@@ -816,12 +830,18 @@ function renderHome(){
       </button>`;
     });
     view.className='wrap home';view.removeAttribute('style');
-    view.innerHTML=`<div class="hero"><h1>Your textbooks, one tap away.</h1>
-      <p>Granular chapter notes for the MET 2026 Clinical Psych entrance. Pick a book to see its chapters, or search every page at once. Works fully offline.</p></div>
-      <div class="cards">${cards}</div>`;
+    view.innerHTML=(arch
+      ? `<div class="hero"><h1>Archive: old versions.</h1>
+      <p>The notes these books had before their full-depth rewrite in November 2026, kept so nothing is lost. The main shelf has the new versions. Search skips the archive unless you are in it.</p></div>`
+      : `<div class="hero"><h1>Your textbooks, one tap away.</h1>
+      <p>Granular chapter notes for the MET 2026 Clinical Psych entrance. Pick a book to see its chapters, or search every page at once. Works fully offline.</p></div>`)
+      +`<div class="cards">${cards}</div>`
+      +(!arch&&ARCH.size?`<button class="archlink" id="archLink">🗄️ Archive: old versions of ${ARCH.size} replaced books</button>`:'');
     view.querySelectorAll('.card').forEach(c=>c.onclick=()=>{
       activeBook=c.dataset.book;buildPills();renderNav();renderHome();
     });
+    const al=view.querySelector('#archLink');
+    if(al)al.onclick=()=>{activeBook='archive';buildPills();renderNav();renderHome();};
   } else {
     const b=DATA.books.find(x=>x.key===activeBook),m=meta(activeBook);
     const docs=DATA.docs.filter(d=>d.book===activeBook);

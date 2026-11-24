@@ -6,7 +6,7 @@ import json, re, subprocess, sys, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 NOTES = ROOT / "notes"
-EXPECT = {"final-textbook": 115, "statistics-research": 28, "dsm5tr-exam-cut": 21, "psycho-didi": 12, "rml-study-material": 15, "sgt-study-material": 15, "schultz-personality": 15, "baron-social-psychology": 12, "pinel-biopsychology": 19, "key-acts-law": 1, "cognitive-eysenck-keane": 22, "singh-research-methods": 24, "counselling-sharf": 16, "barlow-durand-abnormal": 16, "amity": 18}
+EXPECT = {"final-textbook": 115, "statistics-research": 28, "dsm5tr-exam-cut": 21, "psycho-didi": 12, "rml-study-material": 15, "sgt-study-material": 15, "schultz-personality": 15, "baron-social-psychology": 12, "pinel-biopsychology": 19, "key-acts-law": 1, "cognitive-eysenck-keane": 22, "singh-research-methods": 24, "counselling-sharf": 16, "barlow-durand-abnormal": 16, "amity": 18, "archive-pinel-biopsychology": 18, "archive-schultz-personality": 15}
 
 fails = []
 def check(name, cond, detail=""):
@@ -38,6 +38,11 @@ if (DOCS / "index.html").exists():
     ndocs=sum(EXPECT.values()); check(f"index.html embeds {ndocs} docs", html.count('"title":') == ndocs + len(EXPECT), f'count={html.count(chr(34)+"title"+chr(34))}')  # docs + books
     check("index.html registers service worker", "serviceWorker" in html)
     check("index.html has search box", 'id="q"' in html)
+    # old versions of replaced books are kept on the hidden Archive shelf, flagged so the app hides them
+    man = json.load(open(NOTES / "manifest.json"))
+    arch = [k for k, v in man.items() if v.get("archive")]
+    check("archive shelf holds the old Pinel and Schultz", set(arch) == {"archive-pinel-biopsychology", "archive-schultz-personality"}, f"{arch}")
+    check("archive books flagged in the app payload", all(re.search(r'"key": "%s"[^{}]*"archive": true' % k, html) for k in arch) and html.count('"archive": true') == len(arch))
 
 # manifest validity
 if (DOCS / "manifest.webmanifest").exists():

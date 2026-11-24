@@ -57,6 +57,9 @@ def build_docs():
 def main():
     docs = build_docs()
     books = [{"key": k, "title": v["title"], "subject": v["subject"]} for k, v in MAN.items()]
+    for b in books:
+        if MAN[b["key"]].get("archive"):  # old version of a replaced book: hidden shelf, never deleted
+            b["archive"] = True
     payload = json.dumps({"books": books, "docs": docs, "build": BUILD, "gloss": GLOSS}, ensure_ascii=False)
 
     shell = (ROOT / "scripts" / "app_shell.html").read_text()
